@@ -49,7 +49,7 @@ I plan on adding several other interfaces, but only after a minimal
 set of features of mb2 have been completed.  The only public IRC
 server that has mb2 attached to it is `devctm.com`.
 
-### Not ready for testing, per-se
+### Not ready for testing, per-Sb
 
 Mb2 is demonstrable, in that if you connect to devctm.com and look in
 the `#poker` channel or one of the `#table-N` channels, you may see
@@ -72,7 +72,7 @@ Basically, I'd like mb2 to be able to deal close analogs to all the
 [BARGE 2019
 tournaments](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf)
 and well as deal ring games of all the games in the [BARGE
-rulebook](http://www.ceemeck.org/BARGERuleBook2019/).
+Rule Book](http://www.ceemeck.org/BARGERuleBook2019/).
 
 ## Missing Features
 
@@ -111,21 +111,12 @@ about exactly what algorithms I should use, but I don't want to be
 distracted by thinking about that until I finish the easier missing
 features listed below.
 
-### Limit and Pot-Limit
-
-Mb2 can represent which games require which betting structures (e.g.,
-Mississippi Stud must be played pot-limit, but Hold'em can be played
-fixed limit, pot limit or no-limit).  Additionally, mb2 accepts `p bet pot`
-and `p raise pot`, but bet sizes are not actually limited when even
-when ostensibly playing fixed or pot-limit.
-
 ### Stud Betting Rules
 
 Although mb2 has knowledge of where to start the betting in stud, it
-doesn't use it or yet know about bring-ins (and the ability to
-complete) or the ability to bet the big-bet amount when a pair is
-showing on fourth street.  I won't add those until after I've added
-support for limit and pot-limit.
+doesn't yet know about bring-ins (and the ability to complete) or the
+ability to bet the big-bet amount when a pair is showing on fourth
+street.
 
 ### Discarding and Drawing
 
@@ -138,10 +129,8 @@ even if you are playing a game that doesn't involve drawing.
 
 Most games are not yet available, even though they could be. `p game`
 without an argument will list the games that are at least partially
-available and that will include games like Mississippi Stud, which
-should be pot-limit but currently is dealt no-limit and Razz, which
-should have a bring-in, but is currently dealt with a button and
-blinds instead.
+available and that will include games like Razz, which should have a
+bring-in, but is currently dealt with a button and blinds instead.
 
 Although I may add (perhaps partial) support for other games when I
 have a small block of time (it's pretty simple), in general I'd rather
@@ -159,8 +148,8 @@ Internally mb2 has a way to represent the levels of a tournament
 structure, and it even has one complete structure coded up (MONTE
 2019). What's lacking is the code that actually tells the table to use
 a level beyond the first level in the structure.  For the time being,
-if you choose the MONTE tournament, you start out playing oMaha
-(ostensibly pot-limit, but actually no-limit) and you never stop.
+if you choose the MONTE tournament, you start out playing pot-limit
+oMaha and you never stop.
 
 ### All tourneys
 
@@ -217,7 +206,6 @@ limit (also known as fixed limit) structure.
 > *mb2* p game holdem 5 10
 <mb2:#poker> Game changed to 5 10 Hold 'em by deadhead
 ```
-Currently wnat you choose is basically ignored and you play no-limit.
 There are no commands to change the size of the blinds.  The small
 blind will be one half of the small bet and the big blind will be the
 same size as the small bet.  There are no commands to change the
