@@ -35,21 +35,21 @@ has a little more documentation than is provided by `p help`.
 ## IRC
 
 Mb2 currently can only be accessed via IRC, although internally there's
-fewer than 100 lines of IRC specific code.  As of October 5th, [tokei](https://github.com/XAMPPRocky/tokei) lists:
+fewer than 100 lines of IRC specific code.  As of October 14th, [tokei](https://github.com/XAMPPRocky/tokei) lists:
 ```
 -------------------------------------------------------------------------------
  Dockerfile              1           19           13            0            6
- Rust                   50        11701         9789          757         1155
+ Rust                   51        12479        10438          765         1276
  TOML                    1           19           17            0            2
 -------------------------------------------------------------------------------
- Total                  52        11739         9819          757         1163
--------------------------------------------------------------------------------
+ Total                  53        12517        10468          765         1284
+------------------------------------------------------------------------------
 ```
 I plan on adding several other interfaces, but only after a minimal
 set of features of mb2 have been completed.  The only public IRC
 server that has mb2 attached to it is `devctm.com`.
 
-### Not ready for testing, per-Sb
+### Not ready for testing, per-se
 
 Mb2 is demonstrable, in that if you connect to devctm.com and look in
 the `#poker` channel or one of the `#table-N` channels, you may see
