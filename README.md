@@ -111,13 +111,6 @@ about exactly what algorithms I should use, but I don't want to be
 distracted by thinking about that until I finish the easier missing
 features listed below.
 
-### Stud Betting Rules
-
-Although mb2 has knowledge of where to start the betting in stud, it
-doesn't yet know about bring-ins (and the ability to complete) or the
-ability to bet the big-bet amount when a pair is showing on fourth
-street.
-
 ### Discarding and Drawing
 
 Mb2 has a discard command, but it doesn't work. Additionally, there's
@@ -129,8 +122,7 @@ even if you are playing a game that doesn't involve drawing.
 
 Most games are not yet available, even though they could be. `p game`
 without an argument will list the games that are at least partially
-available and that will include games like Razz, which should have a
-bring-in, but is currently dealt with a button and blinds instead.
+available.
 
 Although I may add (perhaps partial) support for other games when I
 have a small block of time (it's pretty simple), in general I'd rather
