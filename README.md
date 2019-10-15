@@ -103,7 +103,7 @@ want to kick the tires.
 
 So, here are the big things that are missing:
 
-### Multi-tables
+### [Multi-tables](https://github.com/ctm/mb2-doc/issues/10)
 
 Mb2 internally supports multi-table tournaments, but I haven't written
 the code that balances and breaks tables down.  I have some questions
@@ -111,12 +111,10 @@ about exactly what algorithms I should use, but I don't want to be
 distracted by thinking about that until I finish the easier missing
 features listed below.
 
-### Discarding and Drawing
+### [Discarding and Drawing](https://github.com/ctm/mb2-doc/issues/9)
 
-Mb2 has a discard command, but it doesn't work. Additionally, there's
-error checking, so you can `p discard ac 2d` and be told that you'll
-discard `Ac` and `2d` even if you don't currently hold those card and
-even if you are playing a game that doesn't involve drawing. 
+Mb2 has fledgling support for discarding and drawing, but it still
+needs work.
 
 ### Most games
 
@@ -124,17 +122,16 @@ Most games are not yet available, even though they could be. `p game`
 without an argument will list the games that are at least partially
 available.
 
-Although I may add (perhaps partial) support for other games when I
-have a small block of time (it's pretty simple), in general I'd rather
-work on the above issues first. I have already written all the
-evaluators, that I think I need for all the BARGE games, so, for
-example, once I've implemented drawing and discarding, Duck Flush
-should be implementable in less than an hour, although I haven't
-actually written tests for my obscure evaluators so they might
-have bugs, especially since they're for games I've exceedingly rarely
-played.
+I'm slowly adding new games, mostly to test corner cases. In general
+the above issues are higher priority, but I have already written all
+the evaluators, that I think I need for all the BARGE games, so,
+adding "new" games is usually trivial. For example, once I implemented
+drawing and discarding, I had Duck Flush working (or at least
+appearing to work), in fifteen minutes.  However, I haven't actually
+written tests for my obscure evaluators so they might have bugs,
+especially since they're for games I've exceedingly rarely played.
 
-### Increasing Levels
+### [Increasing Levels](https://github.com/ctm/mb2-doc/issues/4)
 
 Internally mb2 has a way to represent the levels of a tournament
 structure, and it even has one complete structure coded up (MONTE
