@@ -76,19 +76,10 @@ fifteen minutes.  However, I haven't actually written tests for my
 obscure evaluators so they might have bugs, especially since they're
 for games I've exceedingly rarely played.
 
-### [Increasing Levels](https://github.com/ctm/mb2-doc/issues/4)
-
-Internally mb2 has a way to represent the levels of a tournament
-structure. What's lacking is the code that actually tells the table to
-use a level beyond the first level in the structure. So currently
-tournaments start up in the first level and stay that way forever.
-This will be fixed "soon".
-
 ### All tourneys
 
-Since I haven't yet written the code to increase levels, I haven't
-filled out the tournament structures for the other BARGE 2019
-tourneys.
+Currently, `monte` is the only tournament structure known.  Others will
+be available shortly.
 
 ## Commands
 
@@ -117,6 +108,7 @@ p vacation
 p back
 p game
 p tournament
+p speed factor
 p start
 ```
 
@@ -144,8 +136,10 @@ blind will be one half of the small bet and the big blind will be the
 same size as the small bet.  There are no commands to change the
 number of starting chips. You'll get 15,000.
 
-Although limits don't yet increase, if you want to try the MONTE structure,
-you'd use `p tournament monte`
+If you want to try the MONTE structure, you'd use `p tournament monte`
+MONTE uses 20 minute rounds.  If you'd like to use 2 minute rounds, use
+`p speed 10` to play the tournament ten times faster (i.e. the duration
+is one tenth normal).
 
 ### In Game Commands
 
@@ -196,10 +190,9 @@ away your hand, _even if it's a winner_.
 
 #### Discards, drawing and undoing
 
-Although they don't currently do anything, you can use `p discard ac 2d`
-tell mb2 that when it's your turn to discard and draw new cards you want
-to discard your ace of clubs and your two of diamonds or `p discard none`
-to stand pat.
+You can use `p discard ac 2d` tell mb2 that when it's your turn to
+discard and draw new cards you want to discard your ace of clubs and
+your two of diamonds or `p discard none` to stand pat.
 
 If you type an action command before it is your time to act, that
 command will be remembered and used instantly when it is your time to
