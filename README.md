@@ -23,11 +23,20 @@ features described below.
 
 The only public IRC server that has mb2 attached to it is `devctm.com`.
 
-### Not ready for testing, per-se
+### No database keeping score
 
-Mb2 is demonstrable, in that if you connect to devctm.com and look in
-the `#poker` channel or one of the `#table-N` channels, you may see
-activity.
+Mb2 is playable, in that if you connect to `devctm.com` and join the
+`#poker` channel you can set up a tournament, join and (assuming there
+are at least two players) start it:
+
+```
+/join #poker
+/alias p msg mb2 p
+/p tournament monte
+/p speed 10
+/p join
+/p start
+```
 
 Currently, everything is ephemeral; mb2 does not currently store any
 info in persistent storage.  So, if you play a tournament the results
