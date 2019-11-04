@@ -6,22 +6,33 @@ Mb2 is a poker server, still in development.
 ### Closed source
 
 Mb2 is currently closed source.  It's hard to put toothpaste back in
-the tube.  I'm to monetizing mb2 and some of the ways I might be able
-do so require mb2 remaining closed.
+the tube.  I'm monetizing mb2 and some of the ways I might be able do
+so successfully require mb2 remaining closed.
 
 ### Public documentation
 
 This repository exists primarily as a place for me to publicly track
-issues as friends and family play around with mb2.  Secondarily, it
-has a little more documentation than is provided by `p help`.
+issues as friends and family use mb2.  Secondarily, it has a little
+more documentation than is provided by `p help`.
 
 ## IRC
 
-Mb2 currently can only be accessed via IRC.  I plan on adding several
-other interfaces, but only after I've finished the minimal set of
-features described below.
+Mb2 currently can only be accessed via IRC.  I have begun writing an
+initially text-only web interface with an architecture that will allow
+me to gradually add graphical elements, but that work is relatively
+low priority until I finish some of the other core work I've begun.
 
 The only public IRC server that has mb2 attached to it is `devctm.com`.
+
+IRC support came first for historical reasons. However, my knowledge
+of IRC borders on non-existent.  I've found that using the
+[ircII](https://en.wikipedia.org/wiki/IrcII) client, the public and
+private messages mb2 sends are integrated into a single window, which
+is how I envision it working.  Other irc clients, at least with their
+default configuration, split the output and it is frustrating.  As
+such, the text-only web interface (not yet available) will probably be
+a step up for many, even though even it is just a step toward a
+full-blown graphical interface.
 
 ### No database keeping score
 
@@ -32,16 +43,16 @@ are at least two players) start it:
 ```
 /join #poker
 /alias p msg mb2 p
-/p tournament monte
+/p tournament tesla
 /p speed 10
 /p join
 /p start
 ```
 
-Currently, everything is ephemeral; mb2 does not currently store any
-info in persistent storage.  So, if you play a tournament the results
-are not yet saved for posterity.  There are no passwords and thus
-nothing in place to prevent nick stealing.
+Currently, everything is ephemeral; mb2 does not currently use
+persistent storage.  So, if you play a tournament the results are not
+yet saved for posterity.  There are no passwords and thus nothing in
+place to prevent nick stealing.
 
 ## Desired Minimal Functionality
 
@@ -69,10 +80,16 @@ without an argument will list the games that are at least partially
 available:
 
 ```
-> *mb2* p game
-*mb2* Games: archie, big_o, chowaha, deuce_to_seven_triple_draw, duck_flush,
-holdem, korean, mississippi_stud, omaha_eight, razz, stud, triple_draw_dramaha
+-> *mb2* p game
+*mb2* Games: archie, big_o, california_lowball, chowaha,
++deuce_to_seven_triple_draw, duck_flush, holdem, korean, london_lowball,
++mississippi_stud, omaha_eight, razz, stud, stud_eight, triple_draw_dramaha
 ```
+
+Some of the games that are available may have missing functionality
+(e.g., mb2 doesn't yet enforce the "sevens rule" in California
+Lowball). Known deficiencies show up on the [issues
+page](https://github.com/ctm/mb2-doc/issues).
 
 Right now I'm only adding new games to test corner cases.
 
@@ -85,10 +102,15 @@ fifteen minutes.  However, I haven't actually written tests for my
 obscure evaluators so they might have bugs, especially since they're
 for games I've exceedingly rarely played.
 
-### All tourneys
+### Most tourneys
 
-Currently, `monte` is the only tournament structure known.  Others will
-be available shortly.
+Currently, `tesla` and `monte` are the only tournament structures
+implemented.  Others will be available shortly.
+
+```
+-> *mb2* p tournament
+*mb2* Tournaments: monte, tesla
+```
 
 ## Commands
 
@@ -145,8 +167,8 @@ blind will be one half of the small bet and the big blind will be the
 same size as the small bet.  There are no commands to change the
 number of starting chips. You'll get 15,000.
 
-If you want to try the MONTE structure, you'd use `p tournament monte`
-MONTE uses 20 minute rounds.  If you'd like to use 2 minute rounds, use
+If you want to try the TESLA structure, you'd use `p tournament tesla`
+TESLA uses 20 minute rounds.  If you'd like to use 2 minute rounds, use
 `p speed 10` to play the tournament ten times faster (i.e. the duration
 is one tenth normal).
 
@@ -235,50 +257,55 @@ to use that machine, I start ircII via:
 
 `$ IRCSERVER=devctm.com irc`
 
-I know absolutely nothing about running an IRC server.  In multibot's
-time, someone else ran the IRC server.  I'm a horrible sysadmin and I
-had to disable various flooding heuristics for mb2 to work.  Please
-don't abuse the IRC server on devctm.com (or _anyone's_ IRC server for
-that matter).  I'm sure someone will find it eventually and cause me
-to have pay more attention, but as you may have guessed, I dislike
-distractions and would much rather spend my time getting the minimal
-feature set built as well as lining up some investment so I can cook
-up some graphical front-ends and turn mb2 into a nice platform for
-social poker.
-
-Whee!
+I know absolutely nothing about running an IRC server.  I'm a horrible
+sysadmin and I had to disable various flooding heuristics for mb2 to
+work.  Please don't abuse the IRC server on devctm.com (or _anyone's_
+IRC server for that matter).
 
 ## `.ircrc`
 
-I typically make aliases to save on typing.  My `.ircrc` contains:
+I use aliases to avoid typing.  My `.ircrc` contains:
 ```
 join #poker
+
 alias p msg mb2 p
+
+alias b p back
+alias c p call
+alias d p discard
 alias f p fold
 alias j p jam
-alias miss p game mississippi_stud
-alias c p call
-alias chow p game chowaha
-alias pot p raise pot
-alias b p back
-alias s p status
-alias q p quit
-alias t p time
 alias m p make
+alias r p raise
+alias s p status
+alias t p time
+alias q p quit
+
+alias pat p discard none
+alias pot p raise pot
+
+alias miss p game mississippi_stud
+alias chow p game chowaha
 alias tdd p game triple_draw_dramaha
 alias razz p game razz
-alias monte p tournament monte
 alias stud p game stud
 alias d27td p game deuce_to_seven_triple_draw
 alias arch p game archie
 alias kore p game korean
 alias duck p game duck_flush
+
+alias monte p tournament monte
+alias tesla p tournament tesla
 ```
 
-## History
+## Sunday Playtesting
 
-Initially this document contained more background and history of mb2,
-but it was too wordy, so I took it out.  I haven't rewritten the git
-history though, so it's still
-[there](https://github.com/ctm/mb2-doc/commits/master) if you want to
-poke around.
+mb2 runs 24x7, but I am not yet paying attention to what goes on there
+(nor do I have a crash monitor installed). The exception is Sundays at
+1pm Pacific.  For the next several weeks, I'll be there for a minimum
+of one hour and perhaps several, depending on interest.
+
+Until I add the table balancing and table breakdown code, tourneys
+will be limited to single tables, although multiple tourneys can run
+concurrently.  I expect mb2 will be dealing multi-table tourneys no
+later than Sunday, November 17th and probably _much_ sooner than that.
