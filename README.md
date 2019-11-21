@@ -19,8 +19,8 @@ more documentation than is provided by `p help`.
 
 Mb2 currently can only be accessed via IRC.  I have begun writing an
 initially text-only web interface with an architecture that will allow
-me to gradually add graphical elements, but that work is relatively
-low priority until I finish some of the other core work I've begun.
+me to gradually add graphical elements, but that work is not yet
+viable.
 
 The only public IRC server that has mb2 attached to it is `devctm.com`.
 
@@ -30,9 +30,9 @@ of IRC borders on non-existent.  I've found that using the
 private messages mb2 sends are integrated into a single window, which
 is how I envision it working.  Other irc clients, at least with their
 default configuration, split the output and it is frustrating.  As
-such, the text-only web interface (not yet available) will probably be
-a step up for many, even though even it is just a step toward a
-full-blown graphical interface.
+such, the text-only web interface will be a step up for many, even
+though even it is just a tiny step toward a full-blown graphical
+interface.
 
 ### No database keeping score
 
@@ -70,8 +70,8 @@ Here are the big things that are missing:
 Mb2 internally supports multi-table tournaments, but I haven't written
 the code that balances and breaks tables down.  I have some questions
 about exactly what algorithms I should use, but I don't want to be
-distracted by thinking about that until I finish the easier missing
-features listed below.
+distracted by thinking about that until I finish my horrible text-only
+web client.
 
 ### Most games
 
@@ -307,5 +307,5 @@ of one hour and perhaps several, depending on interest.
 
 Until I add the table balancing and table breakdown code, tourneys
 will be limited to single tables, although multiple tourneys can run
-concurrently.  I expect mb2 will be dealing multi-table tourneys no
-later than Sunday, November 17th and probably _much_ sooner than that.
+concurrently.  I expect mb2 will be dealing multi-table tourneys
+"soon", but it has slipped due to my work on the web front-end.
