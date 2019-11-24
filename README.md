@@ -1,28 +1,40 @@
 # Mb2
 
-Mb2 is a poker server, still in development.
+Mb2 is a poker server. Eventually it will have slick skinnable clients
+for a variety of platforms, but it's being developed from the inside
+out, so although it has excellent game mechanics, its UI is currently
+bordering on unusable.
+
+Please be aware that all of the pain points documented herein will be
+addressed.
 
 
 ### Closed source
 
-Mb2 is currently closed source.  It's hard to put toothpaste back in
-the tube.  I'm monetizing mb2 and some of the ways I might be able do
-so successfully require mb2 remaining closed.
+Mb2 is closed source, because it's hard to put toothpaste back in the
+tube.  I'm monetizing mb2 and some of the ways I might be able do so
+successfully require mb2 remaining closed.  I am also investigating
+ways in which I can make the source open, but it's trivial to go from
+closed to open and impossible to do the reverse.
 
 ### Public documentation
 
-This repository exists primarily as a place for me to publicly track
-issues as friends and family use mb2.  Secondarily, it has a little
-more documentation than is provided by `p help`.
+The GitHub repository that hosts this document exists primarily as a
+place for me to publicly [track
+issues](https://github.com/ctm/mb2-doc/issues) as friends and family
+use mb2.  Secondarily, it has a little more documentation than is
+provided by the help commands from the clients.
 
-## IRC
+## IRC or Web (two amazingly bad text-only clients)
 
-Mb2 currently can only be accessed via IRC.  I have begun writing an
-initially text-only web interface with an architecture that will allow
-me to gradually add graphical elements, but that work is not yet
-viable.
+Mb2 can only be accessed via IRC or a text-only web interface that's
+amazingly painful to use.  That will change fairly soon as I add UI
+elements to the web interface.  However, I'm not a visual person, so
+after we have all the infrastructure in place, we'll bring in
+professionals to make the graphical interfaces elegant.
 
 The only public IRC server that has mb2 attached to it is `devctm.com`.
+The web interface is at http://devctm.com:8080
 
 IRC support came first for historical reasons. However, my knowledge
 of IRC borders on non-existent.  I've found that using the
@@ -30,15 +42,30 @@ of IRC borders on non-existent.  I've found that using the
 private messages mb2 sends are integrated into a single window, which
 is how I envision it working.  Other irc clients, at least with their
 default configuration, split the output and it is frustrating.  As
-such, the text-only web interface will be a step up for many, even
-though even it is just a tiny step toward a full-blown graphical
-interface.
+such, the text-only web interface may be a step up for many.
 
 ### No database keeping score
 
 Mb2 is playable, in that if you connect to `devctm.com` and join the
 `#poker` channel you can set up a tournament, join and (assuming there
-are at least two players) start it:
+are at least two players) start it.
+
+Currently, everything is ephemeral; mb2 does not currently use
+persistent storage.  So, if you play a tournament the results are not
+yet saved for posterity.
+
+The web interface requires you to supply a password, but that password
+is only kept in memory, so anytime the server is restarted, all
+passwords are forgotten.
+
+### No encryption, use a throw-away password, please
+
+Neither the IRC interface nor the web interface are using encryption,
+so not only should you use a throwaway account, it's conceivable that
+someone could even observe your hole cards.  Encryption will be mandatory
+before "too long", but 
+
+### IRC example
 
 ```
 /join #poker
@@ -48,11 +75,18 @@ are at least two players) start it:
 /p join
 /p start
 ```
+The reason IRC requires a leading "p " is because anything that doesn't
+have that prefix is considered a public message to the other people on
+that IRC channel.  The web interface does not yet have chat, so not only
+is there no need to add the "p " prefix, doing so is an error.
 
-Currently, everything is ephemeral; mb2 does not currently use
-persistent storage.  So, if you play a tournament the results are not
-yet saved for posterity.  There are no passwords and thus nothing in
-place to prevent nick stealing.
+### Web example
+```
+tournament tesla
+speed 10
+join
+start
+```
 
 ## Desired Minimal Functionality
 
@@ -63,7 +97,7 @@ Book](http://www.ceemeck.org/BARGERuleBook2019/).
 
 ## Missing Features
 
-Here are the big things that are missing:
+Here are the big non-UI things that are missing:
 
 ### [Multi-tables](https://github.com/ctm/mb2-doc/issues/10)
 
@@ -124,8 +158,10 @@ playing a game/tournament, but the default is for you to talk to the
 pen if you're not in a tournament and to talk to the tournament you're
 in if you're in just one.
 
-All commands are preceded by the lower-case letter 'p' and a single command.
-As such, to get help, type `p help`.
+When using IRC, all commands are preceded by the lower-case letter 'p'
+and a single space.  As such, to get help, type `p help`.  For the
+web interface, adding the leading "p " is an error.  Most of the
+examples in this document will use the IRC convention.
 
 ### Starting Pen Commands
 
@@ -297,6 +333,12 @@ alias duck p game duck_flush
 alias monte p tournament monte
 alias tesla p tournament tesla
 ```
+
+### Abbreviations in the web interface
+
+Most of the abbreviations above will soon be recognized by the web
+client.  In the meantime, you need to type the entire word, which gets
+old really quickly.
 
 ## Sunday Playtesting
 
