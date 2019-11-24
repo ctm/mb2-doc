@@ -161,7 +161,7 @@ in if you're in just one.
 When using IRC, all commands are preceded by the lower-case letter 'p'
 and a single space.  As such, to get help, type `p help`.  For the
 web interface, adding the leading "p " is an error.  Most of the
-examples in this document will use the IRC convention.
+examples in this document use the IRC convention.
 
 ### Starting Pen Commands
 
@@ -298,9 +298,11 @@ sysadmin and I had to disable various flooding heuristics for mb2 to
 work.  Please don't abuse the IRC server on devctm.com (or _anyone's_
 IRC server for that matter).
 
-## `.ircrc`
+## Aliases
 
-I use aliases to avoid typing.  My `.ircrc` contains:
+### IRC
+
+On IRC, I use aliases to avoid typing.  My `.ircrc` contains:
 ```
 join #poker
 
@@ -336,9 +338,10 @@ alias tesla p tournament tesla
 
 ### Abbreviations in the web interface
 
-Most of the abbreviations above will soon be recognized by the web
-client.  In the meantime, you need to type the entire word, which gets
-old really quickly.
+All the one letter aliases as well as "pat" and "pot" are now
+recognized directly by `mb2`, so if you want to raise the default
+amount, all you need to do is type `r` and a carriage return.  If you
+want to raise 500, `r 500` will suffice.
 
 ## Sunday Playtesting
 
