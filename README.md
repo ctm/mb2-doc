@@ -3,7 +3,8 @@
 Mb2 is a poker server. Eventually it will have slick skinnable clients
 for a variety of platforms, but it's being developed from the inside
 out, so although it has excellent game mechanics, its UI is currently
-bordering on unusable.
+bordering on unusable. It can, however, be used either via IRC (primarily
+for nostalgia) or a web interface.
 
 Please be aware that all of the pain points documented herein will be
 addressed.
@@ -28,21 +29,25 @@ provided by the help commands from the clients.
 ## IRC or Web (two amazingly bad text-only clients)
 
 Mb2 can only be accessed via IRC or a text-only web interface that's
-amazingly painful to use.  That will change fairly soon as I add UI
-elements to the web interface.  However, I'm not a visual person, so
-after we have all the infrastructure in place, we'll bring in
-professionals to make the graphical interfaces elegant.
+amazingly painful to use.  That will change fairly soon after the long
+Thanksgiving weekend as I add UI elements to the web interface.
+However, I'm not a visual person, so after we have all the
+infrastructure in place, we'll bring in professionals to make the
+graphical interfaces elegant.
 
-The only public IRC server that has mb2 attached to it is `devctm.com`.
-The web interface is at http://devctm.com:8080
+The only public IRC server that has mb2 attached to it is `devctm.com`
+on port 6667 with no encryption.  The web interface is at
+http://devctm.com:8080
 
 IRC support came first for historical reasons. However, my knowledge
 of IRC borders on non-existent.  I've found that using the
 [ircII](https://en.wikipedia.org/wiki/IrcII) client, the public and
 private messages mb2 sends are integrated into a single window, which
 is how I envision it working.  Other irc clients, at least with their
-default configuration, split the output and it is frustrating.  As
-such, the text-only web interface may be a step up for many.
+default configuration, put private and public messages in separate
+windows and that is frustrating.  As such, the text-only web interface
+is the logical choice for most people, especially since it will only
+get better with time.
 
 ### No database keeping score
 
@@ -62,8 +67,9 @@ passwords are forgotten.
 
 Neither the IRC interface nor the web interface are using encryption,
 so not only should you use a throwaway account, it's conceivable that
-someone could even observe your hole cards.  Encryption will be mandatory
-before "too long", but 
+someone could even observe your face-down cards.  Encryption will be
+mandatory before "too long", but it's a much lower priority than most
+of the other issues that still remain.
 
 ### IRC example
 
@@ -75,10 +81,11 @@ before "too long", but
 /p join
 /p start
 ```
-The reason IRC requires a leading "p " is because anything that doesn't
-have that prefix is considered a public message to the other people on
-that IRC channel.  The web interface does not yet have chat, so not only
-is there no need to add the "p " prefix, doing so is an error.
+The reason IRC requires a leading "p " is because anything that
+doesn't have that prefix is considered a public message to the other
+people on that IRC channel.  The web interface has a separate input
+box for chat, so not only is there no need to add the "p " prefix,
+doing so is an error.
 
 ### Web example
 ```
