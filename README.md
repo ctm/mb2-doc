@@ -183,6 +183,8 @@ p back
 p game
 p tournament
 p speed factor
+p secs-to-act seconds
+p timeout-secs seconds
 p start
 ```
 
@@ -209,6 +211,14 @@ There are no commands to change the size of the blinds.  The small
 blind will be one half of the small bet and the big blind will be the
 same size as the small bet.  There are no commands to change the
 number of starting chips. You'll get 15,000.
+
+By default, when it's your time to act, you get 30 seconds before
+you're put on vacation. If you use the `time` command, by default you
+get an additional 60 seconds.  Those two values can be changed in the
+starting pen (but can not be changed once the tournament has started)
+by the `secs-to-act` and the `timeout-secs` commands, respectively.
+Both of those commands take a single positive integer argument
+specifying how many seconds.
 
 If you want to try the TESLA structure, you'd use `p tournament tesla`
 TESLA uses 20 minute rounds.  If you'd like to use 2 minute rounds, use
