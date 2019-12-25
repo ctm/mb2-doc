@@ -114,17 +114,25 @@ about exactly what algorithms I should use, but I don't want to be
 distracted by thinking about that until I finish my horrible text-only
 web client.
 
-### Most games
+### The seven missing games
 
-Most games are not yet available, even though they could be. `p game`
-without an argument will list the games that are at least partially
+Of the 43 games in the BARGE Rule Book, all but 7 are implemented.
+Those seven are: `Murder`, `Oklahoma`,
+`Mississippi Stud`, `Mississippi Stud High/Low Eight-or-Better`,
+`Mississippi Razz`, `Binglaha`, and `Scrotum`.
+
+I believe I'll have those games implemented by the end of 2019.
+
+`p game`
+without an argument lists the games that are at least partially
 available:
 
 ```
 -> *mb2* p game
-*mb2* Games: archie, big_o, california_lowball, chowaha,
-+deuce_to_seven_triple_draw, duck_flush, holdem, korean, london_lowball,
-+mississippi_stud, omaha_eight, razz, stud, stud_eight, triple_draw_dramaha
+*mb2* Games: ace_to_five_3d, archie, badacey, badeucy, badugi, big_o, ca_lowball, chowaha, chowaha_four_8, courchevel,
+crazy_pine_8, deuce_to_seven, deuce_to_seven_3d, dramaha, dramaha_3d, duck_flush, five_card_draw, five_card_stud,
+hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8, london_lowball, omaha, omaha_8, omaha_short,
+omaha_two_or_five_8, razz, razz_deuce_to_seven, razzdugi, stud, stud_8, stud_high_low
 ```
 
 Some of the games that are available may have missing functionality
@@ -132,25 +140,14 @@ Some of the games that are available may have missing functionality
 Lowball). Known deficiencies show up on the [issues
 page](https://github.com/ctm/mb2-doc/issues).
 
-Right now I'm only adding new games to test corner cases.
-
-I have already written all the evaluators, that I think I need for all
-the BARGE games, except for Short Deck Texas Hold'em.
-
-Adding additional games is usually trivial. For example, once I
-implemented drawing and discarding, I had Duck Flush working in
-fifteen minutes.  However, I haven't actually written tests for my
-obscure evaluators so they might have bugs, especially since they're
-for games I've exceedingly rarely played.
-
 ### Most tourneys
 
-Currently, `tesla` and `monte` are the only tournament structures
-implemented.  Others will be available shortly.
+Currently, `barge_nlhe`, `limit_6`, `tesla` and `monte` are the only
+tournament structures implemented.  Others will be available "soon".
 
 ```
--> *mb2* p tournament
-*mb2* Tournaments: monte, tesla
+> p tournament
+*mb2* Tournaments: barge_nlhe, limit_6, monte, tesla
 ```
 
 ## Commands
@@ -366,6 +363,11 @@ mb2 runs 24x7, but I am not yet paying attention to what goes on there
 (nor do I have a crash monitor installed). The exception is Sundays at
 1pm Pacific.  For the next several weeks, I'll be there for a minimum
 of one hour and perhaps several, depending on interest.
+
+If you want to help out by play-testing, but can't make Sunday
+afternoon, you can do so on your own, it's just that you need at least
+two participants.  So, either dragoon a friend or relative into
+playing or fire up two windows and drive both of them yourself.
 
 Until I add the table balancing and table breakdown code, tourneys
 will be limited to single tables, although multiple tourneys can run
