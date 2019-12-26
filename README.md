@@ -98,9 +98,38 @@ start
 ## Desired Minimal Functionality
 
 I'd like mb2 to be able to deal close analogs to all the [BARGE 2019
-tournaments](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf)
-and well as ring games of all the games in the [BARGE Rule
-Book](http://www.ceemeck.org/BARGERuleBook2019/).
+tournaments](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf) as well as the EMBARGO 2020 tournaments.
+
+Albeit with a few nits, mb2 already deals all the games in the [BARGE
+2019 Rule Book](http://www.ceemeck.org/BARGERuleBook2019/).
+
+###### The seven missing games
+
+Oops.  There are no missing games.  The heading still says "The seven
+missing games", because I foolishly made a link to this section
+without thinking about how quickly I could implement the (then seven)
+remaining games.
+
+So, although they haven't been tested much, mb2 supports all of the games in
+the BARGE 2019 Rule Book.
+
+`game`
+without an argument lists the games that are at available:
+
+```
+Games: ace_to_five_3d, archie, badacey, badeucy, badugi, big_o, binglaha, ca_lowball, chowaha, chowaha_four_8,
+courchevel, crazy_pine_8, deuce_to_seven, deuce_to_seven_3d, dramaha, dramaha_3d, duck_flush, five_card_draw,
+five_card_stud, hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8, london_lowball, miss_8,
+miss_razz, miss_stud, murder, oklahoma, omaha, omaha_8, omaha_short, omaha_two_or_five_8, razz, razz_deuce_to_seven,
+razzdugi, scrotum, stud, stud_8, stud_high_low
+```
+
+A couple of the games that are available have missing functionality
+(e.g., mb2 doesn't yet enforce the "sevens rule" in California
+Lowball). Known deficiencies show up on the [issues
+page](https://github.com/ctm/mb2-doc/issues).
+
+
 
 ## Missing Features
 
@@ -113,32 +142,6 @@ the code that balances and breaks tables down.  I have some questions
 about exactly what algorithms I should use, but I don't want to be
 distracted by thinking about that until I finish my horrible text-only
 web client.
-
-### The seven missing games
-
-I've implemented all but one of the 43 games in the BARGE Rule Book.
-`Binglaha` is my recalcitrant exception.
-
-The heading still says "seven missing games", because I foolishly made
-a link to this section without thinking about the fact that I was
-likely to implement more games quickly.  FWIW, it's likely I'll have
-Binglaha implemented on December 26th, if not sooner.
-
-`game`
-without an argument lists the games that are at available:
-
-```
-Games: ace_to_five_3d, archie, badacey, badeucy, badugi, big_o, ca_lowball, chowaha, chowaha_four_8, courchevel,
-crazy_pine_8, deuce_to_seven, deuce_to_seven_3d, dramaha, dramaha_3d, duck_flush, five_card_draw, five_card_stud,
-hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8, london_lowball, miss_8, miss_razz,
-miss_stud, murder, oklahoma, omaha, omaha_8, omaha_short, omaha_two_or_five_8, razz, razz_deuce_to_seven, razzdugi,
-scrotum, stud, stud_8, stud_high_low
-```
-
-Some of the games that are available may have missing functionality
-(e.g., mb2 doesn't yet enforce the "sevens rule" in California
-Lowball). Known deficiencies show up on the [issues
-page](https://github.com/ctm/mb2-doc/issues).
 
 ### Most tourneys
 
