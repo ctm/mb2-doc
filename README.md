@@ -116,25 +116,23 @@ web client.
 
 ### The seven missing games
 
-Of the 43 games in the BARGE Rule Book, all but 4 are implemented.
-Those four are: `Mississippi Stud`, `Mississippi Stud High/Low Eight-or-Better`,
-`Mississippi Razz`, and `Binglaha`.
+I've implemented all but one of the 43 games in the BARGE Rule Book.
+`Binglaha` is my recalcitrant exception.
 
 The heading still says "seven missing games", because I foolishly made
 a link to this section without thinking about the fact that I was
-likely to implement more games quickly.
-
-I believe I'll have the four remaining games implemented by the end of 2019.
+likely to implement more games quickly.  FWIW, it's likely I'll have
+Binglaha implemented on December 26th, if not sooner.
 
 `game`
-without an argument lists the games that are at least partially
-available:
+without an argument lists the games that are at available:
 
 ```
 Games: ace_to_five_3d, archie, badacey, badeucy, badugi, big_o, ca_lowball, chowaha, chowaha_four_8, courchevel,
 crazy_pine_8, deuce_to_seven, deuce_to_seven_3d, dramaha, dramaha_3d, duck_flush, five_card_draw, five_card_stud,
-hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8, london_lowball, murder, oklahoma, omaha,
-omaha_8, omaha_short, omaha_two_or_five_8, razz, razz_deuce_to_seven, razzdugi, scrotum, stud, stud_8, stud_high_low
+hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8, london_lowball, miss_8, miss_razz,
+miss_stud, murder, oklahoma, omaha, omaha_8, omaha_short, omaha_two_or_five_8, razz, razz_deuce_to_seven, razzdugi,
+scrotum, stud, stud_8, stud_high_low
 ```
 
 Some of the games that are available may have missing functionality
