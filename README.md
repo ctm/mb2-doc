@@ -116,23 +116,25 @@ web client.
 
 ### The seven missing games
 
-Of the 43 games in the BARGE Rule Book, all but 7 are implemented.
-Those seven are: `Murder`, `Oklahoma`,
-`Mississippi Stud`, `Mississippi Stud High/Low Eight-or-Better`,
-`Mississippi Razz`, `Binglaha`, and `Scrotum`.
+Of the 43 games in the BARGE Rule Book, all but 4 are implemented.
+Those four are: `Mississippi Stud`, `Mississippi Stud High/Low Eight-or-Better`,
+`Mississippi Razz`, and `Binglaha`.
 
-I believe I'll have those games implemented by the end of 2019.
+The heading still says "seven missing games", because I foolishly made
+a link to this section without thinking about the fact that I was
+likely to implement more games quickly.
 
-`p game`
+I believe I'll have the four remaining games implemented by the end of 2019.
+
+`game`
 without an argument lists the games that are at least partially
 available:
 
 ```
--> *mb2* p game
-*mb2* Games: ace_to_five_3d, archie, badacey, badeucy, badugi, big_o, ca_lowball, chowaha, chowaha_four_8, courchevel,
+Games: ace_to_five_3d, archie, badacey, badeucy, badugi, big_o, ca_lowball, chowaha, chowaha_four_8, courchevel,
 crazy_pine_8, deuce_to_seven, deuce_to_seven_3d, dramaha, dramaha_3d, duck_flush, five_card_draw, five_card_stud,
-hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8, london_lowball, omaha, omaha_8, omaha_short,
-omaha_two_or_five_8, razz, razz_deuce_to_seven, razzdugi, stud, stud_8, stud_high_low
+hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8, london_lowball, murder, oklahoma, omaha,
+omaha_8, omaha_short, omaha_two_or_five_8, razz, razz_deuce_to_seven, razzdugi, scrotum, stud, stud_8, stud_high_low
 ```
 
 Some of the games that are available may have missing functionality
@@ -144,10 +146,11 @@ page](https://github.com/ctm/mb2-doc/issues).
 
 Currently, `barge_nlhe`, `limit_6`, `tesla` and `monte` are the only
 tournament structures implemented.  Others will be available "soon".
+`tournament` without an argument lists the tournament structures that are
+available:
 
 ```
-> p tournament
-*mb2* Tournaments: barge_nlhe, limit_6, monte, tesla
+Tournaments: barge_nlhe, limit_6, monte, tesla
 ```
 
 ## Commands
@@ -164,37 +167,36 @@ in if you're in just one.
 
 When using IRC, all commands are preceded by the lower-case letter 'p'
 and a single space.  As such, to get help, type `p help`.  For the
-web interface, adding the leading "p " is an error.  Most of the
-examples in this document use the IRC convention.
+web interface, adding the leading "p " is an error.
 
 ### Starting Pen Commands
 
 The pen commands are:
 ```
-p help
-p status
-p join
-p quit
-p vacation
-p back
-p game
-p tournament
-p speed factor
-p secs-to-act seconds
-p timeout-secs seconds
-p start
+help
+status
+join
+quit
+vacation
+back
+game
+tournament
+speed factor
+secs-to-act seconds
+timeout-secs seconds
+start
 ```
 
 Vacation is a state you can be on where you will check whenever
 possible but fold to any action. You can voluntarily put yourself on
-vacation with `p vacation` and you can take yourself off vacation with
-`p back`, although any command will take you off vacation.
+vacation with `vacation` and you can take yourself off vacation with
+`back`, although any command will take you off vacation.
 
-`p game` and `p tournament` will list the choices you can have for
+`game` and `tournament` will list the choices you can have for
 games and tournaments.
 
-With `p game` you can supply an additional argument to specify which
-game, e.g., `p game holdem`. If you do that, you'll get the default
+With `game` you can supply an additional argument to specify which
+game, e.g., `game holdem`. If you do that, you'll get the default
 betting structure for that game (no-limit for Hold'em).  If you want
 to specify the betting structure, you can add `potlimit`, `nolimit` or
 two integers representing the small-bet and the big-bet in a split
@@ -217,9 +219,9 @@ by the `secs-to-act` and the `timeout-secs` commands, respectively.
 Both of those commands take a single positive integer argument
 specifying how many seconds.
 
-If you want to try the TESLA structure, you'd use `p tournament tesla`
+If you want to try the TESLA structure, you'd use `tournament tesla`
 TESLA uses 20 minute rounds.  If you'd like to use 2 minute rounds, use
-`p speed 10` to play the tournament ten times faster (i.e. the duration
+`speed 10` to play the tournament ten times faster (i.e. the duration
 is one tenth normal).
 
 ### In Game Commands
@@ -227,30 +229,30 @@ is one tenth normal).
 When you're in a game, the commands are:
 
 ```
-p status
-p cards
-p quit
-p vacation
-p back
-p time
-p muck
-p reveal
-p conceal
-p default reveal
-p default conceal
-p discard cards
-p discard none
-p undo [action | reveal | discard]
-p fold
-p check
-p jam
-p make amount
-p call [amount]
-p bet [amount | pot | half]
-p raise [amount | pot | half]
+status
+cards
+quit
+vacation
+back
+time
+muck
+reveal
+conceal
+default reveal
+default conceal
+discard cards
+discard none
+undo [action | reveal | discard]
+fold
+check
+jam
+make amount
+call [amount]
+bet [amount | pot | half]
+raise [amount | pot | half]
 ```
 
-Use `p time` if you need more time to think.  You'll get an extra minute.  There
+Use `time` if you need more time to think.  You'll get an extra minute.  There
 are currently no limits to how often you can use the time command.
 
 #### What to reveal at showdown
@@ -258,38 +260,38 @@ are currently no limits to how often you can use the time command.
 By default, you will only show your cards at the showdown if you have
 to.  If there are no all-ins and someone else shows first and you're
 beat, you won't be required to show your cards.  You can change that
-default by using `p default reveal` in which case any time you make it
+default by using `default reveal` in which case any time you make it
 to the showdown you'll reveal your cards (which might be helpful if
 you're teaching someone the game).  If you want your default to be
-back to what it started at `p default conceal` will take it back.
+back to what it started at `default conceal` will take it back.
 
 You can override your default revelation strategy for the current
-hand, by using `p reveal` or `p conceal`.  That's a one-time change
+hand, by using `reveal` or `conceal`.  That's a one-time change
 and after the showdown your default will stay what it was before that
-override.  You can also use `p muck` which will cause you to throw
+override.  You can also use `muck` which will cause you to throw
 away your hand, _even if it's a winner_.
 
 #### Discards, drawing and undoing
 
-You can use `p discard ac 2d` tell mb2 that when it's your turn to
+You can use `discard ac 2d` tell mb2 that when it's your turn to
 discard and draw new cards you want to discard your ace of clubs and
-your two of diamonds or `p discard none` to stand pat.
+your two of diamonds or `discard none` to stand pat.
 
 If you type an action command before it is your time to act, that
 command will be remembered and used instantly when it is your time to
 act.  If you realize you don't want that command to be applied, you
-can use `p undo` to clear all your advance commands or more narrowly
-`p undo action`, `p undo reveal` or `p undo discard` to just undo that
+can use `undo` to clear all your advance commands or more narrowly
+`undo action`, `undo reveal` or `undo discard` to just undo that
 aspect of your advance requests.
 
-#### `p make`
+#### `make`
 
-If you use `p raise 2000` as an advanced action, you will bet or raise
+If you use `raise 2000` as an advanced action, you will bet or raise
 2000, if that's an acceptable raise, when it is your turn to ask, so
 if it's checked to you, you'll make it 2000, but if someone bets 1,000
 and then someone else raises 2,000, then you'll raise 2,000 and the
 total bet will be 5,000.  If your desire is to raise however much is
-required to make the total bet 2,000, you can uses `p make 2000`.
+required to make the total bet 2,000, you can uses `make 2000`.
 
 ## IRC clients
 
