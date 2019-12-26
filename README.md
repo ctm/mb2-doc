@@ -145,13 +145,14 @@ web client.
 
 ### Most tourneys
 
-Currently, `barge_nlhe`, `limit_6`, `tesla` and `monte` are the only
-tournament structures implemented.  Others will be available "soon".
-`tournament` without an argument lists the tournament structures that are
-available:
+Only a handful of tournament structures are implemented.  Others will
+be available "soon".  `tournament` without an argument lists the
+tournament structures that are available.  I won't necessarily be
+updating this document each time I add a new one, so this may be out
+of date:
 
 ```
-Tournaments: barge_nlhe, limit_6, monte, tesla
+Tournaments: barge_nlhe, chowaha, limit_6, monte, tesla
 ```
 
 ## Commands
