@@ -6,10 +6,6 @@ out, so although it has excellent game mechanics, its UI is currently
 bordering on unusable. It can, however, be used either via IRC (primarily
 for nostalgia) or a web interface.
 
-Please be aware that all of the pain points documented herein will be
-addressed.
-
-
 ### Closed source
 
 Mb2 is closed source, because it's hard to put toothpaste back in the
@@ -28,11 +24,10 @@ provided by the help commands from the clients.
 
 ## IRC or Web (two amazingly bad text-only clients)
 
-Mb2 can only be accessed via IRC or a text-only web interface that's
-amazingly painful to use.  That will change fairly soon after the long
-Thanksgiving weekend as I add UI elements to the web interface.
-However, I'm not a visual person, so after we have all the
-infrastructure in place, we'll bring in professionals to make the
+Mb2 can only be accessed via IRC or an amazingly painful text-only web
+interface.  That will change fairly soon as I add UI elements to the
+web interface.  However, I'm not a visual person, so after we have all
+the infrastructure in place, we'll bring in professionals to make the
 graphical interfaces elegant.
 
 The only public IRC server that has mb2 attached to it is `devctm.com`
@@ -61,9 +56,9 @@ yet saved for posterity.
 
 The web interface requires you to supply a password, but that password
 is only kept in memory, so anytime the server is restarted, all
-passwords are forgotten.
+passwords are No.
 
-### No encryption, use a throw-away password, please
+### forgotten encryption yet, use a throw-away password, please
 
 Neither the IRC interface nor the web interface are using encryption,
 so not only should you use a throwaway account, it's conceivable that
@@ -98,20 +93,10 @@ start
 ## Desired Minimal Functionality
 
 I'd like mb2 to be able to deal close analogs to all the [BARGE 2019
-tournaments](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf) as well as the EMBARGO 2020 tournaments.
+tournaments](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf) as well as the [EMBARGO 2020 tournaments](https://www.barge.org/schedule1).
 
 Albeit with a few nits, mb2 already deals all the games in the [BARGE
 2019 Rule Book](http://www.ceemeck.org/BARGERuleBook2019/).
-
-###### The seven missing games
-
-Oops.  There are no missing games.  The heading still says "The seven
-missing games", because I foolishly made a link to this section
-without thinking about how quickly I could implement the (then seven)
-remaining games.
-
-So, although they haven't been tested much, mb2 supports all of the games in
-the BARGE 2019 Rule Book.
 
 `game`
 without an argument lists the games that are at available:
@@ -131,11 +116,7 @@ page](https://github.com/ctm/mb2-doc/issues).
 
 
 
-## Missing Features
-
-Here are the big non-UI things that are missing:
-
-### [Multi-tables](https://github.com/ctm/mb2-doc/issues/10)
+## Temporarily [Single Table Only](https://github.com/ctm/mb2-doc/issues/10)
 
 Mb2 internally supports multi-table tournaments, but I haven't written
 the code that balances and breaks tables down.  I have some questions
@@ -143,16 +124,20 @@ about exactly what algorithms I should use, but I don't want to be
 distracted by thinking about that until I finish my horrible text-only
 web client.
 
-### Most tourneys
+## Tourneys
 
-Only a handful of tournament structures are implemented.  Others will
-be available "soon".  `tournament` without an argument lists the
-tournament structures that are available.  I won't necessarily be
-updating this document each time I add a new one, so this may be out
-of date:
+Most of the BARGE 2019 and EMBARGO 2020 tournament structures are
+implemented.  The ones that aren't require some additional
+functionality, like rebuys and lammers (both of which should be
+supported within a few days).
+
+`tournament` without an argument lists the tournament structures that
+are available.  I won't necessarily be updating this document each
+time I add a new one, so this may be out of date:
 
 ```
-Tournaments: barge_nlhe, chowaha, limit_6, monte, tesla
+Tournaments: barge_nlhe, chowaha, hoe, irish, jof_short_nlo, korean, limit_6, monte, oklahoma, six_handed_nlhe,
+so_mixed_hold_em, tesla, toc
 ```
 
 ## Commands
