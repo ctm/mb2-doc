@@ -128,16 +128,15 @@ web client.
 
 Most of the BARGE 2019 and EMBARGO 2020 tournament structures are
 implemented.  The ones that aren't require some additional
-functionality, like rebuys and lammers (both of which should be
-supported within a few days).
+functionality, like lammers.
 
 `tournament` without an argument lists the tournament structures that
 are available.  I won't necessarily be updating this document each
 time I add a new one, so this may be out of date:
 
 ```
-Tournaments: barge_nlhe, chowaha, hoe, irish, jof_short_nlo, korean, limit_6, monte, oklahoma, six_handed_nlhe,
-so_mixed_hold_em, tesla, toc
+Tournaments: barge_nlhe, chowaha, f_cancer, hoe, irish, jof_short_nlo, korean, limit_6, monte, oklahoma,
+six_handed_nlhe, so_mixed_hold_em, tesla, toc
 ```
 
 ## Commands
@@ -237,6 +236,9 @@ make amount
 call [amount]
 bet [amount | pot | half]
 raise [amount | pot | half]
+rebuy
+rebuy_on_bust
+done_on_bust
 ```
 
 Use `time` if you need more time to think.  You'll get an extra minute.  There
@@ -279,6 +281,21 @@ if it's checked to you, you'll make it 2000, but if someone bets 1,000
 and then someone else raises 2,000, then you'll raise 2,000 and the
 total bet will be 5,000.  If your desire is to raise however much is
 required to make the total bet 2,000, you can uses `make 2000`.
+
+#### Rebuy Tournaments
+
+If a tournament is a rebuy tournament, mb2 will assume you want to rebuy
+each time you bust. If that's not the case, use the `done_on_bust` command
+when you want your next bust to be permanent.  If you change your mind, you
+can use `rebuy_on_bust` to tell the tournament that when you bust you want
+to rebuy, but you must do that before you bust.
+
+When you are playing in a rebuy tournament you can use the `rebuy`
+command to ask for chips during the rebuy period.  If you are below
+the starting stack size and out of the hand, you'll get them
+immediatey. If you're in the hand, your request will be remembered at
+the end of the hand and if you're below the starting stack size,
+you'll get your additional chips before the next hand is dealt.
 
 ## IRC clients
 
