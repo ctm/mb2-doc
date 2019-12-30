@@ -10,7 +10,7 @@ for nostalgia) or a web interface.
 
 Mb2 is closed source, because it's hard to put toothpaste back in the
 tube.  I'm monetizing mb2 and some of the ways I might be able do so
-successfully require mb2 remaining closed.  I am also investigating
+successfully require mb2 remaining closed.  I'm also investigating
 ways in which I can make the source open, but it's trivial to go from
 closed to open and impossible to do the reverse.
 
@@ -24,11 +24,11 @@ provided by the help commands from the clients.
 
 ## IRC or Web (two amazingly bad text-only clients)
 
-Mb2 can only be accessed via IRC or an amazingly painful text-only web
-interface.  That will change fairly soon as I add UI elements to the
-web interface.  However, I'm not a visual person, so after we have all
-the infrastructure in place, we'll bring in professionals to make the
-graphical interfaces elegant.
+Mb2 is accessed via IRC or an amazingly painful text-only web
+interface.  The pain should diminish fairly soon as I add UI elements
+to the web interface.  However, I'm not a visual person, so after I
+have all the infrastructure in place, I'll bring in professionals to
+make the graphical interfaces elegant.
 
 The only public IRC server that has mb2 attached to it is `devctm.com`
 on port 6667 with no encryption.  The web interface is at
@@ -126,17 +126,16 @@ web client.
 
 ## Tourneys
 
-Most of the BARGE 2019 and EMBARGO 2020 tournament structures are
-implemented.  The ones that aren't require some additional
-functionality, like lammers.
+All of the EMBARGO 2020 tournament structures and all but three of the
+BARGE 2019 tournament structures are implemented.  The three that
+aren't require some additional functionality.
 
 `tournament` without an argument lists the tournament structures that
-are available.  I won't necessarily be updating this document each
-time I add a new one, so this may be out of date:
+are available.
 
 ```
-Tournaments: barge_nlhe, chowaha, f_cancer, hoe, irish, jof_short_nlo, korean, limit_6, monte, oklahoma,
-six_handed_nlhe, so_mixed_hold_em, tesla, toc
+Tournaments: barge_nlhe, chowaha, f_cancer, hoe, irish, jof_short_nlo, korean, limit_6, monte, oklahoma, pl_horse,
+plo, six_handed_nlhe, so_mixed_hold_em, tesla, toc
 ```
 
 ## Commands
@@ -171,6 +170,7 @@ speed factor
 secs-to-act seconds
 timeout-secs seconds
 start
+redeem n_lammers_to_redeem
 ```
 
 Vacation is a state you can be on where you will check whenever
@@ -239,6 +239,7 @@ raise [amount | pot | half]
 rebuy
 rebuy_on_bust
 done_on_bust
+redeem n_lammers_to_redeem
 ```
 
 Use `time` if you need more time to think.  You'll get an extra minute.  There
@@ -365,7 +366,7 @@ want to raise 500, `r 500` will suffice.
 
 ## Sunday Playtesting
 
-mb2 runs 24x7, but I am not yet paying attention to what goes on there
+mb2 runs 24x7, but I'm not yet paying attention to what goes on there
 (nor do I have a crash monitor installed). The exception is Sundays at
 1pm Pacific.  For the next several weeks, I'll be there for a minimum
 of one hour and perhaps several, depending on interest.
