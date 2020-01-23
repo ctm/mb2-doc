@@ -3,8 +3,7 @@
 Mb2 is a poker server. Eventually it will have slick skinnable clients
 for a variety of platforms, but it's being developed from the inside
 out, so although it has excellent game mechanics, its UI is currently
-bordering on unusable. It can, however, be used either via IRC (primarily
-for nostalgia) or a web interface.
+bordering on unusable.
 
 ### Closed source
 
@@ -22,33 +21,32 @@ issues](https://github.com/ctm/mb2-doc/issues) as friends and family
 use mb2.  Secondarily, it has a little more documentation than is
 provided by the help commands from the clients.
 
-## IRC or Web (two amazingly bad text-only clients)
+## Web-only (an amazingly bad text-only interface using pop-ups)
 
-Mb2 is accessed via IRC or an amazingly painful text-only web
-interface.  The pain should diminish fairly soon as I add UI elements
-to the web interface.  However, I'm not a visual person, so after I
-have all the infrastructure in place, I'll bring in professionals to
-make the graphical interfaces elegant.
+Mb2 is accessed via an amazingly painful text-only web interface.  The
+pain should diminish fairly soon as I add UI elements to the web
+interface.  However, I'm not a visual person, so after I have all the
+infrastructure in place, I'll bring in professionals to make the
+graphical interfaces elegant.
 
-The only public IRC server that has mb2 attached to it is `devctm.com`
-on port 6667 with no encryption.  The web interface is at
-http://devctm.com:8080
+### Pop-ups used for tables
 
-IRC support came first for historical reasons. However, my knowledge
-of IRC borders on non-existent.  I've found that using the
-[ircII](https://en.wikipedia.org/wiki/IrcII) client, the public and
-private messages mb2 sends are integrated into a single window, which
-is how I envision it working.  Other irc clients, at least with their
-default configuration, put private and public messages in separate
-windows and that is frustrating.  As such, the text-only web interface
-is the logical choice for most people, especially since it will only
-get better with time.
+When you first log in, you're in the starting pen, a place where people
+can crudely set up and start tournaments.  Once a tournament is started,
+everyone who has registered for that tournament will get a pop-up window
+for the table that they're assigned to.  Most browsers block pop-ups until
+told otherwise.  You will probably need to enable pop-ups for devctm.com
+for the web client to work.
+
+Using a pop-up for the table allows people to be on multiple tables at
+once, which currently isn't particularly important, especially since
+there's not yet a way to choose to observer tables that you weren't
+assigned to, nor are there ring games.  However, observing tables will
+be [coming soon](https://github.com/ctm/mb2-doc/issues/70). Ring games
+are a relatively low priority, but the infrastructure to support them
+is largely already written.
 
 ### No database keeping score
-
-Mb2 is playable, in that if you connect to `devctm.com` and join the
-`#poker` channel you can set up a tournament, join and (assuming there
-are at least two players) start it.
 
 Currently, everything is ephemeral; mb2 does not currently use
 persistent storage.  So, if you play a tournament the results are not
@@ -56,33 +54,23 @@ yet saved for posterity.
 
 The web interface requires you to supply a password, but that password
 is only kept in memory, so anytime the server is restarted, all
-passwords are No.
+passwords are forgotten.
 
-### forgotten encryption yet, use a throw-away password, please
+### No encryption yet, use a throw-away password, please
 
-Neither the IRC interface nor the web interface are using encryption,
-so not only should you use a throwaway account, it's conceivable that
-someone could even observe your face-down cards.  Encryption will be
-mandatory before "too long", but it's a much lower priority than most
-of the other issues that still remain.
+The temporary web site (devctm.com) is not using encryption, so not
+only should you use a throwaway account, it's conceivable that someone
+could even observe your face-down cards.  Encryption will be mandatory
+before "too long", but it's a much lower priority than most of the
+other issues that still remain.
 
-### IRC example
+### Example
 
-```
-/join #poker
-/alias p msg mb2 p
-/p tournament tesla
-/p speed 10
-/p join
-/p start
-```
-The reason IRC requires a leading "p " is because anything that
-doesn't have that prefix is considered a public message to the other
-people on that IRC channel.  The web interface has a separate input
-box for chat, so not only is there no need to add the "p " prefix,
-doing so is an error.
+If you want to play a TESLA tournament at ten times the speed it was played
+at BARGE in 2019, you'd use these commands in the pen/lobby.  You won't,
+however, be allowed to start until there are at least two players.  If you
+want to see it running, just use two tabs and create two players.
 
-### Web example
 ```
 tournament tesla
 speed 10
@@ -119,10 +107,8 @@ page](https://github.com/ctm/mb2-doc/issues).
 ## Temporarily [Single Table Only](https://github.com/ctm/mb2-doc/issues/10)
 
 Mb2 internally supports multi-table tournaments, but I haven't written
-the code that balances and breaks tables down.  I have some questions
-about exactly what algorithms I should use, but I don't want to be
-distracted by thinking about that until I finish my horrible text-only
-web client.
+the code that balances and breaks tables down, however, that's my next
+item to implement after adding the UI for observing tables.
 
 ## Tourneys
 
@@ -144,15 +130,7 @@ Eventually, mb2 will have sign-up lists for tournaments and ring
 games, but now there's a single starting pen that is used just for
 testing.  There are commands you use to set up what game/tournament is
 to be started next and then there are commands that are used while
-you're playing.  Multiple games or tournaments can run simultaneously
-and it's possible to talk to the starting pen when you're already
-playing a game/tournament, but the default is for you to talk to the
-pen if you're not in a tournament and to talk to the tournament you're
-in if you're in just one.
-
-When using IRC, all commands are preceded by the lower-case letter 'p'
-and a single space.  As such, to get help, type `p help`.  For the
-web interface, adding the leading "p " is an error.
+you're playing.  Multiple games and tournaments can run simultaneously.
 
 ### Starting Pen Commands
 
@@ -189,8 +167,8 @@ two integers representing the small-bet and the big-bet in a split
 limit (also known as fixed limit) structure.
 
 ```
-> *mb2* p game holdem 5 10
-<mb2:#poker> Game changed to 5 10 Hold 'em by deadhead
+game holdem 5 10
+Game changed to 5 10 Hold 'em by deadhead
 ```
 There are no commands to change the size of the blinds.  The small
 blind will be one half of the small bet and the big blind will be the
@@ -212,7 +190,12 @@ is one tenth normal).
 
 ### In Game Commands
 
-When you're in a game, the commands are:
+I will be adding UI elements for everything mentioned here, but until
+those UI elements appear, you have to type your commands in the
+command box.
+
+When you're in a game, the long versions (there are one letter abbreviations for
+all of the common ones) of the commands are:
 
 ```
 status
@@ -243,7 +226,7 @@ redeem n_lammers_to_redeem
 ```
 
 Use `time` if you need more time to think.  You'll get an extra minute.  There
-are currently no limits to how often you can use the time command.
+is currently no limit to how often you can use the time command.
 
 #### What to reveal at showdown
 
@@ -294,89 +277,53 @@ to rebuy, but you must do that before you bust.
 When you are playing in a rebuy tournament you can use the `rebuy`
 command to ask for chips during the rebuy period.  If you are below
 the starting stack size and out of the hand, you'll get them
-immediatey. If you're in the hand, your request will be remembered at
+immediately. If you're in the hand, your request will be remembered at
 the end of the hand and if you're below the starting stack size,
 you'll get your additional chips before the next hand is dealt.
 
-## IRC clients
+## Abbreviations
 
-It's been so long, I had to poke around and find an IRC client that I
-could make work on my development machine, a Macintosh. I chose
-[ircII](http://www.eterna.com.au/ircii/), which I installed using
-[Homebrew](https://brew.sh/) (which I already had installed).  IrcII
-is also available for Linux.
+Instead of typing the entire command, you can usually abbreviate:
 
+|Abbreviation|Command|
+|------------|-------|
+|b|back|
+|c|call|
+|d|discard|
+|f|fold|
+|j|jam|
+|m|make|
+|r|raise|
+|s|status|
+|t|time|
+|q|quit|
+|pat|discard none|
+|pot|raise pot|
 
-Although I do almost all my testing on my inaccessible-to-the-public
-development machine, I put up a publicly available IRC server on
-devctm.com (port 6667) and have mb2 running over there, too.  When I want
-to use that machine, I start ircII via:
+## Playtesting
 
-`$ IRCSERVER=devctm.com irc`
+In theory, mb2 runs 24x7, but I'm not yet paying attention to what
+goes on there (nor do I have a crash monitor installed).  I do most of
+my play-testing on my development machine, but I'd be happy to play with
+others on devctm.com anytime I'm available.
 
-I know absolutely nothing about running an IRC server.  I'm a horrible
-sysadmin and I had to disable various flooding heuristics for mb2 to
-work.  Please don't abuse the IRC server on devctm.com (or _anyone's_
-IRC server for that matter).
+After the UI is a little better (it'll still be horrible!), I'll
+schedule some tournaments.  Once I add a database to persist info,
+I'll _probably_ introduce payout structures for tournaments, and add
+ring games with a rake and allow people to be the house as long as
+they're willing to hang out at their table and help people explore
+mb2.
 
-## Aliases
-
-### IRC
-
-On IRC, I use aliases to avoid typing.  My `.ircrc` contains:
-```
-join #poker
-
-alias p msg mb2 p
-
-alias b p back
-alias c p call
-alias d p discard
-alias f p fold
-alias j p jam
-alias m p make
-alias r p raise
-alias s p status
-alias t p time
-alias q p quit
-
-alias pat p discard none
-alias pot p raise pot
-
-alias miss p game mississippi_stud
-alias chow p game chowaha
-alias tdd p game triple_draw_dramaha
-alias razz p game razz
-alias stud p game stud
-alias d27td p game deuce_to_seven_triple_draw
-alias arch p game archie
-alias kore p game korean
-alias duck p game duck_flush
-
-alias monte p tournament monte
-alias tesla p tournament tesla
-```
-
-### Abbreviations in the web interface
-
-All the one letter aliases as well as "pat" and "pot" are now
-recognized directly by `mb2`, so if you want to raise the default
-amount, all you need to do is type `r` and a carriage return.  If you
-want to raise 500, `r 500` will suffice.
-
-## Sunday Playtesting
-
-mb2 runs 24x7, but I'm not yet paying attention to what goes on there
-(nor do I have a crash monitor installed). The exception is Sundays at
-1pm Pacific.  For the next several weeks, I'll be there for a minimum
-of one hour and perhaps several, depending on interest.
-
-If you want to help out by play-testing, but can't make Sunday
-afternoon, you can do so on your own, it's just that you need at least
-two participants.  So, either dragoon a friend or relative into
-playing or fire up two windows and drive both of them yourself.
+In the meantime, if you want to help out by play-testing, you can do
+so on your own, it's just that you need at least two participants.
+So, either dragoon a friend or relative into playing or fire up two
+windows and drive both of them yourself.
 
 Until I add the table balancing and table breakdown code, tourneys
 will be limited to single tables, although multiple tourneys can run
-concurrently.  I expect mb2 will be dealing multi-table tourneys
-"soon", but it has slipped due to my work on the web front-end.
+concurrently.  I _still_ expect mb2 will be dealing multi-table
+tourneys "soon", but I've been saying that for a while.  So far there
+haven't been enough play testers for that to matter, but I think that
+will change before too long.
+
+
