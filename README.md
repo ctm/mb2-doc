@@ -1,33 +1,44 @@
 # Mb2
 
-Mb2 is a poker server. Eventually it will have slick skinnable clients
-for a variety of platforms, but it's being developed from the inside
-out, so although it has excellent game mechanics, its UI is currently
-bordering on unusable.
+Mb2 is [Cliff Matthews's (aka deadhead's) poker
+software](http://devctm.com:8080). Eventually it will have slick
+skinnable clients for a variety of platforms, but it's being developed
+from the inside out, so although it has excellent game mechanics, its
+UI is currently amazingly bad:
+
+![Horrible Text-base Interface](./table-with-advanced-action-check-boxes.png "Room for Improvement")
+
+Although all of the advanced action possibilities are exposed through
+the rudimentary set of check-boxes, other things a player might need
+to do (e.g., discard cards) still require the command line.
+
+BTW, why are you here?  If you don't know Cliff, none of this is going
+to make much sense.  And if you do know Cliff it still won't make much
+sense, but at least you know Cliff.
 
 ### Closed source
 
 Mb2 is closed source, because it's hard to put toothpaste back in the
-tube.  I'm monetizing mb2 and some of the ways I might be able do so
-successfully require mb2 remaining closed.  I'm also investigating
-ways in which I can make the source open, but it's trivial to go from
-closed to open and impossible to do the reverse.
+tube.  I'm monetizing mb2 and exploring closed source solutions first.
+I'm also investigating ways in which I can make the source open, but
+it's trivial to go from closed to open and impossible to do the
+reverse.
 
 ### Public documentation
 
-The GitHub repository that hosts this document exists primarily as a
-place for me to publicly [track
+This repository exists primarily as a place for me to publicly [track
 issues](https://github.com/ctm/mb2-doc/issues) as friends and family
 use mb2.  Secondarily, it has a little more documentation than is
-provided by the help commands from the clients.
+provided by the help commands from the client.
 
-## Web-only (an amazingly bad text-only interface using pop-ups)
+## Web-only (mostly text-only interface using pop-ups)
 
-Mb2 is accessed via an amazingly painful text-only web interface.  The
-pain should diminish fairly soon as I add UI elements to the web
-interface.  However, I'm not a visual person, so after I have all the
-infrastructure in place, I'll bring in professionals to make the
-graphical interfaces elegant.
+Mb2 is accessed via an amazingly painful mostly-text web interface.
+The pain will _slightly_ diminish as _I_ add UI elements.  However,
+I'm not a visual person, so I'm making no attempt to do graphic
+design.  Instead I may add UI elements to further my proof-of-concept
+while I scrape up some investment to pay a professional front-end
+developer or two to create something elegant and ergonomic.
 
 ### Pop-ups used for tables
 
@@ -36,15 +47,25 @@ can crudely set up and start tournaments.  Once a tournament is started,
 everyone who has registered for that tournament will get a pop-up window
 for the table that they're assigned to.  Most browsers block pop-ups until
 told otherwise.  You will probably need to enable pop-ups for devctm.com
-for the web client to work.
+for the web client to work.  In fact, after you've told your browser to
+always allow pop-ups from devctm.com, you may need to log back in again
+to get a pop-up that actually works.
 
 Using a pop-up for the table allows people to be on multiple tables at
-once, which currently isn't particularly important, especially since
-there's not yet a way to choose to observer tables that you weren't
-assigned to, nor are there ring games.  However, observing tables will
-be [coming soon](https://github.com/ctm/mb2-doc/issues/70). Ring games
-are a relatively low priority, but the infrastructure to support them
-is largely already written.
+once.
+
+### Shareable links
+
+When you're playing on a table, the url that is displayed
+(e.g. `http://devctm.com:8080/event/2/player/2`) is shareable.  Anyone
+who follows that link is then connected to the server with an
+anonymous read-only view of the table (that doesn't use a pop-up).
+Eventually, you'll be connected to a nice page that has a graphical
+view of the table (and of course you the player will be playing on the
+same graphical view) as well as some information about what you're
+observing and how to create an account so that you can play yourself
+or at least root the person on you're observing.  For now, the url
+sharing is proof-of-concept.
 
 ### No database keeping score
 
@@ -55,6 +76,10 @@ yet saved for posterity.
 The web interface requires you to supply a password, but that password
 is only kept in memory, so anytime the server is restarted, all
 passwords are forgotten.
+
+I actually have a branch of the software that connects to Postgresql
+that isn't ready to be deployed yet.  I don't yet have an estimate of
+when that will happen, but it's a very high priority.
 
 ### No encryption yet, use a throw-away password, please
 
@@ -78,7 +103,7 @@ join
 start
 ```
 
-## Desired Minimal Functionality
+## Already knows many poker variants
 
 I'd like mb2 to be able to deal close analogs to all the [BARGE 2019
 tournaments](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf) as well as the [EMBARGO 2020 tournaments](https://www.barge.org/schedule1).
@@ -194,8 +219,9 @@ I will be adding UI elements for everything mentioned here, but until
 those UI elements appear, you have to type your commands in the
 command box.
 
-When you're in a game, the long versions (there are one letter abbreviations for
-all of the common ones) of the commands are:
+When you're in a game, the long versions (there are one letter
+abbreviations for all of the common ones) of the commands that are not
+available via UI elements are:
 
 ```
 status
@@ -212,6 +238,14 @@ default conceal
 discard cards
 discard none
 undo [action | reveal | discard]
+rebuy
+rebuy_on_bust
+done_on_bust
+redeem n_lammers_to_redeem
+```
+These commands can also be typed in, although there are proof-of-concept check and text boxes that provide the same functionality:
+
+```
 fold
 check
 jam
@@ -219,10 +253,6 @@ make amount
 call [amount]
 bet [amount | pot | half]
 raise [amount | pot | half]
-rebuy
-rebuy_on_bust
-done_on_bust
-redeem n_lammers_to_redeem
 ```
 
 Use `time` if you need more time to think.  You'll get an extra minute.  There
@@ -304,15 +334,15 @@ Instead of typing the entire command, you can usually abbreviate:
 
 In theory, mb2 runs 24x7, but I'm not yet paying attention to what
 goes on there (nor do I have a crash monitor installed).  I do most of
-my play-testing on my development machine, but I'd be happy to play with
-others on devctm.com anytime I'm available.
+my play-testing on my development machine, but I'd be more than happy
+to play with others on devctm.com anytime I'm available.
 
-After the UI is a little better (it'll still be horrible!), I'll
-schedule some tournaments.  Once I add a database to persist info,
-I'll _probably_ introduce payout structures for tournaments, and add
-ring games with a rake and allow people to be the house as long as
-they're willing to hang out at their table and help people explore
-mb2.
+After the db is in place (even with the horrible interface!), I'll
+schedule some tournaments and do other things to encourage people to
+play test.  Most likely I'll introduce payout structures for
+tournaments, and add ring games with a rake and allow people to be the
+house as long as they're willing to hang out at their table and help
+people explore mb2.
 
 In the meantime, if you want to help out by play-testing, you can do
 so on your own, it's just that you need at least two participants.
@@ -326,4 +356,20 @@ tourneys "soon", but I've been saying that for a while.  So far there
 haven't been enough play testers for that to matter, but I think that
 will change before too long.
 
+## The stack
 
+In case people are curious, I'm using
+[actix-web](https://github.com/actix/actix-web) and
+[yew](https://yew.rs/docs/) to implement mb2.  There are some
+substantial gains that I get by developing both the back-end and
+front-end in Rust.  Unfortunately, most of the cool functionality I
+have in mind will be on hold temporarily as I spend a little time
+setting up the company that will monetize mb2 and getting investment
+and a front-end person.
+
+I had hoped to get a little further before decloaking this much, but
+who really reads a lengthy README.md on GitHub anyway...
+
+## So, WTF?
+
+My goal is to provide the online poker equivalent of craft beer.
