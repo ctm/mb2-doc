@@ -60,34 +60,28 @@ When you're playing on a table, the url that is displayed
 (e.g. `http://devctm.com:8080/event/2/player/2`) is shareable.  Anyone
 who follows that link is then connected to the server with an
 anonymous read-only view of the table (that doesn't use a pop-up).
-Eventually, you'll be connected to a nice page that has a graphical
-view of the table (and of course you the player will be playing on the
-same graphical view) as well as some information about what you're
+
+Eventually you'll be connected to a nice page that has a graphical
+view of the table as well as some information about what you're
 observing and how to create an account so that you can play yourself
 or at least root the person on you're observing.  For now, the url
 sharing is proof-of-concept.
 
-### No database keeping score
+### The database not yet keeping score
 
-Currently, everything is ephemeral; mb2 does not currently use
-persistent storage.  So, if you play a tournament the results are not
-yet saved for posterity.
+Currently, everything other than your username and password hash is
+ephemeral.  Although mb2 connects to an Amazon RDS PostgreSQL
+database, this is a very recent addition and almost nothing is
+currently stored there.  So&mdash;for the time being&mdash;if you play
+a tournament the results are not saved for posterity.
 
-The web interface requires you to supply a password, but that password
-is only kept in memory, so anytime the server is restarted, all
-passwords are forgotten.
-
-I actually have a branch of the software that connects to Postgresql
-that isn't ready to be deployed yet.  I don't yet have an estimate of
-when that will happen, but it's a very high priority.
-
-### No encryption yet, use a throw-away password, please
+### [No encryption yet](https://github.com/ctm/mb2-doc/issues/80), use a throw-away password, please
 
 The temporary web site (devctm.com) is not using encryption, so not
-only should you use a throwaway account, it's conceivable that someone
-could even observe your face-down cards.  Encryption will be mandatory
-before "too long", but it's a much lower priority than most of the
-other issues that still remain.
+only should you use a throwaway password, it's conceivable that
+someone could even observe your face-down cards.  Encryption will be
+mandatory before "too long", but it's a much lower priority than most
+of the other issues that still remain.
 
 ### Example
 
@@ -126,7 +120,6 @@ A couple of the games that are available have missing functionality
 (e.g., mb2 doesn't yet enforce the "sevens rule" in California
 Lowball). Known deficiencies show up on the [issues
 page](https://github.com/ctm/mb2-doc/issues).
-
 
 
 ## Temporarily [Single Table Only](https://github.com/ctm/mb2-doc/issues/10)
@@ -332,12 +325,13 @@ Instead of typing the entire command, you can usually abbreviate:
 
 ## Playtesting
 
-In theory, mb2 runs 24x7, but I'm not yet paying attention to what
-goes on there (nor do I have a crash monitor installed).  I do most of
-my play-testing on my development machine, but I'd be more than happy
-to play with others on devctm.com anytime I'm available.
+I try to keep mb2 running 24x7, except when I'm installing new
+versions.  However, I don't have a crash monitor installed, so there's
+always a chance that it'll be down for an extended period when I'm
+afk.  I do most of my testing on my development machine, but I'm more
+than happy to play with others on devctm.com anytime I'm available.
 
-After the db is in place (even with the horrible interface!), I'll
+After I add https support (even with the horrible interface!), I'll
 schedule some tournaments and do other things to encourage people to
 play test.  Most likely I'll introduce payout structures for
 tournaments, and add ring games with a rake and allow people to be the
@@ -353,23 +347,25 @@ Until I add the table balancing and table breakdown code, tourneys
 will be limited to single tables, although multiple tourneys can run
 concurrently.  I _still_ expect mb2 will be dealing multi-table
 tourneys "soon", but I've been saying that for a while.  So far there
-haven't been enough play testers for that to matter, but I think that
-will change before too long.
+haven't been enough play testers for that to matter, but that's
+changing.
 
 ## The stack
 
-In case people are curious, I'm using
-[actix-web](https://github.com/actix/actix-web) and
-[yew](https://yew.rs/docs/) to implement mb2.  There are some
-substantial gains that I get by developing both the back-end and
+I've written mb2 entirely in [Rust](https://www.rust-lang.org/), using
+[actix-web](https://actix.rs/) [yew](https://yew.rs/docs/) and
+[diesel](http://diesel.rs).
+
+I get substantial benefits by developing both the back-end and
 front-end in Rust.  Unfortunately, most of the cool functionality I
-have in mind will be on hold temporarily as I spend a little time
+have in mind is temporarily on hold while I spend a little time
 setting up the company that will monetize mb2 and getting investment
 and a front-end person.
 
 I had hoped to get a little further before decloaking this much, but
 who really reads a lengthy README.md on GitHub anyway...
 
-## So, WTF?
+## Micro Pitch
 
-My goal is to provide the online poker equivalent of craft beer.
+To be the online poker equivalent of craft beer: fun for everyone,
+including the enthusiasts.
