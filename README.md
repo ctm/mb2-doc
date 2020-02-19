@@ -1,10 +1,14 @@
 # Mb2
 
-Mb2 is [Cliff Matthews's (aka deadhead's) poker
-software](http://devctm.com:8080). Eventually it will have slick
-skinnable clients for a variety of platforms, but it's being developed
-from the inside out, so although it has excellent game mechanics, its
-UI is currently amazingly bad:
+Mb2 is Cliff Matthews's poker software.
+
+If you don't like reading, you can go to
+[http://devctm.com:8080](http://devctm.com:8080 "Pre-alpha")
+and start playing now.
+
+Eventually it will have slick skinnable clients for a variety of
+platforms, but it's being developed from the inside out, so although
+it has excellent game mechanics, its UI is currently amazingly bad:
 
 ![Horrible Text-base Interface](./table-with-advanced-action-check-boxes.png "Room for Improvement")
 
@@ -369,3 +373,7 @@ who really reads a lengthy README.md on GitHub anyway...
 
 To be the online poker equivalent of craft beer: fun for everyone,
 including the enthusiasts.
+
+Made it this far? Go to
+[http://devctm.com:8080](http://devctm.com:8080 "Pre-alpha")
+and start playing now.
