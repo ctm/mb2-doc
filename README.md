@@ -71,6 +71,44 @@ observing and how to create an account so that you can play yourself
 or at least root the person on you're observing.  For now, the url
 sharing is proof-of-concept.
 
+### Usernames
+
+Currently, you create a username simply by filling in a desired
+username and a password.  If that username is available, the password
+is remembered in the database and nobody else can use that username
+with a different password.  If you try to use a username that already
+has a password assigned to it, you'll not be able to log in and be
+told that you supplied an invalid password.
+
+Before a username is placed in the database, it is canonicalized by
+removing all characters that aren't alphanumeric and translating the
+alphabetic characters to lower-case.  However, whatever you type when
+you log in is what the other players see, so although you can't change
+the canonical form of your username, you can mix it up by changing
+which characters are upper-case and which are lower.  You can also add
+white-space and emojis.
+
+So, for example, if you create an account by typing `TestUser` in the
+Username box, after you log out (by closing your lobby window/tab) you
+can then log in with `testuser` or `TEST user` or even `Test User 🤮`.
+For the record, although this is a deliberate feature, I can't
+guarantee that we'll keep it.  It may wind up being too confusing
+and/or annoying.
+
+### Player Ids
+
+When you share a url, people can see your player id.  However, be
+aware that devctm.com is a staging server and the player id that you
+use on devctm.com will not necessarily be the player id you'll get on
+the production site. However, player ids 1 through 9 are an exception.
+I have already handed them out to some of the people who have greatly
+increased the chance of me having written this server, even though
+their influence has mostly been indirect.
+
+I do, however, plan to "reward" _fairly_ early play-testers with low
+player ids, but right now the database doesn't record enough metrics
+for me to be able to even know who is testing.
+
 ### The database not yet keeping score
 
 Currently, everything other than your username and password hash is
@@ -331,9 +369,10 @@ Instead of typing the entire command, you can usually abbreviate:
 
 I try to keep mb2 running 24x7, except when I'm installing new
 versions.  However, I don't have a crash monitor installed, so there's
-always a chance that it'll be down for an extended period when I'm
-afk.  I do most of my testing on my development machine, but I'm more
-than happy to play with others on devctm.com anytime I'm available.
+always a chance that it'll be down for an extended period when I'm not
+on the internet.  I do most of my testing on my development machine,
+but I'm more than happy to play with others on devctm.com anytime I'm
+available.
 
 After I add https support (even with the horrible interface!), I'll
 schedule some tournaments and do other things to encourage people to
@@ -357,8 +396,9 @@ changing.
 ## The stack
 
 I've written mb2 entirely in [Rust](https://www.rust-lang.org/), using
-[actix-web](https://actix.rs/) [yew](https://yew.rs/docs/) and
-[diesel](http://diesel.rs).
+[actix-web](https://actix.rs/) [yew](https://yew.rs/docs/),
+[diesel](http://diesel.rs) and
+[Rust-argon2](https://github.com/sru-systems/rust-argon2).
 
 I get substantial benefits by developing both the back-end and
 front-end in Rust.  Unfortunately, most of the cool functionality I
