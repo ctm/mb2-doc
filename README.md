@@ -356,14 +356,27 @@ Instead of typing the entire command, you can usually abbreviate:
 |c|call|
 |d|discard|
 |f|fold|
+|h|help|
 |j|jam|
+|k|check|
 |m|make|
 |r|raise|
 |s|status|
 |t|time|
+|v|vacation|
 |q|quit|
+|ca|cards|
+|ck|check|
+|de|default|
+|hi|conceal|
+|mu|muck|
+|rb|rebuy|
+|re|reveal|
+|rob|rebuy_on_bust|
+|dob|done_on_bust|
 |pat|discard none|
 |pot|raise pot|
+|half|raise half|
 
 ## Playtesting
 
