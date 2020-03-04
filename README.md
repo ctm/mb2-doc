@@ -3,7 +3,7 @@
 Mb2 is Cliff Matthews's poker software.
 
 If you don't like reading, you can go to
-[http://devctm.com:8080](http://devctm.com:8080 "Pre-alpha")
+[https://devctm.com:8081](https://devctm.com:8081 "Pre-alpha")
 and start playing now.
 
 Eventually it will have slick skinnable clients for a variety of
@@ -61,7 +61,7 @@ once.
 ### Shareable links
 
 When you're playing on a table, the url that is displayed
-(e.g. `http://devctm.com:8080/event/2/player/2`) is shareable.  Anyone
+(e.g. `https://devctm.com:8081/event/2/player/2`) is shareable.  Anyone
 who follows that link is then connected to the server with an
 anonymous read-only view of the table (that doesn't use a pop-up).
 
@@ -116,14 +116,6 @@ ephemeral.  Although mb2 connects to an Amazon RDS PostgreSQL
 database, this is a very recent addition and almost nothing is
 currently stored there.  So&mdash;for the time being&mdash;if you play
 a tournament the results are not saved for posterity.
-
-### [No encryption yet](https://github.com/ctm/mb2-doc/issues/80), use a throw-away password, please
-
-The temporary web site (devctm.com) is not using encryption, so not
-only should you use a throwaway password, it's conceivable that
-someone could even observe your face-down cards.  Encryption will be
-mandatory before "too long", but it's a much lower priority than most
-of the other issues that still remain.
 
 ### Example
 
@@ -428,5 +420,5 @@ To be the online poker equivalent of craft beer: fun for everyone,
 including the enthusiasts.
 
 Made it this far? Go to
-[http://devctm.com:8080](http://devctm.com:8080 "Pre-alpha")
+[https://devctm.com:8081](https://devctm.com:8081 "Pre-alpha")
 and start playing now.
