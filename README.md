@@ -69,10 +69,9 @@ observing and how to create an account so that you can play yourself
 or at least root the person on you're observing.  For now, the url
 sharing is proof-of-concept.
 
-Currently if you try to test the shareable url on you own browser, it
-will fail.  This is [a
-bug](https://github.com/ctm/mb2-doc/issues/102), and a fairly high
-priority one at that.
+Currently [shareable urls have
+problems](https://github.com/ctm/mb2-doc/issues/102), and that's a fairly
+high priority bug.
 
 ### Usernames
 
