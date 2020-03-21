@@ -46,14 +46,12 @@ developer or two to create something elegant and ergonomic.
 
 ### Pop-ups used for tables
 
-When you first log in, you're in the starting pen, a place where people
-can crudely set up and start tournaments.  Once a tournament is started,
-everyone who has registered for that tournament will get a pop-up window
-for the table that they're assigned to.  Most browsers block pop-ups until
-told otherwise.  You will probably need to enable pop-ups for devctm.com
-for the web client to work.  In fact, after you've told your browser to
-always allow pop-ups from devctm.com, you may need to log back in again
-to get a pop-up that actually works.
+When you first log in, you're in the starting pen, a place where
+people can crudely set up and start tournaments.  Once a tournament is
+started, everyone who has registered for that tournament will get a
+pop-up window for the table that they're assigned to.  Most browsers
+block pop-ups until told otherwise.  You will need to enable pop-ups
+for the web client to work.
 
 Using a pop-up for the table allows people to be on multiple tables at
 once.
@@ -70,6 +68,11 @@ view of the table as well as some information about what you're
 observing and how to create an account so that you can play yourself
 or at least root the person on you're observing.  For now, the url
 sharing is proof-of-concept.
+
+Currently if you try to test the shareable url on you own browser, it
+will fail.  This is [a
+bug](https://github.com/ctm/mb2-doc/issues/102), and a fairly high
+priority one at that.
 
 ### Usernames
 
@@ -370,26 +373,23 @@ Instead of typing the entire command, you can usually abbreviate:
 |pot|raise pot|
 |half|raise half|
 
-## Playtesting
+## Play-testing
 
-I try to keep mb2 running 24x7, except when I'm installing new
-versions.  However, I don't have a crash monitor installed, so there's
-always a chance that it'll be down for an extended period when I'm not
-on the internet.  I do most of my testing on my development machine,
-but I'm more than happy to play with others on devctm.com anytime I'm
-available.
+With a lot of bored people stuck at home, I'm now organizing games
+every hour on the hour when I'm awake (typically 5:15am - 8:15pm
+Mountain time) and at home (which is quite a lot lately).
 
-After I add https support (even with the horrible interface!), I'll
-schedule some tournaments and do other things to encourage people to
-play test.  Most likely I'll introduce payout structures for
-tournaments, and add ring games with a rake and allow people to be the
-house as long as they're willing to hang out at their table and help
-people explore mb2.
+I'm working toward [unsupervised
+play-testing](https://github.com/ctm/mb2-doc/milestone/1), but I've
+been doing a ton of
+[yak-shaving](https://www.techopedia.com/definition/15511/yak-shaving).
 
-In the meantime, if you want to help out by play-testing, you can do
-so on your own, it's just that you need at least two participants.
-So, either dragoon a friend or relative into playing or fire up two
-windows and drive both of them yourself.
+If you're curious, show up a ten or fifteen minutes before the top of
+the hour and ask questions.  Someone will help you out.  At the top of
+the hour (unless there are stragglers, but please don't be a
+straggler), *something* will start (if I'm around).  Once you know
+your way around the software, please help out others, so I can play
+less (even though it's fun) and code more.  I have a lot to do...
 
 Until I add the table balancing and table breakdown code, tourneys
 will be limited to single tables, although multiple tourneys can run
