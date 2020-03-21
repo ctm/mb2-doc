@@ -89,7 +89,9 @@ alphabetic characters to lower-case.  However, whatever you type when
 you log in is what the other players see, so although you can't change
 the canonical form of your username, you can mix it up by changing
 which characters are upper-case and which are lower.  You can also add
-white-space and emojis.
+white-space and emojis, although [emojis interfere with the primitive
+character alignment](https://github.com/ctm/mb2-doc/issues/104) that's
+currently used, so don't use emojis yet.
 
 So, for example, if you create an account by typing `TestUser` in the
 Username box, after you log out (by closing your lobby window/tab) you
