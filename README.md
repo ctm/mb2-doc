@@ -6,7 +6,7 @@ If you don't like reading, you can go to
 [https://devctm.com:8081](https://devctm.com:8081 "Pre-alpha")
 and start playing now.
 
-Eventually it will have slick skinnable clients for a variety of
+Eventually mb2 will have slick skinnable clients for a variety of
 platforms, but it's being developed from the inside out, so although
 it has excellent game mechanics, its UI is currently amazingly bad:
 
@@ -15,10 +15,6 @@ it has excellent game mechanics, its UI is currently amazingly bad:
 Although all of the advanced action possibilities are exposed through
 the rudimentary set of check-boxes, other things a player might need
 to do (e.g., discard cards) still require the command line.
-
-BTW, why are you here?  If you don't know Cliff, none of this is going
-to make much sense.  And if you do know Cliff it still won't make much
-sense, but at least you know Cliff.
 
 ### Closed source
 
@@ -68,10 +64,6 @@ view of the table as well as some information about what you're
 observing and how to create an account so that you can play yourself
 or at least root the person on you're observing.  For now, the url
 sharing is proof-of-concept.
-
-Currently [shareable urls have
-problems](https://github.com/ctm/mb2-doc/issues/102), and that's a fairly
-high priority bug.
 
 ### Usernames
 
@@ -399,21 +391,18 @@ tourneys "soon", but I've been saying that for a while.  So far there
 haven't been enough play testers for that to matter, but that's
 changing.
 
-## The stack
+## Computer Languages, Frameworks and Libraries
 
 I've written mb2 entirely in [Rust](https://www.rust-lang.org/), using
-[actix-web](https://actix.rs/) [yew](https://yew.rs/docs/),
+[actix-web](https://actix.rs/), [yew](https://yew.rs/docs/),
 [diesel](http://diesel.rs) and
-[Rust-argon2](https://github.com/sru-systems/rust-argon2).
+[rust-argon2](https://github.com/sru-systems/rust-argon2).
 
 I get substantial benefits by developing both the back-end and
 front-end in Rust.  Unfortunately, most of the cool functionality I
 have in mind is temporarily on hold while I spend a little time
 setting up the company that will monetize mb2 and getting investment
 and a front-end person.
-
-I had hoped to get a little further before decloaking this much, but
-who really reads a lengthy README.md on GitHub anyway...
 
 ## Micro Pitch
 
