@@ -101,17 +101,24 @@ I have already handed them out to some of the people who have greatly
 increased the chance of me having written this server, even though
 their influence has mostly been indirect.
 
-I do, however, plan to "reward" _fairly_ early play-testers with low
-player ids, but right now the database doesn't record enough metrics
-for me to be able to even know who is testing.
+I will reward _fairly_ early play-testers with low player ids on
+craftpoker.com when it goes live.  For now the player ids are handed
+out sequentially, but the database is now recording enough information
+for for me to know who is testing and who isn't, so getting a low
+player-id and not playing will not result in a low player-id on
+craftpoker.com.
 
 ### The database not yet keeping score
 
-Currently, everything other than your username and password hash is
-ephemeral.  Although mb2 connects to an Amazon RDS PostgreSQL
-database, this is a very recent addition and almost nothing is
-currently stored there.  So&mdash;for the time being&mdash;if you play
-a tournament the results are not saved for posterity.
+Currently, the database logs all incoming data from the client and all
+data generated for tables and players.  However, this is so I can
+track down bugs and have some idea who is helping with the testing.
+Although there are "tournament chips", there's not yet a concept of
+"play money" that will be used for buy-ins and pay-outs of tournaments,
+but there will be, soon.
+
+So, although the database is recording who is playing and who is
+winning, there's no score being kept just yet.
 
 ### Example
 
