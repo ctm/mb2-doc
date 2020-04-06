@@ -101,12 +101,13 @@ I have already handed them out to some of the people who have greatly
 increased the chance of me having written this server, even though
 their influence has mostly been indirect.
 
-I will reward _fairly_ early play-testers with low player ids on
-craftpoker.com when it goes live.  For now the player ids are handed
-out sequentially, but the database is now recording enough information
-for for me to know who is testing and who isn't, so getting a low
-player-id and not playing will not result in a low player-id on
-craftpoker.com.
+I will reward early play-testers with low player ids on craftpoker.com
+when it goes live.  On https://devctm.com:8081 player ids are handed
+out sequentially, but the database is recording enough information for
+for me to know who is testing and who isn't.  I'll use that, and other,
+info to hand out ids 90-99 on craftpoker.com.  If that sounds confusing,
+just ask me about it and I'll do a better job explaining.  My nickname
+is `deadhead`.
 
 ### The database not yet keeping score
 
@@ -146,12 +147,21 @@ Albeit with a few nits, mb2 already deals all the games in the [BARGE
 without an argument lists the games that are at available:
 
 ```
-Games: ace_to_five_3d, archie, badacey, badeucy, badugi, big_o, binglaha, ca_lowball, chowaha, chowaha_four_8,
-courchevel, crazy_pine_8, deuce_to_seven, deuce_to_seven_3d, dramaha, dramaha_3d, duck_flush, five_card_draw,
-five_card_stud, hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8, london_lowball, miss_8,
-miss_razz, miss_stud, murder, oklahoma, omaha, omaha_8, omaha_short, omaha_two_or_five_8, razz, razz_deuce_to_seven,
-razzdugi, scrotum, stud, stud_8, stud_high_low
+Games: ace_to_five_3d, action_razz, archie, badacey, badeucy, badugi, big_o, binglaha, ca_lowball, chowaha,
+chowaha_four_8, courchevel, crazy_pine_8, deuce_to_seven, deuce_to_seven_3d, dramaha, dramaha_3d, duck_flush,
+five_card_draw, five_card_stud, hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8,
+london_lowball, miss_8, miss_razz, miss_stud, murder, oklahoma, omaha, omaha_8, omaha_short, omaha_two_or_five_8,
+razz, razz_deuce_to_seven, razzdugi, scrotum, stud, stud_8, stud_high_low
 ```
+
+The only game in that list that is not _yet_ in the BARGE Rulebook is
+Action Razz, which is just like Razz, except hand made by a player who
+has a face card will beat any hand made by a player without a face
+card.  The face card does not need to be in the made hand, so A2345
+where at least one of the two remaining cards is a Jack, Queen or King
+is the nuts, and even the incredibly unlikely seven cards of AAAAKKK
+beats A234567, because the former has a face card and the latter
+doesn't.
 
 A couple of the games that are available have missing functionality
 (e.g., mb2 doesn't yet enforce the "sevens rule" in California
@@ -175,13 +185,23 @@ aren't require some additional functionality.
 are available.
 
 ```
-Tournaments: barge_nlhe, chowaha, f_cancer, hoe, irish, jof_short_nlo, korean, limit_6, monte, oklahoma, pl_horse,
-plo, six_handed_nlhe, so_mixed_hold_em, tesla, toc
+Tournaments: barge_nlhe, bourbon, cab, chowaha, f_cancer, hoe, hoser, irish, jof_short_nlo, korean, limit_6,
+limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, six_handed_nlhe, so_mixed_hold_em, tesla, toc
 ```
+
+A few of the tournaments listed above are particular to mb2 and have not been spread live as far as I know. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, I believe, so I created CAB to honor them.
+
+CAB begat MERLOT (Murder, crazy pineapple/Eight, Razzdugi, Lazy pineapple/eight, Oklahoma, Two or five omaha/eight), thus allowing some of the more obscure games in the BARGE Rulebook to be played in a tournament structure.
+
+Not everyone likes MERLOT, so on Sunday April 5th, BOURBON (Badugi,
+Omaha high, dUckflush, Razz, Badacey, Omaha/8, NL 2-7 Lowball) was
+introduced as an homage to a particular BARGER's Sunday after BARGE
+parties.p
+
 
 ## Commands
 
-Eventually, mb2 will have sign-up lists for tournaments and ring
+"Soon", mb2 will have sign-up lists for tournaments and ring
 games, but now there's a single starting pen that is used just for
 testing.  There are commands you use to set up what game/tournament is
 to be started next and then there are commands that are used while
@@ -376,34 +396,39 @@ Instead of typing the entire command, you can usually abbreviate:
 ## Play-testing
 
 With a lot of bored people stuck at home, I'm now organizing games
-every hour on the hour when I'm awake (typically 5:15am - 8:15pm
-Mountain time) and at home (which is quite a lot lately).
+at 5pm Pacific time every day. Currently we have about a half dozen
+core players, but new people drop in almost every day and this site
+is still _largely_ flying under the radar.
 
 I'm working toward [unsupervised
 play-testing](https://github.com/ctm/mb2-doc/milestone/1), but I've
 been doing a ton of
 [yak-shaving](https://www.techopedia.com/definition/15511/yak-shaving).
 
-If you're curious, show up a ten or fifteen minutes before the top of
-the hour and ask questions.  Someone will help you out.  At the top of
-the hour (unless there are stragglers, but please don't be a
-straggler), *something* will start (if I'm around).  Once you know
-your way around the software, please help out others, so I can play
-less (even though it's fun) and code more.  I have a lot to do...
+If you're curious, show up a ten or fifteen minutes before the start
+of the game (5pm Pacific is 6pm Mountain, 7pm Central and 8pm
+Eastern).  Someone will help you out.  At the top of the hour (unless
+there are stragglers, but please don't be a straggler), *something*
+will start.  Once you know your way around the software, please help
+out others.  I expect exponential growth, "soon".
 
 Until I add the table balancing and table breakdown code, tourneys
-will be limited to single tables, although multiple tourneys can run
-concurrently.  I _still_ expect mb2 will be dealing multi-table
-tourneys "soon", but I've been saying that for a while.  So far there
-haven't been enough play testers for that to matter, but that's
-changing.
+will be limited to single tables, although multiple tourneys can (and
+are) run concurrently.  I _still_ expect mb2 will be dealing
+multi-table tourneys "soon", but I've been saying that for a while.
+So far there haven't been enough play testers for that to matter, but
+that's changing.
 
 ## Computer Languages, Frameworks and Libraries
 
-I've written mb2 entirely in [Rust](https://www.rust-lang.org/), using
+I've written mb2 almost entirely in
+[Rust](https://www.rust-lang.org/), using
 [actix-web](https://actix.rs/), [yew](https://yew.rs/docs/),
 [diesel](http://diesel.rs) and
-[rust-argon2](https://github.com/sru-systems/rust-argon2).
+[rust-argon2](https://github.com/sru-systems/rust-argon2).  The
+exception is that the web client also uses
+[UIKit](https://getuikit.com/).  Right now we're not doing much with
+UIKit, but that will change, "soon".
 
 I get substantial benefits by developing both the back-end and
 front-end in Rust.  Unfortunately, most of the cool functionality I
@@ -415,6 +440,13 @@ and a front-end person.
 
 To be the online poker equivalent of craft beer: fun for everyone,
 including the enthusiasts.
+
+Over twenty years ago, I wrote multibot, which was the first software
+to deal multi-table tournaments on the internet.  I did so for two reasons,
+I wanted to play multi-table tournaments on the internet and I wanted to
+improve my knowlege of Objective-C.  I have written mb2 for two reasons:
+to make money by degamifying gaming and to improve my knowledge of Rust.
+
 
 Made it this far? Go to
 [https://devctm.com:8081](https://devctm.com:8081 "Pre-alpha")
