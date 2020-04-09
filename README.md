@@ -11,7 +11,6 @@ platforms, but it's being developed from the inside out, so although
 it has excellent game mechanics, its UI is currently amazingly bad:
 
 ![Horrible Text-base Interface](./table-with-advanced-action-check-boxes.png "Room for Improvement")
-
 Although all of the advanced action possibilities are exposed through
 the rudimentary set of check-boxes, other things a player might need
 to do (e.g., discard cards) still require the command line.
@@ -33,31 +32,34 @@ provided by the help commands from the client.
 
 ## Web-only (mostly text-only interface using pop-ups)
 
-Mb2 is accessed via an amazingly painful mostly-text web interface.
-The pain will _slightly_ diminish as _I_ add UI elements.  However,
-I'm not a visual person, so I'm making no attempt to do graphic
-design.  Instead I may add UI elements to further my proof-of-concept
-while I scrape up some investment to pay a professional front-end
-developer or two to create something elegant and ergonomic.
+Mb2 is temporarily accessed via a mostly-text web interface.  I'm
+slowly adding UI elements.  However, I'm not a visual person, so I'm
+making no attempt to do graphic design.  Instead, I'm slowly scraping
+up some investment to pay a professional front-end developer or two to
+create something elegant and ergonomic.
 
 ### Pop-ups used for tables
 
 When you first log in, you're in the starting pen, a place where
 people can crudely set up and start tournaments.  Once a tournament is
-started, everyone who has registered for that tournament will get a
-pop-up window for the table that they're assigned to.  Most browsers
-block pop-ups until told otherwise.  You will need to enable pop-ups
-for the web client to work.
+started, all players registered for that tournament will get a
+pop-up window for the table that they're assigned to, unless their
+browser blocks pop-ups.  If the browser blocks the table pop-up,
+a dialog will appear that tells you what happened and allows you
+to click on an "OK" button to allow you to see your table.
 
 Using a pop-up for the table allows people to be on multiple tables at
-once.
+once.  So it's slightly more convenient if you set your browser to
+allow https://devctm.com:8081 to create pop-ups, but it's not
+necessary; allowing pop-ups just skips the need to click on an "OK"
+button when a tournament starts.
 
 ### Shareable links
 
 When you're playing on a table, the url that is displayed
 (e.g. `https://devctm.com:8081/event/2/player/2`) is shareable.  Anyone
 who follows that link is then connected to the server with an
-anonymous read-only view of the table (that doesn't use a pop-up).
+anonymous read-only view of the table.
 
 Eventually you'll be connected to a nice page that has a graphical
 view of the table as well as some information about what you're
@@ -86,7 +88,7 @@ currently used, so don't use emojis yet.
 
 So, for example, if you create an account by typing `TestUser` in the
 Username box, after you log out (by closing your lobby window/tab) you
-can then log in with `testuser` or `TEST user` or even `Test User 🤮`.
+can then log in with `testuser` or `TEST user` or even `Test User 😎`.
 For the record, although this is a deliberate feature, I can't
 guarantee that we'll keep it.  It may wind up being too confusing
 and/or annoying.
@@ -185,8 +187,9 @@ aren't require some additional functionality.
 are available.
 
 ```
-Tournaments: barge_nlhe, bourbon, cab, chowaha, f_cancer, hoe, hoser, irish, jof_short_nlo, korean, limit_6,
-limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, six_handed_nlhe, so_mixed_hold_em, tesla, toc
+Tournaments: barge_nlhe, bourbon, cab, chowaha, crazy_irish, f_cancer, hoe, hoser, irish, jof_short_nlo, korean,
+limit_6, limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, sam, six_handed_nlhe, so_mixed_hold_em,
+tesla, toc
 ```
 
 A few of the tournaments listed above are particular to mb2 and have not been spread live as far as I know. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, I believe, so I created CAB to honor them.
@@ -196,8 +199,13 @@ CAB begat MERLOT (Murder, crazy pineapple/Eight, Razzdugi, Lazy pineapple/eight,
 Not everyone likes MERLOT, so on Sunday April 5th, BOURBON (Badugi,
 Omaha high, dUckflush, Razz, Badacey, Omaha/8, NL 2-7 Lowball) was
 introduced as an homage to a particular BARGER's Sunday after BARGE
-parties.p
+parties.
 
+HOSER is Hold'em, Omaha/8, Stud, stud/Eight, action Razz.
+
+SAM is Scrotum, Action razz and Murder.
+
+Crazy Irish is Crazy-pineapple/8 and Irish hold'em.
 
 ## Commands
 
@@ -441,12 +449,15 @@ and a front-end person.
 To be the online poker equivalent of craft beer: fun for everyone,
 including the enthusiasts.
 
-Over twenty years ago, I wrote multibot, which was the first software
-to deal multi-table tournaments on the internet.  I did so for two reasons,
-I wanted to play multi-table tournaments on the internet and I wanted to
-improve my knowlege of Objective-C.  I have written mb2 for two reasons:
-to make money by degamifying gaming and to improve my knowledge of Rust.
+### Origin Story
 
+Over twenty years ago, I wrote multibot, which was the first software
+to deal multi-table tournaments on the internet.  I did so for two
+reasons, I wanted to play multi-table tournaments on the internet and
+I wanted to improve my knowlege of Objective-C.  I have written mb2
+for two reasons: to make money by degamifying gaming and to improve my
+knowledge of Rust.  I've already succeeded in the latter (although I
+have a lot more to learn about Rust).
 
 Made it this far? Go to
 [https://devctm.com:8081](https://devctm.com:8081 "Pre-alpha")
