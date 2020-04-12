@@ -111,19 +111,19 @@ info to hand out ids 90-99 on craftpoker.com.  If that sounds confusing,
 just ask me about it and I'll do a better job explaining.  My nickname
 is `deadhead`.
 
-### The database not yet keeping score
+### Fun Money only partially implemented
 
-Currently, the database logs all incoming data from the client and all
-data generated for tables and players.  However, this is so I can
-track down bugs and have some idea who is helping with the testing.
-Although there are "tournament chips", there's not yet a concept of
-"play money" that will be used for buy-ins and pay-outs of tournaments,
-but there will be, soon.
+Starting April 12th, mb2 internally keeps track of Fun Money that is
+used for tournament buy-ins and payouts as well as for ring game
+participation.  The core of this functionality is implemented and
+deployed, but currently there's almost no exposure through the UI.
 
-So, although the database is recording who is playing and who is
-winning, there's no score being kept just yet.
+When [ring games are
+implemented](https://github.com/ctm/mb2-doc/issues/88), Fun Money will
+be documented and exposed and everyone's bankrolls will be reset.  In
+the meantime, just ignore the amount "won" at the end of a tournament.
 
-### Example
+## Starting Pen Example
 
 If you want to play a TESLA tournament at ten times the speed it was played
 at BARGE in 2019, you'd use these commands in the pen/lobby.  You won't,
@@ -177,10 +177,10 @@ Mb2 internally supports multi-table tournaments, but I haven't written
 the code that balances and breaks tables down, however, that's my next
 item to implement after adding the UI for observing tables.
 
-## Tourneys
+## Pre-built Tournanment Structures
 
-All of the EMBARGO 2020 tournament structures and all but three of the
-BARGE 2019 tournament structures are implemented.  The three that
+All of the [EMBARGO 2020 tournament structures](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2020%20EMBARGO%20Structures.pdf) and all but three of the
+[BARGE 2019 tournament structures](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf) are implemented.  The three that
 aren't require some additional functionality.
 
 `tournament` without an argument lists the tournament structures that
@@ -191,8 +191,7 @@ Tournaments: barge_nlhe, bourbon, cab, chowaha, crazy_irish, f_cancer, hoe, hose
 limit_6, limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, sam, six_handed_nlhe, so_mixed_hold_em,
 tesla, toc
 ```
-
-A few of the tournaments listed above are particular to mb2 and have not been spread live as far as I know. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, I believe, so I created CAB to honor them.
+A few of the tournaments listed above are particular to mb2 and have not been spread live as far as I know. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, so I created CAB to honor them.
 
 CAB begat MERLOT (Murder, crazy pineapple/Eight, Razzdugi, Lazy pineapple/eight, Oklahoma, Two or five omaha/eight), thus allowing some of the more obscure games in the BARGE Rulebook to be played in a tournament structure.
 
@@ -201,11 +200,16 @@ Omaha high, dUckflush, Razz, Badacey, Omaha/8, NL 2-7 Lowball) was
 introduced as an homage to a particular BARGER's Sunday after BARGE
 parties.
 
-HOSER is Hold'em, Omaha/8, Stud, stud/Eight, action Razz.
+Crazy Irish: limit Crazy Pineapple/eight & pot-limit Irish
 
-SAM is Scrotum, Action razz and Murder.
+FRIEND: Five card stud, Razz deuce to seven, Irish, hold 'em/Eight,
+No-limit deuce to seven, Dramaha
 
-Crazy Irish is Crazy-pineapple/8 and Irish hold'em.
+HOSER: Hold'em, Omaha/eight, Stud, stud/Eight, action Razz
+
+SAM: Scrotum, Action razz, Murder
+
+MONTE was the mix tournament played when BARGE was temporarily brought to Washington for [Monte](https://www.barge.org/in-memoriam): pl oMaha8, limit big O, Nlhe, limit Tripledraw, limit omaha Eight
 
 ## Commands
 
