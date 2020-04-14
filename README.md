@@ -57,9 +57,11 @@ button when a tournament starts.
 ### Shareable links
 
 When you're playing on a table, the url that is displayed
-(e.g. `https://devctm.com:8081/event/2/player/2`) is shareable.  Anyone
-who follows that link is then connected to the server with an
-anonymous read-only view of the table.
+(e.g. `https://devctm.com:8081/event/2/player/2`) is shareable.
+Anyone who follows that link is then connected to the server with an
+anonymous read-only view of the table you're playing on. If you get
+transferred to another table, the your observers will be transferred
+too.
 
 Eventually you'll be connected to a nice page that has a graphical
 view of the table as well as some information about what you're
@@ -171,12 +173,6 @@ Lowball). Known deficiencies show up on the [issues
 page](https://github.com/ctm/mb2-doc/issues).
 
 
-## Temporarily [Single Table Only](https://github.com/ctm/mb2-doc/issues/10)
-
-Mb2 internally supports multi-table tournaments, but I haven't written
-the code that balances and breaks tables down, however, that's my next
-item to implement after adding the UI for observing tables.
-
 ## Pre-built Tournanment Structures
 
 All of the [EMBARGO 2020 tournament structures](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2020%20EMBARGO%20Structures.pdf) and all but three of the
@@ -187,9 +183,9 @@ aren't require some additional functionality.
 are available.
 
 ```
-Tournaments: barge_nlhe, bourbon, cab, chowaha, crazy_irish, f_cancer, hoe, hoser, irish, jof_short_nlo, korean,
-limit_6, limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, sam, six_handed_nlhe, so_mixed_hold_em,
-tesla, toc
+Tournaments: barge_nlhe, bourbon, cab, chowaha, crazy_irish, easter, f_cancer, friend, hoe, hoser, irish,
+jof_short_nlo, korean, limit_6, limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, sam,
+six_handed_nlhe, so_mixed_hold_em, tesla, toc, triple_action_stud
 ```
 A few of the tournaments listed above are particular to mb2 and have not been spread live as far as I know. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, so I created CAB to honor them.
 
@@ -209,6 +205,10 @@ HOSER: Hold'em, Omaha/eight, Stud, stud/Eight, action Razz
 
 SAM: Scrotum, Action razz, Murder
 
+EASTER: stud/Eight, Archie, Stud, 2-7 Triple draw, Stud Hi/Lo Regular (no qualifier), Razz 
+
+Triple Action Stud: Stud, Action Razz, Stud/Eight
+
 MONTE was the mix tournament played when BARGE was temporarily brought to Washington for [Monte](https://www.barge.org/in-memoriam): pl oMaha8, limit big O, Nlhe, limit Tripledraw, limit omaha Eight
 
 ## Commands
@@ -227,8 +227,6 @@ help
 status
 join
 quit
-vacation
-back
 game
 tournament
 speed factor
@@ -423,13 +421,6 @@ Eastern).  Someone will help you out.  At the top of the hour (unless
 there are stragglers, but please don't be a straggler), *something*
 will start.  Once you know your way around the software, please help
 out others.  I expect exponential growth, "soon".
-
-Until I add the table balancing and table breakdown code, tourneys
-will be limited to single tables, although multiple tourneys can (and
-are) run concurrently.  I _still_ expect mb2 will be dealing
-multi-table tourneys "soon", but I've been saying that for a while.
-So far there haven't been enough play testers for that to matter, but
-that's changing.
 
 ## Computer Languages, Frameworks and Libraries
 
