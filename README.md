@@ -157,15 +157,17 @@ five_card_draw, five_card_stud, hold_em, hold_em_8, hold_em_short, irish, korean
 london_lowball, miss_8, miss_razz, miss_stud, murder, oklahoma, omaha, omaha_8, omaha_short, omaha_two_or_five_8,
 razz, razz_deuce_to_seven, razzdugi, scrotum, stud, stud_8, stud_high_low
 ```
+### Action Razz
 
 The only game in that list that is not _yet_ in the BARGE Rulebook is
-Action Razz, which is just like Razz, except hand made by a player who
-has a face card will beat any hand made by a player without a face
-card.  The face card does not need to be in the made hand, so A2345
-where at least one of the two remaining cards is a Jack, Queen or King
-is the nuts, and even the incredibly unlikely seven cards of AAAAKKK
-beats A234567, because the former has a face card and the latter
-doesn't.
+Action Razz, which is just like
+[Razz](http://www.ceemeck.org/BARGERuleBook2019/WSOPgames.html#razz),
+except any hand made by a player who has a face card will beat any
+hand made by a player without a face card.  The face card does not
+need to be in the made hand, so A2345 where at least one of the two
+remaining cards is a Jack, Queen or King is the nuts, and even the
+incredibly unlikely seven cards of KKKKQQQ beats A234567, because the
+former has a face card and the latter doesn't.
 
 A couple of the games that are available have missing functionality
 (e.g., mb2 doesn't yet enforce the "sevens rule" in California
