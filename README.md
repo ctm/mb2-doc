@@ -185,8 +185,8 @@ aren't require some additional functionality.
 are available.
 
 ```
-Tournaments: barge_nlhe, bourbon, cab, chowaha, crazy_irish, easter, f_cancer, friend, hoe, hoser, irish,
-jof_short_nlo, korean, limit_6, limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, sam,
+Tournaments: action_razz, barge_nlhe, bourbon, cab, chowaha, crazy_irish, easter, f_cancer, friend, hoe, hoser, irish,
+jof_short_nlo, korean, limit_6, limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, razz, sam,
 six_handed_nlhe, so_mixed_hold_em, tesla, toc, triple_action_stud
 ```
 A few of the tournaments listed above are particular to mb2 and have not been spread live as far as I know. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, so I created CAB to honor them.
@@ -212,6 +212,10 @@ EASTER: stud/Eight, Archie, Stud, 2-7 Triple draw, Stud Hi/Lo Regular (no qualif
 Triple Action Stud: Stud, Action Razz, Stud/Eight
 
 MONTE was the mix tournament played when BARGE was temporarily brought to Washington for [Monte](https://www.barge.org/in-memoriam): pl oMaha8, limit big O, Nlhe, limit Tripledraw, limit omaha Eight
+
+Action Razz is nothing but Action Razz
+
+Razz is nothing but Razz
 
 ## Commands
 
