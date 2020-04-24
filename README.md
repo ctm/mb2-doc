@@ -175,7 +175,7 @@ Lowball). Known deficiencies show up on the [issues
 page](https://github.com/ctm/mb2-doc/issues).
 
 
-## Pre-built Tournanment Structures
+## Pre-built Tournament Structures
 
 All of the [EMBARGO 2020 tournament structures](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2020%20EMBARGO%20Structures.pdf) and all but three of the
 [BARGE 2019 tournament structures](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf) are implemented.  The three that
@@ -189,6 +189,8 @@ Tournaments: action_razz, barge_nlhe, bourbon, cab, chowaha, crazy_irish, easter
 jof_short_nlo, korean, limit_6, limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, razz, sam,
 six_handed_nlhe, so_mixed_hold_em, tesla, toc, triple_action_stud
 ```
+### Mixes of Games
+
 A few of the tournaments listed above are particular to mb2 and have not been spread live as far as I know. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, so I created CAB to honor them.
 
 CAB begat MERLOT (Murder, crazy pineapple/Eight, Razzdugi, Lazy pineapple/eight, Oklahoma, Two or five omaha/eight), thus allowing some of the more obscure games in the BARGE Rulebook to be played in a tournament structure.
@@ -213,9 +215,56 @@ Triple Action Stud: Stud, Action Razz, Stud/Eight
 
 MONTE was the mix tournament played when BARGE was temporarily brought to Washington for [Monte](https://www.barge.org/in-memoriam): pl oMaha8, limit big O, Nlhe, limit Tripledraw, limit omaha Eight
 
-Action Razz is nothing but Action Razz
+jadc_234: Hold'em, Crazy Pineapple/eight, Omaha/eight
 
-Razz is nothing but Razz
+### Single Game
+
+Action Razz
+
+Binglaha
+
+Razz
+
+plhe_wtb_lammers: Pot-Limit Hold'em, Win-the-Button, using lammers
+
+big_o_lammers: Big O, using lammers
+
+big_o_no_lammers: Big O, no lamers
+
+dramaha_3d: Triple Draw Dramaha
+
+pl_big_o_wtb_lammers: Pot-Limit Big O, Win-the-Button, using lammers
+
+## Lammers
+
+Some of the tournament structures (typically only big-bet) include lammers
+in addition to starting chips.  Each lammer is worth a fixed amount and
+can be used in three different ways:
+
+### Manual Redemption
+
+The redeem command (requires use of the command text box) takes a
+single numeric argument that specifies how many lammers you wish to
+redeem (e.g., `redeem 2`).
+
+If you are in a hand, the redemption will happen at the end of that
+hand.  If you have a redemption scheduled for the end of the hand and
+you change your mind you can use `redeem 0`.
+
+If you're not in a hand, the redemption will happen immediately and can
+not be reverted.
+
+### Resurrection
+
+If you bust and you have one or more lammers left, exactly one lammer
+will be cashed in and you'll be back in the game with the amount of
+chips that lammer is worth.
+
+### Forced Redemption
+
+Typically there's a final level where lammers are allowed and if you
+finish that level, all lammers you have are redeemed for you (and all
+your opponents) automatically.
 
 ## Commands
 
@@ -239,7 +288,6 @@ speed factor
 secs-to-act seconds
 timeout-secs seconds
 start
-redeem n_lammers_to_redeem
 ```
 
 Vacation is a state you can be on where you will check whenever
@@ -321,8 +369,87 @@ bet [amount | pot | half]
 raise [amount | pot | half]
 ```
 
-Use `time` if you need more time to think.  You'll get an extra minute.  There
-is currently no limit to how often you can use the time command.
+#### Fold
+
+If you you check the `Fold` check-box, when it's your turn to act, you
+will fold, even if it's checked toy you.
+
+#### Check
+
+If you check the `Check` check-box, when it's your turn to act, you will
+check if there's no action to you. If there is action, you will have to
+choose a different option.
+
+#### Call
+
+If you check the `Call` check-box at the top of the `Call` column, you will
+call _any_ action to you, whether it's a bet, raise, re-raise, etc.
+
+If you put a number inside the text-box at the bottom of the `Call` column,
+you will call any action up to and including that number of chips.  If the
+action to you is more than that number, you will have to choose a different
+option.
+
+#### Bet
+
+Betting is the initiation of action, all four options in the `Bet` column
+behave the same way in that when it's your turn to act, if there's already
+a bet to you, none of the `Bet` options will be exercised, instead you'll
+have to choose a different option.  This can be handy if you want to make
+a bet, but only if you're first to act.
+
+The other way in which all four options are similar is that what you are
+specifying is the maximum you'd like to bet, but if there's a restriction
+that prevents you from betting that much, you'll bet the maximum you're
+allowed to bet.  The two restrictions are your chip count and whatever
+type of limit you're using (e.g., pot-limit).  If, for example, you
+click on the `Pot` check-box, and there's 600 in the pot, but you only have
+500, if it gets to you and there's no bet, you will bet 500 and go all-in.
+
+The distinction between between the four entries in the `Bet` column is
+the top-most one will try to have you bet the minimum.  The one below
+that that, labeled `Pot` will try to have you bet the amount currently
+in the pot.  `Half` will try half the pot amount.  If you place a number
+in the text-box at the bottom of the `Bet` column, you will try to bet
+that amount, subject to the caveat in the previous paragraph.
+
+#### Raise
+
+Raise behaves almost like Bet. The big distinction is that Raise will take
+effect _whether or not_ you have action to you.  So if you click the top-most
+check-box in the `Raise` column, when it's your turn to act, you will either
+bet the minimum if there's no action to you, or raise the minimum if there
+is already a bet, raise or re-raise to you.
+
+#### Make
+
+If you use `raise 2000` as an advanced action, you will bet or raise
+2000 (if that's an acceptable raise) when it is your turn to ask, so
+if it's checked to you, you'll make it 2000, but if someone bets 1,000
+and then someone else raises 2,000, then you'll raise 2,000 and the
+total bet will be 5,000.  If your desire is to raise however much is
+required to make the total bet 2,000, you can uses `make 2000`.
+
+Just like Bet and Raise, if you try to make the action a value that is
+higher than you're allowed to bet or raise, you'll bet the maximum
+you're allowed to bet or raise.  So, if there's 500 in the pot and
+you're playing pot-limit and you choose "make 2000", you will bet 500
+(assuming you have 500 or more in chips), since that's the max you're
+allowed to bet.
+
+#### Jam
+
+Jam simply tries to bet the maximum you're allowed to bet.  In a
+no-limit game, you get all your chips in.  In a pot-limit game, you
+get as many as your chips are in, but limited by the size of the pot,
+etc.
+
+### Commands that currently require use of the command box
+
+
+Use `time` (or its abbreviation `t`) if you need more time to think.
+You'll get an extra minute.  There is currently no limit to how often
+you can use the time command.
 
 #### What to reveal at showdown
 
@@ -352,15 +479,6 @@ act.  If you realize you don't want that command to be applied, you
 can use `undo` to clear all your advance commands or more narrowly
 `undo action`, `undo reveal` or `undo discard` to just undo that
 aspect of your advance requests.
-
-#### `make`
-
-If you use `raise 2000` as an advanced action, you will bet or raise
-2000, if that's an acceptable raise, when it is your turn to ask, so
-if it's checked to you, you'll make it 2000, but if someone bets 1,000
-and then someone else raises 2,000, then you'll raise 2,000 and the
-total bet will be 5,000.  If your desire is to raise however much is
-required to make the total bet 2,000, you can uses `make 2000`.
 
 #### Rebuy Tournaments
 
@@ -455,7 +573,7 @@ including the enthusiasts.
 Over twenty years ago, I wrote multibot, which was the first software
 to deal multi-table tournaments on the internet.  I did so for two
 reasons, I wanted to play multi-table tournaments on the internet and
-I wanted to improve my knowlege of Objective-C.  I have written mb2
+I wanted to improve my knowledge of Objective-C.  I have written mb2
 for two reasons: to make money by degamifying gaming and to improve my
 knowledge of Rust.  I've already succeeded in the latter (although I
 have a lot more to learn about Rust).
