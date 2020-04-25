@@ -387,8 +387,7 @@ call _any_ action to you, whether it's a bet, raise, re-raise, etc.
 
 If you put a number inside the text-box at the bottom of the `Call` column,
 you will call any action up to and including that number of chips.  If the
-action to you is more than that number, you will have to choose a different
-option.
+action to you is more than that number, you will fold.
 
 #### Bet
 
