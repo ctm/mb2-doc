@@ -185,13 +185,17 @@ aren't require some additional functionality.
 are available.
 
 ```
-Tournaments: action_razz, barge_nlhe, bourbon, cab, chowaha, crazy_irish, easter, f_cancer, friend, hoe, hoser, irish,
-jof_short_nlo, korean, limit_6, limit_he_win_the_button, merlot, monte, oklahoma, pl_horse, plo, razz, sam,
-six_handed_nlhe, so_mixed_hold_em, tesla, toc, triple_action_stud
+Tournaments: action_razz, ar_plh_wtb, badeucy5s, badeusix, badugi_ps, barge_nlhe, batshit, big_o_lammers,
+big_o_no_lammers, binglaha, bourbon, cab, chowaha, cob, crazy_irish, dfar, dramaha_3d, easter, f_cancer, friend, hoe,
+hoser, irish, jadc_234, jof_short_nlo, korean, limit_6, limit_he_win_the_button, merlot, monte, oklahoma,
+pl_big_o_wtb_lammers, pl_horse, plhe_wtb_lammers, plhe_wtb_no_lammers, plo, razz, rmo1, sam, six_handed_nlhe,
+so_mixed_hold_em, tesla, toc, triple_action_stud, trobe
 ```
 ### Mixes of Games
 
-A few of the tournaments listed above are particular to mb2 and have not been spread live as far as I know. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, so I created CAB to honor them.
+MONTE was the mix tournament played when BARGE was temporarily brought to Washington for [Monte](https://www.barge.org/in-memoriam): pl oMaha8, limit big O, Nlhe, limit Tripledraw, limit omaha Eight
+
+Most of the tournaments listed above are particular to mb2 and have not been spread live. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, so I created CAB to honor them.
 
 CAB begat MERLOT (Murder, crazy pineapple/Eight, Razzdugi, Lazy pineapple/eight, Oklahoma, Two or five omaha/eight), thus allowing some of the more obscure games in the BARGE Rulebook to be played in a tournament structure.
 
@@ -200,24 +204,47 @@ Omaha high, dUckflush, Razz, Badacey, Omaha/8, NL 2-7 Lowball) was
 introduced as an homage to a particular BARGER's Sunday after BARGE
 parties.
 
+Eventually, I adopted the policy of allowing the winner of the evening
+test tournament to choose the following evening's test tournament.
+Such a request could include a new mix and maybe even a tiny feature.
+This resulted in an explosion of structures, both mixes, presented
+here, and single-game, presented below.
+
+ar_plh_wtb: Action Razz and Pot-Limit Hold'em Win-the-Button
+
+badeucy5s: Badeucy & 5-card Stud
+
+badeusix: Limit 2-7 Triple Draw, Limit Omaha/8, Limit Badeucy, Limit
+Seven Card Stud, Limit Seven Card Stud/8, Pot-Limit Omaha
+
+BATSHIT: Baduecy, Action razz, 2-7 Triple draw, Stud, Hold'em, Irish,  2-7 Triple draw
+
+COB: Pot-Limit Courchevel, Pot-Limit Omaha, Pot-Limit Big-O
+
 Crazy Irish: limit Crazy Pineapple/eight & pot-limit Irish
+
+DFAR: Duck Flush & Action Razz
+
+EASTER: stud/Eight, Archie, Stud, 2-7 Triple draw, Stud Hi/Lo Regular (no qualifier), Razz 
 
 FRIEND: Five card stud, Razz deuce to seven, Irish, hold 'em/Eight,
 No-limit deuce to seven, Dramaha
 
 HOSER: Hold'em, Omaha/eight, Stud, stud/Eight, action Razz
 
+rmo1: Hold'em, Omaha/eight, Razzdugi
+
 SAM: Scrotum, Action razz, Murder
 
-EASTER: stud/Eight, Archie, Stud, 2-7 Triple draw, Stud Hi/Lo Regular (no qualifier), Razz 
+TrOBE: 27 Triple Draw, limit BigO8, Baduecy, Stud/8
 
 Triple Action Stud: Stud, Action Razz, Stud/Eight
-
-MONTE was the mix tournament played when BARGE was temporarily brought to Washington for [Monte](https://www.barge.org/in-memoriam): pl oMaha8, limit big O, Nlhe, limit Tripledraw, limit omaha Eight
 
 jadc_234: Hold'em, Crazy Pineapple/eight, Omaha/eight
 
 ### Single Game
+
+badugi_ps: Badugi, with the same structure as Badugi on PS
 
 Action Razz
 
@@ -234,6 +261,12 @@ big_o_no_lammers: Big O, no lamers
 dramaha_3d: Triple Draw Dramaha
 
 pl_big_o_wtb_lammers: Pot-Limit Big O, Win-the-Button, using lammers
+
+plhe_wtb_lammers: Pot-Limit Hold'em Win-the-Button, using lammers
+
+plhe_wtb_no_lammers: Pot-Limit Hold'em Win-the-Button, without lammers
+
+Razz
 
 ## Lammers
 
@@ -298,21 +331,12 @@ vacation with `vacation` and you can take yourself off vacation with
 `game` and `tournament` will list the choices you can have for
 games and tournaments.
 
-With `game` you can supply an additional argument to specify which
-game, e.g., `game holdem`. If you do that, you'll get the default
-betting structure for that game (no-limit for Hold'em).  If you want
-to specify the betting structure, you can add `potlimit`, `nolimit` or
-two integers representing the small-bet and the big-bet in a split
-limit (also known as fixed limit) structure.
-
-```
-game holdem 5 10
-Game changed to 5 10 Hold 'em by deadhead
-```
-There are no commands to change the size of the blinds.  The small
-blind will be one half of the small bet and the big blind will be the
-same size as the small bet.  There are no commands to change the
-number of starting chips. You'll get 15,000.
+However, currently the only way you can play games is in tournaments,
+because ring game support is not finished.  It's useful to list the
+various games though because the tradition is the winner of the
+evening tournament gets to pick the following evening's tournament,
+which can include asking for a new mix, but generally doesn't extend
+to asking for a new game.
 
 By default, when it's your time to act, you get 30 seconds before
 you're put on vacation. If you use the `time` command, by default you
