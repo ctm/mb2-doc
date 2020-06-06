@@ -3,71 +3,81 @@
 Mb2 is Cliff Matthews's poker software.
 
 If you don't like reading, you can go to
-[https://devctm.com:8081](https://devctm.com:8081 "Pre-alpha")
+[https://devctm.com](https://devctm.com "Pre-alpha")
 and start playing now.
 
-Eventually mb2 will have slick skinnable clients for a variety of
-platforms, but it's being developed from the inside out, so although
-it has excellent game mechanics, its UI is currently amazingly bad:
+If nobody is around, just create a tournament using the plus sign in
+the lobby, then join it, create another account, have the second
+account join the tournament also and ... wait for the tournament to
+start.  Yes, that's cumbersome, so I'll create a one-button demo,
+but not just yet.
 
-![Horrible Text-base Interface](./table-with-advanced-action-check-boxes.png "Room for Improvement")
+Eventually mb2 will have slick, skinnable interface, but it's being
+developed from the inside out, so although it has excellent game
+mechanics, its UI is currently amazingly bad
+
 Although all of the advanced action possibilities are exposed through
 the rudimentary set of check-boxes, other things a player might need
-to do (e.g., discard cards) still require the command line.
+to do (e.g., discard cards) still require the command line, although that
+is changing "soon".
 
 ### Closed source
 
 Mb2 is closed source, because it's hard to put toothpaste back in the
 tube.  I'm monetizing mb2 and exploring closed source solutions first.
-I'm also investigating ways in which I can make the source open, but
-it's trivial to go from closed to open and impossible to do the
-reverse.
+There are ways in which I can still make money and make the source
+open, but it's trivial to go from closed to open and impossible to do
+the reverse.
 
 ### Public documentation
 
 This repository exists primarily as a place for me to publicly [track
-issues](https://github.com/ctm/mb2-doc/issues) as friends and family
-use mb2.  Secondarily, it has a little more documentation than is
-provided by the help commands from the client.
+issues](https://github.com/ctm/mb2-doc/issues) as more people use
+mb2.  Secondarily, it contains this "documentation" (which may be out
+of date).
 
-## Web-only (mostly text-only interface using pop-ups)
+## Web-only (using pop-ups)
 
-Mb2 is temporarily accessed via a mostly-text web interface.  I'm
-slowly adding UI elements.  However, I'm not a visual person, so I'm
-making no attempt to do graphic design.  Instead, I'm slowly scraping
-up some investment to pay a professional front-end developer or two to
-create something elegant and ergonomic.
+Mb2 is accessed via a web interface.  Initially the interface was
+text-only, but I'm slowly adding UI elements.  However, I'm not a
+visual person, so I'm making no attempt to do graphic design.
+Instead, I'm scraping up some investment to pay a professional
+front-end developer or two to create something elegant and ergonomic.
 
 ### Pop-ups used for tables
 
-When you first log in, you're in the starting pen, a place where
-people can crudely set up and start tournaments.  Once a tournament is
-started, all players registered for that tournament will get a
-pop-up window for the table that they're assigned to, unless their
-browser blocks pop-ups.  If the browser blocks the table pop-up,
-a dialog will appear that tells you what happened and allows you
-to click on an "OK" button to allow you to see your table.
+When you first log in, you're in the lobby, a place where
+people can join and set up tournaments.  Currently all tournaments are
+started by time.  When a tournament is created it has a "start at"
+attribute that specifies when the tournament will start.  Sit-n-gos
+(and ring games) will be added, but there are higher priority issues
+to complete first.
+
+When a tournament starts, all players registered for that tournament
+get a pop-up window for the table that they're assigned to, unless
+their browser blocks pop-ups.  If the browser blocks the table pop-up,
+a dialog will appear that tells you what happened and allows you to
+click on an "OK" button create your table.
 
 Using a pop-up for the table allows people to be on multiple tables at
 once.  So it's slightly more convenient if you set your browser to
-allow https://devctm.com:8081 to create pop-ups, but it's not
+allow https://devctm.com to create pop-ups, but it's not
 necessary; allowing pop-ups just skips the need to click on an "OK"
 button when a tournament starts.
 
 ### Shareable links
 
 When you're playing on a table, the url that is displayed
-(e.g. `https://devctm.com:8081/event/2/player/2`) is shareable.
+(e.g. `https://devctm.com/event/78/player/10`) is shareable.
 Anyone who follows that link is then connected to the server with an
 anonymous read-only view of the table you're playing on. If you get
-transferred to another table, the your observers will be transferred
+transferred to another table, your observers will be transferred
 too.
 
-Eventually you'll be connected to a nice page that has a graphical
-view of the table as well as some information about what you're
-observing and how to create an account so that you can play yourself
-or at least root the person on you're observing.  For now, the url
-sharing is proof-of-concept.
+Currently this feature is mostly a curiosity.  You probably only want
+to share your url with someone who is prepared to see the incredibly
+rough interface.  However, as the interface improves, the shared
+experience improves.
 
 ### Usernames
 
@@ -106,7 +116,7 @@ increased the chance of me having written this server, even though
 their influence has mostly been indirect.
 
 I will reward early play-testers with low player ids on craftpoker.com
-when it goes live.  On https://devctm.com:8081 player ids are handed
+when it goes live.  On https://devctm.com player ids are handed
 out sequentially, but the database is recording enough information for
 for me to know who is testing and who isn't.  I'll use that, and other,
 info to hand out ids 90-99 on craftpoker.com.  If that sounds confusing,
@@ -115,59 +125,140 @@ is `deadhead`.
 
 ### Fun Money only partially implemented
 
-Starting April 12th, mb2 internally keeps track of Fun Money that is
-used for tournament buy-ins and payouts as well as for ring game
-participation.  The core of this functionality is implemented and
-deployed, but currently there's almost no exposure through the UI.
+Since mid April, mb2 has internally been keeping track of Fun Money
+that is used for tournament buy-ins and payouts. Although the core of
+this functionality is implemented and deployed, there's currently
+almost no exposure through the UI.
 
 When [ring games are
 implemented](https://github.com/ctm/mb2-doc/issues/88), Fun Money will
-be documented and exposed and everyone's bankrolls will be reset.  In
-the meantime, just ignore the amount "won" at the end of a tournament.
+be documented and exposed and everyone's bankrolls will be reset.
 
-## Starting Pen Example
+## Lobby
 
-If you want to play a TESLA tournament at ten times the speed it was played
-at BARGE in 2019, you'd use these commands in the pen/lobby.  You won't,
-however, be allowed to start until there are at least two players.  If you
-want to see it running, just use two tabs and create two players.
+After you sign in, you'll be in the lobby, where you can see which
+tables have players on them and what upcoming tournaments are available
+to join.  There's also a small white plus that you can click on to create
+your own tournament.
 
-```
-tournament tesla
-speed 10
-join
-start
-```
+![Lobby](./lobby.png "Lobby")
 
-## Already knows many poker variants
 
-I'd like mb2 to be able to deal close analogs to all the [BARGE 2019
-tournaments](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf) as well as the [EMBARGO 2020 tournaments](https://www.barge.org/schedule1).
+The first line in the lobby is the nickname you've logged in as.  You may
+have more than one nickname, but please don't use multiple nicknames to
+mislead, collude or dump chips.
 
-Albeit with a few nits, mb2 already deals all the games in the [BARGE
-2019 Rule Book](http://www.ceemeck.org/BARGERuleBook2019/).
+The second line lists the others logged in.
 
-`game`
-without an argument lists the games that are at available:
+If any tables are active, each gets a row with the table id and a list
+of the players at that table.  The table id itself is a link.  If you
+click on it, you'll get a pop-up that allows you to observe that table.
 
-```
-Games: ace_to_five_3d, action_razz, archie, badacey, badeucy, badugi, big_o, binglaha, ca_lowball, chowaha,
-chowaha_four_8, courchevel, crazy_pine_8, deuce_to_seven, deuce_to_seven_3d, dramaha, dramaha_3d, duck_flush,
-five_card_draw, five_card_stud, hold_em, hold_em_8, hold_em_short, irish, korean, lazy_pine, lazy_pine_8,
-london_lowball, miss_8, miss_razz, miss_stud, murder, oklahoma, omaha, omaha_8, omaha_short, omaha_two_or_five_8,
-razz, razz_deuce_to_seven, razzdugi, scrotum, stud, stud_8, stud_high_low
-```
-### Action Razz
+Any upcoming tournaments that you're allowed to join are then
+listed. To join, click the check-box.  If you change your mind, before
+the tournament starts, just click the check-box again.
 
-The only game in that list that is not _yet_ in the BARGE Rulebook is
-Action Razz, which is just like
-[Razz](http://www.ceemeck.org/BARGERuleBook2019/WSOPgames.html#razz),
-except any hand made by a player who has a face card will beat any
-hand made by a player without a face card.  The face card does not
-need to be in the made hand, so A2345 where at least one of the two
-remaining cards is a Jack, Queen or King is the nuts, and even the
-incredibly unlikely seven cards of KKKKQQQ beats A234567, because the
-former has a face card and the latter doesn't.
+When you join a tournament there may be esoteric options that you can
+choose via a pull-down in the right most column.  They should be
+self-explanatory.  Above that column is the little white plus sign
+that brings up the tournament creation modal dialog (see below).
+
+The column labeled `#` is the number of players currently signed up.  If
+you want to see which players are signed up, bring your cursor over that
+number and the entrants' nicknames will be revealed.
+
+The starting time is in the timezone that your browser is configured
+to display.  That's normally the timezone you're in, but check the
+three letter timezone abbreviation to be sure.
+
+A synopsis of the tournament structure is in the `Tournament` column.
+If you bring your cursor over the synopsis, more details will drop
+down.
+
+The rest of the lobby is chat and a box for you to enter chat.  All
+chat is logged, however, currently only chat that occurs after you
+sign in will be displayed.  That's pretty poor behavior and will be
+improved.
+
+
+### Creation of a new tournament
+
+If you click on the white plus small icon, you get the following dialog:
+
+![Create Tournament](./create-tournament.png "Create Tournament")
+
+The Structure attribute is a pull-down menu from one of approximately
+50 pre-existing tournament structures.  Currently you can not create your
+own structure, although traditionally the winner of the 5pm PDT tournament
+gets to pick the following day's tournaments and may request a new
+structure.
+
+Tournaments that are created for testing or demo purposes should be
+Free, since free tournaments don't affect anyone's standings.
+Tournaments where people are expected to play well should probably
+have a 100 buy-in if for no other reason than to make it clear that
+the participants will be taking the tournament seriously.
+
+Adding a comment is optional.  If you add a comment, it will show up
+when people hover over the tournament structure in the listing of
+upcoming tournaments.
+
+Start At is in the same timezone as upcoming tournaments are displayed in.
+That's whatever your browser thinks your timezone is.  The first time
+you bring up the "Add a Tournament" dialog, "Start At" is pre-populated
+with a value that is ten minutes into the future.  However, after that,
+the dialog simply remembers whatever value was in that field previously.
+
+Round Duration (Minutes) is in essence a scaling factor.  In most
+tournaments, all rounds are the same length.  When create a new tournament
+and specify the round duration, what you're _really_ doing is saying how
+long you want the first round to be.  If any rounds have a different duration
+from the duration of the first round, they'll be scaled.
+
+So, if there's a structure where the odd numbered rounds are 20 minutes
+and the even numbered rounds are 30 minutes, if you specify Round
+Duration as 5 minutes, then you'll have a tournament where the odd
+numbered rounds are 5 minutes and the even ones are 7.5 minutes.
+
+The TOC (Tournament of Champions) style format has a 15 minute Hold'em
+first round, an 18 minute Stud second round and a 22 minute Omaha/8
+third round.  So, if "Round Duration (Minutes)" is set to 5, then the
+second round will be 6 minutes and the third round will be seven
+minutes, twenty seconds long.
+
+For a dozen or so players, five minute rounds for most structures results
+in a tournament that finishes in about an hour and a half.
+
+Seconds to Act is how much time a player gets to act before being sent
+to vacation.  No, 999 is not a reasonable number of "Seconds to Act".
+Typically we use 45 there and that's the default when this dialog comes
+up.
+
+A player may call time to get more time to act.  There currently is no
+limit on how many times a player can call time.  Calling time resets
+the number of seconds to act (it does _not_ add to the number of
+seconds to act).  So, if "Seconds to Act after calling Time" is set to
+60, calling time will mean that the player must act within 60 seconds
+regardless of how much time to act the player had remaining.
+
+Schedules have breaks built into them, and like Round Duration, they
+scale based on the same ration of the "Round Duration (Minutes)"
+setting to the duration of the first level in the structure.  That can
+result in breaks that would be too short were it not for the "Minimum
+Break Duration in Minutes" setting.  However, the duration of a break
+is like the duration of a round in that it can start in the middle of
+a hand. The players who are still in the hand still need to finish the
+hand.
+
+## Knows many poker variants
+
+Mb2 can deal close analogs to almost all the [BARGE 2019
+tournaments](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf)
+as well as the [EMBARGO 2020
+tournaments](https://www.barge.org/schedule1).
+
+Albeit with a few nits, mb2 already knows how to deal all the games in
+the [BARGE 2019 Rule Book](http://www.ceemeck.org/BARGERuleBook2019/).
 
 A couple of the games that are available have missing functionality
 (e.g., mb2 doesn't yet enforce the "sevens rule" in California
@@ -181,98 +272,15 @@ All of the [EMBARGO 2020 tournament structures](https://irp-cdn.multiscreensite.
 [BARGE 2019 tournament structures](https://irp-cdn.multiscreensite.com/7fa840da/files/uploaded/2019_BARGE_structures%20v2.pdf) are implemented.  The three that
 aren't require some additional functionality.
 
-`tournament` without an argument lists the tournament structures that
-are available.
-
-```
-Tournaments: action_razz, ar_plh_wtb, badeucy5s, badeusix, badugi_ps, barge_nlhe, batshit, big_o_lammers,
-big_o_no_lammers, binglaha, bourbon, cab, chowaha, cob, crazy_irish, dfar, dramaha_3d, easter, f_cancer, friend, hoe,
-hoser, irish, jadc_234, jof_short_nlo, korean, limit_6, limit_he_win_the_button, merlot, monte, oklahoma,
-pl_big_o_wtb_lammers, pl_horse, plhe_wtb_lammers, plhe_wtb_no_lammers, plo, razz, rmo1, sam, six_handed_nlhe,
-so_mixed_hold_em, tesla, toc, triple_action_stud, trobe
-```
-### Mixes of Games
-
-MONTE was the mix tournament played when BARGE was temporarily brought to Washington for [Monte](https://www.barge.org/in-memoriam): pl oMaha8, limit big O, Nlhe, limit Tripledraw, limit omaha Eight
-
-Most of the tournaments listed above are particular to mb2 and have not been spread live. The first was CAB, which is Chowaha, Action Razz and Binglaha.  All three of those games were created by BARGErs, so I created CAB to honor them.
-
-CAB begat MERLOT (Murder, crazy pineapple/Eight, Razzdugi, Lazy pineapple/eight, Oklahoma, Two or five omaha/eight), thus allowing some of the more obscure games in the BARGE Rulebook to be played in a tournament structure.
-
-Not everyone likes MERLOT, so on Sunday April 5th, BOURBON (Badugi,
-Omaha high, dUckflush, Razz, Badacey, Omaha/8, NL 2-7 Lowball) was
-introduced as an homage to a particular BARGER's Sunday after BARGE
-parties.
-
-Eventually, I adopted the policy of allowing the winner of the evening
-test tournament to choose the following evening's test tournament.
-Such a request could include a new mix and maybe even a tiny feature.
-This resulted in an explosion of structures, both mixes, presented
-here, and single-game, presented below.
-
-ar_plh_wtb: Action Razz and Pot-Limit Hold'em Win-the-Button
-
-badeucy5s: Badeucy & 5-card Stud
-
-badeusix: Limit 2-7 Triple Draw, Limit Omaha/8, Limit Badeucy, Limit
-Seven Card Stud, Limit Seven Card Stud/8, Pot-Limit Omaha
-
-BATSHIT: Baduecy, Action razz, 2-7 Triple draw, Stud, Hold'em, Irish,  2-7 Triple draw
-
-COB: Pot-Limit Courchevel, Pot-Limit Omaha, Pot-Limit Big-O
-
-Crazy Irish: limit Crazy Pineapple/eight & pot-limit Irish
-
-DFAR: Duck Flush & Action Razz
-
-EASTER: stud/Eight, Archie, Stud, 2-7 Triple draw, Stud Hi/Lo Regular (no qualifier), Razz 
-
-FRIEND: Five card stud, Razz deuce to seven, Irish, hold 'em/Eight,
-No-limit deuce to seven, Dramaha
-
-HOSER: Hold'em, Omaha/eight, Stud, stud/Eight, action Razz
-
-rmo1: Hold'em, Omaha/eight, Razzdugi
-
-SAM: Scrotum, Action razz, Murder
-
-TrOBE: 27 Triple Draw, limit BigO8, Baduecy, Stud/8
-
-Triple Action Stud: Stud, Action Razz, Stud/Eight
-
-jadc_234: Hold'em, Crazy Pineapple/eight, Omaha/eight
-
-### Single Game
-
-badugi_ps: Badugi, with the same structure as Badugi on PS
-
-Action Razz
-
-Binglaha
-
-Razz
-
-plhe_wtb_lammers: Pot-Limit Hold'em, Win-the-Button, using lammers
-
-big_o_lammers: Big O, using lammers
-
-big_o_no_lammers: Big O, no lamers
-
-dramaha_3d: Triple Draw Dramaha
-
-pl_big_o_wtb_lammers: Pot-Limit Big O, Win-the-Button, using lammers
-
-plhe_wtb_lammers: Pot-Limit Hold'em Win-the-Button, using lammers
-
-plhe_wtb_no_lammers: Pot-Limit Hold'em Win-the-Button, without lammers
-
-Razz
+It is not currently possible to directly inspect (much less edit) the
+composition of the mixes that are used in tournament structures.  The
+synopsis should present that information.
 
 ## Lammers
 
-Some of the tournament structures (typically only big-bet) include lammers
-in addition to starting chips.  Each lammer is worth a fixed amount and
-can be used in three different ways:
+Some of the tournament structures (typically limited to big-bet)
+include lammers in addition to starting chips.  Each lammer is worth a
+fixed amount and can be used in three different ways:
 
 ### Manual Redemption
 
@@ -299,57 +307,11 @@ Typically there's a final level where lammers are allowed and if you
 finish that level, all lammers you have are redeemed for you (and all
 your opponents) automatically.
 
-## Commands
+## Table
 
-"Soon", mb2 will have sign-up lists for tournaments and ring
-games, but now there's a single starting pen that is used just for
-testing.  There are commands you use to set up what game/tournament is
-to be started next and then there are commands that are used while
-you're playing.  Multiple games and tournaments can run simultaneously.
 
-### Starting Pen Commands
+![Horrible Text-base Interface](./table-with-advanced-action-check-boxes.png "Room for Improvement")
 
-The pen commands are:
-```
-help
-status
-join
-quit
-game
-tournament
-speed factor
-secs-to-act seconds
-timeout-secs seconds
-start
-```
-
-Vacation is a state you can be on where you will check whenever
-possible but fold to any action. You can voluntarily put yourself on
-vacation with `vacation` and you can take yourself off vacation with
-`back`, although any command will take you off vacation.
-
-`game` and `tournament` will list the choices you can have for
-games and tournaments.
-
-However, currently the only way you can play games is in tournaments,
-because ring game support is not finished.  It's useful to list the
-various games though because the tradition is the winner of the
-evening tournament gets to pick the following evening's tournament,
-which can include asking for a new mix, but generally doesn't extend
-to asking for a new game.
-
-By default, when it's your time to act, you get 30 seconds before
-you're put on vacation. If you use the `time` command, by default you
-get an additional 60 seconds.  Those two values can be changed in the
-starting pen (but can not be changed once the tournament has started)
-by the `secs-to-act` and the `timeout-secs` commands, respectively.
-Both of those commands take a single positive integer argument
-specifying how many seconds.
-
-If you want to try the TESLA structure, you'd use `tournament tesla`
-TESLA uses 20 minute rounds.  If you'd like to use 2 minute rounds, use
-`speed 10` to play the tournament ten times faster (i.e. the duration
-is one tenth normal).
 
 ### In Game Commands
 
@@ -552,22 +514,30 @@ Instead of typing the entire command, you can usually abbreviate:
 
 ## Play-testing
 
-With a lot of bored people stuck at home, I'm now organizing games
-at 5pm Pacific time every day. Currently we have about a half dozen
-core players, but new people drop in almost every day and this site
-is still _largely_ flying under the radar.
-
-I'm working toward [unsupervised
-play-testing](https://github.com/ctm/mb2-doc/milestone/1), but I've
-been doing a ton of
-[yak-shaving](https://www.techopedia.com/definition/15511/yak-shaving).
+There's a 5pm Pacific time every day. Currently we have about a dozen
+core players, but new people drop in almost every day and this site is
+still _largely_ flying under the radar.
 
 If you're curious, show up a ten or fifteen minutes before the start
 of the game (5pm Pacific is 6pm Mountain, 7pm Central and 8pm
-Eastern).  Someone will help you out.  At the top of the hour (unless
-there are stragglers, but please don't be a straggler), *something*
-will start.  Once you know your way around the software, please help
-out others.  I expect exponential growth, "soon".
+Eastern).  Someone will help you out. Once you know your way around
+the software, please help out others.  I expect exponential growth,
+"soon".
+
+There may also be an 8pm Pacific tournament running.
+
+Please consider scheduling your own tournaments and inviting people
+who would otherwise be unfamiliar with this site.  Some of mb2's
+current behavior is downright anti-social, including the fact that if
+your WebSocket connection drops you have to log back in again and when
+you do, your chat history is gone.  That prevents people from hanging
+out in the lobby for any extended period, but that too will be fixed
+"soon".
+
+I can't promise anything, but anyone who schedules tournaments is
+likely to be a strong influence on which features I implement next and
+which bugs are the highest priority.
+
 
 ## Computer Languages, Frameworks and Libraries
 
@@ -577,8 +547,7 @@ I've written mb2 almost entirely in
 [diesel](http://diesel.rs) and
 [rust-argon2](https://github.com/sru-systems/rust-argon2).  The
 exception is that the web client also uses
-[UIKit](https://getuikit.com/).  Right now we're not doing much with
-UIKit, but that will change, "soon".
+[UIKit](https://getuikit.com/).
 
 I get substantial benefits by developing both the back-end and
 front-end in Rust.  Unfortunately, most of the cool functionality I
@@ -602,5 +571,5 @@ knowledge of Rust.  I've already succeeded in the latter (although I
 have a lot more to learn about Rust).
 
 Made it this far? Go to
-[https://devctm.com:8081](https://devctm.com:8081 "Pre-alpha")
+[https://devctm.com](https://devctm.com "Pre-alpha")
 and start playing now.
