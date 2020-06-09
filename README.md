@@ -6,20 +6,19 @@ If you don't like reading, you can go to
 [https://devctm.com](https://devctm.com "Pre-alpha")
 and start playing now.
 
-If nobody is around, just create a tournament using the plus sign in
-the lobby, then join it, create another account, have the second
-account join the tournament also and ... wait for the tournament to
-start.  Yes, that's cumbersome, so I'll create a one-button demo,
-but not just yet.
+Feel free to create a tournament using the plus sign in the lobby,
+then join it, create another account, have the second account join the
+tournament also and ... wait for the tournament to start.  Yes, that's
+cumbersome, so I'll create a one-button demo, but not just yet.
 
 Eventually mb2 will have slick, skinnable interface, but it's being
 developed from the inside out, so although it has excellent game
 mechanics, its UI is currently amazingly bad
 
-Although all of the advanced action possibilities are exposed through
-the rudimentary set of check-boxes, other things a player might need
-to do (e.g., discard cards) still require the command line, although that
-is changing "soon".
+All of the advanced action possibilities are exposed through
+a rudimentary set of check-boxes and input fields.  Discarding can be
+done by clicking on cards and then clicking on a button.  Some lesser
+used functionality still requires typing, but that is changing.
 
 ### Closed source
 
@@ -316,36 +315,41 @@ your opponents) automatically.
 ### In Game Commands
 
 I will be adding UI elements for everything mentioned here, but until
-those UI elements appear, you have to type your commands in the
-command box.
+those UI elements appear, you have to type some esoteric commands in
+the command box.
 
 When you're in a game, the long versions (there are one letter
 abbreviations for all of the common ones) of the commands that are not
 available via UI elements are:
 
 ```
-status
-cards
 quit
 vacation
-back
 time
+
 muck
 reveal
 conceal
 default reveal
 default conceal
-discard cards
-discard none
-undo [action | reveal | discard]
+undo reveal
+
 rebuy
 rebuy_on_bust
 done_on_bust
+
 redeem n_lammers_to_redeem
 ```
-These commands can also be typed in, although there are proof-of-concept check and text boxes that provide the same functionality:
+These commands can also be typed in, although there are proof-of-concept UI elements that provide the same functionality:
 
 ```
+status
+back
+cards
+discard cards
+discard none
+undo action
+undo discard
 fold
 check
 jam
@@ -422,6 +426,17 @@ you're playing pot-limit and you choose "make 2000", you will bet 500
 (assuming you have 500 or more in chips), since that's the max you're
 allowed to bet.
 
+One aspect of `Make` that is not necessarily obvious is that you can
+use it to call a particular amount but be given time to make a
+decision if the action increases beyond that particular amount.  E.g.,
+if the blinds are 100, 200 and you're on the button and you have a
+hand that you definitely will play for free but you may want to fold
+(or raise!)  if it's raised by the time the action gets to you can
+choose to "make it 200" and then if the bet is raised, your make of
+200 won't be considered action when it is your turn to act and you can
+then decide whether to fold, call or raise.
+
+
 #### Jam
 
 Jam simply tries to bet the maximum you're allowed to bet.  In a
@@ -454,16 +469,18 @@ away your hand, _even if it's a winner_.
 
 #### Discards, drawing and undoing
 
-You can use `discard ac 2d` tell mb2 that when it's your turn to
-discard and draw new cards you want to discard your ace of clubs and
-your two of diamonds or `discard none` to stand pat.
+If you're playing a game that includes discarding or drawing, you can
+click on the cards you want to get rid of and then click on a "Discard"
+button. If you do that before it's your turn to discard, you can change
+your mind by doing more clicking.  When you have an advanced discard
+request in place and it's still not your turn to discard, there will be
+an "undo" button that you can use.
 
-If you type an action command before it is your time to act, that
-command will be remembered and used instantly when it is your time to
-act.  If you realize you don't want that command to be applied, you
-can use `undo` to clear all your advance commands or more narrowly
-`undo action`, `undo reveal` or `undo discard` to just undo that
-aspect of your advance requests.
+If none of your cards are selected (they pop up as you select them),
+then instead of a "Discard" button, you'll have a "Stand Pat" button.
+
+The above textual description may make it sound complicated, but in
+practice it's pretty simple.
 
 #### Rebuy Tournaments
 
