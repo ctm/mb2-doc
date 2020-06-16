@@ -37,11 +37,35 @@ of date).
 
 ## Web-only (using pop-ups)
 
-Mb2 is accessed via a web interface.  Initially the interface was
-text-only, but I'm slowly adding UI elements.  However, I'm not a
-visual person, so I'm making no attempt to do graphic design.
-Instead, I'm scraping up some investment to pay a professional
-front-end developer or two to create something elegant and ergonomic.
+Mb2 is accessed via a web interface.  Although the initial interface
+was text-only, I've slowly added UI elements.  However, I'm not a
+visual person, so I'm making no attempt to do graphic design.  That
+will be done by professional front-end designers as part of a
+Kickstarter (or something similar) campaign to be launched after BARGE
+2020.
+
+## Browser considerations
+
+Mb2 uses many modern web technologies, especially WebAssembly and
+WebSockets.  As such, you need a relatively recent browser, especially
+if you want to use a Microsoft browser.  Specifically, no versions of
+Internet Explorer work, and Edge must be version 79 or later (that's
+when Microsoft switched to a Chromium base).  You can download the
+latest Microsoft Edge at https://www.microsoft.com/en-us/edge
+
+Any relatively recent Safari or Chrome work well although you have to
+jump through hoops to get audio on Safari.
+
+On Safari, if you want to hear when it's your turn, you'll need to set
+the "Auto-Play" setting for devctm.com to be "Allow All Auto-Play".
+[This
+article](https://www.howtogeek.com/326532/safari-now-disables-auto-playing-videos.-heres-how-to-allow-them-for-certain-sites/)
+explains how to do it, although the article's title unhelpfully
+implies that it's only for video.  If anyone knows of a better site
+that explains how to enable audio (and doesn't mention video, even
+though it's the exact same setting), please let me know. I want people
+to be able to hear in Safari.  There's got to be a better explanation
+out there somewhere.
 
 ### Pop-ups used for tables
 
