@@ -53,6 +53,12 @@ Internet Explorer work, and Edge must be version 79 or later (that's
 when Microsoft switched to a Chromium base).  You can download the
 latest Microsoft Edge at https://www.microsoft.com/en-us/edge
 
+Here's what one mb2 users reported regarding Microsoft Edge:
+
+> Microsoft Edge trivia: I had to separately request a download for
+the Chromium-based Edge regardless of the release level or release
+cycle the VM was running
+
 Any relatively recent Safari or Chrome work well although you have to
 jump through hoops to get audio on Safari.
 
