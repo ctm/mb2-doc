@@ -309,9 +309,19 @@ synopsis should present that information.
 
 Some of the tournament structures (typically limited to big-bet)
 include lammers in addition to starting chips.  Each lammer is worth a
-fixed amount and can be used in three different ways:
+fixed amount and can be used in four different ways:
 
-### Manual Redemption
+### Redemption Before the First Hand
+
+If you want to redeem any of your lammers before the first hand, you
+must use the "extra options" menu from the lobby that's the rightmost
+column in the upcoming tournaments area.  The leftmost column is the
+check-box that you use to join.  The rightmost column is a down
+chevron that has a drop-down menu associated with it.  When a
+tournament uses lammers, that drop-down allows you to specify how many
+of the lammers you want to redeem before the start of the first hand.
+
+### Manual Redemption During The Game
 
 The redeem command (requires use of the command text box) takes a
 single numeric argument that specifies how many lammers you wish to
