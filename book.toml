@@ -1,0 +1,10 @@
+[book]
+title = "Mb2"
+description = "A poker server and client, both written in Rust"
+authors = ["Clifford T. Matthews"]
+language = "en"
+multilingual = false
+src = "src"
+
+[rust]
+edition = "2018"

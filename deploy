@@ -1,0 +1,11 @@
+#! /bin/bash
+
+set -o errexit
+set -o pipefail
+
+pages_dir="$(echo ~/ctm.github.io)"
+
+mdbook build
+rm -rf "$pages_dir/*"
+cp -rp book/* "$pages_dir/"
+( cd "$pages_dir" && git add -A && git commit -m '' --allow-empty-message && git push )
