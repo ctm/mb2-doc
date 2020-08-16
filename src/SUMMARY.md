@@ -1,11 +1,21 @@
 # Summary
 
-[Poker, with your friends](./gentle.md)
+[Poker, with your friends](./friends.md)
 - [Demo](./demo.md)
-- [Accounts]()
-- [Lobby]()
-- [Tables]()
-- [Games]()
-- [Structures]()
-- [Thanks]()
+- [Accounts](./accounts.md)
+- [Lobby](./lobby.md)
+  - [Top Line](./lobby/top_line.md)
+  - [Others](./lobby/others.md)
+  - [Tables](./lobby/tables.md)
+  - [Tournaments](./lobby/tournaments.md)
+  - [Chat](./lobby/chat.md)
+  - [Tables](./lobby/tables.md)
+- [Tables](./tables.md)
+- [Games](./games.md)
+- [Structures](structures.md)
+---
+- [BARGE](./barge/README.md)
+  - [Rule Book](./barge/rule_book.md)
+---
+- [Thanks!]()
 
