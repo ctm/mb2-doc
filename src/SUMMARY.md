@@ -13,6 +13,7 @@
 - [Tables](./tables.md)
 - [Games](./games.md)
 - [Structures](structures.md)
+- [Lammers](./lammers.md)
 ---
 - [BARGE](./barge/README.md)
   - [Rule Book](./barge/rule_book.md)
