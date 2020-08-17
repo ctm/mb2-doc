@@ -3,10 +3,8 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title></title>
+        <title>Lammers - Mb2</title>
         
-        
-        <base href="/">
         
 
 
@@ -95,7 +93,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="friends.html">Poker, with your friends</a></li><li class="chapter-item expanded "><a href="demo.html"><strong aria-hidden="true">1.</strong> Demo</a></li><li class="chapter-item expanded "><a href="accounts.html"><strong aria-hidden="true">2.</strong> Accounts</a></li><li class="chapter-item expanded "><a href="lobby.html"><strong aria-hidden="true">3.</strong> Lobby</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="lobby/top_line.html"><strong aria-hidden="true">3.1.</strong> Top Line</a></li><li class="chapter-item expanded "><a href="lobby/others.html"><strong aria-hidden="true">3.2.</strong> Others</a></li><li class="chapter-item expanded "><a href="lobby/tables.html"><strong aria-hidden="true">3.3.</strong> Tables</a></li><li class="chapter-item expanded "><a href="lobby/tournaments.html"><strong aria-hidden="true">3.4.</strong> Tournaments</a></li><li class="chapter-item expanded "><a href="lobby/chat.html"><strong aria-hidden="true">3.5.</strong> Chat</a></li><li class="chapter-item expanded "><a href="lobby/tables.html"><strong aria-hidden="true">3.6.</strong> Tables</a></li></ol></li><li class="chapter-item expanded "><a href="tables.html"><strong aria-hidden="true">4.</strong> Tables</a></li><li class="chapter-item expanded "><a href="games.html"><strong aria-hidden="true">5.</strong> Games</a></li><li class="chapter-item expanded "><a href="structures.html"><strong aria-hidden="true">6.</strong> Structures</a></li><li class="chapter-item expanded "><a href="lammers.html"><strong aria-hidden="true">7.</strong> Lammers</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="barge/index.html"><strong aria-hidden="true">8.</strong> BARGE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barge/rule_book.html"><strong aria-hidden="true">8.1.</strong> Rule Book</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><strong aria-hidden="true">9.</strong> Thanks!</li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="friends.html">Poker, with your friends</a></li><li class="chapter-item expanded "><a href="demo.html"><strong aria-hidden="true">1.</strong> Demo</a></li><li class="chapter-item expanded "><a href="accounts.html"><strong aria-hidden="true">2.</strong> Accounts</a></li><li class="chapter-item expanded "><a href="lobby.html"><strong aria-hidden="true">3.</strong> Lobby</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="lobby/top_line.html"><strong aria-hidden="true">3.1.</strong> Top Line</a></li><li class="chapter-item expanded "><a href="lobby/others.html"><strong aria-hidden="true">3.2.</strong> Others</a></li><li class="chapter-item expanded "><a href="lobby/tables.html"><strong aria-hidden="true">3.3.</strong> Tables</a></li><li class="chapter-item expanded "><a href="lobby/tournaments.html"><strong aria-hidden="true">3.4.</strong> Tournaments</a></li><li class="chapter-item expanded "><a href="lobby/chat.html"><strong aria-hidden="true">3.5.</strong> Chat</a></li><li class="chapter-item expanded "><a href="lobby/tables.html"><strong aria-hidden="true">3.6.</strong> Tables</a></li></ol></li><li class="chapter-item expanded "><a href="tables.html"><strong aria-hidden="true">4.</strong> Tables</a></li><li class="chapter-item expanded "><a href="games.html"><strong aria-hidden="true">5.</strong> Games</a></li><li class="chapter-item expanded "><a href="structures.html"><strong aria-hidden="true">6.</strong> Structures</a></li><li class="chapter-item expanded "><a href="lammers.html" class="active"><strong aria-hidden="true">7.</strong> Lammers</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="barge/index.html"><strong aria-hidden="true">8.</strong> BARGE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barge/rule_book.html"><strong aria-hidden="true">8.1.</strong> Rule Book</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><strong aria-hidden="true">9.</strong> Thanks!</li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -161,15 +159,50 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#document-not-found-404" id="document-not-found-404">Document not found (404)</a></h1>
-<p>This URL is invalid, sorry. Please use the navigation bar or search to continue.</p>
+                        <h1><a class="header" href="#lammers" id="lammers">Lammers</a></h1>
+<p>Some of the tournament structures (typically limited to big-bet)
+include lammers in addition to starting chips.  Each lammer is worth a
+fixed amount and can be used in four different ways:</p>
+<h3><a class="header" href="#redemption-before-the-first-hand" id="redemption-before-the-first-hand">Redemption Before the First Hand</a></h3>
+<p>If you want to redeem any of your lammers before the first hand, you
+must use the &quot;extra options&quot; menu from the lobby that's the rightmost
+column in the upcoming tournaments area.  The leftmost column is the
+check-box that you use to join.  The rightmost column is a down
+chevron that has a drop-down menu associated with it.  When a
+tournament uses lammers, that drop-down allows you to specify how many
+of the lammers you want to redeem before the start of the first hand.</p>
+<h3><a class="header" href="#manual-redemption-during-the-game" id="manual-redemption-during-the-game">Manual Redemption During The Game</a></h3>
+<p>The redeem command (requires use of the command text box) takes a
+single numeric argument that specifies how many lammers you wish to
+redeem (e.g., <code>redeem 2</code>).</p>
+<p>If you are in a hand, the redemption will happen at the end of that
+hand.  If you have a redemption scheduled for the end of the hand and
+you change your mind you can use <code>redeem 0</code>.</p>
+<p>If you're not in a hand, the redemption will happen immediately and can
+not be reverted.</p>
+<h3><a class="header" href="#resurrection" id="resurrection">Resurrection</a></h3>
+<p>If you bust and you have one or more lammers left, exactly one lammer
+will be cashed in and you'll be back in the game with the amount of
+chips that lammer is worth.</p>
+<h3><a class="header" href="#forced-redemption" id="forced-redemption">Forced Redemption</a></h3>
+<p>Typically there's a final level where lammers are allowed and if you
+finish that level, all lammers you have are redeemed for you (and all
+your opponents) automatically.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
+                            <a rel="prev" href="structures.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
 
+                        
+                            <a rel="next" href="barge/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         
 
                         <div style="clear: both"></div>
@@ -179,7 +212,15 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
+                    <a rel="prev" href="structures.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
 
+                
+                    <a rel="next" href="barge/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
                 
             </nav>
 
