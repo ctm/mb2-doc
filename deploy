@@ -3,9 +3,19 @@
 set -o errexit
 set -o pipefail
 
-pages_dir="$(echo ~/ctm.github.io)"
+tmp_dir='/tmp/book'
+github_io_dir="$(echo ~/ctm.github.io/docs/players_manual)"
 
+function add_and_push() {
+    git add -A
+    git commit -m '' --allow-empty-message
+    git push
+}
+
+rm -rf "$tmp_dir"
+git worktree add -f "$tmp_dir" gh-pages
 mdbook build
-rm -rf "$pages_dir/*"
-cp -rp book/* "$pages_dir/"
-( cd "$pages_dir" && git add -A && git commit -m '' --allow-empty-message && git push )
+rm -rf "$tmp_dir/*"
+cp -rp book/* "$tmp_dir/"
+( cd "$tmp_dir" && add_and_push )
+( cd "$github_io_dir" && git pull && cd .. && add_and_push )
