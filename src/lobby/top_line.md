@@ -3,11 +3,14 @@
 At the top of the lobby you're told your nickname (e.g., `☕
 deadhead`). That can be useful if you want to see how you've
 customized your nickname (e.g., with capitalization, punctuation,
-whitespace or emojis).
+white-space or emojis).
 
 Immediately to the right is a drop-down menu that allows you to see
 some reports (at minimum the net profit leaderboard and the recent
 tournaments).
+
+Beyond that is a drop-down menu to the rules for all the games Mb2
+knows how to deal.
 
 The final item is a bell, which allows you to mute the gong. The gong
 is rung when a new tournament is added.  That alerts people to the
@@ -20,8 +23,3 @@ tradition of encouraging the winner to pick the following day's
 tournament. It's viscerally satisfying to win, create the successor
 tournament and then [bang a
 gong](https://www.youtube.com/watch?v=A4o4Q9sd_y4).
-
-
-
-
-
