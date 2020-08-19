@@ -8,3 +8,6 @@ src = "src"
 
 [rust]
 edition = "2018"
+
+[output.html]
+no-section-label = true
