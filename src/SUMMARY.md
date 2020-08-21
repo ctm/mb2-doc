@@ -14,6 +14,11 @@
 - [Games](./games.md)
 - [Structures](structures.md)
 - [Lammers](./lammers.md)
+- [Esoterica](./esoterica.md)
+  - [Sevens Rule](./esoterica/sevens-rule.md)
+     - [Penalty](./esoterica/sevens-rule/penalty.md)
+     - [Example](./esoterica/sevens-rule/example.md)
+     - [Mb2 Text](./esoterica/sevens-rule/mb2_text.md)
 ---
 - [BARGE](./barge/README.md)
   - [Rule Book](./barge/rule_book.md)
