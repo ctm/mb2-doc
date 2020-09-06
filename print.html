@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="friends.html">Poker, with your friends</a></li><li class="chapter-item expanded "><a href="demo.html">Demo</a></li><li class="chapter-item expanded "><a href="accounts.html">Accounts</a></li><li class="chapter-item expanded "><a href="lobby.html">Lobby</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="lobby/top_line.html">Top Line</a></li><li class="chapter-item expanded "><a href="lobby/others.html">Others</a></li><li class="chapter-item expanded "><a href="lobby/tables.html">Tables</a></li><li class="chapter-item expanded "><a href="lobby/tournaments.html">Tournaments</a></li><li class="chapter-item expanded "><a href="lobby/chat.html">Chat</a></li><li class="chapter-item expanded "><a href="lobby/tables.html">Tables</a></li></ol></li><li class="chapter-item expanded "><a href="tables.html">Tables</a></li><li class="chapter-item expanded "><a href="games.html">Games</a></li><li class="chapter-item expanded "><a href="structures.html">Structures</a></li><li class="chapter-item expanded "><a href="lammers.html">Lammers</a></li><li class="chapter-item expanded "><a href="esoterica.html">Esoterica</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="esoterica/sevens-rule.html">Sevens Rule</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="esoterica/sevens-rule/penalty.html">Penalty</a></li><li class="chapter-item expanded "><a href="esoterica/sevens-rule/example.html">Example</a></li><li class="chapter-item expanded "><a href="esoterica/sevens-rule/mb2_text.html">Mb2 Text</a></li><li class="spacer"></li></ol></li></ol></li><li class="chapter-item expanded "><a href="barge/index.html">BARGE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barge/rule_book.html">Rule Book</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded ">Thanks!</li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="friends.html">Poker, with your friends</a></li><li class="chapter-item expanded "><a href="demo.html">Demo</a></li><li class="chapter-item expanded "><a href="accounts.html">Accounts</a></li><li class="chapter-item expanded "><a href="lobby.html">Lobby</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="lobby/top_line.html">Top Line</a></li><li class="chapter-item expanded "><a href="lobby/others.html">Others</a></li><li class="chapter-item expanded "><a href="lobby/tables.html">Tables</a></li><li class="chapter-item expanded "><a href="lobby/tournaments.html">Tournaments</a></li><li class="chapter-item expanded "><a href="lobby/chat.html">Chat</a></li></ol></li><li class="chapter-item expanded "><a href="tables.html">Tables</a></li><li class="chapter-item expanded "><a href="games.html">Games</a></li><li class="chapter-item expanded "><a href="structures.html">Structures</a></li><li class="chapter-item expanded "><a href="lammers.html">Lammers</a></li><li class="chapter-item expanded "><a href="esoterica.html">Esoterica</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="esoterica/balancing.html">Table Balancing</a></li><li class="chapter-item expanded "><a href="esoterica/sevens-rule.html">Sevens Rule</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="esoterica/sevens-rule/penalty.html">Penalty</a></li><li class="chapter-item expanded "><a href="esoterica/sevens-rule/examples.html">Examples</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="esoterica/sevens-rule/examples/mb2_text.html">Mb2 Text</a></li><li class="chapter-item expanded "><a href="esoterica/sevens-rule/examples/violator_ties_non_viollator.html">Violator ties non-Vioator</a></li><li class="chapter-item expanded "><a href="esoterica/sevens-rule/examples/short_all_in_4.html">Short All-in with four players</a></li><li class="chapter-item expanded "><a href="esoterica/sevens-rule/examples/violator_all_in.html">Violator All-in</a></li><li class="spacer"></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="barge/index.html">BARGE</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barge/rule_book.html">Rule Book</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded ">Thanks!</li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -305,7 +305,6 @@ gong</a>.</p>
 <h1><a class="header" href="#tournaments" id="tournaments">Tournaments</a></h1>
 <h1><a class="header" href="#chat" id="chat">Chat</a></h1>
 <h1><a class="header" href="#tables-1" id="tables-1">Tables</a></h1>
-<h1><a class="header" href="#tables-2" id="tables-2">Tables</a></h1>
 <h1><a class="header" href="#games" id="games">Games</a></h1>
 <p>Mb2 can deal around fifty different variations of poker. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
@@ -341,6 +340,21 @@ chips that lammer is worth.</p>
 finish that level, all lammers you have are redeemed for you (and all
 your opponents) automatically.</p>
 <h1><a class="header" href="#esoterica" id="esoterica">Esoterica</a></h1>
+<h1><a class="header" href="#table-balancing" id="table-balancing">Table Balancing</a></h1>
+<p>When there are three or more tables in a tournament, mb2 will keep the
+player counts of each table within two of each other. It will do this
+by moving one player at the end of the hand from a table that has more
+than two more players than the smallest table.  The player that is
+moved will be the player that has the worst position (e.g., about to
+take the big blind). That player will be moved into the worst
+position.  As such, that player will not move into a worse position
+than that player would have been in anyway.</p>
+<p>When there are enough empty seats to accommodate all the players in the
+smallest table, that table will be broken. The players at the broken
+table will be assigned to other tables at random.</p>
+<p>When there are two tables, mb2 will keep the player counts of each of the
+two tables within one of each other.  It will rebalance the same way
+that is done when there are more than two tables.</p>
 <h1><a class="header" href="#sevens-rule" id="sevens-rule">Sevens Rule</a></h1>
 <h2><a class="header" href="#sevens-rule-definition" id="sevens-rule-definition">Sevens Rule Definition</a></h2>
 <p>The Sevens Rule applies only to California Lowball. It is simply:</p>
@@ -353,9 +367,12 @@ can happen is if the first player to bet goes all-in for less than the
 post-draw bet size.</p>
 <h1><a class="header" href="#penalty" id="penalty">Penalty</a></h1>
 <h2><a class="header" href="#sevens-rule-penalty" id="sevens-rule-penalty">Sevens Rule Penalty</a></h2>
-<p>The penalty itself is simple, too:</p>
+<p>The penalty is:</p>
 <blockquote>
-<p>After violating the Sevens Rule, a player will not win any more from further action in that hand.</p>
+<p>After violating the Sevens Rule, further action from that player,
+for the remainder of that hand, will be lost or returned. It will
+never increase the amount to be won above the amount to be won
+pre-violation.</p>
 </blockquote>
 <p>If a player checks a seven and subsequently folds or loses the hand,
 there is no penalty, because that player would not win anything
@@ -371,45 +388,18 @@ more Sevens Rule followers, the post-draw action of the Sevens Rule
 violators is returned to the violators and the remaining amount in the
 pot is awarded to the non-violator (or split evenly if more than one
 non-violator has a tying winning hand).</p>
-<h1><a class="header" href="#example" id="example">Example</a></h1>
+<h1><a class="header" href="#examples" id="examples">Examples</a></h1>
 <p>The BARGE Rule Book has an <a href="http://www.ceemeck.org/BARGERuleBook2020/the-sevens-rule.html">elaborate
 example</a>.
-It's worth reading.</p>
+It's worth reading, although it's slightly incorrect and will be updated
+soon..</p>
 <p>The following page of this Players' Manual has a simplistic example,
-but shows what the output looks like in the scrolling text portion of
+and shows what the output looks like in the scrolling text portion of
 the the table.</p>
 <h1><a class="header" href="#mb2-text" id="mb2-text">Mb2 Text</a></h1>
-<p>Mb2 automatically awards the right amount of chips to players in a
-hand where the Sevens Rule is violated. However, since action is
-collected prior to the showdown, the transfer of chips at the showdown
-can look like players are winning chips, in a separate pot, when their
-own action is returned.</p>
-<p>In a simple case where the case where a sevens rule violator wins the
-pot, the text output might look something like:</p>
-<pre><code>deadhead  2s 6c 3d Qc 5c  Queen (Q 6 5 3 2) Qc 6c 5c 3d 2s
-tombayz  Mucks
-gerdog  7s 3h 4s Ah 6h  Seven (7 6 4 3 A) 7s 6h 4s 3h Ah
-1: deadhead wins 300
-1: tombayz wins 300
-1: gerdog wins 300
-M: gerdog wins 900
-The above includes penalties:
-gerdog didn't bet a Seven (7 6 4 3 A)
-So, these adjustments were made:
-deadhead took back 300
-tombayz took back 300
-gerdog took back 300
-</code></pre>
-<p>Additionally, the way Mb2 <em>currently</em> works is chips are internally
-awarded based on who has the best hand, <em>before</em> the Sevens Rule is
-enforced. So, in the rare case where a violator of the Sevens Rule and
-a non-violator both tie with the winning hand, in addition to a
-&quot;took back&quot; line, there will also be a &quot;recovered misawarded&quot; line
-that shows the difference between what would have been awarded when
-the pot was split and the amount that was actually returned.</p>
-<p>Although the correct amounts are awarded, there's plenty of room for
-improvement in terms of what is displayed. Perhaps sometime in the
-future it will be improved, although it's low priority.</p>
+<h1><a class="header" href="#violator-ties-non-vioator" id="violator-ties-non-vioator">Violator ties non-Vioator</a></h1>
+<h1><a class="header" href="#short-all-in-with-four-players" id="short-all-in-with-four-players">Short All-in with four players</a></h1>
+<h1><a class="header" href="#violator-all-in" id="violator-all-in">Violator All-in</a></h1>
 <h1><a class="header" href="#barge" id="barge">BARGE</a></h1>
 <p>TODO</p>
 <h1><a class="header" href="#barge-rule-book" id="barge-rule-book">BARGE Rule Book</a></h1>
