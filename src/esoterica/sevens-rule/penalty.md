@@ -2,9 +2,12 @@
 
 ## Sevens Rule Penalty
 
-The penalty itself is simple, too:
+The penalty is:
 
-> After violating the Sevens Rule, a player will not win any more from further action in that hand.
+> After violating the Sevens Rule, further action from that player,
+> for the remainder of that hand, will be lost or returned. It will
+> never increase the amount to be won above the amount to be won
+> pre-violation.
 
 If a player checks a seven and subsequently folds or loses the hand,
 there is no penalty, because that player would not win anything
