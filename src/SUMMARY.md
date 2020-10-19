@@ -11,6 +11,7 @@
   - [Chat](./lobby/chat.md)
 - [Tables](./tables.md)
 - [Games](./games.md)
+     - [Mexican Poker](./games/mexican-poker.md)
 - [Structures](structures.md)
 - [Lammers](./lammers.md)
 - [Esoterica](./esoterica.md)
