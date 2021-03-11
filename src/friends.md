@@ -13,7 +13,7 @@ rewritten and documenting the current interface is a distraction.
 
 So, read the following page (click on the > at the right of this page
 or the word [Demo](demo.html) in the index on the left) and try the
-demo.  Then, at 5pm Pacific or 8pm Pacific use the horrible interface
+demo.  Then, at 5pm Pacific or 8pm Pacific, use the horrible interface
 to play with great people.  Someday you can look back wistfully when
 you're playing on a great interface with horrible people...
 
