@@ -6,6 +6,11 @@ If you don't like reading, you can go to
 [https://devctm.com](https://devctm.com "Pre-alpha")
 and start playing now.
 
+There's an unfinished [Players'
+Manual](https://ctm.github.io/docs/players_manual/) that _probably_
+has better and more current info than this README, but if you're
+bored, read both.
+
 Feel free to create a tournament using the plus sign in the lobby,
 then join it, create another account, have the second account join the
 tournament also and ... wait for the tournament to start.  Yes, that's
