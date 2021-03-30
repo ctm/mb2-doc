@@ -228,6 +228,26 @@ the WebSockets themselves (through which your password is transferred)
 do not go through an ALB and as such the WSS encrypted traffic is
 decoded on the AWS instance running mb2.</p>
 <h1><a class="header" href="#security" id="security">Security</a></h1>
+<p>Some of mb2's <a href="./privacy.html">privacy</a> features also provide a modicum
+of security. Specifically, your password and all of your actions are
+encrypted by your web browser and decrypted only inside mb2.
+Similarly, your hole cards are encrypted by mb2 and only decrypted by
+your browser.</p>
+<p>Although mb2 logs your actions and your hole (or other down) cards,
+those logs remain in mb2's memory until the hand is over. Only after
+the hand has finished is that information logged to mb2's database.
+Mb2 uses an Amazon RDS PostgreSQL Database instance that is encrypted
+at rest.  Mb2 communicates with its database using SSL.</p>
+<p>Your password is never stored.  Instead, a hash of your password is
+stored.  That is sufficient for mb2 to be able to tell if you have
+provided your password when you sign in. However, your password can
+never be recovered, although it can be reset.</p>
+<p>During development, mb2 uses
+<a href="https://rust-random.github.io/book/guide-rngs.html?highlight=thread_rng#our-rngs"><code>thread_rng</code></a>
+from the <a href="https://docs.rs/rand/0.8.3/rand/">rand crate</a> (crates are
+essentially Rust libraries. Rust is the language mb2 is written
+in). The authors of <code>thread_rng</code> believe it to be <a href="https://rust-random.github.io/book/guide-gen.html#cryptographically-secure-pseudo-random-number-generator">cryptographically
+secure</a>.</p>
 <h1><a class="header" href="#lobby" id="lobby">Lobby</a></h1>
 <p>After you sign in, you'll be in the lobby, where you can see the active
 tables, a list of upcoming tournaments and recent chat.</p>
