@@ -18,6 +18,7 @@
 - [Lammers](./lammers.md)
 - [Limitations](./limitations.md)
 - [Esoterica](./esoterica.md)
+  - [GitHub](./esoterica/github.md)
   - [Table Balancing](./esoterica/balancing.md)
   - [Sevens Rule](./esoterica/sevens-rule.md)
      - [Penalty](./esoterica/sevens-rule/penalty.md)
