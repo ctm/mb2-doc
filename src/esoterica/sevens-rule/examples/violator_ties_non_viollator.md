@@ -1,1 +1,0 @@
-# Violator ties non-Vioator

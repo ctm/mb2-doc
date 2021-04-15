@@ -24,7 +24,7 @@
      - [Penalty](./esoterica/sevens-rule/penalty.md)
      - [Examples](./esoterica/sevens-rule/examples.md)
        - [Mb2 Text](./esoterica/sevens-rule/examples/mb2_text.md)
-       - [Violator ties non-Vioator](./esoterica/sevens-rule/examples/violator_ties_non_viollator.md)
+       - [Violator ties non-Violator](./esoterica/sevens-rule/examples/violator_ties_non_violator.md)
        - [Short All-in with four players](./esoterica/sevens-rule/examples/short_all_in_4.md)
        - [Violator All-in](./esoterica/sevens-rule/examples/violator_all_in.md)
 ---
