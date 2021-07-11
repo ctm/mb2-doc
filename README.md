@@ -382,6 +382,7 @@ undo reveal
 rebuy
 rebuy_on_bust
 done_on_bust
+add_on
 
 redeem n_lammers_to_redeem
 ```
@@ -542,6 +543,9 @@ immediately. If you're in the hand, your request will be remembered at
 the end of the hand and if you're below the starting stack size,
 you'll get your additional chips before the next hand is dealt.
 
+If the rebuy tournament offers an add-on, you may use the `add_on` command
+to claim your add-on during the appropriate break.
+
 ## Abbreviations
 
 Instead of typing the entire command, you can usually abbreviate:
@@ -570,6 +574,7 @@ Instead of typing the entire command, you can usually abbreviate:
 |re|reveal|
 |rob|rebuy_on_bust|
 |dob|done_on_bust|
+|add|add_on|
 |pat|discard none|
 |pot|raise pot|
 |half|raise half|
