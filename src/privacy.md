@@ -9,8 +9,8 @@ information here is correct.
 Everyone's privacy is important to the developers of mb2. As such, mb2
 does not use cookies.  Mb2 does, however, use your browser's session
 storage and local storage to keep track of your being logged in and
-connected to tables.  As such, were your computer forensically
-examined, it may be possible to tell that you've been connected to mb2.
+connected to tables.  As such, were your computer to be forensically
+examined, it would be possible to tell that you've been connected to mb2.
 
 Mb2 logs almost all traffic between the client and the server. These
 logs are used for debugging and are currently retained forever.  Mb2
