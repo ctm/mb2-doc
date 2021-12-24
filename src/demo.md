@@ -10,9 +10,10 @@ If you have the `shift` key down when you click `Demo`, you'll be able
 to choose more than 2 players and [games](./games.md) (technically
 [structures](./structures.md)) other than No Limit Hold'em.
 
-Using the demo, you'll start in the [lobby](./lobby.md), with a demo
-[account](./accounts.md). Demo accounts are able to chat with non-demo
-accounts in the lobby, but are not allowed to join events that require
-a buy-in (the events that don't require buy-ins are demo events and
-testing events).  So, after you've played with the demo a little, you
-may want to create a user account.
+Wen you click `Demo`, you'll be logged into a demo [account](./accounts.md)
+and be paced in the [lobby](./lobby.md).
+
+Demo accounts are able to chat with non-demo accounts, but are not
+allowed to join events that require a buy-in (the events that don't
+require buy-ins are demo events and testing events).  So, after you've
+played with the demo, you may want to create a user account.

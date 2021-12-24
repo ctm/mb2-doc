@@ -10,6 +10,7 @@
   - [Top Line](./lobby/top_line.md)
   - [Tables](./lobby/tables.md)
   - [Tournaments](./lobby/tournaments.md)
+  - [Creating Events](./lobby/new_event.md)
 - [Chat](./chat.md)
 - [Tables](./tables.md)
 - [Games](./games.md)

@@ -19,7 +19,6 @@ should&mdash;be fun, but poker can also be addicting. We're pro-fun
 and anti-addiction (but non-judgmental). Nothing about mb2 is designed
 to encourage you to play too much poker, much less get addicted.
 
-If you play on mb2, great! Welcome aboard. [One of
-us](https://www.youtube.com/watch?v=39Bnk6VU53Y)!
+If you play on mb2, great! Welcome aboard.
 
 
