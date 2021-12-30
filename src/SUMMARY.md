@@ -32,5 +32,14 @@
 - [BARGE](./barge/README.md)
   - [Rule Book](./barge/rule_book.md)
 ---
-- [Thanks!]()
+- [Thanks!](./thanks.md)
+  - [Ancient Programming&hellip;](./thanks/ancient.md)
+  - [Gambling Songs&hellip;](./thanks/pre-internet.md)
+  - [Programming Poker on the internet](./thanks/internet-programming.md)
+  - [Playing Poker on the internet](./thanks/internet-playing.md)
+  - [Playing Poker in Las Vegas](./thanks/barge.md)
+  - [Multibot](./thanks/multibot.md)
+  - [Post-multibot](./thanks/post-multibot.md)
+  - [Mb2](./thanks/mb2.md)
 
+  
