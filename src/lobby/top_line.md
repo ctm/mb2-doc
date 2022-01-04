@@ -9,9 +9,10 @@ Immediately to the right is a drop-down menu that allows you to see
 some reports (currently the net profit leaderboards and the recent
 tournaments).  By default, the net profit leaderboards only show
 players who have won more Fun Money in payouts than they've put in in
-buy-ins. However, if you have a non-positive balance and you want to
+buy-ins. However, if you have a negative balance and you want to
 see it, you can hold down the shift key when you click one of the
-leaderboard menu items.
+leaderboard menu items.  If you hold the shift key down when you
+click and you don't see your nick, then you have a zero balance.
 
 Beyond that is a drop-down menu to the rules for almost all the games
 Mb2 knows how to deal.  Action Razzdugi does not currently have an
