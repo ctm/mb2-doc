@@ -1,3 +1,0 @@
-# BARGE Rule Book
-
-TODO

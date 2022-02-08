@@ -292,7 +292,7 @@ as well as the [EMBARGO 2020
 tournaments](https://www.barge.org/schedule1).
 
 Albeit with a few nits, mb2 already knows how to deal all the games in
-the [BARGE 2019 Rule Book](http://www.ceemeck.org/BARGERuleBook2019/).
+the [BARGE Rule Book](http://www.ceemeck.org/BARGERuleBook2021/).
 
 A couple of the games that are available have missing functionality
 (e.g., mb2 doesn't yet enforce the "sevens rule" in California
