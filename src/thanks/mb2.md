@@ -81,3 +81,18 @@ can add to mb2.
 |[deathpie](https://freesound.org/people/deathpie/)|[shuffle.wav](https://freesound.org/people/deathpie/sounds/19245/)|Shuffle sound|
 |_unknown_|sound-effects-library-applauding.mp3|Player Bust sound|
 |[Siddharth Parmar](https://github.com/Siddharth11)|[CSS3 Loaders](https://codepen.io/Siddharth11/pen/xbGrpG)|Loading spinner|
+
+### Ed Baker
+
+Although I'm currently the sole programmer working on mb2, I use
+GitHub's issue tracker to log what I need to do and what I've done.
+Although mb2 itself is closed-source, I have a public
+[mb2-doc](https://github.com/ctm/mb2-doc) GitHub repository and that's
+where I track mb2 issues.
+
+For whatever reason, Ed has chosen to watch that repository and every
+once in a while he comments on an issue, typically in commiseration.
+To a large extent I try to live my life as though someone were
+watching me, in other words, I behave well even when nobody can see
+that I'm doing so. However, knowing that Ed may be following my
+commentary gives me a mental boost that I wouldn't have anticipated.
