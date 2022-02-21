@@ -7,7 +7,7 @@ full-featured and state-of-the art.  However, the user interface is currently
 unstyled.
 
 The server improves almost every day. The user interface will be
-styled in the first quarter of 2022.
+styled in the first quarter of 2022 or soon thereafter.
 
 Although ugly, the user interface is _mostly_ self explanatory.  As
 such, you can read the following page (click on the > at the right of
