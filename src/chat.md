@@ -1,11 +1,11 @@
 # Chat
 
-The lobby and the event tables allow you to type messages.
+The lobby and the table windows allow you to type messages.
 
 Messages typed in the lobby can be seen by anyone logged in or anyone
 who logs in in the next twenty-four hours.
 
-Messages typed in event tables can be seen by anyone playing at or
+Messages typed in tables can be seen by anyone playing at or
 observing those tables.  Observers can be logged in or anonymous.
 
 All chat is preceded by the nickname of the author of the chat. Normal
