@@ -9,6 +9,7 @@
 - [Lobby](./lobby.md)
   - [Top Line](./lobby/top_line.md)
   - [Creating Events](./lobby/new_event.md)
+- [Vacation](./vacation.md)  
 - [Chat](./chat.md)
 - [Games](./games.md)
      - [Mexican Poker](./games/mexican-poker.md)
