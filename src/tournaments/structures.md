@@ -3,7 +3,7 @@
 How a tournament is played is defined by the tournament's structure. Structures
 contain information like
 * how many chips a player starts with
-* how many lammers, if any, a player starts with
+* how many [lammers](../esoterica/lammers.html), if any, a player starts with
 * the levels
 * the breaks
 * how many seats per table
