@@ -15,6 +15,13 @@ this page or the word [Demo](demo.html) in the index on the left), try
 the demo and only come back to this document when you want to read
 about the portions that aren't self-explanatory.
 
+Maintaining this documentation is currently, low-priority. In general,
+the regular players already know most of the information herein and
+"outsiders" become insiders simply by joining and playing. After all,
+it's all about fun.  However, if there's anything you're curious about,
+ask in the lobby and not only is it likely that someone will answer,
+but your question and its answer may well make it into this manual.
+
 Currently two tournaments are scheduled every day.  The evening
 tournament begins at 5pm Pacific and the night tournament at 8pm
 Pacific.  So, figure out what time they start in your time zone and
