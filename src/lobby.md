@@ -15,6 +15,10 @@ If any tables are active, each gets a row with the table id and a list
 of the players at that table.  The table id itself is a link.  If you
 click on it, you'll get a new window that allows you to observe that table.
 
+The list of players at a table does not include former players or
+observers. When a player busts, that player remains at the table as an
+observer until that player leaves (i.e., closes the table window).
+
 Any upcoming tournaments that you're allowed to join are listed below.
 To join, click the check-box.  If you change your mind before
 the tournament starts, click the check-box again and your buy-in will
