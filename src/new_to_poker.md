@@ -1,7 +1,7 @@
 # New to Poker?
 
 If you're new to poker, mb2 might be a little overwhelming. The
-current mb2 user base is a group of people who already have quite a
+current mb2 player base is a group of people who already have quite a
 lot of online poker experience.  Most of the current participants know
 each other or want to help test the software or like the fact that mb2
 deals a lot of esoteric games.

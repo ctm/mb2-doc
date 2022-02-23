@@ -33,7 +33,7 @@ only passed through the WebSockets.
 
 ### GitHub Authentication
 
-As a proof-of-concept, mb2 allows users to create accounts using
+As a proof-of-concept, mb2 allows players to create accounts using
 GitHub's [OAuth](https://oauth.net/) server.  Nobody is required or
 even encouraged to use this obscure feature. It exists simply to make
 sure that mb2's authorization subsystem supported OAuth. It is likely

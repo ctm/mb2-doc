@@ -1,6 +1,6 @@
 # Poker, with your friends
 
-Mb2 is poker software with a nice friendly user base.
+Mb2 is poker software with a nice friendly player base.
 
 Mb2 is in an early stage of development.  The server is world-class,
 full-featured and state-of-the art.  However, the user interface is currently
@@ -28,7 +28,7 @@ join us. For now you'll be using the horrible interface to play with
 great people.  Someday you can look back wistfully when you're playing
 on a great interface with horrible people...
 
-### This manual is&hellip; User Driven
+### This manual is&hellip; Player Driven
 
 Maintaining this documentation is currently, low-priority.
 

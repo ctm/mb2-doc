@@ -8,7 +8,7 @@ real life poker player spends and perhaps wins while playing poker.
 Mb2 keeps track of how much Fun Money you spend and win.  It's a point
 system that helps keep the playing of virtual poker fun and challenging.
 Although it has no intrinsic worth, players are encouraged to take it
-semi-seriously, because, for mb2's intended user-base, playing with
+semi-seriously, because, for mb2's intended player-base, playing with
 people who are all taking it semi-seriously is more fun!
 
 ## You start with Zero, but&hellip;

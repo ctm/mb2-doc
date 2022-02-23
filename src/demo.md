@@ -24,4 +24,4 @@ require buy-ins are demo events and testing events).
 
 You are not able to change preferences of a demo account.
 
-So, after you've played with the demo, you may want to create a user account.
+So, after you've played with the demo, you may want to create your own account.
