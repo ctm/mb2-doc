@@ -29,6 +29,13 @@ find any.  I wasn't even successful at finding documentation for the
 IRC poker commands, so I leaned on the WRGPT advanced action documentation
 when my memory was insufficient as I created mb2's underlying protocol.
 
+### (Currently) Anonymous Investor #1
+
+In mid October, 2019, one of my friends volunteered to invest in my
+project.  I have not yet asked permission to reveal this investor's
+name or any other details of this investment, but I do want to make it
+clear that this investment helped me greatly.
+
 ### LFromHell
 
 The earliest version of mb2 used IRC as an interface and LFromHell was
@@ -48,9 +55,30 @@ Similarly, I wanted mb2 to be able to support a variety of tournament
 structures, so I implemented the most recent tournament structures
 dealt at BARGE and EMBARGO. They were created by Rich Bremer.
 
+### (Currently) Anonymous Investor #2
+
+In mid August, 2020, another of my friends volunteered to invest in my
+project.  I have not yet asked permission to reveal this investor's
+name or any other details of this investment, but I do want to make it
+clear that this investment also helped me greatly.
+
 ### Patrick Milligan
 
 Patrick created mb2's deck.
+
+### (Currently) Anonymous Investor #3
+
+In mid May, 2021, I sought and found a third investor. This investor
+got the deal via a simple reply:
+
+> "I'm in."
+
+Ironically, as of mid February 2022, I haven't yet taken this
+investor's money, because it's taken me a while (_far too long_) to
+find a business attorney and to get various preferred shareholder
+agreements written.  Since this investor can back out once the
+paperwork is ready, that succinct reply has turned into (IMO) a big
+freeroll.
 
 ### gerdog
 
