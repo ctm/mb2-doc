@@ -66,6 +66,6 @@ gong](https://www.youtube.com/watch?v=A4o4Q9sd_y4).
 
 If you are logged in to a non-demo account, your final icon will be
 what looks like three horizontal sliders. Clicking it allows you to
-set [preferences](./lobby/preferences.html) that are remembered
+set [preferences](./preferences.html) that are remembered
 indefinitely.
 
