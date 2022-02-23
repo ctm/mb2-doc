@@ -6,7 +6,6 @@ lesser known games like Badugi, Courchevel and Big O.
 
 The [BARGE Rule Book](http://www.ceemeck.org/BARGERuleBook2021/) has
 rules to almost all of the games mb2 deals.  The exceptions are
-[Mexican Poker](./games/mexican-poker.html),
 [Sack](./games/sack.html), [Wonky Donkey](./games/wonky-donkey.html),
 [Rio Bravo](./games/rio-bravo.html) and [Redrum](./games/redrum.html).
 

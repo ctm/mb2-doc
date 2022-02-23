@@ -1,8 +1,12 @@
 # Mexican Poker
 
-The best source of rules for Mexican Poker are
+In addition to the information here, [Mexican
+Poker](https://www.ceemeck.org/BARGERuleBook2021/other.html#mexican-poker)
+is now included in the BARGE Rule Book.
+
+Another set of rules for Mexican Poker are
 [those at The Bicycle](https://www.thebike.com/play/poker_mexican_poker.php).
-However, the
+The
 [ones at Poker Fandom](https://poker.fandom.com/wiki/Mexican_Poker)
 aren't bad except they incorrectly claim that the lowest up-card is the
 bring-in (The Bicycle rules get that right).  Additionally, the
