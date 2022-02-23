@@ -28,7 +28,7 @@ the output will be
 
 You can create a link that other people can click on by surrounding the
 label for the link in `[]` and then, with no space after the closing `]`,
-putting the complete url within `()`.  E.g., if I type
+putting the complete URL within `()`.  E.g., if I type
 > \[DuckDuckGo]\(https://duckduckgo.com/) is my search engine.
 
 the output will be

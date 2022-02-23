@@ -223,7 +223,7 @@ If you click on the white plus small icon, you get the following dialog:
 
 The Structure attribute is a pull-down menu from one of approximately
 50 pre-existing tournament structures.  Currently you can not create your
-own structure, although traditionally the winner of the 5pm PDT tournament
+own structure, although traditionally the winner of the 5pm Pacific tournament
 gets to pick the following day's tournaments and may request a new
 structure.
 
