@@ -25,7 +25,7 @@ time.  I did some of the grunt work.
 ### Steve Brecher
 
 Steve also did some poker programming and it was always a delight to bounce
-idead off of him.
+ideas off of him.
 
 ### Michael Maurer and Brian Goetz
 
