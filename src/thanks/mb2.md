@@ -87,6 +87,14 @@ tournaments. There have been other players who have played quite a
 bit, but gerdog has been a constant presence and has provided many
 good suggestions.
 
+### NNR13
+
+NNR13 is another early adopter. NNR13 has gracefully pointed out
+several areas where mb2 could be (and has been) improved.  Furthermore,
+NNR13 has consistently kept track of the health&mdash;physical
+and mental&mdash;of the other players. It's always a delight to have
+NNR13 present.
+
 ### Dave Tall
 
 As I added a little bit of sound, here and there, to mb2, I poked
