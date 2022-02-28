@@ -5,14 +5,19 @@ clicked on. Most of them make temporary changes to the appearance of
 your table. They all have associated tooltips that tell you what they'll
 do if you click them.
 
+### Players Manual
+
+Like in the lobby, the left-most icon is a circled i.  If you click
+that icon, this Players' Manual is opened in a new tab or window.
+
 ### Table View
 
-The left-most icon switches between
+The next icon switches between
 * diagonal arrows pointing outward (at the top of the window)
 * diagonal arrows pointing inward (at the bottom of the window)
 * a landscape picture of mountains (at the bottom of the window)
 
-This icon is telling you what wil happen if you cick it. If you're in the Table
+This icon is telling you what Will happen if you click it. If you're in the Table
 view, you'll switch to the Text view.  If you're in the Text view and you
 click it, you'll switch into the Compact Text view.
 
@@ -47,7 +52,7 @@ The paint bucket allows you to change whether to use a normal two-color
 four-color deck (clubs are green, diamonds are blue, hearts are red and
 spades are black).
 
-### Messages to Dispay
+### Messages to Display
 
 Clicking on the "quotation box" icon allows you to adjust what messages show
 up in your chat-box (or chat-window if you Pop-out your chat).
@@ -68,7 +73,7 @@ tournament's [structure](../tournaments/structure.html).
 
 Some
 tournament structures only have a single game in them (e.g. a No-Limit
-Hold'em tournment). Others are mixes, like **HORSE** (**H**old'em,
+Hold'em tournament). Others are mixes, like **HORSE** (**H**old'em,
 **O**maha, **R**azz, **S**tud, Stud/**E**ight).
 
 However, tournament structures have two different ways to determine when

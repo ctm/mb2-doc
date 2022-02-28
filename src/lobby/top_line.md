@@ -2,14 +2,21 @@
 
 ### Your Nickname
 
-At the top of the lobby you're told your nickname (e.g., `☕
+At the top of the lobby is your nickname (e.g., `☕
 deadhead`). That can be useful if you want to see how you've
 customized your nickname (e.g., with capitalization, punctuation,
 white-space or emojis).
 
-Immediately to the right is a drop-down menu that allows you to see
-some reports (currently the net profit leaderboards and recent
-tournaments).
+## Players Manual
+
+Immediately to the right is circled-i icon.  If you click that icon,
+this Players' Manual is opened in a new tab or window.
+
+## Reports
+
+The next icon looks like three horizontal lines, each with a dot
+in front of them.  This is the reports drop-down icon. It's where
+you can choose to see various leaderboards or the recent tournaments.
 
 ### Leaderboards
 
@@ -41,14 +48,14 @@ messaging system.
 
 Here's an example: [https://devctm.com/event/3083/player/10](https://devctm.com/event/3083/player/10)
 
-### Rules
+## Rules
 
 Beyond that is a drop-down menu to the rules for almost all the games
 Mb2 knows how to deal.  Action Razzdugi does not currently have an
 entry, but it's just like Razzdugi, except the Razz half is Action
 Razz.
 
-### Audio
+## Audio
 
 The next item is a bell, which allows you to mute the gong. The gong
 is rung when a new tournament is added.  That alerts people to the
@@ -62,7 +69,7 @@ tournament. It's viscerally satisfying to win, create the successor
 tournament and then [bang a
 gong](https://www.youtube.com/watch?v=A4o4Q9sd_y4).
 
-# Preferences
+## Preferences
 
 If you are logged in to a non-demo account, your final icon will be
 what looks like three horizontal sliders. Clicking it allows you to
