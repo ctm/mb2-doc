@@ -38,7 +38,8 @@ the output will be
 ### Emojis
 
 You can either type (or paste) emojis in as utf-8 or you can use [GitHub
-codes](https://gist.github.com/rxaviers/7360908) for emojis.  E.g., if I
+emoji shortcodes](https://emojipedia.org/github/), but only for the GitHub
+emojis that have a Unicode representation[^1].  E.g., if I
 type
 > Yup! I hit my two outer. :grinning:
 
@@ -46,3 +47,17 @@ the output will be
 
 > Yup! I hit my two outer. 😀
 
+[^1] Unfortunately, I know of no nicely structured list of that GitHub
+emoji subset and the [gist that shows _all_ GitHub emoji
+shortcodes](https://gist.github.com/rxaviers/7360908) leads with
+:bowtie: which _does not_ have a Unicode representation. Luckily,
+the vast majority of the emojis in that list are indeed represented
+by Unicode.
+
+Additionally, if you want to use that list, you might be able to tell
+whether a particular emoji has a Unicode representation by hovering
+your mouse over the emoji. Try doing that with the bowtie emoji and
+almost any other emoji on that page and you may see that your cursor
+turns to an I-beam for emojis with a Unicode representation (e.g.,
+:smile:) but remains an arrow for one of the ones that doesn't work
+(e.g., :bowtie:).
