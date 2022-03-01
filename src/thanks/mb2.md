@@ -99,7 +99,7 @@ NNR13 present.
 
 As I added a little bit of sound, here and there, to mb2, I poked
 around and found various CC0 files to use. However, Dave Tall, a
-fellow Albuquerquean played his trumpet and recorded the game-change
+fellow Albuquerquean played his trombone and recorded the game-change
 fanfare and donated it to mb2.
 
 ### CC0 creators
