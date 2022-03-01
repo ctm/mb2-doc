@@ -105,7 +105,7 @@ fanfare and donated it to mb2.
 ### CC0 creators
 
 Although mb2 is not currently stylized and most of the assets are
-place-holders, I am thankful that people create "CC0" works that are I
+place-holders, I'm thankful that people create "CC0" works that are I
 can add to mb2.
 
 
