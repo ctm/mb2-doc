@@ -20,9 +20,9 @@ IRC poker, sort of" as the subject and I got great feedback.
 ### [WRGPT](http://wrgpt.org/)
 
 Although I knew how to play poker and have written a poker server
-before, I knew that my mind might forget various edge cases, so one of
-the first things I did was write a parser to allow me to read all the
-hand histories from the most recent WRGPT.
+before, I knew that I might forget various edge cases, so one of the
+first things I did was write a parser to allow me to read all the hand
+histories from the most recent WRGPT.
 
 I had wanted to do the same using IRC poker histories, but I couldn't
 find any.  I wasn't even successful at finding documentation for the
