@@ -1,7 +1,7 @@
 # Mb2
 
 Mb2 is my successor to multibot. The thought of creating a new poker ecosystem
-rumbled around in my brain for a while. In 2019, three days after running
+rumbled around in my head for a while. In 2019, three days after running
 the Boston Marathon, I pulled the trigger:
 ```
 commit 7f1967bef45762774fcee34e24e2afa8a4215ddb
