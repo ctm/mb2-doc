@@ -52,6 +52,9 @@ The paint bucket allows you to change whether to use a normal two-color
 four-color deck (clubs are green, diamonds are blue, hearts are red and
 spades are black).
 
+If you hold the shift key down when you click on the paint bucket, you
+change the color of the back of the cards.
+
 ### Messages to Display
 
 Clicking on the "quotation box" icon allows you to adjust what messages show
