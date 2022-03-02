@@ -15,15 +15,17 @@ building Open Source.
 
 ## Serious Time Sinks
 
-### Anonymous (at least for now) MMO developer
+I don't want to encourage addiction.  I've heard about it from a developer
+and seen it in players.
 
-A friend of mine was a lead developer on an MMO.  At one point he
-mentioned that on at least one occasion when people found out he had
-worked on that MMO, he was verbally attacked. That MMO was
-sufficiently addicting that they felt they had lost far too much
-their life and somehow he was to blame.
+### Anonymous MMO developer
 
-### Anonymous (at least for now) MMO players
+A friend of mine was a lead developer on an MMO.  Well after the MMO
+was released, he heard from several people that they had spent way too
+much time on that MMO. It was sufficiently addicting that they felt
+they had lost far too much their life and somehow he was to blame.
+
+### Anonymous MMO players
 
 A couple other friends of mine got very active in an MMO and&hellip;
 eventually decided that they had wasted months, if not years, of their
