@@ -80,11 +80,11 @@ agreements written.  Since this investor can back out once the
 paperwork is ready, that succinct reply has turned into (IMO) a big
 freeroll.
 
-### gerdog
+### Gerald (Gerry) Petersen aka gerdog
 
-Back when mb2 was still text only, gerdog started playing in our daily
+Back when mb2 was still text only, Gerry started playing in our daily
 tournaments. There have been other players who have played quite a
-bit, but gerdog has been a constant presence and has provided many
+bit, but Gerry has been a constant presence and has provided many
 good suggestions.
 
 ### NNR13
