@@ -162,7 +162,23 @@ putting the complete URL within <code>()</code>.  E.g., if I type</p>
 <p>[DuckDuckGo](https://duckduckgo.com/) is my search engine.</p>
 </blockquote>
 <p>the output will be</p>
+<blockquote>
 <p><a href="https://duckduckgo.com/">DuckDuckGo</a> is my search engine.</p>
+</blockquote>
+<p>Only URLs that start with <code>http://</code>, <code>https://</code> or <code>mailto:</code> can be
+used inside the parentheses. If the text inside the parentheses doesn't
+start with those schemes or is not a valid URL, then mb2 will simply
+pass the text through, so if you type</p>
+<blockquote>
+<p>[test](link)</p>
+</blockquote>
+<p>the output will be</p>
+<blockquote>
+<p>[test](link)</p>
+</blockquote>
+<p>At some point <a href="https://github.com/ctm/mb2-doc/issues/907">mb2 will detect failed attempts at
+links</a>, but that's not yet
+a high priority.</p>
 <h3 id="emojis"><a class="header" href="#emojis">Emojis</a></h3>
 <p>You can either type (or paste) emojis in as utf-8 or you can use <a href="https://emojipedia.org/github/">GitHub
 emoji shortcodes</a>, but only for the GitHub
