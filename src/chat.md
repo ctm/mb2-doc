@@ -33,7 +33,22 @@ putting the complete URL within `()`.  E.g., if I type
 
 the output will be
 
-[DuckDuckGo](https://duckduckgo.com/) is my search engine.
+> [DuckDuckGo](https://duckduckgo.com/) is my search engine.
+
+Only URLs that start with `http://`, `https://` or `mailto:` can be
+used inside the parentheses. If the text inside the parentheses doesn't
+start with those schemes or is not a valid URL, then mb2 will simply
+pass the text through, so if you type
+
+> \[test]\(link)
+
+the output will be
+
+> \[test]\(link)
+
+At some point [mb2 will detect failed attempts at
+links](https://github.com/ctm/mb2-doc/issues/907), but that's not yet
+a high priority.
 
 ### Emojis
 

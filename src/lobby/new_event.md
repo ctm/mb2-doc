@@ -50,8 +50,22 @@ You can only either start by `Autostart` or `Start At`, not both.
 Start At is in the same timezone as upcoming tournaments are displayed in.
 That's whatever your browser thinks your timezone is.  The first time
 you bring up the "Add a Tournament" dialog, "Start At" is pre-populated
-with a value that is ten minutes into the future.  However, after that,
+with a value that is ten minutes into the future[^1].  However, after that,
 the dialog simply remembers whatever value was in that field previously.
+
+Unfortunately, mb2 is currently ridiculously unforgiving about the
+format of this string. It must be the English full name of the month
+with the first letter capitalized, a single space, the numeric day of
+the month, a single space, the four-digit year, a single space, the
+hours (using a 12-hour clock), a colon, two digits of minutes, a
+single space and then either `AM` or `PM`. E.g.,
+
+> `March 7, 2022 7:05 AM`
+
+Furthermore, if you deviate from that pattern, mb2 will create a
+tournament with a start at that is not the one you want.  Yes, this is
+incredibly poor form and [will be
+fixed](https://github.com/ctm/mb2-doc/issues/908) before "too long".
 
 ### Round Duration
 
@@ -99,3 +113,10 @@ Break Duration in Minutes" setting.  However, the duration of a break
 is like the duration of a round in that it can start in the middle of
 a hand. The players who are still in the hand still need to finish the
 hand.
+
+[^1] Since it is the tradition for the winner of the evening
+tournament to pick the following evening's structure and for the
+winner of the night tournament to similarly pick the following night's
+structure, [eventually mb2 will know
+this](https://github.com/ctm/mb2-doc/issues/909) and make that the
+default, when appropriate.
