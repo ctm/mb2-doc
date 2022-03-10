@@ -117,6 +117,12 @@ can add to mb2.
 |[deathpie](https://freesound.org/people/deathpie/)|[shuffle.wav](https://freesound.org/people/deathpie/sounds/19245/)|Shuffle sound|
 |_unknown_|sound-effects-library-applauding.mp3|Player Bust sound|
 |[Siddharth Parmar](https://github.com/Siddharth11)|[CSS3 Loaders](https://codepen.io/Siddharth11/pen/xbGrpG)|Loading spinner|
+|Unattributed|[dado 1](https://freesvg.org/dado-1)|Die with one spot|
+|Unattributed|[dado 2](https://freesvg.org/dado-2)|Die with two spots|
+|Unattributed|[dado 3](https://freesvg.org/dado-3)|Die with three spots|
+|Unattributed|[dado 4](https://freesvg.org/dado-4)|Die with four spots|
+|Unattributed|[dado 5](https://freesvg.org/dado-5)|Die with five spots|
+|Unattributed|[dado 6](https://freesvg.org/dado-6)|Die with six spots|
 
 ### Ed Baker
 
