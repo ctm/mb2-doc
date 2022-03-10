@@ -5,6 +5,13 @@ The lobby and the table windows allow you to type messages.
 Messages typed in the lobby can be seen by anyone logged in or anyone
 who logs in in the next twenty-four hours.
 
+Lobby chat can sometimes be a bit confusing because there may be a big
+lag between when someone asks a question and someone else responds.
+As such, the original question will no longer appear once it times
+out, which could leave an answer stranded. For this reason, lobby chat
+messages have timestamps that can be seen by hovering over the chat
+line.
+
 Messages typed in tables can be seen by anyone playing at or
 observing those tables.  Observers can be logged in or anonymous.
 
