@@ -36,11 +36,11 @@ the output will be
 You can create a link that other people can click on by surrounding the
 label for the link in `[]` and then, with no space after the closing `]`,
 putting the complete URL within `()`.  E.g., if I type
-> \[DuckDuckGo]\(https://duckduckgo.com/) is my search engine.
+> Craft Poker Co. is \[now online]\(https://craftpoker.com/).
 
 the output will be
 
-> [DuckDuckGo](https://duckduckgo.com/) is my search engine.
+> Craft Poker Co. is [now online](https://craftpoker.com/).
 
 Only URLs that start with `http://`, `https://` or `mailto:` can be
 used inside the parentheses. If the text inside the parentheses doesn't
