@@ -67,6 +67,13 @@ tournament with a start at that is not the one you want.  Yes, this is
 incredibly poor form and [will be
 fixed](https://github.com/ctm/mb2-doc/issues/908) before "too long".
 
+If the lobby observes that you've won a tournament, then the next time
+you create a tournament, Start At will be pre-populated with the same
+starting time as the tournament you won, but be on the following
+day. This helps people who win the evening or night tournaments,
+because the convention is to let the winner choose the tournament for
+the following day.
+
 ### Round Duration
 
 Round Duration (Minutes) is in essence a scaling factor.  In most
