@@ -66,17 +66,17 @@ clear that this investment also helped me greatly.
 
 Patrick created mb2's deck.
 
-### (Currently) Anonymous Investor #3
+### Charles Haynes
 
-In mid May, 2021, I sought and found a third investor. This investor
+In mid May, 2021, I sought and found a third investor. Charles
 got the deal via a simple reply:
 
 > "I'm in."
 
-Ironically, as of mid February 2022, I haven't yet taken this
-investor's money, because it's taken me a while (_far too long_) to
+Ironically, as of mid March 2022, I haven't yet taken Charles's
+money, because it's taken me a while (_far too long_) to
 find a business attorney and to get various preferred shareholder
-agreements written.  Since this investor can back out once the
+agreements written.  Since Charles can back out once the
 paperwork is ready, that succinct reply has turned into (IMO) a big
 freeroll.
 
