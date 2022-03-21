@@ -69,7 +69,7 @@ the output will be
 
 > Yup! I hit my two outer. 😀
 
-[^1] Unfortunately, I know of no nicely structured list of that GitHub
+[^1]: Unfortunately, I know of no nicely structured list of that GitHub
 emoji subset and the [gist that shows _all_ GitHub emoji
 shortcodes](https://gist.github.com/rxaviers/7360908) leads with
 :bowtie: which _does not_ have a Unicode representation. Luckily,

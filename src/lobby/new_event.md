@@ -121,7 +121,7 @@ is like the duration of a round in that it can start in the middle of
 a hand. The players who are still in the hand still need to finish the
 hand.
 
-[^1] Since it is the tradition for the winner of the evening
+[^1]: Since it is the tradition for the winner of the evening
 tournament to pick the following evening's structure and for the
 winner of the night tournament to similarly pick the following night's
 structure, [eventually mb2 will know
