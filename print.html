@@ -407,21 +407,8 @@ You can only either start by <code>Autostart</code> or <code>Start At</code>, no
 <p>Start At is in the same timezone as upcoming tournaments are displayed in.
 That's whatever your browser thinks your timezone is.  The first time
 you bring up the &quot;Add a Tournament&quot; dialog, &quot;Start At&quot; is pre-populated
-with a value that is ten minutes into the future<sup class="footnote-reference"><a href="#1">1</a></sup>.  However, after that,
+with a value that is ten minutes into the future.  However, after that,
 the dialog simply remembers whatever value was in that field previously.</p>
-<p>Unfortunately, mb2 is currently ridiculously unforgiving about the
-format of this string. It must be the English full name of the month
-with the first letter capitalized, a single space, the numeric day of
-the month, a single space, the four-digit year, a single space, the
-hours (using a 12-hour clock), a colon, two digits of minutes, a
-single space and then either <code>AM</code> or <code>PM</code>. E.g.,</p>
-<blockquote>
-<p><code>March 7, 2022 7:05 AM</code></p>
-</blockquote>
-<p>Furthermore, if you deviate from that pattern, mb2 will create a
-tournament with a start at that is not the one you want.  Yes, this is
-incredibly poor form and <a href="https://github.com/ctm/mb2-doc/issues/908">will be
-fixed</a> before &quot;too long&quot;.</p>
 <p>If the lobby observes that you've won a tournament, then the next time
 you create a tournament, Start At will be pre-populated with the same
 starting time as the tournament you won, but be on the following
@@ -465,14 +452,6 @@ Break Duration in Minutes&quot; setting.  However, the duration of a break
 is like the duration of a round in that it can start in the middle of
 a hand. The players who are still in the hand still need to finish the
 hand.</p>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>Since it is the tradition for the winner of the evening
-tournament to pick the following evening's structure and for the
-winner of the night tournament to similarly pick the following night's
-structure, <a href="https://github.com/ctm/mb2-doc/issues/909">eventually mb2 will know
-this</a> and make that the
-default, when appropriate.</p>
-</div>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="preferences-1"><a class="header" href="#preferences-1">Preferences</a></h1>
 <p>If you click on the <a href="lobby/./top_line.html#preferences">preferences icon</a> in
 the top line of the lobby, you'll get a modal dialog that looks
