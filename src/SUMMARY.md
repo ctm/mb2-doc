@@ -15,6 +15,7 @@
   - [Advanced Checkboxes](./tables/advanced.md)
   - [Immediate Buttons](./tables/immediate.md)
   - [Shareable URLs](./tables/shareable-urls.md)
+  - [Review Button](./tables/review-button.md)
 - [Fun Money](./fun_money.md)
 - [Tournaments](./tournaments.md)
   - [Structures](./tournaments/structures.md)

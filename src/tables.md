@@ -15,5 +15,5 @@ the things that may not be self-explanatory.
 
 [^1]: Currently, there are also two textual representations of a table,
 but this manual ignores them because they are likely to go away after
-graphical interface becomes more attractive to the current text view
+the graphical interface becomes more attractive to the current text view
 players.
