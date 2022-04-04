@@ -29,12 +29,14 @@ find any.  I wasn't even successful at finding documentation for the
 IRC poker commands, so I leaned on the WRGPT advanced action documentation
 when my memory was insufficient as I created mb2's underlying protocol.
 
-### (Currently) Anonymous Investor #1
+### Bill Savage
 
 In mid October, 2019, one of my friends volunteered to invest in my
-project.  I have not yet asked permission to reveal this investor's
-name or any other details of this investment, but I do want to make it
-clear that this investment helped me greatly.
+project.  I've known Bill for a long time.  We used to follow the
+Grateful Dead, often with him driving.  He was also my hiking partner
+for many years.  He was around back when I formed Abacus Research &
+Development (my Macintosh emulation and reverse engineering company).
+
 
 ### LFromHell
 
@@ -55,12 +57,12 @@ Similarly, I wanted mb2 to be able to support a variety of tournament
 structures, so I implemented the most recent tournament structures
 dealt at BARGE and EMBARGO. They were created by Rich Bremer.
 
-### (Currently) Anonymous Investor #2
+### Lee Ward
 
 In mid August, 2020, another of my friends volunteered to invest in my
-project.  I have not yet asked permission to reveal this investor's
-name or any other details of this investment, but I do want to make it
-clear that this investment also helped me greatly.
+project.  Like Bill, I've known him since I was in the UNM MSCS
+program.  So he too was around for the birth and death of ARDI (Abacus
+Research & Development).  What a long, strange trip it's been.
 
 ### Patrick Milligan
 
