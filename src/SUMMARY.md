@@ -37,9 +37,10 @@
      - [Penalty](./esoterica/sevens-rule/penalty.md)
      - [Examples](./esoterica/sevens-rule/examples.md)
 ---
-- [BARGE Rule Book](./barge/README.md)
-- [*ARGE Structures](./barge/structures.md)
-- [BARGE Unified Tournament Payouts](./barge/payouts.md)
+- [BARGE](./barge/README.md)
+  - [BARGE Rule Book](./barge/rule_book.md)
+  - [*ARGE Structures](./barge/structures.md)
+  - [BARGE Unified Tournament Payouts](./barge/payouts.md)
 ---
 - [Thanks!](./thanks.md)
   - [Ancient Programming&hellip;](./thanks/ancient.md)
