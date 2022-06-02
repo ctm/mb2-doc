@@ -62,5 +62,5 @@ of mb2. As such, it's not really that useful to Players, per-se.
 |Seven Card Stud|Seven Card Stud, Razz, Action Razzdugi|
 |Five Card Stud|Five Card Stud|
 |Mexican|Mexican|
-|Simultaneous|SOHE (Simultaneous Omaha and Hold'em|
+|Simultaneous|SOHE (Simultaneous Omaha and Hold'em)|
 |Choice|Paradise Road Pick'em, Wonky Donkey|
