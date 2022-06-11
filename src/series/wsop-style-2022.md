@@ -51,6 +51,23 @@ participants in WSOPS, I'll do so, but I would prefer the players to
 assume they'll get nothing physical and be pleasantly surprised if
 that changes.
 
+## Synchronized Breaks
+
+Each tournament will be run with synchronized breaks, meaning when the time
+of day is fifty-five minutes past the hour, at the end of the hand the table
+will pause. Once all tables are paused, there will be a five minute break
+after which all the tables will resume simultaneously.
+
+## Compromise antes in mixed games
+
+Currently, mb2 supports per-level antes, but does not support
+per-game-within-a-level antes.  With this limitation, the eight game
+mix, nine game mix and Poker Players Championship structures will need
+to have a single ante value per round.  I'm hoping to be able to
+[remove this restriction](https://github.com/ctm/mb2-doc/issues/189)
+before June 22nd, which is when the first of those three structures
+(the eight game mix) is to be dealt.
+
 ## Scheduled Tournaments
 
 |Date|Event|
