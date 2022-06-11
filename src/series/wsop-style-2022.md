@@ -16,6 +16,10 @@ still a lot of room for improvement, the user interface should be
 usable by anyone who already has some online or cardroom poker
 experience .
 
+## This page is likely to be updated
+
+As the series progresses, I am likely to update this page.
+
 ## Tournament Length
 
 Each of the WSOPS tournaments starts with the same five minute round
