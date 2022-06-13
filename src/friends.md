@@ -4,10 +4,10 @@ Mb2 is poker software with a nice friendly player base.
 
 Mb2 is in an early stage of development.  The server is world-class,
 full-featured and state-of-the art.  However, the user interface is currently
-unstyled.
+mostly unstyled.
 
-The server improves almost every day. The user interface will be
-styled in the first quarter of 2022 or soon thereafter.
+The server improves almost every day. The styling of the user interface has
+slipped repeatedly, but has not been forgotten nor is it being ignored.
 
 ### Read no further, Try the [Demo](https://devctm.com)
 
