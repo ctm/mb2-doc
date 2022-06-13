@@ -19,9 +19,19 @@ There's more information about the demo on the next page of this book.
 To advance to the next page, scroll to the bottom of this page and
 then click the `>` in the lower right corner.
 
-### Come back at 5pm Pacific (or 8pm Pacific)
+### Come back at 3pm Pacific (or 5pm Pacific, or 8pm Pacific)
 
-Currently two tournaments are scheduled every day.  The evening
+If you'd like to win an engraved glass paperweight, play in our 3pm Pacific
+[WSOP-Style tournament series](./series/wsop-style-2022.md).  It runs through
+Sunday, July 3rd, 2022.
+
+Additionally, two other tournaments are scheduled later in the day.
+The only things to win in these later tournaments are bragging rights
+and the privilege to pick the structure for the same tournament on the
+following day (e.g., the winner of the evening tournament chooses the
+structure for the evening tournament for the following day).
+
+The evening
 tournament begins at 5pm Pacific and the night tournament at 8pm
 Pacific.  So, figure out what time they start in your time zone and
 join us. For now you'll be using the horrible interface to play with
