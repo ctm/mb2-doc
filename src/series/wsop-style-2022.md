@@ -1,5 +1,18 @@
 # WSOP-Style 2022
 
+## June 13th Update
+
+Physical prizes will be awarded to the winner of each of the tourneys
+(retroactively to the beginning of the series start). The prize will
+be an [Engraved Rectangular Glass
+Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
+unless they run out or other unforeseen circumstances intervene.
+
+There will _probably_ also be nicer prizes for the top three
+leaderboard at the end of the series.
+
+## Overview
+
 The WSOP-Style 2022 Series consists of a tournament a day from
 Saturday, June 11th through Sunday, June 3rd, 2002.  Each tournament starts
 at 3pm Pacific time (6pm Eastern).
@@ -18,7 +31,10 @@ experience .
 
 ## This page is likely to be updated
 
-As the series progresses, I am likely to update this page.
+As the series progresses, I am likely to update this page.  My changes
+should only make things better, not worse, but if you're curious about
+exact changes, [the changes to this page are available on
+GitHub](https://github.com/ctm/mb2-doc/commits/master/src/series/wsop-style-2022.md).
 
 ## Tournament Length
 
@@ -37,23 +53,24 @@ if this series grows larger than the evening and nightly tournaments,
 the overall tournament duration for the winner shouldn't ever be much
 more than two hours.
 
-## No Physical Prizes
+## Prize for first place
 
-Mb2 knows which tournaments belong to this series and [a "WSOPS 2022"
-entry will be added to the leaderboard
-menu](https://github.com/ctm/mb2-doc/issues/973).
+Craft Poker Co. will provide a physical prize to the winner of each
+tournament in the series. The prize will be an [Engraved Rectangular
+Glass
+Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
+unless they run out or other unforseen circumstances.
 
-Craft Poker Co. will not be able to provide prizes to the winners. I
-haven't yet sent anything to the winners of WYWAE (Wish You Were At
-EMBARGO), but that will change. The company that I used to order
-trophies from no longer has their [poker chip
-trophy](https://www.trophies2go.com/crystal-chip-poker-award.html).
-So, my plan is to query the BARGE organizers about their source of
-trophies, and once I know the price, get something to the WYWAE
-winners. If I can also swing something for at least some of the top
-participants in WSOPS, I'll do so, but I would prefer the players to
-assume they'll get nothing physical and be pleasantly surprised if
-that changes.
+## Leaderboard
+
+Mb2 knows which tournaments belong to this series and there is a
+"WSOPS Leaderboard" available from the lobby. Craft Poker Co. will
+_probably_ have nicer prices for the top three leaderboard winners at
+the end of the series, but nothing has been finalized.
+
+The leaderboard tracks [Fun Money](../fun_money.md).  Each of the tournaments
+has an FM 200 buy-in and Fun Money is awarded using the [BARGE Unified Payout
+Schedule](../barge/payouts.md).
 
 ## Synchronized Breaks
 
