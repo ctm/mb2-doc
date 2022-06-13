@@ -1,16 +1,5 @@
 # WSOP-Style 2022
 
-## June 13th Update
-
-Physical prizes will be awarded to the winner of each of the tourneys
-(retroactively to the beginning of the series start). The prize will
-be an [Engraved Rectangular Glass
-Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
-unless they run out or other unforeseen circumstances intervene.
-
-There will _probably_ also be nicer prizes for the top three
-leaderboard at the end of the series.
-
 ## Overview
 
 The WSOP-Style 2022 Series consists of a tournament a day from
@@ -32,8 +21,8 @@ experience .
 ## This page is likely to be updated
 
 As the series progresses, I am likely to update this page.  My changes
-should only make things better, not worse, but if you're curious about
-exact changes, [the changes to this page are available on
+should only make things better, but if you're curious about exact
+changes, [the changes to this page are available on
 GitHub](https://github.com/ctm/mb2-doc/commits/master/src/series/wsop-style-2022.md).
 
 ## Tournament Length
@@ -60,6 +49,9 @@ tournament in the series. The prize will be an [Engraved Rectangular
 Glass
 Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
 unless they run out or other unforseen circumstances.
+
+There will _probably_ also be nicer prizes for the top three
+leaderboard at the end of the series.
 
 ## Leaderboard
 
