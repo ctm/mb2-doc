@@ -60,6 +60,35 @@ change the color of the back of the cards.
 Clicking on the "quotation box" icon allows you to adjust what messages show
 up in your chat-box (or chat-window if you Pop-out your chat).
 
+### Number of Observers
+
+Clicking on the star icon allows you to see how many people are
+watching your table and how many non-players are watching you in
+specific. People who are logged in can watch your table by clicking on
+the table number in the lobby.  When you're playing, [your URL is
+shareable](./shareable-urls.md). If you share your URL and someone
+follows that link, that person is watching _you_ play, meaning if you
+get sent to another table, they will automatically be switched to
+watching that table, too.
+
+After you click on the star, you get something that looks like `T: 0,
+P: 0` where the number after the `T:` is the number of people watching
+your table and the number after the `P:` is the number of people
+watching you, the player.
+
+Observers are only counted while they have a table window open.  So if
+you share your URL with ten people and three of them start watching at
+the same time, you'll get `P: 3`, which will increase if anyone else
+follows that link before any of the original three close their window.
+
+Although it hasn't been properly load-tested yet, mb2 is designed to
+support tens of thousands and eventually hundreds of players and/or
+observers efficiently.  During pre-alpha testing it is unlikely that
+we'll overload the server, although it could happen if someone with a
+huge social network shares a URL.  If that happens, I'll make
+load-testing and bandwidth limiting an exceedingly high priority.
+Otherwise, I'll try to get it done before it's needed.
+
 ### _Optional_ Scroll to the Bottom
 
 When there are too many lines to display in the chat-box or
