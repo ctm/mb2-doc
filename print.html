@@ -557,6 +557,29 @@ change the color of the back of the cards.</p>
 <h3 id="messages-to-display"><a class="header" href="#messages-to-display">Messages to Display</a></h3>
 <p>Clicking on the &quot;quotation box&quot; icon allows you to adjust what messages show
 up in your chat-box (or chat-window if you Pop-out your chat).</p>
+<h3 id="number-of-observers"><a class="header" href="#number-of-observers">Number of Observers</a></h3>
+<p>Clicking on the star icon allows you to see how many people are
+watching your table and how many non-players are watching you in
+specific. People who are logged in can watch your table by clicking on
+the table number in the lobby.  When you're playing, <a href="tables/./shareable-urls.html">your URL is
+shareable</a>. If you share your URL and someone
+follows that link, that person is watching <em>you</em> play, meaning if you
+get sent to another table, they will automatically be switched to
+watching that table, too.</p>
+<p>After you click on the star, you get something that looks like <code>T: 0, P: 0</code> where the number after the <code>T:</code> is the number of people watching
+your table and the number after the <code>P:</code> is the number of people
+watching you, the player.</p>
+<p>Observers are only counted while they have a table window open.  So if
+you share your URL with ten people and three of them start watching at
+the same time, you'll get <code>P: 3</code>, which will increase if anyone else
+follows that link before any of the original three close their window.</p>
+<p>Although it hasn't been properly load-tested yet, mb2 is designed to
+support tens of thousands and eventually hundreds of players and/or
+observers efficiently.  During pre-alpha testing it is unlikely that
+we'll overload the server, although it could happen if someone with a
+huge social network shares a URL.  If that happens, I'll make
+load-testing and bandwidth limiting an exceedingly high priority.
+Otherwise, I'll try to get it done before it's needed.</p>
 <h3 id="optional-scroll-to-the-bottom"><a class="header" href="#optional-scroll-to-the-bottom"><em>Optional</em> Scroll to the Bottom</a></h3>
 <p>When there are too many lines to display in the chat-box or
 chat-window, a scroll-bar is presented. If you scroll backward, a
