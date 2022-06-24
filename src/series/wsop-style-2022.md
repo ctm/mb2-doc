@@ -77,13 +77,13 @@ simultaneously.
 |June, 15th|[HORSE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20332.pdf)|samarai|
 |June, 16th|[Stud High/Low 8 or better](https://www.wsop.com/pdfs/structuresheets/structure_4943_20336.pdf)|JPMassar|
 |June, 17th|[NLHE (Millionaire Maker)](https://www.wsop.com/pdfs/structuresheets/structure_4943_20337.pdf)|jrx|
-|June, 18th|[6-handed PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20339.pdf)|ADBDaVoice 🎤
+|June, 18th|[6-handed PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20339.pdf)|ADBDaVoice 🎤|
 |June, 19th|[Super Turbo Bounty NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20341.pdf)|royalflush♠️|
 |June, 20th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20343.pdf)|royalflush♠️|
 |June, 21st|[PLO 8-handed](https://www.wsop.com/pdfs/structuresheets/structure_4943_20345.pdf)|royalflush♠️|
 |June, 22nd|[6-handed 8-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20348.pdf)|jrx|
 |June, 23th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20349.pdf)|deadhead|
-|June, 24th|[6-handed 9-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20352.pdf)|
+|June, 24th|[6-handed 9-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20352.pdf)|ADBDaVoice 🎤|
 |June, 25th|[8-handed Mixed NLHE-PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20353.pdf)|
 |June, 26th|[Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20356.pdf)|
 |June, 27th|[Deepstack Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20357.pdf)|
