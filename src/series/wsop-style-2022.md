@@ -82,7 +82,7 @@ simultaneously.
 |June, 20th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20343.pdf)|royalflush♠️|
 |June, 21st|[PLO 8-handed](https://www.wsop.com/pdfs/structuresheets/structure_4943_20345.pdf)|royalflush♠️|
 |June, 22nd|[6-handed 8-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20348.pdf)|jrx|
-|June, 23th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20349.pdf)|
+|June, 23th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20349.pdf)|deadhead|
 |June, 24th|[6-handed 9-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20352.pdf)|
 |June, 25th|[8-handed Mixed NLHE-PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20353.pdf)|
 |June, 26th|[Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20356.pdf)|
