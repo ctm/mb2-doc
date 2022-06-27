@@ -86,7 +86,7 @@ simultaneously.
 |June, 24th|[6-handed 9-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20352.pdf)|ADBDaVoice 🎤|
 |June, 25th|[8-handed Mixed NLHE-PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20353.pdf)|ADBDaVoice 🎤|
 |June, 26th|[Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20356.pdf)|JPMassar|
-|June, 27th|[Deepstack Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20357.pdf)|
+|June, 27th|[Deepstack Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20357.pdf)|royalflush♠️|
 |June, 28th|[Short Deck NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20360.pdf)|
 |June, 29th|[PLO/8 Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20363.pdf)|
 |June, 30th|[PLO Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_4943_20364.pdf)|
