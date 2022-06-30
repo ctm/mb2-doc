@@ -70,26 +70,26 @@ simultaneously.
 
 |Date|Event|Winner|
 |--|--|-|
-|June, 11th|[6-handed Limit Hold 'em](https://www.wsop.com/pdfs/structuresheets/structure_4943_20323.pdf)|grizz|
-|June, 12th|[NLHE Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_4943_20325.pdf)|LfromHell|
-|June, 13th|[No Limit 2-7 Lowball](https://www.wsop.com/pdfs/structuresheets/structure_4943_20329.pdf)|ADBDaVoice 🎤|
-|June, 14th|[PLO 8-handed](https://www.wsop.com/pdfs/structuresheets/structure_4943_20330.pdf)|ADBDaVoice 🎤|
-|June, 15th|[HORSE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20332.pdf)|samarai|
-|June, 16th|[Stud High/Low 8 or better](https://www.wsop.com/pdfs/structuresheets/structure_4943_20336.pdf)|JPMassar|
-|June, 17th|[NLHE (Millionaire Maker)](https://www.wsop.com/pdfs/structuresheets/structure_4943_20337.pdf)|jrx|
-|June, 18th|[6-handed PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20339.pdf)|ADBDaVoice 🎤|
-|June, 19th|[Super Turbo Bounty NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20341.pdf)|royalflush♠️|
-|June, 20th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20343.pdf)|royalflush♠️|
-|June, 21st|[PLO 8-handed](https://www.wsop.com/pdfs/structuresheets/structure_4943_20345.pdf)|royalflush♠️|
-|June, 22nd|[6-handed 8-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20348.pdf)|jrx|
-|June, 23th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20349.pdf)|deadhead|
-|June, 24th|[6-handed 9-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20352.pdf)|ADBDaVoice 🎤|
-|June, 25th|[8-handed Mixed NLHE-PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20353.pdf)|ADBDaVoice 🎤|
-|June, 26th|[Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20356.pdf)|JPMassar|
-|June, 27th|[Deepstack Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20357.pdf)|royalflush♠️|
-|June, 28th|[Short Deck NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20360.pdf)|grizz|
-|June, 29th|[PLO/8 Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20363.pdf)|LingCod|
-|June, 30th|[PLO Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_4943_20364.pdf)|smalltalkdan|
+|June, 11th|[6-handed Limit Hold 'em](https://www.wsop.com/pdfs/structuresheets/structure_4943_20323.pdf)|[grizz](https://devctm.com/event/3404/player/9)|
+|June, 12th|[NLHE Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_4943_20325.pdf)|[LfromHell](https://devctm.com/event/3405/player/2)|
+|June, 13th|[No Limit 2-7 Lowball](https://www.wsop.com/pdfs/structuresheets/structure_4943_20329.pdf)|[ADBDaVoice 🎤](https://devctm.com/event/3406/player/504)|
+|June, 14th|[PLO 8-handed](https://www.wsop.com/pdfs/structuresheets/structure_4943_20330.pdf)|[ADBDaVoice 🎤](https://devctm.com/event/3407/player/504)|
+|June, 15th|[HORSE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20332.pdf)|[samarai](https://devctm.com/event/3425/player/18)|
+|June, 16th|[Stud High/Low 8 or better](https://www.wsop.com/pdfs/structuresheets/structure_4943_20336.pdf)|[JPMassar](https://devctm.com/event/3426/player/139)|
+|June, 17th|[NLHE (Millionaire Maker)](https://www.wsop.com/pdfs/structuresheets/structure_4943_20337.pdf)|[jrx](https://devctm.com/event/3427/player/27)|
+|June, 18th|[6-handed PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20339.pdf)|[ADBDaVoice 🎤](https://devctm.com/event/3428/player/504)|
+|June, 19th|[Super Turbo Bounty NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20341.pdf)|[royalflush♠️](https://devctm.com/event/3429/player/92)|
+|June, 20th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20343.pdf)|[royalflush♠️](https://devctm.com/event/3451/player/92)|
+|June, 21st|[PLO 8-handed](https://www.wsop.com/pdfs/structuresheets/structure_4943_20345.pdf)|[royalflush♠️](https://devctm.com/event/3452/player/92)|
+|June, 22nd|[6-handed 8-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20348.pdf)|[jrx](https://devctm.com/event/3453/player/27)|
+|June, 23th|[NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20349.pdf)|[deadhead](https://devctm.com/event/3454/player/10)|
+|June, 24th|[6-handed 9-Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_4943_20352.pdf)|[ADBDaVoice 🎤](https://devctm.com/event/3455/player/504)|
+|June, 25th|[8-handed Mixed NLHE-PLO](https://www.wsop.com/pdfs/structuresheets/structure_4943_20353.pdf)|[ADBDaVoice 🎤](https://devctm.com/event/3456/player/504)|
+|June, 26th|[Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20356.pdf)|[JPMassar](https://devctm.com/event/3457/player/139)|
+|June, 27th|[Deepstack Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20357.pdf)|[royalflush♠️](https://devctm.com/event/3471/player/92)|
+|June, 28th|[Short Deck NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20360.pdf)|[grizz](https://devctm.com/event/3472/player/9)|
+|June, 29th|[PLO/8 Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20363.pdf)|[LingCod](https://devctm.com/event/3473/player/63)|
+|June, 30th|[PLO Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_4943_20364.pdf)|[smalltalkdan](https://devctm.com/event/3474/player/6)|
 |July 1st|[Super Turbo Bounty NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20367.pdf)|
 |July 2nd|[8-handed PLO Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20369.pdf)|
 |Jul 3rd|[Main Event](https://www.wsop.com/pdfs/structuresheets/structure_4943_20370.pdf)|
