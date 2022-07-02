@@ -90,6 +90,6 @@ simultaneously.
 |June, 28th|[Short Deck NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20360.pdf)|[grizz](https://devctm.com/event/3472/player/9)|
 |June, 29th|[PLO/8 Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20363.pdf)|[LingCod](https://devctm.com/event/3473/player/63)|
 |June, 30th|[PLO Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_4943_20364.pdf)|[smalltalkdan](https://devctm.com/event/3474/player/6)|
-|July 1st|[Super Turbo Bounty NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20367.pdf)|
-|July 2nd|[8-handed PLO Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20369.pdf)|
+|July 1st|[Super Turbo Bounty NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20367.pdf)|[deadhead](https://devctm.com/event/3547/player/10)|
+|July 2nd|[8-handed PLO Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20369.pdf)|[smalltalkdan](https://devctm.com/event/3476/player/6)|
 |Jul 3rd|[Main Event](https://www.wsop.com/pdfs/structuresheets/structure_4943_20370.pdf)|
