@@ -92,4 +92,4 @@ simultaneously.
 |June, 30th|[PLO Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_4943_20364.pdf)|[smalltalkdan](https://devctm.com/event/3474/player/6)|
 |July 1st|[Super Turbo Bounty NLHE](https://www.wsop.com/pdfs/structuresheets/structure_4943_20367.pdf)|[deadhead](https://devctm.com/event/3547/player/10)|
 |July 2nd|[8-handed PLO Championship](https://www.wsop.com/pdfs/structuresheets/structure_4943_20369.pdf)|[smalltalkdan](https://devctm.com/event/3476/player/6)|
-|Jul 3rd|[Main Event](https://www.wsop.com/pdfs/structuresheets/structure_4943_20370.pdf)|
+|Jul 3rd|[Main Event](https://www.wsop.com/pdfs/structuresheets/structure_4943_20370.pdf)|[jrx](https://devctm.com/event/3477/player/27)|
