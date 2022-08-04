@@ -23,8 +23,9 @@ The only thing you can spend Fun Money on is buying into events, i.e. [Tournamen
 
 ### Pay-outs
 
-The three ways you can gain Fun Money are:
+The four ways you can gain Fun Money are:
 1. Finishing high in a tournament
 2. Busting a player in a bounty tournament
-3. Leaving a Ring Game with more chips than you entered with
+3. Being one of the top three ticket winners in a derby tournament
+4. Leaving a Ring Game with more chips than you entered with
 
