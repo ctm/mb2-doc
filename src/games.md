@@ -7,7 +7,7 @@ lesser known games like Badugi, Courchevel and Big O.
 The [BARGE Rule Book](http://www.ceemeck.org/BARGERuleBook2021/) has
 rules to almost all of the games mb2 deals.  The exceptions are
 [Sack](./games/sack.html), [Wonky Donkey](./games/wonky-donkey.html),
-[Rio Bravo](./games/rio-bravo.html) and [Redrum](./games/redrum.html).
+[Rio Bravo](./games/rio-bravo.html), [Regular Pineapple](./games/regular-pineapple.html) and [Redrum](./games/redrum.html).
 
 [^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is fifty-six. That number comes from the source code to mb2:
 ```

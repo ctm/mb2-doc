@@ -32,6 +32,7 @@
      - [Wonky Donkey](./games/wonky-donkey.md)
      - [Rio Bravo](./games/rio-bravo.md)
      - [Redrum](./games/redrum.md)
+     - [Regular Pineapple](./games/regular-pineapple.md)
 - [Esoterica](./esoterica.md)
   - [Lammers](./esoterica/lammers.md)
   - [GitHub](./esoterica/github.md)
