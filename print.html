@@ -939,10 +939,12 @@ lesser known games like Badugi, Courchevel and Big O.</p>
 <p>The <a href="http://www.ceemeck.org/BARGERuleBook2021/">BARGE Rule Book</a> has
 rules to almost all of the games mb2 deals.  The exceptions are
 <a href="./games/sack.html">Sack</a>, <a href="./games/wonky-donkey.html">Wonky Donkey</a>,
-<a href="./games/rio-bravo.html">Rio Bravo</a>, <a href="./games/regular-pineapple.html">Regular Pineapple</a> and <a href="./games/redrum.html">Redrum</a>.</p>
+<a href="./games/rio-bravo.html">Rio Bravo</a>, <a href="./games/regular-pineapple.html">Regular
+Pineapple</a>,
+<a href="./games/redrum.html">Redrum</a> and Quick Quads.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>At the time of this writing, the precise—but perhaps inaccurate—number of games is fifty-six. That number comes from the source code to mb2:</p>
-<pre><code>pub static GAMES: Lazy&lt;[GameInfo; 56]&gt; = Lazy::new(|| {
+<pre><code>pub static GAMES: Lazy&lt;[GameInfo; 57]&gt; = Lazy::new(|| {
     [
         // Hold'ems
         (&amp;*HOLD_EM).into(),
@@ -954,7 +956,7 @@ rules to almost all of the games mb2 deals.  The exceptions are
         (&amp;*LAZY_PINE_8).into(),
 ...
 </code></pre>
-<p>The 56 shows that we're populating the <code>GAMES</code> constant with 56
+<p>The 57 shows that we're populating the <code>GAMES</code> constant with 57
 elements, but it's counting <code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
 </div>
 <p>It's also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
