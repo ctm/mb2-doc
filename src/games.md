@@ -7,11 +7,13 @@ lesser known games like Badugi, Courchevel and Big O.
 The [BARGE Rule Book](http://www.ceemeck.org/BARGERuleBook2021/) has
 rules to almost all of the games mb2 deals.  The exceptions are
 [Sack](./games/sack.html), [Wonky Donkey](./games/wonky-donkey.html),
-[Rio Bravo](./games/rio-bravo.html), [Regular Pineapple](./games/regular-pineapple.html) and [Redrum](./games/redrum.html).
+[Rio Bravo](./games/rio-bravo.html), [Regular
+Pineapple](./games/regular-pineapple.html),
+[Redrum](./games/redrum.html) and Quick Quads.
 
 [^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is fifty-six. That number comes from the source code to mb2:
 ```
-pub static GAMES: Lazy<[GameInfo; 56]> = Lazy::new(|| {
+pub static GAMES: Lazy<[GameInfo; 57]> = Lazy::new(|| {
     [
         // Hold'ems
         (&*HOLD_EM).into(),
@@ -23,7 +25,7 @@ pub static GAMES: Lazy<[GameInfo; 56]> = Lazy::new(|| {
         (&*LAZY_PINE_8).into(),
 ...
 ```
-The 56 shows that we're populating the `GAMES` constant with 56
+The 57 shows that we're populating the `GAMES` constant with 57
 elements, but it's counting `Hold'em` and `Hold'em High/Low with an
 Eight Qualifier` as two separate games.
 
