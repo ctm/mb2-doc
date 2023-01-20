@@ -9,11 +9,11 @@ rules to almost all of the games mb2 deals.  The exceptions are
 [Sack](./games/sack.html), [Wonky Donkey](./games/wonky-donkey.html),
 [Rio Bravo](./games/rio-bravo.html), [Regular
 Pineapple](./games/regular-pineapple.html),
-[Redrum](./games/redrum.html) and Quick Quads.
+[Redrum](./games/redrum.html), [Quick Quads](./games/quick-quads.md) and [Omaha X Or Better](./games/omaha-x-or-better.md).
 
-[^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is fifty-six. That number comes from the source code to mb2:
+[^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is fifty-eight. That number comes from the source code to mb2:
 ```
-pub static GAMES: Lazy<[GameInfo; 57]> = Lazy::new(|| {
+pub static GAMES: Lazy<[GameInfo; 58]> = Lazy::new(|| {
     [
         // Hold'ems
         (&*HOLD_EM).into(),
@@ -25,7 +25,7 @@ pub static GAMES: Lazy<[GameInfo; 57]> = Lazy::new(|| {
         (&*LAZY_PINE_8).into(),
 ...
 ```
-The 57 shows that we're populating the `GAMES` constant with 57
+The 58 shows that we're populating the `GAMES` constant with 58
 elements, but it's counting `Hold'em` and `Hold'em High/Low with an
 Eight Qualifier` as two separate games.
 
@@ -40,7 +40,7 @@ of options applied to them and the `GAMES` constant simply represents
 the most popular combinations of core games with options. There is no
 requirement for a combination of a core game and options to be present
 in `GAMES` for that combination to be used in a tournament structure
-or ring game, so mb2 is already dealing more than fifty-six different
+or ring game, so mb2 is already dealing more than fifty-eight different
 variants, but some of the differences are so small that it's hard to
 argue they're different games.
 

@@ -33,6 +33,8 @@
      - [Rio Bravo](./games/rio-bravo.md)
      - [Redrum](./games/redrum.md)
      - [Regular Pineapple](./games/regular-pineapple.md)
+     - [Quick Quads](./games/quick-quads.md)
+     - [Omaha X Or Better](./games/omaha-x-or-better.md)
 - [Esoterica](./esoterica.md)
   - [Lammers](./esoterica/lammers.md)
   - [GitHub](./esoterica/github.md)
