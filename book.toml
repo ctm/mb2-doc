@@ -11,3 +11,9 @@ edition = "2018"
 
 [output.html]
 no-section-label = true
+
+[output.html.fold]
+enable = true
+
+[output.html.redirect]
+"series/wsop-style-2022.html" = "2022/wsop-style.html"
