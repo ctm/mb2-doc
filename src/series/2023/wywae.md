@@ -60,4 +60,3 @@ completely unrelated corporation.
 |10th|6pm PST|[Pot Limit Omaha High Low (x or Better)](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=3)|
 |11th|11am PST|[No Limit Hold'em Win the Button Ante](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=4)|
 |11th|6pm PST|[6 Handed BOE](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=5)|
-
