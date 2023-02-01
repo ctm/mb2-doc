@@ -19,7 +19,7 @@ If you know people who are sufficiently adventuresome to hop on a new
 (to them) platform and play new (to them) games, but to play seriously
 (i.e., show up and try to win via skill), please tell them about both
 this series and the likelihood of other series (e.g. WSOP-Style and
-WYwAB) later in the year.  It's certainly late notice, but as long as they
+WYWAB) later in the year.  It's certainly late notice, but as long as they
 show up in good faith, the more the merrier and they'll get some experience
 with the platform well before the other series are officially announced.
 
