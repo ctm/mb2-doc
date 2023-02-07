@@ -4,9 +4,10 @@ Omaha X Or Better is like
 [Binglaha](https://www.ceemeck.org/BARGERuleBook2021/TournGames.html#binglaha),
 except two dice are rolled.  So, each hand, after the flop betting, 2
 dice are rolled and their sum determines whether it's high only or
-high/low split and if it's the latter, what qualifier is needed.
+high/low split and if it's the latter, what qualifier is needed for the low.
+There is never a qualifier for high.
 
-|Sum|Split?|Qualifier|
+|Sum|Split?|Low Qualifier|
 |---|------|---------|
 |2|High Only||
 |3|High Only||
