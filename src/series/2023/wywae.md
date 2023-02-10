@@ -38,7 +38,7 @@ distraction by not playing.
 ## The Tournaments
 
 All five tournaments are held in February. The first is on Thursday the 9th,
-then the following two days each have a tournament.
+then the following two days each have two tournaments.
 
 The times listed in this table are all in Pacific Standard, since that's what's
 on the structure sheet due to it being the time zone of Las Vegas.
