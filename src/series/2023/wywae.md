@@ -58,5 +58,5 @@ completely unrelated corporation.
 |9th|6pm PST|[CART before HORSE](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=1)|[ts4z](https://devctm.com/event/4161/player/570)|
 |10th|11am PST|[World Online Chowaha Championship](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=2)|[ADBDaVoice 🎤](https://devctm.com/event/4162/player/504)|
 |10th|6pm PST|[Pot Limit Omaha High Low (x or Better)](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=3)|[ts4z](https://devctm.com/event/4163/player/570)|
-|11th|11am PST|[No Limit Hold'em Win the Button Ante](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=4)|
+|11th|11am PST|[No Limit Hold'em Win the Button Ante](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=4)|[uncle al](https://devctm.com/event/4164/player/135)|
 |11th|6pm PST|[6 Handed BOE](https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=5)|
