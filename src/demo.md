@@ -1,7 +1,7 @@
 # Demo
 
 There's a button labeled `Demo` on
-[https://devctm.com](https://devctm.com "Pre-alpha")
+[https://craftpoker.com](https://craftpoker.com "Pre-alpha")
 
 Go to the site, click that `Demo` button, and you'll be presented with
 a modal dialog.  

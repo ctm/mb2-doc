@@ -9,10 +9,10 @@ mostly unstyled.
 The server improves almost every day. The styling of the user interface has
 slipped repeatedly, but has not been forgotten nor is it being ignored.
 
-### Read no further, Try the [Demo](https://devctm.com)
+### Read no further, Try the [Demo](https://craftpoker.com)
 
 Although ugly, the user interface is _mostly_ self explanatory.  As
-such, you can try the [demo](https://devctm.com) and only come back to
+such, you can try the [demo](https://craftpoker.com) and only come back to
 this document if you're curious.
 
 There's more information about the demo on the next page of this book.

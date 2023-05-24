@@ -46,7 +46,7 @@ you click on that icon, the URL for this result will be copied to the
 pasteboard which can then be pasted into email, twitter or some other
 messaging system.
 
-Here's an example: [https://devctm.com/event/3083/player/10](https://devctm.com/event/3083/player/10)
+Here's an example: [https://craftpoker.com/event/3083/player/10](https://craftpoker.com/event/3083/player/10)
 
 ## Rules
 

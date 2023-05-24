@@ -1,8 +1,8 @@
 # Mb2
 
-Mb2 is Cliff Matthews's poker software.
+Mb2 is Craft Poker Co.'s poker software.
 
-You can go to [https://devctm.com](https://devctm.com "alpha") and
+You can go to [https://craftpoker.com](https://craftpoker.com "alpha") and
 start playing now.
 
 The [Players' Manual](https://ctm.github.io/docs/players_manual/) has
@@ -10,24 +10,6 @@ more info, but it's unneeded and few players have read it.
 
 The info that remains on this page is just obscure stuff that isn't
 high enough priority to move there.
-
-### Player Ids
-
-When you share a URL, people can see your player id.  However, be
-aware that devctm.com is a staging server and the player id that you
-use on devctm.com will not necessarily be the player id you'll get on
-the production site. However, player ids 1 through 9 are an exception.
-I have already handed them out to some of the people who have greatly
-increased the chance of me having written this server, even though
-their influence has mostly been indirect.
-
-I will reward early play-testers with low player ids on craftpoker.com
-when it goes live.  On https://devctm.com player ids are handed
-out sequentially, but the database is recording enough information for
-for me to know who is testing and who isn't.  I'll use that, and other,
-info to hand out ids 90-99 on craftpoker.com.  If that sounds confusing,
-just ask me about it and I'll do a better job explaining.  My nickname
-is `deadhead`.
 
 ### In Game Commands
 

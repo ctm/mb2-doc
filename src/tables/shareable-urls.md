@@ -6,7 +6,7 @@ who visit the URL can watch the game (if there's still something to
 watch).
 
 For example, the URL
-[https://devctm.com/event/3076/player/10](https://devctm.com/event/3076/player/10)
+[https://craftpoker.com/event/3076/player/10](https://craftpoker.com/event/3076/player/10)
 was from a tournament on February 22nd, 2022. Specifically, that was
 deadhead's (player #10) URL. The tournament started at 5:05 Pacific
 and deadhead bust at 6:15 Pacific, so if anyone had visited that URL

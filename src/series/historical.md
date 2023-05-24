@@ -21,6 +21,6 @@ Goldie:
 
 To which I replied:
 
-> Oh [you fucking prick](https://devctm.com/event/1534/player/10).
+> Oh [you fucking prick](https://craftpoker.com/event/1534/player/10).
 >
 > WAFR!
