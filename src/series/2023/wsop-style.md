@@ -91,7 +91,7 @@ delays around [June 24th](https://www.wser.org/).
 |June 22nd|[Mixed Triple Draw Lowball ](https://www.wsop.com/pdfs/structuresheets/structure_5219_21717.pdf)||
 |June 23th|[H.O.R.S.E. Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21719.pdf)||
 |June 24th|[Seven Card Stud Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21720.pdf)||
-|June 25th|[SALUTE to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)||
+|June 25th|[SALUTE to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)[^4]||
 |June 26th|[No-Limit 2-7 Lowball Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf)||
 |June 27th|[Seven Card Stud Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf)||
 |June 28th|[Pot-Limit Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf)||
@@ -99,13 +99,13 @@ delays around [June 24th](https://www.wser.org/).
 |June 30th|[HIGH ROLLER Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)||
 |July 1st|[Mixed Big Bet Event](https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf)||
 |July 2nd|[Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)||
-|July 3rd|[]()||
-|July 4th|[]()||
-|July 5th|[]()||
-|July 6th|[]()||
+|July 3rd|||
+|July 4th|[MAIN EVENT No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)||
+|July 5th|[Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^5]||
+|July 6th|[Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^5]||
 |July 7th|[BOUNTY Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)||
-|July 8th|[Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)||
-|July 9th|[]()||
+|July 8th|[](#)||
+|July 9th|[Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)||
 |July 10th|[High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)||
 |July 11th|[6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)||
 |July 12th|[Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf)||
@@ -133,3 +133,15 @@ couldn't see people's hole cards during a hand.
 Employees.  In this series&mdash;in 2023 at least&mdash;no events have
 any such restrictions.  However, it would be nice for participants to
 at least harbor warm thoughts toward casino employees while playing.
+
+[^4]: This **may** be some sort of charity event; it's too early to
+tell. There will not, under any circumstances, however, be a fee
+associated with this event nor even a mandatory charity donation
+requirement. _Perhaps_ Craft Poker Co. will be able to contribute
+money to USO, but it may simply be a "harbor good thoughts" event.
+
+[^5]: At the World Series of Poker The Dealer's Choice tournaments were
+scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's Choice
+then, so they're schedule for these two slots which are taken by the
+multi-day Main Event at the World Series.
+
