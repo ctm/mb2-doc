@@ -23,7 +23,7 @@ Here's a super abbreviated version of what I plan for craftpoker.com
   * No ads
   * Trivial to quit
   * etc.
-* Assuming Craft Poker Co. has sufficient capital, while the above is being developed, there will also be great improvements to the UI, with better support for tablets coming "soon" and phone support being a high priority (too far away for me to say more just yet).
+* Assuming Craft Poker Co. has sufficient capital, while the above is being developed, there will also be great improvements to the User Interface, allowing mb2 to be played on tablets "soon" and the ability to play on phones being a high priority (albeit too far away for me to say more just yet).
 
 [^1] This requires rewording, because one could make a good argument
 that closed source itself is a dark pattern. Similarly, the artificial
