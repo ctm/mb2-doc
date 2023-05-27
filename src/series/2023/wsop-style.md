@@ -72,49 +72,49 @@ delays around [June 24th](https://www.wser.org/).
 |June 3rd|Paradise Road Pick'em ([levels from Dealer's Choice](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf))||
 |June 4th|[No-Limit Hold'em Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21676.pdf)||
 |June 5th|[Pot Limit Omaha Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21678.pdf)||
-|June 6th|||
-|June 7th|||
-|June 8th|||
-|June 9th|||
-|June 10th|||
-|June 11th|||
-|June 12th|||
-|June 13th|||
-|June 14th|||
-|June 15th|||
-|June 16th|||
-|June 17th|||
-|June 18th|||
-|June 19th|||
-|June 20th|||
-|June 21st|||
-|June 22nd|||
-|June 23th|||
-|June 24th|||
-|June 25th|||
-|June 26th|||
-|June 27th|||
-|June 28th|||
-|June 29th|||
-|June 30th|||
-|July 1st|||
-|July 2nd|||
-|July 3rd|||
-|July 4th|||
-|July 5th|||
-|July 6th|||
-|July 7th|||
-|July 8th|||
-|July 9th|||
-|July 10th|||
-|July 11th|||
-|July 12th|||
-|July 13th|||
-|July 14th|||
-|July 15th|||
-|July 16th|||
-|July 17th|||
-|July 18th|||
+|June 6th|[Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21682.pdf)||
+|June 7th|[Badugi](https://www.wsop.com/pdfs/structuresheets/structure_5219_21685.pdf)||
+|June 8th|[Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)||
+|June 9th|[Razz](https://www.wsop.com/pdfs/structuresheets/structure_5219_21689.pdf)||
+|June 10th|[Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21690.pdf)||
+|June 11th|[Eight Game Mix 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21692.pdf)||
+|June 12th|[Limit 2-7 Lowball Triple Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21695.pdf)||
+|June 13th|[Razz Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21698.pdf)||
+|June 14th|[Nine Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21701.pdf)||
+|June 15th|[Limit 2-7 Lowball Triple Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21703.pdf)||
+|June 16th|[Super High Roller No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21705.pdf)||
+|June 17th|[Big O](https://www.wsop.com/pdfs/structuresheets/structure_5219_21706.pdf)||
+|June 18th|[Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21708.pdf)||
+|June 19th|[Mixed Omaha Hi Low](https://www.wsop.com/pdfs/structuresheets/structure_5219_21710.pdf)||
+|June 20th|[H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21712.pdf)||
+|June 21st|[Pot-Limit Omaha Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21715.pdf)||
+|June 22nd|[Mixed Triple Draw Lowball ](https://www.wsop.com/pdfs/structuresheets/structure_5219_21717.pdf)||
+|June 23th|[H.O.R.S.E. Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21719.pdf)||
+|June 24th|[Seven Card Stud Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21720.pdf)||
+|June 25th|[SALUTE to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)||
+|June 26th|[No-Limit 2-7 Lowball Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf)||
+|June 27th|[Seven Card Stud Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf)||
+|June 28th|[Pot-Limit Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf)||
+|June 29th|[No-Limit 2-7 Lowball Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21734.pdf)||
+|June 30th|[HIGH ROLLER Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)||
+|July 1st|[Mixed Big Bet Event](https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf)||
+|July 2nd|[Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)||
+|July 3rd|[]()||
+|July 4th|[]()||
+|July 5th|[]()||
+|July 6th|[]()||
+|July 7th|[BOUNTY Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)||
+|July 8th|[Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)||
+|July 9th|[]()||
+|July 10th|[High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)||
+|July 11th|[6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)||
+|July 12th|[Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf)||
+|July 13th|[Mixed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21752.pdf)||
+|July 14th|[6-Handed No-Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21755.pdf)||
+|July 15th|[H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)||
+|July 16th|[Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)||
+|July 17th|[8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)||
+|July 18th|[Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)||
 
 [^1]: There is may be an extra Dealer's Choice tournament added to the
 schedule, since the June 3rd event is Paradise Road Pick'em and not
