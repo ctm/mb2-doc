@@ -99,12 +99,12 @@ delays around [June 24th](https://www.wser.org/).
 |June 30th|[HIGH ROLLER Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)||
 |July 1st|[Mixed Big Bet Event](https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf)||
 |July 2nd|[Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)||
-|July 3rd|||
+|July 3rd|[SAM 🚴6](#)[^5]||
 |July 4th|[MAIN EVENT No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)||
-|July 5th|[Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^5]||
-|July 6th|[Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^5]||
+|July 5th|[Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]||
+|July 6th|[Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
 |July 7th|[BOUNTY Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)||
-|July 8th|[](#)||
+|July 8th|[HOSDARSS](#)[^5]||
 |July 9th|[Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)||
 |July 10th|[High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)||
 |July 11th|[6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)||
@@ -140,7 +140,14 @@ associated with this event nor even a mandatory charity donation
 requirement. _Perhaps_ Craft Poker Co. will be able to contribute
 money to USO, but it may simply be a "harbor good thoughts" event.
 
-[^5]: At the World Series of Poker The Dealer's Choice tournaments were
+[^5]: SAM 🚴6 and HOSDARSS are not (yet!) part of the World Series of
+Poker.  Both of those structures were made&mdash;with great respect
+and sadness&mdash;in memory of [David
+Lawful](https://feldmanmemorial.com/tribute/details/4734/David-Lawful/obituary.html)
+(craftpoker.com player id 22).  More details will be available
+closer to tournament time.
+
+[^6]: At the World Series of Poker The Dealer's Choice tournaments were
 scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's Choice
 then, so they're schedule for these two slots which are taken by the
 multi-day Main Event at the World Series.
