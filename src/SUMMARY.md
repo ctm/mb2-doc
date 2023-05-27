@@ -27,6 +27,7 @@
     - [WYWAB](./series/2022/wywab.md)
   - [2023](./series/2023.md)
     - [WYWAE](./series/2023/wywae.md)
+    - [WSOP-Style](./series/2023/wsop-style.md)
 - [Ring Games](./ring_games.md)
 - [Vacation](./vacation.md)
 - [Chat](./chat.md)
@@ -61,5 +62,8 @@
   - [Multibot](./thanks/multibot.md)
   - [Post-multibot](./thanks/post-multibot.md)
   - [Mb2](./thanks/mb2.md)
+---
+- [Craft Poker Co.](craft-poker-co.md)
+  - [craftpoker.com](craft-poker-co/craftpoker.md)
 ---
 - [Third Party Licenses](./third-party-licenses.md)

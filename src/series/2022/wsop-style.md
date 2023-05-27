@@ -3,7 +3,7 @@
 ## Overview
 
 The WSOP-Style 2022 Series consisted of a tournament a day from
-Saturday, June 11th through Sunday, July 3rd, 2002.  Each tournament started
+Saturday, June 11th through Sunday, July 3rd, 2022.  Each tournament started
 at 3pm Pacific time (6pm Eastern).
 
 There was [no late
@@ -19,7 +19,7 @@ This series was open to the public.
 
 ## Prize for first place
 
-Craft Poker Co. sendt a physical prize to the winner of each
+Craft Poker Co. sent a physical prize to the winner of each
 tournament in the series[^1]. The prize will be an [Engraved Rectangular
 Glass
 Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
