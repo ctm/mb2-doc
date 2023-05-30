@@ -2,14 +2,20 @@
 
 ## Overview
 
-The WSOP-Style 2023 Series will be (at least[^1]) a tournament a day from
-Tuesday, May 30th through Tuesday, July 18th, 2023.  Each tournament will
-start at 3pm Pacific time (6pm Eastern).
+The WSOP-Style 2023 Series will be a tournament a day from Tuesday,
+May 30th through Tuesday, July 18th, 2023.  Each tournament will start
+at 5pm Pacific time (8pm Eastern) Monday through Friday and 3pm
+Pacific time (6pm Eastern) on Saturdays and Sundays.
 
 _**Currently**_ there is [no late
 entry](https://github.com/ctm/mb2-doc/issues/183), but it should be
-supported "soon" (with luck, within the first week of
+supported "soon" (with luck, within the first two weeks of
 tournaments).
+
+Because there is no late registration, the tournaments don't actually
+start until five minutes after the hour, but they start **exactly** at
+five minutes after the hour, so if you're going to play, register in
+advance and be sure that your registration check-box is checked.
 
 Another major difference is that instead of re-entries, the
 tournaments used rebuys.  A rebuy happens immediately after you bust
@@ -41,7 +47,7 @@ prizes haven't been nailed down yet.
 
 ## Leaderboard
 
-Mb2 knows which tournaments belonged to this series and there will be a
+Mb2 knows which tournaments belong to this series and there will be a
 "WSOPS Leaderboard" available from the lobby.
 
 The leaderboard tracks [Fun Money](../fun_money.md).  Each of the tournaments
@@ -50,8 +56,6 @@ Schedule](../barge/payouts.md). All rebuys are for FM 200 each and all of
 the Fun Money from rebuys goes directly into the prize pool,
 
 ## The Tournaments
-
-This table will be fully populated by the start of the series.
 
 The
 individual tournaments will be available for registration in the
@@ -67,11 +71,11 @@ delays around [June 24th](https://www.wser.org/).
 |--|--|-|
 |May 30th|[Employee Appreciation](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)[^3] [ No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)||
 |May 31st|[TOC No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21669.pdf)||
-|June 1st|[Mixed No-Limit Hold'em and Pot Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21671.pdf)||
+|June 1st|[Mixed No-Limit Hold'em and Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21671.pdf)||
 |June 2nd|[Seven Card Stud](https://www.wsop.com/pdfs/structuresheets/structure_5219_21674.pdf)||
 |June 3rd|Paradise Road Pick'em ([levels from Dealer's Choice](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf))||
 |June 4th|[No-Limit Hold'em Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21676.pdf)||
-|June 5th|[Pot Limit Omaha Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21678.pdf)||
+|June 5th|[Pot-Limit Omaha Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21678.pdf)||
 |June 6th|[Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21682.pdf)||
 |June 7th|[Badugi](https://www.wsop.com/pdfs/structuresheets/structure_5219_21685.pdf)||
 |June 8th|[Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)||
@@ -85,26 +89,26 @@ delays around [June 24th](https://www.wser.org/).
 |June 16th|[Super High Roller No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21705.pdf)||
 |June 17th|[Big O](https://www.wsop.com/pdfs/structuresheets/structure_5219_21706.pdf)||
 |June 18th|[Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21708.pdf)||
-|June 19th|[Mixed Omaha Hi Low](https://www.wsop.com/pdfs/structuresheets/structure_5219_21710.pdf)||
+|June 19th|[Mixed Omaha Hi-Lo](https://www.wsop.com/pdfs/structuresheets/structure_5219_21710.pdf)||
 |June 20th|[H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21712.pdf)||
 |June 21st|[Pot-Limit Omaha Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21715.pdf)||
 |June 22nd|[Mixed Triple Draw Lowball ](https://www.wsop.com/pdfs/structuresheets/structure_5219_21717.pdf)||
 |June 23th|[H.O.R.S.E. Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21719.pdf)||
 |June 24th|[Seven Card Stud Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21720.pdf)||
-|June 25th|[SALUTE to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)[^4]||
+|June 25th|[Salute to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)[^4]||
 |June 26th|[No-Limit 2-7 Lowball Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf)||
 |June 27th|[Seven Card Stud Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf)||
 |June 28th|[Pot-Limit Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf)||
 |June 29th|[No-Limit 2-7 Lowball Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21734.pdf)||
-|June 30th|[HIGH ROLLER Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)||
+|June 30th|[High Roller Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)||
 |July 1st|[Mixed Big Bet Event](https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf)||
 |July 2nd|[Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)||
-|July 3rd|[SAM 🚴6](#)[^5]||
-|July 4th|[MAIN EVENT No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)||
+|July 3rd|[SAM 🚴6 Championship](#)[^5]||
+|July 4th|[**Main Event** No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)||
 |July 5th|[Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]||
 |July 6th|[Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
-|July 7th|[BOUNTY Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)||
-|July 8th|[HOSDARSS](#)[^5]||
+|July 7th|[Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)||
+|July 8th|[HOSDARSS Championship](#)[^5]||
 |July 9th|[Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)||
 |July 10th|[High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)||
 |July 11th|[6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)||
@@ -115,12 +119,6 @@ delays around [June 24th](https://www.wser.org/).
 |July 16th|[Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)||
 |July 17th|[8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)||
 |July 18th|[Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)||
-
-[^1]: There is may be an extra Dealer's Choice tournament added to the
-schedule, since the June 3rd event is Paradise Road Pick'em and not
-Dealer's Choice.  That substitution was necessary because mb2's
-Dealer's Choice implementation was not finished in time to put it into
-the early lineup.
 
 [^2]: I'll be doing this with the same interface everyone else uses;
 there is no other interface. Nor are there any other "super-powers"
