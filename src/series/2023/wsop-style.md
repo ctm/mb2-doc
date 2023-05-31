@@ -2,27 +2,48 @@
 
 ## Overview
 
-The WSOP-Style 2023 Series will be a tournament a day from Tuesday,
+The WSOP-Style 2023 Series is a tournament a day from Tuesday,
 May 30th through Tuesday, July 18th, 2023.  Each tournament will start
-at 5pm Pacific time (8pm Eastern) Monday through Friday and 3pm
-Pacific time (6pm Eastern) on Saturdays and Sundays.
+at:
+
+* Monday through Friday: 5pm Pacific time (8pm Eastern)
+* Saturday and Sunday: 3pm Pacific time (6pm Eastern)
+
+The initial rounds of each daily tournament will be five minutes long.
+Some structures may have longer rounds after the initial rounds.
+
+Tournaments typically finish in under two hours.  
+
+If you click on a nickname in the winner column, you can see how long
+that tournament took.
+
+### No Late Registration (yet)
 
 _**Currently**_ there is [no late
 entry](https://github.com/ctm/mb2-doc/issues/183), but it should be
 supported "soon" (with luck, within the first two weeks of
-tournaments).
+this series).
 
 Because there is no late registration, the tournaments don't actually
 start until five minutes after the hour, but they start **exactly** at
 five minutes after the hour, so if you're going to play, register in
 advance and be sure that your registration check-box is checked.
 
+### Rebuys instead of re-entries
+
 Another major difference is that instead of re-entries, the
-tournaments used rebuys.  A rebuy happens immediately after you bust
-and you retain the seat that you were busted in.  So, when the
-structure sheet says the tournament supports two re-entries through
-level 15, you will be allowed (but not required) to rebuy up to twice,
-but only through level 15.
+tournaments used rebuys.  When rebuys are available to you, there will
+be a checkbox that you can check to request a rebuy when you bust.  If
+that checkbox is checked, a rebuy happens immediately after you bust
+and you retain the seat that you were busted in.  If that check box
+wasn't checked **before** you bust, you will not be able to rebuy or
+re-enter.
+
+So, when the structure sheet says the tournament supports two
+re-entries through level 15, you will be allowed (but not required) to
+rebuy up to twice, but only through level 15.
+
+### All are welcome
 
 All events in this series are open to the public. Tell anyone you know who
 is already interested in online poker.
@@ -70,7 +91,7 @@ Tournament winners will typically be updated within a day
 of the completion of each tournament, although there are likely to be
 delays around [June 24th](https://www.wser.org/).
 
-|Date|Event|Winner|
+|Date|Event (and link to Event Structure Sheet)|Winner|
 |--|--|-|
 |May 30th|[#1 Employee Appreciation](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)[^3] [ No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)|[COC](https://craftpoker.com/event/4478/player/95)|
 |May 31st|[#4 TOC No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21669.pdf)||
