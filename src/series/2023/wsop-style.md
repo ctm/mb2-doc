@@ -47,8 +47,11 @@ prizes haven't been nailed down yet.
 
 ## Leaderboard
 
-Mb2 knows which tournaments belong to this series and there will be a
-"WSOPS Leaderboard" available from the lobby.
+Mb2 knows which tournaments belong to this series and there is a
+"WSOPS 2023 LEADERBOARD" menu entry reachable from the top-line in the
+lobby. It's in the middle of the reports drop-down, which is the first
+small icon to the right of the circled-i.  The reports drop-down icon
+itself consists of three horizontal lines, each with a dot before it.
 
 The leaderboard tracks [Fun Money](../fun_money.md).  Each of the tournaments
 had an FM 200 buy-in and Fun Money is awarded using the [BARGE Unified Payout
@@ -145,7 +148,7 @@ Lawful](https://feldmanmemorial.com/tribute/details/4734/David-Lawful/obituary.h
 (craftpoker.com player id 22).  More details will be available
 closer to tournament time.
 
-[^6]: At the World Series of Poker The Dealer's Choice tournaments were
+[^6]: At the World Series of Poker, the Dealer's Choice tournaments were
 scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's Choice
 then, so they're schedule for these two slots which are taken by the
 multi-day Main Event at the World Series.
