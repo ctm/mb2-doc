@@ -94,7 +94,7 @@ delays around [June 24th](https://www.wser.org/).
 |Date|Event (and link to Event Structure Sheet)|Winner|
 |--|--|-|
 |May 30th|[#1 Employee Appreciation](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)[^3] [ No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)|[COC](https://craftpoker.com/event/4478/player/95)|
-|May 31st|[#4 TOC No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21669.pdf)||
+|May 31st|[#4 TOC No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21669.pdf)|[smalltalkdan](https://craftpoker.com/event/4479/player/6)|
 |June 1st|[#6 Mixed No-Limit Hold'em and Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21671.pdf)||
 |June 2nd|[#9 Seven Card Stud](https://www.wsop.com/pdfs/structuresheets/structure_5219_21674.pdf)||
 |June 3rd|Paradise Road Pick'em ([levels from #10 Dealer's Choice](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf))||
