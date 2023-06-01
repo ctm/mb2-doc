@@ -10,9 +10,20 @@ at:
 * Saturday and Sunday: 3pm Pacific time (6pm Eastern)
 
 The initial rounds of each daily tournament will be five minutes long.
-Some structures may have longer rounds after the initial rounds.
 
-Tournaments typically finish in under two hours.  
+If the structure sheet for a tournament has longer rounds on
+successive days, the levels that correspond to those days will be
+longer in the same proportion.
+
+For example, Event #22, the Limit Hold'em Championship's [structure
+sheet](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)
+lists Levels 1-6 as 40 minutes, 7-10 as 60 minutes and 11-end as 90
+minutes.  When played here, the first six levels will be five minutes
+long, since those are the initial levels. Levels seven through ten
+will be seven and a half minutes long (60 / 40 * 5). The remaining
+levels will be eleven and a quarter minutes long (90 / 40 * 5).
+
+Tournaments typically finish in under two hours.
 
 If you click on a nickname in the winner column, you can see how long
 that tournament took.
