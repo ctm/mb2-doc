@@ -9,7 +9,7 @@ rules to almost all of the games mb2 deals.  The exceptions are
 [Sack](./games/sack.html), [Wonky Donkey](./games/wonky-donkey.html),
 [Rio Bravo](./games/rio-bravo.html), [Regular
 Pineapple](./games/regular-pineapple.html),
-[Redrum](./games/redrum.html), [Quick Quads](./games/quick-quads.md) and [Omaha X Or Better](./games/omaha-x-or-better.md).
+[Redrum](./games/redrum.html), [Quick Quads](./games/quick-quads.md), [Omaha X Or Better](./games/omaha-x-or-better.md) and [Dealer's Choice](games/dealers-choice.md).
 
 [^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is fifty-nine. That number comes from the source code to mb2:
 ```

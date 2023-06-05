@@ -40,6 +40,7 @@
      - [Regular Pineapple](./games/regular-pineapple.md)
      - [Quick Quads](./games/quick-quads.md)
      - [Omaha X Or Better](./games/omaha-x-or-better.md)
+     - [Dealer's Choice](games/dealers-choice.md)
 - [Esoterica](./esoterica.md)
   - [Lammers](./esoterica/lammers.md)
   - [GitHub](./esoterica/github.md)
