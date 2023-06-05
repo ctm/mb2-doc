@@ -142,7 +142,7 @@ delays around [June 24th](https://www.wser.org/).
 |July 4th|[#76 **Main Event** No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)||
 |July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]||
 |July 6th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
-|July 7th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)||
+|July 7th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
 |July 8th|[HOSDARSS Championship](#)[^5]||
 |July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)||
 |July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)||
@@ -185,3 +185,6 @@ scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's Choice
 then, so they're schedule for these two slots which are taken by the
 multi-day Main Event at the World Series.
 
+[^7]: Each time a player completely busts (i.e. doesn't rebuy), the
+player that busts the busted player will be awarded an FM 65 bounty
+from the prize pool.
