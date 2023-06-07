@@ -111,7 +111,7 @@ delays around [June 24th](https://www.wser.org/).
 |June 3rd|Paradise Road Pick'em ([levels from #10 Dealer's Choice](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf))|[jrx](https://craftpoker.com/event/4482/player/20)|
 |June 4th|[#11 No-Limit Hold'em Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21676.pdf)|[ODB Phat Mack 🎈🎈](https://craftpoker.com/event/4483/player/17)|
 |June 5th|[#13 Pot-Limit Omaha Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21678.pdf)|[Chuck](https://craftpoker.com/event/4489/player/3)|
-|June 6th|[#17 Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21682.pdf)||
+|June 6th|[#17 Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21682.pdf)|[Chuck](https://craftpoker.com/event/4506/player/3)|
 |June 7th|[#20 Badugi](https://www.wsop.com/pdfs/structuresheets/structure_5219_21685.pdf)||
 |June 8th|[#22 Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)||
 |June 9th|[#24 Razz](https://www.wsop.com/pdfs/structuresheets/structure_5219_21689.pdf)||
