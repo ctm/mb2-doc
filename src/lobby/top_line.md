@@ -63,10 +63,9 @@ presence of the new tournament so they can sign up. If your bell is
 green, the gong will be played. If gray, it won't.  If you hover
 your mouse over the bell, it will tell you its status.
 
-Two daily tournaments (the 5:05pm Pacific and 8:10pm Pacific) have the
-tradition of encouraging the winner to pick the following day's
-tournament. It's viscerally satisfying to win, create the successor
-tournament and then [bang a
+Some daily tournaments have the tradition of encouraging the winner to
+pick the following day's tournament. It's viscerally satisfying to
+win, create the successor tournament and then [bang a
 gong](https://www.youtube.com/watch?v=A4o4Q9sd_y4).
 
 ## Preferences

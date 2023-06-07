@@ -19,18 +19,35 @@ There's more information about the demo on the next page of this book.
 To advance to the next page, scroll to the bottom of this page and
 then click the `>` in the lower right corner.
 
-### Come back at 5pm Pacific, or 8pm Pacific
+### Come back for the tournaments
 
-Although you can create your own tournaments, two tournaments are
-typically scheduled each day. You can win bragging rights and the
-privilege to pick the structure for the same tournament on the
-following day (e.g., the winner of the evening tournament chooses the
-structure for the evening tournament for the following day).
+Although you can create your own tournaments and have them start
+whenever you want, at least two tournaments are typically scheduled
+each day.
 
-The evening
-tournament begins at 5pm Pacific and the night tournament at 8pm
-Pacific.  So, figure out what time they start in your time zone and
-join us.
+From May 30th, 2023 through July 18th,
+[craftpoker.com](https://craftpoker.com) hosts one
+[WSOP-style](series/2023/wsop-style.md) tournament each day, and the
+winner gets to choose either an [Engraved Rectangular Glass
+Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
+or $50 cash (via Venmo or Zelle).
+
+This WSOP-Style tournament starts each day at:
+
+* Monday through Friday: 5pm Pacific time (8pm Eastern)
+* Saturday and Sunday: 3pm Pacific time (6pm Eastern)
+
+The other tournaments that are run only have bragging rights as a
+prize, although the winner does get the privilege to pick the
+structure for the same tournament on the next day (e.g., the winner of
+the night tournament chooses the structure for the night tournament
+the next day).
+
+The night tournament starts at 8pm Pacific. 
+
+On Saturday and Sunday there may be an evening tournament at 5pm Pacific.
+
+So, figure out what time they start in your time zone and join us.
 
 ### This manual is&hellip; Player Driven
 
