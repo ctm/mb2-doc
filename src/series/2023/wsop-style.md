@@ -9,24 +9,30 @@ at:
 * Monday through Friday: 5pm Pacific time (8pm Eastern)
 * Saturday and Sunday: 3pm Pacific time (6pm Eastern)
 
-The initial rounds of each daily tournament will be five minutes long.
-
-If the structure sheet for a tournament has longer rounds on
-successive days, the levels that correspond to those days will be
-longer in the same proportion.
-
-For example, Event #22, the Limit Hold'em Championship's [structure
-sheet](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)
-lists Levels 1-6 as 40 minutes, 7-10 as 60 minutes and 11-end as 90
-minutes.  When played here, the first six levels will be five minutes
-long, since those are the initial levels. Levels seven through ten
-will be seven and a half minutes long (60 / 40 * 5). The remaining
-levels will be eleven and a quarter minutes long (90 / 40 * 5).
-
 Tournaments typically finish in under two hours.
 
-If you click on a nickname in the winner column, you can see how long
-that tournament took.
+## Prize for first place
+
+Craft Poker Co. will either send a physical prize to the winner of
+each tournament in the series or pay $50 in cash via Venmo or
+Zelle. It will be the winner's choice. If taken, the prize will be an
+[Engraved Rectangular Glass
+Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
+unless they run out or there are other unforeseen circumstances.
+
+There will also be nicer prizes for the top three leaderboard at the
+end of the series or $250, $125 and $85 respectively, although the
+prizes haven't been nailed down yet.
+
+### All are welcome
+
+All events in this series are open to the public. Tell anyone you know who
+is already interested in online poker.
+
+I (Cliff Matthews, aka [deadhead](https://ctm.github.io/docs/yld/))
+won't be playing any of the tournaments, but more often than not I'll
+be watching the tables[^2] as I work in other windows.
+
 
 ### No Late Registration (yet)
 
@@ -54,29 +60,6 @@ So, when the structure sheet says the tournament supports two
 re-entries through level 15, you will be allowed (but not required) to
 rebuy up to twice, but only through level 15.
 
-### All are welcome
-
-All events in this series are open to the public. Tell anyone you know who
-is already interested in online poker.
-
-I (Cliff Matthews, aka [deadhead](https://ctm.github.io/docs/yld/))
-won't be playing any of the tournaments, but more often than not I'll
-be watching the tables[^2] as I work in other windows.
-
-
-## Prize for first place
-
-Craft Poker Co. will either send a physical prize to the winner of
-each tournament in the series or pay $50 in cash via Venmo or
-Zelle. It will be the winner's choice. If taken, the prize will be an
-[Engraved Rectangular Glass
-Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
-unless they run out or there are other unforeseen circumstances.
-
-There will also be nicer prizes for the top three leaderboard at the
-end of the series or $250, $125 and $85 respectively, although the
-prizes haven't been nailed down yet.
-
 ## Leaderboard
 
 Mb2 knows which tournaments belong to this series and there is a
@@ -89,6 +72,25 @@ The leaderboard tracks [Fun Money](../fun_money.md).  Each of the tournaments
 had an FM 200 buy-in and Fun Money is awarded using the [BARGE Unified Payout
 Schedule](../barge/payouts.md). All rebuys are for FM 200 each and all of
 the Fun Money from rebuys goes directly into the prize pool,
+
+### Round Duration
+
+The initial rounds of each daily tournament will be five minutes long.
+
+If the structure sheet for a tournament has longer rounds on
+successive days, the levels that correspond to those days will be
+longer in the same proportion.
+
+For example, Event #22, the Limit Hold'em Championship's [structure
+sheet](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)
+lists Levels 1-6 as 40 minutes, 7-10 as 60 minutes and 11-end as 90
+minutes.  When played here, the first six levels will be five minutes
+long, since those are the initial levels. Levels seven through ten
+will be seven and a half minutes long (60 / 40 * 5). The remaining
+levels will be eleven and a quarter minutes long (90 / 40 * 5).
+
+If you click on a nickname in the winner column, you can see how long
+that tournament took.
 
 ## The Tournaments
 
