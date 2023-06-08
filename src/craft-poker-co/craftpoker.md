@@ -25,7 +25,7 @@ Here's a super abbreviated version of what I plan for craftpoker.com
   * etc.
 * Assuming Craft Poker Co. has sufficient capital, while the above is being developed, there will also be great improvements to the User Interface, allowing mb2 to be played on tablets "soon" and the ability to play on phones being a high priority (albeit too far away for me to say more just yet).
 
-[^1] This requires rewording, because one could make a good argument
+[^1]: This requires rewording, because one could make a good argument
 that closed source itself is a dark pattern. Similarly, the artificial
 scarcity of low user-ids could be seen as a dark pattern rather than
 simply a way to reward early adopters. Finally&mdash;and it's a
