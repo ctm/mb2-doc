@@ -28,6 +28,4 @@ Here's a super abbreviated version of what I plan for craftpoker.com
 [^1]: This requires rewording, because one could make a good argument
 that closed source itself is a dark pattern. Similarly, the artificial
 scarcity of low user-ids could be seen as a dark pattern rather than
-simply a way to reward early adopters. Finally&mdash;and it's a
-stretch&mdash;one could view the scoring systems as having a FOMO
-(Fear Of Missing Out) side-effect.
+simply a way to reward early adopters.

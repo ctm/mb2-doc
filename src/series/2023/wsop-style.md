@@ -20,9 +20,13 @@ Zelle. It will be the winner's choice. If taken, the prize will be an
 Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
 unless they run out or there are other unforeseen circumstances.
 
-There will also be nicer prizes for the top three leaderboard at the
-end of the series or $250, $125 and $85 respectively, although the
-prizes haven't been nailed down yet.
+### Overall prizes
+
+There will also be nicer prizes for the top three players on
+leaderboard by profit and also by win rate at the end of the series or
+$250, $125 and $85 respectively.  The prizes haven't been
+nailed down yet.  To qualify for an overall win rate prize, the player
+must have completed at least seven tournaments.
 
 ### All are welcome
 
