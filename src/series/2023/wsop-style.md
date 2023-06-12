@@ -186,10 +186,10 @@ Lawful](https://feldmanmemorial.com/tribute/details/4734/David-Lawful/obituary.h
 (craftpoker.com player id 22).  More details will be available
 closer to tournament time.
 
-[^6]: At the World Series of Poker, the Dealer's Choice tournaments were
-scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's Choice
-then, so they're schedule for these two slots which are taken by the
-multi-day Main Event at the World Series.
+[^6]: At the World Series of Poker, the Dealer's Choice tournaments
+were scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's
+Choice then, so they were scheduled for these two slots which are
+taken by the multi-day Main Event at the World Series.
 
 [^7]: Each time a player completely busts (i.e. doesn't rebuy), the
 player that busts the busted player will be awarded an FM 65 bounty

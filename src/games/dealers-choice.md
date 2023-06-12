@@ -1,22 +1,10 @@
 # Dealer's Choice
 
-## Coming "Soon"
-
-Dealer's Choice is not fully implemented, but it is present in the structures:
-* "WSOP 2023"-style [#05 Dealer's Choice](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)
-* "WSOP 2023"-style [#10 Dealer's Choice](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)
-
-which will be dealt as part of the [WSOPS 2023
-Series](../series/2023/wsop-style.md#the-tournaments) on July 5th ad July
-6th.
-
-Twenty-one different games are offered in Dealer's Choice, however,
-**the incomplete implementation doesn't actually allow anyone to
-choose the games**. Instead, each of the twenty-one games are dealt
-six times in rotation.
-
-By July 1st, there will be a picker, and each player in rotation will
-be allowed to pick the game for the next six hands.
+Twenty-one different games are offered in Dealer's Choice.  Initially,
+the first player in or past seat one chooses the game.  That game is
+then played for six hands, and then the player in the next seat gets
+to choose.  Currently there is no representation (text or visual) of
+who is going to get to choose next.
 
 ## The Games
 
