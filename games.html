@@ -143,7 +143,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal over fifty different variations of poker<sup class="footnote-reference"><a href="#1">1</a></sup>. This includes
+<p>Mb2 can deal sixty different variations of poker<sup class="footnote-reference"><a href="#1">1</a></sup>. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.</p>
 <p>The <a href="http://www.ceemeck.org/BARGERuleBook2021/">BARGE Rule Book</a> has
@@ -153,8 +153,8 @@ rules to almost all of the games mb2 deals.  The exceptions are
 Pineapple</a>,
 <a href="./games/redrum.html">Redrum</a>, <a href="./games/quick-quads.html">Quick Quads</a>, <a href="./games/omaha-x-or-better.html">Omaha X Or Better</a> and <a href="games/dealers-choice.html">Dealer's Choice</a>.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is fifty-nine. That number comes from the source code to mb2:</p>
-<pre><code>pub static GAMES: Lazy&lt;[GameInfo; 59]&gt; = Lazy::new(|| {
+<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty. That number comes from the source code to mb2:</p>
+<pre><code>pub static GAMES: Lazy&lt;[GameInfo; 60]&gt; = Lazy::new(|| {
     [
         // Hold'ems
         (&amp;*HOLD_EM).into(),
@@ -166,7 +166,7 @@ Pineapple</a>,
         (&amp;*LAZY_PINE_8).into(),
 ...
 </code></pre>
-<p>The 59 shows that we're populating the <code>GAMES</code> constant with 59
+<p>The 60 shows that we're populating the <code>GAMES</code> constant with 60
 elements, but it's counting <code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
 </div>
 <p>It's also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
@@ -178,7 +178,7 @@ of options applied to them and the <code>GAMES</code> constant simply represents
 the most popular combinations of core games with options. There is no
 requirement for a combination of a core game and options to be present
 in <code>GAMES</code> for that combination to be used in a tournament structure
-or ring game, so mb2 is already dealing more than fifty-nine different
+or ring game, so mb2 is already dealing more than sixty different
 variants, but some of the differences are so small that it's hard to
 argue they're different games.</p>
 <p><sup class="footnote-reference"><a href="#2">2</a></sup>
@@ -200,7 +200,7 @@ of mb2. As such, it's not really that useful to Players, per-se.</p>
 <tr><td>Five Card Stud</td><td>Five Card Stud</td></tr>
 <tr><td>Mexican</td><td>Mexican</td></tr>
 <tr><td>Simultaneous</td><td>SOHE (Simultaneous Omaha and Hold'em)</td></tr>
-<tr><td>Choice</td><td>Paradise Road Pick'em, Wonky Donkey</td></tr>
+<tr><td>Choice</td><td>Paradise Road Pick'em, Wonky Donkey, Dealer's</td></tr>
 </tbody></table>
 
                     </main>

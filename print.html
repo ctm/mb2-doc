@@ -1047,10 +1047,10 @@ Lawful</a>
 closer to tournament time.</p>
 </div>
 <div class="footnote-definition" id="6"><sup class="footnote-definition-label">5</sup>
-<p>At the World Series of Poker, the Dealer's Choice tournaments were
-scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's Choice
-then, so they're schedule for these two slots which are taken by the
-multi-day Main Event at the World Series.</p>
+<p>At the World Series of Poker, the Dealer's Choice tournaments
+were scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's
+Choice then, so they were scheduled for these two slots which are
+taken by the multi-day Main Event at the World Series.</p>
 </div>
 <div class="footnote-definition" id="7"><sup class="footnote-definition-label">6</sup>
 <p>Each time a player completely busts (i.e. doesn't rebuy), the
@@ -1194,7 +1194,7 @@ turns to an I-beam for emojis with a Unicode representation (e.g.,
 :smile:) but remains an arrow for one of the ones that doesn't work
 (e.g., :bowtie:).</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal over fifty different variations of poker<sup class="footnote-reference"><a href="#1">1</a></sup>. This includes
+<p>Mb2 can deal sixty different variations of poker<sup class="footnote-reference"><a href="#1">1</a></sup>. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.</p>
 <p>The <a href="http://www.ceemeck.org/BARGERuleBook2021/">BARGE Rule Book</a> has
@@ -1204,8 +1204,8 @@ rules to almost all of the games mb2 deals.  The exceptions are
 Pineapple</a>,
 <a href="./games/redrum.html">Redrum</a>, <a href="./games/quick-quads.html">Quick Quads</a>, <a href="./games/omaha-x-or-better.html">Omaha X Or Better</a> and <a href="games/dealers-choice.html">Dealer's Choice</a>.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is fifty-nine. That number comes from the source code to mb2:</p>
-<pre><code>pub static GAMES: Lazy&lt;[GameInfo; 59]&gt; = Lazy::new(|| {
+<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty. That number comes from the source code to mb2:</p>
+<pre><code>pub static GAMES: Lazy&lt;[GameInfo; 60]&gt; = Lazy::new(|| {
     [
         // Hold'ems
         (&amp;*HOLD_EM).into(),
@@ -1217,7 +1217,7 @@ Pineapple</a>,
         (&amp;*LAZY_PINE_8).into(),
 ...
 </code></pre>
-<p>The 59 shows that we're populating the <code>GAMES</code> constant with 59
+<p>The 60 shows that we're populating the <code>GAMES</code> constant with 60
 elements, but it's counting <code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
 </div>
 <p>It's also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
@@ -1229,7 +1229,7 @@ of options applied to them and the <code>GAMES</code> constant simply represents
 the most popular combinations of core games with options. There is no
 requirement for a combination of a core game and options to be present
 in <code>GAMES</code> for that combination to be used in a tournament structure
-or ring game, so mb2 is already dealing more than fifty-nine different
+or ring game, so mb2 is already dealing more than sixty different
 variants, but some of the differences are so small that it's hard to
 argue they're different games.</p>
 <p><sup class="footnote-reference"><a href="#2">2</a></sup>
@@ -1251,7 +1251,7 @@ of mb2. As such, it's not really that useful to Players, per-se.</p>
 <tr><td>Five Card Stud</td><td>Five Card Stud</td></tr>
 <tr><td>Mexican</td><td>Mexican</td></tr>
 <tr><td>Simultaneous</td><td>SOHE (Simultaneous Omaha and Hold'em)</td></tr>
-<tr><td>Choice</td><td>Paradise Road Pick'em, Wonky Donkey</td></tr>
+<tr><td>Choice</td><td>Paradise Road Pick'em, Wonky Donkey, Dealer's</td></tr>
 </tbody></table>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="mexican-poker"><a class="header" href="#mexican-poker">Mexican Poker</a></h1>
 <p>In addition to the information here, <a href="https://www.ceemeck.org/BARGERuleBook2021/other.html#mexican-poker">Mexican
@@ -1354,21 +1354,11 @@ There is never a qualifier for high.</p>
 <tr><td>12</td><td>High/Low</td><td>Queen or Better</td></tr>
 </tbody></table>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
-<h2 id="coming-soon"><a class="header" href="#coming-soon">Coming &quot;Soon&quot;</a></h2>
-<p>Dealer's Choice is not fully implemented, but it is present in the structures:</p>
-<ul>
-<li>&quot;WSOP 2023&quot;-style <a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf">#05 Dealer's Choice</a></li>
-<li>&quot;WSOP 2023&quot;-style <a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf">#10 Dealer's Choice</a></li>
-</ul>
-<p>which will be dealt as part of the <a href="games/../series/2023/wsop-style.html#the-tournaments">WSOPS 2023
-Series</a> on July 5th ad July
-6th.</p>
-<p>Twenty-one different games are offered in Dealer's Choice, however,
-<strong>the incomplete implementation doesn't actually allow anyone to
-choose the games</strong>. Instead, each of the twenty-one games are dealt
-six times in rotation.</p>
-<p>By July 1st, there will be a picker, and each player in rotation will
-be allowed to pick the game for the next six hands.</p>
+<p>Twenty-one different games are offered in Dealer's Choice.  Initially,
+the first player in or past seat one chooses the game.  That game is
+then played for six hands, and then the player in the next seat gets
+to choose.  Currently there is no representation (text or visual) of
+who is going to get to choose next.</p>
 <h2 id="the-games"><a class="header" href="#the-games">The Games</a></h2>
 <ul>
 <li>No-Limit Hold’em</li>
