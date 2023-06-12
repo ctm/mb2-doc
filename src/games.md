@@ -1,6 +1,6 @@
 # Games
 
-Mb2 can deal over fifty different variations of poker[^1]. This includes
+Mb2 can deal sixty different variations of poker[^1]. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.
 
@@ -11,9 +11,9 @@ rules to almost all of the games mb2 deals.  The exceptions are
 Pineapple](./games/regular-pineapple.html),
 [Redrum](./games/redrum.html), [Quick Quads](./games/quick-quads.md), [Omaha X Or Better](./games/omaha-x-or-better.md) and [Dealer's Choice](games/dealers-choice.md).
 
-[^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is fifty-nine. That number comes from the source code to mb2:
+[^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is sixty. That number comes from the source code to mb2:
 ```
-pub static GAMES: Lazy<[GameInfo; 59]> = Lazy::new(|| {
+pub static GAMES: Lazy<[GameInfo; 60]> = Lazy::new(|| {
     [
         // Hold'ems
         (&*HOLD_EM).into(),
@@ -25,7 +25,7 @@ pub static GAMES: Lazy<[GameInfo; 59]> = Lazy::new(|| {
         (&*LAZY_PINE_8).into(),
 ...
 ```
-The 59 shows that we're populating the `GAMES` constant with 59
+The 60 shows that we're populating the `GAMES` constant with 60
 elements, but it's counting `Hold'em` and `Hold'em High/Low with an
 Eight Qualifier` as two separate games.
 
@@ -40,7 +40,7 @@ of options applied to them and the `GAMES` constant simply represents
 the most popular combinations of core games with options. There is no
 requirement for a combination of a core game and options to be present
 in `GAMES` for that combination to be used in a tournament structure
-or ring game, so mb2 is already dealing more than fifty-nine different
+or ring game, so mb2 is already dealing more than sixty different
 variants, but some of the differences are so small that it's hard to
 argue they're different games.
 
@@ -65,4 +65,4 @@ of mb2. As such, it's not really that useful to Players, per-se.
 |Five Card Stud|Five Card Stud|
 |Mexican|Mexican|
 |Simultaneous|SOHE (Simultaneous Omaha and Hold'em)|
-|Choice|Paradise Road Pick'em, Wonky Donkey|
+|Choice|Paradise Road Pick'em, Wonky Donkey, Dealer's|
