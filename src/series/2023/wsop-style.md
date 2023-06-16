@@ -126,7 +126,7 @@ delays around [June 24th](https://www.wser.org/).
 |June 12th|[#30 Limit 2-7 Lowball Triple Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21695.pdf)|[smalltalkdan](https://craftpoker.com/event/4540/player/6)|
 |June 13th|[#33 Razz Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21698.pdf)|[JADC🚴](https://craftpoker.com/event/4541/player/28g)|
 |June 14th|[#36 Nine Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21701.pdf)|[SuperKM](https://craftpoker.com/event/4542/player/33)|
-|June 15th|[#38 Limit 2-7 Lowball Triple Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21703.pdf)||
+|June 15th|[#38 Limit 2-7 Lowball Triple Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21703.pdf)|[SuperKM](https://craftpoker.com/event/4543/player/33)|
 |June 16th|[#40 Super High Roller No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21705.pdf)||
 |June 17th|[#41 Big O](https://www.wsop.com/pdfs/structuresheets/structure_5219_21706.pdf)||
 |June 18th|[#43 Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21708.pdf)||
