@@ -1,1 +1,0 @@
-# Follower of Steve Brecher
