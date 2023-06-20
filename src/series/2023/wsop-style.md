@@ -130,7 +130,7 @@ delays around [June 24th](https://www.wser.org/).
 |June 16th|[#40 Super High Roller No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21705.pdf)|[GamboMouse](https://craftpoker.com/event/4544/player/13)|
 |June 17th|[#41 Big O](https://www.wsop.com/pdfs/structuresheets/structure_5219_21706.pdf)|[jrx](https://craftpoker.com/event/4545/player/20)|
 |June 18th|[#43 Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21708.pdf)|[Grizz](https://craftpoker.com/event/4546/player/9)|
-|June 19th|[#45 Mixed Omaha Hi-Lo](https://www.wsop.com/pdfs/structuresheets/structure_5219_21710.pdf)||
+|June 19th|[#45 Mixed Omaha Hi-Lo](https://www.wsop.com/pdfs/structuresheets/structure_5219_21710.pdf)|[maverick600](https://craftpoker.com/event/4561/player/49)|
 |June 20th|[#47 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21712.pdf)||
 |June 21st|[#50 Pot-Limit Omaha Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21715.pdf)||
 |June 22nd|[#52 Mixed Triple Draw Lowball ](https://www.wsop.com/pdfs/structuresheets/structure_5219_21717.pdf)||
