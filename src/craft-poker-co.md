@@ -14,9 +14,10 @@ There are 2,250 shares of Series A Preferred Stock:
 |1,200|Bill Savage|
 |750|Lee Ward|
 |300|Charles Haynes|
+|40|Anonymousd|
 
 Series A Preferred shares come with a liquidity preference.
 
-An additional 1,800 shares of Series A Preferred Stock have been authorized
+An additional 1,760 shares of Series A Preferred Stock have been authorized
 to be sold to accredited investors and through the Title3Funds Equity
 Crowdfunding Portal.
