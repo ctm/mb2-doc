@@ -8,7 +8,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="A poker server and client, both written in Rust">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -33,14 +32,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -56,7 +56,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -68,12 +68,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -99,7 +101,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -132,7 +134,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -172,13 +174,14 @@ had an FM 200 buy-in and Fun Money is awarded using the <a href="../barge/payout
 Schedule</a>. All rebuys were for FM 200 each and all of
 the Fun Money from rebuys goes directly into the prize pool,</p>
 <p>The top three profitable players were:</p>
-<table><thead><tr><th>RANK</th><th>PROFIT</th><th>NICK</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>RANK</th><th>PROFIT</th><th>NICK</th></tr></thead><tbody>
 <tr><td>1st</td><td>1520</td><td>royalflush</td></tr>
 <tr><td>2nd</td><td>1470</td><td>deadhead</td></tr>
 <tr><td>3rd</td><td>760</td><td>ADBDaVoice 🎤</td></tr>
 </tbody></table>
+</div>
 <h2 id="the-tournaments-were"><a class="header" href="#the-tournaments-were">The Tournaments Were</a></h2>
-<table><thead><tr><th>Date</th><th>Event</th><th>Winner</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Date</th><th>Event</th><th>Winner</th></tr></thead><tbody>
 <tr><td>June 11th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20323.pdf">6-handed Limit Hold 'em</a></td><td><a href="https://craftpoker.com/event/3404/player/9">grizz</a></td></tr>
 <tr><td>June 12th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20325.pdf">NLHE Deep Stack</a></td><td><a href="https://craftpoker.com/event/3405/player/2">LfromHell</a></td></tr>
 <tr><td>June 13th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20329.pdf">No Limit 2-7 Lowball</a></td><td><a href="https://craftpoker.com/event/3406/player/26">ADBDaVoice 🎤</a></td></tr>
@@ -203,6 +206,7 @@ the Fun Money from rebuys goes directly into the prize pool,</p>
 <tr><td>July 2nd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20369.pdf">8-handed PLO Championship</a></td><td><a href="https://craftpoker.com/event/3476/player/6">smalltalkdan</a></td></tr>
 <tr><td>July 3rd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20370.pdf">Main Event</a></td><td><a href="https://craftpoker.com/event/3477/player/20">jrx</a></td></tr>
 </tbody></table>
+</div>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>except to the winner who lives out of the country.  His
 paperweights have been engraved and are being kept for him by
@@ -241,21 +245,22 @@ paperweights have been engraved and are being kept for him by
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
 
-        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
 
         <!-- Custom JS scripts -->
 
 
+    </div>
     </body>
 </html>

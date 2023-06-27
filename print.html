@@ -9,7 +9,6 @@
 
         <!-- Custom HTML head -->
         
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="A poker server and client, both written in Rust">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -34,14 +33,15 @@
 
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -57,7 +57,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -69,12 +69,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -100,7 +102,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -133,7 +135,7 @@
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -794,13 +796,14 @@ had an FM 200 buy-in and Fun Money is awarded using the <a href="series/2022/../
 Schedule</a>. All rebuys were for FM 200 each and all of
 the Fun Money from rebuys goes directly into the prize pool,</p>
 <p>The top three profitable players were:</p>
-<table><thead><tr><th>RANK</th><th>PROFIT</th><th>NICK</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>RANK</th><th>PROFIT</th><th>NICK</th></tr></thead><tbody>
 <tr><td>1st</td><td>1520</td><td>royalflush</td></tr>
 <tr><td>2nd</td><td>1470</td><td>deadhead</td></tr>
 <tr><td>3rd</td><td>760</td><td>ADBDaVoice 🎤</td></tr>
 </tbody></table>
+</div>
 <h2 id="the-tournaments-were"><a class="header" href="#the-tournaments-were">The Tournaments Were</a></h2>
-<table><thead><tr><th>Date</th><th>Event</th><th>Winner</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Date</th><th>Event</th><th>Winner</th></tr></thead><tbody>
 <tr><td>June 11th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20323.pdf">6-handed Limit Hold 'em</a></td><td><a href="https://craftpoker.com/event/3404/player/9">grizz</a></td></tr>
 <tr><td>June 12th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20325.pdf">NLHE Deep Stack</a></td><td><a href="https://craftpoker.com/event/3405/player/2">LfromHell</a></td></tr>
 <tr><td>June 13th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20329.pdf">No Limit 2-7 Lowball</a></td><td><a href="https://craftpoker.com/event/3406/player/26">ADBDaVoice 🎤</a></td></tr>
@@ -825,6 +828,7 @@ the Fun Money from rebuys goes directly into the prize pool,</p>
 <tr><td>July 2nd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20369.pdf">8-handed PLO Championship</a></td><td><a href="https://craftpoker.com/event/3476/player/6">smalltalkdan</a></td></tr>
 <tr><td>July 3rd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20370.pdf">Main Event</a></td><td><a href="https://craftpoker.com/event/3477/player/20">jrx</a></td></tr>
 </tbody></table>
+</div>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>except to the winner who lives out of the country.  His
 paperweights have been engraved and are being kept for him by
@@ -837,7 +841,7 @@ tournament dealt for most of the BARGE tournaments.  There was no fee to
 enter and entry was available to the public.  No prizes were awarded to
 the winners of the WYWAB tournaments in 2022.</p>
 <h2 id="the-tournaments-were-1"><a class="header" href="#the-tournaments-were-1">The Tournaments Were</a></h2>
-<table><thead><tr><th>Date</th><th>Event</th><th>Winner</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Date</th><th>Event</th><th>Winner</th></tr></thead><tbody>
 <tr><td>July 27th</td><td>Pot-Limit Omaha</td><td><a href="https://craftpoker.com/event/3639/player/20">jrx</a></td></tr>
 <tr><td>July 27th</td><td>Eight Game Mix</td><td><a href="https://craftpoker.com/event/3640/player/12">Pokerchimp</a></td></tr>
 <tr><td>July 28th</td><td>No-Limit Hold'em Bounty</td><td><a href="https://craftpoker.com/event/3641/player/20">jrx</a></td></tr>
@@ -845,7 +849,7 @@ the winners of the WYWAB tournaments in 2022.</p>
 <tr><td>July 30th</td><td><a href="https://ctm.github.io/docs/players_manual/games/quick-quads.html">Quick Quads</a></td><td><a href="https://craftpoker.com/event/3645/player/81">pokertest1</a></td></tr>
 <tr><td>July 30th</td><td>No-Limit Hold'em</td><td><a href="https://craftpoker.com/event/3646/player/14">jpmassar</a></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="2023"><a class="header" href="#2023">2023</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="2023"><a class="header" href="#2023">2023</a></h1>
 <p>In February, mb2 dealt <a href="series/2023/wywae.html">WYWAE</a>.</p>
 <p>Currently, the <a href="series/2023/wsop-style.html">WSOP-Style</a> series is running and will
 do so through July 18th.</p>
@@ -876,14 +880,14 @@ the EMBARGO Structure Sheet is being used as a reference, this series
 was not sanctioned, endorsed or in any other way sponsored or related
 to the BARGE organization.  It was put on by Craft Poker Co., a
 completely unrelated corporation.</p>
-<table><thead><tr><th style="text-align: right">Day</th><th style="text-align: right">Time</th><th>Event</th><th>Winner</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: right">Day</th><th style="text-align: right">Time</th><th>Event</th><th>Winner</th></tr></thead><tbody>
 <tr><td style="text-align: right">9th</td><td style="text-align: right">6pm PST</td><td><a href="https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=1">CART before HORSE</a></td><td><a href="https://craftpoker.com/event/4161/player/37">ts4z</a></td></tr>
 <tr><td style="text-align: right">10th</td><td style="text-align: right">11am PST</td><td><a href="https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=2">World Online Chowaha Championship</a></td><td><a href="https://craftpoker.com/event/4162/player/26">ADBDaVoice 🎤</a></td></tr>
 <tr><td style="text-align: right">10th</td><td style="text-align: right">6pm PST</td><td><a href="https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=3">Pot Limit Omaha High Low (x or Better)</a></td><td><a href="https://craftpoker.com/event/4163/player/37">ts4z</a></td></tr>
 <tr><td style="text-align: right">11th</td><td style="text-align: right">11am PST</td><td><a href="https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=4">No Limit Hold'em Win the Button Ante</a></td><td><a href="https://craftpoker.com/event/4164/player/75">uncle al</a></td></tr>
 <tr><td style="text-align: right">11th</td><td style="text-align: right">6pm PST</td><td><a href="https://irp.cdn-website.com/7fa840da/files/uploaded/2023_EMBARGO_Structures.pdf#page=5">6 Handed BOE</a></td><td><a href="https://craftpoker.com/event/4165/player/14">jpmassar</a></td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="wsop-style-2023"><a class="header" href="#wsop-style-2023">WSOP-Style 2023</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="wsop-style-2023"><a class="header" href="#wsop-style-2023">WSOP-Style 2023</a></h1>
 <h2 id="overview-3"><a class="header" href="#overview-3">Overview</a></h2>
 <p>The WSOP-Style 2023 Series is a tournament a day from Tuesday,
 May 30th through Tuesday, July 18th, 2023.  Each tournament will start
@@ -965,7 +969,7 @@ tournament.</p>
 <p>Tournament winners will typically be updated within a day
 of the completion of each tournament, although there are likely to be
 delays around <a href="https://www.wser.org/">June 24th</a>.</p>
-<table><thead><tr><th>Date</th><th>Event (and link to Event Structure Sheet)</th><th>Winner</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Date</th><th>Event (and link to Event Structure Sheet)</th><th>Winner</th></tr></thead><tbody>
 <tr><td>May 30th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf">#1 Employee Appreciation</a><sup class="footnote-reference"><a href="#3">2</a></sup> <a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf"> No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4478/player/95">COC</a></td></tr>
 <tr><td>May 31st</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21669.pdf">#4 TOC No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4479/player/6">smalltalkdan</a></td></tr>
 <tr><td>June 1st</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21671.pdf">#6 Mixed No-Limit Hold'em and Pot-Limit Omaha</a></td><td><a href="https://craftpoker.com/event/4480/player/9">Grizz</a></td></tr>
@@ -1017,6 +1021,7 @@ delays around <a href="https://www.wser.org/">June 24th</a>.</p>
 <tr><td>July 17th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf">#94 8-Handed No-Limit Hold'em</a></td><td></td></tr>
 <tr><td>July 18th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf">#95 Super Turbo No-Limit Hold'em</a></td><td></td></tr>
 </tbody></table>
+</div>
 <div class="footnote-definition" id="2"><sup class="footnote-definition-label">1</sup>
 <p>I'll be doing this with the same interface everyone else uses;
 there is no other interface. Nor are there any other &quot;super-powers&quot;
@@ -1236,7 +1241,7 @@ argue they're different games.</p>
 At the time of this writing, here are the core games, with up to three
 examples of each.  This table is mostly to represent the current flexibility
 of mb2. As such, it's not really that useful to Players, per-se.</p>
-<table><thead><tr><th>Core Game</th><th>Examples</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Core Game</th><th>Examples</th></tr></thead><tbody>
 <tr><td>Hold'Em</td><td>Hold'em, Irish, Rio Bravo</td></tr>
 <tr><td>Omaha</td><td>Omaha, Binglaha, Dramaha 49</td></tr>
 <tr><td>Scrotum</td><td>Scrotum</td></tr>
@@ -1253,7 +1258,7 @@ of mb2. As such, it's not really that useful to Players, per-se.</p>
 <tr><td>Simultaneous</td><td>SOHE (Simultaneous Omaha and Hold'em)</td></tr>
 <tr><td>Choice</td><td>Paradise Road Pick'em, Wonky Donkey, Dealer's</td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="mexican-poker"><a class="header" href="#mexican-poker">Mexican Poker</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="mexican-poker"><a class="header" href="#mexican-poker">Mexican Poker</a></h1>
 <p>In addition to the information here, <a href="https://www.ceemeck.org/BARGERuleBook2021/other.html#mexican-poker">Mexican
 Poker</a>
 is now included in the BARGE Rule Book.</p>
@@ -1284,7 +1289,7 @@ current interface will be going away &quot;soon&quot;.</p>
 One of the <a href="games/../barge/structures/2022_EMBARGO_Structures.pdf">five EMBARGO 2022
 tournaments</a> being
 dealt is a mix called RESORTS:</p>
-<table><thead><tr><th>Letter</th><th>Game</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Letter</th><th>Game</th></tr></thead><tbody>
 <tr><td>R</td><td><strong>R</strong>io Bravo</td></tr>
 <tr><td>E</td><td><strong>E</strong>ight or Better Stud</td></tr>
 <tr><td>S</td><td><strong>S</strong>ack</td></tr>
@@ -1293,7 +1298,7 @@ dealt is a mix called RESORTS:</p>
 <tr><td>T</td><td><strong>T</strong>riple Draw Deuce-to-Seven</td></tr>
 <tr><td>S</td><td><strong>S</strong>tud</td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="wonky-donkey"><a class="header" href="#wonky-donkey">Wonky Donkey</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="wonky-donkey"><a class="header" href="#wonky-donkey">Wonky Donkey</a></h1>
 <p>Wonky Donkey is either Hold'em or Omaha/8, but which one it is isn't
 known until after the flop.  Each player gets dealt two face-down
 hole cards and then there's a betting round. After that, a three card
@@ -1340,7 +1345,7 @@ except two dice are rolled.  So, each hand, after the flop betting, 2
 dice are rolled and their sum determines whether it's high only or
 high/low split and if it's the latter, what qualifier is needed for the low.
 There is never a qualifier for high.</p>
-<table><thead><tr><th>Sum</th><th>Split?</th><th>Low Qualifier</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Sum</th><th>Split?</th><th>Low Qualifier</th></tr></thead><tbody>
 <tr><td>2</td><td>High Only</td><td></td></tr>
 <tr><td>3</td><td>High Only</td><td></td></tr>
 <tr><td>4</td><td>High Only</td><td></td></tr>
@@ -1353,7 +1358,7 @@ There is never a qualifier for high.</p>
 <tr><td>11</td><td>High/Low</td><td>Jack or Better</td></tr>
 <tr><td>12</td><td>High/Low</td><td>Queen or Better</td></tr>
 </tbody></table>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
 <p>Twenty-one different games are offered in Dealer's Choice.  Initially,
 the first player in or past seat one chooses the game.  That game is
 then played for six hands, and then the player in the next seat gets
@@ -1541,12 +1546,13 @@ structures in these sheets are implemented in mb2.</p>
 <p>Currently all tournaments with a buy-in pay out via the <a href="barge/./Unified_BARGE_payouts.pdf">BARGE Unified
 Payout Schedule</a>.</p>
 <p>During play-testing, <em>most</em> tournaments have an <a href="barge/../fun_money.html">FM</a> 100 buy-in and have twenty-four or fewer players.  The WSOPS 2022 series tournaments have an FM 200 buy-in.</p>
-<table><thead><tr><th># Players</th><th>Percentage Payout</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th># Players</th><th>Percentage Payout</th></tr></thead><tbody>
 <tr><td>2-4</td><td>100%</td></tr>
 <tr><td>5-8</td><td>70%, 30%</td></tr>
 <tr><td>9-15</td><td>50%, 30%, 20%</td></tr>
 <tr><td>16-24</td><td>42%, 26%, 18%, 14%</td></tr>
 </tbody></table>
+</div>
 <h3 id="examples-3"><a class="header" href="#examples-3">Examples</a></h3>
 <ul>
 <li>
@@ -1800,7 +1806,7 @@ fanfare and donated it to mb2.</p>
 <p>Although mb2 is not currently stylized and most of the assets are
 place-holders, I'm thankful that people create &quot;CC0&quot; works that are I
 can add to mb2.</p>
-<table><thead><tr><th>Name</th><th>Link</th><th>Asset</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Link</th><th>Asset</th></tr></thead><tbody>
 <tr><td><a href="https://freesound.org/people/JensZygar/">JensZygar</a></td><td><a href="https://freesound.org/people/JensZygar/sounds/486629/">Gong Brilliant Paiste 32&quot;</a></td><td>New Tournament sound</td></tr>
 <tr><td><a href="https://freesound.org/people/s-cheremisinov/">s-cheremisinov</a></td><td><a href="https://freesound.org/people/s-cheremisinov/sounds/401084/">Click_06.wav</a></td><td>Running Late sound</td></tr>
 <tr><td><a href="https://freesound.org/people/s-cheremisinov/">s-cheremisinov</a></td><td><a href="https://freesound.org/people/s-cheremisinov/sounds/401085/">Click_07.wav</a></td><td>Your Turn sound</td></tr>
@@ -1814,6 +1820,7 @@ can add to mb2.</p>
 <tr><td>Unattributed</td><td><a href="https://freesvg.org/dado-5">dado 5</a></td><td>Die with five spots</td></tr>
 <tr><td>Unattributed</td><td><a href="https://freesvg.org/dado-6">dado 6</a></td><td>Die with six spots</td></tr>
 </tbody></table>
+</div>
 <h3 id="ed-baker"><a class="header" href="#ed-baker">Ed Baker</a></h3>
 <p>Although I'm currently the sole programmer working on mb2, I use
 GitHub's issue tracker to log what I need to do and what I've done.
@@ -1832,12 +1839,13 @@ C Corporation.</p>
 <h3 id="ownership"><a class="header" href="#ownership">Ownership</a></h3>
 <p>There are 15,750 shares of common stock, all are owned by Clifford Matthews.</p>
 <p>There are 2,250 shares of Series A Preferred Stock:</p>
-<table><thead><tr><th style="text-align: right">Shares</th><th>Shareholder</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: right">Shares</th><th>Shareholder</th></tr></thead><tbody>
 <tr><td style="text-align: right">1,200</td><td>Bill Savage</td></tr>
 <tr><td style="text-align: right">750</td><td>Lee Ward</td></tr>
 <tr><td style="text-align: right">300</td><td>Charles Haynes</td></tr>
 <tr><td style="text-align: right">40</td><td>Anonymousd</td></tr>
 </tbody></table>
+</div>
 <p>Series A Preferred shares come with a liquidity preference.</p>
 <p>An additional 1,760 shares of Series A Preferred Stock have been authorized
 to be sold to accredited investors and through the Title3Funds Equity
@@ -1935,7 +1943,7 @@ simply a way to reward early adopters.</p>
 <h2 id="all-license-text"><a class="header" href="#all-license-text">All license text:</a></h2>
         <ul class="licenses-list">
             <li class="license">
-                <h3 id="Apache-2.0">Apache License 2.0</h3>
+                <h3 id="Apache-2.0"><a class="header" href="#Apache-2.0">Apache License 2.0</a></h3>
                 <h4 id="used-by"><a class="header" href="#used-by">Used by:</a></h4>
                 <ul class="license-used-by">
                     <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.11</a></li>
@@ -2134,7 +2142,7 @@ limitations under the License.
 </pre>
 </li>
 <li class="license">
-<h3 id="Apache-2.0">Apache License 2.0</h3>
+<h3 id="Apache-2.0"><a class="header" href="#Apache-2.0">Apache License 2.0</a></h3>
 <h4 id="used-by-1"><a class="header" href="#used-by-1">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/brendanzab/codespan ">codespan-reporting 0.11.1</a></li>
@@ -2203,7 +2211,7 @@ limitations under the License.
 </pre>
 </li>
 <li class="license">
-<h3 id="BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</h3>
+<h3 id="BSD-2-Clause"><a class="header" href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a></h3>
 <h4 id="used-by-2"><a class="header" href="#used-by-2">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/droundy/arrayref ">arrayref 0.3.6</a></li>
@@ -2239,7 +2247,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </pre>
 </li>
 <li class="license">
-<h3 id="BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</h3>
+<h3 id="BSD-2-Clause"><a class="header" href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a></h3>
 <h4 id="used-by-3"><a class="header" href="#used-by-3">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/whatisinternet/inflector ">Inflector 0.11.4</a></li>
@@ -2258,7 +2266,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </pre>
 </li>
 <li class="license">
-<h3 id="CC0-1.0">Creative Commons Zero v1.0 Universal</h3>
+<h3 id="CC0-1.0"><a class="header" href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a></h3>
 <h4 id="used-by-4"><a class="header" href="#used-by-4">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.1.5</a></li>
@@ -2386,7 +2394,7 @@ this CC0 or use of the Work.
 </pre>
 </li>
 <li class="license">
-<h3 id="ISC">ISC License</h3>
+<h3 id="ISC"><a class="header" href="#ISC">ISC License</a></h3>
 <h4 id="used-by-5"><a class="header" href="#used-by-5">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-embedded/riscv ">riscv 0.7.0</a></li>
@@ -2400,7 +2408,7 @@ Copyright (c) 1995-2003 by Internet Software Consortium</p>
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-6"><a class="header" href="#used-by-6">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/retep998/winapi-rs ">winapi 0.3.9</a></li>
@@ -2413,7 +2421,7 @@ Copyright (c) 1995-2003 by Internet Software Consortium</p>
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-7"><a class="header" href="#used-by-7">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/RustCrypto/hashes ">sha3 0.10.6</a></li>
@@ -2446,7 +2454,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-8"><a class="header" href="#used-by-8">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-lang-nursery/lazy-static.rs ">lazy_static 1.4.0</a></li>
@@ -2476,7 +2484,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-9"><a class="header" href="#used-by-9">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/servo/core-foundation-rs ">core-foundation-sys 0.8.3</a></li>
@@ -2506,7 +2514,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-10"><a class="header" href="#used-by-10">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/servo/rust-url ">form_urlencoded 1.1.0</a></li>
@@ -2536,7 +2544,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-11"><a class="header" href="#used-by-11">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/servo/rust-url/ ">idna 0.3.0</a></li>
@@ -2568,7 +2576,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-12"><a class="header" href="#used-by-12">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.66</a></li>
@@ -2615,7 +2623,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-13"><a class="header" href="#used-by-13">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.45</a></li>
@@ -2651,7 +2659,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-14"><a class="header" href="#used-by-14">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-lang/log ">log 0.4.17</a></li>
@@ -2681,7 +2689,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-15"><a class="header" href="#used-by-15">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.137</a></li>
@@ -2711,7 +2719,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-16"><a class="header" href="#used-by-16">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/bluss/either ">either 1.8.0</a></li>
@@ -2742,7 +2750,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-17"><a class="header" href="#used-by-17">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/gimli-rs/object ">object 0.29.0</a></li>
@@ -2772,7 +2780,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-18"><a class="header" href="#used-by-18">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/gimli-rs/gimli ">gimli 0.26.2</a></li>
@@ -2807,7 +2815,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-19"><a class="header" href="#used-by-19">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/jamesmunns/cobs.rs ">cobs 0.2.3</a></li>
@@ -2831,7 +2839,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-20"><a class="header" href="#used-by-20">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/retep998/winapi-rs ">winapi 0.3.9</a></li>
@@ -2855,7 +2863,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-21"><a class="header" href="#used-by-21">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-lang/futures-rs ">futures-channel 0.3.25</a></li>
@@ -2887,7 +2895,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-22"><a class="header" href="#used-by-22">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.12.3</a></li>
@@ -2917,7 +2925,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-23"><a class="header" href="#used-by-23">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/nox/serde_urlencoded ">serde_urlencoded 0.7.1</a></li>
@@ -2947,7 +2955,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-24"><a class="header" href="#used-by-24">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-embedded/cortex-m ">cortex-m 0.7.6</a></li>
@@ -2978,7 +2986,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-25"><a class="header" href="#used-by-25">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://gitlab.com/jrobsonchase/newtype ">newtype 0.2.1</a></li>
@@ -3008,7 +3016,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-26"><a class="header" href="#used-by-26">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/steveklabnik/semver-parser ">semver-parser 0.7.0</a></li>
@@ -3038,7 +3046,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-27"><a class="header" href="#used-by-27">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/Amanieu/parking_lot ">lock_api 0.4.9</a></li>
@@ -3072,7 +3080,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-28"><a class="header" href="#used-by-28">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/bluss/indexmap ">indexmap 1.9.1</a></li>
@@ -3102,7 +3110,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-29"><a class="header" href="#used-by-29">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/gimli-rs/addr2line ">addr2line 0.17.0</a></li>
@@ -3132,7 +3140,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-30"><a class="header" href="#used-by-30">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/bluss/scopeguard ">scopeguard 1.1.0</a></li>
@@ -3162,7 +3170,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-31"><a class="header" href="#used-by-31">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/RustCrypto/traits ">digest 0.10.5</a></li>
@@ -3192,7 +3200,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-32"><a class="header" href="#used-by-32">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/servo/rust-fnv ">fnv 1.0.7</a></li>
@@ -3222,7 +3230,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-33"><a class="header" href="#used-by-33">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/djzin/parse-zoneinfo ">parse-zoneinfo 0.3.0</a></li>
@@ -3247,7 +3255,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-34"><a class="header" href="#used-by-34">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/japaric/bare-metal ">bare-metal 0.2.5</a></li>
@@ -3282,7 +3290,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-35"><a class="header" href="#used-by-35">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/dzamlo/rust-bitfield ">bitfield 0.13.2</a></li>
@@ -3306,7 +3314,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-36"><a class="header" href="#used-by-36">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/storyyeller/stable_deref_trait ">stable_deref_trait 1.2.0</a></li>
@@ -3335,7 +3343,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.</pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-37"><a class="header" href="#used-by-37">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-embedded/embedded-hal ">embedded-hal 0.2.7</a></li>
@@ -3365,7 +3373,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-38"><a class="header" href="#used-by-38">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/japaric/hash32 ">hash32 0.2.1</a></li>
@@ -3395,7 +3403,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-39"><a class="header" href="#used-by-39">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/cuviper/autocfg ">autocfg 1.1.0</a></li>
@@ -3425,7 +3433,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-40"><a class="header" href="#used-by-40">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rustwasm/console_error_panic_hook ">console_error_panic_hook 0.1.7</a></li>
@@ -3455,7 +3463,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-41"><a class="header" href="#used-by-41">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/RustCrypto/utils ">block-buffer 0.10.3</a></li>
@@ -3485,7 +3493,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-42"><a class="header" href="#used-by-42">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/RustCrypto/sponges/tree/master/keccak ">keccak 0.1.3</a></li>
@@ -3515,7 +3523,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-43"><a class="header" href="#used-by-43">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.0.2</a></li>
@@ -3545,7 +3553,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-44"><a class="header" href="#used-by-44">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/tokio-rs/slab ">slab 0.4.7</a></li>
@@ -3575,7 +3583,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-45"><a class="header" href="#used-by-45">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/fitzgen/bumpalo ">bumpalo 3.11.1</a></li>
@@ -3605,7 +3613,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-46"><a class="header" href="#used-by-46">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rustwasm/gloo ">gloo 0.4.2</a></li>
@@ -3635,7 +3643,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-47"><a class="header" href="#used-by-47">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/cryptocorrosion/cryptocorrosion ">ppv-lite86 0.2.17</a></li>
@@ -3665,7 +3673,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-48"><a class="header" href="#used-by-48">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/strawlab/iana-time-zone ">iana-time-zone 0.1.53</a></li>
@@ -3696,7 +3704,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-49"><a class="header" href="#used-by-49">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/embassy-rs/atomic-polyfill ">atomic-polyfill 0.1.10</a></li>
@@ -3726,7 +3734,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-50"><a class="header" href="#used-by-50">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/Diggsey/scoped-tls-hkt ">scoped-tls-hkt 0.1.2</a></li>
@@ -3756,7 +3764,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-51"><a class="header" href="#used-by-51">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/RustCrypto/utils ">cpufeatures 0.2.5</a></li>
@@ -3786,7 +3794,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-52"><a class="header" href="#used-by-52">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/RustCrypto/traits ">crypto-common 0.1.6</a></li>
@@ -3816,7 +3824,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-53"><a class="header" href="#used-by-53">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/bluss/arrayvec ">arrayvec 0.7.2</a></li>
@@ -3846,7 +3854,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-54"><a class="header" href="#used-by-54">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.2.8</a></li>
@@ -3880,7 +3888,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-55"><a class="header" href="#used-by-55">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.22</a></li>
@@ -3897,7 +3905,7 @@ according to those terms.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-56"><a class="header" href="#used-by-56">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.5.4</a></li>
@@ -3923,7 +3931,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-57"><a class="header" href="#used-by-57">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/bcmyers/num-format ">num-format 0.4.3</a></li>
@@ -3948,7 +3956,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-58"><a class="header" href="#used-by-58">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://gitlab.com/limira-rs/wasm-logger ">wasm-logger 0.2.0</a></li>
@@ -3973,7 +3981,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-59"><a class="header" href="#used-by-59">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://gitlab.com/antonok/enum_dispatch ">enum_dispatch 0.3.8</a></li>
@@ -3998,7 +4006,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-60"><a class="header" href="#used-by-60">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/Peternator7/strum ">strum 0.24.1</a></li>
@@ -4024,7 +4032,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-61"><a class="header" href="#used-by-61">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://gitlab.com/CreepySkeleton/proc-macro-error ">proc-macro-error 1.0.4</a></li>
@@ -4050,7 +4058,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-62"><a class="header" href="#used-by-62">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/Soveu/tinyvec_macros ">tinyvec_macros 0.1.0</a></li>
@@ -4075,7 +4083,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-63"><a class="header" href="#used-by-63">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/scratchyone/wasm-sockets ">wasm-sockets 0.2.2</a></li>
@@ -4100,7 +4108,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-64"><a class="header" href="#used-by-64">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.0</a></li>
@@ -4139,7 +4147,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-65"><a class="header" href="#used-by-65">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/cloudflare/serde-wasm-bindgen ">serde-wasm-bindgen 0.3.1</a></li>
@@ -4165,7 +4173,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-66"><a class="header" href="#used-by-66">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/jonas-schievink/adler.git ">adler 1.0.2</a></li>
@@ -4218,7 +4226,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-67"><a class="header" href="#used-by-67">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.6.0</a></li>
@@ -4229,7 +4237,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-68"><a class="header" href="#used-by-68">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/nical/android_system_properties ">android_system_properties 0.1.5</a></li>
@@ -4253,7 +4261,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-69"><a class="header" href="#used-by-69">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/mvdnes/spin-rs.git ">spin 0.9.4</a></li>
@@ -4277,7 +4285,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-70"><a class="header" href="#used-by-70">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/paholg/typenum ">typenum 1.15.0</a></li>
@@ -4302,7 +4310,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-71"><a class="header" href="#used-by-71">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/marshallpierce/rust-base64 ">base64 0.13.1</a></li>
@@ -4327,7 +4335,7 @@ THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-72"><a class="header" href="#used-by-72">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 0.7.19</a></li>
@@ -4355,7 +4363,7 @@ THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-73"><a class="header" href="#used-by-73">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/phil-opp/rust-bit-field ">bit_field 0.10.1</a></li>
@@ -4380,7 +4388,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-74"><a class="header" href="#used-by-74">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/BurntSushi/winapi-util ">winapi-util 0.1.5</a></li>
@@ -4405,7 +4413,7 @@ THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-75"><a class="header" href="#used-by-75">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/crossbeam-rs/crossbeam ">crossbeam-utils 0.8.12</a></li>
@@ -4436,7 +4444,7 @@ DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-76"><a class="header" href="#used-by-76">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/SergioBenitez/version_check ">version_check 0.9.4</a></li>
@@ -4460,7 +4468,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-77"><a class="header" href="#used-by-77">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/fizyk20/generic-array.git ">generic-array 0.14.6</a></li>
@@ -4484,7 +4492,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-78"><a class="header" href="#used-by-78">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/rustasync/route-recognizer ">route-recognizer 0.3.1</a></li>
@@ -4511,7 +4519,7 @@ SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-79"><a class="header" href="#used-by-79">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/sru-systems/rust-argon2 ">rust-argon2 1.0.0</a></li>
@@ -4537,7 +4545,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-80"><a class="header" href="#used-by-80">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 0.7.19</a></li>
@@ -4551,7 +4559,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="MIT">MIT License</h3>
+<h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
 <h4 id="used-by-81"><a class="header" href="#used-by-81">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/kornelski/gh-emoji ">gh-emoji 1.0.7</a></li>
@@ -4580,7 +4588,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 </pre>
 </li>
 <li class="license">
-<h3 id="Unicode-DFS-2016">Unicode License Agreement - Data Files and Software (2016)</h3>
+<h3 id="Unicode-DFS-2016"><a class="header" href="#Unicode-DFS-2016">Unicode License Agreement - Data Files and Software (2016)</a></h3>
 <h4 id="used-by-82"><a class="header" href="#used-by-82">Used by:</a></h4>
 <ul class="license-used-by">
 <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.5</a></li>
@@ -4625,26 +4633,27 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 
 
-        <script type="text/javascript">
+        <script>
             window.playground_copyable = true;
         </script>
 
 
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
 
-        <script type="text/javascript">
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
 
+    </div>
     </body>
 </html>
