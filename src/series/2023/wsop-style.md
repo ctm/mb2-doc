@@ -134,10 +134,10 @@ delays around [June 24th](https://www.wser.org/).
 |June 20th|[#47 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21712.pdf)|[maverick600](https://craftpoker.com/event/4562/player/49)|
 |June 21st|[#50 Pot-Limit Omaha Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21715.pdf)|[mrstcao](https://craftpoker.com/event/4563/player/36)|
 |June 22nd|[#52 Mixed Triple Draw Lowball ](https://www.wsop.com/pdfs/structuresheets/structure_5219_21717.pdf)|[jrx](https://craftpoker.com/event/4564/player/20)|
-|June 23th|[#54 H.O.R.S.E. Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21719.pdf)||
-|June 24th|[#55 Seven Card Stud Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21720.pdf)||
-|June 25th|[#56 Salute to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)[^4]||
-|June 26th|[#60 No-Limit 2-7 Lowball Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf)||
+|June 23th|[#54 H.O.R.S.E. Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21719.pdf)|[Pokerchimp](https://craftpoker.com/event/4565/player/12)|
+|June 24th|[#55 Seven Card Stud Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21720.pdf)|[Grizz](https://craftpoker.com/event/4566/player/9)|
+|June 25th|[#56 Salute to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)[^4]|[Grizz](https://craftpoker.com/event/4567/player/9)|
+|June 26th|[#60 No-Limit 2-7 Lowball Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf)|[ADB DaVoice](https://craftpoker.com/event/4584/player/26)|
 |June 27th|[#63 Seven Card Stud Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf)||
 |June 28th|[#66 Pot-Limit Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf)||
 |June 29th|[#69 No-Limit 2-7 Lowball Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21734.pdf)||
