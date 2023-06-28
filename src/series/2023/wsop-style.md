@@ -38,17 +38,14 @@ won't be playing any of the tournaments, but more often than not I'll
 be watching the tables[^2] as I work in other windows.
 
 
-### No Late Registration (yet)
+### No Late Registration
 
 _**Currently**_ there is [no late
-entry](https://github.com/ctm/mb2-doc/issues/183), but it should be
-supported "soon" (with luck, within the first two weeks of
-this series).
-
-Because there is no late registration, the tournaments don't actually
-start until five minutes after the hour, but they start **exactly** at
-five minutes after the hour, so if you're going to play, register in
-advance and be sure that your registration check-box is checked.
+entry](https://github.com/ctm/mb2-doc/issues/183). Because there is no
+late registration, the tournaments don't actually start until five
+minutes after the hour, but they start **exactly** at five minutes
+after the hour, so if you're going to play, register in advance and be
+sure that your registration check-box is checked.
 
 ### Rebuys instead of re-entries
 

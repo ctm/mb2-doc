@@ -14,7 +14,7 @@ There are 2,250 shares of Series A Preferred Stock:
 |1,200|Bill Savage|
 |750|Lee Ward|
 |300|Charles Haynes|
-|40|Anonymousd|
+|40|Anonymous|
 
 Series A Preferred shares come with a liquidity preference.
 
