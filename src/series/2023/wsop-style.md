@@ -136,7 +136,7 @@ delays around [June 24th](https://www.wser.org/).
 |June 25th|[#56 Salute to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)[^4]|[Grizz](https://craftpoker.com/event/4567/player/9)|
 |June 26th|[#60 No-Limit 2-7 Lowball Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf)|[ADB DaVoice](https://craftpoker.com/event/4584/player/26)|
 |June 27th|[#63 Seven Card Stud Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf)|[gerdog](https://craftpoker.com/event/4585/player/11)|
-|June 28th|[#66 Pot-Limit Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf)||
+|June 28th|[#66 Pot-Limit Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf)|[jrx](https://craftpoker.com/event/4586/player/20)|
 |June 29th|[#69 No-Limit 2-7 Lowball Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21734.pdf)||
 |June 30th|[#71 High Roller Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)||
 |July 1st|[#73 Mixed Big Bet Event](https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf)||
