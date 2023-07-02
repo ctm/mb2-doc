@@ -89,11 +89,33 @@
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -999,8 +1021,8 @@ delays around <a href="https://www.wser.org/">June 24th</a>.</p>
 <tr><td>June 27th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf">#63 Seven Card Stud Hi-Lo 8 or Better Championship</a></td><td><a href="https://craftpoker.com/event/4585/player/11">gerdog</a></td></tr>
 <tr><td>June 28th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf">#66 Pot-Limit Omaha Hi-Lo 8 or Better</a></td><td><a href="https://craftpoker.com/event/4586/player/20">jrx</a></td></tr>
 <tr><td>June 29th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21734.pdf">#69 No-Limit 2-7 Lowball Draw Championship</a></td><td><a href="https://craftpoker.com/event/4587/player/29">Bridgeman</a></td></tr>
-<tr><td>June 30th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf">#71 High Roller Pot-Limit Omaha</a></td><td></td></tr>
-<tr><td>July 1st</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf">#73 Mixed Big Bet Event</a></td><td></td></tr>
+<tr><td>June 30th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf">#71 High Roller Pot-Limit Omaha</a></td><td><a href="https://craftpoker.com/event/4588/player/12">pokerchimp</a></td></tr>
+<tr><td>July 1st</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf">#73 Mixed Big Bet Event</a></td><td><a href="https://craftpoker.com/event/4589/player/6">smalltalkdan</a></td></tr>
 <tr><td>July 2nd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf">#75 Pot-Limit Omaha Hi-Lo 8 or Better Championship</a></td><td></td></tr>
 <tr><td>July 3rd</td><td><a href="series/2023/wsop-style.html#">SAM 🚴6 Championship</a><sup class="footnote-reference"><a href="#5">4</a></sup></td><td></td></tr>
 <tr><td>July 4th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf">#76 <strong>Main Event</strong> No-Limit Hold'em World Championship</a></td><td></td></tr>
