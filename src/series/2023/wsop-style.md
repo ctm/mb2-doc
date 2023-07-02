@@ -140,7 +140,7 @@ delays around [June 24th](https://www.wser.org/).
 |June 29th|[#69 No-Limit 2-7 Lowball Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21734.pdf)|[Bridgeman](https://craftpoker.com/event/4587/player/29)|
 |June 30th|[#71 High Roller Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)|[pokerchimp](https://craftpoker.com/event/4588/player/12)|
 |July 1st|[#73 Mixed Big Bet Event](https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf)|[smalltalkdan](https://craftpoker.com/event/4589/player/6)|
-|July 2nd|[#75 Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)||
+|July 2nd|[#75 Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)|[gerdog](https://craftpoker.com/event/4590/player/11)|
 |July 3rd|[SAM 🚴6 Championship](#)[^5]||
 |July 4th|[#76 **Main Event** No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)||
 |July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]||
