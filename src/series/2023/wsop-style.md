@@ -143,7 +143,7 @@ delays around [June 24th](https://www.wser.org/).
 |July 2nd|[#75 Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)|[gerdog](https://craftpoker.com/event/4590/player/11)|
 |July 3rd|[SAM 🚴6 Championship](#)[^5]|[gerdog](https://craftpoker.com/event/4622/player/11)|
 |July 4th|[#76 **Main Event** No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)|[Grizz](https://craftpoker.com/event/4623/player/9)|
-|July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]||
+|July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]|[samarai](https://craftpoker.com/event/4624/player/32)|
 |July 6th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
 |July 7th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
 |July 8th|[HOSDARSS Championship](#)[^5]||
