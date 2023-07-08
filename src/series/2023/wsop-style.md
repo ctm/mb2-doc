@@ -144,8 +144,8 @@ delays around [June 24th](https://www.wser.org/).
 |July 3rd|[SAM 🚴6 Championship](#)[^5]|[gerdog](https://craftpoker.com/event/4622/player/11)|
 |July 4th|[#76 **Main Event** No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)|[Grizz](https://craftpoker.com/event/4623/player/9)|
 |July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]|[samarai](https://craftpoker.com/event/4624/player/32)|
-|July 6th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]|[gerdog](https://craftpoker.com/event/4625/player/11)|
-|July 7th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
+|July 6th|[~~#10 Dealer's Choice 6-Handed Championship~~<br/>accidental 21-game mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^8]|[gerdog](https://craftpoker.com/event/4625/player/11)|
+|July 7th|[~~#78 Bounty Pot-Limit Omaha~~<br/>mislabled #77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^9]|[maverick600](https://craftpoker.com/event/4626/player/49)|
 |July 8th|[HOSDARSS Championship](#)[^5]||
 |July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)||
 |July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)||
@@ -157,6 +157,8 @@ delays around [June 24th](https://www.wser.org/).
 |July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)||
 |July 17th|[#94 8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)||
 |July 18th|[#95 Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)||
+|TBA|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
+|TBA|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
 
 [^2]: I'll be doing this with the same interface everyone else uses;
 there is no other interface. Nor are there any other "super-powers"
@@ -187,6 +189,14 @@ closer to tournament time.
 were scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's
 Choice then, so they were scheduled for these two slots which are
 taken by the multi-day Main Event at the World Series.
+
+[^8]: This was supposed to be the Dealer's Choice Championship, but a bug
+made it a 21-game Mix. All the Dealer's Choice games were played in succession
+with nobody making a choice.
+
+[^9]: This was supposed to the PLO Bounty tournament, but it was actually
+the Lucky 7's structure (which included unlimited rebuys up through
+Level 22).
 
 [^7]: Each time a player completely busts (i.e. doesn't rebuy), the
 player that busts the busted player will be awarded an FM 65 bounty
