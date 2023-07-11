@@ -146,7 +146,7 @@ delays around [June 24th](https://www.wser.org/).
 |July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]|[samarai](https://craftpoker.com/event/4624/player/32)|
 |July 6th|[~~#10 Dealer's Choice 6-Handed Championship~~<br/>accidental 21-game mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^8]|[gerdog](https://craftpoker.com/event/4625/player/11)|
 |July 7th|[~~#78 Bounty Pot-Limit Omaha~~<br/>mislabled #77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^9]|[maverick600](https://craftpoker.com/event/4626/player/49)|
-|July 8th|[HOSDARSS Championship](#)[^5]|[gerdog](https://craftpoker.com/event/4627/player/11)|
+|July 8th|[**NOT COUNTING** HOSDARSS Championship](#)[^10]|[gerdog](https://craftpoker.com/event/4627/player/11)|
 |July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)|[smalltalkdan](https://craftpoker.com/event/4628/player/6)|
 |July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)|[JADC🚴](https://craftpoker.com/event/4639/player/28)|
 |July 11th|[#82 6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)||
@@ -157,8 +157,9 @@ delays around [June 24th](https://www.wser.org/).
 |July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)||
 |July 17th|[#94 8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)||
 |July 18th|[#95 Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)||
-|TBA|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
-|TBA|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
+|TBD (post&#x2011;BARGE)|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
+|TBD (post&#x2011;BARGE)|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
+|TBD (post&#x2011;BARGE)|[HOSDARSS Championship](#)[^10]||
 
 [^2]: I'll be doing this with the same interface everyone else uses;
 there is no other interface. Nor are there any other "super-powers"
@@ -198,6 +199,11 @@ with nobody making a choice.
 the Lucky 7's structure (which included unlimited rebuys up through
 Level 22).
 
+[^10]: The way I tried to clean up the mislabled tournaments error caused mb2
+to start some players with too few tournament chips, so that tournament does
+not count toward WSOPS standings, but the (post-BARGE) replacement will.
+
 [^7]: Each time a player completely busts (i.e. doesn't rebuy), the
 player that busts the busted player will be awarded an FM 65 bounty
 from the prize pool.
+
