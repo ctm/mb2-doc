@@ -146,9 +146,9 @@ delays around [June 24th](https://www.wser.org/).
 |July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]|[samarai](https://craftpoker.com/event/4624/player/32)|
 |July 6th|[~~#10 Dealer's Choice 6-Handed Championship~~<br/>accidental 21-game mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^8]|[gerdog](https://craftpoker.com/event/4625/player/11)|
 |July 7th|[~~#78 Bounty Pot-Limit Omaha~~<br/>mislabled #77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^9]|[maverick600](https://craftpoker.com/event/4626/player/49)|
-|July 8th|[HOSDARSS Championship](#)[^5]||
-|July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)||
-|July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)||
+|July 8th|[HOSDARSS Championship](#)[^5]|[gerdog](https://craftpoker.com/event/4627/player/11)|
+|July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)|[smalltalkdan](https://craftpoker.com/event/4628/player/6)|
+|July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)|[JADC🚴](https://craftpoker.com/event/4639/player/28)|
 |July 11th|[#82 6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)||
 |July 12th|[#83 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf)||
 |July 13th|[#87 Mixed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21752.pdf)||
