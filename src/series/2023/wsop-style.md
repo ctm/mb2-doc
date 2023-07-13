@@ -150,7 +150,7 @@ delays around [June 24th](https://www.wser.org/).
 |July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)|[smalltalkdan](https://craftpoker.com/event/4628/player/6)|
 |July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)|[JADC🚴](https://craftpoker.com/event/4639/player/28)|
 |July 11th|[#82 6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)|[pokerchimp](https://craftpoker.com/event/4640/player/12)|
-|July 12th|[#83 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf)||
+|July 12th|[#83 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf)|[pokerchimp](https://craftpoker.com/event/4641/player/12)|
 |July 13th|[#87 Mixed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21752.pdf)||
 |July 14th|[#90 6-Handed No-Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21755.pdf)||
 |July 15th|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)||
