@@ -153,13 +153,14 @@ delays around [June 24th](https://www.wser.org/).
 |July 12th|[#83 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf)|[pokerchimp](https://craftpoker.com/event/4641/player/12)|
 |July 13th|[#87 Mixed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21752.pdf)|[FeltShark](https://craftpoker.com/event/4642/player/10712)|
 |July 14th|[#90 6-Handed No-Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21755.pdf)|[jpmassar](https://craftpoker.com/event/4643/player/14)|
-|July 15th|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)||
+|July 15th|[~~#91 H.O.R.S.E.~~<br/>did not finish](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]||
 |July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)||
 |July 17th|[#94 8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)||
 |July 18th|[#95 Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)||
 |TBD (post&#x2011;BARGE)|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
 |TBD (post&#x2011;BARGE)|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
 |TBD (post&#x2011;BARGE)|[HOSDARSS Championship](#)[^10]||
+|TBD (post&#x2011;BARGE)|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]||
 
 [^2]: I'll be doing this with the same interface everyone else uses;
 there is no other interface. Nor are there any other "super-powers"
@@ -202,6 +203,11 @@ Level 22).
 [^10]: The way I tried to clean up the mislabled tournaments error caused mb2
 to start some players with too few tournament chips, so that tournament does
 not count toward WSOPS standings, but the (post-BARGE) replacement will.
+
+[^11]: The tournament was aborted in the middle.  I had started a
+deploy and taken a short nap and something (probably a slow network
+here at mom's house) caused the deploy to take way too long and I
+didn't notice it.  I had forgotten about the deploy when I woke up.
 
 [^7]: Each time a player completely busts (i.e. doesn't rebuy), the
 player that busts the busted player will be awarded an FM 65 bounty
