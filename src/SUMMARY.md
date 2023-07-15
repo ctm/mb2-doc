@@ -28,6 +28,7 @@
   - [2023](./series/2023.md)
     - [WYWAE](./series/2023/wywae.md)
     - [WSOP-Style](./series/2023/wsop-style.md)
+    - [WYWAB](./series/2023/wywab.md)
 - [Ring Games](./ring_games.md)
 - [Vacation](./vacation.md)
 - [Chat](./chat.md)
