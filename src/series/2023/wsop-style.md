@@ -154,7 +154,7 @@ delays around [June 24th](https://www.wser.org/).
 |July 13th|[#87 Mixed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21752.pdf)|[FeltShark](https://craftpoker.com/event/4642/player/10712)|
 |July 14th|[#90 6-Handed No-Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21755.pdf)|[jpmassar](https://craftpoker.com/event/4643/player/14)|
 |July 15th|[~~#91 H.O.R.S.E.~~<br/>did not finish](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]||
-|July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)||
+|July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)|[FeltShark](https://craftpoker.com/event/4645/player/10712)|
 |July 17th|[#94 8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)||
 |July 18th|[#95 Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)||
 |TBD (post&#x2011;BARGE)|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
