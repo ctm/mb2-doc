@@ -30,7 +30,7 @@ completely unrelated corporation.
 
 |Day|Time|Event (and link to Structure Sheet)|Winner|
 |--:|--:|--|--|
-|18th|11am PDT|[California Lowball](https://omaholic.com/2023_BARGE_Structures.pdf#page=2)||
+|18th|11am PDT|[California Lowball](https://omaholic.com/2023_BARGE_Structures.pdf#page=2)|[jrx](https://craftpoker.com/event/4658/player/20)|
 |19th|11am PDT|[No-Limit Hold'em Bounty](https://omaholic.com/2023_BARGE_Structures.pdf#page=4)||
 |19th|5pm PDT|[Limit 6-Game HORSE + Lazy Pineapple](https://omaholic.com/2023_BARGE_Structures.pdf#page=3)||
 |20th|4pm PDT|[Pot-Limit Omaha (with lammers)](https://omaholic.com/2023_BARGE_Structures.pdf#page=7)||
