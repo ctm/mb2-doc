@@ -37,7 +37,7 @@ completely unrelated corporation.
 |20th|8pm PDT|[KoMex (Korean and Mexican)](https://omaholic.com/2023_BARGE_Structures.pdf#page=8)|[jrx](https://craftpoker.com/event/4662/player/20)|)
 |21st|10:30am PDT|[Tournament of Champions style](https://omaholic.com/2023_BARGE_Structures.pdf#page=9)|[jrx](https://craftpoker.com/event/4663/player/20)|
 |21st|8pm PDT|[TOC 2.0](https://omaholic.com/2023_BARGE_Structures.pdf#page=11)|[JADC🚴](https://craftpoker.com/event/4664/player/28)|)
-|22nd|10:30pm PDT|[No-Limit Hold'em Main Event](https://omaholic.com/2023_BARGE_Structures.pdf#page=12)||)
+|22nd|10:30pm PDT|[No-Limit Hold'em Main Event](https://omaholic.com/2023_BARGE_Structures.pdf#page=12)|[Bridgeman](https://craftpoker.com/event/4665/player/29)|)
 
 ## Some Differences
 
