@@ -157,10 +157,10 @@ delays around [June 24th](https://www.wser.org/).
 |July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)|[FeltShark](https://craftpoker.com/event/4645/player/10712)|
 |July 17th|[#94 8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)|[JADC🚴](https://craftpoker.com/event/4646/player/28)|
 |July 18th|[#95 Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)|[jrx](https://craftpoker.com/event/4647/player/20)|
-|TBD (post&#x2011;BARGE)|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
-|TBD (post&#x2011;BARGE)|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
-|TBD (post&#x2011;BARGE)|[HOSDARSS Championship](#)[^10]||
-|TBD (post&#x2011;BARGE)|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]||
+|July 26th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
+|July 27th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
+|July 28th|[HOSDARSS Championship](#)[^10]||
+|July 29th[^12]|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]||
 
 [^2]: I'll be doing this with the same interface everyone else uses;
 there is no other interface. Nor are there any other "super-powers"
@@ -213,3 +213,6 @@ didn't notice it.  I had forgotten about the deploy when I woke up.
 player that busts the busted player will be awarded an FM 65 bounty
 from the prize pool.
 
+[^12]: Although July 29th is a Saturday, this tournament will run at
+5pm Pacific, like each of the other three make-up (post-WSOP / post-BARGE)
+WSOP-Style tournaments.
