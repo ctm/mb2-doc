@@ -157,7 +157,7 @@ delays around [June 24th](https://www.wser.org/).
 |July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)|[FeltShark](https://craftpoker.com/event/4645/player/10712)|
 |July 17th|[#94 8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)|[JADC🚴](https://craftpoker.com/event/4646/player/28)|
 |July 18th|[#95 Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)|[jrx](https://craftpoker.com/event/4647/player/20)|
-|July 26th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]||
+|July 26th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]|[samarai](https://craftpoker.com/event/4679/player/32)|
 |July 27th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]||
 |July 28th|[HOSDARSS Championship](#)[^10]||
 |July 29th[^12]|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]||
