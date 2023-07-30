@@ -160,7 +160,7 @@ delays around [June 24th](https://www.wser.org/).
 |July 26th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]|[samarai](https://craftpoker.com/event/4679/player/32)|
 |July 27th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]|[jzk](https://craftpoker.com/event/4680/player/10635)|
 |July 28th|[HOSDARSS Championship](#)[^10]|[smalltalkdan](https://craftpoker.com/event/4681/player/6)|
-|July 29th[^12]|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]||
+|July 29th[^12]|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]|[Maverick600](https://craftpoker.com/event/4687/player/49)|
 
 [^2]: I'll be doing this with the same interface everyone else uses;
 there is no other interface. Nor are there any other "super-powers"
