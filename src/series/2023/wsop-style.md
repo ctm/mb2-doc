@@ -2,14 +2,18 @@
 
 ## Overview
 
-The WSOP-Style 2023 Series is a tournament a day from Tuesday,
-May 30th through Tuesday, July 18th, 2023.  Each tournament will start
+The WSOP-Style 2023 Series was initially a tournament a day from Tuesday,
+May 30th through Tuesday, July 18th, 2023.  Each tournament started
 at:
 
 * Monday through Friday: 5pm Pacific time (8pm Eastern)
 * Saturday and Sunday: 3pm Pacific time (6pm Eastern)
 
-Tournaments typically finish in under two hours.
+Tournaments typically finished in under two hours, but there were some
+major outliers.
+
+Four of the fifty tournaments had trouble and were rescheduled as
+documented in the footnotes of the table below.
 
 ## Prize for first place
 
@@ -28,37 +32,50 @@ $250, $125 and $85 respectively.  The prizes haven't been
 nailed down yet.  To qualify for an overall win rate prize, the player
 must have completed at least seven tournaments.
 
-### All are welcome
+Although the prizes haven't been awarded as of July 30th, the winners
+have been determined.
 
-All events in this series are open to the public. Tell anyone you know who
-is already interested in online poker.
+#### Net Profit
 
-I (Cliff Matthews, aka [deadhead](https://ctm.github.io/docs/yld/))
-won't be playing any of the tournaments, but more often than not I'll
-be watching the tables[^2] as I work in other windows.
+|RANK|PROFIT|NICK|
+|----|------|----|
+|1st|6,980|Maverick600|
+|2nd|5,684|jrx|
+|3rd|5,484|smalltalkdan|
 
+#### Win Rate
+
+|RANK|#|RATE|NICK|
+|----|-|----|----|
+|1st|8|1.62|samarai|
+|2nd|22|1.00|Maverick600|
+|3rd|22|0.64|JADC🚴|
+
+### All were welcome
+
+All events in this series were open to the public, although they weren't
+well publicized.
 
 ### No Late Registration
 
 _**Currently**_ there is [no late
-entry](https://github.com/ctm/mb2-doc/issues/183). Because there is no
-late registration, the tournaments don't actually start until five
-minutes after the hour, but they start **exactly** at five minutes
-after the hour, so if you're going to play, register in advance and be
-sure that your registration check-box is checked.
+entry](https://github.com/ctm/mb2-doc/issues/183). Because there was no
+late registration, the tournaments didn't actually start until five
+minutes after the hour, but they started **exactly** at five minutes
+after the hour.
 
 ### Rebuys instead of re-entries
 
 Another major difference is that instead of re-entries, the
-tournaments used rebuys.  When rebuys are available to you, there will
-be a checkbox that you can check to request a rebuy when you bust.  If
-that checkbox is checked, a rebuy happens immediately after you bust
-and you retain the seat that you were busted in.  If that check box
-wasn't checked **before** you bust, you will not be able to rebuy or
+tournaments used rebuys.  When rebuys were available to you, there was
+a checkbox that you could have checked to request a rebuy when you bust.  If
+that checkbox was checked, a rebuy happened immediately after you bust
+and you retained the seat that you were busted in.  If that check box
+wasn't checked **before** you bust, you were not able to rebuy or
 re-enter.
 
-So, when the structure sheet says the tournament supports two
-re-entries through level 15, you will be allowed (but not required) to
+So, when the structure sheet said the tournament supports two
+re-entries through level 15, you were allowed (but not required) to
 rebuy up to twice, but only through level 15.
 
 ## Leaderboard
@@ -76,19 +93,19 @@ the Fun Money from rebuys goes directly into the prize pool,
 
 ### Round Duration
 
-The initial rounds of each daily tournament will be five minutes long.
+The initial rounds of each daily tournament was five minutes long.
 
-If the structure sheet for a tournament has longer rounds on
-successive days, the levels that correspond to those days will be
+If the structure sheet for a tournament had longer rounds on
+successive days, the levels that correspond to those days were
 longer in the same proportion.
 
 For example, Event #22, the Limit Hold'em Championship's [structure
 sheet](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)
-lists Levels 1-6 as 40 minutes, 7-10 as 60 minutes and 11-end as 90
-minutes.  When played here, the first six levels will be five minutes
+listed Levels 1-6 as 40 minutes, 7-10 as 60 minutes and 11-end as 90
+minutes.  When played here, the first six levels were five minutes
 long, since those are the initial levels. Levels seven through ten
-will be seven and a half minutes long (60 / 40 * 5). The remaining
-levels will be eleven and a quarter minutes long (90 / 40 * 5).
+were seven and a half minutes long (60 / 40 * 5). The remaining
+levels were eleven and a quarter minutes long (90 / 40 * 5).
 
 If you click on a nickname in the winner column, you can see how long
 that tournament took.
@@ -96,13 +113,13 @@ that tournament took.
 ## The Tournaments
 
 The
-individual tournaments will be available for registration in the
+individual tournaments were available for registration in the
 [lobby](https://ctm.github.io/docs/players_manual/lobby.html) for
 several days (typically at least a week) before the start of each
 tournament.
 
-Tournament winners will typically be updated within a day
-of the completion of each tournament, although there are likely to be
+Tournament winners were typically be updated within a day
+of the completion of each tournament, although there were
 delays around [June 24th](https://www.wser.org/).
 
 |Date|Event (and link to Event Structure Sheet)|Winner|
@@ -161,13 +178,6 @@ delays around [June 24th](https://www.wser.org/).
 |July 27th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]|[jzk](https://craftpoker.com/event/4680/player/10635)|
 |July 28th|[HOSDARSS Championship](#)[^10]|[smalltalkdan](https://craftpoker.com/event/4681/player/6)|
 |July 29th[^12]|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]|[Maverick600](https://craftpoker.com/event/4687/player/49)|
-
-[^2]: I'll be doing this with the same interface everyone else uses;
-there is no other interface. Nor are there any other "super-powers"
-built into mb2.  Even people's hole cards aren't written to the
-database until after the hand completes, so even if someone were to
-get surreptitious access to the database, that hypothetical spy
-couldn't see people's hole cards during a hand.
 
 [^3]: At the World Series of Poker, this event is limited to Casino
 Employees.  In this series&mdash;in 2023 at least&mdash;no events have
