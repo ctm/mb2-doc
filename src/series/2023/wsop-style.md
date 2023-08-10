@@ -162,7 +162,7 @@ delays around [June 24th](https://www.wser.org/).
 |July 4th|[#76 **Main Event** No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)|[Grizz](https://craftpoker.com/event/4623/player/9)|
 |July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]|[samarai](https://craftpoker.com/event/4624/player/32)|
 |July 6th|[~~#10 Dealer's Choice 6-Handed Championship~~<br/>accidental 21-game mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^8]|[gerdog](https://craftpoker.com/event/4625/player/11)|
-|July 7th|[~~#78 Bounty Pot-Limit Omaha~~<br/>mislabled #77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^9]|[maverick600](https://craftpoker.com/event/4626/player/49)|
+|July 7th|[~~#78 Bounty Pot-Limit Omaha~~<br/>mislabeled #77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^9]|[maverick600](https://craftpoker.com/event/4626/player/49)|
 |July 8th|[**NOT COUNTING** HOSDARSS Championship](#)[^10]|[gerdog](https://craftpoker.com/event/4627/player/11)|
 |July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)|[smalltalkdan](https://craftpoker.com/event/4628/player/6)|
 |July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)|[JADC🚴](https://craftpoker.com/event/4639/player/28)|
@@ -179,27 +179,22 @@ delays around [June 24th](https://www.wser.org/).
 |July 28th|[HOSDARSS Championship](#)[^10]|[smalltalkdan](https://craftpoker.com/event/4681/player/6)|
 |July 29th[^12]|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]|[Maverick600](https://craftpoker.com/event/4687/player/49)|
 
-[^3]: At the World Series of Poker, this event is limited to Casino
-Employees.  In this series&mdash;in 2023 at least&mdash;no events have
-any such restrictions.  However, it would be nice for participants to
-at least harbor warm thoughts toward casino employees while playing.
+[^3]: At the World Series of Poker, this event was limited to Casino
+Employees.  In this series&mdash;in 2023 at least&mdash;no events had
+any such restrictions.  However, participants were encouraged to
+harbor warm thoughts toward casino employees while playing.
 
-[^4]: This **may** be some sort of charity event; it's too early to
-tell. There will not, under any circumstances, however, be a fee
-associated with this event nor even a mandatory charity donation
-requirement. _Perhaps_ Craft Poker Co. will be able to contribute
-money to USO, but it may simply be a "harbor good thoughts" event.
+[^4]: This **was not** a charity event in 2023.
 
 [^5]: SAM 🚴6 and HOSDARSS are not (yet!) part of the World Series of
 Poker.  Both of those structures were made&mdash;with great respect
 and sadness&mdash;in memory of [David
 Lawful](https://feldmanmemorial.com/tribute/details/4734/David-Lawful/obituary.html)
-(craftpoker.com player id 22).  More details will be available
-closer to tournament time.
+(craftpoker.com player id 22).
 
 [^6]: At the World Series of Poker, the Dealer's Choice tournaments
 were scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's
-Choice then, so they were scheduled for these two slots which are
+Choice then, so they were scheduled for these two slots which had been
 taken by the multi-day Main Event at the World Series.
 
 [^8]: This was supposed to be the Dealer's Choice Championship, but a bug
@@ -210,19 +205,18 @@ with nobody making a choice.
 the Lucky 7's structure (which included unlimited rebuys up through
 Level 22).
 
-[^10]: The way I tried to clean up the mislabled tournaments error caused mb2
+[^10]: The way I tried to clean up the mislabeled tournaments error caused mb2
 to start some players with too few tournament chips, so that tournament does
-not count toward WSOPS standings, but the (post-BARGE) replacement will.
+not count toward WSOPS standings, but the (post-BARGE) replacement did.
 
 [^11]: The tournament was aborted in the middle.  I had started a
-deploy and taken a short nap and something (probably a slow network
-here at mom's house) caused the deploy to take way too long and I
-didn't notice it.  I had forgotten about the deploy when I woke up.
+deploy and taken a short nap and something caused the deploy to take
+way too long and I didn't notice it.
 
-[^7]: Each time a player completely busts (i.e. doesn't rebuy), the
-player that busts the busted player will be awarded an FM 65 bounty
-from the prize pool.
+[^7]: An FM 65 bounty from the prize pool was awarded each time a player
+was completely busted (i.e. was busted and didn't rebuy) from the tournament.
+The bounty was awarded to the player who was considered the "buster".
 
-[^12]: Although July 29th is a Saturday, this tournament will run at
+[^12]: Although July 29th, 2023 was a Saturday, this tournament ran at
 5pm Pacific, like each of the other three make-up (post-WSOP / post-BARGE)
-WSOP-Style tournaments.
+WSOP-Style tournaments that immediately preceded it.

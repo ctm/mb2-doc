@@ -3,22 +3,24 @@
 ## Overview
 
 WYWAB stands for "Wish You Were At
-[BARGE](https://www.barge.org/barge-2023-schedule)".  WYWAB is a series of
-mb2 tournaments that use the same tournament structures (and typically same
-starting times) as most of the tournaments that are spread at BARGE.
+[BARGE](https://www.barge.org/barge-2023-schedule)".  
+
+WYWAB is an
+annual series of mb2 tournaments that uses the same tournament
+structures (and typically same starting times) as most of the
+tournaments that are spread at BARGE.
 
 WYWAB tournaments are open to all and they're free.
 
-The winner of each tournament will receive $50 via Venmo or Zelle.
+In 2023, the winner of each tournament received $50 via Venmo or Zelle.
 
 ## The Tournaments
 
-All eight tournaments will be held in July.
-
+In 2023, all eight tournaments were held in July.
 The times listed in this table are all in Pacific Daylight, since that's what
-is on the structure sheet due to it being the time zone of Las Vegas.
-However, in the mb2, the times will be in the time zone your browser
-is configured for (which&mdash;for most people&mdash;is your local time zone).
+was on the structure sheets due to it being the time zone of Las Vegas.
+However, in the mb2, all times are in the time zone the browser
+is configured for (which&mdash;for most people&mdash;is their local time zone).
 
 Each of the events in the table below is a link to the appropriate
 page of the [BARGE 2023 Structure
@@ -41,34 +43,40 @@ completely unrelated corporation.
 
 ## Some Differences
 
-Mb2, the software used to run the tournaments is very flexible, but WYWAB was
-put together quickly, as such, two of the complex-to-implement structures are
-not being dealt at all (NLHE Crapshoot tournament and 3 Hand Hold'em).
+Mb2, the software used to run the tournaments is very flexible, but
+WYWAB 2023 was put together quickly. As such, two of the
+complex-to-implement structures were not dealt (NLHE Crapshoot
+tournament and 3 Hand Hold'em).
 
-For the tournaments that are being dealt, some differences are just to
+For the tournaments that were dealt, some differences were just to
 improve the online experience and keep the tournaments from taking too
 long:
 
 1. Except for the Tournament of Champions style tournament, rounds
-will last ten minutes.  The Tournament of Champions style tournament
-has seven and a half minute Hold'em rounds, nine minute Stud rounds
+lasted ten minutes.  The Tournament of Champions style tournament
+had seven and a half minute Hold'em rounds, nine minute Stud rounds
 and eleven minute Omaha/8 rounds.
-2. There are no chip races.
-3. Breaks will start "on the 55", meaning that once each table has finished
+
+2. There were no chip races.
+
+3. Breaks started "on the 55", which means that once each table has finished
 a hand after fifty-five minutes after the hour, all tables will get a five
 minute break.
 
-These differences, however, are due to a lack of time:
+These differences, however, were due to a lack of time:
 
-1. In any tournament with a big blind ante, the ante will be posted _before_
-the big blind.  That means if you only have a fraction of the big blind
-after paying the ante, you may only win the ante plus the amount of chips
-you get when you multiply that fraction of the big blind by the number of
-players who also put in that much or more.
-2. Final tables of mixed game tournaments do not restart the mix at the
-beginning. So, for example, although the Limit 6 Game HORSE tournament will
-start with Hold'em, the final table will continue dealing whatever it was
-dealing before the other table was merged into it.
-3. The "No Limit Hold'em Go the Distance Bounty" tournament will be played
-until there is only one player left. That's the player who wins the $50.  As
-such, there are ten additional levels.
+1. In each tournament with a big blind ante, the antes were posted
+_before_ the big blind.  That meant that if you only had a fraction of
+the big blind after paying the ante, you were only able to win the
+ante plus the amount of chips you got when you multiplied that
+fraction of the big blind by the number of players who had also put in
+that much or more.
+
+2. Final tables of mixed game tournaments did not restart the mix at the
+beginning. So, for example, although the Limit 6 Game HORSE tournament
+started with Hold'em, the final table continued dealing whatever it was
+dealing before the other table that was merged into it.
+
+3. The "No Limit Hold'em ~~Go the Distance~~ Bounty" tournament was
+played until there was only one player left. That player,
+[ts4z](https://craftpoker.com/event/4659/player/37), won the $50.
