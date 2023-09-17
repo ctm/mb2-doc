@@ -9,14 +9,25 @@ complicated ones.
 
 ## Joining and Unjoining
 
-Currently Mb2 [doesn't support late
-registration](https://github.com/ctm/mb2-doc/issues/183), so to
-participate in a tournament you have to join before it starts.
+The tournaments that you're allowed to join show up in the lobby.
+Each has a checkbox to the left. If you mark the checkbox before that
+tournament starts, then when it starts, you'll be included. If you
+change your mind, just uncheck the box.
 
-The tournaments that you're allowed to join show up in the lobby.  Each
-has a checkbox to the left. If you mark the checkbox, then when that
-tournament starts, you'll be included. If you change your mind, just
-uncheck the box.
+After a tournament has started, if the tournament supports late registration
+and there is a seat available, you can click the check-box and join that
+tournament in progress.
+
+If late registration is available and all the seats
+are occupied, you will not be allowed to join until someone busts.  There
+is not yet a waitlist, so if more than one person is waiting for a seat to
+open, the first to click after it is open will get it and the other(s) will
+be shut out.
+
+Eventually, mb2's late registration will have the option of allowing new
+tables to be created as needed, but until then, if you want to be sure you
+get a seat, sign up before the tournament starts.
+
 
 ## Creating
 
