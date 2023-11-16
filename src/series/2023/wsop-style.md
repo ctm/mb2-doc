@@ -58,11 +58,10 @@ well publicized.
 
 ### No Late Registration
 
-_**Currently**_ there is [no late
-entry](https://github.com/ctm/mb2-doc/issues/183). Because there was no
-late registration, the tournaments didn't actually start until five
-minutes after the hour, but they started **exactly** at five minutes
-after the hour.
+During the series, late registration was not yet available (it is
+now).  Because there was no late registration, the tournaments didn't
+actually start until five minutes after the hour, but they started
+**exactly** at five minutes after the hour.
 
 ### Rebuys instead of re-entries
 

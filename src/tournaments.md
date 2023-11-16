@@ -14,20 +14,12 @@ Each has a checkbox to the left. If you mark the checkbox before that
 tournament starts, then when it starts, you'll be included. If you
 change your mind, just uncheck the box.
 
-After a tournament has started, if the tournament supports late registration
-and there is a seat available, you can click the check-box and join that
-tournament in progress.
-
-If late registration is available and all the seats
-are occupied, you will not be allowed to join until someone busts.  There
-is not yet a waitlist, so if more than one person is waiting for a seat to
-open, the first to click after it is open will get it and the other(s) will
-be shut out.
-
-Eventually, mb2's late registration will have the option of allowing new
-tables to be created as needed, but until then, if you want to be sure you
-get a seat, sign up before the tournament starts.
-
+After a tournament has started, if the tournament supports late registration,
+you can click the check-box and join that tournament in progress.  If
+there is a seat open, you'll be seated immediately.  If not, a new table
+may need to be created and that will only be done when there are enough
+movable players (players not in a hand) on the existing tables to move
+enough to create a new table, but keep things balanced.
 
 ## Creating
 
