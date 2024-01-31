@@ -37,7 +37,7 @@ In the mb2 lobby, the times will be in the time zone your
 browser is configured for (which&mdash;for most people&mdash;is your
 local time zone).
 
-Each of the events in the table below will eventually be a link to the
+Each of the events in the table below is a link to the
 appropriate page of the EMBARGO 2024 Structure
 Sheet.
 
@@ -46,19 +46,42 @@ series is not sanctioned, endorsed or in any other way sponsored or
 related to the BARGE organization.  It is being put on by Craft Poker Co.,
 a completely unrelated corporation.
 
-|Day|Time|Event|Winner|
+|Feb.|Time|Event|Winner|
 |--:|--:|--|--|
-|1st|6pm PST|6-Handed Tournament of Champions||
-|2nd|11am PST|World Online Chowaha Championship||
-|2nd|6pm PST|Double Board Pot-Limit Omaha||
-|3rd|11am PST|Double Green Chip Bounty No-Limit Hold'em[^2]||
-|3rd|6pm PST|B.O.S.S. (Big O + Super Stud/8)||
+|1st|6:00 pm PST|[6-Handed Tournament of Champions](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=1)||
+|2nd|11:00 am PST|[World Online Chowaha Championship](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=2)||
+|2nd|6:00 pm PST|[Double Board Pot-Limit Omaha](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=3)||
+|3rd|11:00 am PST|[Double Green Chip Bounty No-Limit Hold'em](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4)[^2]||
+|3rd|6:00 pm PST|[B.O.S.S. (Big O + Super Stud/8)](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=5)||
 
-## Practice, practice, practice
+## A few Differences from EMBARGO
 
-From mid January through the end of January, the 8:10 pm Pacific event
-will be a practice tournament, rotating through each of the five tournaments
-that will be played in the series.
+Since this is an online event, we've made a few changes.
+
+### Round Duration
+
+All rounds are five minutes long, except in the Tournament of Champions, where each round is one
+third the duration of what is being played at EMBARGO:
+
+|Round|Minutes:Seconds|
+|-----|--------|
+|Limit Hold'em|5:00|
+|Stud|6:00|
+|Omaha|7:20|
+|No-Limit Hold'em|6:40|
+
+### Breaks at 55 past the hour
+
+The WYWAE breaks will begin after each table has finished a hand at or after 55 minutes
+after the hour. The break will then be five minutes long.
+
+### Late Registration
+
+In the WYWAE tournaments, late registration will be allowed through level 9.
+
+### Re-entries
+
+During WYWAE tournaments, you may re-enter up to two times, through level 9.
 
 [^1]: Real players; no sock puppets or no-shows, please
 
