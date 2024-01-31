@@ -48,11 +48,11 @@ a completely unrelated corporation.
 
 |Day|Time|Event|Winner|
 |--:|--:|--|--|
-|1st|6pm PST|6 Handed TOC||
+|1st|6pm PST|6-Handed Tournament of Champions||
 |2nd|11am PST|World Online Chowaha Championship||
-|2nd|6pm PST|Double Board PLO)||
-|3rd|11am PST|Double Green Chip Bounty No Limit Hold'em[^2]||
-|3rd|6pm PST|B.O.S.S. (Big O + Super Stud/8||
+|2nd|6pm PST|Double Board Pot-Limit Omaha||
+|3rd|11am PST|Double Green Chip Bounty No-Limit Hold'em[^2]||
+|3rd|6pm PST|B.O.S.S. (Big O + Super Stud/8)||
 
 ## Practice, practice, practice
 
