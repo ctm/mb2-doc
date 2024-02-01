@@ -22,30 +22,26 @@ then click the `>` in the lower right corner.
 ### Come back for the tournaments
 
 Although you can create your own tournaments and have them start
-whenever you want, at least two tournaments are typically scheduled
-each day.
+whenever you want, typically, at least one tournament is scheduled each day.
 
-From May 30th, 2023 through July 18th,
-[craftpoker.com](https://craftpoker.com) hosts one
-[WSOP-style](series/2023/wsop-style.md) tournament each day, and the
-winner gets to choose either an [Engraved Rectangular Glass
-Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
-or $50 cash (via Venmo or Zelle).
+Thursday, February 1st, 2024, Friday the 2nd, and Saturday, the 3rd,
+[craftpoker.com](https://craftpoker.com) is hosting
+[WYWAE](series/2024/wywae.md), which is a series of five free tournaments
+whose winner gets $100 cash (via Venmo or Zelle). 
 
-This WSOP-Style tournament starts each day at:
+Click on the 
+[WYWAE](series/2024/wywae.md) link for details, including the time of each
+of the tournaments.
 
-* Monday through Friday: 5pm Pacific time (8pm Eastern)
-* Saturday and Sunday: 3pm Pacific time (6pm Eastern)
+After WYWAE is over (at least until the WSOP-Style Series begins), the
+tournaments will only have bragging rights as a prize, although the
+winner does get the privilege to pick the structure for the same
+tournament on the next day (e.g., the winner of the night tournament
+chooses the structure for the night tournament the next day).
 
-The other tournaments that are run only have bragging rights as a
-prize, although the winner does get the privilege to pick the
-structure for the same tournament on the next day (e.g., the winner of
-the night tournament chooses the structure for the night tournament
-the next day).
+The non-WYWAE evening tournament starts at 5:05 pm Pacific.
 
-The night tournament starts at 8pm Pacific. 
-
-On Saturday and Sunday there may be an evening tournament at 5pm Pacific.
+The night tournament starts at 8:10 pm Pacific. 
 
 So, figure out what time they start in your time zone and join us.
 
