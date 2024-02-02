@@ -13,8 +13,7 @@ available to the public.
 
 The winner of each tournament will receive $100 via Venmo or Zelle.
 
-Other places will pay, depending on how many players enter[^1]:
-
+Other places will pay, depending on how many players participate[^1]:
 
 |Place| 2-4| 5-8|9-15|16-24|25 or more|
 |----:|---:|---:|---:|----:|---------:|
@@ -23,6 +22,16 @@ Other places will pay, depending on how many players enter[^1]:
 |  3rd|    |    | $40|  $45|       $50|
 |  4th|    |    |    |  $35|       $35|
 |  5th|    |    |    |     |       $30|
+
+## Re-entries don't count as separate players
+
+Re-entries aren't included in the player count, because the player who
+is re-entering has already been counted.  That means it may be
+possible for you to win Fun Money but not actually win real cash,
+because the Fun Money payouts _do_ count re-entries. I apologize for
+this discrepancy. When I first set up WYWAE I didn't anticipate
+the complications re-entries would add.
+
 
 ## The Tournaments
 
@@ -46,13 +55,13 @@ series is not sanctioned, endorsed or in any other way sponsored or
 related to the BARGE organization.  It is being put on by Craft Poker Co.,
 a completely unrelated corporation.
 
-|Feb.|Time|Event|Winner|
-|--:|--:|--|--|
-|1st|6:00 pm PST|[6-Handed Tournament of Champions](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=1)||
-|2nd|11:00 am PST|[World Online Chowaha Championship](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=2)||
-|2nd|6:00 pm PST|[Double Board Pot-Limit Omaha](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=3)||
-|3rd|11:00 am PST|[Double Green Chip Bounty No-Limit Hold'em](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4)[^2]||
-|3rd|6:00 pm PST|[B.O.S.S. (Big O + Super Stud/8)](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=5)||
+|Feb.|Time|Event|Players|Winner|
+|--:|--:|--|--|--|
+|1st|6:00 pm PST|[6-Handed Tournament of Champions](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=1)|19|[Bridgeman](https://craftpoker.com/event/5109/player/29)|
+|2nd|11:00 am PST|[World Online Chowaha Championship](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=2)|||
+|2nd|6:00 pm PST|[Double Board Pot-Limit Omaha](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=3)|||
+|3rd|11:00 am PST|[Double Green Chip Bounty No-Limit Hold'em](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4)[^2]|||
+|3rd|6:00 pm PST|[B.O.S.S. (Big O + Super Stud/8)](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=5)|||
 
 ## A few Differences from EMBARGO
 
