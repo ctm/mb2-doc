@@ -58,7 +58,7 @@ a completely unrelated corporation.
 |Feb.|Time|Event|Players|Winner|
 |--:|--:|--|--|--|
 |1st|6:00 pm PST|[6-Handed Tournament of Champions](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=1)|19|[Bridgeman](https://craftpoker.com/event/5109/player/29)|
-|2nd|11:00 am PST|[World Online Chowaha Championship](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=2)|||
+|2nd|11:00 am PST|[World Online Chowaha Championship](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=2)|10|[samarai](https://craftpoker.com/event/5110/player/32)|
 |2nd|6:00 pm PST|[Double Board Pot-Limit Omaha](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=3)|||
 |3rd|11:00 am PST|[Double Green Chip Bounty No-Limit Hold'em](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4)[^2]|||
 |3rd|6:00 pm PST|[B.O.S.S. (Big O + Super Stud/8)](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=5)|||
