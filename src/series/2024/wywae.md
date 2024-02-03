@@ -94,4 +94,4 @@ During WYWAE tournaments, you may re-enter up to two times, through level 9.
 
 [^1]: Real players; no sock puppets or no-shows, please
 
-[^2]: There is no cash value associated with the bounties, only [Fun Money](../../fun_money.md).
+[^2]: There is no cash value associated with the bounties, per-se, only [Fun Money](../../fun_money.md), but the cash payouts are ranked by Fun Money won, which does include the bounties.
