@@ -19,31 +19,24 @@ There's more information about the demo on the next page of this book.
 To advance to the next page, scroll to the bottom of this page and
 then click the `>` in the lower right corner.
 
-### Come back for the tournaments
+### Come back for a tournament
 
 Although you can create your own tournaments and have them start
-whenever you want, typically, at least one tournament is scheduled each day.
+whenever you want, typically, at least one tournament is scheduled each day
+that is attended by regulars.
 
-Thursday, February 1st, 2024, Friday the 2nd, and Saturday, the 3rd,
-[craftpoker.com](https://craftpoker.com) is hosting
-[WYWAE](series/2024/wywae.md), which is a series of five free tournaments
-whose winner gets $100 cash (via Venmo or Zelle). 
+The tournaments have [Fun Money](fun_money.md) and bragging
+rights as a prize and the winner gets the privilege of picking
+the structure for the same tournament on the next day (e.g., the
+winner of the night tournament chooses the structure for the night
+tournament the next day).
 
-Click on the 
-[WYWAE](series/2024/wywae.md) link for details, including the time of each
-of the tournaments.
+The evening tournament starts at 5:05 pm Pacific.
 
-After WYWAE is over (at least until the WSOP-Style Series begins), the
-tournaments will only have bragging rights as a prize, although the
-winner does get the privilege to pick the structure for the same
-tournament on the next day (e.g., the winner of the night tournament
-chooses the structure for the night tournament the next day).
+The night tournament&mdash;when it runs&mdash;starts at 8:10 pm Pacific. 
 
-The non-WYWAE evening tournament starts at 5:05 pm Pacific.
-
-The night tournament starts at 8:10 pm Pacific. 
-
-So, figure out what time they start in your time zone and join us.
+So, look for one of the regularly scheduled tournaments in the
+[lobby](lobby.md) and join us.
 
 ### This manual is&hellip; Player Driven
 
