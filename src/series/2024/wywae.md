@@ -5,15 +5,15 @@
 WYWAE stands for "Wish You Were At
 [EMBARGO](https://www.barge.org/schedule1)".  
 
-The WYWAE series is an
+The WYWAE 2024 series was an
 mb2 tournament dealt for each of the EMBARGO tournaments.
 
-Each tournament is a freeroll: there is no fee to enter and entry is
+Each tournament was a freeroll: there was no fee to enter and entry was
 available to the public.
 
-The winner of each tournament will receive $100 via Venmo or Zelle.
+The winner of each tournament received $100 via Venmo or Zelle.
 
-Other places will pay, depending on how many players participate[^1]:
+Additional places paid, depending on how many players participated[^1]:
 
 |Place| 2-4| 5-8|9-15|16-24|25 or more|
 |----:|---:|---:|---:|----:|---------:|
@@ -23,36 +23,30 @@ Other places will pay, depending on how many players participate[^1]:
 |  4th|    |    |    |  $35|       $35|
 |  5th|    |    |    |     |       $30|
 
-## Re-entries don't count as separate players
+## Re-entries didn't count as separate players
 
-Re-entries aren't included in the player count, because the player who
-is re-entering has already been counted.  That means it may be
-possible for you to win Fun Money but not actually win real cash,
-because the Fun Money payouts _do_ count re-entries. I apologize for
-this discrepancy. When I first set up WYWAE I didn't anticipate
-the complications re-entries would add.
+Re-entries weren't included in the player count, because the player who
+re-entered had already been counted.  That means it had been
+possible for players to win Fun Money but not actually win real cash,
+because the Fun Money payouts _do_ count re-entries.
 
 
 ## The Tournaments
 
-All five tournaments will be held in February. The first will be on
-Thursday the 1st, then the following two days will each have two
+All five tournaments were held in February. The first was on
+Thursday the 1st, then the following two days each had two
 tournaments.
 
 The times listed in this table are all in Pacific Standard, since
 that's the time zone of Las Vegas.
 
-In the mb2 lobby, the times will be in the time zone your
-browser is configured for (which&mdash;for most people&mdash;is your
-local time zone).
-
 Each of the events in the table below is a link to the
 appropriate page of the EMBARGO 2024 Structure
 Sheet.
 
-Although the EMBARGO Structure Sheet will be used as a reference, this
-series is not sanctioned, endorsed or in any other way sponsored or
-related to the BARGE organization.  It is being put on by Craft Poker Co.,
+Although the EMBARGO Structure Sheet was used as a reference, this
+series was not sanctioned, endorsed or in any other way sponsored or
+related to the BARGE organization.  It was put on by Craft Poker Co.,
 a completely unrelated corporation.
 
 |Feb.|Time|Event|Players|Winner|
@@ -69,8 +63,8 @@ Since this is an online event, we've made a few changes.
 
 ### Round Duration
 
-All rounds are five minutes long, except in the Tournament of Champions, where each round is one
-third the duration of what is being played at EMBARGO:
+All rounds were five minutes long, except in the Tournament of Champions, where each round was one
+third the duration of what was played at EMBARGO:
 
 |Round|Minutes:Seconds|
 |-----|--------|
@@ -81,17 +75,29 @@ third the duration of what is being played at EMBARGO:
 
 ### Breaks at 55 past the hour
 
-The WYWAE breaks will begin after each table has finished a hand at or after 55 minutes
-after the hour. The break will then be five minutes long.
+The WYWAE breaks began after each table had finished a hand at or
+after 55 minutes after the hour. The break was then five minutes
+long.
 
 ### Late Registration
 
-In the WYWAE tournaments, late registration will be allowed through level 9.
+In the WYWAE tournaments, late registration was allowed through level 9.
 
 ### Re-entries
 
-During WYWAE tournaments, you may re-enter up to two times, through level 9.
+During WYWAE tournaments, players were able to re-enter up to two times,
+through level 9.
+
+## It wasn't EMBARGO, but it was fun
+
+In addition to it being fun, bugs were found and edge cases
+were explored. Thank you, all players. Your participation has improved
+mb2.
+
+<br/>
+<br/>
+<hr/>
 
 [^1]: Real players; no sock puppets or no-shows, please
 
-[^2]: There is no cash value associated with the bounties, per-se, only [Fun Money](../../fun_money.md), but the cash payouts are ranked by Fun Money won, which does include the bounties.
+[^2]: There was no cash value associated with the bounties, per-se, only [Fun Money](../../fun_money.md), but the cash payouts were ranked by Fun Money won, which did include the bounties.
