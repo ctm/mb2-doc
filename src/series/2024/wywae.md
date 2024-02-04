@@ -61,7 +61,7 @@ a completely unrelated corporation.
 |2nd|11:00 am PST|[World Online Chowaha Championship](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=2)|10|[samarai](https://craftpoker.com/event/5110/player/32)|
 |2nd|6:00 pm PST|[Double Board Pot-Limit Omaha](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=3)|11|[JADC🚴](https://craftpoker.com/event/5111/player/28)|
 |3rd|11:00 am PST|[Double Green Chip Bounty No-Limit Hold'em](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4)[^2]|15|[Mrstcao](https://craftpoker.com/event/5112/player/36)|
-|3rd|6:00 pm PST|[B.O.S.S. (Big O + Super Stud/8)](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=5)|||
+|3rd|6:00 pm PST|[B.O.S.S. (Big O + Super Stud/8)](https://omaholic.com/2024_EMBARGO_Structures.pdf#page=5)|15|[jrx](https://craftpoker.com/event/5113/player/20)|
 
 ## A few Differences from EMBARGO
 
