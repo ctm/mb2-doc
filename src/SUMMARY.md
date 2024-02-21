@@ -2,6 +2,7 @@
 
 [Poker, with your friends](./friends.md)
 - [Demo](./demo.md)
+- [Pop-Up Enabling] (./pop-up.md)
 - [Accounts](./accounts.md)
 - [Privacy](./privacy.md)
 - [Security](./security.md)
