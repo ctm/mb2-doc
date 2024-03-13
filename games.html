@@ -185,6 +185,7 @@ Pineapple</a>,
 <a href="./games/redrum.html">Redrum</a>, <a href="./games/quick-quads.html">Quick Quads</a>, <a href="./games/omaha-x-or-better.html">Omaha X Or Better</a> and <a href="games/dealers-choice.html">Dealer's Choice</a>.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty. That number comes from the source code to mb2:</p>
+</div>
 <pre><code>pub static GAMES: Lazy&lt;[GameInfo; 60]&gt; = Lazy::new(|| {
     [
         // Hold'ems
@@ -199,12 +200,11 @@ Pineapple</a>,
 </code></pre>
 <p>The 60 shows that we're populating the <code>GAMES</code> constant with 60
 elements, but it's counting <code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
-</div>
 <p>It's also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
 not four!) because it has a separate entry for Lazy Pineapple with an
 eight qualifier and Lazy Pineapple without an eight qualifier, but
 does not do the same for Crazy Pineapple.</p>
-<p>Internally, games are implemented as core games<sup class="footnote-reference"><a href="#2">2</a></sup> which can have a lot
+<p>Internally, games are implemented as core games[^2] which can have a lot
 of options applied to them and the <code>GAMES</code> constant simply represents
 the most popular combinations of core games with options. There is no
 requirement for a combination of a core game and options to be present
@@ -212,7 +212,7 @@ in <code>GAMES</code> for that combination to be used in a tournament structure
 or ring game, so mb2 is already dealing more than sixty different
 variants, but some of the differences are so small that it's hard to
 argue they're different games.</p>
-<p><sup class="footnote-reference"><a href="#2">2</a></sup>
+<p>[^2]
 At the time of this writing, here are the core games, with up to three
 examples of each.  This table is mostly to represent the current flexibility
 of mb2. As such, it's not really that useful to Players, per-se.</p>
