@@ -2,13 +2,36 @@
 
 ## Overview
 
-WSOP-Style 2024 _should_ be
-fairly similar to [WSOP-Style 2023](../2023/wsop-style.md), although there
-will be no option to receive a physical prize, only cash via Venmo or Zelle.
-With luck, up to five places will pay as was done for [WYWAE 2024](wywae.md).
+WSOP-Style 2024 will be fairly similar to [WSOP-Style
+2023](../2023/wsop-style.md), although there will be no option to
+receive a physical prize, only cash via Venmo or Zelle.  Additionally,
+up to five places will pay, depending on the number of players we get.
+
+Payments, depending on how many players[^12] participate:
+
+|Place| 2-4| 5-8|9-15|16-24|25 or more|
+|----:|---:|---:|---:|----:|---------:|
+|  1st|$100|$100|$100| $100|      $100|
+|  2nd|    | $45| $60|  $60|       $65|
+|  3rd|    |    | $40|  $45|       $50|
+|  4th|    |    |    |  $35|       $35|
+|  5th|    |    |    |     |       $30|
+
+
+## Re-entries don't count as separate players
+
+Re-entries are not included in the player count, because the player
+who re-enters is already counted.  That means it is possible for
+players to win Fun Money but not actually win real cash, because the
+Fun Money payouts _do_ count re-entries.
 
 More details will be available as the series approaches.  With luck,
 everything will be finalized no later than May 10th.
+
+### All are welcome
+
+All events in this series are open to the public. Spread the word.
+
 
 ## The Tournaments
 
@@ -73,6 +96,7 @@ reused is identified by a footnote.
 |Jul 16th|[#98 No-Limit Hold'em - The Closer](https://wsop.com/pdfs/structuresheets/structure_5504_23274.pdf)||
 |Jul 17th|[#99 Super Turbo No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23275.pdf)[^11]||
 
+[^12]: Real players; no sock puppets or no-shows, please
 [^1]: "WSOP 2023"-style #01 No-Limit Hold'em
 [^2]: "WSOP 2023"-style #17 Omaha Hi-Lo 8 or better
 [^3]: "WSOP 2023"-style #66 Pot-Limit Omaha Hi-Lo 8 or better
@@ -84,3 +108,4 @@ reused is identified by a footnote.
 [^9]: "WSOP 2023"-style #94 No-Limit Hold'em
 [^10]: "WSOP 2023"-style #90 No-Limit Hold'em 6-Handed Championship
 [^11]: "WSOP 2023"-style #95 Super Turbo No-Limit Hold'em
+
