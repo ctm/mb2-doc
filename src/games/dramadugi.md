@@ -12,21 +12,26 @@ The following is how a page to the BARGE Rule Book could be added.
 
 ### Forced Money
 
-The game is played with a button and blinds.
+The game is played with a button and blinds. It can be played fixed-limit,
+pot-limit or no-limit.
 
 ### Dealing Procedure
 
 Each player is dealt five cards face down, followed by a round of
-betting at the small bet limit.  Three community cards are placed face
-up. This is followed by a round of betting at the small bet limit.
+betting.  Three community cards are placed face
+up. This is followed by a round of betting.
 Then each player in turn discards zero to five cards from their
 hand. Once all of the discards have been announced, the dealer will
 deal each player an appropriate number of replacement cards. Note that
 this differs from Triple Draw Dramaha, where the draw takes place
 BEFORE the flop betting.  One additional community card is placed face
-up. This is followed by a round of betting at the big bet limit.  One
-additional community card is placed face up. This is followed by a
-round of betting at the big bet limit. This is followed by a showdown.
+up. This is followed by a round of betting.  One
+additional community card is placed face up. This is followed by the final
+round of betting. This is followed by a showdown.
+
+When played fixed-limit, the first two betting rounds (pre-flop and
+post-flop) are done at the small bet limit and the final two rounds
+(post-turn and post-river) are done at the large bet limit.
 
 ### Evaluating the Showdown 
 
