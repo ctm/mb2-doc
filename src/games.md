@@ -11,9 +11,9 @@ rules to almost all of the games mb2 deals.  The exceptions are
 Pineapple](./games/regular-pineapple.html),
 [Redrum](./games/redrum.html), [Quick Quads](./games/quick-quads.md), [Omaha X Or Better](./games/omaha-x-or-better.md) [Dealer's Choice](games/dealers-choice.md), and [Dramadugi](./games/dramadugi.md).
 
-[^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is sixty-four. That number comes from the source code to mb2:
+[^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is sixty-five. That number comes from the source code to mb2:
 ```
-pub static GAMES: Lazy<[GameInfo; 64]> = Lazy::new(|| {
+pub static GAMES: Lazy<[GameInfo; 65]> = Lazy::new(|| {
     [
         // Hold'ems
         (&*HOLD_EM).into(),

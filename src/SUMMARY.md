@@ -39,6 +39,7 @@
 - [Games](./games.md)
      - [Dealer's Choice](games/dealers-choice.md)
      - [Dramadugi](games/dramadugi.md)
+     - [Five Card Omaha](games/five-card-omaha.md)
      - [Mexican Poker](./games/mexican-poker.md)
      - [Omaha X Or Better](./games/omaha-x-or-better.md)
      - [Quick Quads](./games/quick-quads.md)
