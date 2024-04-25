@@ -20,6 +20,13 @@ WSOP-Style 2024 will be fairly similar to [WSOP-Style
 receive a physical prize, only cash via Venmo or Zelle.  Additionally,
 up to five places will pay, depending on the number of players we get.
 
+### All are welcome
+
+All events in this series are open to the public. Please spread the word.
+
+
+### Payouts
+
 Payments, depending on how many players[^12] participate:
 
 |Place| 2-4| 5-8|9-15|16-24|25 or more|
@@ -44,11 +51,6 @@ Fun Money payouts _do_ count re-entries.
 
 More details will be available as the series approaches.  With luck,
 everything will be finalized no later than May 10th.
-
-### All are welcome
-
-All events in this series are open to the public. Please spread the word.
-
 
 ## The Tournaments
 
