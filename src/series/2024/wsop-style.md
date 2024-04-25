@@ -2,6 +2,19 @@
 
 ## Overview
 
+The WSOP-Style Series is a set of free tournaments with a cash prize,
+one per day, from May 28th through July 17th. Those are the days
+the World Series of Poker are being held in Las Vegas, Nevada and the World
+Series of Poker provides the inspiration for this series.
+
+**This series is not even remotely affiliated with the World Series of Poker.**
+
+This series does, however, use modified versions of the World Series
+of Poker tournament structures for each of the daily tournaments, with
+the exception of July 5th (see below).  All of the craftpoker.com
+WSOP-Style tournaments are played in one day, with five minute breaks
+every hour.
+
 WSOP-Style 2024 will be fairly similar to [WSOP-Style
 2023](../2023/wsop-style.md), although there will be no option to
 receive a physical prize, only cash via Venmo or Zelle.  Additionally,
@@ -17,6 +30,10 @@ Payments, depending on how many players[^12] participate:
 |  4th|    |    |    |  $35|       $35|
 |  5th|    |    |    |     |       $30|
 
+### More Info Coming Soon
+
+Starting times and other info will be added soon.
+
 
 ## Re-entries don't count as separate players
 
@@ -30,17 +47,18 @@ everything will be finalized no later than May 10th.
 
 ### All are welcome
 
-All events in this series are open to the public. Spread the word.
+All events in this series are open to the public. Please spread the word.
 
 
 ## The Tournaments
 
-The tournament for July 5th has not yet been chosen.  The others have,
-and are now available on mb2 at
-[craftpoker.com](https://craftpoker.com).  However, eleven of the
-fifty structures for WSOPS 2024 are the exact same as we used in
-WSOPS 2023.  In the following table, each structure that is being
-reused is identified by a footnote.
+Each day, other than July 5th (see below), has a tournament whose
+rounds are derived from a structure that is being played in Las Vegas
+on that day.
+
+All of the WSOP-Style 2024 tournaments are currently available on
+craftpoker.com.  Most can be found with the `"WSOP 2024"-style` prefix,
+the exceptions are noted with footnotes.
 
 |Date|Event (and link to Event Structure Sheet)|Winner|
 |--|--|-|
@@ -82,7 +100,7 @@ reused is identified by a footnote.
 |Jul 2nd|[#79 HIGH ROLLER Pot-Limit Omaha](https://wsop.com/pdfs/structuresheets/structure_5504_23255.pdf)[^7]||
 |Jul 3rd|[#81 MAIN EVENT No-Limit Hold'em World Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23257.pdf)[^8]||
 |Jul 4th|[#80 Independence Day Celebration - No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23256.pdf)||
-|Jul 5th|TBD (HOSDARSS Championship? CAB?)||
+|Jul 5th|[SAM_6](#july-5th)[^13]||
 |Jul 6th|[#82 No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23258.pdf)||
 |Jul 7th|[#83 Eight Game Mix (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23259.pdf)||
 |Jul 8th|[#84 Ultra Stack No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23260.pdf)||
@@ -96,6 +114,27 @@ reused is identified by a footnote.
 |Jul 16th|[#98 No-Limit Hold'em - The Closer](https://wsop.com/pdfs/structuresheets/structure_5504_23274.pdf)||
 |Jul 17th|[#99 Super Turbo No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23275.pdf)[^11]||
 
+### July 5th
+
+Since July 5th has no World Series of Poker tournament play, July 5th
+is a [BARGE](https://www.barge.org/) inspired structure, "SAM_6", a four game mix of:
+* [**S**crotum](https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=59)
+* [**A**ction Razz](https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=30)
+* [**M**urder](https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=56)
+* [**6**-card Sohe](https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=24)
+
+"Sam_6" was the nickname of [David
+Lawful](https://feldmanmortuary.com/tribute/details/4734/David-Lawful/obituary.html),
+a generous member of BARGE.  He liked to play odd games, although he was a
+formidble opponent in all and a BARGE main event winner (2013).
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr/>
+
 [^12]: Real players; no sock puppets or no-shows, please
 [^1]: "WSOP 2023"-style #01 No-Limit Hold'em
 [^2]: "WSOP 2023"-style #17 Omaha Hi-Lo 8 or better
@@ -105,6 +144,7 @@ reused is identified by a footnote.
 [^6]: "WSOP 2023"-style #69 No-Limit 2-7 Lowball Championship
 [^7]: "WSOP 2023"-style #71 High Roller Pot-Limit Omaha
 [^8]: "WSOP 2023"-style #76 Main Event No-Limit Hold'em Championship
+[^13]: "SAM_6: Scrotum, Action razz, Murder, 6 card sohe"
 [^9]: "WSOP 2023"-style #94 No-Limit Hold'em
 [^10]: "WSOP 2023"-style #90 No-Limit Hold'em 6-Handed Championship
 [^11]: "WSOP 2023"-style #95 Super Turbo No-Limit Hold'em
