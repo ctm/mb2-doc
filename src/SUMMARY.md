@@ -19,6 +19,7 @@
 - [Fun Money](./fun_money.md)
 - [Tournaments](./tournaments.md)
   - [Structures](./tournaments/structures.md)
+    - [Templates](./tournaments/structures/templates.md)
   - [Payouts](./tournaments/payouts.md)
 - [Series](./series.md)
   - [Historical](./series/historical.md)
