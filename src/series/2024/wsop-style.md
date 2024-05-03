@@ -1,4 +1,4 @@
-# WSOP-Style
+# WSOP-Style 2024
 
 ## Overview
 
@@ -13,12 +13,16 @@ This series does, however, use modified versions of the World Series
 of Poker tournament structures for each of the daily tournaments, with
 the exception of July 5th (see below).  All of the craftpoker.com
 WSOP-Style tournaments are played in one day, with five minute breaks
-every hour.
+every hour. Each starts at:
+
+* Monday through Friday: 5pm Pacific time (8pm Eastern)
+* Saturday and Sunday: 3pm Pacific time (6pm Eastern)
 
 WSOP-Style 2024 will be fairly similar to [WSOP-Style
 2023](../2023/wsop-style.md), although there will be no option to
 receive a physical prize, only cash via Venmo or Zelle.  Additionally,
-up to five places will pay, depending on the number of players we get.
+up to five places will pay per tournament, dependent on the number of
+players.
 
 ### All are welcome
 
@@ -37,9 +41,14 @@ Payments, depending on how many players[^12] participate:
 |  4th|    |    |    |  $35|       $35|
 |  5th|    |    |    |     |       $30|
 
-### More Info Coming Soon
 
-Starting times and other info will be added soon.
+### Overall prizes
+
+There _may_ be overall prizes for the top three players on the
+WSOP-Style 2024 leaderboard by Net Profit and by Win Rate.  If so, to
+qualify for a win rate prize, the player will have to complete at
+least seven tournaments.
+
 
 
 ## Re-entries don't count as separate players
@@ -128,7 +137,7 @@ is a [BARGE](https://www.barge.org/) inspired structure, "SAM_6", a four game mi
 "Sam_6" was the nickname of [David
 Lawful](https://feldmanmortuary.com/tribute/details/4734/David-Lawful/obituary.html),
 a generous member of BARGE.  He liked to play odd games, although he was a
-formidble opponent in all and a BARGE main event winner (2013).
+formidable opponent in all and a BARGE main event winner (2013).
 
 <br/>
 <br/>

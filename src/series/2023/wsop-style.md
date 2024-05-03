@@ -2,38 +2,35 @@
 
 ## Overview
 
-The WSOP-Style 2023 Series was initially a tournament a day from Tuesday,
-May 30th through Tuesday, July 18th, 2023.  Each tournament started
-at:
+The WSOP-Style 2023 Series was initially to have been a tournament a
+day from Tuesday, May 30th through Tuesday, July 18th, 2023.  Each
+tournament started at:
 
 * Monday through Friday: 5pm Pacific time (8pm Eastern)
 * Saturday and Sunday: 3pm Pacific time (6pm Eastern)
 
-Tournaments typically finished in under two hours, but there were some
-major outliers.
+All but six of the tournaments finished in under two and a half hours.
+The Razz Championship lasted three hours, eleven minutes.
 
 Four of the fifty tournaments had trouble and were rescheduled as
 documented in the footnotes of the table below.
 
 ## Prize for first place
 
-Craft Poker Co. will either send a physical prize to the winner of
-each tournament in the series or pay $50 in cash via Venmo or
-Zelle. It will be the winner's choice. If taken, the prize will be an
+Craft Poker Co. either sent a physical prize to the winner of
+each tournament in the series or pid $50 in cash via Venmo or
+Zelle. It was the winner's choice. When taken, the prize was an
 [Engraved Rectangular Glass
-Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
-unless they run out or there are other unforeseen circumstances.
+Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html).
 
 ### Overall prizes
 
-There will also be nicer prizes for the top three players on
-leaderboard by profit and also by win rate at the end of the series or
-$250, $125 and $85 respectively.  The prizes haven't been
-nailed down yet.  To qualify for an overall win rate prize, the player
-must have completed at least seven tournaments.
+There were also larger cash awards for the top three players on the
+leaderboard by profit and also by win rate at the end of the series.
+Those awards were $250, $125 and $85 for first, second and third.
 
-Although the prizes haven't been awarded as of July 30th, the winners
-have been determined.
+To qualify for an overall win rate prize, the player must had to have
+completed at least seven tournaments.
 
 #### Net Profit
 
