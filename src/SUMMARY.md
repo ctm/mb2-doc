@@ -38,6 +38,7 @@
 - [Vacation](./vacation.md)
 - [Chat](./chat.md)
 - [Games](./games.md)
+     - [Bidirectional Chowaha](games/bidirectional-chowaha.md)
      - [Dealer's Choice](games/dealers-choice.md)
      - [Dramadugi](games/dramadugi.md)
      - [Five Card Omaha](games/five-card-omaha.md)
