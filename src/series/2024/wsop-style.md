@@ -1,5 +1,22 @@
 # WSOP-Style 2024
 
+## Lack of Funds Warning
+
+Craft Poker Co. (CPC) does currently not have the money to pay beyond
+the first tournament, on Tuesday, May 28th.  There will be a payout
+for that day. With good luck, by the time it rolls around, I'll
+have lined up money for several more days, if not weeks, if not the
+entire series.
+
+Until the remainder of the series is funded (or the series is over),
+I'll be spending my time looking for funding.
+
+I will update this page and the lobby with minutia (i.e., little
+changes) and I'll update the BARGE list if there are big changes.
+
+I apologize for this inconvenience.
+
+
 ## Overview
 
 The WSOP-Style Series is a set of free tournaments with a cash prize,
@@ -26,12 +43,17 @@ players.
 
 ### All are welcome
 
-All events in this series are open to the public. Please spread the word.
-
+All events in this series are open to the public.  If you want to,
+spread the word to anyone you think might enjoy playing if there is no
+payout. However, I realize our current lack of funding is a horrible
+look for both CPC and myself, personally. So, if you don't want to
+spread the word, that's fine, too.
 
 ### Payouts
 
-Payments, depending on how many players[^12] participate:
+For tournaments with payouts (please see [Lack Of Funds
+Warning](#lack-of-funds-warning), above), the amount CPC will pay will
+depend on how many players[^12] participate:
 
 |Place| 2-4| 5-8|9-15|16-24|25 or more|
 |----:|---:|---:|---:|----:|---------:|
@@ -40,15 +62,6 @@ Payments, depending on how many players[^12] participate:
 |  3rd|    |    | $40|  $45|       $50|
 |  4th|    |    |    |  $35|       $35|
 |  5th|    |    |    |     |       $30|
-
-
-### Overall prizes
-
-There _may_ be overall prizes for the top three players on the
-WSOP-Style 2024 leaderboard by Net Profit and by Win Rate.  If so, to
-qualify for a win rate prize, the player will have to complete at
-least seven tournaments.
-
 
 
 ## Re-entries don't count as separate players
@@ -60,6 +73,23 @@ Fun Money payouts _do_ count re-entries.
 
 More details will be available as the series approaches.  With luck,
 everything will be finalized no later than May 10th.
+
+### Overall prizes
+
+There _may_ be overall prizes for the top three players on the
+WSOP-Style 2024 leaderboard by Net Profit and by Win Rate.  If so, to
+qualify for a win rate prize, the player will have to complete at
+least seven tournaments.
+
+### Round Duration
+
+All levels will be five minutes long.
+
+There will be a five minute break that will start after each table has
+completed a hand at 55 minutes past the hour or later. That means the
+last table to finish a hand at 55 minutes past the hour or later will
+get exactly a five minute breaks and all other tables will be paused
+while waiting for that table to finish a hand.
 
 ## The Tournaments
 

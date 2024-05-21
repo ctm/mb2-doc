@@ -10,28 +10,7 @@ first step toward doing that is to provide a human readable version of
 structure templates.  The beginning of that functionality was introduced
 at the end of April, 2024.
 
-## Structure Sheet ETA
-
-Structure sheets are planned to be available by the start of the
-WSOP-Style Series, May 28th.
-
 ## Differences between Structure Templates and Sheets
-
-### Level Durations
-
-One difference is that in a structure template, level durations are a
-value that is multiplied by the duration of the first level, whereas
-in a structure sheet, level durations are in minutes.
-
-Typically, daily tournaments are created with five minute levels, so
-the structure template uses a five minute first level as an example,
-but it is possible to create tournaments with longer or shorter first
-levels.  All other levels then scaled by the factor provided in
-the structure template.
-
-So, if the scaling factor for levels four through
-seven is 1.5 and a tournament is made with a ten minute first level,
-levels four through seven would be fifteen minutes long.
 
 ### Customizable Parameters
 
