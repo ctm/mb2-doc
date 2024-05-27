@@ -1,7 +1,4 @@
-#! /bin/bash
-
-set -o errexit
-set -o pipefail
+#! /bin/bash -o errexit -o pipefail
 
 tmp_dir='/tmp/book'
 github_io_dir="$(echo ~/ctm.github.io/docs/players_manual)"
