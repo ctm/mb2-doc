@@ -1,59 +1,80 @@
 # WSOP-Style 2024
 
-## Lack of Funds Warning
+## Canceled
 
-Craft Poker Co. (CPC) does currently not have the money to pay beyond
-the first tournament, on Tuesday, May 28th.  There will be a payout
-for that day. With good luck, by the time it rolls around, I'll
-have lined up money for several more days, if not weeks, if not the
-entire series.
+On behalf of Craft Poker Co. (CPC), I have canceled all but two of the
+WSOP-Style Series for 2024 events.
 
-Until the remainder of the series is funded (or the series is over),
-I'll be spending my time looking for funding.
+The Series was to have started on Tuesday, May 28th and run through
+July 17th. Instead, the only two WSOP-Style events that craftpoker.com
+will be run in 2024 are:
 
-I will update this page and the lobby with minutia (i.e., little
-changes) and I'll update the BARGE list if there are big changes.
+1. May 28th "[#2 Casino Employees No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5504_23142.pdf)" (you do
+_not_ need to be a casino employee to play in this tournament; just
+think good thoughts about them)
 
-I apologize for this inconvenience.
+2. [July 5th SAM_6 tournament](http://127.0.0.1:3000/series/2024/wsop-style.html#july-5th).
 
+### Explanation
+
+I started work on the series at the beginning of March and by March
+10th, I had the initial implementation of Double Board Bomb Pot
+Hold'em and Omaha running nicely. Unfortunately, other complicating
+surprises occurred in March, including some trouble with the New
+Mexico Taxation and Revenue department and my mother having a stroke
+on March 27th.
+
+Considering what happened, my mother is doing well.  She turned
+ninety-two on May 16th.  She can no longer live alone, but my sister
+has moved in with her.
+
+I have not, however, come to an agreement with NM T&R yet, and not
+only has our back and forth cost me time, it's also cost me a lot of
+sleep, which meant I wasn't feeling up to dealing with humans
+much.  I'm incredibly self-conscious interacting with people when I'm
+tired; my productivity as a programmer decrease too, but if I do
+stupid programming things, the computer doesn't hold it against me.
+
+### Last Minute Notice
+
+I apologize for announcing this so close to what would have been the
+start of the series.
+
+As recently as Tuesday, May 21st, I was optimistic that I could "run
+ahead" of the events and line up money for awards in the nick of time,
+but I underestimated many things.  Furthermore, I hadn't publicized
+the series, except on the BARGE list (I hadn't even posted to
+BARGE-announce), so it wasn't like adding money would bring new players
+to the site.
+
+I do very much like to give back to the communities that I participate
+in.  Additionally, I had looked forward to the WSOP-Style Series 2024,
+since the end of last year's. However, it's best for CPC and for the
+users of MB2 for me to not offer the WSOP-Style series this year, and
+instead to get CPC back on track.
+
+With luck, we'll be able to hold WYWAB (Wish You Were at BARGE).
 
 ## Overview
 
-The WSOP-Style Series is a set of free tournaments with a cash prize,
-one per day, from May 28th through July 17th. Those are the days
-the World Series of Poker are being held in Las Vegas, Nevada and the World
-Series of Poker provides the inspiration for this series.
+In 2024, there is no WSOP-Style Series, per-se. Instead, there will be
+two free tournaments with a cash prize, one on Tuesday, May 28th
+and the other on Friday, July 5th.
 
-**This series is not even remotely affiliated with the World Series of Poker.**
+**These tournaments are not even remotely affiliated with the World Series of Poker.**
 
-This series does, however, use modified versions of the World Series
-of Poker tournament structures for each of the daily tournaments, with
-the exception of July 5th (see below).  All of the craftpoker.com
-WSOP-Style tournaments are played in one day, with five minute breaks
-every hour. Each starts at:
-
-* Monday through Friday: 5pm Pacific time (8pm Eastern)
-* Saturday and Sunday: 3pm Pacific time (6pm Eastern)
-
-WSOP-Style 2024 will be fairly similar to [WSOP-Style
-2023](../2023/wsop-style.md), although there will be no option to
-receive a physical prize, only cash via Venmo or Zelle.  Additionally,
-up to five places will pay per tournament, dependent on the number of
-players.
+There will be no option to receive a physical prize, only cash via
+Venmo or Zelle.  Up to five places will pay per tournament, dependent
+on the number of players.
 
 ### All are welcome
 
-All events in this series are open to the public.  If you want to,
-spread the word to anyone you think might enjoy playing if there is no
-payout. However, I realize our current lack of funding is a horrible
-look for both CPC and myself, personally. So, if you don't want to
-spread the word, that's fine, too.
+Both events are open to the public.
 
 ### Payouts
 
-For tournaments with payouts (please see [Lack Of Funds
-Warning](#lack-of-funds-warning), above), the amount CPC will pay will
-depend on how many players[^12] participate:
+The amount CPC will pay will depend on how many players[^12]
+participate:
 
 |Place| 2-4| 5-8|9-15|16-24|25 or more|
 |----:|---:|---:|---:|----:|---------:|
@@ -76,10 +97,8 @@ everything will be finalized no later than May 10th.
 
 ### Overall prizes
 
-There _may_ be overall prizes for the top three players on the
-WSOP-Style 2024 leaderboard by Net Profit and by Win Rate.  If so, to
-qualify for a win rate prize, the player will have to complete at
-least seven tournaments.
+Since there are only two WSOP-Style tournaments this year, there _will **not**_
+be prizes for the best overall players.
 
 ### Round Duration
 
@@ -93,72 +112,15 @@ while waiting for that table to finish a hand.
 
 ## The Tournaments
 
-Each day, other than July 5th (see below), has a tournament whose
-rounds are derived from a structure that is being played in Las Vegas
-on that day.
-
-All of the WSOP-Style 2024 tournaments are currently available on
-craftpoker.com.  Most can be found with the `"WSOP 2024"-style` prefix,
-the exceptions are noted with footnotes.
-
 |Date|Event (and link to Event Structure Sheet)|Winner|
 |--|--|-|
-|May 28th|[#2 Casino Employees No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23142.pdf)[^1]||
-|May 29th|[#4 Omaha Hi-Lo 8 or Better (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23144.pdf)[^2]||
-|May 30th|[#7 Dealers Choice (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23147.pdf)||
-|May 31st|[#8 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23148.pdf)||
-|Jun 1st|[#10 Omaha Hi-Lo 8 or Better Championship (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23150.pdf)||
-|Jun 2nd|[#11 Badugi](https://wsop.com/pdfs/structuresheets/structure_5504_23151.pdf)||
-|Jun 3rd|[#13 Dealers Choice Championship (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23153.pdf)||
-|Jun 4th|[#15 Pot-Limit Omaha Hi-Lo 8 or Better (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23155.pdf)[^3]||
-|Jun 5th|[#18 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23158.pdf)||
-|Jun 6th|[#22 Limit 2-7 Lowball Triple Draw (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23162.pdf)||
-|Jun 7th|[#24 Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23164.pdf)||
-|Jun 8th|[#25 Limit Hold'em 6-Handed](https://wsop.com/pdfs/structuresheets/structure_5504_23165.pdf)||
-|Jun 9th|[#27 Big O](https://wsop.com/pdfs/structuresheets/structure_5504_23167.pdf)[^4]||
-|Jun 10th|[#29 Limit 2-7 Triple Draw Championship (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23169.pdf)||
-|Jun 11th|[#32 Seven Card Stud](https://wsop.com/pdfs/structuresheets/structure_5504_23172.pdf)||
-|Jun 12th|[#35 H.O.R.S.E.](https://wsop.com/pdfs/structuresheets/structure_5504_23175.pdf)||
-|Jun 13th|[#37 Big O Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23177.pdf)||
-|Jun 14th|[#40 Razz](https://wsop.com/pdfs/structuresheets/structure_5504_23180.pdf)||
-|Jun 15th|[#41 Mixed NLH / PLO with Double Board Bomb Pots](https://wsop.com/pdfs/structuresheets/structure_5504_23181.pdf)||
-|Jun 16th|[#43 Mixed PLO / Omaha Hi-Lo 8 or Better / Big O](https://wsop.com/pdfs/structuresheets/structure_5504_23183.pdf)||
-|Jun 17th|[#45 H.O.R.S.E. Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23185.pdf)||
-|Jun 18th|[#48 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23188.pdf)||
-|Jun 19th|[#50 Razz Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23190.pdf)||
-|Jun 20th|[#53 Nine Game Mix (7-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23193.pdf)||
-|Jun 21st|[#56 Mixed Triple Draw Lowball (Limit)](https://wsop.com/pdfs/structuresheets/structure_5504_23196.pdf)||
-|Jun 22nd|[#57 Super Turbo Bounty No-Limit Hold'em Freezeout](https://wsop.com/pdfs/structuresheets/structure_5504_23197.pdf)||
-|Jun 23rd|[#58 Poker Players Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23198.pdf)[^5]||
-|Jun 24th|[#61 Mixed: Omaha Hi-Lo 8 / Seven Card Stud Hi-Lo 8](https://wsop.com/pdfs/structuresheets/structure_5504_23201.pdf)||
-|Jun 25th|[#63 No-Limit 2-7 Lowball Draw (7-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23203.pdf)||
-|Jun 26th|[#66 Pot-Limit Omaha Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23206.pdf)||
-|Jun 27th|[#69 Seven Card Stud Hi-Lo 8 or Better](https://wsop.com/pdfs/structuresheets/structure_5504_23209.pdf)||
-|Jun 28th|[#72 No-Limit 2-7 Lowball Draw Championship (7-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23212.pdf)[^6]||
-|Jun 29th|[#73 High Roller Pot-Limit Omaha](https://wsop.com/pdfs/structuresheets/structure_5504_23213.pdf)||
-|Jun 30th|[#74 Seven Card Stud Hi-Lo 8 or Better Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23250.pdf)||
-|Jul 1st|[#77 Mixed Big Bet (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23253.pdf)||
-|Jul 2nd|[#79 HIGH ROLLER Pot-Limit Omaha](https://wsop.com/pdfs/structuresheets/structure_5504_23255.pdf)[^7]||
-|Jul 3rd|[#81 MAIN EVENT No-Limit Hold'em World Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23257.pdf)[^8]||
-|Jul 4th|[#80 Independence Day Celebration - No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23256.pdf)||
+|May 28th|[#2 Casino Employees No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23142.pdf)||
 |Jul 5th|[SAM_6](#july-5th)[^13]||
-|Jul 6th|[#82 No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23258.pdf)||
-|Jul 7th|[#83 Eight Game Mix (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23259.pdf)||
-|Jul 8th|[#84 Ultra Stack No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23260.pdf)||
-|Jul 9th|[#87 No-Limit Hold'em (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23263.pdf)[^9]||
-|Jul 10th|[#88 Eight Game Mix (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23264.pdf)||
-|Jul 11th|[#91 H.O.R.S.E. (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23267.pdf)||
-|Jul 12th|[#92 HIGH ROLLER No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23268.pdf)||
-|Jul 13th|[#94 No-Limit Hold'em Championship (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23270.pdf)[^10]||
-|Jul 14th|[#96 High Roller H.O.R.S.E.](https://wsop.com/pdfs/structuresheets/structure_5504_23272.pdf)||
-|Jul 15th|[#97 Pot-Limit Omaha (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23273.pdf)||
-|Jul 16th|[#98 No-Limit Hold'em - The Closer](https://wsop.com/pdfs/structuresheets/structure_5504_23274.pdf)||
-|Jul 17th|[#99 Super Turbo No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23275.pdf)[^11]||
 
 ### July 5th
 
 Since July 5th has no World Series of Poker tournament play, July 5th
-is a [BARGE](https://www.barge.org/) inspired structure, "SAM_6", a four game mix of:
+is a [BARGE](https://www.barge.org/) inspired structure, "[SAM_6](https://craftpoker.com/tournament/template/wsop-2023-75x-sam-6-championship)", a four game mix of:
 * [**S**crotum](https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=59)
 * [**A**ction Razz](https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=30)
 * [**M**urder](https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=56)
@@ -167,7 +129,7 @@ is a [BARGE](https://www.barge.org/) inspired structure, "SAM_6", a four game mi
 "Sam_6" was the nickname of [David
 Lawful](https://feldmanmortuary.com/tribute/details/4734/David-Lawful/obituary.html),
 a generous member of BARGE.  He liked to play odd games, although he was a
-formidable opponent in all and a BARGE main event winner (2013).
+formidable opponent in all. He won the BARGE main event in 2013.
 
 <br/>
 <br/>
@@ -177,16 +139,4 @@ formidable opponent in all and a BARGE main event winner (2013).
 <hr/>
 
 [^12]: Real players; no sock puppets or no-shows, please
-[^1]: "WSOP 2023"-style #01 No-Limit Hold'em
-[^2]: "WSOP 2023"-style #17 Omaha Hi-Lo 8 or better
-[^3]: "WSOP 2023"-style #66 Pot-Limit Omaha Hi-Lo 8 or better
-[^4]: "WSOP 2023"-style #41 Big O (Five Card Pot-Limit Omaha Hi-Lo 8 or better)
-[^5]: "WSOP 2023"-style #43 Poker Players Championship
-[^6]: "WSOP 2023"-style #69 No-Limit 2-7 Lowball Championship
-[^7]: "WSOP 2023"-style #71 High Roller Pot-Limit Omaha
-[^8]: "WSOP 2023"-style #76 Main Event No-Limit Hold'em Championship
 [^13]: "SAM_6: Scrotum, Action razz, Murder, 6 card sohe"
-[^9]: "WSOP 2023"-style #94 No-Limit Hold'em
-[^10]: "WSOP 2023"-style #90 No-Limit Hold'em 6-Handed Championship
-[^11]: "WSOP 2023"-style #95 Super Turbo No-Limit Hold'em
-
