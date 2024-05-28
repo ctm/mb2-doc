@@ -22,3 +22,11 @@ enable = true
 output-file = "players-manual.pdf"
 to = "latex"
 pdf-engine = "lualatex" # engine to use to produce PDF output
+
+[output.pandoc.profile.pdf.variables]
+header-includes = [
+  "\\usepackage{fontspec}",
+  "\\newcommand{\\emoji}[1]{",
+  "  {\\setmainfont{Noto Color Emoji}[Renderer=Harfbuzz]{#1}}",
+  "}"
+]

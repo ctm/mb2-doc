@@ -2,10 +2,12 @@
 
 ### Your Nickname
 
-At the top of the lobby is your nickname (e.g., `☕
-deadhead`). That can be useful if you want to see how you've
+```{=tex}
+At the top of the lobby is your nickname (e.g.,
+\emoji{☕}deadhead). That can be useful if you want to see how you've
 customized your nickname (e.g., with capitalization, punctuation,
 white-space or emojis).
+```
 
 ## Players Manual
 
