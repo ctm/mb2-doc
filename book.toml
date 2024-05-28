@@ -17,3 +17,8 @@ enable = true
 
 [output.html.redirect]
 "series/wsop-style-2022.html" = "2022/wsop-style.html"
+
+[output.pandoc.profile.pdf]
+output-file = "players-manual.pdf"
+to = "latex"
+pdf-engine = "lualatex" # engine to use to produce PDF output
