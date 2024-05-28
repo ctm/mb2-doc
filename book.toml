@@ -17,3 +17,5 @@ enable = true
 
 [output.html.redirect]
 "series/wsop-style-2022.html" = "2022/wsop-style.html"
+
+[output.pdf]
