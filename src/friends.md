@@ -22,21 +22,14 @@ then click the `>` in the lower right corner.
 ### Come back for a tournament
 
 Although you can create your own tournaments and have them start
-whenever you want, typically, at least one tournament is scheduled each day
-that is attended by regulars.
+whenever you want, typically, the regulars start at least one tournament
+per day.
 
 The tournaments have [Fun Money](fun_money.md) and bragging
-rights as a prize and the winner gets the privilege of picking
-the structure for the same tournament on the next day (e.g., the
-winner of the night tournament chooses the structure for the night
-tournament the next day).
+rights as a prize.
 
-The evening tournament starts at 5:05 pm Pacific.
-
-The night tournament&mdash;when it runs&mdash;starts at 8:10 pm Pacific. 
-
-So, look for one of the regularly scheduled tournaments in the
-[lobby](lobby.md) and join us.
+The [WSOP-Style Series 2024](series/2024/wsop-style.md) tournaments
+start at 5:05 Pacific on weekdays and 3:03 PM Pacific on weekends.
 
 ### This manual is&hellip; Player Driven
 
