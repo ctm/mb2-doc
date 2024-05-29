@@ -20,8 +20,13 @@ the exception of July 5th ([see below](#july-5th)).  All of the craftpoker.com
 WSOP-Style tournaments are played in one day, with five minute breaks
 every hour. Each starts at:
 
-* Monday through Friday: 5pm Pacific time (8pm Eastern)
-* Saturday and Sunday: 3pm Pacific time (6pm Eastern)
+* Monday through Friday: 5:05 pm Pacific time (8:05 pm Eastern)
+* Saturday and Sunday: 3:05 pm Pacific time (6:05 pm Eastern)
+
+Late registration varies per tournament, but is always available for at least
+thirty-five minutes after the tournament starts. 
+
+Many tournaments allow one or more re-entries.
 
 ### All are welcome
 
