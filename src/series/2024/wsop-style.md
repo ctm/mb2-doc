@@ -18,10 +18,7 @@ This series does, however, use modified versions of the World Series
 of Poker tournament structures for each of the daily tournaments, with
 the exception of July 5th ([see below](#july-5th)).  All of the craftpoker.com
 WSOP-Style tournaments are played in one day, with five minute breaks
-every hour. Each starts at:
-
-* Monday through Friday: 5:05 pm Pacific time (8:05 pm Eastern)
-* Saturday and Sunday: 3:05 pm Pacific time (6:05 pm Eastern)
+every hour. Each starts at 5:05 pm Pacific time (8:05 pm Eastern).
 
 Late registration varies per tournament, but is always available for at least
 thirty-five minutes after the tournament starts. 
@@ -31,6 +28,12 @@ Many tournaments allow one or more re-entries.
 ### All are welcome
 
 All events in this series are open to the public.
+
+### No Early Start on Weekend
+
+Unlike 2022 and 2023, when the weekend tournaments started two hours
+earlier than the weekday tournaments, all WSOP-Style Series
+tournaments **in 2024** start at the same time (5:05 pm Pacific).
 
 ### Round Duration
 
