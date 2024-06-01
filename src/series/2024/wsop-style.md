@@ -57,7 +57,7 @@ held down when you select an entry from the Leaderboard menu.
 |May 28th|[#2 Casino Employees No-Limit Hold'em](https://wsop.com/pdfs/structuresheets/structure_5504_23142.pdf)|[jrx](https://craftpoker.com/event/5331/player/20)|
 |May 29th|[#4 Omaha Hi-Lo 8 or Better (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23144.pdf)|[Chuck](https://craftpoker.com/event/5332/player/3)|
 |May 30th|[#7 Dealers Choice (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23147.pdf)|[🐭GamboMouse](https://craftpoker.com/event/5333/player/13)|
-|May 31st|[#8 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23148.pdf)||
+|May 31st|[#8 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23148.pdf)|[Grizz](https://craftpoker.com/event/5334/player/9)|
 |Jun 1st|[#10 Omaha Hi-Lo 8 or Better Championship (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23150.pdf)||
 |Jun 2nd|[#11 Badugi](https://wsop.com/pdfs/structuresheets/structure_5504_23151.pdf)||
 |Jun 3rd|[#13 Dealers Choice Championship (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23153.pdf)||
