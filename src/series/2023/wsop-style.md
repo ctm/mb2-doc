@@ -18,7 +18,7 @@ documented in the footnotes of the table below.
 ## Prize for first place
 
 Craft Poker Co. either sent a physical prize to the winner of
-each tournament in the series or pid $50 in cash via Venmo or
+each tournament in the series or paid $50 in cash via Venmo or
 Zelle. It was the winner's choice. When taken, the prize was an
 [Engraved Rectangular Glass
 Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html).
