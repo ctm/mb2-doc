@@ -66,7 +66,7 @@ held down when you select an entry from the Leaderboard menu.
 |Jun 3rd|[#13 Dealers Choice Championship (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23153.pdf)|[smalltalkdan](https://craftpoker.com/event/5337/player/6)|
 |Jun 4th|[#15 Pot-Limit Omaha Hi-Lo 8 or Better (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23155.pdf)|[ODB Phat Mack🐺](https://craftpoker.com/event/5338/player/17)|
 |Jun 5th|[#18 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23158.pdf)|[deadhead](https://craftpoker.com/event/5339/player/10)|
-|Jun 6th|[#22 Limit 2-7 Lowball Triple Draw (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23162.pdf)||
+|Jun 6th|[#22 Limit 2-7 Lowball Triple Draw (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23162.pdf)|[COMMUNITY](https://craftpoker.com/event/5340/player/43)|
 |Jun 7th|[#24 Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23164.pdf)||
 |Jun 8th|[#25 Limit Hold'em 6-Handed](https://wsop.com/pdfs/structuresheets/structure_5504_23165.pdf)||
 |Jun 9th|[#27 Big O](https://wsop.com/pdfs/structuresheets/structure_5504_23167.pdf)||
