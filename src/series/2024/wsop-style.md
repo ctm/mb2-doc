@@ -68,8 +68,8 @@ held down when you select an entry from the Leaderboard menu.
 |Jun 5th|[#18 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23158.pdf)|[deadhead](https://craftpoker.com/event/5339/player/10)|
 |Jun 6th|[#22 Limit 2-7 Lowball Triple Draw (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23162.pdf)|[COMMUNITY](https://craftpoker.com/event/5340/player/43)|
 |Jun 7th|[#24 Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23164.pdf)|[deadhead](https://craftpoker.com/event/5341/player/10)|
-|Jun 8th|[#25 Limit Hold'em 6-Handed](https://wsop.com/pdfs/structuresheets/structure_5504_23165.pdf)||
-|Jun 9th|[#27 Big O](https://wsop.com/pdfs/structuresheets/structure_5504_23167.pdf)||
+|Jun 8th|[#25 Limit Hold'em 6-Handed](https://wsop.com/pdfs/structuresheets/structure_5504_23165.pdf)|[Grizz](https://craftpoker.com/event/5342/player/9)|
+|Jun 9th|[#27 Big O](https://wsop.com/pdfs/structuresheets/structure_5504_23167.pdf)|[jpmassar](https://craftpoker.com/event/5343/player/14)|
 |Jun 10th|[#29 Limit 2-7 Triple Draw Championship (6-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23169.pdf)||
 |Jun 11th|[#32 Seven Card Stud](https://wsop.com/pdfs/structuresheets/structure_5504_23172.pdf)||
 |Jun 12th|[#35 H.O.R.S.E.](https://wsop.com/pdfs/structuresheets/structure_5504_23175.pdf)||
