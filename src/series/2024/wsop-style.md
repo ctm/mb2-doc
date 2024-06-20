@@ -79,7 +79,7 @@ held down when you select an entry from the Leaderboard menu.
 |Jun 16th|[#43 Mixed PLO / Omaha Hi-Lo 8 or Better / Big O](https://wsop.com/pdfs/structuresheets/structure_5504_23183.pdf)|[jpmassar](https://craftpoker.com/event/5350/player/14)|
 |Jun 17th|[#45 H.O.R.S.E. Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23185.pdf)|[samarai](https://craftpoker.com/event/5351/player/32)|
 |Jun 18th|[#48 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23188.pdf)|[ODB Phat Mack🐺](https://craftpoker.com/event/5352/player/17)|
-|Jun 19th|[#50 Razz Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23190.pdf)||
+|Jun 19th|[#50 Razz Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23190.pdf)|[🐭GamboMouse](https://craftpoker.com/event/5353/player/13)|
 |Jun 20th|[#53 Nine Game Mix (7-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23193.pdf)||
 |Jun 21st|[#56 Mixed Triple Draw Lowball (Limit)](https://wsop.com/pdfs/structuresheets/structure_5504_23196.pdf)||
 |Jun 22nd|[#57 Super Turbo Bounty No-Limit Hold'em Freezeout](https://wsop.com/pdfs/structuresheets/structure_5504_23197.pdf)||
