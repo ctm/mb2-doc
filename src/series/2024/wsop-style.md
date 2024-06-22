@@ -10,7 +10,7 @@ no prizes.
 The WSOP-Style Series is a set of free tournaments
 one per day, from May 28th through July 17th. Those are the days
 the World Series of Poker are being held in Las Vegas, Nevada and the World
-Series of Poker provides the inspiration for this series.
+Series of Poker prov6ides the inspiration for this series.
 
 **This series is not even remotely affiliated with the World Series of Poker.**
 
@@ -81,7 +81,7 @@ held down when you select an entry from the Leaderboard menu.
 |Jun 18th|[#48 Pot-Limit Omaha (8-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23188.pdf)|[ODB Phat Mack🐺](https://craftpoker.com/event/5352/player/17)|
 |Jun 19th|[#50 Razz Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23190.pdf)|[🐭GamboMouse](https://craftpoker.com/event/5353/player/13)|
 |Jun 20th|[#53 Nine Game Mix (7-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23193.pdf)|[gerdog](https://craftpoker.com/event/5354/player/11)|
-|Jun 21st|[#56 Mixed Triple Draw Lowball (Limit)](https://wsop.com/pdfs/structuresheets/structure_5504_23196.pdf)||
+|Jun 21st|[#56 Mixed Triple Draw Lowball (Limit)](https://wsop.com/pdfs/structuresheets/structure_5504_23196.pdf)|[🐭GamboMouse](https://craftpoker.com/event/5355/player/13)|
 |Jun 22nd|[#57 Super Turbo Bounty No-Limit Hold'em Freezeout](https://wsop.com/pdfs/structuresheets/structure_5504_23197.pdf)||
 |Jun 23rd|[#58 Poker Players Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23198.pdf)||
 |Jun 24th|[#61 Mixed: Omaha Hi-Lo 8 / Seven Card Stud Hi-Lo 8](https://wsop.com/pdfs/structuresheets/structure_5504_23201.pdf)||
