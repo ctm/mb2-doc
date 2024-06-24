@@ -49,7 +49,7 @@ while waiting for that table to finish a hand.
 
 There is a "WSOPS 2024 Leaderboard" entry in the Leaderboard menu
 available in the lobby.  By default, only players with a net [Fun
-Money](/fun_money.md) win show up on leaderboards, but if you've played
+Money](../../fun_money.md) win show up on leaderboards, but if you've played
 and have a net loss, you can see your entry by having the shift key
 held down when you select an entry from the Leaderboard menu.
 

@@ -19,19 +19,15 @@ enable = true
 "series/wsop-style-2022.html" = "2022/wsop-style.html"
 
 [output.linkcheck]
-# We ignore all warnings because there's no way (yet?) to selectively
-# allow violations.  The absolute path warning is for when people view
-# the output from a filesystem, and it makes re-ordering of sections
-# even more tedious.  I could, however, life with that, but we also
-# have some generated license text that cause the following to happen,
-# and ignoring warnings gets rid of that chirpage, too.
+# Don't ignore warnings, because absolute paths don't work on github.io
+# for us, after all.
+#
+# That does mean, however, that we'll continue to get the following
+# warnings until I can find a way to disable them.
 #
 #     ┌─ third-party-licenses.md:337:18
 #    │
 #337 │ Copyright [yyyy] [name of copyright owner]
 #    │                  ^^^^^^^^^^^^^^^^^^^^^^^^^ Did you forget to define a URL for `name of copyright owner`?
 #
-# I'll probably turn warnings on and fix the absolute path ones after
-# I've done a little planned restructuring, but without a way to quiet
-# the license complaints I'll continue to ignore warnings.
-warning-policy = "ignore"
+# warning-policy = "ignore"

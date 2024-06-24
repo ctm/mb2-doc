@@ -31,7 +31,7 @@ re-entry and those that do often limit each player to one or two re-entries.
 Additionally, the re-entry window typically closes at the end of a level
 (e.g., "Level 9") and the re-entry automatically closes as soon as the
 number of players left meets the minimum number of places pay (i.e., each
-remaining player is guaranteed to win some [Fun Money](/fun_money.md)).
+remaining player is guaranteed to win some [Fun Money](fun_money.md)).
 
 
 ## Creating

@@ -33,9 +33,9 @@ leaderboard at the end of the series, but nothing has been finalized yet.
 Mb2 knows which tournaments belonged to this series and there is a
 "WSOPS Leaderboard" available from the lobby.
 
-The leaderboard tracked [Fun Money](/fun_money.md).  Each of the tournaments
+The leaderboard tracked [Fun Money](../../fun_money.md).  Each of the tournaments
 had an FM 200 buy-in and Fun Money is awarded using the [BARGE Unified Payout
-Schedule](/barge/payouts.md). All rebuys were for FM 200 each and all of
+Schedule](../../barge/payouts.md). All rebuys were for FM 200 each and all of
 the Fun Money from rebuys goes directly into the prize pool,
 
 The top three profitable players were:
