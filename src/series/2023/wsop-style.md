@@ -82,9 +82,9 @@ lobby. It's in the middle of the reports drop-down, which is the first
 small icon to the right of the circled-i.  The reports drop-down icon
 itself consists of three horizontal lines, each with a dot before it.
 
-The leaderboard tracks [Fun Money](../fun_money.md).  Each of the tournaments
+The leaderboard tracks [Fun Money](/fun_money.md).  Each of the tournaments
 had an FM 200 buy-in and Fun Money is awarded using the [BARGE Unified Payout
-Schedule](../barge/payouts.md). All rebuys are for FM 200 each and all of
+Schedule](/barge/payouts.md). All rebuys are for FM 200 each and all of
 the Fun Money from rebuys goes directly into the prize pool,
 
 ### Round Duration

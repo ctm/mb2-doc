@@ -101,7 +101,7 @@ is visible.
 ### _Optional_ Hands Remaining
 
 Which games are played in a tournament are determined by the
-tournament's [structure](../tournaments/structure.html).
+tournament's [structure](/tournaments/structures.md).
 
 Some
 tournament structures only have a single game in them (e.g. a No-Limit

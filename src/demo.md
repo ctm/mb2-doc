@@ -25,7 +25,7 @@ from being opened, you'll told how to proceed.
 
 If you'd rather explore something else, you can see other
 [games](./games.md) by choosing a different
-[structure](./structures.md).
+[structure](tournaments/structures.md).
 
 ### Demo Limitations
 
