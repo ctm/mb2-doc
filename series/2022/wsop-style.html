@@ -198,8 +198,8 @@ leaderboard at the end of the series, but nothing has been finalized yet.</p>
 <h2 id="leaderboard"><a class="header" href="#leaderboard">Leaderboard</a></h2>
 <p>Mb2 knows which tournaments belonged to this series and there is a
 "WSOPS Leaderboard" available from the lobby.</p>
-<p>The leaderboard tracked <a href="../fun_money.html">Fun Money</a>.  Each of the tournaments
-had an FM 200 buy-in and Fun Money is awarded using the <a href="../barge/payouts.html">BARGE Unified Payout
+<p>The leaderboard tracked <a href="/fun_money.html">Fun Money</a>.  Each of the tournaments
+had an FM 200 buy-in and Fun Money is awarded using the <a href="/barge/payouts.html">BARGE Unified Payout
 Schedule</a>. All rebuys were for FM 200 each and all of
 the Fun Money from rebuys goes directly into the prize pool,</p>
 <p>The top three profitable players were:</p>
@@ -271,22 +271,6 @@ paperweights have been engraved and are being kept for him by
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

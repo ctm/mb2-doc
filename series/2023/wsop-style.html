@@ -237,8 +237,8 @@ rebuy up to twice, but only through level 15.</p>
 lobby. It's in the middle of the reports drop-down, which is the first
 small icon to the right of the circled-i.  The reports drop-down icon
 itself consists of three horizontal lines, each with a dot before it.</p>
-<p>The leaderboard tracks <a href="../fun_money.html">Fun Money</a>.  Each of the tournaments
-had an FM 200 buy-in and Fun Money is awarded using the <a href="../barge/payouts.html">BARGE Unified Payout
+<p>The leaderboard tracks <a href="/fun_money.html">Fun Money</a>.  Each of the tournaments
+had an FM 200 buy-in and Fun Money is awarded using the <a href="/barge/payouts.html">BARGE Unified Payout
 Schedule</a>. All rebuys are for FM 200 each and all of
 the Fun Money from rebuys goes directly into the prize pool,</p>
 <h3 id="round-duration"><a class="header" href="#round-duration">Round Duration</a></h3>
@@ -403,22 +403,6 @@ WSOP-Style tournaments that immediately preceded it.</p>
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

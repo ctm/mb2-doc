@@ -250,7 +250,7 @@ immediately scrolls forward so that the bottom (most recent) message
 is visible.</p>
 <h3 id="optional-hands-remaining"><a class="header" href="#optional-hands-remaining"><em>Optional</em> Hands Remaining</a></h3>
 <p>Which games are played in a tournament are determined by the
-tournament's <a href="../tournaments/structures.html">structure</a>.</p>
+tournament's <a href="/tournaments/structures.html">structure</a>.</p>
 <p>Some
 tournament structures only have a single game in them (e.g. a No-Limit
 Hold'em tournament). Others are mixes, like <strong>HORSE</strong> (<strong>H</strong>old'em,
@@ -297,22 +297,6 @@ remain, but the number won't be shown.</p>
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
