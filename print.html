@@ -222,7 +222,7 @@ from being opened, you'll told how to proceed.</p>
 <h3 id="to-demo-something-other-than-2-player-texas-holdem"><a class="header" href="#to-demo-something-other-than-2-player-texas-holdem">To Demo Something other than 2 Player Texas Hold'em</a></h3>
 <p>If you'd rather explore something else, you can see other
 <a href="./games.html">games</a> by choosing a different
-<a href="./structures.html">structure</a>.</p>
+<a href="tournaments/structures.html">structure</a>.</p>
 <h3 id="demo-limitations"><a class="header" href="#demo-limitations">Demo Limitations</a></h3>
 <p>Demo accounts are able to chat with non-demo accounts, but are not
 allowed to join events that require a buy-in (the events that don't
@@ -612,7 +612,7 @@ immediately scrolls forward so that the bottom (most recent) message
 is visible.</p>
 <h3 id="optional-hands-remaining"><a class="header" href="#optional-hands-remaining"><em>Optional</em> Hands Remaining</a></h3>
 <p>Which games are played in a tournament are determined by the
-tournament's <a href="tables/../tournaments/structure.html">structure</a>.</p>
+tournament's <a href="tables/../tournaments/structures.html">structure</a>.</p>
 <p>Some
 tournament structures only have a single game in them (e.g. a No-Limit
 Hold'em tournament). Others are mixes, like <strong>HORSE</strong> (<strong>H</strong>old'em,
@@ -712,12 +712,21 @@ complicated ones.</p>
 Each has a checkbox to the left. If you mark the checkbox before that
 tournament starts, then when it starts, you'll be included. If you
 change your mind, just uncheck the box.</p>
+<h3 id="late-registration"><a class="header" href="#late-registration">Late Registration</a></h3>
 <p>After a tournament has started, if the tournament supports late registration,
 you can click the check-box and join that tournament in progress.  If
 there is a seat open, you'll be seated immediately.  If not, a new table
 may need to be created and that will only be done when there are enough
 movable players (players not in a hand) on the existing tables to move
 enough to create a new table, but keep things balanced.</p>
+<h3 id="re-entry"><a class="header" href="#re-entry">Re-entry</a></h3>
+<p>Some tournaments allow re-entry. To re-enter a tournament, you click the
+same check-box you used to enter. However, not all tournaments allow any
+re-entry and those that do often limit each player to one or two re-entries.
+Additionally, the re-entry window typically closes at the end of a level
+(e.g., "Level 9") and the re-entry automatically closes as soon as the
+number of players left meets the minimum number of places pay (i.e., each
+remaining player is guaranteed to win some <a href="/fun_money.html">Fun Money</a>).</p>
 <h2 id="creating"><a class="header" href="#creating">Creating</a></h2>
 <p>The <a href="./lobby/new_event.html">Tournament Creation</a> page is in the Lobby
 sub-section of this manual, because you create a new tournament by
@@ -1278,7 +1287,7 @@ third the duration of what was played at EMBARGO:</p>
 <p>The WYWAE breaks began after each table had finished a hand at or
 after 55 minutes after the hour. The break was then five minutes
 long.</p>
-<h3 id="late-registration"><a class="header" href="#late-registration">Late Registration</a></h3>
+<h3 id="late-registration-1"><a class="header" href="#late-registration-1">Late Registration</a></h3>
 <p>In the WYWAE tournaments, late registration was allowed through level 9.</p>
 <h3 id="re-entries"><a class="header" href="#re-entries">Re-entries</a></h3>
 <p>During WYWAE tournaments, players were able to re-enter up to two times,
@@ -5051,6 +5060,22 @@ OTHER DEALINGS IN THE SOFTWARE.
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

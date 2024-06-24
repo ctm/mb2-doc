@@ -192,7 +192,7 @@ from being opened, you'll told how to proceed.</p>
 <h3 id="to-demo-something-other-than-2-player-texas-holdem"><a class="header" href="#to-demo-something-other-than-2-player-texas-holdem">To Demo Something other than 2 Player Texas Hold'em</a></h3>
 <p>If you'd rather explore something else, you can see other
 <a href="./games.html">games</a> by choosing a different
-<a href="./structures.html">structure</a>.</p>
+<a href="tournaments/structures.html">structure</a>.</p>
 <h3 id="demo-limitations"><a class="header" href="#demo-limitations">Demo Limitations</a></h3>
 <p>Demo accounts are able to chat with non-demo accounts, but are not
 allowed to join events that require a buy-in (the events that don't
@@ -229,6 +229,22 @@ require buy-ins are demo events and testing events).</p>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

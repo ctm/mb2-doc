@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Creating Tournaments - Mb2</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="A poker server and client, both written in Rust">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../friends.html">Poker, with your friends</a></li><li class="chapter-item "><a href="../demo.html">Demo</a></li><li class="chapter-item "><a href="../accounts.html">Accounts</a></li><li class="chapter-item "><a href="../privacy.html">Privacy</a></li><li class="chapter-item "><a href="../security.html">Security</a></li><li class="chapter-item "><a href="../new_to_poker.html">New to Poker?</a></li><li class="chapter-item expanded "><a href="../lobby.html">Lobby</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../lobby/top_line.html">Top Line</a></li><li class="chapter-item expanded "><a href="../lobby/new_event.html" class="active">Creating Tournaments</a></li><li class="chapter-item "><a href="../lobby/preferences.html">Preferences</a></li></ol></li><li class="chapter-item "><a href="../tables.html">Tables</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../tables/top_line.html">Top Line</a></li><li class="chapter-item "><a href="../tables/advanced.html">Advanced Checkboxes</a></li><li class="chapter-item "><a href="../tables/immediate.html">Immediate Buttons</a></li><li class="chapter-item "><a href="../tables/shareable-urls.html">Shareable URLs</a></li><li class="chapter-item "><a href="../tables/review-button.html">Review Button</a></li></ol></li><li class="chapter-item "><a href="../fun_money.html">Fun Money</a></li><li class="chapter-item "><a href="../tournaments.html">Tournaments</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../tournaments/structures.html">Structures</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../tournaments/structures/templates.html">Templates</a></li></ol></li><li class="chapter-item "><a href="../tournaments/payouts.html">Payouts</a></li></ol></li><li class="chapter-item "><a href="../series.html">Series</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../series/historical.html">Historical</a></li><li class="chapter-item "><a href="../series/2022.html">2022</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../series/2022/wsop-style.html">WSOP-Style</a></li><li class="chapter-item "><a href="../series/2022/wywab.html">WYWAB</a></li></ol></li><li class="chapter-item "><a href="../series/2023.html">2023</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../series/2023/wywae.html">WYWAE</a></li><li class="chapter-item "><a href="../series/2023/wsop-style.html">WSOP-Style</a></li><li class="chapter-item "><a href="../series/2023/wywab.html">WYWAB</a></li></ol></li><li class="chapter-item "><a href="../series/2024.html">2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../series/2024/wywae.html">WYWAE</a></li><li class="chapter-item "><a href="../series/2024/wsop-style.html">WSOP-Style</a></li><li class="chapter-item "><a href="../series/2024/wywab.html">WYWAB</a></li></ol></li></ol></li><li class="chapter-item "><a href="../ring_games.html">Ring Games</a></li><li class="chapter-item "><a href="../vacation.html">Vacation</a></li><li class="chapter-item "><a href="../chat.html">Chat</a></li><li class="chapter-item "><a href="../games.html">Games</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../games/bidirectional-chowaha.html">Bidirectional Chowaha</a></li><li class="chapter-item "><a href="../games/dealers-choice.html">Dealer's Choice</a></li><li class="chapter-item "><a href="../games/dramadugi.html">Dramadugi</a></li><li class="chapter-item "><a href="../games/five-card-omaha.html">Five Card Omaha</a></li><li class="chapter-item "><a href="../games/mexican-poker.html">Mexican Poker</a></li><li class="chapter-item "><a href="../games/omaha-x-or-better.html">Omaha X Or Better</a></li><li class="chapter-item "><a href="../games/quick-quads.html">Quick Quads</a></li><li class="chapter-item "><a href="../games/redrum.html">Redrum</a></li><li class="chapter-item "><a href="../games/regular-pineapple.html">Regular Pineapple</a></li><li class="chapter-item "><a href="../games/rio-bravo.html">Rio Bravo</a></li><li class="chapter-item "><a href="../games/sack.html">Sack</a></li><li class="chapter-item "><a href="../games/wonky-donkey.html">Wonky Donkey</a></li></ol></li><li class="chapter-item "><a href="../esoterica.html">Esoterica</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../esoterica/lammers.html">Lammers</a></li><li class="chapter-item "><a href="../esoterica/github.html">GitHub</a></li><li class="chapter-item "><a href="../esoterica/balancing.html">Table Balancing</a></li><li class="chapter-item "><a href="../esoterica/sevens-rule.html">Sevens Rule</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../esoterica/sevens-rule/penalty.html">Penalty</a></li><li class="chapter-item "><a href="../esoterica/sevens-rule/examples.html">Examples</a></li></ol></li></ol></li><li class="chapter-item "><li class="spacer"></li><li class="chapter-item "><a href="../barge/index.html">BARGE</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../barge/rule_book.html">BARGE Rule Book</a></li><li class="chapter-item "><a href="../barge/structures.html">*ARGE Structures</a></li><li class="chapter-item "><a href="../barge/payouts.html">BARGE Unified Tournament Payouts</a></li></ol></li><li class="chapter-item "><li class="spacer"></li><li class="chapter-item "><a href="../thanks.html">Thanks!</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../thanks/ancient.html">Ancient Programming…</a></li><li class="chapter-item "><a href="../thanks/pre-internet.html">Gambling Songs…</a></li><li class="chapter-item "><a href="../thanks/internet-programming.html">Programming Poker on the internet</a></li><li class="chapter-item "><a href="../thanks/internet-playing.html">Playing Poker on the internet</a></li><li class="chapter-item "><a href="../thanks/barge.html">Playing Poker in Las Vegas</a></li><li class="chapter-item "><a href="../thanks/multibot.html">Multibot</a></li><li class="chapter-item "><a href="../thanks/post-multibot.html">Post-multibot</a></li><li class="chapter-item "><a href="../thanks/mb2.html">Mb2</a></li></ol></li><li class="chapter-item "><li class="spacer"></li><li class="chapter-item "><a href="../craft-poker-co.html">Craft Poker Co.</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../craft-poker-co/craftpoker.html">craftpoker.com</a></li></ol></li><li class="chapter-item "><li class="spacer"></li><li class="chapter-item "><a href="../third-party-licenses.html">Third Party Licenses</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Mb2</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="creating-tournaments"><a class="header" href="#creating-tournaments">Creating Tournaments</a></h1>
+<p>In the <a href="../lobby.html">lobby</a>, if you click on the white plus small icon, you get
+a dialog that looks something like:</p>
+<p><img src="./create-tournament.png" alt="Create Tournament" title="Create Tournament" /></p>
+<h3 id="type"><a class="header" href="#type">Type</a></h3>
+<p>For now, just leave the Type as <code>Tournament</code>.</p>
+<h3 id="structure"><a class="header" href="#structure">Structure</a></h3>
+<p>The Structure attribute is a pull-down menu from one of more than a
+hundred pre-existing tournament structures.  Currently you can not
+create your own structure.</p>
+<h3 id="buy-in"><a class="header" href="#buy-in">Buy-in</a></h3>
+<p>Tournaments that are created for testing or demo purposes should be
+Free, since free tournaments don't affect anyone's standings.
+Tournaments where people are expected to play well should
+have a 100 buy-in if for no other reason than to make it clear that
+the participants will be taking the tournament seriously.</p>
+<h3 id="bounty"><a class="header" href="#bounty">Bounty</a></h3>
+<p>If the <code>25</code> radio button is selected, then sufficient Fun Money is
+deducted from the prize pool so that an award of FM 25 can be made to
+the player who busts another player.  If N people are in a tournament,
+then N-1 bounties will be paid out by the time the tournament ends.</p>
+<h3 id="comment"><a class="header" href="#comment">Comment</a></h3>
+<p>Adding a comment is optional.  If you add a comment, it will show up
+when people hover over the tournament structure in the listing of
+upcoming tournaments.</p>
+<h3 id="autostart"><a class="header" href="#autostart">Autostart</a></h3>
+<p>If you put a number in the <code>Autostart</code> field, then the tournament will
+start automatically once that number of participants join. In general,
+you should not create an autostart tournament unless you think there
+are enough people in the lobby to sign up within five or ten minutes,
+otherwise you may find that nobody will sign up because it will be too
+hard to predict when it will start.</p>
+<p>If you put a number in <code>Autostart</code>, the <code>Start At</code> field will be removed.
+You can only either start by <code>Autostart</code> or <code>Start At</code>, not both.</p>
+<h3 id="start-at"><a class="header" href="#start-at">Start At</a></h3>
+<p>Start At is in the same timezone as upcoming tournaments are displayed in.
+That's whatever your browser thinks your timezone is.  The first time
+you bring up the "Add a Tournament" dialog, "Start At" is pre-populated
+with a value that is ten minutes into the future.  However, after that,
+the dialog simply remembers whatever value was in that field previously.</p>
+<p>If the lobby observes that you've won a tournament, then the next time
+you create a tournament, Start At will be pre-populated with the same
+starting time as the tournament you won, but be on the following
+day. This helps people who win the evening or night tournaments,
+because the convention is to let the winner choose the tournament for
+the following day.</p>
+<h3 id="round-duration"><a class="header" href="#round-duration">Round Duration</a></h3>
+<p>Round Duration (Minutes) is in essence a scaling factor.  In most
+tournaments, all rounds are the same length.  When create a new tournament
+and specify the round duration, what you're <em>really</em> doing is saying how
+long you want the first round to be.  If any rounds have a different duration
+from the duration of the first round, they'll be scaled.</p>
+<p>So, if there's a structure where the odd numbered rounds are 20 minutes
+and the even numbered rounds are 30 minutes, if you specify Round
+Duration as 5 minutes, then you'll have a tournament where the odd
+numbered rounds are 5 minutes and the even ones are 7.5 minutes.</p>
+<p>The TOC (Tournament of Champions) style format has a 15 minute Hold'em
+first round, an 18 minute Stud second round and a 22 minute Omaha/8
+third round.  So, if "Round Duration (Minutes)" is set to 5, then the
+second round will be 6 minutes and the third round will be seven
+minutes, twenty seconds long.</p>
+<p>For a dozen or so players, five minute rounds for most structures results
+in a tournament that finishes in about an hour and a half.</p>
+<h3 id="seconds-to-act"><a class="header" href="#seconds-to-act">Seconds to Act</a></h3>
+<p>Seconds to Act is how much time a player gets to act before being sent
+to vacation.  No, 999 is not a reasonable number of "Seconds to Act".
+Typically we use 45 there and that's the default when this dialog comes
+up.</p>
+<p>A player may call time to get more time to act.  There currently is no
+limit on how many times a player can call time.  Calling time resets
+the number of seconds to act (it does <em>not</em> add to the number of
+seconds to act).  So, if "Seconds to Act after calling Time" is set to
+60, calling time will mean that the player must act within 60 seconds
+regardless of how much time to act the player had remaining.</p>
+<h3 id="synchronized-breaks"><a class="header" href="#synchronized-breaks">Synchronized Breaks</a></h3>
+<p>Schedules have breaks built into them, and like Round Duration, they
+scale based on the same ration of the "Round Duration (Minutes)"
+setting to the duration of the first level in the structure.  That can
+result in breaks that would be too short were it not for the "Minimum
+Break Duration in Minutes" setting.  However, the duration of a break
+is like the duration of a round in that it can start in the middle of
+a hand. The players who are still in the hand still need to finish the
+hand.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../lobby/top_line.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../lobby/preferences.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../lobby/top_line.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../lobby/preferences.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
