@@ -19,15 +19,8 @@ enable = true
 "series/wsop-style-2022.html" = "2022/wsop-style.html"
 
 [output.linkcheck]
-# Don't ignore warnings, because absolute paths don't work on github.io
-# for us, after all.
-#
-# That does mean, however, that we'll continue to get the following
-# warnings until I can find a way to disable them.
-#
-#     ┌─ third-party-licenses.md:337:18
-#    │
-#337 │ Copyright [yyyy] [name of copyright owner]
-#    │                  ^^^^^^^^^^^^^^^^^^^^^^^^^ Did you forget to define a URL for `name of copyright owner`?
-#
-# warning-policy = "ignore"
+# Absolute paths don't work on github.io for us, so if we accidentally
+# introduce one, we want to fail.  This means that we can't have any
+# other warnings, either, which results in some jolly sed in
+# our rebuild_third_party_licenses script.
+warning-policy = "error"
