@@ -85,7 +85,7 @@ held down when you select an entry from the Leaderboard menu.
 |Jun 22nd|[#57 Super Turbo Bounty No-Limit Hold'em Freezeout](https://wsop.com/pdfs/structuresheets/structure_5504_23197.pdf)|[deadhead](https://craftpoker.com/event/5356/player/10)|
 |Jun 23rd|[#58 Poker Players Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23198.pdf)|[smalltalkdan](https://craftpoker.com/event/5357/player/6)|
 |Jun 24th|[#61 Mixed: Omaha Hi-Lo 8 / Seven Card Stud Hi-Lo 8](https://wsop.com/pdfs/structuresheets/structure_5504_23201.pdf)|[🐭GamboMouse](https://craftpoker.com/event/5358/player/13)|
-|Jun 25th|[#63 No-Limit 2-7 Lowball Draw (7-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23203.pdf)||
+|Jun 25th|[#63 No-Limit 2-7 Lowball Draw (7-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23203.pdf)|[🐭GamboMouse](https://craftpoker.com/event/5359/player/13)|
 |Jun 26th|[#66 Pot-Limit Omaha Championship](https://wsop.com/pdfs/structuresheets/structure_5504_23206.pdf)||
 |Jun 27th|[#69 Seven Card Stud Hi-Lo 8 or Better](https://wsop.com/pdfs/structuresheets/structure_5504_23209.pdf)||
 |Jun 28th|[#72 No-Limit 2-7 Lowball Draw Championship (7-Handed)](https://wsop.com/pdfs/structuresheets/structure_5504_23212.pdf)||
