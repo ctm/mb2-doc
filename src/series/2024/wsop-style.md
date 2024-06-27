@@ -90,7 +90,7 @@ Mb2 structure sheet.
 |Jun 23rd|[#58](https://wsop.com/pdfs/structuresheets/structure_5504_23198.pdf)|[Poker Players Championship](https://craftpoker.com/tournament/structure/5357)|[smalltalkdan](https://craftpoker.com/event/5357/player/6)
 |Jun 24th|[#61](https://wsop.com/pdfs/structuresheets/structure_5504_23201.pdf)|[Mixed: Omaha Hi-Lo 8 / Seven Card Stud Hi-Lo 8](https://craftpoker.com/tournament/structure/5358)|[🐭GamboMouse](https://craftpoker.com/event/5358/player/13)
 |Jun 25th|[#63](https://wsop.com/pdfs/structuresheets/structure_5504_23203.pdf)|[No-Limit 2-7 Lowball Draw (7-Handed)](https://craftpoker.com/tournament/structure/5359)|[🐭GamboMouse](https://craftpoker.com/event/5359/player/13)
-|Jun 26th|[#66](https://wsop.com/pdfs/structuresheets/structure_5504_23206.pdf)|[Pot-Limit Omaha Championship](https://craftpoker.com/tournament/structure/5360)|
+|Jun 26th|[#66](https://wsop.com/pdfs/structuresheets/structure_5504_23206.pdf)|[Pot-Limit Omaha Championship](https://craftpoker.com/tournament/structure/5360)|[Chuck](https://craftpoker.com/event/5360/player/3)
 |Jun 27th|[#69](https://wsop.com/pdfs/structuresheets/structure_5504_23209.pdf)|[Seven Card Stud Hi-Lo 8 or Better](https://craftpoker.com/tournament/structure/5361)|
 |Jun 28th|[#72](https://wsop.com/pdfs/structuresheets/structure_5504_23212.pdf)|[No-Limit 2-7 Lowball Draw Championship (7-Handed)](https://craftpoker.com/tournament/structure/5362)|
 |Jun 29th|[#73](https://wsop.com/pdfs/structuresheets/structure_5504_23213.pdf)|[High Roller Pot-Limit Omaha](https://craftpoker.com/tournament/structure/5363)|
