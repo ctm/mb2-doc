@@ -2746,7 +2746,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.203</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.203</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.119</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.120</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.68</a></li>
