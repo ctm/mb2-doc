@@ -114,8 +114,8 @@ Mb2 structure sheet.
 |Jun 27th|[#69](https://wsop.com/pdfs/structuresheets/structure_5504_23209.pdf)|[Seven Card Stud Hi-Lo 8 or Better](https://craftpoker.com/tournament/structure/5361)|[ODB Phat Mack🐺](https://craftpoker.com/event/5361/player/17)
 |Jun 28th|[#72](https://wsop.com/pdfs/structuresheets/structure_5504_23212.pdf)|[No-Limit 2-7 Lowball Draw Championship (7-Handed)](https://craftpoker.com/tournament/structure/5362)|[tegwin](https://craftpoker.com/event/5362/player/19)
 |Jun 29th|[#73](https://wsop.com/pdfs/structuresheets/structure_5504_23213.pdf)|[High Roller Pot-Limit Omaha](https://craftpoker.com/tournament/structure/5363)|[jrx](https://craftpoker.com/event/5363/player/20)
-|Jun 30th|[#74](https://wsop.com/pdfs/structuresheets/structure_5504_23250.pdf)|[Seven Card Stud Hi-Lo 8 or Better Championship](https://craftpoker.com/tournament/structure/5364)|[deadhead](https://craftpoker.com/event/5364/player/11)
-|Jul 1st|[#77](https://wsop.com/pdfs/structuresheets/structure_5504_23253.pdf)|[Mixed Big Bet (6-Handed)](https://craftpoker.com/tournament/structure/5365)|
+|Jun 30th|[#74](https://wsop.com/pdfs/structuresheets/structure_5504_23250.pdf)|[Seven Card Stud Hi-Lo 8 or Better Championship](https://craftpoker.com/tournament/structure/5364)|[gerdog](https://craftpoker.com/event/5364/player/11)
+|Jul 1st|[#77](https://wsop.com/pdfs/structuresheets/structure_5504_23253.pdf)|[Mixed Big Bet (6-Handed)](https://craftpoker.com/tournament/structure/5365)|[deadhead](https://craftpoker.com/event/5365/player/10)
 |Jul 2nd|[#79](https://wsop.com/pdfs/structuresheets/structure_5504_23255.pdf)|[HIGH ROLLER Pot-Limit Omaha](https://craftpoker.com/tournament/structure/5366)|
 |Jul 3rd|[#81](https://wsop.com/pdfs/structuresheets/structure_5504_23257.pdf)|[MAIN EVENT No-Limit Hold'em World Championship](https://craftpoker.com/tournament/structure/5367)|
 |Jul 4th|[#80](https://wsop.com/pdfs/structuresheets/structure_5504_23256.pdf)|[Independence Day Celebration - No-Limit Hold'em](https://craftpoker.com/tournament/structure/5368)|
