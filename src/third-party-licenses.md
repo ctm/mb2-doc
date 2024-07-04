@@ -508,15 +508,15 @@ express Statement of Purpose.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/microsoft/windows-rs ">windows-core 0.52.0</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.5</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.5</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.5</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnu 0.52.5</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.5</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.5</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.5</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.5</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.5</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
           </ul>
           <pre class="license-text">    MIT License
 
