@@ -117,7 +117,7 @@ Mb2 structure sheet.
 |Jun 30th|[#74](https://wsop.com/pdfs/structuresheets/structure_5504_23250.pdf)|[Seven Card Stud Hi-Lo 8 or Better Championship](https://craftpoker.com/tournament/structure/5364)|[gerdog](https://craftpoker.com/event/5364/player/11)
 |Jul 1st|[#77](https://wsop.com/pdfs/structuresheets/structure_5504_23253.pdf)|[Mixed Big Bet (6-Handed)](https://craftpoker.com/tournament/structure/5365)|[deadhead](https://craftpoker.com/event/5365/player/10)
 |Jul 2nd|[#79](https://wsop.com/pdfs/structuresheets/structure_5504_23255.pdf)|[HIGH ROLLER Pot-Limit Omaha](https://craftpoker.com/tournament/structure/5366)|[ts4z](https://craftpoker.com/event/5366/player/37)
-|Jul 3rd|[#81](https://wsop.com/pdfs/structuresheets/structure_5504_23257.pdf)|[MAIN EVENT No-Limit Hold'em World Championship](https://craftpoker.com/tournament/structure/5367)|
+|Jul 3rd|[#81](https://wsop.com/pdfs/structuresheets/structure_5504_23257.pdf)|[MAIN EVENT No-Limit Hold'em World Championship](https://craftpoker.com/tournament/structure/5367)|[gerdog](https://craftpoker.com/event/5367/player/11)
 |Jul 4th|[#80](https://wsop.com/pdfs/structuresheets/structure_5504_23256.pdf)|[Independence Day Celebration - No-Limit Hold'em](https://craftpoker.com/tournament/structure/5368)|
 |Jul 5th||[SAM_6](https://craftpoker.com/tournament/structure/5369)|
 |Jul 6th|[#82](https://wsop.com/pdfs/structuresheets/structure_5504_23258.pdf)|[No-Limit Hold'em](https://craftpoker.com/tournament/structure/5370)|
