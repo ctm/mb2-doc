@@ -2836,7 +2836,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.6.1</a></li>
+            <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.7.0</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
