@@ -2,28 +2,12 @@
 
 ## No Prizes, No Cash, Just Fun
 
-With the exception of the May 28th and **July 5th** events, there will be
+With the exception of the May 28th and July 5th events, there were
 no prizes.  The May 28th tournament had six players, so two places paid:
 jrx won $100 for finishing first and smalltalkdan won $45 for coming in
-second.
-
-The winner of the **July 5th** [SAM_6
-tournament](https://craftpoker.com/tournament/structure/5369) will
-receive $100. Depending on how many players players enter, up to five places
-will pay:
-
-|Place| 2-4| 5-8|9-15|16-24|25 or more|
-|----:|---:|---:|---:|----:|---------:|
-|  1st|$100|$100|$100| $100|      $100|
-|  2nd|    | $45| $60|  $60|       $65|
-|  3rd|    |    | $40|  $45|       $50|
-|  4th|    |    |    |  $35|       $35|
-|  5th|    |    |    |     |       $30|
-
-Just so nobody gets confused, the above table only applied to May 28th
-and will apply to July 25th.  With good luck and a tailwind, there
-will be many more freerolls to come, but they won't be part of the
-WSOP-Style 2024 series.
+second.  The July 5th event had sixteen players[^1], so four places paid:
+smalltalkdan won $100, tegwin won $65 in second place, jpmassar $45 in
+third and JADC🚴 received $35 for fourth.
 
 ## Overview
 
@@ -147,3 +131,7 @@ Lawful](https://feldmanmortuary.com/tribute/details/4734/David-Lawful/obituary.h
 a generous member of BARGE.  He liked to play odd games, although he was a
 formidable opponent in all and a BARGE main event winner (2013).
 
+[^1]: One player entered twice, using separate nicknames.  His second entry
+took second place, but by mutual agreement we decided to not include his
+second entry in the prize money.  I will make that explicit in future
+series.
