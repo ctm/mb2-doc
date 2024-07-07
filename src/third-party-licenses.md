@@ -2744,12 +2744,12 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.36</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.203</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.203</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.204</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.204</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.120</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.68</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.61</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.61</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.12</a></li>
