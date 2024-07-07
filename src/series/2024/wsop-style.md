@@ -104,7 +104,7 @@ Mb2 structure sheet.
 |Jul 3rd|[#81](https://wsop.com/pdfs/structuresheets/structure_5504_23257.pdf)|[MAIN EVENT No-Limit Hold'em World Championship](https://craftpoker.com/tournament/structure/5367)|[gerdog](https://craftpoker.com/event/5367/player/11)
 |Jul 4th|[#80](https://wsop.com/pdfs/structuresheets/structure_5504_23256.pdf)|[Independence Day Celebration - No-Limit Hold'em](https://craftpoker.com/tournament/structure/5368)|[gerdog](https://craftpoker.com/event/5368/player/11)
 |Jul 5th||[SAM_6](https://craftpoker.com/tournament/structure/5369)|[smalltalkdan](https://craftpoker.com/event/5405/player/6)
-|Jul 6th|[#82](https://wsop.com/pdfs/structuresheets/structure_5504_23258.pdf)|[No-Limit Hold'em](https://craftpoker.com/tournament/structure/5370)|
+|Jul 6th|[#82](https://wsop.com/pdfs/structuresheets/structure_5504_23258.pdf)|[No-Limit Hold'em](https://craftpoker.com/tournament/structure/5370)|[Bridgeman](https://craftpoker.com/event/5370/player/29)
 |Jul 7th|[#83](https://wsop.com/pdfs/structuresheets/structure_5504_23259.pdf)|[Eight Game Mix (6-Handed)](https://craftpoker.com/tournament/structure/5371)|
 |Jul 8th|[#84](https://wsop.com/pdfs/structuresheets/structure_5504_23260.pdf)|[Ultra Stack No-Limit Hold'em](https://craftpoker.com/tournament/structure/5372)|
 |Jul 9th|[#87](https://wsop.com/pdfs/structuresheets/structure_5504_23263.pdf)|[No-Limit Hold'em (8-Handed)](https://craftpoker.com/tournament/structure/5373)|
