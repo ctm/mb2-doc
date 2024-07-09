@@ -106,7 +106,7 @@ Mb2 structure sheet.
 |Jul 5th||[SAM_6](https://craftpoker.com/tournament/structure/5369)|[smalltalkdan](https://craftpoker.com/event/5405/player/6)
 |Jul 6th|[#82](https://wsop.com/pdfs/structuresheets/structure_5504_23258.pdf)|[No-Limit Hold'em](https://craftpoker.com/tournament/structure/5370)|[Bridgeman](https://craftpoker.com/event/5370/player/29)
 |Jul 7th|[#83](https://wsop.com/pdfs/structuresheets/structure_5504_23259.pdf)|[Eight Game Mix (6-Handed)](https://craftpoker.com/tournament/structure/5371)|[deadhead](https://craftpoker.com/event/5371/player/10)
-|Jul 8th|[#84](https://wsop.com/pdfs/structuresheets/structure_5504_23260.pdf)|[Ultra Stack No-Limit Hold'em](https://craftpoker.com/tournament/structure/5372)|
+|Jul 8th|[#84](https://wsop.com/pdfs/structuresheets/structure_5504_23260.pdf)|[Ultra Stack No-Limit Hold'em](https://craftpoker.com/tournament/structure/5372)|[ts4z](https://craftpoker.com/event/5372/player/37)
 |Jul 9th|[#87](https://wsop.com/pdfs/structuresheets/structure_5504_23263.pdf)|[No-Limit Hold'em (8-Handed)](https://craftpoker.com/tournament/structure/5373)|
 |Jul 10th|[#88](https://wsop.com/pdfs/structuresheets/structure_5504_23264.pdf)|[Eight Game Mix (6-Handed)](https://craftpoker.com/tournament/structure/5374)|
 |Jul 11th|[#91](https://wsop.com/pdfs/structuresheets/structure_5504_23267.pdf)|[H.O.R.S.E. (8-Handed)](https://craftpoker.com/tournament/structure/5375)|
