@@ -107,7 +107,7 @@ Mb2 structure sheet.
 |Jul 6th|[#82](https://wsop.com/pdfs/structuresheets/structure_5504_23258.pdf)|[No-Limit Hold'em](https://craftpoker.com/tournament/structure/5370)|[Bridgeman](https://craftpoker.com/event/5370/player/29)
 |Jul 7th|[#83](https://wsop.com/pdfs/structuresheets/structure_5504_23259.pdf)|[Eight Game Mix (6-Handed)](https://craftpoker.com/tournament/structure/5371)|[deadhead](https://craftpoker.com/event/5371/player/10)
 |Jul 8th|[#84](https://wsop.com/pdfs/structuresheets/structure_5504_23260.pdf)|[Ultra Stack No-Limit Hold'em](https://craftpoker.com/tournament/structure/5372)|[ts4z](https://craftpoker.com/event/5372/player/37)
-|Jul 9th|[#87](https://wsop.com/pdfs/structuresheets/structure_5504_23263.pdf)|[No-Limit Hold'em (8-Handed)](https://craftpoker.com/tournament/structure/5373)|
+|Jul 9th|[#87](https://wsop.com/pdfs/structuresheets/structure_5504_23263.pdf)|[No-Limit Hold'em (8-Handed)](https://craftpoker.com/tournament/structure/5373)[^2]|[Grizz](https://craftpoker.com/event/5373/player/9)
 |Jul 10th|[#88](https://wsop.com/pdfs/structuresheets/structure_5504_23264.pdf)|[Eight Game Mix (6-Handed)](https://craftpoker.com/tournament/structure/5374)|
 |Jul 11th|[#91](https://wsop.com/pdfs/structuresheets/structure_5504_23267.pdf)|[H.O.R.S.E. (8-Handed)](https://craftpoker.com/tournament/structure/5375)|
 |Jul 12th|[#92](https://wsop.com/pdfs/structuresheets/structure_5504_23268.pdf)|[HIGH ROLLER No-Limit Hold'em](https://craftpoker.com/tournament/structure/5376)|
@@ -135,3 +135,10 @@ formidable opponent in all and a BARGE main event winner (2013).
 took second place, but by mutual agreement we decided to not include his
 second entry in the prize money.  I will make that explicit in future
 series.
+
+[^2]: I botched and we played nine-handed, rather than eight-handed.
+When I was setting up the the WSOP-Style series this year, I thought I
+could re-use the structure from last year's #94, because I thought
+they were the same event. They were the same in all respects, _except_
+this year's event was 8-handed IRL (but 9-handed due to my mistake).
+Oh well.
