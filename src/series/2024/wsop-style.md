@@ -110,7 +110,7 @@ Mb2 structure sheet.
 |Jul 9th|[#87](https://wsop.com/pdfs/structuresheets/structure_5504_23263.pdf)|[No-Limit Hold'em (8-Handed)](https://craftpoker.com/tournament/structure/5373)[^2]|[Grizz](https://craftpoker.com/event/5373/player/9)
 |Jul 10th|[#88](https://wsop.com/pdfs/structuresheets/structure_5504_23264.pdf)|[Eight Game Mix (6-Handed)](https://craftpoker.com/tournament/structure/5374)|[deadhead](https://craftpoker.com/event/5374/player/10)
 |Jul 11th|[#91](https://wsop.com/pdfs/structuresheets/structure_5504_23267.pdf)|[H.O.R.S.E. (8-Handed)](https://craftpoker.com/tournament/structure/5375)|[Bridgeman](https://craftpoker.com/event/5375/player/29)
-|Jul 12th|[#92](https://wsop.com/pdfs/structuresheets/structure_5504_23268.pdf)|[HIGH ROLLER No-Limit Hold'em](https://craftpoker.com/tournament/structure/5376)|
+|Jul 12th|[#92](https://wsop.com/pdfs/structuresheets/structure_5504_23268.pdf)|[HIGH ROLLER No-Limit Hold'em](https://craftpoker.com/tournament/structure/5376)|[deadhead](https://craftpoker.com/event/5376/player/10)
 |Jul 13th|[#94](https://wsop.com/pdfs/structuresheets/structure_5504_23270.pdf)|[No-Limit Hold'em Championship (6-Handed)](https://craftpoker.com/tournament/structure/5377)|
 |Jul 14th|[#96](https://wsop.com/pdfs/structuresheets/structure_5504_23272.pdf)|[High Roller H.O.R.S.E.](https://craftpoker.com/tournament/structure/5378)|
 |Jul 15th|[#97](https://wsop.com/pdfs/structuresheets/structure_5504_23273.pdf)|[Pot-Limit Omaha (6-Handed)](https://craftpoker.com/tournament/structure/5379)|
