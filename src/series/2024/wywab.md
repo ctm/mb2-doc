@@ -157,9 +157,6 @@ is FM 60 so that the rebuys will also be FM 60.  Additionally,
 all the rebuy FM goes into the prize pool (mb2 does not yet implement
 vig or charity diversions).
 
-* Mb2 always allows a double-bet on fourth street in Seven Card Stud
-when a pair is showing. BARGE tournaments do no allow this.
-
 * Mb2 does not yet know how to change the number of seats for the final
 table, so all final tables will have the number of seats as the tournament
 starts with.  So, "NLHE & PLO Double Board Bomb Pot (w/ rebuys)" will have
