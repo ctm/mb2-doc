@@ -150,11 +150,6 @@ ante plus the amount of chips you got when you multiplied that
 fraction of the big blind by the number of players who had also put in
 that much or more.
 
-* Final tables of mixed game tournaments do not restart the mix at the
-beginning. So, for example, although the HOT tournament
-starts with Hold'em, the final table will continue dealing whatever it is
-dealing before the other table is merged into it.
-
 * Currently, rebuy and add-on support in mb2 is pretty weak.
 Specifically, add-ons cost the same amount as the entry, so for the
 "NLHE & PLO Double Board Bomb Pot (w/ rebuys)" tournament, the buy-in
