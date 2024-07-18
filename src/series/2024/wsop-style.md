@@ -113,7 +113,7 @@ Mb2 structure sheet.
 |Jul 12th|[#92](https://wsop.com/pdfs/structuresheets/structure_5504_23268.pdf)|[HIGH ROLLER No-Limit Hold'em](https://craftpoker.com/tournament/structure/5376)|[deadhead](https://craftpoker.com/event/5376/player/10)|
 |Jul 13th|[#94](https://wsop.com/pdfs/structuresheets/structure_5504_23270.pdf)|[No-Limit Hold'em Championship (6-Handed)](https://craftpoker.com/tournament/structure/5377)|[ODB Phat Mack🐺](https://craftpoker.com/event/5377/player/17)|
 |Jul 14th|[#96](https://wsop.com/pdfs/structuresheets/structure_5504_23272.pdf)|[High Roller H.O.R.S.E.](https://craftpoker.com/tournament/structure/5378)|[samarai](https://craftpoker.com/event/5378/player/32)|
-|Jul 15th|[#97](https://wsop.com/pdfs/structuresheets/structure_5504_23273.pdf)|[Pot-Limit Omaha (6-Handed)](https://craftpoker.com/tournament/structure/5379)||
+|Jul 15th|[#97](https://wsop.com/pdfs/structuresheets/structure_5504_23273.pdf)|[Pot-Limit Omaha (6-Handed)](https://craftpoker.com/tournament/structure/5379)|[ADB DaVoice](https://craftpoker.com/event/5379/player/26)|
 |Jul 16th|[#98](https://wsop.com/pdfs/structuresheets/structure_5504_23274.pdf)|[No-Limit Hold'em - The Closer](https://craftpoker.com/tournament/structure/5380)||
 |Jul 17th|[#99](https://wsop.com/pdfs/structuresheets/structure_5504_23275.pdf)|[Super Turbo No-Limit Hold'em](https://craftpoker.com/tournament/structure/5381)||
 
