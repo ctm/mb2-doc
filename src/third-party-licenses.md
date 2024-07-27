@@ -2631,7 +2631,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.39.1</a></li>
+            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.39.2</a></li>
           </ul>
           <pre class="license-text">MIT License
 
