@@ -749,7 +749,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.73</a></li>
-            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.7</a></li>
+            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.8</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.69</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
@@ -960,7 +960,7 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/gimli-rs/object ">object 0.36.2</a></li>
+            <li><a href=" https://github.com/gimli-rs/object ">object 0.36.3</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2015 The Gimli Developers
 
@@ -2779,8 +2779,8 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.36</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.204</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.204</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.205</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.205</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.122</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
