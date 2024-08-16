@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (223)</li>
+        <li><a href="#MIT">MIT License</a> (224)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
@@ -647,7 +647,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/servo/core-foundation-rs ">core-foundation-sys 0.8.6</a></li>
+            <li><a href=" https://github.com/servo/core-foundation-rs ">core-foundation-sys 0.8.7</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2012-2013 Mozilla Foundation
 
@@ -749,18 +749,18 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.73</a></li>
-            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.8</a></li>
+            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.12</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.69</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.70</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
             <li><a href=" https://github.com/rust-lang/rustc-demangle ">rustc-demangle 0.1.24</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/backend ">wasm-bindgen-backend 0.2.92</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.42</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.92</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.92</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.92</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen ">wasm-bindgen 0.2.92</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.69</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/backend ">wasm-bindgen-backend 0.2.93</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.43</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.93</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.93</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.93</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen ">wasm-bindgen 0.2.93</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.70</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2014 Alex Crichton
 
@@ -865,7 +865,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.155</a></li>
+            <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.156</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2014-2020 The Rust Project Developers
 
@@ -1234,7 +1234,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.3.0</a></li>
+            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.4.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2016--2017
 
@@ -2063,7 +2063,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/utils ">cpufeatures 0.2.12</a></li>
+            <li><a href=" https://github.com/RustCrypto/utils ">cpufeatures 0.2.13</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2020 The RustCrypto Project Developers
 
@@ -2779,12 +2779,12 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.36</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.205</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.205</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.122</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.208</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.208</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.125</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.72</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.74</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.63</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.63</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.12</a></li>
@@ -3314,6 +3314,35 @@ THE SOFTWARE.
           <pre class="license-text">The MIT License (MIT)
 
 Copyright (c) 2015 Andrew Gallant
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/comex/rust-shlex ">shlex 1.3.0</a></li>
+          </ul>
+          <pre class="license-text">The MIT License (MIT)
+
+Copyright (c) 2015 Nicholas Allegra (comex).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
