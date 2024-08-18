@@ -2257,7 +2257,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/bluss/arrayvec ">arrayvec 0.7.4</a></li>
+            <li><a href=" https://github.com/bluss/arrayvec ">arrayvec 0.7.6</a></li>
           </ul>
           <pre class="license-text">Copyright (c) Ulrik Sverdrup &quot;bluss&quot; 2015-2023
 
@@ -2666,7 +2666,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.39.2</a></li>
+            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.39.3</a></li>
           </ul>
           <pre class="license-text">MIT License
 
@@ -2784,7 +2784,7 @@ SOFTWARE.
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.125</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.74</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.75</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.63</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.63</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.12</a></li>
