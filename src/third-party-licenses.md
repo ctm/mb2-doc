@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (224)</li>
+        <li><a href="#MIT">MIT License</a> (222)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
@@ -997,7 +997,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
             <li><a href=" https://github.com/servo/unicode-bidi ">unicode-bidi 0.3.15</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.23</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.1</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.2</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.11.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
           </ul>
@@ -1795,39 +1795,6 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.0.8</a></li>
-          </ul>
-          <pre class="license-text">Copyright (c) 2019 Anthony James Munns
-
-Permission is hereby granted, free of charge, to any
-person obtaining a copy of this software and associated
-documentation files (the &quot;Software&quot;), to deal in the
-Software without restriction, including without
-limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software
-is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice
-shall be included in all copies or substantial portions
-of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
-IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/slab ">slab 0.4.9</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2019 Carl Lerche
@@ -2162,39 +2129,6 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/embassy-rs/embedded-io ">embedded-io 0.4.0</a></li>
-          </ul>
-          <pre class="license-text">Copyright (c) 2022 The embedded-io authors
-
-Permission is hereby granted, free of charge, to any
-person obtaining a copy of this software and associated
-documentation files (the &quot;Software&quot;), to deal in the
-Software without restriction, including without
-limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software
-is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice
-shall be included in all copies or substantial portions
-of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
-IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tokio ">tokio-stream 0.1.15</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2023 Tokio Contributors
@@ -2362,7 +2296,6 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.23</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.1</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.11.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
           </ul>
@@ -2644,6 +2577,7 @@ SOFTWARE.
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone-derive 0.1.1</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone 0.4.9</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">parse-zoneinfo 0.3.1</a></li>
+            <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.0.9</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 0.3.11</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.21.0</a></li>
