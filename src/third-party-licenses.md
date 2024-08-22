@@ -2096,7 +2096,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-embedded/critical-section ">critical-section 1.1.2</a></li>
+            <li><a href=" https://github.com/rust-embedded/critical-section ">critical-section 1.1.3</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2022 The critical-section authors
 
