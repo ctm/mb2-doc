@@ -1234,7 +1234,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.4.0</a></li>
+            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.5.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2016--2017
 
