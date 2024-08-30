@@ -960,7 +960,7 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/gimli-rs/object ">object 0.36.3</a></li>
+            <li><a href=" https://github.com/gimli-rs/object ">object 0.36.4</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2015 The Gimli Developers
 
@@ -2601,7 +2601,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.39.3</a></li>
+            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.40.0</a></li>
           </ul>
           <pre class="license-text">MIT License
 
