@@ -749,7 +749,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.73</a></li>
-            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.16</a></li>
+            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.18</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.70</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
@@ -2030,7 +2030,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/utils ">cpufeatures 0.2.13</a></li>
+            <li><a href=" https://github.com/RustCrypto/utils ">cpufeatures 0.2.14</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2020 The RustCrypto Project Developers
 
@@ -2666,7 +2666,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/jonas-schievink/adler.git ">adler 1.0.2</a></li>
-            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.86</a></li>
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.87</a></li>
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.11</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
@@ -2682,8 +2682,8 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.37</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.209</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.209</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.210</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.210</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.128</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
