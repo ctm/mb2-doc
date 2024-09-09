@@ -748,7 +748,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.73</a></li>
+            <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.74</a></li>
             <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.18</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.70</a></li>
@@ -993,7 +993,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/gimli-rs/gimli ">gimli 0.29.0</a></li>
+            <li><a href=" https://github.com/gimli-rs/gimli ">gimli 0.31.0</a></li>
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
             <li><a href=" https://github.com/servo/unicode-bidi ">unicode-bidi 0.3.15</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.23</a></li>
@@ -1300,7 +1300,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/gimli-rs/addr2line ">addr2line 0.22.0</a></li>
+            <li><a href=" https://github.com/gimli-rs/addr2line ">addr2line 0.24.1</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2016-2018 The gimli Developers
 
@@ -2280,8 +2280,8 @@ according to those terms.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.7.4</a></li>
-            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.7.4</a></li>
+            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
+            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
           </ul>
           <pre class="license-text">MIT License
 
@@ -2665,7 +2665,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/jonas-schievink/adler.git ">adler 1.0.2</a></li>
+            <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.0</a></li>
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.87</a></li>
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.11</a></li>
