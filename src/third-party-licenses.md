@@ -2666,7 +2666,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.0</a></li>
-            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.87</a></li>
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.88</a></li>
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.11</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
