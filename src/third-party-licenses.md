@@ -1964,7 +1964,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/strawlab/iana-time-zone ">iana-time-zone-haiku 0.1.2</a></li>
-            <li><a href=" https://github.com/strawlab/iana-time-zone ">iana-time-zone 0.1.60</a></li>
+            <li><a href=" https://github.com/strawlab/iana-time-zone ">iana-time-zone 0.1.61</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2020 Andrew D. Straw
 
