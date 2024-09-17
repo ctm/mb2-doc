@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (223)</li>
+        <li><a href="#MIT">MIT License</a> (222)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
@@ -749,7 +749,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.74</a></li>
-            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.19</a></li>
+            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.20</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.70</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
@@ -996,7 +996,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/gimli-rs/gimli ">gimli 0.31.0</a></li>
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
             <li><a href=" https://github.com/servo/unicode-bidi ">unicode-bidi 0.3.15</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.23</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.24</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.2</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.12.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
@@ -2131,7 +2131,7 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.8</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.19.15</a></li>
-            <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.22.20</a></li>
+            <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.22.21</a></li>
           </ul>
           <pre class="license-text">Copyright (c) Individual contributors
 
@@ -2262,7 +2262,6 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.23</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.2</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
           </ul>
@@ -2670,7 +2669,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.11</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum_derive 0.7.3</a></li>
-            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.20.0</a></li>
+            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.19.0</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.5</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.14</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.5</a></li>
