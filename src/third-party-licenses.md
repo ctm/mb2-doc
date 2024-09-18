@@ -749,7 +749,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.74</a></li>
-            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.20</a></li>
+            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.21</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.70</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
@@ -1530,7 +1530,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.7.1</a></li>
+            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.7.2</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2018 Carl Lerche
 
