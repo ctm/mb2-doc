@@ -2686,8 +2686,8 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.77</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.63</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.63</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.64</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.64</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.13</a></li>
             <li><a href=" https://github.com/bytecodealliance/wasi ">wasi 0.11.0+wasi-snapshot-preview1</a></li>
             <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
