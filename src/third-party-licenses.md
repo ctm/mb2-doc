@@ -865,7 +865,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.158</a></li>
+            <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.159</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2014-2020 The Rust Project Developers
 
@@ -2131,7 +2131,7 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.8</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.19.15</a></li>
-            <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.22.21</a></li>
+            <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.22.22</a></li>
           </ul>
           <pre class="license-text">Copyright (c) Individual contributors
 
@@ -2722,7 +2722,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.5.40</a></li>
-            <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.6.18</a></li>
+            <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.6.19</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
