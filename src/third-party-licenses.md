@@ -831,9 +831,9 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
-            <li><a href=" https://github.com/rust-lang/regex/tree/master/regex-automata ">regex-automata 0.4.7</a></li>
-            <li><a href=" https://github.com/rust-lang/regex/tree/master/regex-syntax ">regex-syntax 0.8.4</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex 1.10.6</a></li>
+            <li><a href=" https://github.com/rust-lang/regex/tree/master/regex-automata ">regex-automata 0.4.8</a></li>
+            <li><a href=" https://github.com/rust-lang/regex/tree/master/regex-syntax ">regex-syntax 0.8.5</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex 1.11.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2014 The Rust Project Developers
 
@@ -2705,7 +2705,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.11</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum_derive 0.7.3</a></li>
-            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.19.0</a></li>
+            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.20.1</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.5</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.14</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.5</a></li>
