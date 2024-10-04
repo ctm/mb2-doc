@@ -961,7 +961,7 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/gimli-rs/object ">object 0.36.4</a></li>
+            <li><a href=" https://github.com/gimli-rs/object ">object 0.36.5</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2015 The Gimli Developers
 
@@ -994,7 +994,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/gimli-rs/gimli ">gimli 0.31.0</a></li>
+            <li><a href=" https://github.com/gimli-rs/gimli ">gimli 0.31.1</a></li>
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
             <li><a href=" https://github.com/servo/unicode-bidi ">unicode-bidi 0.3.17</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.24</a></li>
@@ -1301,7 +1301,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/gimli-rs/addr2line ">addr2line 0.24.1</a></li>
+            <li><a href=" https://github.com/gimli-rs/addr2line ">addr2line 0.24.2</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2016-2018 The gimli Developers
 
