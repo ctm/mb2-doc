@@ -2713,7 +2713,7 @@ SOFTWARE.
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 3.2.0</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.87</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.37</a></li>
-            <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.17</a></li>
+            <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.210</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.210</a></li>
