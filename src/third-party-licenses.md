@@ -866,7 +866,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.159</a></li>
+            <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.160</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2014-2020 The Rust Project Developers
 
@@ -2097,7 +2097,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-embedded/critical-section ">critical-section 1.1.3</a></li>
+            <li><a href=" https://github.com/rust-embedded/critical-section ">critical-section 1.2.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2022 The critical-section authors
 
@@ -2711,7 +2711,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.22</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 3.2.0</a></li>
-            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.87</a></li>
+            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.88</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.37</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
