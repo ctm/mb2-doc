@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (225)</li>
+        <li><a href="#MIT">MIT License</a> (226)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
@@ -2297,6 +2297,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.24</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.3</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.12.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
           </ul>
@@ -2720,7 +2721,7 @@ SOFTWARE.
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.132</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.81</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.82</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.64</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.64</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.13</a></li>
