@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (225)</li>
+        <li><a href="#MIT">MIT License</a> (222)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
@@ -2165,7 +2165,6 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.8</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.19.15</a></li>
-            <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.22.22</a></li>
           </ul>
           <pre class="license-text">Copyright (c) Individual contributors
 
@@ -2708,19 +2707,18 @@ SOFTWARE.
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.6</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.14</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.6</a></li>
-            <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.22</a></li>
+            <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.23</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
-            <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 3.2.0</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.88</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.37</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.210</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.210</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.131</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.132</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.79</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.80</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.64</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.64</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.13</a></li>
@@ -2757,7 +2755,6 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.5.40</a></li>
-            <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.6.20</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
