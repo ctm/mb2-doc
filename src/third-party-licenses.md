@@ -2712,12 +2712,12 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.24</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 3.2.0</a></li>
-            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.88</a></li>
+            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.89</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.37</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.211</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.211</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.212</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.212</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.132</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
