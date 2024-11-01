@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (221)</li>
+        <li><a href="#MIT">MIT License</a> (224)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
@@ -515,6 +515,8 @@ express Statement of Purpose.
             <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.6</a></li>
             <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.6</a></li>
             <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
           </ul>
           <pre class="license-text">    MIT License
 
@@ -537,6 +539,30 @@ express Statement of Purpose.
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/seanmonstar/num_cpus ">num_cpus 1.16.0</a></li>
+          </ul>
+          <pre class="license-text"># Contributing
+
+## License
+
+Licensed under either of
+
+ * Apache License, Version 2.0 ([LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0) or LICENSE-APACHE
+ * MIT license ([LICENSE-MIT](http://opensource.org/licenses/MIT) or LICENSE-MIT
+
+at your option.
+
+### Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any
+additional terms or conditions.
 </pre>
         </li>
         <li class="license">
@@ -2289,7 +2315,6 @@ according to those terms.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
-            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
           </ul>
           <pre class="license-text">MIT License
 
@@ -2557,8 +2582,6 @@ SOFTWARE.
             <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.0.10</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 0.3.11</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.21.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.18.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router 0.18.0</a></li>
@@ -2668,8 +2691,16 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/paholg/typenum ">typenum 1.17.0</a></li>
+          </ul>
+          <pre class="license-text">MIT OR Apache-2.0</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.0</a></li>
-            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.91</a></li>
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.92</a></li>
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.11</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
@@ -2690,11 +2721,12 @@ SOFTWARE.
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.132</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.85</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.65</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.65</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.86</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.66</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.66</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.13</a></li>
             <li><a href=" https://github.com/bytecodealliance/wasi ">wasi 0.11.0+wasi-snapshot-preview1</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -2842,6 +2874,35 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.32</a></li>
+          </ul>
+          <pre class="license-text">The MIT License (MIT)
+
+Copyright (c) 2014 Mathijs van de Nes
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</pre>
         </li>
         <li class="license">
 <h3 id="MIT">MIT License</h3>
@@ -3171,7 +3232,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
+            <li><a href=" https://github.com/BurntSushi/byteorder ">byteorder 1.5.0</a></li>
           </ul>
           <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
 
