@@ -48,7 +48,8 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (226)</li>
+        <li><a href="#MIT">MIT License</a> (232)</li>
+        <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
@@ -713,9 +714,9 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/servo/rust-url/ ">idna 0.5.0</a></li>
+            <li><a href=" https://github.com/servo/rust-url/ ">idna 1.0.3</a></li>
             <li><a href=" https://github.com/servo/rust-url/ ">percent-encoding 2.3.1</a></li>
-            <li><a href=" https://github.com/servo/rust-url ">url 2.5.2</a></li>
+            <li><a href=" https://github.com/servo/rust-url ">url 2.5.3</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2013-2022 The rust-url developers
 
@@ -996,7 +997,6 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/gimli-rs/gimli ">gimli 0.31.1</a></li>
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
-            <li><a href=" https://github.com/servo/unicode-bidi ">unicode-bidi 0.3.17</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.24</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.3</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.12.0</a></li>
@@ -1663,6 +1663,39 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.13.2</a></li>
+          </ul>
+          <pre class="license-text">Copyright (c) 2018 The Servo Project Developers
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the &quot;Software&quot;), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang-nursery/pin-utils ">pin-utils 0.1.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2018 The pin-utils authors
@@ -2192,6 +2225,39 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/hsivonen/idna_adapter ">idna_adapter 1.2.0</a></li>
+          </ul>
+          <pre class="license-text">Copyright (c) The rust-url developers
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the &quot;Software&quot;), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/bluss/arrayvec ">arrayvec 0.7.6</a></li>
           </ul>
           <pre class="license-text">Copyright (c) Ulrik Sverdrup &quot;bluss&quot; 2015-2023
@@ -2219,6 +2285,21 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
 IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/mystor/synstructure ">synstructure 0.13.1</a></li>
+          </ul>
+          <pre class="license-text">Copyright 2016 Nika Layzell
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
         </li>
         <li class="license">
@@ -2290,6 +2371,41 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
 IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/hsivonen/utf16_iter ">utf16_iter 1.0.5</a></li>
+            <li><a href=" https://github.com/hsivonen/utf8_iter ">utf8_iter 1.0.4</a></li>
+            <li><a href=" https://github.com/hsivonen/write16 ">write16 1.0.0</a></li>
+          </ul>
+          <pre class="license-text">Copyright Mozilla Foundation
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the &quot;Software&quot;), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
 </pre>
         </li>
         <li class="license">
@@ -2702,6 +2818,7 @@ SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.0</a></li>
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.92</a></li>
+            <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.11</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
@@ -2723,8 +2840,8 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.87</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.67</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.67</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.68</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.68</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.13</a></li>
             <li><a href=" https://github.com/bytecodealliance/wasi ">wasi 0.11.0+wasi-snapshot-preview1</a></li>
             <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
@@ -3299,6 +3416,71 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="Unicode-3.0">Unicode License v3</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform_data 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 1.5.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider_macros 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.3</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.5.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.7.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.7.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.10.3</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.10.4</a></li>
+          </ul>
+          <pre class="license-text">UNICODE LICENSE V3
+
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright © 1991-2023 Unicode, Inc.
+
+NOTICE TO USER: Carefully read the following legal agreement. BY
+DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING DATA FILES, AND/OR
+SOFTWARE, YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
+TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT
+DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of data files and any associated documentation (the &quot;Data Files&quot;) or
+software and any associated documentation (the &quot;Software&quot;) to deal in the
+Data Files or Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, and/or sell
+copies of the Data Files or Software, and to permit persons to whom the
+Data Files or Software are furnished to do so, provided that either (a)
+this copyright and permission notice appear with all copies of the Data
+Files or Software, or (b) this copyright and permission notice appear in
+associated Documentation.
+
+THE DATA FILES AND SOFTWARE ARE PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
+THIRD PARTY RIGHTS.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE
+BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA
+FILES OR SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall
+not be used in advertising or otherwise to promote the sale, use or other
+dealings in these Data Files or Software without prior written
+authorization of the copyright holder.
 </pre>
         </li>
         <li class="license">
