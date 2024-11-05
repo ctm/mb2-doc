@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (232)</li>
+        <li><a href="#MIT">MIT License</a> (229)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -546,30 +546,6 @@ express Statement of Purpose.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/seanmonstar/num_cpus ">num_cpus 1.16.0</a></li>
-          </ul>
-          <pre class="license-text"># Contributing
-
-## License
-
-Licensed under either of
-
- * Apache License, Version 2.0 ([LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0) or LICENSE-APACHE
- * MIT license ([LICENSE-MIT](http://opensource.org/licenses/MIT) or LICENSE-MIT
-
-at your option.
-
-### Contribution
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any
-additional terms or conditions.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
           </ul>
@@ -755,7 +731,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.95</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.95</a></li>
             <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.74</a></li>
-            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.34</a></li>
+            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.1.35</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.72</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
@@ -2431,7 +2407,6 @@ according to those terms.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
-            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
           </ul>
           <pre class="license-text">MIT License
 
@@ -3351,7 +3326,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/byteorder ">byteorder 1.5.0</a></li>
-            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
           </ul>
           <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
 
