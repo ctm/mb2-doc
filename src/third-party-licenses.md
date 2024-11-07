@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (231)</li>
+        <li><a href="#MIT">MIT License</a> (220)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -508,68 +508,6 @@ express Statement of Purpose.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows-core 0.52.0</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnu 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
-          </ul>
-          <pre class="license-text">    MIT License
-
-    Copyright (c) Microsoft Corporation.
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the &quot;Software&quot;), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/seanmonstar/num_cpus ">num_cpus 1.16.0</a></li>
-          </ul>
-          <pre class="license-text"># Contributing
-
-## License
-
-Licensed under either of
-
- * Apache License, Version 2.0 ([LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0) or LICENSE-APACHE
- * MIT license ([LICENSE-MIT](http://opensource.org/licenses/MIT) or LICENSE-MIT
-
-at your option.
-
-### Contribution
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any
-additional terms or conditions.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
           </ul>
@@ -867,7 +805,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.161</a></li>
+            <li><a href=" https://github.com/rust-lang/libc ">libc 0.2.162</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2014-2020 The Rust Project Developers
 
@@ -2412,25 +2350,6 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.24</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.3</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.12.0</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
-          </ul>
-          <pre class="license-text">Licensed under the Apache License, Version 2.0
-&lt;LICENSE-APACHE or
-http://www.apache.org/licenses/LICENSE-2.0&gt; or the MIT
-license &lt;LICENSE-MIT or http://opensource.org/licenses/MIT&gt;,
-at your option. All files in the project carrying such
-notice may not be copied, modified, or distributed except
-according to those terms.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
             <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
           </ul>
           <pre class="license-text">MIT License
@@ -2699,6 +2618,16 @@ SOFTWARE.
             <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.0.10</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 0.3.11</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows-core 0.52.0</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.21.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.18.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router 0.18.0</a></li>
@@ -2720,7 +2649,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tokio ">tokio-stream 0.1.16</a></li>
-            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.41.0</a></li>
+            <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.41.1</a></li>
           </ul>
           <pre class="license-text">MIT License
 
@@ -2808,14 +2737,6 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/paholg/typenum ">typenum 1.17.0</a></li>
-          </ul>
-          <pre class="license-text">MIT OR Apache-2.0</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.0</a></li>
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.93</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
@@ -2844,7 +2765,6 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.68</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.13</a></li>
             <li><a href=" https://github.com/bytecodealliance/wasi ">wasi 0.11.0+wasi-snapshot-preview1</a></li>
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -2992,35 +2912,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.32</a></li>
-          </ul>
-          <pre class="license-text">The MIT License (MIT)
-
-Copyright (c) 2014 Mathijs van de Nes
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-</pre>
         </li>
         <li class="license">
 <h3 id="MIT">MIT License</h3>
@@ -3349,18 +3240,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/BurntSushi/byteorder ">byteorder 1.5.0</a></li>
-            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
-          </ul>
-          <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
-
-You may use this code under the terms of either license.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/kornelski/gh-emoji ">gh-emoji 1.0.8</a></li>
           </ul>
           <pre class="license-text">© 2013 GitHub, Inc.
@@ -3490,26 +3369,50 @@ authorization of the copyright holder.
           </ul>
           <pre class="license-text">UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
 
-Unicode Data Files include all data files under the directories http://www.unicode.org/Public/, http://www.unicode.org/reports/, http://www.unicode.org/cldr/data/, http://source.icu-project.org/repos/icu/, and http://www.unicode.org/utility/trac/browser/.
+See Terms of Use &lt;https://www.unicode.org/copyright.html&gt;
+for definitions of Unicode Inc.’s Data Files and Software.
 
-Unicode Data Files do not include PDF online code charts under the directory http://www.unicode.org/Public/.
-
-Software includes any source code published in the Unicode Standard or under the directories http://www.unicode.org/Public/, http://www.unicode.org/reports/, http://www.unicode.org/cldr/data/, http://source.icu-project.org/repos/icu/, and http://www.unicode.org/utility/trac/browser/.
-
-NOTICE TO USER: Carefully read the following legal agreement. BY DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING UNICODE INC.&#x27;S DATA FILES (&quot;DATA FILES&quot;), AND/OR SOFTWARE (&quot;SOFTWARE&quot;), YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
+NOTICE TO USER: Carefully read the following legal agreement.
+BY DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING UNICODE INC.&#x27;S
+DATA FILES (&quot;DATA FILES&quot;), AND/OR SOFTWARE (&quot;SOFTWARE&quot;),
+YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
+TERMS AND CONDITIONS OF THIS AGREEMENT.
+IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE
+THE DATA FILES OR SOFTWARE.
 
 COPYRIGHT AND PERMISSION NOTICE
 
-Copyright © 1991-2016 Unicode, Inc. All rights reserved. Distributed under the Terms of Use in http://www.unicode.org/copyright.html.
+Copyright © 1991-2022 Unicode, Inc. All rights reserved.
+Distributed under the Terms of Use in https://www.unicode.org/copyright.html.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of the Unicode data files and any associated documentation (the &quot;Data Files&quot;) or Unicode software and any associated documentation (the &quot;Software&quot;) to deal in the Data Files or Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, and/or sell copies of the Data Files or Software, and to permit persons to whom the Data Files or Software are furnished to do so, provided that either
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Unicode data files and any associated documentation
+(the &quot;Data Files&quot;) or Unicode software and any associated documentation
+(the &quot;Software&quot;) to deal in the Data Files or Software
+without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, and/or sell copies of
+the Data Files or Software, and to permit persons to whom the Data Files
+or Software are furnished to do so, provided that either
+(a) this copyright and permission notice appear with all copies
+of the Data Files or Software, or
+(b) this copyright and permission notice appear in associated
+Documentation.
 
-     (a) this copyright and permission notice appear with all copies of the Data Files or Software, or
-     (b) this copyright and permission notice appear in associated Documentation.
+THE DATA FILES AND SOFTWARE ARE PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS
+NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL
+DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THE DATA FILES OR SOFTWARE.
 
-THE DATA FILES AND SOFTWARE ARE PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR SOFTWARE.
-
-Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in these Data Files or Software without prior written authorization of the copyright holder.
+Except as contained in this notice, the name of a copyright holder
+shall not be used in advertising or otherwise to promote the sale,
+use or other dealings in these Data Files or Software without prior
+written authorization of the copyright holder.
 </pre>
         </li>
       </ul>
