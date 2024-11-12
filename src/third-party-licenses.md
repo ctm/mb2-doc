@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (232)</li>
+        <li><a href="#MIT">MIT License</a> (231)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -2064,7 +2064,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/utils ">cpufeatures 0.2.14</a></li>
+            <li><a href=" https://github.com/RustCrypto/utils ">cpufeatures 0.2.15</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2020 The RustCrypto Project Developers
 
@@ -2834,8 +2834,8 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.37</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.23</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.214</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.214</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.215</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.215</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.132</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
@@ -3350,7 +3350,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/byteorder ">byteorder 1.5.0</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
           </ul>
           <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
