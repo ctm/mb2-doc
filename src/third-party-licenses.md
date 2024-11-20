@@ -48,12 +48,11 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (231)</li>
-        <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
+        <li><a href="#MIT">MIT License</a> (232)</li>
+        <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
-        <li><a href="#Unicode-DFS-2016">Unicode License Agreement - Data Files and Software (2016)</a> (1)</li>
       </ul>
 
 <h2>All license text:</h2>
@@ -502,6 +501,44 @@ express Statement of Purpose.
  d. Affirmer understands and acknowledges that Creative Commons is not a
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows-core 0.52.0</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
+          </ul>
+          <pre class="license-text">    MIT License
+
+    Copyright (c) Microsoft Corporation.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the &quot;Software&quot;), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE
 </pre>
         </li>
         <li class="license">
@@ -2661,16 +2698,6 @@ SOFTWARE.
             <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.0.10</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 0.3.11</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows-core 0.52.0</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnu 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.21.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.18.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router 0.18.0</a></li>
@@ -2792,7 +2819,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.93</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
-            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.11</a></li>
+            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.12</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum_derive 0.7.3</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.20.2</a></li>
@@ -2814,8 +2841,9 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.87</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.13</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.14</a></li>
             <li><a href=" https://github.com/bytecodealliance/wasi ">wasi 0.11.0+wasi-snapshot-preview1</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -3404,6 +3432,11 @@ THE SOFTWARE.
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider_macros 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.3</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.14</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.5.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.7.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.7.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.10.3</a></li>
@@ -3448,93 +3481,6 @@ Except as contained in this notice, the name of a copyright holder shall
 not be used in advertising or otherwise to promote the sale, use or other
 dealings in these Data Files or Software without prior written
 authorization of the copyright holder.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="Unicode-3.0">Unicode License v3</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.5.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.7.4</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.7.4</a></li>
-          </ul>
-          <pre class="license-text">UNICODE LICENSE V3
-
-COPYRIGHT AND PERMISSION NOTICE
-
-Copyright © 2020-2024 Unicode, Inc.
-
-NOTICE TO USER: Carefully read the following legal agreement. BY
-DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING DATA FILES, AND/OR
-SOFTWARE, YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
-TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT
-DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
-
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of data files and any associated documentation (the &quot;Data Files&quot;) or
-software and any associated documentation (the &quot;Software&quot;) to deal in the
-Data Files or Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, and/or sell
-copies of the Data Files or Software, and to permit persons to whom the
-Data Files or Software are furnished to do so, provided that either (a)
-this copyright and permission notice appear with all copies of the Data
-Files or Software, or (b) this copyright and permission notice appear in
-associated Documentation.
-
-THE DATA FILES AND SOFTWARE ARE PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY
-KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
-THIRD PARTY RIGHTS.
-
-IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE
-BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES,
-OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
-WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
-ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA
-FILES OR SOFTWARE.
-
-Except as contained in this notice, the name of a copyright holder shall
-not be used in advertising or otherwise to promote the sale, use or other
-dealings in these Data Files or Software without prior written
-authorization of the copyright holder.
-
-SPDX-License-Identifier: Unicode-3.0
-
-—
-
-Portions of ICU4X may have been adapted from ICU4C and/or ICU4J.
-ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="Unicode-DFS-2016">Unicode License Agreement - Data Files and Software (2016)</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.13</a></li>
-          </ul>
-          <pre class="license-text">UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
-
-Unicode Data Files include all data files under the directories http://www.unicode.org/Public/, http://www.unicode.org/reports/, http://www.unicode.org/cldr/data/, http://source.icu-project.org/repos/icu/, and http://www.unicode.org/utility/trac/browser/.
-
-Unicode Data Files do not include PDF online code charts under the directory http://www.unicode.org/Public/.
-
-Software includes any source code published in the Unicode Standard or under the directories http://www.unicode.org/Public/, http://www.unicode.org/reports/, http://www.unicode.org/cldr/data/, http://source.icu-project.org/repos/icu/, and http://www.unicode.org/utility/trac/browser/.
-
-NOTICE TO USER: Carefully read the following legal agreement. BY DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING UNICODE INC.&#x27;S DATA FILES (&quot;DATA FILES&quot;), AND/OR SOFTWARE (&quot;SOFTWARE&quot;), YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
-
-COPYRIGHT AND PERMISSION NOTICE
-
-Copyright © 1991-2016 Unicode, Inc. All rights reserved. Distributed under the Terms of Use in http://www.unicode.org/copyright.html.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of the Unicode data files and any associated documentation (the &quot;Data Files&quot;) or Unicode software and any associated documentation (the &quot;Software&quot;) to deal in the Data Files or Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, and/or sell copies of the Data Files or Software, and to permit persons to whom the Data Files or Software are furnished to do so, provided that either
-
-     (a) this copyright and permission notice appear with all copies of the Data Files or Software, or
-     (b) this copyright and permission notice appear in associated Documentation.
-
-THE DATA FILES AND SOFTWARE ARE PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR SOFTWARE.
-
-Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in these Data Files or Software without prior written authorization of the copyright holder.
 </pre>
         </li>
       </ul>
