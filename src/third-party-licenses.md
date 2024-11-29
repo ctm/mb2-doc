@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (231)</li>
+        <li><a href="#MIT">MIT License</a> (228)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -508,15 +508,6 @@ express Statement of Purpose.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/microsoft/windows-rs ">windows-core 0.52.0</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnu 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
-            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
           </ul>
           <pre class="license-text">    MIT License
 
@@ -539,30 +530,6 @@ express Statement of Purpose.
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/seanmonstar/num_cpus ">num_cpus 1.16.0</a></li>
-          </ul>
-          <pre class="license-text"># Contributing
-
-## License
-
-Licensed under either of
-
- * Apache License, Version 2.0 ([LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0) or LICENSE-APACHE
- * MIT license ([LICENSE-MIT](http://opensource.org/licenses/MIT) or LICENSE-MIT
-
-at your option.
-
-### Contribution
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any
-additional terms or conditions.
 </pre>
         </li>
         <li class="license">
@@ -2430,7 +2397,6 @@ according to those terms.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
-            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.0</a></li>
           </ul>
           <pre class="license-text">MIT License
 
@@ -2698,6 +2664,15 @@ SOFTWARE.
             <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.1.0</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 0.3.11</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_i686_msvc 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnu 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_gnullvm 0.52.6</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows_x86_64_msvc 0.52.6</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.21.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.18.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router 0.18.0</a></li>
@@ -3321,7 +3296,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/byteorder ">byteorder 1.5.0</a></li>
-            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
           </ul>
           <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
 
