@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (232)</li>
+        <li><a href="#MIT">MIT License</a> (231)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -2718,7 +2718,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/tokio ">tokio-stream 0.1.16</a></li>
+            <li><a href=" https://github.com/tokio-rs/tokio ">tokio-stream 0.1.17</a></li>
             <li><a href=" https://github.com/tokio-rs/tokio ">tokio 1.42.0</a></li>
           </ul>
           <pre class="license-text">MIT License
@@ -3349,7 +3349,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/byteorder ">byteorder 1.5.0</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
           </ul>
           <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
