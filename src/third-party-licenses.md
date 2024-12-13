@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (232)</li>
+        <li><a href="#MIT">MIT License</a> (240)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -508,6 +508,7 @@ express Statement of Purpose.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/microsoft/windows-rs ">windows-core 0.52.0</a></li>
+            <li><a href=" https://github.com/microsoft/windows-rs ">windows-sys 0.59.0</a></li>
             <li><a href=" https://github.com/microsoft/windows-rs ">windows-targets 0.52.6</a></li>
             <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_gnullvm 0.52.6</a></li>
             <li><a href=" https://github.com/microsoft/windows-rs ">windows_aarch64_msvc 0.52.6</a></li>
@@ -749,7 +750,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.74</a></li>
-            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.2.3</a></li>
+            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.2.4</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.76</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
@@ -827,6 +828,40 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/lambda-fairy/rust-errno ">errno 0.3.10</a></li>
+          </ul>
+          <pre class="license-text">Copyright (c) 2014 Chris Wong
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the &quot;Software&quot;), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.6.0</a></li>
             <li><a href=" https://github.com/rust-lang/log ">log 0.4.22</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
@@ -1795,6 +1830,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.2.15</a></li>
+            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.3.0-rc.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2018-2024 The rust-random Project Developers
 Copyright (c) 2014 The Rust Project Developers
@@ -2698,6 +2734,7 @@ SOFTWARE.
             <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.1.1</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 0.3.11</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
+            <li><a href=" https://github.com/bytecodealliance/wasi-rs ">wit-bindgen-rt 0.33.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.21.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.18.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router 0.18.0</a></li>
@@ -2820,6 +2857,7 @@ SOFTWARE.
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.14</a></li>
+            <li><a href=" https://github.com/sunfishcode/linux-raw-sys ">linux-raw-sys 0.4.14</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
             <li><a href=" https://github.com/illicitonion/num_enum ">num_enum_derive 0.7.3</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.20.2</a></li>
@@ -2831,6 +2869,7 @@ SOFTWARE.
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 3.2.0</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.92</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.37</a></li>
+            <li><a href=" https://github.com/bytecodealliance/rustix ">rustix 0.38.42</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.24</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.216</a></li>
@@ -2843,6 +2882,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.14</a></li>
             <li><a href=" https://github.com/bytecodealliance/wasi ">wasi 0.11.0+wasi-snapshot-preview1</a></li>
+            <li><a href=" https://github.com/bytecodealliance/wasi-rs ">wasi 0.13.3+wasi-0.2.2</a></li>
             <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any
@@ -3431,7 +3471,7 @@ THE SOFTWARE.
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider_macros 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.4</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.14</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.5.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.7.5</a></li>
@@ -3486,7 +3526,7 @@ authorization of the copyright holder.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
