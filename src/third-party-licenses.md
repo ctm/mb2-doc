@@ -996,7 +996,7 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/gimli-rs/object ">object 0.36.5</a></li>
+            <li><a href=" https://github.com/gimli-rs/object ">object 0.36.6</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2015 The Gimli Developers
 
