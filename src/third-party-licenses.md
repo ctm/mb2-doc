@@ -750,7 +750,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/backtrace-rs ">backtrace 0.3.74</a></li>
-            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.2.5</a></li>
+            <li><a href=" https://github.com/rust-lang/cc-rs ">cc 1.2.6</a></li>
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.76</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
@@ -2703,13 +2703,13 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.92</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.38</a></li>
             <li><a href=" https://github.com/bytecodealliance/rustix ">rustix 0.38.42</a></li>
-            <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.18</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.216</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.216</a></li>
+            <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.19</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.217</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.217</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.134</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.91</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.92</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.14</a></li>
