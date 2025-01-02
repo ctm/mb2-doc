@@ -2709,7 +2709,7 @@ SOFTWARE.
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.134</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.93</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.94</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.14</a></li>
@@ -2747,7 +2747,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.5.40</a></li>
-            <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.6.20</a></li>
+            <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.6.21</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
