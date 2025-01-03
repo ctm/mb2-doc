@@ -2747,7 +2747,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.5.40</a></li>
-            <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.6.21</a></li>
+            <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.6.22</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
