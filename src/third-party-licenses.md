@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (231)</li>
+        <li><a href="#MIT">MIT License</a> (228)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -2066,7 +2066,6 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.8</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.19.15</a></li>
-            <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.22.22</a></li>
           </ul>
           <pre class="license-text">Copyright (c) Individual contributors
 
@@ -2691,15 +2690,12 @@ SOFTWARE.
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.14</a></li>
             <li><a href=" https://github.com/sunfishcode/linux-raw-sys ">linux-raw-sys 0.4.14</a></li>
-            <li><a href=" https://github.com/illicitonion/num_enum ">num_enum 0.7.3</a></li>
-            <li><a href=" https://github.com/illicitonion/num_enum ">num_enum_derive 0.7.3</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.20.2</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.7</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.15</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.7</a></li>
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.25</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
-            <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 3.2.0</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.92</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.38</a></li>
             <li><a href=" https://github.com/bytecodealliance/rustix ">rustix 0.38.42</a></li>
@@ -2747,7 +2743,6 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.5.40</a></li>
-            <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.6.22</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -3012,6 +3007,36 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/JelteF/derive_more ">derive_more-impl 1.0.0</a></li>
+            <li><a href=" https://github.com/JelteF/derive_more ">derive_more 1.0.0</a></li>
+          </ul>
+          <pre class="license-text">The MIT License (MIT)
+
+Copyright (c) 2016 Jelte Fennema
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 </pre>
         </li>
         <li class="license">
