@@ -2689,7 +2689,7 @@ SOFTWARE.
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/hermit-os/hermit-rs ">hermit-abi 0.3.9</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.14</a></li>
-            <li><a href=" https://github.com/sunfishcode/linux-raw-sys ">linux-raw-sys 0.4.14</a></li>
+            <li><a href=" https://github.com/sunfishcode/linux-raw-sys ">linux-raw-sys 0.4.15</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.20.2</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.8</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.16</a></li>
