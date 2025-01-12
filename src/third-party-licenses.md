@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (228)</li>
+        <li><a href="#MIT">MIT License</a> (230)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -862,7 +862,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.7.0</a></li>
-            <li><a href=" https://github.com/rust-lang/log ">log 0.4.24</a></li>
+            <li><a href=" https://github.com/rust-lang/log ">log 0.4.22</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
@@ -2031,7 +2031,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/Ekleog/indexed-db ">indexed-db 0.4.1</a></li>
+            <li><a href=" https://github.com/Ekleog/indexed-db ">indexed-db 0.4.2</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2024 Leo Gaspard
 
@@ -2707,7 +2707,9 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.96</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.11</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.11</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.14</a></li>
             <li><a href=" https://github.com/bytecodealliance/wasi ">wasi 0.11.0+wasi-snapshot-preview1</a></li>
             <li><a href=" https://github.com/bytecodealliance/wasi-rs ">wasi 0.13.3+wasi-0.2.2</a></li>
