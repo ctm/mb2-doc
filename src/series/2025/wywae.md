@@ -41,7 +41,7 @@ a completely unrelated corporation.
 |Jan.|Time|Event|Players|Winner|
 |--:|--:|--|--|--|
 |16th|[6:00 pm PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=1)|[Stud Eight or Better](https://craftpoker.com/tournament/structure/5668)|7|[gerdog](https://craftpoker.com/event/5668/player/11)|
-|17th|[11:00 am PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=2)|[World Online Chowaha Championship](https://craftpoker.com/tournament/structure/5669)|||
+|17th|[11:00 am PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=2)|[World Online Chowaha Championship](https://craftpoker.com/tournament/structure/5669)|3|[deadhead](https://craftpoker.com/event/5669/player/10)|
 |17th|[6:00 pm PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=3)|[SHESHE: Simultaneous Hold'em and Super Hold'em](https://craftpoker.com/tournament/structure/5670)|||
 |18th|[11:00 am PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=4)|[CHAOS](https://craftpoker.com/tournament/structure/5671)|||
 |18th|[6:00 pm PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=5)|[SHORT: Stud, Hold'em, Omaha Eight, Razz, 2-7 Triple Draw](https://craftpoker.com/tournament/structure/5672)|||
