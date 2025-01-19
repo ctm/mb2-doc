@@ -2280,7 +2280,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.19</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.217</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.217</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.135</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.136</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.96</a></li>
