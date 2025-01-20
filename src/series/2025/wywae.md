@@ -46,7 +46,7 @@ a completely unrelated corporation.
 |18th|[11:00 am PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=4)|[CHAOS](https://craftpoker.com/tournament/structure/5671)|0|_did not have players_|
 |18th|[6:00 pm PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=5)|[SHORT: Stud, Hold'em, Omaha Eight, Razz, 2-7 Triple Draw](https://craftpoker.com/tournament/structure/5672)|8|[jpmassar](https://craftpoker.com/event/5672/player/14)|
 |19th|[11:00 am PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=6)|[Double Green Chip Bounty Pot Limit Omaha](https://craftpoker.com/tournament/structure/5673)[^2]|0|_did not have players_|
-|19th|[6:00 pm PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=7)|[Triple Draw Quick Quads](https://craftpoker.com/tournament/structure/5674)|||
+|19th|[6:00 pm PST](https://omaholic.com/2025_EMBARGO_Structures.pdf#page=7)|[Triple Draw Quick Quads](https://craftpoker.com/tournament/structure/5674)|5|[jpmassar](https://craftpoker.com/event/5674/player/14)|
 
 ## A few Differences from EMBARGO
 
