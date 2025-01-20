@@ -1039,7 +1039,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.7.0</a></li>
+            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.7.1</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2016--2017
 
@@ -2280,7 +2280,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.19</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.217</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.217</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.136</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.137</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.96</a></li>
