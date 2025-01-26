@@ -1468,7 +1468,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.2.15</a></li>
-            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.3.0-rc.0</a></li>
+            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.3.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2018-2024 The rust-random Project Developers
 Copyright (c) 2014 The Rust Project Developers
