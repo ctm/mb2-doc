@@ -4,25 +4,34 @@ Mb2 can deal sixty-four different variations of poker[^1]. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.
 
-The [BARGE Rule Book](http://www.ceemeck.org/BARGERuleBook2021/) has
+The [BARGE Rule Book](https://www.barge.org/rulebook/) has
 rules to almost all of the games mb2 deals.  The exceptions are
 [Sack](./games/sack.html), [Wonky Donkey](./games/wonky-donkey.html),
-[Rio Bravo](./games/rio-bravo.html), [Regular
-Pineapple](./games/regular-pineapple.html),
-[Redrum](./games/redrum.html), [Quick Quads](./games/quick-quads.md), [Omaha X Or Better](./games/omaha-x-or-better.md) [Dealer's Choice](games/dealers-choice.md), and [Dramadugi](./games/dramadugi.md).
+[Regular Pineapple](./games/regular-pineapple.html),
+[Redrum](./games/redrum.html), and [Dealer's Choice](games/dealers-choice.md).
 
-[^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is sixty-five. That number comes from the source code to mb2:
+[^1]: At the time of this writing, the precise&mdash;but perhaps inaccurate&mdash;number of games is sixty-seven. That number comes from the source code to mb2:
 ```
-pub static GAMES: Lazy<[GameInfo; 65]> = Lazy::new(|| {
+pub static GAMES: LazyLock<[GameInfo; 67]> = LazyLock::new(|| {
     [
         // Hold'ems
-        (&*HOLD_EM).into(),
-        (&*IRISH).into(),
-        (&*HOLD_EM_SHORT).into(),
-        (&*CRAZY_PINE_8).into(),
-        (&*HOLDEM_8).into(),
-        (&*LAZY_PINE).into(),
-        (&*LAZY_PINE_8).into(),
+        HOLD_EM.done(),
+        IRISH.done(),
+        HOLD_EM_SHORT.done(),
+        CRAZY_PINE.done(),
+        CRAZY_PINE_8.done(),
+        HOLDEM_8.done(),
+        LAZY_PINE.done(),
+        LAZY_PINE_8.done(),
+        REGULAR_PINE.done(),
+        REGULAR_PINE_8.done(),
+        RIO_BRAVO.done(),
+        // Omahas
+        OMAHA.done(),
+        OMAHA_8.done(),
+        OMAHA_SHORT.done(),
+        BIG_O.done(),
+        BINGLAHA.done(),
 ...
 ```
 The 64 shows that we're populating the `GAMES` constant with 64
