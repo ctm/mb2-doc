@@ -156,25 +156,34 @@
 <p>Mb2 can deal sixty-four different variations of poker<sup class="footnote-reference"><a href="#1">1</a></sup>. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.</p>
-<p>The <a href="http://www.ceemeck.org/BARGERuleBook2021/">BARGE Rule Book</a> has
+<p>The <a href="https://www.barge.org/rulebook/">BARGE Rule Book</a> has
 rules to almost all of the games mb2 deals.  The exceptions are
 <a href="./games/sack.html">Sack</a>, <a href="./games/wonky-donkey.html">Wonky Donkey</a>,
-<a href="./games/rio-bravo.html">Rio Bravo</a>, <a href="./games/regular-pineapple.html">Regular
-Pineapple</a>,
-<a href="./games/redrum.html">Redrum</a>, <a href="./games/quick-quads.html">Quick Quads</a>, <a href="./games/omaha-x-or-better.html">Omaha X Or Better</a> <a href="games/dealers-choice.html">Dealer's Choice</a>, and <a href="./games/dramadugi.html">Dramadugi</a>.</p>
+<a href="./games/regular-pineapple.html">Regular Pineapple</a>,
+<a href="./games/redrum.html">Redrum</a>, and <a href="games/dealers-choice.html">Dealer's Choice</a>.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty-five. That number comes from the source code to mb2:</p>
+<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty-seven. That number comes from the source code to mb2:</p>
 </div>
-<pre><code>pub static GAMES: Lazy&lt;[GameInfo; 65]&gt; = Lazy::new(|| {
+<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 67]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
-        (&amp;*HOLD_EM).into(),
-        (&amp;*IRISH).into(),
-        (&amp;*HOLD_EM_SHORT).into(),
-        (&amp;*CRAZY_PINE_8).into(),
-        (&amp;*HOLDEM_8).into(),
-        (&amp;*LAZY_PINE).into(),
-        (&amp;*LAZY_PINE_8).into(),
+        HOLD_EM.done(),
+        IRISH.done(),
+        HOLD_EM_SHORT.done(),
+        CRAZY_PINE.done(),
+        CRAZY_PINE_8.done(),
+        HOLDEM_8.done(),
+        LAZY_PINE.done(),
+        LAZY_PINE_8.done(),
+        REGULAR_PINE.done(),
+        REGULAR_PINE_8.done(),
+        RIO_BRAVO.done(),
+        // Omahas
+        OMAHA.done(),
+        OMAHA_8.done(),
+        OMAHA_SHORT.done(),
+        BIG_O.done(),
+        BINGLAHA.done(),
 ...
 </code></pre>
 <p>The 64 shows that we're populating the <code>GAMES</code> constant with 64
@@ -221,7 +230,7 @@ of mb2. As such, it's not really that useful to Players, per-se.</p>
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="games/bidirectional-chowaha.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="games/dealers-choice.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -235,7 +244,7 @@ of mb2. As such, it's not really that useful to Players, per-se.</p>
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="games/bidirectional-chowaha.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="games/dealers-choice.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

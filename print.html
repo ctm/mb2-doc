@@ -1772,25 +1772,34 @@ turns to an I-beam for emojis with a Unicode representation (e.g.,
 <p>Mb2 can deal sixty-four different variations of poker<sup class="footnote-reference"><a href="#1">1</a></sup>. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.</p>
-<p>The <a href="http://www.ceemeck.org/BARGERuleBook2021/">BARGE Rule Book</a> has
+<p>The <a href="https://www.barge.org/rulebook/">BARGE Rule Book</a> has
 rules to almost all of the games mb2 deals.  The exceptions are
 <a href="./games/sack.html">Sack</a>, <a href="./games/wonky-donkey.html">Wonky Donkey</a>,
-<a href="./games/rio-bravo.html">Rio Bravo</a>, <a href="./games/regular-pineapple.html">Regular
-Pineapple</a>,
-<a href="./games/redrum.html">Redrum</a>, <a href="./games/quick-quads.html">Quick Quads</a>, <a href="./games/omaha-x-or-better.html">Omaha X Or Better</a> <a href="games/dealers-choice.html">Dealer's Choice</a>, and <a href="./games/dramadugi.html">Dramadugi</a>.</p>
+<a href="./games/regular-pineapple.html">Regular Pineapple</a>,
+<a href="./games/redrum.html">Redrum</a>, and <a href="games/dealers-choice.html">Dealer's Choice</a>.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty-five. That number comes from the source code to mb2:</p>
+<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty-seven. That number comes from the source code to mb2:</p>
 </div>
-<pre><code>pub static GAMES: Lazy&lt;[GameInfo; 65]&gt; = Lazy::new(|| {
+<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 67]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
-        (&amp;*HOLD_EM).into(),
-        (&amp;*IRISH).into(),
-        (&amp;*HOLD_EM_SHORT).into(),
-        (&amp;*CRAZY_PINE_8).into(),
-        (&amp;*HOLDEM_8).into(),
-        (&amp;*LAZY_PINE).into(),
-        (&amp;*LAZY_PINE_8).into(),
+        HOLD_EM.done(),
+        IRISH.done(),
+        HOLD_EM_SHORT.done(),
+        CRAZY_PINE.done(),
+        CRAZY_PINE_8.done(),
+        HOLDEM_8.done(),
+        LAZY_PINE.done(),
+        LAZY_PINE_8.done(),
+        REGULAR_PINE.done(),
+        REGULAR_PINE_8.done(),
+        RIO_BRAVO.done(),
+        // Omahas
+        OMAHA.done(),
+        OMAHA_8.done(),
+        OMAHA_SHORT.done(),
+        BIG_O.done(),
+        BINGLAHA.done(),
 ...
 </code></pre>
 <p>The 64 shows that we're populating the <code>GAMES</code> constant with 64
@@ -1828,34 +1837,7 @@ of mb2. As such, it's not really that useful to Players, per-se.</p>
 <tr><td>Simultaneous</td><td>SOHE (Simultaneous Omaha and Hold'em)</td></tr>
 <tr><td>Choice</td><td>Paradise Road Pick'em, Wonky Donkey, Dealer's</td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="bidirectional-chowaha"><a class="header" href="#bidirectional-chowaha">Bidirectional Chowaha</a></h1>
-<p>Like
-<a href="https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=37">Chowaha</a>,
-but a roll of a die determines whether each of the three flops are
-by row (like regular chowaha) or by column.</p>
-<h2 id="cards-are-rotated-to-fit-on-the-screen"><a class="header" href="#cards-are-rotated-to-fit-on-the-screen">Cards are Rotated to Fit On the Screen</a></h2>
-<p>Although the original email explaining Bidirectional Chowaha stated:</p>
-<blockquote>
-<p>after the flop betting, button rolls die to determine whether turn
-and river are dealt to the right of flops or underneath flops</p>
-</blockquote>
-<p>there's not enough room to add the turn and river beneath the flops.
-So, if a four, five or six is rolled, the cards are rotated
-counter-clockwise, so that the turn and river will <em>have the same
-effect</em> as though they were dealt beneath.</p>
-<p>Consider the following three flops. There are six hearts, but no row
-has all three hearts.  The third column, however, is the five of
-hearts, the seven of hearts and the jack of hearts.</p>
-<p><img src="games/./bidirectional-chowaha/before-roll.png" alt="Before the Die Roll" title="Before the Die Roll" /></p>
-<p>When a five is rolled on the die, the third column becomes the top
-row; middle column becomes the middle row and the first column becomes
-the bottom row.</p>
-<p><img src="games/./bidirectional-chowaha/after-roll.png" alt="After the Die Roll" title="After the Die Roll" /></p>
-<p>So now, the six of hearts can be used with either what formerly was the first
-two columns and the ten of hearts can be used with what formerly was the
-last two columns, and everything fits on the screen.</p>
-<p>It's ugly, but squishing everything together was worse—<strong>much worse</strong>.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
 <p>Twenty-one different games are offered in Dealer's Choice.  Initially,
 the first player in or past seat one chooses the game.  That game is
 then played for six hands, and then the player in the next seat gets
@@ -1891,109 +1873,6 @@ choices in the menu.</p>
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>also spelled "Badacey"</p>
 </div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="dramadugi"><a class="header" href="#dramadugi">Dramadugi</a></h1>
-<h2 id="single-draw-dramaha-but-with-4-card-badugi"><a class="header" href="#single-draw-dramaha-but-with-4-card-badugi">Single Draw Dramaha but with 4-card Badugi</a></h2>
-<p>Dramadugi is a single-draw split game that is similar to
-<a href="https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=42">Dramaha</a>. One
-difference is that at the showdown, the half of the pot that would go
-to the best five card hand in Dramaha is instead given to the best
-four card Badugi that uses four of the player's five hole cards.  The other
-difference is that <strong>at most three cards</strong> can be exchanged during
-the draw, not five.</p>
-<p>The following is how a page to the BARGE Rule Book could be added.</p>
-<h3 id="forced-money"><a class="header" href="#forced-money">Forced Money</a></h3>
-<p>The game is played with a button and blinds. It can be played fixed-limit,
-pot-limit or no-limit.</p>
-<h3 id="dealing-procedure"><a class="header" href="#dealing-procedure">Dealing Procedure</a></h3>
-<p>Each player is dealt five cards face down, followed by a round of
-betting.  Three community cards are placed face
-up. This is followed by a round of betting.
-Then each player in turn discards zero to three cards from their
-hand. Once all of the discards have been announced, the dealer will
-deal each player an appropriate number of replacement cards. Note that
-this differs from Triple Draw Dramaha, where the draw takes place
-<strong>before</strong> the flop betting.  One additional community card is placed face
-up. This is followed by a round of betting.  One
-additional community card is placed face up. This is followed by the final
-round of betting. This is followed by a showdown.</p>
-<p>When played fixed-limit, the first two betting rounds (pre-flop and
-post-flop) are done at the small bet limit and the final two rounds
-(post-turn and post-river) are done at the large bet limit.</p>
-<h3 id="evaluating-the-showdown"><a class="header" href="#evaluating-the-showdown">Evaluating the Showdown</a></h3>
-<p>The best Omaha high hand (using exactly two cards from the player’s hand and
-exactly three cards from the board) and the best four card Badugi hand (with
-each of the four cards coming from the player's hole cards) splits the pot.</p>
-<p>The fifth card is not a tie-breaker. A234 rainbow with the fifth card being
-a K would split a pot with A234 rainbow with a five as the fifth card.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="five-card-omaha"><a class="header" href="#five-card-omaha">Five Card Omaha</a></h1>
-<p>It's what you'd think: <a href="https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=20">Omaha High
-Only</a>,
-but with five hole cards instead of
-four.  It's high only<sup class="footnote-reference"><a href="#1">1</a></sup>.</p>
-<p>Like regular Omaha High, at the showdown, each player must use exactly
-two hole cards and three from the board.  It is typically played Pot-Limit,
-but can also be played Fixed-Limit or No-Limit.</p>
-<br/>
-<br/>
-<br/>
-<br/>
-<hr/>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>The High/Low (with eight qualifier) variant is
-called <a href="https://secure.barge.org/bargerulebooks/BARGERuleBook2021-20210712.pdf#page=15">Big
-O</a>.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="mexican-poker"><a class="header" href="#mexican-poker">Mexican Poker</a></h1>
-<p>In addition to the information here, <a href="https://www.ceemeck.org/BARGERuleBook2021/other.html#mexican-poker">Mexican
-Poker</a>
-is now included in the BARGE Rule Book.</p>
-<p>Another set of rules for Mexican Poker are
-<a href="https://www.thebike.com/play/poker_mexican_poker.php">those at The Bicycle</a>.
-The
-<a href="https://poker.fandom.com/wiki/Mexican_Poker">ones at Poker Fandom</a>
-aren't bad except they incorrectly claim that the lowest up-card is the
-bring-in (The Bicycle rules get that right).  Additionally, the
-<a href="https://www.wsop.com/2019/2019%20WSOP%20Live%20Action%20Rules%20(FINAL).pdf">WSOP 2019 document</a>
-also has their explanation (although you'll have to search for "Mexican
-Poker" to find them).</p>
-<p>The big things to know about Mexican Poker on mb2 are:</p>
-<ul>
-<li>the Up and Down buttons refer to how you want your next card dealt</li>
-<li>Mb2 does not <em>visually</em> discriminate between a down-dealt and an up-dealt joker</li>
-</ul>
-<p>Mb2 does recognize that a down-dealt joker is wild, even if it's
-subsequently turned up.  So, the right thing will happen, but there's
-currently no visual representation reminding you the state of the
-joker.  This can be trivially fixed, but it requires someone to create
-assets and we haven't yet requested anyone to create them, since the
-current interface will be going away "soon".</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="omaha-x-or-better"><a class="header" href="#omaha-x-or-better">Omaha X Or Better</a></h1>
-<p>Omaha X Or Better is like
-<a href="https://www.ceemeck.org/BARGERuleBook2021/TournGames.html#binglaha">Binglaha</a>,
-except two dice are rolled.  So, each hand, after the flop betting, 2
-dice are rolled and their sum determines whether it's high only or
-high/low split and if it's the latter, what qualifier is needed for the low.
-There is never a qualifier for high.</p>
-<div class="table-wrapper"><table><thead><tr><th>Sum</th><th>Split?</th><th>Low Qualifier</th></tr></thead><tbody>
-<tr><td>2</td><td>High Only</td><td></td></tr>
-<tr><td>3</td><td>High Only</td><td></td></tr>
-<tr><td>4</td><td>High Only</td><td></td></tr>
-<tr><td>5</td><td>High/Low</td><td>Wheel Only</td></tr>
-<tr><td>6</td><td>High/Low</td><td>6 or Better</td></tr>
-<tr><td>7</td><td>High/Low</td><td>7 or Better</td></tr>
-<tr><td>8</td><td>High/Low</td><td>8 or Better</td></tr>
-<tr><td>9</td><td>High/Low</td><td>9 or Better</td></tr>
-<tr><td>10</td><td>High/Low</td><td>10 or Better</td></tr>
-<tr><td>11</td><td>High/Low</td><td>Jack or Better</td></tr>
-<tr><td>12</td><td>High/Low</td><td>Queen or Better</td></tr>
-</tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="quick-quads"><a class="header" href="#quick-quads">Quick Quads</a></h1>
-<p>5 Card Draw Quick Quads is a single draw game played with a standard
-52 card deck (i.e., no bug/joker). Any two cards from ace to ten can
-be added together to complete quads.</p>
-<h3 id="examples-1"><a class="header" href="#examples-1">Examples</a></h3>
-<p>Both 99963 and 9998A makes quad nines.</p>
-<h3 id="face-cards-cant-be-used-to-complete-quads"><a class="header" href="#face-cards-cant-be-used-to-complete-quads">Face cards can't be used to complete quads</a></h3>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="redrum"><a class="header" href="#redrum">Redrum</a></h1>
 <p>Redrum is
 <a href="https://www.ceemeck.org/BARGERuleBook2021/other.html#murder">Murder</a>
@@ -2012,10 +1891,6 @@ there's a round of betting. After that betting round, each player
 discards a single card. After that, the flop is dealt and there's
 another betting round. Then the turn is dealt and there's betting
 round, followed by the river being dealt and the final betting round.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="rio-bravo"><a class="header" href="#rio-bravo">Rio Bravo</a></h1>
-<p>Rio Bravo is Hold'em, except after the river betting, each live player
-is dealt a third face-down hole card and then there's a final (fifth)
-round of betting.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="sack"><a class="header" href="#sack">Sack</a></h1>
 <p>Sack is the genteel name for
 <a href="https://www.ceemeck.org/BARGERuleBook2021/other.html#scrotum">Scrotum</a>.</p>
@@ -2153,7 +2028,7 @@ more Sevens Rule followers, the post-draw action of the Sevens Rule
 violators is returned to the violators and the remaining amount in the
 pot is awarded to the non-violator (or split evenly if more than one
 non-violator has a tying winning hand).</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="examples-2"><a class="header" href="#examples-2">Examples</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="examples-1"><a class="header" href="#examples-1">Examples</a></h1>
 <p>The BARGE Rule Book has an <a href="https://www.ceemeck.org/BARGERuleBook2021/the-sevens-rule.html">elaborate
 example</a>.
 It's worth reading, although it's slightly incorrect and will be updated
@@ -2202,7 +2077,7 @@ Payout Schedule</a>.</p>
 <tr><td>16-24</td><td>42%, 26%, 18%, 14%</td></tr>
 </tbody></table>
 </div>
-<h3 id="examples-3"><a class="header" href="#examples-3">Examples</a></h3>
+<h3 id="examples-2"><a class="header" href="#examples-2">Examples</a></h3>
 <ul>
 <li>
 <p>An FM 100 four player tournament without bounties pays first place FM 400.</p>
