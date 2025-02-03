@@ -1053,7 +1053,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.9.0</a></li>
+            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.10.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2018 Carl Lerche
 
@@ -2087,9 +2087,9 @@ SOFTWARE.
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.14</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.20.2</a></li>
-            <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.8</a></li>
+            <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.9</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.16</a></li>
-            <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.8</a></li>
+            <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.9</a></li>
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.29</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.93</a></li>
