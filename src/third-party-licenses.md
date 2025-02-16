@@ -1072,7 +1072,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/cuviper/equivalent ">equivalent 1.0.1</a></li>
+            <li><a href=" https://github.com/indexmap-rs/equivalent ">equivalent 1.0.2</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2016--2023
 
@@ -1335,7 +1335,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.13.2</a></li>
+            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.14.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2018 The Servo Project Developers
 
