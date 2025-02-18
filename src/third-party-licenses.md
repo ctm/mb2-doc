@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (190)</li>
+        <li><a href="#MIT">MIT License</a> (189)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -2258,14 +2258,6 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/paholg/typenum ">typenum 1.17.0</a></li>
-          </ul>
-          <pre class="license-text">MIT OR Apache-2.0</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.95</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.14</a></li>
@@ -2414,7 +2406,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/paholg/typenum ">typenum 1.17.0</a></li>
+            <li><a href=" https://github.com/paholg/typenum ">typenum 1.18.0</a></li>
           </ul>
           <pre class="license-text">The MIT License (MIT)
 
