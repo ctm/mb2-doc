@@ -2258,7 +2258,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.95</a></li>
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.96</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.14</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.20.3</a></li>
@@ -2270,8 +2270,8 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.93</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.38</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.19</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.217</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.217</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.218</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.218</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.139</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
