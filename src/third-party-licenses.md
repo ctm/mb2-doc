@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (182)</li>
+        <li><a href="#MIT">MIT License</a> (180)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -1975,7 +1975,7 @@ SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.3</a></li>
             <li><a href=" https://github.com/DanielKeep/rust-boolinator ">boolinator 2.4.0</a></li>
-            <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.39</a></li>
+            <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.40</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.2.3</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
@@ -2016,11 +2016,20 @@ SOFTWARE.
 
 Copyright (c) &lt;year&gt; &lt;copyright holders&gt;
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and 
+associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including 
+without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the 
+following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial 
+portions of the Software.
 
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT 
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO 
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE 
+USE OR OTHER DEALINGS IN THE SOFTWARE.
 </pre>
         </li>
         <li class="license">
@@ -2080,7 +2089,6 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.11</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.17</a></li>
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -2500,17 +2508,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
-          </ul>
-          <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
-
-You may use this code under the terms of either license.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/kornelski/gh-emoji ">gh-emoji 1.0.8</a></li>
           </ul>
           <pre class="license-text">© 2013 GitHub, Inc.
@@ -2572,12 +2569,6 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.17</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.7.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.7.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.10.3</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.10.4</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
@@ -2637,6 +2628,12 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.5.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.7.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.7.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.10.3</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.10.4</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
