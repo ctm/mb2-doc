@@ -613,7 +613,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rayon-rs/either ">either 1.14.0</a></li>
+            <li><a href=" https://github.com/rayon-rs/either ">either 1.15.0</a></li>
             <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.12.1</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2015
