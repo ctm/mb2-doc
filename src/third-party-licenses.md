@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (196)</li>
+        <li><a href="#MIT">MIT License</a> (197)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -2109,6 +2109,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/paholg/typenum ">typenum 1.18.0</a></li>
+          </ul>
+          <pre class="license-text">MIT OR Apache-2.0</pre>
         </li>
         <li class="license">
 <h3 id="MIT">MIT License</h3>
