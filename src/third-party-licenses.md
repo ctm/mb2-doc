@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (197)</li>
+        <li><a href="#MIT">MIT License</a> (193)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -1448,7 +1448,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/cryptocorrosion/cryptocorrosion ">ppv-lite86 0.2.20</a></li>
+            <li><a href=" https://github.com/cryptocorrosion/cryptocorrosion ">ppv-lite86 0.2.21</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2019 The CryptoCorrosion Contributors
 
@@ -1727,8 +1727,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy-derive 0.7.35</a></li>
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.23</a></li>
           </ul>
           <pre class="license-text">Copyright 2023 The Fuchsia Authors
 
@@ -2134,18 +2133,17 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.94</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.39</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.20</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.218</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.218</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.219</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.219</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.140</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.99</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.100</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.12</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.12</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.18</a></li>
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.7.35</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -2360,7 +2358,6 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/byteorder ">byteorder 1.5.0</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
@@ -2625,7 +2622,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/byteorder ">byteorder 1.5.0</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
             <li><a href=" https://github.com/BurntSushi/same-file ">same-file 1.0.6</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
