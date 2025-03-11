@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (182)</li>
+        <li><a href="#MIT">MIT License</a> (193)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -1796,6 +1796,25 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.24</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.3</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.12.0</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.2.6</a></li>
+          </ul>
+          <pre class="license-text">Licensed under the Apache License, Version 2.0
+&lt;LICENSE-APACHE or
+http://www.apache.org/licenses/LICENSE-2.0&gt; or the MIT
+license &lt;LICENSE-MIT or http://opensource.org/licenses/MIT&gt;,
+at your option. All files in the project carrying such
+notice may not be copied, modified, or distributed except
+according to those terms.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/bcmyers/num-format ">num-format 0.4.4</a></li>
           </ul>
           <pre class="license-text">MIT License
@@ -2094,6 +2113,14 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/paholg/typenum ">typenum 1.18.0</a></li>
+          </ul>
+          <pre class="license-text">MIT OR Apache-2.0</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.97</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.15</a></li>
@@ -2206,6 +2233,35 @@ SOFTWARE.
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.33</a></li>
+          </ul>
+          <pre class="license-text">The MIT License (MIT)
+
+Copyright (c) 2014 Mathijs van de Nes
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 </pre>
         </li>
         <li class="license">
@@ -2565,6 +2621,20 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
+            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
+            <li><a href=" https://github.com/BurntSushi/same-file ">same-file 1.0.6</a></li>
+            <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
+          </ul>
+          <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
+
+You may use this code under the terms of either license.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/kornelski/gh-emoji ">gh-emoji 1.0.8</a></li>
           </ul>
           <pre class="license-text">© 2013 GitHub, Inc.
@@ -2625,6 +2695,17 @@ THE SOFTWARE.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform_data 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 1.5.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider_macros 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.18</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.5.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.7.5</a></li>
@@ -2677,18 +2758,7 @@ authorization of the copyright holder.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform_data 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 1.5.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider_macros 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
           </ul>
