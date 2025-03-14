@@ -2124,11 +2124,11 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.97</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.15</a></li>
-            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.0</a></li>
+            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.1</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.10</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.16</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.10</a></li>
-            <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.30</a></li>
+            <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.31</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.94</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.40</a></li>
