@@ -2731,11 +2731,8 @@ THE SOFTWARE.
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform_data 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 1.5.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 1.5.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider_macros 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
@@ -2791,6 +2788,9 @@ authorization of the copyright holder.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform_data 1.5.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 1.5.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 1.5.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
