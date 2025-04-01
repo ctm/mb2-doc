@@ -31,10 +31,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "../../";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            const path_to_root = "../../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../../toc.js"></script>
@@ -44,8 +45,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -59,7 +60,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -72,8 +74,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -109,6 +111,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
@@ -185,7 +188,7 @@ a completely unrelated corporation.</p>
 <tr><td style="text-align: right">17th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=3">6:00 pm PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5670">SHESHE: Simultaneous Hold'em and Super Hold'em</a></td><td>5</td><td><a href="https://craftpoker.com/event/5670/player/11">gerdog</a></td></tr>
 <tr><td style="text-align: right">18th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=4">11:00 am PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5671">CHAOS</a></td><td>0</td><td><em>did not have players</em></td></tr>
 <tr><td style="text-align: right">18th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=5">6:00 pm PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5672">SHORT: Stud, Hold'em, Omaha Eight, Razz, 2-7 Triple Draw</a></td><td>8</td><td><a href="https://craftpoker.com/event/5672/player/14">jpmassar</a></td></tr>
-<tr><td style="text-align: right">19th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=6">11:00 am PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5673">Double Green Chip Bounty Pot Limit Omaha</a><sup class="footnote-reference"><a href="#2">1</a></sup></td><td>0</td><td><em>did not have players</em></td></tr>
+<tr><td style="text-align: right">19th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=6">11:00 am PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5673">Double Green Chip Bounty Pot Limit Omaha</a><sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">1</a></sup></td><td>0</td><td><em>did not have players</em></td></tr>
 <tr><td style="text-align: right">19th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=7">6:00 pm PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5674">Triple Draw Quick Quads</a></td><td>5</td><td><a href="https://craftpoker.com/event/5674/player/14">jpmassar</a></td></tr>
 </tbody></table>
 </div>
@@ -207,10 +210,11 @@ after the hour. The break will then be five minutes long.</p>
 <p>During WYWAE tournaments, you may re-enter up to two times, through level 9 for
 all tournaments except CHAOS, which allows up to five re-entries.  If that is
 too chaotic for you, don't play.</p>
-<div class="footnote-definition" id="2"><sup class="footnote-definition-label">1</sup>
-<p>There is no cash value associated with the bounties, only <a href="../../fun_money.html">Fun Money</a>.</p>
-</div>
-
+<hr>
+<ol class="footnote-definition"><li id="footnote-2">
+<p>There is no cash value associated with the bounties, only <a href="../../fun_money.html">Fun Money</a>. <a href="#fr-2-1">↩</a></p>
+</li>
+</ol>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">

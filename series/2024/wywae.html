@@ -31,10 +31,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "../../";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            const path_to_root = "../../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../../toc.js"></script>
@@ -44,8 +45,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -59,7 +60,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -72,8 +74,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -109,6 +111,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
@@ -161,7 +164,7 @@ mb2 tournament dealt for each of the EMBARGO tournaments.</p>
 <p>Each tournament was a freeroll: there was no fee to enter and entry was
 available to the public.</p>
 <p>The winner of each tournament received $100 via Venmo or Zelle.</p>
-<p>Additional places paid, depending on how many players participated<sup class="footnote-reference"><a href="#1">1</a></sup>:</p>
+<p>Additional places paid, depending on how many players participated<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>:</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: right">Place</th><th style="text-align: right">2-4</th><th style="text-align: right">5-8</th><th style="text-align: right">9-15</th><th style="text-align: right">16-24</th><th style="text-align: right">25 or more</th></tr></thead><tbody>
 <tr><td style="text-align: right">1st</td><td style="text-align: right">$100</td><td style="text-align: right">$100</td><td style="text-align: right">$100</td><td style="text-align: right">$100</td><td style="text-align: right">$100</td></tr>
 <tr><td style="text-align: right">2nd</td><td style="text-align: right"></td><td style="text-align: right">$45</td><td style="text-align: right">$60</td><td style="text-align: right">$60</td><td style="text-align: right">$65</td></tr>
@@ -192,7 +195,7 @@ a completely unrelated corporation.</p>
 <tr><td style="text-align: right">1st</td><td style="text-align: right">6:00 pm PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=1">6-Handed Tournament of Champions</a></td><td>19</td><td><a href="https://craftpoker.com/event/5109/player/29">Bridgeman</a></td></tr>
 <tr><td style="text-align: right">2nd</td><td style="text-align: right">11:00 am PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=2">World Online Chowaha Championship</a></td><td>10</td><td><a href="https://craftpoker.com/event/5110/player/32">samarai</a></td></tr>
 <tr><td style="text-align: right">2nd</td><td style="text-align: right">6:00 pm PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=3">Double Board Pot-Limit Omaha</a></td><td>11</td><td><a href="https://craftpoker.com/event/5111/player/28">JADC🚴</a></td></tr>
-<tr><td style="text-align: right">3rd</td><td style="text-align: right">11:00 am PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4">Double Green Chip Bounty No-Limit Hold'em</a><sup class="footnote-reference"><a href="#2">2</a></sup></td><td>15</td><td><a href="https://craftpoker.com/event/5112/player/36">Mrstcao</a></td></tr>
+<tr><td style="text-align: right">3rd</td><td style="text-align: right">11:00 am PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4">Double Green Chip Bounty No-Limit Hold'em</a><sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">2</a></sup></td><td>15</td><td><a href="https://craftpoker.com/event/5112/player/36">Mrstcao</a></td></tr>
 <tr><td style="text-align: right">3rd</td><td style="text-align: right">6:00 pm PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=5">B.O.S.S. (Big O + Super Stud/8)</a></td><td>15</td><td><a href="https://craftpoker.com/event/5113/player/20">jrx</a></td></tr>
 </tbody></table>
 </div>
@@ -224,13 +227,14 @@ mb2.</p>
 <br/>
 <br/>
 <hr/>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>Real players; no sock puppets or no-shows, please</p>
-</div>
-<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
-<p>There was no cash value associated with the bounties, per-se, only <a href="../../fun_money.html">Fun Money</a>, but the cash payouts were ranked by Fun Money won, which did include the bounties.</p>
-</div>
-
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
+<p>Real players; no sock puppets or no-shows, please <a href="#fr-1-1">↩</a></p>
+</li>
+<li id="footnote-2">
+<p>There was no cash value associated with the bounties, per-se, only <a href="../../fun_money.html">Fun Money</a>, but the cash payouts were ranked by Fun Money won, which did include the bounties. <a href="#fr-2-1">↩</a></p>
+</li>
+</ol>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">

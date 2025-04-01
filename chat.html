@@ -31,10 +31,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -44,8 +45,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -59,7 +60,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -72,8 +74,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -109,6 +111,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
@@ -206,7 +209,7 @@ a high priority.</p>
 <h3 id="emojis"><a class="header" href="#emojis">Emojis</a></h3>
 <p>You can either type (or paste) emojis in as utf-8 or you can use <a href="https://emojipedia.org/github/">GitHub
 emoji shortcodes</a>, but only for the GitHub
-emojis that have a Unicode representation<sup class="footnote-reference"><a href="#1">1</a></sup>.  E.g., if I
+emojis that have a Unicode representation<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>.  E.g., if I
 type</p>
 <blockquote>
 <p>Yup! I hit my two outer. :grinning:</p>
@@ -215,14 +218,6 @@ type</p>
 <blockquote>
 <p>Yup! I hit my two outer. 😀</p>
 </blockquote>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>Unfortunately, I know of no nicely structured list of that GitHub
-emoji subset and the <a href="https://gist.github.com/rxaviers/7360908">gist that shows <em>all</em> GitHub emoji
-shortcodes</a> leads with
-:bowtie: which <em>does not</em> have a Unicode representation. Luckily,
-the vast majority of the emojis in that list are indeed represented
-by Unicode.</p>
-</div>
 <p>Additionally, if you want to use that list, you might be able to tell
 whether a particular emoji has a Unicode representation by hovering
 your mouse over the emoji. Try doing that with the bowtie emoji and
@@ -230,7 +225,16 @@ almost any other emoji on that page and you may see that your cursor
 turns to an I-beam for emojis with a Unicode representation (e.g.,
 :smile:) but remains an arrow for one of the ones that doesn't work
 (e.g., :bowtie:).</p>
-
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
+<p>Unfortunately, I know of no nicely structured list of that GitHub
+emoji subset and the <a href="https://gist.github.com/rxaviers/7360908">gist that shows <em>all</em> GitHub emoji
+shortcodes</a> leads with
+:bowtie: which <em>does not</em> have a Unicode representation. Luckily,
+the vast majority of the emojis in that list are indeed represented
+by Unicode. <a href="#fr-1-1">↩</a></p>
+</li>
+</ol>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">

@@ -32,10 +32,11 @@
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
@@ -45,8 +46,8 @@
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -60,7 +61,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -73,8 +75,8 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -110,6 +112,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
@@ -500,7 +503,7 @@ when coming off a wait list.</p>
 <p><img src="lobby/./preferences.png" alt="Preferences" title="Preferences Modal Dialog" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="tables"><a class="header" href="#tables">Tables</a></h1>
 <p>Mb2 creates a new pop-up window for each table you are seated at or you
-are observing. A table looks something like this<sup class="footnote-reference"><a href="#1">1</a></sup>:</p>
+are observing. A table looks something like this<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>:</p>
 <p><img src="./table.png" alt="Table" title="Table" /></p>
 <p>Most of the elements in a table window should be self-explanatory.
 Additionally, most also have a "tooltip" associated with them.  The
@@ -508,13 +511,14 @@ tooltip will be revealed if you leave your mouse over an element
 that contains a tooltip.</p>
 <p>The remaining pages of this Tables chapter document or clarify some of
 the things that may not be self-explanatory.</p>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
 <p>Currently, there are also two textual representations of a table,
 but this manual ignores them because they are likely to go away after
 the graphical interface becomes more attractive to the current text view
-players.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="top-line-1"><a class="header" href="#top-line-1">Top Line</a></h1>
+players. <a href="#fr-1-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="top-line-1"><a class="header" href="#top-line-1">Top Line</a></h1>
 <p>The upper left portion of a table consists of a row of icons that can be
 clicked on. Most of them make temporary changes to the appearance of
 your table. They all have associated tooltips that tell you what they'll
@@ -643,20 +647,21 @@ event will be displayed. E.g.,</p>
 <p>Clicking the review button brings up a pane in the lower left corner of the
 table window. That pane shows the ending of the previous hand: players' hole
 cards (unless they mucked) and the hand they made.</p>
-<p>The winning "high"<sup class="footnote-reference"><a href="#1">1</a></sup> hands are in green (and bold, so color-blind
+<p>The winning "high"<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup> hands are in green (and bold, so color-blind
 people can recognize them).  The winning "low" hands are in blue (and
 italics). If you mouse over a high or low label that has won chips from
 a pot, the amount won is displayed as a "tooltip". If there are multiple
 pots (due to one or more players being all-in), the amounts won from each
 pot are shown.</p>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
 <p>Some games split the pot with two different high hands, e.g., Dramaha,
 where one high hand is made using the board and the other high hand is made
 using solely the player's hole cards. In games like these, one of the two
 high hands gets the extra chip if there is one. It's the high hand that
-gets the extra chip that will be in green and bold.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="fun-money"><a class="header" href="#fun-money">Fun Money</a></h1>
+gets the extra chip that will be in green and bold. <a href="#fr-1-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="fun-money"><a class="header" href="#fun-money">Fun Money</a></h1>
 <p>Mb2 "keeps score" by tracking "Fun Money", an abstraction of what a
 real life poker player spends and perhaps wins while playing poker.</p>
 <h2 id="no-intrinsic-value"><a class="header" href="#no-intrinsic-value">No Intrinsic Value</a></h2>
@@ -812,7 +817,7 @@ level 15.</p>
 <p>This series was open to the public.</p>
 <h2 id="prize-for-first-place"><a class="header" href="#prize-for-first-place">Prize for first place</a></h2>
 <p>Craft Poker Co. sent a physical prize to the winner of each
-tournament in the series<sup class="footnote-reference"><a href="#1">1</a></sup>. The prize will be an <a href="https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html">Engraved Rectangular
+tournament in the series<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>. The prize will be an <a href="https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html">Engraved Rectangular
 Glass
 Paperweight</a>
 unless they run out or other unforeseen circumstances.</p>
@@ -858,13 +863,13 @@ the Fun Money from rebuys goes directly into the prize pool,</p>
 <tr><td>July 2nd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20369.pdf">8-handed PLO Championship</a></td><td><a href="https://craftpoker.com/event/3476/player/6">smalltalkdan</a></td></tr>
 <tr><td>July 3rd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_4943_20370.pdf">Main Event</a></td><td><a href="https://craftpoker.com/event/3477/player/20">jrx</a></td></tr>
 </tbody></table>
-</div>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+</div><hr>
+<ol class="footnote-definition"><li id="footnote-1">
 <p>except to the winner who lives out of the country.  His
 paperweights have been engraved and are being kept for him by
-<a href="https://ctm.github.io/docs/yld/">deadhead</a>.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="wywab"><a class="header" href="#wywab">WYWAB</a></h1>
+<a href="https://ctm.github.io/docs/yld/">deadhead</a>. <a href="#fr-1-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="wywab"><a class="header" href="#wywab">WYWAB</a></h1>
 <h2 id="overview-1"><a class="header" href="#overview-1">Overview</a></h2>
 <p>WYWAB stands for "Wish You Were At BARGE".  The WYWAB series was an mb2
 tournament dealt for most of the BARGE tournaments.  There was no fee to
@@ -1011,7 +1016,7 @@ tournament.</p>
 of the completion of each tournament, although there were
 delays around <a href="https://www.wser.org/">June 24th</a>.</p>
 <div class="table-wrapper"><table><thead><tr><th>Date</th><th>Event (and link to Event Structure Sheet)</th><th>Winner</th></tr></thead><tbody>
-<tr><td>May 30th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf">#1 Employee Appreciation</a><sup class="footnote-reference"><a href="#3">1</a></sup> <a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf"> No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4478/player/95">COC</a></td></tr>
+<tr><td>May 30th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf">#1 Employee Appreciation</a><sup class="footnote-reference" id="fr-3-1"><a href="#footnote-3">1</a></sup> <a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf"> No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4478/player/95">COC</a></td></tr>
 <tr><td>May 31st</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21669.pdf">#4 TOC No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4479/player/6">smalltalkdan</a></td></tr>
 <tr><td>June 1st</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21671.pdf">#6 Mixed No-Limit Hold'em and Pot-Limit Omaha</a></td><td><a href="https://craftpoker.com/event/4480/player/9">Grizz</a></td></tr>
 <tr><td>June 2nd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21674.pdf">#9 Seven Card Stud</a></td><td><a href="https://craftpoker.com/event/4481/player/17">ODB Phat Mack 🎈🎈</a></td></tr>
@@ -1037,7 +1042,7 @@ delays around <a href="https://www.wser.org/">June 24th</a>.</p>
 <tr><td>June 22nd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21717.pdf">#52 Mixed Triple Draw Lowball </a></td><td><a href="https://craftpoker.com/event/4564/player/20">jrx</a></td></tr>
 <tr><td>June 23th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21719.pdf">#54 H.O.R.S.E. Championship</a></td><td><a href="https://craftpoker.com/event/4565/player/12">Pokerchimp</a></td></tr>
 <tr><td>June 24th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21720.pdf">#55 Seven Card Stud Hi-Lo 8 or Better</a></td><td><a href="https://craftpoker.com/event/4566/player/9">Grizz</a></td></tr>
-<tr><td>June 25th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf">#56 Salute to Warriors - No-Limit Hold’em</a><sup class="footnote-reference"><a href="#4">2</a></sup></td><td><a href="https://craftpoker.com/event/4567/player/9">Grizz</a></td></tr>
+<tr><td>June 25th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf">#56 Salute to Warriors - No-Limit Hold’em</a><sup class="footnote-reference" id="fr-4-1"><a href="#footnote-4">2</a></sup></td><td><a href="https://craftpoker.com/event/4567/player/9">Grizz</a></td></tr>
 <tr><td>June 26th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf">#60 No-Limit 2-7 Lowball Draw</a></td><td><a href="https://craftpoker.com/event/4584/player/26">ADB DaVoice</a></td></tr>
 <tr><td>June 27th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf">#63 Seven Card Stud Hi-Lo 8 or Better Championship</a></td><td><a href="https://craftpoker.com/event/4585/player/11">gerdog</a></td></tr>
 <tr><td>June 28th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf">#66 Pot-Limit Omaha Hi-Lo 8 or Better</a></td><td><a href="https://craftpoker.com/event/4586/player/20">jrx</a></td></tr>
@@ -1045,81 +1050,81 @@ delays around <a href="https://www.wser.org/">June 24th</a>.</p>
 <tr><td>June 30th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf">#71 High Roller Pot-Limit Omaha</a></td><td><a href="https://craftpoker.com/event/4588/player/12">pokerchimp</a></td></tr>
 <tr><td>July 1st</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf">#73 Mixed Big Bet Event</a></td><td><a href="https://craftpoker.com/event/4589/player/6">smalltalkdan</a></td></tr>
 <tr><td>July 2nd</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf">#75 Pot-Limit Omaha Hi-Lo 8 or Better Championship</a></td><td><a href="https://craftpoker.com/event/4590/player/11">gerdog</a></td></tr>
-<tr><td>July 3rd</td><td><a href="series/2023/wsop-style.html#">SAM 🚴6 Championship</a><sup class="footnote-reference"><a href="#5">3</a></sup></td><td><a href="https://craftpoker.com/event/4622/player/11">gerdog</a></td></tr>
+<tr><td>July 3rd</td><td><a href="series/2023/wsop-style.html#">SAM 🚴6 Championship</a><sup class="footnote-reference" id="fr-5-1"><a href="#footnote-5">3</a></sup></td><td><a href="https://craftpoker.com/event/4622/player/11">gerdog</a></td></tr>
 <tr><td>July 4th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf">#76 <strong>Main Event</strong> No-Limit Hold'em World Championship</a></td><td><a href="https://craftpoker.com/event/4623/player/9">Grizz</a></td></tr>
-<tr><td>July 5th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf">#5 Dealer's Choice 6-Handed</a><sup class="footnote-reference"><a href="#6">4</a></sup></td><td><a href="https://craftpoker.com/event/4624/player/32">samarai</a></td></tr>
-<tr><td>July 6th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf"><del>#10 Dealer's Choice 6-Handed Championship</del><br/>accidental 21-game mix</a><sup class="footnote-reference"><a href="#8">5</a></sup></td><td><a href="https://craftpoker.com/event/4625/player/11">gerdog</a></td></tr>
-<tr><td>July 7th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf"><del>#78 Bounty Pot-Limit Omaha</del><br/>mislabeled #77 Lucky 7's No-Limit Hold'em</a><sup class="footnote-reference"><a href="#9">6</a></sup></td><td><a href="https://craftpoker.com/event/4626/player/49">maverick600</a></td></tr>
-<tr><td>July 8th</td><td><a href="series/2023/wsop-style.html#"><strong>NOT COUNTING</strong> HOSDARSS Championship</a><sup class="footnote-reference"><a href="#10">7</a></sup></td><td><a href="https://craftpoker.com/event/4627/player/11">gerdog</a></td></tr>
+<tr><td>July 5th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf">#5 Dealer's Choice 6-Handed</a><sup class="footnote-reference" id="fr-6-1"><a href="#footnote-6">4</a></sup></td><td><a href="https://craftpoker.com/event/4624/player/32">samarai</a></td></tr>
+<tr><td>July 6th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf"><del>#10 Dealer's Choice 6-Handed Championship</del><br/>accidental 21-game mix</a><sup class="footnote-reference" id="fr-8-1"><a href="#footnote-8">5</a></sup></td><td><a href="https://craftpoker.com/event/4625/player/11">gerdog</a></td></tr>
+<tr><td>July 7th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf"><del>#78 Bounty Pot-Limit Omaha</del><br/>mislabeled #77 Lucky 7's No-Limit Hold'em</a><sup class="footnote-reference" id="fr-9-1"><a href="#footnote-9">6</a></sup></td><td><a href="https://craftpoker.com/event/4626/player/49">maverick600</a></td></tr>
+<tr><td>July 8th</td><td><a href="series/2023/wsop-style.html#"><strong>NOT COUNTING</strong> HOSDARSS Championship</a><sup class="footnote-reference" id="fr-10-1"><a href="#footnote-10">7</a></sup></td><td><a href="https://craftpoker.com/event/4627/player/11">gerdog</a></td></tr>
 <tr><td>July 9th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf">#77 Lucky 7's No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4628/player/6">smalltalkdan</a></td></tr>
 <tr><td>July 10th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf">#80 High Roller H.O.R.S.E.</a></td><td><a href="https://craftpoker.com/event/4639/player/28">JADC🚴</a></td></tr>
 <tr><td>July 11th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf">#82 6-Handed Pot-Limit Omaha</a></td><td><a href="https://craftpoker.com/event/4640/player/12">pokerchimp</a></td></tr>
 <tr><td>July 12th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf">#83 Short Deck No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4641/player/12">pokerchimp</a></td></tr>
 <tr><td>July 13th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21752.pdf">#87 Mixed</a></td><td><a href="https://craftpoker.com/event/4642/player/10712">FeltShark</a></td></tr>
 <tr><td>July 14th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21755.pdf">#90 6-Handed No-Limit Hold'em Championship</a></td><td><a href="https://craftpoker.com/event/4643/player/14">jpmassar</a></td></tr>
-<tr><td>July 15th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf"><del>#91 H.O.R.S.E.</del><br/>did not finish</a><sup class="footnote-reference"><a href="#11">8</a></sup></td><td></td></tr>
+<tr><td>July 15th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf"><del>#91 H.O.R.S.E.</del><br/>did not finish</a><sup class="footnote-reference" id="fr-11-1"><a href="#footnote-11">8</a></sup></td><td></td></tr>
 <tr><td>July 16th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf">#93 Short Deck No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4645/player/10712">FeltShark</a></td></tr>
 <tr><td>July 17th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf">#94 8-Handed No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4646/player/28">JADC🚴</a></td></tr>
 <tr><td>July 18th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf">#95 Super Turbo No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/4647/player/20">jrx</a></td></tr>
-<tr><td>July 26th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf">#10 Dealer's Choice 6-Handed Championship</a><sup class="footnote-reference"><a href="#6">4</a></sup></td><td><a href="https://craftpoker.com/event/4679/player/32">samarai</a></td></tr>
-<tr><td>July 27th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf">#78 Bounty Pot-Limit Omaha</a><sup class="footnote-reference"><a href="#7">9</a></sup></td><td><a href="https://craftpoker.com/event/4680/player/10635">jzk</a></td></tr>
-<tr><td>July 28th</td><td><a href="series/2023/wsop-style.html#">HOSDARSS Championship</a><sup class="footnote-reference"><a href="#10">7</a></sup></td><td><a href="https://craftpoker.com/event/4681/player/6">smalltalkdan</a></td></tr>
-<tr><td>July 29th<sup class="footnote-reference"><a href="#12">10</a></sup></td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf">#91 H.O.R.S.E.</a><sup class="footnote-reference"><a href="#11">8</a></sup></td><td><a href="https://craftpoker.com/event/4687/player/49">Maverick600</a></td></tr>
+<tr><td>July 26th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf">#10 Dealer's Choice 6-Handed Championship</a><sup class="footnote-reference" id="fr-6-2"><a href="#footnote-6">4</a></sup></td><td><a href="https://craftpoker.com/event/4679/player/32">samarai</a></td></tr>
+<tr><td>July 27th</td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf">#78 Bounty Pot-Limit Omaha</a><sup class="footnote-reference" id="fr-7-1"><a href="#footnote-7">9</a></sup></td><td><a href="https://craftpoker.com/event/4680/player/10635">jzk</a></td></tr>
+<tr><td>July 28th</td><td><a href="series/2023/wsop-style.html#">HOSDARSS Championship</a><sup class="footnote-reference" id="fr-10-2"><a href="#footnote-10">7</a></sup></td><td><a href="https://craftpoker.com/event/4681/player/6">smalltalkdan</a></td></tr>
+<tr><td>July 29th<sup class="footnote-reference" id="fr-12-1"><a href="#footnote-12">10</a></sup></td><td><a href="https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf">#91 H.O.R.S.E.</a><sup class="footnote-reference" id="fr-11-2"><a href="#footnote-11">8</a></sup></td><td><a href="https://craftpoker.com/event/4687/player/49">Maverick600</a></td></tr>
 </tbody></table>
-</div>
-<div class="footnote-definition" id="3"><sup class="footnote-definition-label">1</sup>
+</div><hr>
+<ol class="footnote-definition"><li id="footnote-3">
 <p>At the World Series of Poker, this event was limited to Casino
 Employees.  In this series—in 2023 at least—no events had
 any such restrictions.  However, participants were encouraged to
-harbor warm thoughts toward casino employees while playing.</p>
-</div>
-<div class="footnote-definition" id="4"><sup class="footnote-definition-label">2</sup>
-<p>This <strong>was not</strong> a charity event in 2023.</p>
-</div>
-<div class="footnote-definition" id="5"><sup class="footnote-definition-label">3</sup>
+harbor warm thoughts toward casino employees while playing. <a href="#fr-3-1">↩</a></p>
+</li>
+<li id="footnote-4">
+<p>This <strong>was not</strong> a charity event in 2023. <a href="#fr-4-1">↩</a></p>
+</li>
+<li id="footnote-5">
 <p>SAM 🚴6 and HOSDARSS are not (yet!) part of the World Series of
 Poker.  Both of those structures were made—with great respect
 and sadness—in memory of <a href="https://feldmanmemorial.com/tribute/details/4734/David-Lawful/obituary.html">David
 Lawful</a>
-(craftpoker.com player id 22).</p>
-</div>
-<div class="footnote-definition" id="6"><sup class="footnote-definition-label">4</sup>
+(craftpoker.com player id 22). <a href="#fr-5-1">↩</a></p>
+</li>
+<li id="footnote-6">
 <p>At the World Series of Poker, the Dealer's Choice tournaments
 were scheduled for May 31st and June 3rd, but mb2 didn't deal Dealer's
 Choice then, so they were scheduled for these two slots which had been
-taken by the multi-day Main Event at the World Series.</p>
-</div>
-<div class="footnote-definition" id="8"><sup class="footnote-definition-label">5</sup>
+taken by the multi-day Main Event at the World Series. <a href="#fr-6-1">↩</a> <a href="#fr-6-2">↩2</a></p>
+</li>
+<li id="footnote-8">
 <p>This was supposed to be the Dealer's Choice Championship, but a bug
 made it a 21-game Mix. All the Dealer's Choice games were played in succession
-with nobody making a choice.</p>
-</div>
-<div class="footnote-definition" id="9"><sup class="footnote-definition-label">6</sup>
+with nobody making a choice. <a href="#fr-8-1">↩</a></p>
+</li>
+<li id="footnote-9">
 <p>This was supposed to the PLO Bounty tournament, but it was actually
 the Lucky 7's structure (which included unlimited rebuys up through
-Level 22).</p>
-</div>
-<div class="footnote-definition" id="10"><sup class="footnote-definition-label">7</sup>
+Level 22). <a href="#fr-9-1">↩</a></p>
+</li>
+<li id="footnote-10">
 <p>The way I tried to clean up the mislabeled tournaments error caused mb2
 to start some players with too few tournament chips, so that tournament does
-not count toward WSOPS standings, but the (post-BARGE) replacement did.</p>
-</div>
-<div class="footnote-definition" id="11"><sup class="footnote-definition-label">8</sup>
+not count toward WSOPS standings, but the (post-BARGE) replacement did. <a href="#fr-10-1">↩</a> <a href="#fr-10-2">↩2</a></p>
+</li>
+<li id="footnote-11">
 <p>The tournament was aborted in the middle.  I had started a
 deploy and taken a short nap and something caused the deploy to take
-way too long and I didn't notice it.</p>
-</div>
-<div class="footnote-definition" id="7"><sup class="footnote-definition-label">9</sup>
+way too long and I didn't notice it. <a href="#fr-11-1">↩</a> <a href="#fr-11-2">↩2</a></p>
+</li>
+<li id="footnote-7">
 <p>An FM 65 bounty from the prize pool was awarded each time a player
 was completely busted (i.e. was busted and didn't rebuy) from the tournament.
-The bounty was awarded to the player who was considered the "buster".</p>
-</div>
-<div class="footnote-definition" id="12"><sup class="footnote-definition-label">10</sup>
+The bounty was awarded to the player who was considered the "buster". <a href="#fr-7-1">↩</a></p>
+</li>
+<li id="footnote-12">
 <p>Although July 29th, 2023 was a Saturday, this tournament ran at
 5pm Pacific, like each of the other three make-up (post-WSOP / post-BARGE)
-WSOP-Style tournaments that immediately preceded it.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="wywab-1"><a class="header" href="#wywab-1">WYWAB</a></h1>
+WSOP-Style tournaments that immediately preceded it. <a href="#fr-12-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="wywab-1"><a class="header" href="#wywab-1">WYWAB</a></h1>
 <h2 id="overview-4"><a class="header" href="#overview-4">Overview</a></h2>
 <p>WYWAB stands for "Wish You Were At
 <a href="https://www.barge.org/barge-2023-schedule">BARGE</a>".</p>
@@ -1215,7 +1220,7 @@ mb2 tournament dealt for each of the EMBARGO tournaments.</p>
 <p>Each tournament was a freeroll: there was no fee to enter and entry was
 available to the public.</p>
 <p>The winner of each tournament received $100 via Venmo or Zelle.</p>
-<p>Additional places paid, depending on how many players participated<sup class="footnote-reference"><a href="#1">1</a></sup>:</p>
+<p>Additional places paid, depending on how many players participated<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>:</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: right">Place</th><th style="text-align: right">2-4</th><th style="text-align: right">5-8</th><th style="text-align: right">9-15</th><th style="text-align: right">16-24</th><th style="text-align: right">25 or more</th></tr></thead><tbody>
 <tr><td style="text-align: right">1st</td><td style="text-align: right">$100</td><td style="text-align: right">$100</td><td style="text-align: right">$100</td><td style="text-align: right">$100</td><td style="text-align: right">$100</td></tr>
 <tr><td style="text-align: right">2nd</td><td style="text-align: right"></td><td style="text-align: right">$45</td><td style="text-align: right">$60</td><td style="text-align: right">$60</td><td style="text-align: right">$65</td></tr>
@@ -1246,7 +1251,7 @@ a completely unrelated corporation.</p>
 <tr><td style="text-align: right">1st</td><td style="text-align: right">6:00 pm PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=1">6-Handed Tournament of Champions</a></td><td>19</td><td><a href="https://craftpoker.com/event/5109/player/29">Bridgeman</a></td></tr>
 <tr><td style="text-align: right">2nd</td><td style="text-align: right">11:00 am PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=2">World Online Chowaha Championship</a></td><td>10</td><td><a href="https://craftpoker.com/event/5110/player/32">samarai</a></td></tr>
 <tr><td style="text-align: right">2nd</td><td style="text-align: right">6:00 pm PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=3">Double Board Pot-Limit Omaha</a></td><td>11</td><td><a href="https://craftpoker.com/event/5111/player/28">JADC🚴</a></td></tr>
-<tr><td style="text-align: right">3rd</td><td style="text-align: right">11:00 am PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4">Double Green Chip Bounty No-Limit Hold'em</a><sup class="footnote-reference"><a href="#2">2</a></sup></td><td>15</td><td><a href="https://craftpoker.com/event/5112/player/36">Mrstcao</a></td></tr>
+<tr><td style="text-align: right">3rd</td><td style="text-align: right">11:00 am PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=4">Double Green Chip Bounty No-Limit Hold'em</a><sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">2</a></sup></td><td>15</td><td><a href="https://craftpoker.com/event/5112/player/36">Mrstcao</a></td></tr>
 <tr><td style="text-align: right">3rd</td><td style="text-align: right">6:00 pm PST</td><td><a href="https://omaholic.com/2024_EMBARGO_Structures.pdf#page=5">B.O.S.S. (Big O + Super Stud/8)</a></td><td>15</td><td><a href="https://craftpoker.com/event/5113/player/20">jrx</a></td></tr>
 </tbody></table>
 </div>
@@ -1278,18 +1283,19 @@ mb2.</p>
 <br/>
 <br/>
 <hr/>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>Real players; no sock puppets or no-shows, please</p>
-</div>
-<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
-<p>There was no cash value associated with the bounties, per-se, only <a href="series/2024/../../fun_money.html">Fun Money</a>, but the cash payouts were ranked by Fun Money won, which did include the bounties.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="wsop-style-2024"><a class="header" href="#wsop-style-2024">WSOP-Style 2024</a></h1>
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
+<p>Real players; no sock puppets or no-shows, please <a href="#fr-1-1">↩</a></p>
+</li>
+<li id="footnote-2">
+<p>There was no cash value associated with the bounties, per-se, only <a href="series/2024/../../fun_money.html">Fun Money</a>, but the cash payouts were ranked by Fun Money won, which did include the bounties. <a href="#fr-2-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="wsop-style-2024"><a class="header" href="#wsop-style-2024">WSOP-Style 2024</a></h1>
 <h2 id="no-prizes-no-cash-just-fun"><a class="header" href="#no-prizes-no-cash-just-fun">No Prizes, No Cash, Just Fun</a></h2>
 <p>With the exception of the May 28th and July 5th events, there were
 no prizes.  The May 28th tournament had six players, so two places paid:
 jrx won $100 for finishing first and smalltalkdan won $45 for coming in
-second.  The July 5th event had sixteen players<sup class="footnote-reference"><a href="#1">1</a></sup>, so four places paid:
+second.  The July 5th event had sixteen players<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>, so four places paid:
 smalltalkdan won $100, tegwin won $65 in second place, jpmassar $45 in
 third and JADC🚴 received $35 for fourth.</p>
 <h2 id="overview-6"><a class="header" href="#overview-6">Overview</a></h2>
@@ -1372,7 +1378,7 @@ Mb2 structure sheet.</p>
 <tr><td>Jul 6th</td><td style="text-align: right"><a href="https://wsop.com/pdfs/structuresheets/structure_5504_23258.pdf">#82</a></td><td><a href="https://craftpoker.com/tournament/structure/5370">No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/5370/player/29">Bridgeman</a></td></tr>
 <tr><td>Jul 7th</td><td style="text-align: right"><a href="https://wsop.com/pdfs/structuresheets/structure_5504_23259.pdf">#83</a></td><td><a href="https://craftpoker.com/tournament/structure/5371">Eight Game Mix (6-Handed)</a></td><td><a href="https://craftpoker.com/event/5371/player/10">deadhead</a></td></tr>
 <tr><td>Jul 8th</td><td style="text-align: right"><a href="https://wsop.com/pdfs/structuresheets/structure_5504_23260.pdf">#84</a></td><td><a href="https://craftpoker.com/tournament/structure/5372">Ultra Stack No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/5372/player/37">ts4z</a></td></tr>
-<tr><td>Jul 9th</td><td style="text-align: right"><a href="https://wsop.com/pdfs/structuresheets/structure_5504_23263.pdf">#87</a></td><td><a href="https://craftpoker.com/tournament/structure/5373">No-Limit Hold'em (8-Handed)</a><sup class="footnote-reference"><a href="#2">2</a></sup></td><td><a href="https://craftpoker.com/event/5373/player/9">Grizz</a></td></tr>
+<tr><td>Jul 9th</td><td style="text-align: right"><a href="https://wsop.com/pdfs/structuresheets/structure_5504_23263.pdf">#87</a></td><td><a href="https://craftpoker.com/tournament/structure/5373">No-Limit Hold'em (8-Handed)</a><sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">2</a></sup></td><td><a href="https://craftpoker.com/event/5373/player/9">Grizz</a></td></tr>
 <tr><td>Jul 10th</td><td style="text-align: right"><a href="https://wsop.com/pdfs/structuresheets/structure_5504_23264.pdf">#88</a></td><td><a href="https://craftpoker.com/tournament/structure/5374">Eight Game Mix (6-Handed)</a></td><td><a href="https://craftpoker.com/event/5374/player/10">deadhead</a></td></tr>
 <tr><td>Jul 11th</td><td style="text-align: right"><a href="https://wsop.com/pdfs/structuresheets/structure_5504_23267.pdf">#91</a></td><td><a href="https://craftpoker.com/tournament/structure/5375">H.O.R.S.E. (8-Handed)</a></td><td><a href="https://craftpoker.com/event/5375/player/29">Bridgeman</a></td></tr>
 <tr><td>Jul 12th</td><td style="text-align: right"><a href="https://wsop.com/pdfs/structuresheets/structure_5504_23268.pdf">#92</a></td><td><a href="https://craftpoker.com/tournament/structure/5376">HIGH ROLLER No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/5376/player/10">deadhead</a></td></tr>
@@ -1396,21 +1402,22 @@ is a <a href="https://www.barge.org/">BARGE</a> inspired structure, "SAM_6", a f
 Lawful</a>,
 a generous member of BARGE.  He liked to play odd games, although he was a
 formidable opponent in all and a BARGE main event winner (2013).</p>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
 <p>One player entered twice, using separate nicknames.  His second entry
 took second place, but by mutual agreement we decided to not include his
 second entry in the prize money.  I will make that explicit in future
-series.</p>
-</div>
-<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+series. <a href="#fr-1-1">↩</a></p>
+</li>
+<li id="footnote-2">
 <p>I botched and we played nine-handed, rather than eight-handed.
 When I was setting up the the WSOP-Style series this year, I thought I
 could re-use the structure from last year's #94, because I thought
 they were the same event. They were the same in all respects, <em>except</em>
 this year's event was 8-handed IRL (but 9-handed due to my mistake).
-Oh well.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="wywab-2"><a class="header" href="#wywab-2">WYWAB</a></h1>
+Oh well. <a href="#fr-2-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="wywab-2"><a class="header" href="#wywab-2">WYWAB</a></h1>
 <h2 id="overview-7"><a class="header" href="#overview-7">Overview</a></h2>
 <p>WYWAB stands for "Wish You Were At
 <a href="https://www.barge.org/barge-2024-schedule">BARGE</a>".</p>
@@ -1607,7 +1614,7 @@ a completely unrelated corporation.</p>
 <tr><td style="text-align: right">17th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=3">6:00 pm PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5670">SHESHE: Simultaneous Hold'em and Super Hold'em</a></td><td>5</td><td><a href="https://craftpoker.com/event/5670/player/11">gerdog</a></td></tr>
 <tr><td style="text-align: right">18th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=4">11:00 am PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5671">CHAOS</a></td><td>0</td><td><em>did not have players</em></td></tr>
 <tr><td style="text-align: right">18th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=5">6:00 pm PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5672">SHORT: Stud, Hold'em, Omaha Eight, Razz, 2-7 Triple Draw</a></td><td>8</td><td><a href="https://craftpoker.com/event/5672/player/14">jpmassar</a></td></tr>
-<tr><td style="text-align: right">19th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=6">11:00 am PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5673">Double Green Chip Bounty Pot Limit Omaha</a><sup class="footnote-reference"><a href="#2">1</a></sup></td><td>0</td><td><em>did not have players</em></td></tr>
+<tr><td style="text-align: right">19th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=6">11:00 am PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5673">Double Green Chip Bounty Pot Limit Omaha</a><sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">1</a></sup></td><td>0</td><td><em>did not have players</em></td></tr>
 <tr><td style="text-align: right">19th</td><td style="text-align: right"><a href="https://omaholic.com/2025_EMBARGO_Structures.pdf#page=7">6:00 pm PST</a></td><td><a href="https://craftpoker.com/tournament/structure/5674">Triple Draw Quick Quads</a></td><td>5</td><td><a href="https://craftpoker.com/event/5674/player/14">jpmassar</a></td></tr>
 </tbody></table>
 </div>
@@ -1629,10 +1636,11 @@ after the hour. The break will then be five minutes long.</p>
 <p>During WYWAE tournaments, you may re-enter up to two times, through level 9 for
 all tournaments except CHAOS, which allows up to five re-entries.  If that is
 too chaotic for you, don't play.</p>
-<div class="footnote-definition" id="2"><sup class="footnote-definition-label">1</sup>
-<p>There is no cash value associated with the bounties, only <a href="series/2025/../../fun_money.html">Fun Money</a>.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="ring-games"><a class="header" href="#ring-games">Ring Games</a></h1>
+<hr>
+<ol class="footnote-definition"><li id="footnote-2">
+<p>There is no cash value associated with the bounties, only <a href="series/2025/../../fun_money.html">Fun Money</a>. <a href="#fr-2-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="ring-games"><a class="header" href="#ring-games">Ring Games</a></h1>
 <p>Ring games, also known as cash games (even though no cash is involved),
 are the non-tournament form of poker.</p>
 <p>In a Ring Game, you choose how much of your Fun Money you want to
@@ -1744,7 +1752,7 @@ a high priority.</p>
 <h3 id="emojis"><a class="header" href="#emojis">Emojis</a></h3>
 <p>You can either type (or paste) emojis in as utf-8 or you can use <a href="https://emojipedia.org/github/">GitHub
 emoji shortcodes</a>, but only for the GitHub
-emojis that have a Unicode representation<sup class="footnote-reference"><a href="#1">1</a></sup>.  E.g., if I
+emojis that have a Unicode representation<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>.  E.g., if I
 type</p>
 <blockquote>
 <p>Yup! I hit my two outer. :grinning:</p>
@@ -1753,14 +1761,6 @@ type</p>
 <blockquote>
 <p>Yup! I hit my two outer. 😀</p>
 </blockquote>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>Unfortunately, I know of no nicely structured list of that GitHub
-emoji subset and the <a href="https://gist.github.com/rxaviers/7360908">gist that shows <em>all</em> GitHub emoji
-shortcodes</a> leads with
-:bowtie: which <em>does not</em> have a Unicode representation. Luckily,
-the vast majority of the emojis in that list are indeed represented
-by Unicode.</p>
-</div>
 <p>Additionally, if you want to use that list, you might be able to tell
 whether a particular emoji has a Unicode representation by hovering
 your mouse over the emoji. Try doing that with the bowtie emoji and
@@ -1768,8 +1768,17 @@ almost any other emoji on that page and you may see that your cursor
 turns to an I-beam for emojis with a Unicode representation (e.g.,
 :smile:) but remains an arrow for one of the ones that doesn't work
 (e.g., :bowtie:).</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal sixty-four different variations of poker<sup class="footnote-reference"><a href="#1">1</a></sup>. This includes
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
+<p>Unfortunately, I know of no nicely structured list of that GitHub
+emoji subset and the <a href="https://gist.github.com/rxaviers/7360908">gist that shows <em>all</em> GitHub emoji
+shortcodes</a> leads with
+:bowtie: which <em>does not</em> have a Unicode representation. Luckily,
+the vast majority of the emojis in that list are indeed represented
+by Unicode. <a href="#fr-1-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="games"><a class="header" href="#games">Games</a></h1>
+<p>Mb2 can deal sixty-four different variations of poker<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.</p>
 <p>The <a href="https://www.barge.org/rulebook/">BARGE Rule Book</a> has
@@ -1777,9 +1786,6 @@ rules to almost all of the games mb2 deals.  The exceptions are
 <a href="./games/sack.html">Sack</a>, <a href="./games/wonky-donkey.html">Wonky Donkey</a>,
 <a href="./games/regular-pineapple.html">Regular Pineapple</a>,
 <a href="./games/redrum.html">Redrum</a>, and <a href="games/dealers-choice.html">Dealer's Choice</a>.</p>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty-seven. That number comes from the source code to mb2:</p>
-</div>
 <pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 67]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
@@ -1837,7 +1843,11 @@ of mb2. As such, it's not really that useful to Players, per-se.</p>
 <tr><td>Simultaneous</td><td>SOHE (Simultaneous Omaha and Hold'em)</td></tr>
 <tr><td>Choice</td><td>Paradise Road Pick'em, Wonky Donkey, Dealer's</td></tr>
 </tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
+</div><hr>
+<ol class="footnote-definition"><li id="footnote-1">
+<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty-seven. That number comes from the source code to mb2: <a href="#fr-1-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
 <p>Twenty-one different games are offered in Dealer's Choice.  Initially,
 the first player in or past seat one chooses the game.  That game is
 then played for six hands, and then the player in the next seat gets
@@ -1862,7 +1872,7 @@ textual nor visual) of who is going to get to choose next.</p>
 <li>Ace to 5 Lowball Triple Draw</li>
 <li>Badugi</li>
 <li>Badeucy</li>
-<li>Badacy<sup class="footnote-reference"><a href="#1">1</a></sup></li>
+<li>Badacy<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup></li>
 <li>No-Limit 2-7 Lowball Draw</li>
 <li>No-Limit 5-Card Draw High</li>
 <li>2-7 Razz</li>
@@ -1870,10 +1880,11 @@ textual nor visual) of who is going to get to choose next.</p>
 <p>You do not need to know the number to choose a game.  The choice is
 made from a menu, and the numbering just reflects the order of the
 choices in the menu.</p>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
-<p>also spelled "Badacey"</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="redrum"><a class="header" href="#redrum">Redrum</a></h1>
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
+<p>also spelled "Badacey" <a href="#fr-1-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="redrum"><a class="header" href="#redrum">Redrum</a></h1>
 <p>Redrum is
 <a href="https://www.ceemeck.org/BARGERuleBook2021/other.html#murder">Murder</a>
 where the low is deuce-to-seven style and there's no qualifier but the
@@ -2379,7 +2390,7 @@ Crowdfunding Portal.</p>
 or CPC's software be sold without conversion, the net of the sale is
 split in half, with one half going to the Series A Preferred
 Shareholders pro-rata and the other half going to the common stock
-shareholders pro-rata<sup class="footnote-reference"><a href="#1">1</a></sup>.</p>
+shareholders pro-rata<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>.</p>
 <p>Conversion happens only if at least one million dollars is raised at a
 pre-investment valuation of ten million dollars ($10MM) or more, or if
 the sale price is itself ten million dollars or more.</p>
@@ -2410,22 +2421,23 @@ are amounts are restatements of the above information.</p>
 <p>Should conversion occur, the minimum value of each Series A Preffered
 Share would be $10MM / 19,800 = $505.05, which is 2.88 times $175.</p>
 <p>Were CPC sold for less than $10MM, each Series A Preffered Share would
-be worth at least<sup class="footnote-reference"><a href="#2">2</a></sup> the net of the sale divided by 8,100, so a
+be worth at least<sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">2</a></sup> the net of the sale divided by 8,100, so a
 $1,417,500 net would be break-even, where a $3MM sale would return
 $370 per share.</p>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
 <p>Another way of saying that is that Cliff gets
 half of the proceeds and the other half is split amongst the Series A
 Preferred Shareholders. The liquidity preference, along with many other
-terms are provided in the Series A Preferred Stock Purchase Agreement.</p>
-</div>
-<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+terms are provided in the Series A Preferred Stock Purchase Agreement. <a href="#fr-1-1">↩</a></p>
+</li>
+<li id="footnote-2">
 <p>The figure here assumes all 1,520 Series A Preferred Shares have
 been sold. Were CPC to be sold with fewer than 1,520 Series A
 Preferred Shares sold, the value per share of the shares that <em>were</em>
-sold would be higher.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="craftpokercom"><a class="header" href="#craftpokercom">craftpoker.com</a></h1>
+sold would be higher. <a href="#fr-2-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="craftpokercom"><a class="header" href="#craftpokercom">craftpoker.com</a></h1>
 <p>While Craft Poker Co. is the name of the company,
 <a href="https://craftpoker.com">craftpoker.com</a> is the name of the site.</p>
 <p>Here's a super abbreviated version of what I plan for craftpoker.com</p>
@@ -2443,7 +2455,7 @@ sold would be higher.</p>
 <li>Administrators will be able to create their own tournament structures (starting chips, levels, blinds, breaks)</li>
 <li>Paying members will also have more/better history &amp; statistics (this one is a bit hand-wavy, but, as an example, it may be that free players can only request hand histories from the last 24 hours, while paying members can request all their hand histories, etc.)</li>
 <li>No other fees, no upselling, no buying of play chips</li>
-<li>"No"<sup class="footnote-reference"><a href="#1">1</a></sup> dark patterns
+<li>"No"<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup> dark patterns
 <ul>
 <li>No collection of unnecessary user data</li>
 <li>No selling, trading or sharing of user data</li>
@@ -2454,13 +2466,14 @@ sold would be higher.</p>
 </li>
 <li>Assuming Craft Poker Co. has sufficient capital, while the above is being developed, there will also be great improvements to the User Interface, allowing mb2 to be played on tablets "soon" and the ability to play on phones being a high priority (albeit too far away for me to say more just yet).</li>
 </ul>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
 <p>This requires rewording, because one could make a good argument
 that closed source itself is a dark pattern. Similarly, the artificial
 scarcity of low user-ids could be seen as a dark pattern rather than
-simply a way to reward early adopters.</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="updates"><a class="header" href="#updates">Updates</a></h1>
+simply a way to reward early adopters. <a href="#fr-1-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="updates"><a class="header" href="#updates">Updates</a></h1>
 <p>This section is an archive of key emails that have been sent to select people
 who have expressed interest in Craft Poker Co., the company.  It is here to
 serve two purposes:</p>
@@ -2512,7 +2525,7 @@ Agreement</a> from our business
 attorney.  Unfortunately, I was a bit tired (and unbeknownst to me
 at the time, slightly sick) when I received it, so I didn't make it
 immediately available.  Turns out, I had covid, which I gave to my
-ninety-two year old mother and that caused a lot of problems<sup class="footnote-reference"><a href="#1">1</a></sup>.</p>
+ninety-two year old mother and that caused a lot of problems<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>.</p>
 <details>
 <summary>Mom's Status (slipping into dementia)</summary>
 <p>Physically, mom is completely recovered from covid as you can see by
@@ -2539,7 +2552,7 @@ rebound.</p>
 <p>I still have a great immune system and probably never would have
 gotten covid had I not done a twenty-four hour race in the drinking
 division (meaning I had to drink a beer before each hilly four mile
-loop) on November 8th<sup class="footnote-reference"><a href="#2">2</a></sup>.  FWIW, I've done that race several times
+loop) on November 8th<sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">2</a></sup>.  FWIW, I've done that race several times
 before without getting sick, but I've lost fitness since I've become
 my mother's minder.</p>
 <p>When both mom and I had covid at the same time, I still had to tend to
@@ -2568,7 +2581,7 @@ of the year, both of which slow things down. Title3 Funds needs a few
 things:</p>
 <ol>
 <li>reviewed financial statements</li>
-<li>completion of <a href="https://www.sec.gov/files/formc.pdf">SEC Form C</a><sup class="footnote-reference"><a href="#3">3</a></sup></li>
+<li>completion of <a href="https://www.sec.gov/files/formc.pdf">SEC Form C</a><sup class="footnote-reference" id="fr-3-1"><a href="#footnote-3">3</a></sup></li>
 <li>marketing materials</li>
 </ol>
 <p>The financial statements have to come from CPC's accountant and I don't
@@ -2600,27 +2613,28 @@ when I'm caffeinated AF.</p>
 <p> </p>
 <p> </p>
 <hr/>
-<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<hr>
+<ol class="footnote-definition"><li id="footnote-1">
 <p>Covid is a complicated subject and writing a status report that
 provides "the right" amount of information is not something I can do
 quickly (or perhaps at all).  I'm acutely aware that "caused a lot of
 problems" sounds flip if not actually callous, but I want my opening
 paragraph to summarize the reason for the delay as well as to not hide
-challenges.</p>
-</div>
-<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+challenges. <a href="#fr-1-1">↩</a></p>
+</li>
+<li id="footnote-2">
 <p>I'd rather document my lack of judgment and foresight than to
 sweep it under the rug, especially since anyone following <a href="https://www.strava.com/athletes/58696205">me on
 Strava</a> and/or reading my
 <a href="https://github.com/ctm/diet/tree/master/log">diet log</a> would already
-know about this.</p>
-</div>
-<div class="footnote-definition" id="3"><sup class="footnote-definition-label">3</sup>
+know about this. <a href="#fr-2-1">↩</a></p>
+</li>
+<li id="footnote-3">
 <p>The PDF link is there just so you can see what it looks like, in
 general. I actually fill it out via
-<a href="https://www.raisepapers.com/">raisepapers.com</a></p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><html>
+<a href="https://www.raisepapers.com/">raisepapers.com</a> <a href="#fr-3-1">↩</a></p>
+</li>
+</ol><div style="break-before: page; page-break-before: always;"></div><html>
 <head>
     <style>
       @media (prefers-color-scheme: dark) {
@@ -2680,9 +2694,186 @@ general. I actually fill it out via
 <h3 id="Apache-2.0"><a class="header" href="#Apache-2.0">Apache License 2.0</a></h3>
 <h4 id="used-by"><a class="header" href="#used-by">Used by:</a></h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.20</a></li>
+          </ul>
+          <pre class="license-text">                              Apache License
+                        Version 2.0, January 2004
+                     http://www.apache.org/licenses/
+<p>TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION</p>
+<ol>
+<li>
+<p>Definitions.</p>
+<p>"License" shall mean the terms and conditions for use, reproduction,
+and distribution as defined by Sections 1 through 9 of this document.</p>
+<p>"Licensor" shall mean the copyright owner or entity authorized by
+the copyright owner that is granting the License.</p>
+<p>"Legal Entity" shall mean the union of the acting entity and all
+other entities that control, are controlled by, or are under common
+control with that entity. For the purposes of this definition,
+"control" means (i) the power, direct or indirect, to cause the
+direction or management of such entity, whether by contract or
+otherwise, or (ii) ownership of fifty percent (50%) or more of the
+outstanding shares, or (iii) beneficial ownership of such entity.</p>
+<p>"You" (or "Your") shall mean an individual or Legal Entity
+exercising permissions granted by this License.</p>
+<p>"Source" form shall mean the preferred form for making modifications,
+including but not limited to software source code, documentation
+source, and configuration files.</p>
+<p>"Object" form shall mean any form resulting from mechanical
+transformation or translation of a Source form, including but
+not limited to compiled object code, generated documentation,
+and conversions to other media types.</p>
+<p>"Work" shall mean the work of authorship, whether in Source or
+Object form, made available under the License, as indicated by a
+copyright notice that is included in or attached to the work
+(an example is provided in the Appendix below).</p>
+<p>"Derivative Works" shall mean any work, whether in Source or Object
+form, that is based on (or derived from) the Work and for which the
+editorial revisions, annotations, elaborations, or other modifications
+represent, as a whole, an original work of authorship. For the purposes
+of this License, Derivative Works shall not include works that remain
+separable from, or merely link (or bind by name) to the interfaces of,
+the Work and Derivative Works thereof.</p>
+<p>"Contribution" shall mean any work of authorship, including
+the original version of the Work and any modifications or additions
+to that Work or Derivative Works thereof, that is intentionally
+submitted to Licensor for inclusion in the Work by the copyright owner
+or by an individual or Legal Entity authorized to submit on behalf of
+the copyright owner. For the purposes of this definition, "submitted"
+means any form of electronic, verbal, or written communication sent
+to the Licensor or its representatives, including but not limited to
+communication on electronic mailing lists, source code control systems,
+and issue tracking systems that are managed by, or on behalf of, the
+Licensor for the purpose of discussing and improving the Work, but
+excluding communication that is conspicuously marked or otherwise
+designated in writing by the copyright owner as "Not a Contribution."</p>
+<p>"Contributor" shall mean Licensor and any individual or Legal Entity
+on behalf of whom a Contribution has been received by Licensor and
+subsequently incorporated within the Work.</p>
+</li>
+<li>
+<p>Grant of Copyright License. Subject to the terms and conditions of
+this License, each Contributor hereby grants to You a perpetual,
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+copyright license to reproduce, prepare Derivative Works of,
+publicly display, publicly perform, sublicense, and distribute the
+Work and such Derivative Works in Source or Object form.</p>
+</li>
+<li>
+<p>Grant of Patent License. Subject to the terms and conditions of
+this License, each Contributor hereby grants to You a perpetual,
+worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+(except as stated in this section) patent license to make, have made,
+use, offer to sell, sell, import, and otherwise transfer the Work,
+where such license applies only to those patent claims licensable
+by such Contributor that are necessarily infringed by their
+Contribution(s) alone or by combination of their Contribution(s)
+with the Work to which such Contribution(s) was submitted. If You
+institute patent litigation against any entity (including a
+cross-claim or counterclaim in a lawsuit) alleging that the Work
+or a Contribution incorporated within the Work constitutes direct
+or contributory patent infringement, then any patent licenses
+granted to You under this License for that Work shall terminate
+as of the date such litigation is filed.</p>
+</li>
+<li>
+<p>Redistribution. You may reproduce and distribute copies of the
+Work or Derivative Works thereof in any medium, with or without
+modifications, and in Source or Object form, provided that You
+meet the following conditions:</p>
+<p>(a) You must give any other recipients of the Work or
+Derivative Works a copy of this License; and</p>
+<p>(b) You must cause any modified files to carry prominent notices
+stating that You changed the files; and</p>
+<p>(c) You must retain, in the Source form of any Derivative Works
+that You distribute, all copyright, patent, trademark, and
+attribution notices from the Source form of the Work,
+excluding those notices that do not pertain to any part of
+the Derivative Works; and</p>
+<p>(d) If the Work includes a "NOTICE" text file as part of its
+distribution, then any Derivative Works that You distribute must
+include a readable copy of the attribution notices contained
+within such NOTICE file, excluding those notices that do not
+pertain to any part of the Derivative Works, in at least one
+of the following places: within a NOTICE text file distributed
+as part of the Derivative Works; within the Source form or
+documentation, if provided along with the Derivative Works; or,
+within a display generated by the Derivative Works, if and
+wherever such third-party notices normally appear. The contents
+of the NOTICE file are for informational purposes only and
+do not modify the License. You may add Your own attribution
+notices within Derivative Works that You distribute, alongside
+or as an addendum to the NOTICE text from the Work, provided
+that such additional attribution notices cannot be construed
+as modifying the License.</p>
+<p>You may add Your own copyright statement to Your modifications and
+may provide additional or different license terms and conditions
+for use, reproduction, or distribution of Your modifications, or
+for any such Derivative Works as a whole, provided Your use,
+reproduction, and distribution of the Work otherwise complies with
+the conditions stated in this License.</p>
+</li>
+<li>
+<p>Submission of Contributions. Unless You explicitly state otherwise,
+any Contribution intentionally submitted for inclusion in the Work
+by You to the Licensor shall be under the terms and conditions of
+this License, without any additional terms or conditions.
+Notwithstanding the above, nothing herein shall supersede or modify
+the terms of any separate license agreement you may have executed
+with Licensor regarding such Contributions.</p>
+</li>
+<li>
+<p>Trademarks. This License does not grant permission to use the trade
+names, trademarks, service marks, or product names of the Licensor,
+except as required for reasonable and customary use in describing the
+origin of the Work and reproducing the content of the NOTICE file.</p>
+</li>
+<li>
+<p>Disclaimer of Warranty. Unless required by applicable law or
+agreed to in writing, Licensor provides the Work (and each
+Contributor provides its Contributions) on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied, including, without limitation, any warranties or conditions
+of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+PARTICULAR PURPOSE. You are solely responsible for determining the
+appropriateness of using or redistributing the Work and assume any
+risks associated with Your exercise of permissions under this License.</p>
+</li>
+<li>
+<p>Limitation of Liability. In no event and under no legal theory,
+whether in tort (including negligence), contract, or otherwise,
+unless required by applicable law (such as deliberate and grossly
+negligent acts) or agreed to in writing, shall any Contributor be
+liable to You for damages, including any direct, indirect, special,
+incidental, or consequential damages of any character arising as a
+result of this License or out of the use or inability to use the
+Work (including but not limited to damages for loss of goodwill,
+work stoppage, computer failure or malfunction, or any and all
+other commercial damages or losses), even if such Contributor
+has been advised of the possibility of such damages.</p>
+</li>
+<li>
+<p>Accepting Warranty or Additional Liability. While redistributing
+the Work or Derivative Works thereof, You may choose to offer,
+and charge a fee for, acceptance of support, warranty, indemnity,
+or other liability obligations and/or rights consistent with this
+License. However, in accepting such obligations, You may act only
+on Your own behalf and on Your sole responsibility, not on behalf
+of any other Contributor, and only if You agree to indemnify,
+defend, and hold each Contributor harmless for any liability
+incurred by, or claims asserted against, such Contributor by reason
+of your accepting any such warranty or additional liability.</p>
+</li>
+</ol>
+<p>END OF TERMS AND CONDITIONS
+</pre>
+</li>
+<li class="license"></p>
+<h3 id="Apache-2.0"><a class="header" href="#Apache-2.0">Apache License 2.0</a></h3>
+<h4 id="used-by-1"><a class="header" href="#used-by-1">Used by:</a></h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
-            <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.20</a></li>
           </ul>
           <pre class="license-text">Apache License
 Version 2.0, January 2004
@@ -2749,7 +2940,7 @@ limitations under the License.
 </li>
 <li class="license"></p>
 <h3 id="BSD-2-Clause"><a class="header" href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a></h3>
-<h4 id="used-by-1"><a class="header" href="#used-by-1">Used by:</a></h4>
+<h4 id="used-by-2"><a class="header" href="#used-by-2">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/droundy/arrayref ">arrayref 0.3.9</a></li>
           </ul>
@@ -2785,7 +2976,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </li>
 <li class="license"></p>
 <h3 id="BSD-2-Clause"><a class="header" href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a></h3>
-<h4 id="used-by-2"><a class="header" href="#used-by-2">Used by:</a></h4>
+<h4 id="used-by-3"><a class="header" href="#used-by-3">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/whatisinternet/inflector ">Inflector 0.11.4</a></li>
           </ul>
@@ -2804,7 +2995,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </li>
 <li class="license"></p>
 <h3 id="CC0-1.0"><a class="header" href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a></h3>
-<h4 id="used-by-3"><a class="header" href="#used-by-3">Used by:</a></h4>
+<h4 id="used-by-4"><a class="header" href="#used-by-4">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.3.1</a></li>
           </ul>
@@ -2932,7 +3123,7 @@ this CC0 or use of the Work.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-4"><a class="header" href="#used-by-4">Used by:</a></h4>
+<h4 id="used-by-5"><a class="header" href="#used-by-5">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
@@ -2941,7 +3132,7 @@ this CC0 or use of the Work.
         </li>
         <li class="license">
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-5"><a class="header" href="#used-by-5">Used by:</a></h4>
+<h4 id="used-by-6"><a class="header" href="#used-by-6">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/RustCrypto/hashes ">sha3 0.10.8</a></li>
           </ul>
@@ -2974,7 +3165,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-6"><a class="header" href="#used-by-6">Used by:</a></h4>
+<h4 id="used-by-7"><a class="header" href="#used-by-7">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang-nursery/lazy-static.rs ">lazy_static 1.5.0</a></li>
           </ul>
@@ -3004,7 +3195,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-7"><a class="header" href="#used-by-7">Used by:</a></h4>
+<h4 id="used-by-8"><a class="header" href="#used-by-8">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/servo/rust-url ">form_urlencoded 1.2.1</a></li>
           </ul>
@@ -3034,7 +3225,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-8"><a class="header" href="#used-by-8">Used by:</a></h4>
+<h4 id="used-by-9"><a class="header" href="#used-by-9">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/servo/rust-url/ ">idna 1.0.3</a></li>
             <li><a href=" https://github.com/servo/rust-url/ ">percent-encoding 2.3.1</a></li>
@@ -3066,7 +3257,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-9"><a class="header" href="#used-by-9">Used by:</a></h4>
+<h4 id="used-by-10"><a class="header" href="#used-by-10">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/alexcrichton/cfg-if ">cfg-if 1.0.0</a></li>
             <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.77</a></li>
@@ -3106,7 +3297,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-10"><a class="header" href="#used-by-10">Used by:</a></h4>
+<h4 id="used-by-11"><a class="header" href="#used-by-11">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/azriel91/anymap2 ">anymap2 0.13.0</a></li>
           </ul>
@@ -3136,7 +3327,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-11"><a class="header" href="#used-by-11">Used by:</a></h4>
+<h4 id="used-by-12"><a class="header" href="#used-by-12">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/log ">log 0.4.27</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
@@ -3172,7 +3363,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-12"><a class="header" href="#used-by-12">Used by:</a></h4>
+<h4 id="used-by-13"><a class="header" href="#used-by-13">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-bakery/nom ">nom 8.0.0</a></li>
           </ul>
@@ -3197,7 +3388,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-13"><a class="header" href="#used-by-13">Used by:</a></h4>
+<h4 id="used-by-14"><a class="header" href="#used-by-14">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rayon-rs/either ">either 1.15.0</a></li>
             <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.12.1</a></li>
@@ -3228,7 +3419,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-14"><a class="header" href="#used-by-14">Used by:</a></h4>
+<h4 id="used-by-15"><a class="header" href="#used-by-15">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.24</a></li>
@@ -3263,7 +3454,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-15"><a class="header" href="#used-by-15">Used by:</a></h4>
+<h4 id="used-by-16"><a class="header" href="#used-by-16">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/jamesmunns/cobs.rs ">cobs 0.2.3</a></li>
           </ul>
@@ -3287,7 +3478,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-16"><a class="header" href="#used-by-16">Used by:</a></h4>
+<h4 id="used-by-17"><a class="header" href="#used-by-17">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/futures-rs ">futures-channel 0.3.31</a></li>
             <li><a href=" https://github.com/rust-lang/futures-rs ">futures-core 0.3.31</a></li>
@@ -3325,7 +3516,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-17"><a class="header" href="#used-by-17">Used by:</a></h4>
+<h4 id="used-by-18"><a class="header" href="#used-by-18">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.15.2</a></li>
           </ul>
@@ -3355,7 +3546,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-18"><a class="header" href="#used-by-18">Used by:</a></h4>
+<h4 id="used-by-19"><a class="header" href="#used-by-19">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/nox/serde_urlencoded ">serde_urlencoded 0.7.1</a></li>
           </ul>
@@ -3385,7 +3576,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-19"><a class="header" href="#used-by-19">Used by:</a></h4>
+<h4 id="used-by-20"><a class="header" href="#used-by-20">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">newtype 0.2.1</a></li>
           </ul>
@@ -3415,7 +3606,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-20"><a class="header" href="#used-by-20">Used by:</a></h4>
+<h4 id="used-by-21"><a class="header" href="#used-by-21">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/quote ">quote 0.6.13</a></li>
           </ul>
@@ -3445,7 +3636,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-21"><a class="header" href="#used-by-21">Used by:</a></h4>
+<h4 id="used-by-22"><a class="header" href="#used-by-22">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.8.0</a></li>
           </ul>
@@ -3475,7 +3666,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-22"><a class="header" href="#used-by-22">Used by:</a></h4>
+<h4 id="used-by-23"><a class="header" href="#used-by-23">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/indexmap-rs/equivalent ">equivalent 1.0.2</a></li>
           </ul>
@@ -3505,7 +3696,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-23"><a class="header" href="#used-by-23">Used by:</a></h4>
+<h4 id="used-by-24"><a class="header" href="#used-by-24">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/RustCrypto/traits ">digest 0.10.7</a></li>
           </ul>
@@ -3535,7 +3726,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-24"><a class="header" href="#used-by-24">Used by:</a></h4>
+<h4 id="used-by-25"><a class="header" href="#used-by-25">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/servo/rust-fnv ">fnv 1.0.7</a></li>
           </ul>
@@ -3565,7 +3756,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-25"><a class="header" href="#used-by-25">Used by:</a></h4>
+<h4 id="used-by-26"><a class="header" href="#used-by-26">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/storyyeller/stable_deref_trait ">stable_deref_trait 1.2.0</a></li>
           </ul>
@@ -3594,7 +3785,7 @@ DEALINGS IN THE SOFTWARE.</pre>
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-26"><a class="header" href="#used-by-26">Used by:</a></h4>
+<h4 id="used-by-27"><a class="header" href="#used-by-27">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/hyperium/http ">http 0.2.12</a></li>
           </ul>
@@ -3624,7 +3815,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-27"><a class="header" href="#used-by-27">Used by:</a></h4>
+<h4 id="used-by-28"><a class="header" href="#used-by-28">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.10.1</a></li>
           </ul>
@@ -3654,7 +3845,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-28"><a class="header" href="#used-by-28">Used by:</a></h4>
+<h4 id="used-by-29"><a class="header" href="#used-by-29">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/cuviper/autocfg ">autocfg 1.4.0</a></li>
           </ul>
@@ -3684,7 +3875,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-29"><a class="header" href="#used-by-29">Used by:</a></h4>
+<h4 id="used-by-30"><a class="header" href="#used-by-30">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rustwasm/console_error_panic_hook ">console_error_panic_hook 0.1.7</a></li>
           </ul>
@@ -3714,7 +3905,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-30"><a class="header" href="#used-by-30">Used by:</a></h4>
+<h4 id="used-by-31"><a class="header" href="#used-by-31">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.14.0</a></li>
           </ul>
@@ -3744,7 +3935,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-31"><a class="header" href="#used-by-31">Used by:</a></h4>
+<h4 id="used-by-32"><a class="header" href="#used-by-32">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang-nursery/pin-utils ">pin-utils 0.1.0</a></li>
           </ul>
@@ -3774,7 +3965,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-32"><a class="header" href="#used-by-32">Used by:</a></h4>
+<h4 id="used-by-33"><a class="header" href="#used-by-33">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/RustCrypto/utils ">block-buffer 0.10.4</a></li>
           </ul>
@@ -3804,7 +3995,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-33"><a class="header" href="#used-by-33">Used by:</a></h4>
+<h4 id="used-by-34"><a class="header" href="#used-by-34">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/RustCrypto/sponges/tree/master/keccak ">keccak 0.1.5</a></li>
           </ul>
@@ -3834,7 +4025,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-34"><a class="header" href="#used-by-34">Used by:</a></h4>
+<h4 id="used-by-35"><a class="header" href="#used-by-35">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.2.15</a></li>
           </ul>
@@ -3865,7 +4056,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-35"><a class="header" href="#used-by-35">Used by:</a></h4>
+<h4 id="used-by-36"><a class="header" href="#used-by-36">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.3.2</a></li>
           </ul>
@@ -3896,7 +4087,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-36"><a class="header" href="#used-by-36">Used by:</a></h4>
+<h4 id="used-by-37"><a class="header" href="#used-by-37">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/slab ">slab 0.4.9</a></li>
           </ul>
@@ -3926,7 +4117,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-37"><a class="header" href="#used-by-37">Used by:</a></h4>
+<h4 id="used-by-38"><a class="header" href="#used-by-38">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/fitzgen/bumpalo ">bumpalo 3.17.0</a></li>
           </ul>
@@ -3956,7 +4147,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-38"><a class="header" href="#used-by-38">Used by:</a></h4>
+<h4 id="used-by-39"><a class="header" href="#used-by-39">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rustwasm/gloo ">gloo 0.10.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo ">gloo 0.8.1</a></li>
@@ -3987,7 +4178,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-39"><a class="header" href="#used-by-39">Used by:</a></h4>
+<h4 id="used-by-40"><a class="header" href="#used-by-40">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/cryptocorrosion/cryptocorrosion ">ppv-lite86 0.2.21</a></li>
           </ul>
@@ -4017,7 +4208,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-40"><a class="header" href="#used-by-40">Used by:</a></h4>
+<h4 id="used-by-41"><a class="header" href="#used-by-41">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-attributes 0.1.28</a></li>
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.33</a></li>
@@ -4049,7 +4240,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-41"><a class="header" href="#used-by-41">Used by:</a></h4>
+<h4 id="used-by-42"><a class="header" href="#used-by-42">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/RustCrypto/traits ">crypto-common 0.1.6</a></li>
           </ul>
@@ -4079,7 +4270,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-42"><a class="header" href="#used-by-42">Used by:</a></h4>
+<h4 id="used-by-43"><a class="header" href="#used-by-43">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/Ekleog/indexed-db ">indexed-db 0.4.2</a></li>
           </ul>
@@ -4109,7 +4300,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-43"><a class="header" href="#used-by-43">Used by:</a></h4>
+<h4 id="used-by-44"><a class="header" href="#used-by-44">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.8</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_edit 0.19.15</a></li>
@@ -4134,7 +4325,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-44"><a class="header" href="#used-by-44">Used by:</a></h4>
+<h4 id="used-by-45"><a class="header" href="#used-by-45">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/hsivonen/idna_adapter ">idna_adapter 1.2.0</a></li>
           </ul>
@@ -4164,7 +4355,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-45"><a class="header" href="#used-by-45">Used by:</a></h4>
+<h4 id="used-by-46"><a class="header" href="#used-by-46">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/bluss/arrayvec ">arrayvec 0.7.6</a></li>
           </ul>
@@ -4194,7 +4385,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-46"><a class="header" href="#used-by-46">Used by:</a></h4>
+<h4 id="used-by-47"><a class="header" href="#used-by-47">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/mystor/synstructure ">synstructure 0.13.1</a></li>
           </ul>
@@ -4206,7 +4397,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-47"><a class="header" href="#used-by-47">Used by:</a></h4>
+<h4 id="used-by-48"><a class="header" href="#used-by-48">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-random/rand ">rand 0.8.5</a></li>
             <li><a href=" https://github.com/rust-random/rand ">rand_chacha 0.3.1</a></li>
@@ -4239,7 +4430,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-48"><a class="header" href="#used-by-48">Used by:</a></h4>
+<h4 id="used-by-49"><a class="header" href="#used-by-49">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.24</a></li>
           </ul>
@@ -4269,7 +4460,7 @@ DEALINGS IN THE SOFTWARE.</p>
         </li>
         <li class="license">
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-49"><a class="header" href="#used-by-49">Used by:</a></h4>
+<h4 id="used-by-50"><a class="header" href="#used-by-50">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/hsivonen/utf16_iter ">utf16_iter 1.0.5</a></li>
             <li><a href=" https://github.com/hsivonen/utf8_iter ">utf8_iter 1.0.4</a></li>
@@ -4301,7 +4492,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-50"><a class="header" href="#used-by-50">Used by:</a></h4>
+<h4 id="used-by-51"><a class="header" href="#used-by-51">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.24</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.3</a></li>
@@ -4320,7 +4511,7 @@ according to those terms.
         </li>
         <li class="license">
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-51"><a class="header" href="#used-by-51">Used by:</a></h4>
+<h4 id="used-by-52"><a class="header" href="#used-by-52">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/bcmyers/num-format ">num-format 0.4.4</a></li>
           </ul>
@@ -4345,7 +4536,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-52"><a class="header" href="#used-by-52">Used by:</a></h4>
+<h4 id="used-by-53"><a class="header" href="#used-by-53">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://gitlab.com/limira-rs/wasm-logger ">wasm-logger 0.2.0</a></li>
           </ul>
@@ -4370,7 +4561,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-53"><a class="header" href="#used-by-53">Used by:</a></h4>
+<h4 id="used-by-54"><a class="header" href="#used-by-54">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://gitlab.com/antonok/enum_dispatch ">enum_dispatch 0.3.13</a></li>
           </ul>
@@ -4395,7 +4586,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-54"><a class="header" href="#used-by-54">Used by:</a></h4>
+<h4 id="used-by-55"><a class="header" href="#used-by-55">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/Peternator7/strum ">strum 0.26.3</a></li>
             <li><a href=" https://github.com/Peternator7/strum ">strum_macros 0.26.4</a></li>
@@ -4421,7 +4612,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-55"><a class="header" href="#used-by-55">Used by:</a></h4>
+<h4 id="used-by-56"><a class="header" href="#used-by-56">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://gitlab.com/CreepySkeleton/proc-macro-error ">proc-macro-error-attr 1.0.4</a></li>
             <li><a href=" https://gitlab.com/CreepySkeleton/proc-macro-error ">proc-macro-error 1.0.4</a></li>
@@ -4447,7 +4638,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-56"><a class="header" href="#used-by-56">Used by:</a></h4>
+<h4 id="used-by-57"><a class="header" href="#used-by-57">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/Soveu/tinyvec_macros ">tinyvec_macros 0.1.1</a></li>
           </ul>
@@ -4472,7 +4663,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-57"><a class="header" href="#used-by-57">Used by:</a></h4>
+<h4 id="used-by-58"><a class="header" href="#used-by-58">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/scratchyone/wasm-sockets ">wasm-sockets 1.0.1</a></li>
           </ul>
@@ -4497,7 +4688,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-58"><a class="header" href="#used-by-58">Used by:</a></h4>
+<h4 id="used-by-59"><a class="header" href="#used-by-59">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.3</a></li>
             <li><a href=" https://github.com/DanielKeep/rust-boolinator ">boolinator 2.4.0</a></li>
@@ -4556,7 +4747,7 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-59"><a class="header" href="#used-by-59">Used by:</a></h4>
+<h4 id="used-by-60"><a class="header" href="#used-by-60">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/cloudflare/serde-wasm-bindgen ">serde-wasm-bindgen 0.5.0</a></li>
             <li><a href=" https://github.com/RReverser/serde-wasm-bindgen ">serde-wasm-bindgen 0.6.5</a></li>
@@ -4582,7 +4773,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-60"><a class="header" href="#used-by-60">Used by:</a></h4>
+<h4 id="used-by-61"><a class="header" href="#used-by-61">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/paholg/typenum ">typenum 1.18.0</a></li>
           </ul>
@@ -4590,7 +4781,7 @@ SOFTWARE.
         </li>
         <li class="license">
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-61"><a class="header" href="#used-by-61">Used by:</a></h4>
+<h4 id="used-by-62"><a class="header" href="#used-by-62">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.97</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
@@ -4641,7 +4832,7 @@ DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-62"><a class="header" href="#used-by-62">Used by:</a></h4>
+<h4 id="used-by-63"><a class="header" href="#used-by-63">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/winnow-rs/winnow ">winnow 0.5.40</a></li>
           </ul>
@@ -4665,7 +4856,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-63"><a class="header" href="#used-by-63">Used by:</a></h4>
+<h4 id="used-by-64"><a class="header" href="#used-by-64">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/futursolo/pinned ">pinned 0.1.0</a></li>
             <li><a href=" https://github.com/futursolo/prokio ">prokio 0.1.0</a></li>
@@ -4689,7 +4880,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-64"><a class="header" href="#used-by-64">Used by:</a></h4>
+<h4 id="used-by-65"><a class="header" href="#used-by-65">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.9.0</a></li>
           </ul>
@@ -4700,7 +4891,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-65"><a class="header" href="#used-by-65">Used by:</a></h4>
+<h4 id="used-by-66"><a class="header" href="#used-by-66">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.33</a></li>
           </ul>
@@ -4725,7 +4916,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-66"><a class="header" href="#used-by-66">Used by:</a></h4>
+<h4 id="used-by-67"><a class="header" href="#used-by-67">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/paholg/typenum ">typenum 1.18.0</a></li>
           </ul>
@@ -4750,7 +4941,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-67"><a class="header" href="#used-by-67">Used by:</a></h4>
+<h4 id="used-by-68"><a class="header" href="#used-by-68">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_codegen 0.11.3</a></li>
@@ -4777,7 +4968,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-68"><a class="header" href="#used-by-68">Used by:</a></h4>
+<h4 id="used-by-69"><a class="header" href="#used-by-69">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/marshallpierce/rust-base64 ">base64 0.21.7</a></li>
           </ul>
@@ -4802,7 +4993,7 @@ THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-69"><a class="header" href="#used-by-69">Used by:</a></h4>
+<h4 id="used-by-70"><a class="header" href="#used-by-70">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
@@ -4829,7 +5020,7 @@ THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-70"><a class="header" href="#used-by-70">Used by:</a></h4>
+<h4 id="used-by-71"><a class="header" href="#used-by-71">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/JelteF/derive_more ">derive_more-impl 1.0.0</a></li>
             <li><a href=" https://github.com/JelteF/derive_more ">derive_more 1.0.0</a></li>
@@ -4855,7 +5046,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-71"><a class="header" href="#used-by-71">Used by:</a></h4>
+<h4 id="used-by-72"><a class="header" href="#used-by-72">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/same-file ">same-file 1.0.6</a></li>
           </ul>
@@ -4880,7 +5071,7 @@ THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-72"><a class="header" href="#used-by-72">Used by:</a></h4>
+<h4 id="used-by-73"><a class="header" href="#used-by-73">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/ctamblyn/bit-iter ">bit-iter 1.3.1</a></li>
           </ul>
@@ -4905,7 +5096,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-73"><a class="header" href="#used-by-73">Used by:</a></h4>
+<h4 id="used-by-74"><a class="header" href="#used-by-74">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/SergioBenitez/version_check ">version_check 0.9.5</a></li>
           </ul>
@@ -4929,7 +5120,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-74"><a class="header" href="#used-by-74">Used by:</a></h4>
+<h4 id="used-by-75"><a class="header" href="#used-by-75">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/servo/bincode ">bincode 1.3.3</a></li>
           </ul>
@@ -4954,7 +5145,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-75"><a class="header" href="#used-by-75">Used by:</a></h4>
+<h4 id="used-by-76"><a class="header" href="#used-by-76">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/fizyk20/generic-array.git ">generic-array 0.14.7</a></li>
           </ul>
@@ -4978,7 +5169,7 @@ SOFTWARE.</pre>
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-76"><a class="header" href="#used-by-76">Used by:</a></h4>
+<h4 id="used-by-77"><a class="header" href="#used-by-77">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rustasync/route-recognizer ">route-recognizer 0.3.1</a></li>
           </ul>
@@ -5005,7 +5196,7 @@ SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-77"><a class="header" href="#used-by-77">Used by:</a></h4>
+<h4 id="used-by-78"><a class="header" href="#used-by-78">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/sru-systems/rust-argon2 ">rust-argon2 2.1.0</a></li>
           </ul>
@@ -5031,7 +5222,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-78"><a class="header" href="#used-by-78">Used by:</a></h4>
+<h4 id="used-by-79"><a class="header" href="#used-by-79">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.4</a></li>
@@ -5044,7 +5235,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-79"><a class="header" href="#used-by-79">Used by:</a></h4>
+<h4 id="used-by-80"><a class="header" href="#used-by-80">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/kornelski/gh-emoji ">gh-emoji 1.0.8</a></li>
           </ul>
@@ -5073,7 +5264,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="MIT"><a class="header" href="#MIT">MIT License</a></h3>
-<h4 id="used-by-80"><a class="header" href="#used-by-80">Used by:</a></h4>
+<h4 id="used-by-81"><a class="header" href="#used-by-81">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/kornelski/rust_urlencoding ">urlencoding 2.1.3</a></li>
           </ul>
@@ -5098,20 +5289,26 @@ THE SOFTWARE.
 </li>
 <li class="license"></p>
 <h3 id="Unicode-3.0"><a class="header" href="#Unicode-3.0">Unicode License v3</a></h3>
-<h4 id="used-by-81"><a class="header" href="#used-by-81">Used by:</a></h4>
+<h4 id="used-by-82"><a class="header" href="#used-by-82">Used by:</a></h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform_data 1.5.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 1.5.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 1.5.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 1.5.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 1.5.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider_macros 1.5.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.7.6</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.18</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.5.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.7.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.7.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.10.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.10.4</a></li>
           </ul>
@@ -5147,55 +5344,6 @@ FILES OR SOFTWARE.</p>
 not be used in advertising or otherwise to promote the sale, use or other
 dealings in these Data Files or Software without prior written
 authorization of the copyright holder.
-</pre>
-</li>
-<li class="license"></p>
-<h3 id="Unicode-3.0"><a class="header" href="#Unicode-3.0">Unicode License v3</a></h3>
-<h4 id="used-by-82"><a class="header" href="#used-by-82">Used by:</a></h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locid_transform_data 1.5.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 1.5.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 1.5.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.7.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
-          </ul>
-          <pre class="license-text">UNICODE LICENSE V3
-<p>COPYRIGHT AND PERMISSION NOTICE</p>
-<p>Copyright © 2020-2024 Unicode, Inc.</p>
-<p>NOTICE TO USER: Carefully read the following legal agreement. BY
-DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING DATA FILES, AND/OR
-SOFTWARE, YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
-TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT
-DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.</p>
-<p>Permission is hereby granted, free of charge, to any person obtaining a
-copy of data files and any associated documentation (the "Data Files") or
-software and any associated documentation (the "Software") to deal in the
-Data Files or Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, and/or sell
-copies of the Data Files or Software, and to permit persons to whom the
-Data Files or Software are furnished to do so, provided that either (a)
-this copyright and permission notice appear with all copies of the Data
-Files or Software, or (b) this copyright and permission notice appear in
-associated Documentation.</p>
-<p>THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
-KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
-THIRD PARTY RIGHTS.</p>
-<p>IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE
-BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES,
-OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
-WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
-ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA
-FILES OR SOFTWARE.</p>
-<p>Except as contained in this notice, the name of a copyright holder shall
-not be used in advertising or otherwise to promote the sale, use or other
-dealings in these Data Files or Software without prior written
-authorization of the copyright holder.</p>
-<p>SPDX-License-Identifier: Unicode-3.0</p>
-<p>—</p>
-<p>Portions of ICU4X may have been adapted from ICU4C and/or ICU4J.
-ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
 </pre>
 </li>
 </ul>
