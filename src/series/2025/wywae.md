@@ -8,16 +8,16 @@ WYWAE stands for "Wish You Were At
 The WYWAE series is an
 mb2 tournament dealt for each of the EMBARGO tournaments.
 
-In 2025, there are no cash prizes.
+In 2025, there were no cash prizes.
 
 There has never been (and never will be) an entry fee.  It's a
 freeroll, although in 2025 it's a freeroll for bragging rights.
 
 ## The Tournaments
 
-All seven tournaments will be held in January.
+All seven tournaments were held in January.
 
-The first is on Thursday the 16th at 6pm Pacific.  The following three days each have two tournaments, one at 11am Pacific the other at 6pm Pacific.
+The first was on Thursday the 16th at 6pm Pacific.  The following three days each had two tournaments, one at 11am Pacific the other at 6pm Pacific.
 
 The times listed in this table are all in Pacific Standard, since
 that's the time zone of Las Vegas at this time of year.
