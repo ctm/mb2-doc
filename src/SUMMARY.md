@@ -36,6 +36,7 @@
     - [WYWAB](./series/2024/wywab.md)
   - [2025](./series/2025.md)
     - [WYWAE](./series/2025/wywae.md)
+    - [WSOP-Style](./series/2025/wsop-style.md)
 - [Ring Games](./ring_games.md)
 - [Vacation](./vacation.md)
 - [Chat](./chat.md)
