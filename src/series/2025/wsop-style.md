@@ -136,11 +136,12 @@ Mb2 structure sheet and will be definitive.
 
 ### July 7th
 
-At the WSOP, July 7th only has Flight B of event #85. There is no WSOP tournament
-unique to July 7th and all these WSOP-Style events are single day
-events, and we're dealing #85 on July 6th. We've chosen to plug the
-July 7th hole with a <a href="https://www.barge.org/" target="_blank">BARGE</a> inspired
+At the WSOP, July 7th only has Flight B of event #85. I.e., there is no WSOP
+tournament unique to July 7th. Since this series is already dealing #85 on July
+6th, we've chosen to plug the July 7th hole with a <a
+href="https://www.barge.org/" target="_blank">BARGE</a> inspired
 structure, "SAM_6", a four game mix of:
+
 * <a href="https://www.barge.org/rulebook/scrotum.html" target="_blank">**S**crotum</a>
 * <a href="https://www.barge.org/rulebook/action-razz.html" target="_blank">**A**ction Razz</a>
 * <a href="https://www.barge.org/rulebook/murder.html" target="_blank">**M**urder</a>
