@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (183)</li>
+        <li><a href="#MIT">MIT License</a> (180)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -1827,22 +1827,6 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.2.6</a></li>
-          </ul>
-          <pre class="license-text">Licensed under the Apache License, Version 2.0
-&lt;LICENSE-APACHE or
-http://www.apache.org/licenses/LICENSE-2.0&gt; or the MIT
-license &lt;LICENSE-MIT or http://opensource.org/licenses/MIT&gt;,
-at your option. All files in the project carrying such
-notice may not be copied, modified, or distributed except
-according to those terms.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/bcmyers/num-format ">num-format 0.4.4</a></li>
           </ul>
           <pre class="license-text">MIT License
@@ -2612,17 +2596,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
-          </ul>
-          <pre class="license-text">This project is dual-licensed under the Unlicense and MIT licenses.
-
-You may use this code under the terms of either license.
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/kornelski/gh-emoji ">gh-emoji 1.0.8</a></li>
           </ul>
           <pre class="license-text">© 2013 GitHub, Inc.
@@ -2684,14 +2657,6 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.18</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.2</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.2</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
@@ -2748,6 +2713,14 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.2</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.2</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
