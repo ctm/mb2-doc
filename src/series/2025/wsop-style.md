@@ -1,10 +1,33 @@
 # WSOP-Style 2025
 
 
-## No Prizes, No Cash, Just Fun
+## Six Prizes, No Cash, Lots of Fun
 
-There will be no prizes.
+There will be at least six prizes, but they will all be physical
+awards, not cash. Most likely they'll be pieces of art that I'll
+commission from a formerly-local-to-Albuquerque artist who has made
+awards for several of her and her husband's races. We haven't, however,
+negotiated the details because she, her husband and their toddler are
+moving to (or have just moved to) Washington state. If we fail to
+reach an agreement, I'll select one of the awards vendors I've used
+previously.
 
+The awards will be for the top three players on the leaderboard by
+profit and also by win rate at the end of the series. To qualify for
+an overall win rate prize, the player will have to have completed at
+least seven tournaments.  NOTE: that is seven different tournaments,
+so if you play in a tournament and re-enter, only the initial entry
+counts as one of your at-least-seven tournaments.
+
+As of May 31st, the `#` column in the `WSOPS 2025 Leaderboard` report
+is the total number of entries per player, not the number of distinct
+tournaments. So, simply having a value of seven or more in that column
+does not mean you've played seven or more distinct tournaments.
+
+Most likely, to expedite the delivery of awards, winners will need to
+provide a mailing address.  However, it will likely be possible to
+arrange for awards to be brought to [BARGE](https://www.barge.org/),
+should a winner prefer that delivery method.
 
 ## Overview
 
