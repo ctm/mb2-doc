@@ -2342,7 +2342,7 @@ SOFTWARE.
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.10</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.16</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.10</a></li>
-            <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.32</a></li>
+            <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.33</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.95</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.40</a></li>
@@ -2919,13 +2919,6 @@ THE SOFTWARE.
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.1</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.18</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.2</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.2</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
@@ -2974,6 +2967,13 @@ authorization of the copyright holder.
           <ul class="license-used-by">
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.0.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.0.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.2</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
