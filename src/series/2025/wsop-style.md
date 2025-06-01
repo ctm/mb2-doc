@@ -12,14 +12,19 @@ moving to (or have just moved to) Washington state. If we fail to
 reach an agreement, I'll select one of the awards vendors I've used
 previously.
 
-The awards will be for the top three players on the leaderboard by
-profit and also by win rate at the end of the series. To qualify for
-an overall win rate prize, the player will have to have completed at
-least seven tournaments.  NOTE: that is seven different tournaments,
-so if you play in a tournament and re-enter, only the initial entry
-counts as one of your at-least-seven tournaments.
+I (Cliff Matthews, aka
+[deadhead](https://ctm.github.io/docs/yld/life/too-public.html)) will
+play in the series but will be ineligble for awards.
 
-As of May 31st, the `#` column in the `WSOPS 2025 Leaderboard` report
+The awards will be for the top three players on the leaderboard by
+profit and also by win rate at the end of the series. 
+
+To qualify for an overall win by rate prize, the player will have to have
+completed at least seven tournaments.  NOTE: that is seven different
+tournaments, so if you play in a tournament and re-enter, only the
+initial entry counts as one of your at-least-seven tournaments.
+
+Currently, the `#` column in the `WSOPS 2025 Leaderboard` report
 is the total number of entries per player, not the number of distinct
 tournaments. So, simply having a value of seven or more in that column
 does not mean you've played seven or more distinct tournaments.
