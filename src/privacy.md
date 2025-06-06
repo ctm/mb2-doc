@@ -1,7 +1,7 @@
 # Privacy
 
 At the time this page was written, every detail was correct.  However,
-while mb2 is still under rapid deployment, there's a chance that some
+while mb2 is still under rapid development, there's a chance that some
 of the information on this page may inadvertently become outdated.
 So, don't bet your life&mdash;or anyone else's&mdash;that the
 information here is correct.
@@ -12,6 +12,15 @@ storage and local storage to keep track of your being logged in and
 connected to tables.  So, were your computer to be forensically
 examined, it would be possible to tell that you've been connected to
 mb2.
+
+In addition to session storage and local storage, a proof-of-concept
+feature allows players to [load images to be used as their buttons](tables/customizable-buttons.md).
+These images are never sent to the mb2 server, instead the loading is
+client-side only.  Each button image that is loaded is stored on in
+the
+[IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+of the browser where it is loaded.  If no buttons are loaded,
+nothing is stored in the IndexedDB.
 
 Mb2 logs almost all traffic between the client and the server.  The
 exception is that your login credentials are not logged. These logs

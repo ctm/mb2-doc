@@ -16,6 +16,7 @@
   - [Immediate Buttons](./tables/immediate.md)
   - [Shareable URLs](./tables/shareable-urls.md)
   - [Review Button](./tables/review-button.md)
+  - [Customizable Dealer Buttons](./tables/customizable-buttons.md)
 - [Fun Money](./fun_money.md)
 - [Tournaments](./tournaments.md)
   - [Structures](./tournaments/structures.md)
