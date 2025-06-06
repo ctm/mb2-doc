@@ -240,7 +240,7 @@ when you create an account, please remember or write down your
 password.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="privacy"><a class="header" href="#privacy">Privacy</a></h1>
 <p>At the time this page was written, every detail was correct.  However,
-while mb2 is still under rapid deployment, there's a chance that some
+while mb2 is still under rapid development, there's a chance that some
 of the information on this page may inadvertently become outdated.
 So, don't bet your life—or anyone else's—that the
 information here is correct.</p>
@@ -250,6 +250,14 @@ storage and local storage to keep track of your being logged in and
 connected to tables.  So, were your computer to be forensically
 examined, it would be possible to tell that you've been connected to
 mb2.</p>
+<p>In addition to session storage and local storage, a proof-of-concept
+feature allows players to <a href="tables/customizable-buttons.html">load images to be used as their buttons</a>.
+These images are never sent to the mb2 server, instead the loading is
+client-side only.  Each button image that is loaded is stored on in
+the
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB</a>
+of the browser where it is loaded.  If no buttons are loaded,
+nothing is stored in the IndexedDB.</p>
 <p>Mb2 logs almost all traffic between the client and the server.  The
 exception is that your login credentials are not logged. These logs
 are used for debugging and are currently retained forever.</p>
@@ -672,7 +680,43 @@ using solely the player's hole cards. In games like these, one of the two
 high hands gets the extra chip if there is one. It's the high hand that
 gets the extra chip that will be in green and bold. <a href="#fr-1-1">↩</a></p>
 </li>
-</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="fun-money"><a class="header" href="#fun-money">Fun Money</a></h1>
+</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="customizable-dealer-buttons"><a class="header" href="#customizable-dealer-buttons">Customizable Dealer Buttons</a></h1>
+<h2 id="how-to-use"><a class="header" href="#how-to-use">How to use</a></h2>
+<p>By default, the dealer button at a table is an off-white circle with a
+red letter B inside it.  It can be seen here to the upper-left of deadhead:</p>
+<p><img src="tables/./customizable-buttons/normal.png" alt="The player &quot;deadhead&quot; has A circular dealer button with a red B on it" title="A Normal Button" /></p>
+<p>If you hover over the dealer button, it gets larger and if you click the
+dealer button, you get an "<a href="https://en.wikipedia.org/wiki/Easter_egg_(media)">easter-egg</a>", a narcoleptic dinosaur:</p>
+<p>!A close-up of the magnified narcoleptic dinosaur](./customizable-buttons/easter-egg-dino.png "The Hidden Other Button Face")</p>
+<p>However, if you shift-click the button, you get a picker that allows you
+to select an image to send directly to your client (i.e., the image is
+never sent to the mb2 server):</p>
+<p><img src="tables/./customizable-buttons/picker.png" alt="The browser&#39;s file picker, with a PNG selected" title="Selecting a PeterBarge Button" /></p>
+<p>After you send the image, that will be your button:</p>
+<p><img src="tables/./customizable-buttons/peter-barge.png" alt="A close-up of the magnified Fabulous PeterBarge button" title="PeterBarge Button" /></p>
+<p>The two other built-in images are still available. You can cycle
+through all your button images by repeatedly clicking on the button.</p>
+<h2 id="where-its-stored"><a class="header" href="#where-its-stored">Where its stored</a></h2>
+<p>Since the image was sent directly to your browser (e.g., Chrome), it
+will not show up if you run a different browser (e.g., Safari).  However,
+if you're adept with developer tools, you can see that your button has
+been stored in your browser's IndexedDB:</p>
+<p><img src="tables/./customizable-buttons/indexeddb.png" alt="The browser&#39;s development panel exposing the IndexedDB button contents" title="IndexedDB Contents" /></p>
+<h2 id="why-it-matters"><a class="header" href="#why-it-matters">Why it matters</a></h2>
+<p>This is a proof-of-concept that demonstrates a way that mb2 can be
+customized using assets that belong to the player and never travel
+to the mb2 server.  Eventually, much more than the button will be
+customizable and people will be able to make and share asset-packs
+that allow their tables and the lobby to look how they like.</p>
+<p>For the purpose of sharing with others, eventually it will be possible
+to upload assets to an mb2 server, but that will be in <em>addition to</em>
+private client-side only loading and will be completely optional.</p>
+<h2 id="for-the-curious-programmer"><a class="header" href="#for-the-curious-programmer">For the curious programmer</a></h2>
+<p>The loading and display of the custom buttons is done entirely using
+Rust.  Mb2's source code is private, but a stand-alone client-side
+loader that demonstrates how this is done is <a href="https://github.com/ctm/upload">available on
+GitHub</a>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="fun-money"><a class="header" href="#fun-money">Fun Money</a></h1>
 <p>Mb2 "keeps score" by tracking "Fun Money", an abstraction of what a
 real life poker player spends and perhaps wins while playing poker.</p>
 <h2 id="no-intrinsic-value"><a class="header" href="#no-intrinsic-value">No Intrinsic Value</a></h2>

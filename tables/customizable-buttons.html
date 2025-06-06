@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Privacy - Mb2</title>
+        <title>Customizable Dealer Buttons - Mb2</title>
 
 
         <!-- Custom HTML head -->
@@ -12,33 +12,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="highlight-css" href="highlight.css">
-        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
-        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+        <link rel="stylesheet" id="highlight-css" href="../highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="../tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
 
         <!-- Provide site root and default themes to javascript -->
         <script>
-            const path_to_root = "";
+            const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="../toc.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -102,7 +102,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
             </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -137,7 +137,7 @@
                     <h1 class="menu-title">Mb2</h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
 
@@ -166,60 +166,52 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="privacy"><a class="header" href="#privacy">Privacy</a></h1>
-<p>At the time this page was written, every detail was correct.  However,
-while mb2 is still under rapid development, there's a chance that some
-of the information on this page may inadvertently become outdated.
-So, don't bet your life—or anyone else's—that the
-information here is correct.</p>
-<p>Everyone's privacy is important to the developers of mb2. As such, mb2
-does not use cookies.  Mb2 does, however, use your browser's session
-storage and local storage to keep track of your being logged in and
-connected to tables.  So, were your computer to be forensically
-examined, it would be possible to tell that you've been connected to
-mb2.</p>
-<p>In addition to session storage and local storage, a proof-of-concept
-feature allows players to <a href="tables/customizable-buttons.html">load images to be used as their buttons</a>.
-These images are never sent to the mb2 server, instead the loading is
-client-side only.  Each button image that is loaded is stored on in
-the
-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB</a>
-of the browser where it is loaded.  If no buttons are loaded,
-nothing is stored in the IndexedDB.</p>
-<p>Mb2 logs almost all traffic between the client and the server.  The
-exception is that your login credentials are not logged. These logs
-are used for debugging and are currently retained forever.</p>
-<p>Mb2 uses Cloudflare as a content delivery network, but the WebSockets
-that connect your lobby and table pages to the server do not run
-through Cloudflare.</p>
-<p>Mb2 currently runs on AWS (Amazon Web Services). The initial
-connection your browser makes to mb2 runs through an AWS Application
-Load Balancer (ALB) which decrypts that initial HTTPS connection.
-However, the successive connections your browser makes to mb2's server
-run on WebSockets and the WebSocket connections do not go through an
-ALB. These WebSockets are WSS encrypted and the traffic is decoded on
-the AWS instance running mb2 (i.e., it is not decrypted at the Load
-Balancer). Authentication credentials (e.g. your password's hash) are
-only passed through the WebSockets.</p>
-<h3 id="github-authentication"><a class="header" href="#github-authentication">GitHub Authentication</a></h3>
-<p>As a proof-of-concept, mb2 allows players to create accounts using
-GitHub's <a href="https://oauth.net/">OAuth</a> server.  Nobody is required or
-even encouraged to use this obscure feature. It exists simply to make
-sure that mb2's authorization subsystem supported OAuth. It is likely
-that other OAuth servers will also be supported as options for
-authorizing, but mb2 will never require an account to be created via
-OAuth.  So, if you don't want Microsoft knowing you're using mb2,
-don't use the GitHub Authentication.</p>
+                        <h1 id="customizable-dealer-buttons"><a class="header" href="#customizable-dealer-buttons">Customizable Dealer Buttons</a></h1>
+<h2 id="how-to-use"><a class="header" href="#how-to-use">How to use</a></h2>
+<p>By default, the dealer button at a table is an off-white circle with a
+red letter B inside it.  It can be seen here to the upper-left of deadhead:</p>
+<p><img src="./customizable-buttons/normal.png" alt="The player &quot;deadhead&quot; has A circular dealer button with a red B on it" title="A Normal Button" /></p>
+<p>If you hover over the dealer button, it gets larger and if you click the
+dealer button, you get an "<a href="https://en.wikipedia.org/wiki/Easter_egg_(media)">easter-egg</a>", a narcoleptic dinosaur:</p>
+<p>!A close-up of the magnified narcoleptic dinosaur](./customizable-buttons/easter-egg-dino.png "The Hidden Other Button Face")</p>
+<p>However, if you shift-click the button, you get a picker that allows you
+to select an image to send directly to your client (i.e., the image is
+never sent to the mb2 server):</p>
+<p><img src="./customizable-buttons/picker.png" alt="The browser&#39;s file picker, with a PNG selected" title="Selecting a PeterBarge Button" /></p>
+<p>After you send the image, that will be your button:</p>
+<p><img src="./customizable-buttons/peter-barge.png" alt="A close-up of the magnified Fabulous PeterBarge button" title="PeterBarge Button" /></p>
+<p>The two other built-in images are still available. You can cycle
+through all your button images by repeatedly clicking on the button.</p>
+<h2 id="where-its-stored"><a class="header" href="#where-its-stored">Where its stored</a></h2>
+<p>Since the image was sent directly to your browser (e.g., Chrome), it
+will not show up if you run a different browser (e.g., Safari).  However,
+if you're adept with developer tools, you can see that your button has
+been stored in your browser's IndexedDB:</p>
+<p><img src="./customizable-buttons/indexeddb.png" alt="The browser&#39;s development panel exposing the IndexedDB button contents" title="IndexedDB Contents" /></p>
+<h2 id="why-it-matters"><a class="header" href="#why-it-matters">Why it matters</a></h2>
+<p>This is a proof-of-concept that demonstrates a way that mb2 can be
+customized using assets that belong to the player and never travel
+to the mb2 server.  Eventually, much more than the button will be
+customizable and people will be able to make and share asset-packs
+that allow their tables and the lobby to look how they like.</p>
+<p>For the purpose of sharing with others, eventually it will be possible
+to upload assets to an mb2 server, but that will be in <em>addition to</em>
+private client-side only loading and will be completely optional.</p>
+<h2 id="for-the-curious-programmer"><a class="header" href="#for-the-curious-programmer">For the curious programmer</a></h2>
+<p>The loading and display of the custom buttons is done entirely using
+Rust.  Mb2's source code is private, but a stand-alone client-side
+loader that demonstrates how this is done is <a href="https://github.com/ctm/upload">available on
+GitHub</a>.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="accounts.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../tables/review-button.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="security.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../fun_money.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -229,11 +221,11 @@ don't use the GitHub Authentication.</p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="accounts.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../tables/review-button.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="security.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../fun_money.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
@@ -248,13 +240,13 @@ don't use the GitHub Authentication.</p>
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
 
         <!-- Custom JS scripts -->
 
