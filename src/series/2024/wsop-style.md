@@ -114,8 +114,8 @@ Mb2 structure sheet.
 |Jul 13th|[#94](https://wsop.com/pdfs/structuresheets/structure_5504_23270.pdf)|[No-Limit Hold'em Championship (6-Handed)](https://craftpoker.com/tournament/structure/5377)|[ODB Phat Mack🐺](https://craftpoker.com/event/5377/player/17)|
 |Jul 14th|[#96](https://wsop.com/pdfs/structuresheets/structure_5504_23272.pdf)|[High Roller H.O.R.S.E.](https://craftpoker.com/tournament/structure/5378)|[samarai](https://craftpoker.com/event/5378/player/32)|
 |Jul 15th|[#97](https://wsop.com/pdfs/structuresheets/structure_5504_23273.pdf)|[Pot-Limit Omaha (6-Handed)](https://craftpoker.com/tournament/structure/5379)|[ADB DaVoice](https://craftpoker.com/event/5379/player/26)|
-|Jul 16th|[#98](https://wsop.com/pdfs/structuresheets/structure_5504_23274.pdf)|[No-Limit Hold'em - The Closer](https://craftpoker.com/tournament/structure/5380)||
-|Jul 17th|[#99](https://wsop.com/pdfs/structuresheets/structure_5504_23275.pdf)|[Super Turbo No-Limit Hold'em](https://craftpoker.com/tournament/structure/5381)||
+|Jul 16th|[#98](https://wsop.com/pdfs/structuresheets/structure_5504_23274.pdf)|[No-Limit Hold'em - The Closer](https://craftpoker.com/tournament/structure/5380)|_DID NOT RUN_ [^3]|
+|Jul 17th|[#99](https://wsop.com/pdfs/structuresheets/structure_5504_23275.pdf)|[Super Turbo No-Limit Hold'em](https://craftpoker.com/tournament/structure/5381)|[Llew](https://craftpoker.com/event/5381/player/23)|
 
 ### July 5th
 
@@ -142,3 +142,6 @@ could re-use the structure from last year's #94, because I thought
 they were the same event. They were the same in all respects, _except_
 this year's event was 8-handed IRL (but 9-handed due to my mistake).
 Oh well.
+
+[^3]: There were not two players registered by the time the tournament was
+to start, so the tournament was canceled.
