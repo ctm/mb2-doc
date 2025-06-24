@@ -2880,6 +2880,13 @@ THE SOFTWARE.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 2.0.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locale_core 2.0.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 2.0.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 2.0.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.0.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.0.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.0.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.1</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.18</a></li>
@@ -2937,13 +2944,6 @@ authorization of the copyright holder.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locale_core 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.0.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.0.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.0.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.2</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
