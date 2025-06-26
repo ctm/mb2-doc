@@ -868,7 +868,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/jamesmunns/cobs.rs ">cobs 0.2.3</a></li>
+            <li><a href=" https://github.com/jamesmunns/cobs.rs ">cobs 0.3.0</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2015 The cobs.rs Developers
 
@@ -2236,7 +2236,7 @@ SOFTWARE.
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone-derive 0.1.2</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone 0.4.9</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">parse-zoneinfo 0.3.1</a></li>
-            <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.1.1</a></li>
+            <li><a href=" https://github.com/jamesmunns/postcard ">postcard 1.1.2</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 1.0.1</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.21.0</a></li>
