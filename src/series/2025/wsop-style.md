@@ -1,5 +1,78 @@
 # WSOP-Style 2025
 
+The WSOP-Style Series for 2025 is over. This page is slightly out of date in
+that the tense of many sentences is not in the past. I will fix this "soon".
+
+## Congratulations Grizz, 🐭GamboMouse, jpassar and FerencL
+
+I am working on your prizes now.
+
+#### By Profit
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Profit</th>
+<th>Nick</th>
+<th>#</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1st</td>
+<td>4,061</td>
+<td>Grizz</td>
+<td>73</td>
+</tr>
+<tr>
+<td>2nd</td>
+<td>3,492</td>
+<td>jpmassar</td>
+<td>55</td>
+</tr>
+<tr>
+<td>3rd</td>
+<td>1,680</td>
+<td>🐭GamboMouse</td>
+<td>17</td>
+</tr>
+</tbody>
+</table>
+
+#### By Rate
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Rate</th>
+<th>Nick</th>
+<th>#</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1st</td>
+<td>0.49</td>
+<td>🐭GamboMouse</td>
+<td>17</td>
+</tr>
+<tr>
+<td>2nd</td>
+<td>0.48</td>
+<td>FerencL</td>
+<td align="right">8</td>
+</tr>
+<tr>
+<td>3rd</td>
+<td>0.32</td>
+<td>jpmassar</td>
+<td>55</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Six Prizes, No Cash, Lots of Fun
 
@@ -14,7 +87,7 @@ previously.
 
 I (Cliff Matthews, aka
 [deadhead](https://ctm.github.io/docs/yld/life/too-public.html)) will
-play in the series but will be ineligble for awards.
+play in the series but will be ineligible for awards.
 
 The awards will be for the top three players on the leaderboard by
 profit and also by win rate at the end of the series. 
