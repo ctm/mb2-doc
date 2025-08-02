@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (198)</li>
+        <li><a href="#MIT">MIT License</a> (197)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -2960,7 +2960,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.5</a></li>
             <li><a href=" https://github.com/BurntSushi/same-file ">same-file 1.0.6</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
@@ -3040,7 +3039,6 @@ THE SOFTWARE.
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.0.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.0.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.2</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.1</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.18</a></li>
@@ -3092,6 +3090,60 @@ Except as contained in this notice, the name of a copyright holder shall
 not be used in advertising or otherwise to promote the sale, use or other
 dealings in these Data Files or Software without prior written
 authorization of the copyright holder.
+</pre>
+        </li>
+        <li class="license">
+<h3 id="Unicode-3.0">Unicode License v3</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.0</a></li>
+          </ul>
+          <pre class="license-text">UNICODE LICENSE V3
+
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright © 2020-2024 Unicode, Inc.
+
+NOTICE TO USER: Carefully read the following legal agreement. BY
+DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING DATA FILES, AND/OR
+SOFTWARE, YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
+TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT
+DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of data files and any associated documentation (the &quot;Data Files&quot;) or
+software and any associated documentation (the &quot;Software&quot;) to deal in the
+Data Files or Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, and/or sell
+copies of the Data Files or Software, and to permit persons to whom the
+Data Files or Software are furnished to do so, provided that either (a)
+this copyright and permission notice appear with all copies of the Data
+Files or Software, or (b) this copyright and permission notice appear in
+associated Documentation.
+
+THE DATA FILES AND SOFTWARE ARE PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
+THIRD PARTY RIGHTS.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE
+BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA
+FILES OR SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall
+not be used in advertising or otherwise to promote the sale, use or other
+dealings in these Data Files or Software without prior written
+authorization of the copyright holder.
+
+SPDX-License-Identifier: Unicode-3.0
+
+—
+
+Portions of ICU4X may have been adapted from ICU4C and/or ICU4J.
+ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation and others.
 </pre>
         </li>
       </ul>
