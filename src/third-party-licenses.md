@@ -937,7 +937,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.14.5</a></li>
-            <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.15.4</a></li>
+            <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.15.5</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2016 Amanieu d&#x27;Antras
 
@@ -1664,7 +1664,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/slab ">slab 0.4.10</a></li>
+            <li><a href=" https://github.com/tokio-rs/slab ">slab 0.4.11</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2019 Carl Lerche
 
@@ -2427,7 +2427,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.98</a></li>
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.99</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.15</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.3</a></li>
@@ -2436,19 +2436,19 @@ SOFTWARE.
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.10</a></li>
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.36</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
-            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.95</a></li>
+            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.97</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.40</a></li>
-            <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.21</a></li>
+            <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.219</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.219</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.142</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.104</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.105</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.12</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.14</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.12</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.14</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.18</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any
