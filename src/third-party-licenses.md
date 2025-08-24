@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (197)</li>
+        <li><a href="#MIT">MIT License</a> (198)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -733,9 +733,9 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
-            <li><a href=" https://github.com/rust-lang/regex/tree/master/regex-automata ">regex-automata 0.4.9</a></li>
-            <li><a href=" https://github.com/rust-lang/regex/tree/master/regex-syntax ">regex-syntax 0.8.5</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex 1.11.1</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.10</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.6</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex 1.11.2</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2014 The Rust Project Developers
 
@@ -2959,6 +2959,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.5</a></li>
             <li><a href=" https://github.com/BurntSushi/same-file ">same-file 1.0.6</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
