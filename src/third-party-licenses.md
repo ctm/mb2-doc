@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (187)</li>
+        <li><a href="#MIT">MIT License</a> (188)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -2229,9 +2229,10 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.101</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.40</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.219</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.219</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.143</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.221</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.221</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.221</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.144</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.106</a></li>
