@@ -886,7 +886,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.11.1</a></li>
+            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.11.3</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2016--2017
 
@@ -2229,9 +2229,9 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.101</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.40</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.223</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.223</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.223</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.224</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.224</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.224</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.145</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
