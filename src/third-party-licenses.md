@@ -2217,7 +2217,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.99</a></li>
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.100</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.15</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.3</a></li>
