@@ -551,9 +551,9 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.10</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.11</a></li>
             <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.6</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex 1.11.2</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex 1.11.3</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2014 The Rust Project Developers
 
@@ -2229,9 +2229,9 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.101</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.40</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.226</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.226</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.226</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.227</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.227</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.227</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.145</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
@@ -2458,7 +2458,7 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.5</a></li>
+            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.7.6</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
           <pre class="license-text">The MIT License (MIT)
