@@ -2367,7 +2367,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/paholg/typenum ">typenum 1.18.0</a></li>
+            <li><a href=" https://github.com/paholg/typenum ">typenum 1.19.0</a></li>
           </ul>
           <pre class="license-text">The MIT License (MIT)
 
