@@ -1052,7 +1052,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/storyyeller/stable_deref_trait ">stable_deref_trait 1.2.0</a></li>
+            <li><a href=" https://github.com/storyyeller/stable_deref_trait ">stable_deref_trait 1.2.1</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2017 Robert Grosse
 
