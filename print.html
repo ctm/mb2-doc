@@ -196,9 +196,9 @@ whenever you want, typically, the regulars start at least one tournament
 per day.</p>
 <p>The tournaments have <a href="fun_money.html">Fun Money</a> and bragging
 rights as a prize.</p>
-<p>The <a href="series/2024/wsop-style.html">WSOP-Style Series 2024</a> tournaments
-start at 5:05 Pacific on weekdays and 3:03 PM Pacific on weekends.</p>
-<h3 id="this-manual-is-player-driven"><a class="header" href="#this-manual-is-player-driven">This manual is… Player Driven</a></h3>
+<p>The tournaments start at 5:05pm Pacific (6:05 Mountain, 7:05 Central,
+8:05 Eastern, etc.).</p>
+<h3 id="this-manual-is-player-driven-largely-unmaintained"><a class="header" href="#this-manual-is-player-driven-largely-unmaintained">This manual is… <del>Player Driven</del> Largely Unmaintained</a></h3>
 <p>Maintaining this documentation is currently, low-priority.</p>
 <p>The regular players already know most of the information herein and
 "outsiders" become insiders simply by joining and playing. However, if
@@ -2063,7 +2063,7 @@ the vast majority of the emojis in that list are indeed represented
 by Unicode. <a href="#fr-1-1">↩</a></p>
 </li>
 </ol><div style="break-before: page; page-break-before: always;"></div><h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal sixty-four different variations of poker<sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>. This includes
+<p>Mb2 can deal sixty-eight different variations of poker. This includes
 common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.</p>
 <p>The <a href="https://www.barge.org/rulebook/">BARGE Rule Book</a> has
@@ -2071,7 +2071,8 @@ rules to almost all of the games mb2 deals.  The exceptions are
 <a href="./games/sack.html">Sack</a>, <a href="./games/wonky-donkey.html">Wonky Donkey</a>,
 <a href="./games/regular-pineapple.html">Regular Pineapple</a>,
 <a href="./games/redrum.html">Redrum</a>, and <a href="games/dealers-choice.html">Dealer's Choice</a>.</p>
-<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 67]&gt; = LazyLock::new(|| {
+<p>At the time of this writing, the precise—but misleading—number of games is sixty-eight. That number comes from the source code to mb2:</p>
+<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 68]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -2093,13 +2094,13 @@ rules to almost all of the games mb2 deals.  The exceptions are
         BINGLAHA.done(),
 ...
 </code></pre>
-<p>The 64 shows that we're populating the <code>GAMES</code> constant with 64
-elements, but it's counting <code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
+<p>The 68 shows that we're populating the <code>GAMES</code> constant with 68
+elements, but it's counting—for example—<code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
 <p>It's also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
 not four!) because it has a separate entry for Lazy Pineapple with an
 eight qualifier and Lazy Pineapple without an eight qualifier, but
 does not do the same for Crazy Pineapple.</p>
-<p>Internally, games are implemented as core games[^2] which can have a
+<p>Internally, games are implemented as core games which can have a
 lot of options applied to them and the <code>GAMES</code> constant simply
 represents the most popular combinations of core games with
 options. There is no requirement for a combination of a core game and
@@ -2107,10 +2108,10 @@ options to be present in <code>GAMES</code> for that combination to be used in a
 tournament structure or ring game, so mb2 is already dealing well more
 than sixty different variants, but some of the differences are so
 small that it's hard to argue they're different games.</p>
-<p>[^2]
-At the time of this writing, here are the core games, with up to three
+<p>Here are the core games, with up to three
 examples of each.  This table is mostly to represent the current flexibility
-of mb2. As such, it's not really that useful to Players, per-se.</p>
+of mb2; it's not really that useful to players.
+<br/></p>
 <div class="table-wrapper"><table><thead><tr><th>Core Game</th><th>Examples</th></tr></thead><tbody>
 <tr><td>Hold'Em</td><td>Hold'em, Irish, Rio Bravo</td></tr>
 <tr><td>Omaha</td><td>Omaha, Binglaha, Dramaha 49</td></tr>
@@ -2128,11 +2129,7 @@ of mb2. As such, it's not really that useful to Players, per-se.</p>
 <tr><td>Simultaneous</td><td>SOHE (Simultaneous Omaha and Hold'em)</td></tr>
 <tr><td>Choice</td><td>Paradise Road Pick'em, Wonky Donkey, Dealer's</td></tr>
 </tbody></table>
-</div><hr>
-<ol class="footnote-definition"><li id="footnote-1">
-<p>At the time of this writing, the precise—but perhaps inaccurate—number of games is sixty-seven. That number comes from the source code to mb2: <a href="#fr-1-1">↩</a></p>
-</li>
-</ol><div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer's Choice</a></h1>
 <p>Twenty-one different games are offered in Dealer's Choice.  Initially,
 the first player in or past seat one chooses the game.  That game is
 then played for six hands, and then the player in the next seat gets
