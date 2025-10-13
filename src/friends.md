@@ -28,10 +28,10 @@ per day.
 The tournaments have [Fun Money](fun_money.md) and bragging
 rights as a prize.
 
-The [WSOP-Style Series 2024](series/2024/wsop-style.md) tournaments
-start at 5:05 Pacific on weekdays and 3:03 PM Pacific on weekends.
+The tournaments start at 5:05pm Pacific (6:05 Mountain, 7:05 Central,
+8:05 Eastern, etc.).
 
-### This manual is&hellip; Player Driven
+### This manual is&hellip; ~~Player Driven~~ Largely Unmaintained
 
 Maintaining this documentation is currently, low-priority.
 
