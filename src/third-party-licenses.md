@@ -470,7 +470,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.3</a></li>
+            <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.4</a></li>
             <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.81</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
             <li><a href=" https://github.com/alexcrichton/scoped-tls ">scoped-tls 1.0.1</a></li>
@@ -1415,7 +1415,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.3.3</a></li>
+            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.3.4</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2018-2025 The rust-random Project Developers
 Copyright (c) 2014 The Rust Project Developers
