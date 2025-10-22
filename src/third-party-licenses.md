@@ -2240,7 +2240,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.17</a></li>
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.19</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.20</a></li>
           </ul>
           <pre class="license-text">Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -2781,7 +2781,7 @@ THE SOFTWARE.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.19</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.20</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
