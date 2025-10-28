@@ -2827,24 +2827,24 @@ authorization of the copyright holder.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locale_core 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.0.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.0.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.0.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.3</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 2.1.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locale_core 2.1.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 2.1.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 2.1.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.1.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.1.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.1.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.2</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.3</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.5</a></li>
           </ul>
           <pre class="license-text">UNICODE LICENSE V3
 
