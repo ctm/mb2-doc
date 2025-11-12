@@ -76,5 +76,6 @@
     - [Looking for Interest](craft-poker-co/updates/interest.md)
     - [2024-10-29 Micro Status Report](craft-poker-co/updates/2024-10-29-status.md)
     - [2024-12-18 Status Report](craft-poker-co/updates/2024-12-18-status.md)
+    - [2025-12-4 Status Report](craft-poker-co/updates/2025-12-4-status.md)
 ---
 - [Third Party Licenses](./third-party-licenses.md)
