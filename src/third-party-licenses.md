@@ -1649,7 +1649,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/traits ">crypto-common 0.1.6</a></li>
+            <li><a href=" https://github.com/RustCrypto/traits ">crypto-common 0.1.7</a></li>
           </ul>
           <pre class="license-text">Copyright (c) 2021 RustCrypto Developers
 
@@ -2631,7 +2631,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/fizyk20/generic-array.git ">generic-array 0.14.9</a></li>
+            <li><a href=" https://github.com/fizyk20/generic-array.git ">generic-array 0.14.7</a></li>
           </ul>
           <pre class="license-text">The MIT License (MIT)
 
