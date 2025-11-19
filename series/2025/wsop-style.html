@@ -12,21 +12,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="../../favicon.svg">
-        <link rel="shortcut icon" href="../../favicon.png">
-        <link rel="stylesheet" href="../../css/variables.css">
-        <link rel="stylesheet" href="../../css/general.css">
-        <link rel="stylesheet" href="../../css/chrome.css">
-        <link rel="stylesheet" href="../../css/print.css" media="print">
+        <link rel="icon" href="../../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../../css/general-2459343d.css">
+        <link rel="stylesheet" href="../../css/chrome-9dfbd86b.css">
+        <link rel="stylesheet" href="../../css/print-9e4910d8.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="../../fonts/fonts.css">
+        <link rel="stylesheet" href="../../fonts/fonts-9644e21d.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="highlight-css" href="../../highlight.css">
-        <link rel="stylesheet" id="tomorrow-night-css" href="../../tomorrow-night.css">
-        <link rel="stylesheet" id="ayu-highlight-css" href="../../ayu-highlight.css">
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../../ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -36,10 +35,10 @@
             const path_to_root = "../../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../../searchindex.js";
+            window.path_to_searchindex_js = "../../searchindex-5ed03dbf.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="../../toc.js"></script>
+        <script src="../../toc-684dd9de.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -53,7 +52,7 @@
             </div>
         </div>
     </div>
-    <div id="body-container">
+    <div id="mdbook-body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -82,12 +81,12 @@
             html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             let sidebar = null;
-            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -102,39 +101,39 @@
             }
         </script>
 
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="../../toc.html"></iframe>
             </noscript>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <div id="page-wrapper" class="page-wrapper">
+        <div id="mdbook-page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
                         </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
                         </button>
                     </div>
 
@@ -142,42 +141,42 @@
 
                     <div class="right-buttons">
                         <a href="../../print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
                         </a>
 
                     </div>
                 </div>
 
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
                         <div class="search-wrapper">
-                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
                             <div class="spinner-wrapper">
-                                <i class="fa fa-spinner fa-spin"></i>
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
                             </div>
                         </div>
                     </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
                         </ul>
                     </div>
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
                 </script>
 
-                <div id="content" class="content">
+                <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="wsop-style-2025"><a class="header" href="#wsop-style-2025">WSOP-Style 2025</a></h1>
 <p>The WSOP-Style Series for 2025 is over. This page is slightly out of date in
-that the tense of many sentences is not in the past. I will fix this "soon".</p>
+that the tense of many sentences is not in the past. I will fix this “soon”.</p>
 <h2 id="congratulations-grizz-gambomouse-jpassar-and-ferencl"><a class="header" href="#congratulations-grizz-gambomouse-jpassar-and-ferencl">Congratulations Grizz, 🐭GamboMouse, jpassar and FerencL</a></h2>
 <p>I am working on your prizes now.</p>
 <h4 id="by-profit"><a class="header" href="#by-profit">By Profit</a></h4>
@@ -189,7 +188,9 @@ that the tense of many sentences is not in the past. I will fix this "soon".</p>
 <th>Nick</th>
 <th>#</th>
 </tr>
+
 </thead>
+
 <tbody>
 <tr>
 <td>1st</td>
@@ -197,20 +198,25 @@ that the tense of many sentences is not in the past. I will fix this "soon".</p>
 <td>Grizz</td>
 <td>73</td>
 </tr>
+
 <tr>
 <td>2nd</td>
 <td>3,492</td>
 <td>jpmassar</td>
 <td>55</td>
 </tr>
+
 <tr>
 <td>3rd</td>
 <td>1,680</td>
 <td>🐭GamboMouse</td>
 <td>17</td>
 </tr>
+
 </tbody>
+
 </table>
+
 <h4 id="by-rate"><a class="header" href="#by-rate">By Rate</a></h4>
 <table>
 <thead>
@@ -220,7 +226,9 @@ that the tense of many sentences is not in the past. I will fix this "soon".</p>
 <th>Nick</th>
 <th>#</th>
 </tr>
+
 </thead>
+
 <tbody>
 <tr>
 <td>1st</td>
@@ -228,28 +236,33 @@ that the tense of many sentences is not in the past. I will fix this "soon".</p>
 <td>🐭GamboMouse</td>
 <td>17</td>
 </tr>
+
 <tr>
 <td>2nd</td>
 <td>0.48</td>
 <td>FerencL</td>
 <td align="right">8</td>
 </tr>
+
 <tr>
 <td>3rd</td>
 <td>0.32</td>
 <td>jpmassar</td>
 <td>55</td>
 </tr>
+
 </tbody>
+
 </table>
+
 <h2 id="six-prizes-no-cash-lots-of-fun"><a class="header" href="#six-prizes-no-cash-lots-of-fun">Six Prizes, No Cash, Lots of Fun</a></h2>
 <p>There will be at least six prizes, but they will all be physical
-awards, not cash. Most likely they'll be pieces of art that I'll
+awards, not cash. Most likely they’ll be pieces of art that I’ll
 commission from a formerly-local-to-Albuquerque artist who has made
-awards for several of her and her husband's races. We haven't, however,
+awards for several of her and her husband’s races. We haven’t, however,
 negotiated the details because she, her husband and their toddler are
 moving to (or have just moved to) Washington state. If we fail to
-reach an agreement, I'll select one of the awards vendors I've used
+reach an agreement, I’ll select one of the awards vendors I’ve used
 previously.</p>
 <p>I (Cliff Matthews, aka
 <a href="https://ctm.github.io/docs/yld/life/too-public.html">deadhead</a>) will
@@ -263,7 +276,7 @@ initial entry counts as one of your at-least-seven tournaments.</p>
 <p>Currently, the <code>#</code> column in the <code>WSOPS 2025 Leaderboard</code> report
 is the total number of entries per player, not the number of distinct
 tournaments. So, simply having a value of seven or more in that column
-does not mean you've played seven or more distinct tournaments.</p>
+does not mean you’ve played seven or more distinct tournaments.</p>
 <p>Most likely, to expedite the delivery of awards, winners will need to
 provide a mailing address.  However, it will likely be possible to
 arrange for awards to be brought to <a href="https://www.barge.org/">BARGE</a>,
@@ -275,7 +288,7 @@ day—from May 27th through July 16th. Those are the days of the
 Series of Poker</a> (WSOP) in Las Vegas, Nevada. The WSOP provides
 the inspiration for this series.</p>
 <p><strong>This series is not even remotely affiliated with the World Series of Poker.</strong></p>
-<p>Each day's tournament (<a href="#july-7th">except one</a>) in the WSOP-Style series
+<p>Each day’s tournament (<a href="#july-7th">except one</a>) in the WSOP-Style series
 is a modified version
 of a tournament that will be played in real life on the same day at the WSOP.
 In general, the same WSOP blind structure and most
@@ -284,9 +297,8 @@ rules will apply.</p>
 day, with five minute breaks every hour. Each starts at 5:05 pm
 Pacific time (8:05 pm Eastern).</p>
 <p>You can see how long each of the WSOP-Style series tournaments lasted
-last year by clicking on the <a target="_blank"
-href="../2024/wsop-style.html#the-tournaments">WSOP-Style 2024
-link</a> and then clicking on the winner's nickname. That will bring
+last year by clicking on the <a target="_blank" href="../2024/wsop-style.html#the-tournaments">WSOP-Style 2024
+link</a> and then clicking on the winner’s nickname. That will bring
 up a list of who played and when they bust.</p>
 <p>Late registration varies per tournament, but is always available for at least
 thirty-five minutes after the tournament starts.</p>
@@ -301,9 +313,9 @@ last table to finish a hand at 55 minutes past the hour or later will
 get exactly a five minute breaks and all other tables will be paused
 while waiting for that table to finish a hand.</p>
 <h3 id="leaderboard"><a class="header" href="#leaderboard">Leaderboard</a></h3>
-<p>There will be a "WSOPS 2025 Leaderboard" entry in the Leaderboard menu
+<p>There will be a “WSOPS 2025 Leaderboard” entry in the Leaderboard menu
 available in the lobby.  By default, only players with a net <a target="_blank" href="../../fun_money.html">Fun
-Money</a> win show up on leaderboards, but if you've played
+Money</a> win show up on leaderboards, but if you’ve played
 and have a net loss, you can see your entry by having the shift key
 held down when you select an entry from the Leaderboard menu.</p>
 <h2 id="the-tournaments"><a class="header" href="#the-tournaments">The Tournaments</a></h2>
@@ -317,79 +329,138 @@ Mb2 structure sheet and will be definitive.</p>
 <th>Event</th>
 <th>Winner</th>
 </tr>
+
 </thead>
+
 <tbody>
-<tr><td colspan=2 style="text-align: center;">May<td></tr>
+<tr><td colspan="2" style="text-align: center;">May</td></tr>
+
 <tr><td>27th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24619.pdf" target="_blank">#2</a></td><td><a href="https://craftpoker.com/tournament/structure/5870" target="_blank">No-Limit Hold'em .5k</a></td><td><a href="https://craftpoker.com/event/5870/player/20" target="_blank">jrx</a></td></tr>
+
 <tr><td>28th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24621.pdf" target="_blank">#4</a></td><td><a href="https://craftpoker.com/tournament/structure/5871" target="_blank">Omaha Hi-Lo 8 or Better (8-Handed)</a></td><td><a href="https://craftpoker.com/event/5871/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>29th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24655.pdf" target="_blank">#6</a></td><td><a href="https://craftpoker.com/tournament/structure/5872" target="_blank">Seven Card Stud</a></td><td><a href="https://craftpoker.com/event/5872/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>30th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24625.pdf" target="_blank">#8</a></td><td><a href="https://craftpoker.com/tournament/structure/5873" target="_blank">Dealer's Choice</a></td><td><a href="https://craftpoker.com/event/5873/player/10" target="_blank">deadhead</a></td></tr>
+
 <tr><td>31st</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24626.pdf" target="_blank">#9</a></td><td><a href="https://craftpoker.com/tournament/structure/5874" target="_blank">Omaha Hi-Lo 8 or Better Championship</a></td><td><a href="https://craftpoker.com/event/5874/player/36" target="_blank">Mrstcao</a></td></tr>
-<tr><td colspan=4>&nbsp;</td></tr>
-<tr><td colspan=2 style="text-align: center;">June<td></tr>
+
+<tr><td colspan="4"> </td></tr>
+
+<tr><td colspan="2" style="text-align: center;">June</td></tr>
+
 <tr><td>1st</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24656.pdf" target="_blank">#12</a></td><td><a href="https://craftpoker.com/tournament/structure/5875" target="_blank">No-Limit 2-7 Lowball Draw (7-Handed)</a></td><td><a href="https://craftpoker.com/event/5875/player/14" target="_blank">jpmassar</a></td></tr>
+
 <tr><td>2nd</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24657.pdf" target="_blank">#15</a></td><td><a href="https://craftpoker.com/tournament/structure/5876" target="_blank">Mixed Omaha (PLO/8, O/8, Big O)</a></td><td><a href="https://craftpoker.com/event/5876/player/14" target="_blank">jpmassar</a></td></tr>
+
 <tr><td>3rd</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24635.pdf" target="_blank">#18</a></td><td><a href="https://craftpoker.com/tournament/structure/5877" target="_blank">Dealer's Choice Championship (6-Handed)</a></td><td><a href="https://craftpoker.com/event/5877/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>4th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24638.pdf" target="_blank">#21</a></td><td><a href="https://craftpoker.com/tournament/structure/5878" target="_blank">Pot-Limit Omaha Hi-Lo 8 or Better (8-Handed)</a></td><td><a href="https://craftpoker.com/event/5878/player/14" target="_blank">jpmassar</a></td></tr>
+
 <tr><td>5th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24674.pdf" target="_blank">#23</a></td><td><a href="https://craftpoker.com/tournament/structure/5879" target="_blank">Badugi (Limit)</a></td><td><a href="https://craftpoker.com/event/5879/player/10" target="_blank">deadhead</a></td></tr>
-<tr><td>6th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24641.pdf" target="_blank">#24</a></td><td><a href="https://craftpoker.com/tournament/structure/5880" target="_blank">Pot-Limit Omaha Double Board Bomb Pot</a></td><td><a href="https://craftpoker.com/event/5880/player/3" target="_blank">Chuck</a></td></td></tr>
+
+<tr><td>6th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24641.pdf" target="_blank">#24</a></td><td><a href="https://craftpoker.com/tournament/structure/5880" target="_blank">Pot-Limit Omaha Double Board Bomb Pot</a></td><td><a href="https://craftpoker.com/event/5880/player/3" target="_blank">Chuck</a></td></tr>
+
 <tr><td>7th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24644.pdf" target="_blank">#27</a></td><td><a href="https://craftpoker.com/tournament/structure/5881" target="_blank">Big O</a></td><td><a href="https://craftpoker.com/event/5881/player/3" target="_blank">Chuck</a></td></tr>
+
 <tr><td>8th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24647.pdf" target="_blank">#30</a></td><td><a href="https://craftpoker.com/tournament/structure/5882" target="_blank">No-Limit 2-7 Draw Lowball Championship</a></td><td><a href="https://craftpoker.com/event/5882/player/49" target="_blank">maverick600</a></td></tr>
+
 <tr><td>9th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24677.pdf" target="_blank">#33</a></td><td><a href="https://craftpoker.com/tournament/structure/5883" target="_blank">Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/5883/player/11" target="_blank">gerdog</a></td></tr>
+
 <tr><td>10th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24653.pdf" target="_blank">#36</a></td><td><a href="https://craftpoker.com/tournament/structure/5884" target="_blank">Pot-Limit Omaha Hi-Lo 8 or Better Championship</a></td><td><a href="https://craftpoker.com/event/5884/player/11" target="_blank">gerdog</a></td></tr>
+
 <tr><td>11th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24678.pdf" target="_blank">#39</a></td><td><a href="https://craftpoker.com/tournament/structure/5885" target="_blank">H.O.R.S.E. 1.5k</a></td><td><a href="https://craftpoker.com/event/5885/player/10" target="_blank">deadhead</a></td></tr>
+
 <tr><td>12th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24680.pdf" target="_blank">#41</a></td><td><a href="https://craftpoker.com/tournament/structure/5886" target="_blank">Limit Hold'em Championship (8-Handed)</a></td><td><a href="https://craftpoker.com/event/5886/player/14" target="_blank">jpmassar</a></td></tr>
+
 <tr><td>13th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24682.pdf" target="_blank">#43</a></td><td><a href="https://craftpoker.com/tournament/structure/5887" target="_blank">Razz</a></td><td><a href="https://craftpoker.com/event/5887/player/14" target="_blank">jpmassar</a></td></tr>
+
 <tr><td>14th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24683.pdf" target="_blank">#44</a></td><td><a href="https://craftpoker.com/tournament/structure/5888" target="_blank">Big O Championship</a></td><td><a href="https://craftpoker.com/event/5888/player/20" target="_blank">jrx</a></td></tr>
+
 <tr><td>15th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24686.pdf" target="_blank">#47</a></td><td><a href="https://craftpoker.com/tournament/structure/5889" target="_blank">Mixed Hi-Lo 8 or Bette (Omaha/8; Seven Card Stud/8)</a></td><td><a href="https://craftpoker.com/event/5889/player/10" target="_blank">deadhead</a></td></tr>
+
 <tr><td>16th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24689.pdf" target="_blank">#50</a></td><td><a href="https://craftpoker.com/tournament/structure/5890" target="_blank">Razz Championship</a></td><td><a href="https://craftpoker.com/event/5890/player/19" target="_blank">tegwin</a></td></tr>
+
 <tr><td>17th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24691.pdf" target="_blank">#51</a></td><td><a href="https://craftpoker.com/tournament/structure/5891" target="_blank">High Roller Pot-Limit Omaha 25k</a></td><td><a href="https://craftpoker.com/event/5891/player/14" target="_blank">jpmassar</a></td></tr>
+
 <tr><td>18th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24718.pdf" target="_blank">#55</a></td><td><a href="https://craftpoker.com/tournament/structure/5892" target="_blank">H.O.R.S.E. Championship</a></td><td><a href="https://craftpoker.com/event/5892/player/20" target="_blank">jrx</a></td></tr>
+
 <tr><td>19th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24719.pdf" target="_blank">#56</a></td><td><a href="https://craftpoker.com/tournament/structure/5893" target="_blank">Mixed Triple Draw Lowball</a></td><td><a href="https://craftpoker.com/event/5893/player/14" target="_blank">jpmassar</a></td></tr>
+
 <tr><td>20th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24720.pdf" target="_blank">#57</a></td><td><a href="https://craftpoker.com/tournament/structure/5894" target="_blank">High Roller Pot-Limit Omaha 50k</a></td><td><a href="https://craftpoker.com/event/5894/player/13" target="_blank">🐭GamboMouse</a></td></tr>
+
 <tr><td>21st</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24721.pdf" target="_blank">#58</a></td><td><a href="https://craftpoker.com/tournament/structure/5895" target="_blank">Nine Game Mix (7-Handed)</a></td><td><a href="https://craftpoker.com/event/5895/player/20" target="_blank">jrx</a></td></tr>
+
 <tr><td>22nd</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24725.pdf" target="_blank">#60</a></td><td><a href="https://craftpoker.com/tournament/structure/5896" target="_blank">Limit Hold'em Six Handed</a></td><td><a href="https://craftpoker.com/event/5896/player/17" target="_blank">ODB Phat Mack🏆</a></td></tr>
+
 <tr><td>23rd</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24728.pdf" target="_blank">#63</a></td><td><a href="https://craftpoker.com/tournament/structure/5897" target="_blank">Limit 2-7 Lowball Triple Draw</a></td><td><a href="https://craftpoker.com/event/5897/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>24th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24731.pdf" target="_blank">#66</a></td><td><a href="https://craftpoker.com/tournament/structure/5898" target="_blank">Poker Players Championship (7-Handed)</a></td><td><a href="https://craftpoker.com/event/5898/player/6" target="_blank">smalltalkdan</a></td></tr>
+
 <tr><td>25th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24735.pdf" target="_blank">#69</a></td><td><a href="https://craftpoker.com/tournament/structure/5899" target="_blank">Seven Card Stud Hi-Lo 8 or Better</a></td><td><a href="https://craftpoker.com/event/5899/player/20" target="_blank">jrx</a></td></tr>
+
 <tr><td>26th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24736.pdf" target="_blank">#71</a></td><td><a href="https://craftpoker.com/tournament/structure/5900" target="_blank">Limit 2-7 Lowball Triple Draw Championship</a></td><td><a href="https://craftpoker.com/event/5900/player/13" target="_blank">🐭GamboMouse</a></td></tr>
+
 <tr><td>27th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24774.pdf" target="_blank">#73</a></td><td><a href="https://craftpoker.com/tournament/structure/5901" target="_blank">Eight Game Mix (6-Handed)</a></td><td><a href="https://craftpoker.com/event/5901/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>28th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24775.pdf" target="_blank">#74</a></td><td><a href="https://craftpoker.com/tournament/structure/5902" target="_blank">Pot-Limit Omaha Championship</a></td><td><a href="https://craftpoker.com/event/5902/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>29th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24777.pdf" target="_blank">#76</a></td><td><a href="https://craftpoker.com/tournament/structure/5903" target="_blank">Mixed Big Bet (6-Handed)</a></td><td><a href="https://craftpoker.com/event/5903/player/10" target="_blank">deadhead</a></td></tr>
+
 <tr><td>30th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24778.pdf" target="_blank">#77</a></td><td><a href="https://craftpoker.com/tournament/structure/5904" target="_blank">Seven Card Stud Hi-Lo (8 or Better) Championship</a></td><td><a href="https://craftpoker.com/event/5904/player/10761" target="_blank">FerencL</a></td></tr>
-<tr><td colspan=4>&nbsp;</td></tr>
-<tr><td colspan=2 style="text-align: center;">July<td></tr>
+
+<tr><td colspan="4"> </td></tr>
+
+<tr><td colspan="2" style="text-align: center;">July</td></tr>
+
 <tr><td>1st</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24780.pdf" target="_blank">#79</a></td><td><a href="https://craftpoker.com/tournament/structure/5905" target="_blank">High Roller Pot-Limit Omaha 100k</a></td><td><a href="https://craftpoker.com/event/5905/player/37" target="_blank">ts4z</a></td></tr>
+
 <tr><td>2nd</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24783.pdf" target="_blank">#82</a></td><td><a href="https://craftpoker.com/tournament/structure/5906" target="_blank">Eight Game Mix Championship (6-Handed)</a></td><td><a href="https://craftpoker.com/event/5906/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>3rd</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24784.pdf" target="_blank">#83</a></td><td><a href="https://craftpoker.com/tournament/structure/5907" target="_blank">No-Limit Hold'em 2.5k</a></td><td><a href="https://craftpoker.com/event/5907/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>4th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24785.pdf" target="_blank">#84</a></td><td><a href="https://craftpoker.com/tournament/structure/5908" target="_blank">No-Limit Hold'em 1k</a></td><td><a href="https://craftpoker.com/event/5908/player/11" target="_blank">gerdog</a></td></tr>
+
 <tr><td>5th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24782.pdf" target="_blank">#81</a></td><td><a href="https://craftpoker.com/tournament/structure/5909" target="_blank">MAIN EVENT No-Limit Hold'em World Championship</a></td><td><a href="https://craftpoker.com/event/5909/player/29" target="_blank">Bridgeman</a></td></tr>
+
 <tr><td>6th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24786.pdf" target="_blank">#85</a></td><td><a href="https://craftpoker.com/tournament/structure/5910" target="_blank">Ultrastack No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/5910/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>7th</td><td><a href="#july-7th" target="_blank">SAM_6</a></td><td><a href="https://craftpoker.com/tournament/structure/5911" target="_blank">SAM_6 (Scrotum, Action Razz, Murder, 6-card Sohe)</a></td><td><a href="https://craftpoker.com/event/5911/player/11" target="_blank">gerdog</a></td></tr>
+
 <tr><td>8th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24787.pdf" target="_blank">#86</a></td><td><a href="https://craftpoker.com/tournament/structure/5912" target="_blank">Bounty Pot-Limit Omaha</a></td><td><a href="https://craftpoker.com/event/5912/player/14" target="_blank">jpmassar</a></td></tr>
+
 <tr><td>9th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24790.pdf" target="_blank">#89</a></td><td><a href="https://craftpoker.com/tournament/structure/5913" target="_blank">No-Limit Hold'em Mid-Stakes Championship</a></td><td><a href="https://craftpoker.com/event/5913/player/13" target="_blank">🐭GamboMouse</a></td></tr>
+
 <tr><td>10th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24792.pdf" target="_blank">#91</a></td><td><a href="https://craftpoker.com/tournament/structure/5914" target="_blank">Six Handed Pot-Limit Omaha</a></td><td><a href="https://craftpoker.com/event/5914/player/10" target="_blank">deadhead</a></td></tr>
+
 <tr><td>11th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24794.pdf" target="_blank">#93</a></td><td><a href="https://craftpoker.com/tournament/structure/5915" target="_blank">T.O.R.S.E.</a></td><td><a href="https://craftpoker.com/event/5915/player/9" target="_blank">Grizz</a></td></tr>
+
 <tr><td>12th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24795.pdf" target="_blank">#94</a></td><td><a href="https://craftpoker.com/tournament/structure/5916" target="_blank">No-Limit Hold'em Six Handed Championship</a></td><td><a href="https://craftpoker.com/event/5916/player/20" target="_blank">Jrx</a></td></tr>
+
 <tr><td>13th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24797.pdf" target="_blank">#96</a></td><td><a href="https://craftpoker.com/tournament/structure/5917" target="_blank">Pot-Limit Omaha Six Handed</a></td><td><a href="https://craftpoker.com/event/5917/player/10" target="_blank">deadhead</a></td></tr>
+
 <tr><td>14th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24799.pdf" target="_blank">#98</a></td><td><a href="https://craftpoker.com/tournament/structure/5918" target="_blank">H.O.R.S.E. 25k</a></td><td><a href="https://craftpoker.com/event/5918/player/10" target="_blank">deadhead</a></td></tr>
+
 <tr><td>15th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24800.pdf" target="_blank">#99</a></td><td><a href="https://craftpoker.com/tournament/structure/5919" target="_blank">No-Limit Hold'em (8-Handed)</a></td><td><a href="https://craftpoker.com/event/5919/player/6" target="_blank">smalltalkdan</a></td></tr>
+
 <tr><td>16th</td><td><a href="https://wsop.com/pdfs/structuresheets/structure_5771_24801.pdf" target="_blank">#100</a></td><td><a href="https://craftpoker.com/tournament/structure/5920" target="_blank">Super Turbo No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/5920/player/9" target="_blank">Grizz</a></td></tr>
+
 </tbody>
+
 </table>
+
 <h3 id="july-7th"><a class="header" href="#july-7th">July 7th</a></h3>
 <p>At the WSOP, July 7th only has Flight B of event #85. I.e., there is no WSOP
 tournament unique to July 7th. Since this series is already dealing #85 on July
-6th, we've chosen to plug the July 7th hole with a <a
-href="https://www.barge.org/" target="_blank">BARGE</a> inspired
-structure, "SAM_6", a four game mix of:</p>
+6th, we’ve chosen to plug the July 7th hole with a <a href="https://www.barge.org/" target="_blank">BARGE</a> inspired
+structure, “SAM_6”, a four game mix of:</p>
 <ul>
 <li><a href="https://www.barge.org/rulebook/scrotum.html" target="_blank"><strong>S</strong>crotum</a></li>
 <li><a href="https://www.barge.org/rulebook/action-razz.html" target="_blank"><strong>A</strong>ction Razz</a></li>
 <li><a href="https://www.barge.org/rulebook/murder.html" target="_blank"><strong>M</strong>urder</a></li>
 <li><a href="https://www.barge.org/rulebook/sohe-simultaneous-omaha-holdem.html" target="_blank"><strong>6</strong>-card Sohe</a></li>
 </ul>
-<p>"Sam_6" was the nickname of <a href="https://feldmanmortuary.com/tribute/details/4734/David-Lawful/obituary.html" target="_blank">David Lawful</a>,
+<p>“Sam_6” was the nickname of <a href="https://feldmanmortuary.com/tribute/details/4734/David-Lawful/obituary.html" target="_blank">David Lawful</a>,
 a generous member of BARGE.  He liked to play odd games, although he was a
 formidable opponent in all and a BARGE main event winner (2013).</p>
 
@@ -398,11 +469,11 @@ formidable opponent in all and a BARGE main event winner (2013).</p>
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                             <a rel="prev" href="../../series/2025/wywae.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
                             <a rel="next prefetch" href="../../ring_games.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
                         <div style="clear: both"></div>
@@ -412,16 +483,21 @@ formidable opponent in all and a BARGE main event winner (2013).</p>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                     <a rel="prev" href="../../series/2025/wywae.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
                     <a rel="next prefetch" href="../../ring_games.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
 
         </div>
 
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
 
 
@@ -430,13 +506,13 @@ formidable opponent in all and a BARGE main event winner (2013).</p>
         </script>
 
 
-        <script src="../../elasticlunr.min.js"></script>
-        <script src="../../mark.min.js"></script>
-        <script src="../../searcher.js"></script>
+        <script src="../../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../../mark-09e88c2c.min.js"></script>
+        <script src="../../searcher-c2a407aa.js"></script>
 
-        <script src="../../clipboard.min.js"></script>
-        <script src="../../highlight.js"></script>
-        <script src="../../book.js"></script>
+        <script src="../../clipboard-1626706a.min.js"></script>
+        <script src="../../highlight-abc7f01d.js"></script>
+        <script src="../../book-a0b12cfe.js"></script>
 
         <!-- Custom JS scripts -->
 
