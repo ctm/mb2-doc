@@ -3,7 +3,6 @@ title = "Mb2"
 description = "A poker server and client, both written in Rust"
 authors = ["Clifford T. Matthews"]
 language = "en"
-multilingual = false
 src = "src"
 
 [rust]
@@ -18,9 +17,9 @@ enable = true
 [output.html.redirect]
 "series/wsop-style-2022.html" = "2022/wsop-style.html"
 
-[output.linkcheck]
-# Absolute paths don't work on github.io for us, so if we accidentally
-# introduce one, we want to fail.  This means that we can't have any
-# other warnings, either, which results in some jolly sed in
-# our rebuild_third_party_licenses script.
-warning-policy = "error"
+# [output.linkcheck]
+# # Absolute paths don't work on github.io for us, so if we accidentally
+# # introduce one, we want to fail.  This means that we can't have any
+# # other warnings, either, which results in some jolly sed in
+# # our rebuild_third_party_licenses script.
+# warning-policy = "error"

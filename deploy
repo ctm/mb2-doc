@@ -13,6 +13,6 @@ rm -rf "$tmp_dir"
 git worktree add -f "$tmp_dir" gh-pages
 mdbook build
 rm -rf "$tmp_dir/*"
-cp -rp book/html/* "$tmp_dir/"
+cp -rp book/* "$tmp_dir/"
 ( cd "$tmp_dir" && add_and_push )
 ( cd "$github_io_dir" && git pull && cd .. && add_and_push )
