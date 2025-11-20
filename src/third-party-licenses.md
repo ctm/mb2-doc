@@ -805,7 +805,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.14.5</a></li>
-            <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.16.0</a></li>
+            <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.16.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016 Amanieu d&#x27;Antras
@@ -949,7 +949,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.12.0</a></li>
+            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.12.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016--2017
@@ -2035,7 +2035,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.27</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.28</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
