@@ -1743,8 +1743,8 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-attributes 0.1.30</a></li>
-            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.34</a></li>
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-attributes 0.1.31</a></li>
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.35</a></li>
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing 0.1.41</a></li>
           </ul>
 <pre class="license-text">
