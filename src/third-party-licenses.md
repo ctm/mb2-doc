@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (187)</li>
+        <li><a href="#MIT">MIT License</a> (190)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -914,6 +914,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/quote ">quote 0.6.13</a></li>
+            <li><a href=" https://github.com/djc/rustc-version-rs ">rustc_version 0.4.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016 The Rust Project Developers
@@ -2302,6 +2303,37 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/rutrum/convert-case ">convert_case 0.10.0</a></li>
+          </ul>
+<pre class="license-text">
+MIT License
+
+Copyright (c) 2025 rutrum
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.3</a></li>
             <li><a href=" https://github.com/DanielKeep/rust-boolinator ">boolinator 2.4.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.42</a></li>
@@ -2414,6 +2446,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.103</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.42</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
+            <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.27</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.228</a></li>
@@ -2700,8 +2733,8 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/JelteF/derive_more ">derive_more-impl 2.0.1</a></li>
-            <li><a href=" https://github.com/JelteF/derive_more ">derive_more 2.0.1</a></li>
+            <li><a href=" https://github.com/JelteF/derive_more ">derive_more-impl 2.1.0</a></li>
+            <li><a href=" https://github.com/JelteF/derive_more ">derive_more 2.1.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
