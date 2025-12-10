@@ -3110,8 +3110,8 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_locale_core 2.1.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 2.1.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 2.1.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.1.1</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.1.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.1.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.1.2</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.1.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.4</a></li>
