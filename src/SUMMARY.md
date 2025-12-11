@@ -42,6 +42,7 @@
 - [Vacation](./vacation.md)
 - [Chat](./chat.md)
 - [Games](./games.md)
+     - [Crayfish Omaha or Hold'em](./games/crayfish.md)
      - [Dealer's Choice](games/dealers-choice.md)
      - [Redrum](./games/redrum.md)
      - [Regular Pineapple](./games/regular-pineapple.md)
