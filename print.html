@@ -36,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-92ecf588.js";
+            window.path_to_searchindex_js = "searchindex-0d292ac7.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-969b9e74.js"></script>
+        <script src="toc-75b53177.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -2310,16 +2310,17 @@ by Unicode. <a href="#fr-1-1-5">↩</a></p>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal sixty-eight different variations of poker. This includes
+<p>Mb2 can deal seventy different variations of poker. This includes
 common ones like Texas Hold’em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.</p>
 <p>The <a href="https://www.barge.org/rulebook/">BARGE Rule Book</a> has
 rules to almost all of the games mb2 deals.  The exceptions are
 <a href="#sack">Sack</a>, <a href="#wonky-donkey">Wonky Donkey</a>,
 <a href="#regular-pineapple">Regular Pineapple</a>,
-<a href="#redrum">Redrum</a>, and <a href="#dealers-choice">Dealer’s Choice</a>.</p>
-<p>At the time of this writing, the precise—but misleading—number of games is sixty-eight. That number comes from the source code to mb2:</p>
-<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 68]&gt; = LazyLock::new(|| {
+<a href="#redrum">Redrum</a>, <a href="#dealers-choice">Dealer’s Choice</a>,
+and <a href="#crayfish-omaha-or-holdem">Crayfish Omaha or Hold’em</a>.</p>
+<p>At the time of this writing, the precise—but misleading—number of games is seventy. That number comes from the source code to mb2:</p>
+<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 70]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -2333,6 +2334,7 @@ rules to almost all of the games mb2 deals.  The exceptions are
         REGULAR_PINE.done(),
         REGULAR_PINE_8.done(),
         RIO_BRAVO.done(),
+        HOLD_EM_CRAYFISH.done(),
         // Omahas
         OMAHA.done(),
         OMAHA_8.done(),
@@ -2341,19 +2343,116 @@ rules to almost all of the games mb2 deals.  The exceptions are
         BINGLAHA.done(),
 ...
 </code></pre>
-<p>The 68 shows that we’re populating the <code>GAMES</code> constant with 68
+<p>The 70 shows that we’re populating the <code>GAMES</code> constant with 70
 elements, but it’s counting—for example—<code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
 <p>It’s also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
 not four!) because it has a separate entry for Lazy Pineapple with an
 eight qualifier and Lazy Pineapple without an eight qualifier, but
 does not do the same for Crazy Pineapple.</p>
+<p>The internal names may not mean anything to you, but click the triangle,
+if you want to see the entire list.</p>
+<details>
+<summary>Code that initializes the GAMES constant</summary>
+<pre>
+pub static GAMES: LazyLock&lt;[GameInfo; 70]&gt; = LazyLock::new(|| {
+    [
+        // Hold'ems
+        HOLD_EM.done(),
+        IRISH.done(),
+        HOLD_EM_SHORT.done(),
+        CRAZY_PINE.done(),
+        CRAZY_PINE_8.done(),
+        HOLDEM_8.done(),
+        LAZY_PINE.done(),
+        LAZY_PINE_8.done(),
+        REGULAR_PINE.done(),
+        REGULAR_PINE_8.done(),
+        RIO_BRAVO.done(),
+        HOLD_EM_CRAYFISH.done(),
+        // Omahas
+        OMAHA.done(),
+        OMAHA_8.done(),
+        OMAHA_SHORT.done(),
+        BIG_O.done(),
+        BINGLAHA.done(),
+        DRAMADUGI.done(),
+        DRAMAHA.done(),
+        DRAMAHA_49.done(),
+        DRAMAHA_3D.done(),
+        TWO_OR_FIVE_O8.done(),
+        OMAHA_X_OR_BETTER.done(),
+        DOUBLE_PLO.done(),
+        FIVE_CARD_OMAHA.done(),
+        OMAHA_CRAYFISH.done(),
+        // Scrotum
+        SCROTUM.done(),
+        // Chowahas
+        CHOWAHA.done(),
+        CHOWAHA_FOUR_8.done(),
+        // Triple Boards
+        OKLAHOMA.done(),
+        MURDER.done(),
+        REDRUM.done(),
+        // Courchevel
+        COURCHEVEL.done(),
+        // Draws
+        DRAW.done(),
+        LIMIT_CA_LOWBALL.done(),
+        LIMIT_VANILLA_CA_LOWBALL.done(),
+        NL_CA_LOWBALL.done(),
+        DEUCE_TO_SEVEN.done(),
+        QUICK_QUADS.done(),
+        // Badugis
+        BADUGI.done(),
+        BADACEY.done(),
+        BADEUCY.done(),
+        // Triple Draws
+        ACE_TO_FIVE_3D.done(),
+        DEUCE_TO_SEVEN_3D.done(),
+        ARCHIE.done(),
+        KOREAN.done(),
+        DUCK_FLUSH.done(),
+        QUICK_QUADS_3D.done(),
+        DEUCE_TO_SEVEN_2D.done(),
+        // Mississippi Studs
+        MISS_STUD.done(),
+        MISS_8.done(),
+        MISS_RAZZ.done(),
+        // 7-card Studs
+        STUD.done(),
+        RAZZ.done(),
+        STUD_8.done(),
+        STUD_HIGH_LOW.done(),
+        DEUCE_TO_SEVEN_RAZZ.done(),
+        LONDON_LOWBALL.done(),
+        RAZZDUGI.done(),
+        ACTION_RAZZ.done(),
+        ACTION_RAZZDUGI.done(),
+        SUPER_STUD.done(),
+        SUPER_STUD_8.done(),
+        // 5-card studs
+        FIVE_CARD_STUD.done(),
+        // Mexicans
+        MEXICAN.done(),
+        // Simultaneous
+        SOHE.done(),
+        SHESHE.done(),
+        // Choice
+        PARADISE_PICK_EM.done(),
+        WONKY_DONKEY.done(),
+        DEALERS_CHOICE.done(),
+    ]
+});
+</pre>
+
+</details>
 <p>Internally, games are implemented as core games which can have a
 lot of options applied to them and the <code>GAMES</code> constant simply
 represents the most popular combinations of core games with
 options. There is no requirement for a combination of a core game and
 options to be present in <code>GAMES</code> for that combination to be used in a
 tournament structure or ring game, so mb2 is already dealing well more
-than sixty different variants, but some of the differences are so
+than seventy different variants, but some of the differences are so
 small that it’s hard to argue they’re different games.</p>
 <p>Here are the core games, with up to three
 examples of each.  This table is mostly to represent the current flexibility
@@ -2383,6 +2482,17 @@ of mb2; it’s not really that useful to players.
 </tbody>
 </table>
 </div>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="crayfish-omaha-or-holdem"><a class="header" href="#crayfish-omaha-or-holdem">Crayfish Omaha or Hold’em</a></h1>
+<p>Omaha and Hold’em and most variants thereof can be played “crayfish
+style”, where all five cards of the board are dealt on the flop, with
+both the turn and river being the roll of a die.  If the die roll is a
+one, the first card of the board is turned face down (or left face
+down if it has already been turned that way) and is no longer
+available to make a hand. A rolled two, similarly invalidates the
+second card, etc. A roll of a six does not affect the board.</p>
+<p>Other than those changes to the flop, turn and river, the rest of the
+game is played the same.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer’s Choice</a></h1>
 <p>Twenty-one different games are offered in Dealer’s Choice.  Initially,

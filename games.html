@@ -35,10 +35,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-92ecf588.js";
+            window.path_to_searchindex_js = "searchindex-0d292ac7.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-969b9e74.js"></script>
+        <script src="toc-75b53177.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -175,16 +175,17 @@
                 <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal sixty-eight different variations of poker. This includes
+<p>Mb2 can deal seventy different variations of poker. This includes
 common ones like Texas Hold’em, Omaha and Seven Card Stud as well as
 lesser known games like Badugi, Courchevel and Big O.</p>
 <p>The <a href="https://www.barge.org/rulebook/">BARGE Rule Book</a> has
 rules to almost all of the games mb2 deals.  The exceptions are
 <a href="./games/sack.html">Sack</a>, <a href="./games/wonky-donkey.html">Wonky Donkey</a>,
 <a href="./games/regular-pineapple.html">Regular Pineapple</a>,
-<a href="./games/redrum.html">Redrum</a>, and <a href="games/dealers-choice.html">Dealer’s Choice</a>.</p>
-<p>At the time of this writing, the precise—but misleading—number of games is sixty-eight. That number comes from the source code to mb2:</p>
-<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 68]&gt; = LazyLock::new(|| {
+<a href="./games/redrum.html">Redrum</a>, <a href="games/dealers-choice.html">Dealer’s Choice</a>,
+and <a href="./games/crayfish.html">Crayfish Omaha or Hold’em</a>.</p>
+<p>At the time of this writing, the precise—but misleading—number of games is seventy. That number comes from the source code to mb2:</p>
+<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 70]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -198,6 +199,7 @@ rules to almost all of the games mb2 deals.  The exceptions are
         REGULAR_PINE.done(),
         REGULAR_PINE_8.done(),
         RIO_BRAVO.done(),
+        HOLD_EM_CRAYFISH.done(),
         // Omahas
         OMAHA.done(),
         OMAHA_8.done(),
@@ -206,19 +208,116 @@ rules to almost all of the games mb2 deals.  The exceptions are
         BINGLAHA.done(),
 ...
 </code></pre>
-<p>The 68 shows that we’re populating the <code>GAMES</code> constant with 68
+<p>The 70 shows that we’re populating the <code>GAMES</code> constant with 70
 elements, but it’s counting—for example—<code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
 <p>It’s also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
 not four!) because it has a separate entry for Lazy Pineapple with an
 eight qualifier and Lazy Pineapple without an eight qualifier, but
 does not do the same for Crazy Pineapple.</p>
+<p>The internal names may not mean anything to you, but click the triangle,
+if you want to see the entire list.</p>
+<details>
+<summary>Code that initializes the GAMES constant</summary>
+<pre>
+pub static GAMES: LazyLock&lt;[GameInfo; 70]&gt; = LazyLock::new(|| {
+    [
+        // Hold'ems
+        HOLD_EM.done(),
+        IRISH.done(),
+        HOLD_EM_SHORT.done(),
+        CRAZY_PINE.done(),
+        CRAZY_PINE_8.done(),
+        HOLDEM_8.done(),
+        LAZY_PINE.done(),
+        LAZY_PINE_8.done(),
+        REGULAR_PINE.done(),
+        REGULAR_PINE_8.done(),
+        RIO_BRAVO.done(),
+        HOLD_EM_CRAYFISH.done(),
+        // Omahas
+        OMAHA.done(),
+        OMAHA_8.done(),
+        OMAHA_SHORT.done(),
+        BIG_O.done(),
+        BINGLAHA.done(),
+        DRAMADUGI.done(),
+        DRAMAHA.done(),
+        DRAMAHA_49.done(),
+        DRAMAHA_3D.done(),
+        TWO_OR_FIVE_O8.done(),
+        OMAHA_X_OR_BETTER.done(),
+        DOUBLE_PLO.done(),
+        FIVE_CARD_OMAHA.done(),
+        OMAHA_CRAYFISH.done(),
+        // Scrotum
+        SCROTUM.done(),
+        // Chowahas
+        CHOWAHA.done(),
+        CHOWAHA_FOUR_8.done(),
+        // Triple Boards
+        OKLAHOMA.done(),
+        MURDER.done(),
+        REDRUM.done(),
+        // Courchevel
+        COURCHEVEL.done(),
+        // Draws
+        DRAW.done(),
+        LIMIT_CA_LOWBALL.done(),
+        LIMIT_VANILLA_CA_LOWBALL.done(),
+        NL_CA_LOWBALL.done(),
+        DEUCE_TO_SEVEN.done(),
+        QUICK_QUADS.done(),
+        // Badugis
+        BADUGI.done(),
+        BADACEY.done(),
+        BADEUCY.done(),
+        // Triple Draws
+        ACE_TO_FIVE_3D.done(),
+        DEUCE_TO_SEVEN_3D.done(),
+        ARCHIE.done(),
+        KOREAN.done(),
+        DUCK_FLUSH.done(),
+        QUICK_QUADS_3D.done(),
+        DEUCE_TO_SEVEN_2D.done(),
+        // Mississippi Studs
+        MISS_STUD.done(),
+        MISS_8.done(),
+        MISS_RAZZ.done(),
+        // 7-card Studs
+        STUD.done(),
+        RAZZ.done(),
+        STUD_8.done(),
+        STUD_HIGH_LOW.done(),
+        DEUCE_TO_SEVEN_RAZZ.done(),
+        LONDON_LOWBALL.done(),
+        RAZZDUGI.done(),
+        ACTION_RAZZ.done(),
+        ACTION_RAZZDUGI.done(),
+        SUPER_STUD.done(),
+        SUPER_STUD_8.done(),
+        // 5-card studs
+        FIVE_CARD_STUD.done(),
+        // Mexicans
+        MEXICAN.done(),
+        // Simultaneous
+        SOHE.done(),
+        SHESHE.done(),
+        // Choice
+        PARADISE_PICK_EM.done(),
+        WONKY_DONKEY.done(),
+        DEALERS_CHOICE.done(),
+    ]
+});
+</pre>
+
+</details>
 <p>Internally, games are implemented as core games which can have a
 lot of options applied to them and the <code>GAMES</code> constant simply
 represents the most popular combinations of core games with
 options. There is no requirement for a combination of a core game and
 options to be present in <code>GAMES</code> for that combination to be used in a
 tournament structure or ring game, so mb2 is already dealing well more
-than sixty different variants, but some of the differences are so
+than seventy different variants, but some of the differences are so
 small that it’s hard to argue they’re different games.</p>
 <p>Here are the core games, with up to three
 examples of each.  This table is mostly to represent the current flexibility
@@ -257,7 +356,7 @@ of mb2; it’s not really that useful to players.
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
-                            <a rel="next prefetch" href="games/dealers-choice.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="games/crayfish.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
@@ -271,7 +370,7 @@ of mb2; it’s not really that useful to players.
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
-                    <a rel="next prefetch" href="games/dealers-choice.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="games/crayfish.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
