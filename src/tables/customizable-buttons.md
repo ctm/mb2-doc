@@ -10,7 +10,7 @@ red letter B inside it.  It can be seen here to the upper-left of deadhead:
 If you hover over the dealer button, it gets larger and if you click the
 dealer button, you get an "[easter-egg](https://en.wikipedia.org/wiki/Easter_egg_(media))", a narcoleptic dinosaur:
 
-!A close-up of the magnified narcoleptic dinosaur](./customizable-buttons/easter-egg-dino.png "The Hidden Other Button Face")
+![A close-up of the magnified narcoleptic dinosaur](./customizable-buttons/easter-egg-dino.png "The Hidden Other Button Face")
 
 However, if you shift-click the button, you get a picker that allows you
 to select an image to send directly to your client (i.e., the image is
@@ -53,3 +53,10 @@ The loading and display of the custom buttons is done entirely using
 Rust.  Mb2's source code is private, but a stand-alone client-side
 loader that demonstrates how this is done is [available on
 GitHub](https://github.com/ctm/upload).
+
+## A Button to try
+
+Any image that is a circle, with everything outside the circle being
+transparent will work. PNGs are good for this as are SVGs. Here's an
+example: <a href="customizable-buttons/lofty_top_small.png"
+download>lofty_top_small.png</a>

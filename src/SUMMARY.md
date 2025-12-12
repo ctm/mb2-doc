@@ -17,6 +17,8 @@
   - [Shareable URLs](./tables/shareable-urls.md)
   - [Review Button](./tables/review-button.md)
   - [Customizable Dealer Buttons](./tables/customizable-buttons.md)
+  - [Customizable Backgrounds](./tables/customizable-backgrounds.md)
+  - [Customizable Styles](./tables/customizable-styles.md)
 - [Fun Money](./fun_money.md)
 - [Tournaments](./tournaments.md)
   - [Structures](./tournaments/structures.md)
