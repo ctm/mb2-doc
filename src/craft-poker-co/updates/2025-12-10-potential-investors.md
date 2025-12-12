@@ -27,7 +27,7 @@ If you're on the fence, or just want as much information as possible, I plan on 
 
 [Whee!](https://www.youtube.com/watch?v=htQVthGRoT8)
 --
-Cliff Matthews
-Founder, Craft Poker Co.
-https://craftpoker.com
+Cliff Matthews<br/>
+Founder, Craft Poker Co.<br/>
+https://craftpoker.com<br/>
 clifford.t.matthews@gmail.com
