@@ -81,5 +81,6 @@
     - [2024-12-18 Status Report](craft-poker-co/updates/2024-12-18-status.md)
     - [2025-12-4 Status Report](craft-poker-co/updates/2025-12-4-status.md)
     - [2025-12-10 Email to Potential Investors](craft-poker-co/updates/2025-12-10-potential-investors.md)
+    - [2025-12-12 Email to BARGE](craft-poker-co/updates/2025-12-12-barge.md)
 ---
 - [Third Party Licenses](./third-party-licenses.md)
