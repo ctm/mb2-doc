@@ -36,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-8bc72a7e.js";
+            window.path_to_searchindex_js = "searchindex-3a797666.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-0735c708.js"></script>
+        <script src="toc-dc8061e6.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -715,7 +715,7 @@ red letter B inside it.  It can be seen here to the upper-left of deadhead:</p>
 <p><img src="tables/customizable-buttons/normal.png" title="A Normal Button" alt="The player “deadhead” has A circular dealer button with a red B on it"></p>
 <p>If you hover over the dealer button, it gets larger and if you click the
 dealer button, you get an “<a href="https://en.wikipedia.org/wiki/Easter_egg_(media)">easter-egg</a>”, a narcoleptic dinosaur:</p>
-<p>!A close-up of the magnified narcoleptic dinosaur](./customizable-buttons/easter-egg-dino.png “The Hidden Other Button Face”)</p>
+<p><img src="tables/customizable-buttons/easter-egg-dino.png" title="The Hidden Other Button Face" alt="A close-up of the magnified narcoleptic dinosaur"></p>
 <p>However, if you shift-click the button, you get a picker that allows you
 to select an image to send directly to your client (i.e., the image is
 never sent to the mb2 server):</p>
@@ -744,6 +744,64 @@ private client-side only loading and will be completely optional.</p>
 Rust.  Mb2’s source code is private, but a stand-alone client-side
 loader that demonstrates how this is done is <a href="https://github.com/ctm/upload">available on
 GitHub</a>.</p>
+<h2 id="a-button-to-try"><a class="header" href="#a-button-to-try">A Button to try</a></h2>
+<p>Any image that is a circle, with everything outside the circle being
+transparent will work. PNGs are good for this as are SVGs. Here’s an
+example: <a href="tables/customizable-buttons/lofty_top_small.png" download="">lofty_top_small.png</a></p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="customizable-backgrounds"><a class="header" href="#customizable-backgrounds">Customizable Backgrounds</a></h1>
+<p>Similar to <a href="#customizable-dealer-buttons">customizable dealer buttons</a>,
+you can change the background of all your tables by shift-clicking on
+the background. That will bring up a picker where you can select an image
+to be used instead of the green “Craft Poker” table.</p>
+<p>The optimal dimension for your custom background is
+1906x1314. Anything else will be scaled.</p>
+<p>Once you have uploaded a background, it will be remembered for new
+tables, but you can click on the background and shift back to the
+default, and click to continue cycling through backgrounds.</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="customizable-styles"><a class="header" href="#customizable-styles">Customizable Styles</a></h1>
+<p>Similar to <a href="#customizable-backgrounds">customizable backgrounds</a>, if you
+also hold the Alt-key down when you shift-click on a background, you get
+a picker that allows you to upload CSS or SASS that can change the appearance
+of a table.</p>
+<p>Before you do so, you should upload a custom button or background and
+then use web developer tools to delete it, just to be sure you can do
+so, because an unwanted style-sheet is going to be much more annoying
+than an unwanted button or background.</p>
+<p>This is proof-of-concept, only. The format of a stylesheet is not
+documented, nor is it stable. However, this is the style sheet used:
+<a href="tables/customizable-styles/table.scss" download="">table.scss</a>. At
+the end of that file there are two css rules currently commented out
+by a multi-line comment:</p>
+<pre><code>/*
+button.fold {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+button.fold::after {
+    content: "Foldem";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+}
+*/
+</code></pre>
+<p>If you delete the <code>/*</code> line and the <code>*/</code> line and then use Alt-shift-click to
+install the resultant file, the “Fold” button will say “Foldem”.  If you change</p>
+<pre><code>.pushable.std {
+    background: #FB0F0C;
+}
+</code></pre>
+<p>to</p>
+<pre><code>.pushable.std {
+    background: black;
+}
+</code></pre>
+<p>you’ll get black buttons, etc.</p>
+<p>E.g., after doing both:
+<img src="tables/customizable-styles/black-foldem.png" /></p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="fun-money"><a class="header" href="#fun-money">Fun Money</a></h1>
 <p>Mb2 “keeps score” by tracking “Fun Money”, an abstraction of what a

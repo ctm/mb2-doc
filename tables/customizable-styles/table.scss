@@ -1,0 +1,1441 @@
+@use "sass:list";
+@use "sass:math";
+
+// These two are the values that all the various numbers are scaled to
+
+$viewport-height: 1314;
+$viewport-width: 1906;
+
+@function h($px) {
+    @return math.div($px, $viewport-height) * 100vh;
+}
+
+@function w($px) {
+    @return math.div($px, $viewport-width) * 100vw;
+}
+
+$seat-width: 386;
+
+$seat-card-selection-rise: 22;
+$seat-card-revealed-height: 88;
+$seat-card-max-height: $seat-card-revealed-height + $seat-card-selection-rise;
+$seat-card-stud-facedown-height: 69;
+$seat-card-non-stud-facedown-height: 51;
+$seat-card-stud-diff: $seat-card-revealed-height - $seat-card-stud-facedown-height;
+$seat-card-non-stud-diff: $seat-card-revealed-height - $seat-card-non-stud-facedown-height;
+$seat-card-full-height: 165;
+$seat-card-width: 118;
+
+$seat-middle-height: 120;
+$seat-progress-height: 28;
+$seat-progress-inset: 62;
+$seat-2-card-inset: 74;
+$seat-7-card-inset: 25;
+
+$seat-height: $seat-card-max-height + $seat-middle-height + $seat-progress-height;
+$seat-progress-height-percentage: math.div(100% * $seat-progress-height, $seat-height);
+$seat-progress-width-percentage: math.div(100% * ($seat-width - 2 * $seat-progress-inset), $seat-width);
+$seat-progress-left-percentage: math.div(100% * $seat-progress-inset, $seat-width);
+$seat-unselected-percentage: math.div(100% * $seat-card-selection-rise, $seat-height);
+
+$seat-nick-chips-height-percentage: math.div(100% * $seat-middle-height, $seat-height);
+
+$seat-card-width-percentage: math.div(100% * $seat-card-width, $seat-width);
+$seat-card-full-height-percentage: math.div(100% * $seat-card-full-height, $seat-height);
+$seat-2-card-inset-percentage: math.div(100% * $seat-2-card-inset, $seat-width);
+$seat-7-card-inset-percentage: math.div(100% * $seat-7-card-inset, $seat-width);
+
+$stud-facedown-percentage: 100% * math.div($seat-card-selection-rise + $seat-card-revealed-height - $seat-card-stud-facedown-height, $seat-height);
+$non-stud-facedown-percentage: 100% * math.div($seat-card-selection-rise + $seat-card-revealed-height - $seat-card-non-stud-facedown-height, $seat-height);
+
+
+$v-offset: $seat-card-max-height + math.div($seat-middle-height, 2);
+$h-offset: math.div($seat-width, 2);
+
+// h-middle is simply the middle (at least for now)
+@function h-middle-from-left($offset) {
+    @return $offset + math.div($seat-width, 2);
+}
+
+// v-middle is the middle of the middle, which means there's more room
+// above (for the cards) than there is below, because the progress bar
+// is below.
+@function v-middle-from-no-cards($offset) {
+    @return $offset + math.div($seat-middle-height, 2);
+}
+
+$seat-1-6-v-middle: v-middle-from-no-cards(119);
+$seat-2-6-v-middle: v-middle-from-no-cards(247);
+$seat-3-6-v-middle: v-middle-from-no-cards(656);
+$seat-4-6-v-middle: v-middle-from-no-cards(897);
+$seat-5-6-v-middle: $seat-3-6-v-middle;
+$seat-6-6-v-middle: $seat-2-6-v-middle;
+
+$six-handed-v:
+    $seat-1-6-v-middle
+    $seat-2-6-v-middle
+    $seat-3-6-v-middle
+    $seat-4-6-v-middle
+    $seat-5-6-v-middle
+    $seat-6-6-v-middle;
+
+$seat-1-6-h-middle: math.div($viewport-width, 2);
+$seat-4-6-h-middle: $seat-1-6-h-middle;
+$seat-5-6-h-middle: h-middle-from-left(42);
+$seat-6-6-h-middle: h-middle-from-left(102);
+$seat-2-6-h-middle: $viewport-width - $seat-6-6-h-middle;
+$seat-3-6-h-middle: $viewport-width - $seat-5-6-h-middle;
+
+$six-handed-h:
+    $seat-1-6-h-middle
+    $seat-2-6-h-middle
+    $seat-3-6-h-middle
+    $seat-4-6-h-middle
+    $seat-5-6-h-middle
+    $seat-6-6-h-middle;
+
+$seat-1-8-v-middle: $seat-1-6-v-middle;
+$seat-2-8-v-middle: v-middle-from-no-cards(211);
+$seat-3-8-v-middle: v-middle-from-no-cards(476);
+$seat-4-8-v-middle: v-middle-from-no-cards(776);
+$seat-5-8-v-middle: v-middle-from-no-cards(897);
+$seat-6-8-v-middle: $seat-4-8-v-middle;
+$seat-7-8-v-middle: $seat-3-8-v-middle;
+$seat-8-8-v-middle: $seat-2-8-v-middle;
+
+$eight-handed-v:
+    $seat-1-8-v-middle
+    $seat-2-8-v-middle
+    $seat-3-8-v-middle
+    $seat-4-8-v-middle
+    $seat-5-8-v-middle
+    $seat-6-8-v-middle
+    $seat-7-8-v-middle
+    $seat-8-8-v-middle;
+
+$seat-1-8-h-middle: math.div($viewport-width, 2);
+$seat-5-8-h-middle: $seat-1-8-h-middle;
+$seat-6-8-h-middle: h-middle-from-left(208);
+$seat-7-8-h-middle: h-middle-from-left(42);
+$seat-8-8-h-middle: $seat-6-8-h-middle;
+$seat-2-8-h-middle: $viewport-width - $seat-8-8-h-middle;
+$seat-3-8-h-middle: $viewport-width - $seat-7-8-h-middle;
+$seat-4-8-h-middle: $viewport-width - $seat-6-8-h-middle;
+
+$eight-handed-h:
+    $seat-1-8-h-middle
+    $seat-2-8-h-middle
+    $seat-3-8-h-middle
+    $seat-4-8-h-middle
+    $seat-5-8-h-middle
+    $seat-6-8-h-middle
+    $seat-7-8-h-middle
+    $seat-8-8-h-middle;
+
+$seat-1-9-v-middle: $seat-1-6-v-middle;;
+$seat-2-9-v-middle: v-middle-from-no-cards(247);
+$seat-3-9-v-middle: v-middle-from-no-cards(507);
+$seat-4-9-v-middle: $seat-4-8-v-middle;
+$seat-5-9-v-middle: $seat-5-8-v-middle;
+$seat-6-9-v-middle: $seat-6-8-v-middle;
+$seat-7-9-v-middle: $seat-3-9-v-middle;
+$seat-8-9-v-middle: $seat-2-9-v-middle;
+$seat-9-9-v-middle: $seat-1-9-v-middle;
+
+$nine-handed-v:
+    $seat-1-9-v-middle
+    $seat-2-9-v-middle
+    $seat-3-9-v-middle
+    $seat-4-9-v-middle
+    $seat-5-9-v-middle
+    $seat-6-9-v-middle
+    $seat-7-9-v-middle
+    $seat-8-9-v-middle
+    $seat-9-9-v-middle;
+
+$seat-7-9-h-middle: h-middle-from-left(22);
+$seat-8-9-h-middle: h-middle-from-left(100);
+$seat-9-9-h-middle: h-middle-from-left(450);
+$seat-1-9-h-middle: $viewport-width - $seat-9-9-h-middle;
+$seat-2-9-h-middle: $viewport-width - $seat-8-9-h-middle;
+$seat-3-9-h-middle: $viewport-width - $seat-7-9-h-middle;
+$seat-4-9-h-middle: $seat-4-8-h-middle;
+$seat-5-9-h-middle: $seat-5-8-h-middle;
+$seat-6-9-h-middle: $seat-6-8-h-middle;
+
+$nine-handed-h:
+    $seat-1-9-h-middle
+    $seat-2-9-h-middle
+    $seat-3-9-h-middle
+    $seat-4-9-h-middle
+    $seat-5-9-h-middle
+    $seat-6-9-h-middle
+    $seat-7-9-h-middle
+    $seat-8-9-h-middle
+    $seat-9-9-h-middle;
+
+$seat-1-10-v-middle: $seat-1-9-v-middle;
+$seat-2-10-v-middle: $seat-2-9-v-middle;
+$seat-3-10-v-middle: $seat-3-9-v-middle;
+$seat-4-10-v-middle: $seat-4-9-v-middle;
+$seat-5-10-v-middle: $seat-5-9-v-middle;
+
+$seat-6-10-v-middle: $seat-5-10-v-middle;
+$seat-7-10-v-middle: $seat-4-10-v-middle;
+$seat-8-10-v-middle: $seat-3-10-v-middle;
+$seat-9-10-v-middle: $seat-2-10-v-middle;
+$seat-10-10-v-middle: $seat-1-10-v-middle;
+
+$ten-handed-v:
+    $seat-1-10-v-middle
+    $seat-2-10-v-middle
+    $seat-3-10-v-middle
+    $seat-4-10-v-middle
+    $seat-5-10-v-middle
+    $seat-6-10-v-middle
+    $seat-7-10-v-middle
+    $seat-8-10-v-middle
+    $seat-9-10-v-middle
+    $seat-10-10-v-middle;
+
+$seat-1-10-h-middle: $seat-1-9-h-middle;
+$seat-2-10-h-middle: $seat-2-9-h-middle;
+$seat-3-10-h-middle: $seat-3-9-h-middle;
+$seat-4-10-h-middle: $seat-2-9-h-middle;
+$seat-5-10-h-middle: $seat-1-9-h-middle;
+
+$seat-6-10-h-middle: $seat-9-9-h-middle;
+$seat-7-10-h-middle: $seat-8-9-h-middle;
+$seat-8-10-h-middle: $seat-7-9-h-middle;
+$seat-9-10-h-middle: $seat-8-9-h-middle;
+$seat-10-10-h-middle: $seat-9-9-h-middle;
+
+$ten-handed-h:
+    $seat-1-10-h-middle
+    $seat-2-10-h-middle
+    $seat-3-10-h-middle
+    $seat-4-10-h-middle
+    $seat-5-10-h-middle
+    $seat-6-10-h-middle
+    $seat-7-10-h-middle
+    $seat-8-10-h-middle
+    $seat-9-10-h-middle
+    $seat-10-10-h-middle;
+
+$card-excess: 100% - (2 * $seat-7-card-inset-percentage) - $seat-card-width-percentage;
+
+$button-width: 60;
+$button-height: $button-width;
+
+$single-board-card-width: 120;
+$single-board-card-height: 168;
+
+$action-clickable-button-width: 304;
+$action-clickable-button-height: 121;
+
+$action-clickable-checkbox-width: 305;
+$action-clickable-checkbox-height: 53;
+
+$mexican-checkboxes-width: 285;
+
+$action-clickable-button-top: 1187;
+$double-bet-button-top: 1049;
+$fold-button-left: 958;
+$call-button-left: 1272;
+$discard-button-left: $fold-button-left;
+$bring-in-button-left: $fold-button-left;
+$check-button-left: $call-button-left;
+$raise-button-left: 1587;
+$bet-button-left: $raise-button-left;
+$complete-button-left: $raise-button-left;
+$mexican-up-button-left: $fold-button-left;
+$mexican-down-button-left: $call-button-left;
+
+$action-clickable-button-horizontal-gap: $call-button-left - $fold-button-left - $action-clickable-button-width;
+
+$time-height: $action-clickable-checkbox-height;
+$time-width: 100;
+
+$slider-height: 59;
+$slider-width: 618;
+
+$slider-button-height: 52;
+$slider-button-width: 143;
+
+$text-buttons-height: 46;
+$chat-button-width: 162;
+
+$pop-out-button-width: 162;
+
+$chat-and-input-height: 217;
+$chat-and-input-width: 850;
+
+$preference-bar-height: $slider-height;
+
+$pot-total-height: 35;
+$current-game-height: 35;
+
+$die-height-and-width: 78;
+$draws-remaining-height: 52;
+
+@mixin table($handed, $v, $h) {
+    @for $seat from 1 through $handed {
+        .seat-#{$seat}-#{$handed} {
+            position: absolute;
+            width: w($seat-width);
+            height: h($seat-height);
+            top: h(list.nth($v, $seat) - $v-offset);
+            left: w(list.nth($h, $seat) - $h-offset);
+        }
+    }
+}
+
+@include table( 6, $six-handed-v  , $six-handed-h);
+@include table( 8, $eight-handed-v, $eight-handed-h);
+@include table( 9, $nine-handed-v , $nine-handed-h);
+@include table(10, $ten-handed-v  , $ten-handed-h);
+
+.time-to-act {
+    position: absolute;
+    height: $seat-progress-height-percentage;
+    width: $seat-progress-width-percentage;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    div {
+        position: absolute;
+        height: 100%;
+        left: 0;
+    }
+}
+
+.nick-chips {
+    position: absolute;
+    height: $seat-nick-chips-height-percentage;
+    width: 100%;
+    bottom: $seat-progress-height-percentage;
+    border: 1px solid blue; // For now
+    background-color: white;
+    text-align: center;
+    font-size: 3.2vh; // NOTE: this was done by hand, but it is computable
+    border-bottom-left-radius: 5% 15%;
+    border-bottom-right-radius: 5% 15%;
+    border-top-left-radius: 5% 15%;
+    border-top-right-radius: 5% 15%;
+    line-height: initial;
+    z-index: 2;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    hr {
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+}
+
+div.nick-chips {
+    display: flex;
+}
+
+div.nick-chips div {
+    margin: auto;
+}
+
+.nick-chips .action {
+    color: blue;
+}
+
+.vacation {
+    color: lightgray;
+}
+
+.card-1-1 {
+    position: absolute;
+    top: $seat-unselected-percentage;
+    left: 50% - math.div($seat-card-width-percentage, 2);
+    width: $seat-card-width-percentage;
+    height: $seat-card-full-height-percentage;
+    z-index: 2;
+    &.teaching {
+        filter: opacity(60%);
+    }
+}
+
+.card-1-1.selected, .card-1-2.selected, .card-2-2.selected {
+    top: 0
+}
+
+.card-1-2 {
+    position: absolute;
+    top: $seat-unselected-percentage;
+    left: $seat-2-card-inset-percentage;
+    width: $seat-card-width-percentage;
+    height: $seat-card-full-height-percentage;
+    z-index: 2;
+    &.teaching {
+        filter: opacity(75%);
+    }
+}
+
+.card-2-2 {
+    position: absolute;
+    top: $seat-unselected-percentage;
+    right: $seat-2-card-inset-percentage;
+    width: $seat-card-width-percentage;
+    height: $seat-card-full-height-percentage;
+    z-index: 2;
+    &.teaching {
+        filter: opacity(75%);
+    }
+}
+
+@mixin stud-card-background {
+    top: $stud-facedown-percentage;
+}
+
+@mixin non-stud-card-background {
+    top: $non-stud-facedown-percentage;
+}
+
+.card-1-1.stud-card-background, .card-1-2.stud-card-background, .card-2-2.stud-card-background  {
+    @include stud-card-background;
+}
+
+.card-1-1.non-stud-card-background, .card-1-2.non-stud-card-background, .card-2-2.non-stud-card-background {
+    @include non-stud-card-background;
+}
+
+@mixin card($n-cards) {
+    @for $card from 1 through $n-cards {
+        .card-#{$card}-#{$n-cards} {
+            position: absolute;
+            top: $seat-unselected-percentage;
+            left: $seat-7-card-inset-percentage + (($card - 1) * math.div($card-excess, ($n-cards - 1)));
+            width: $seat-card-width-percentage;
+            height: $seat-card-full-height-percentage;
+            z-index: 2;
+            &.teaching {
+                filter: opacity(75%);
+            }
+        }
+        .card-#{$card}-#{$n-cards}.selected {
+            top: 0;
+        }
+        .card-#{$card}-#{$n-cards}.stud-card-background {
+            @include stud-card-background
+        }
+        .card-#{$card}-#{$n-cards}.non-stud-card-background {
+            @include non-stud-card-background
+        }
+    }
+}
+
+@for $n-cards from 3 through 7 {
+    @include card($n-cards);
+}
+
+.background {
+    /* webpackIgnore: true */
+    background-image: url("/background.svg");
+    background-size: 100% 100%;
+    height: 100vh;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.card-gap {
+    margin-left: 3em;
+}
+
+$button-1-6-top: 296;
+$button-2-6-top: 404;
+$button-3-6-top: 717;
+$button-4-6-top: 787;
+$button-5-6-top: 582;
+$button-6-6-top: 414;
+
+$six-handed-button-top:
+    $button-1-6-top
+    $button-2-6-top
+    $button-3-6-top
+    $button-4-6-top
+    $button-5-6-top
+    $button-6-6-top;
+
+$button-1-6-left: 1007;
+$button-2-6-left: 1471;
+$button-3-6-left: 1378;
+$button-4-6-left: 742;
+$button-5-6-left: 364;
+$button-6-6-left: 383;
+
+$six-handed-button-left:
+    $button-1-6-left
+    $button-2-6-left
+    $button-3-6-left
+    $button-4-6-left
+    $button-5-6-left
+    $button-6-6-left;
+
+$button-1-9-top: 310;
+$button-2-9-top: 382;
+$button-3-9-top: 630;
+$button-4-9-top: 729;
+$button-5-9-top: 794;
+$button-6-9-top: 751;
+$button-7-9-top: 457;
+$button-8-9-top: 390;
+$button-9-9-top: 286;
+
+$nine-handed-button-top:
+    $button-1-9-top
+    $button-2-9-top
+    $button-3-9-top
+    $button-4-9-top
+    $button-5-9-top
+    $button-6-9-top
+    $button-7-9-top
+    $button-8-9-top
+    $button-9-9-top;
+
+$button-1-9-left: 1151;
+$button-2-9-left: 1430;
+$button-3-9-left: 1471;
+$button-4-9-left: 1272;
+$button-5-9-left: 764;
+$button-6-9-left: 586;
+$button-7-9-left: 362;
+$button-8-9-left: 389;
+$button-9-9-left: 634;
+
+$nine-handed-button-left:
+    $button-1-9-left
+    $button-2-9-left
+    $button-3-9-left
+    $button-4-9-left
+    $button-5-9-left
+    $button-6-9-left
+    $button-7-9-left
+    $button-8-9-left
+    $button-9-9-left;
+
+$button-1-8-top: $button-1-6-top;
+$button-2-8-top: $button-2-9-top; // TODO: adjust
+$button-3-8-top: $button-3-9-top;
+$button-4-8-top: $button-4-9-top;
+$button-5-8-top: $button-4-6-top;
+$button-6-8-top: $button-6-9-top;
+$button-7-8-top: $button-7-9-top;
+$button-8-8-top: $button-8-9-top; // TODO: adjust
+
+$eight-handed-button-top:
+    $button-1-8-top
+    $button-2-8-top
+    $button-3-8-top
+    $button-4-8-top
+    $button-5-8-top
+    $button-6-8-top
+    $button-7-8-top
+    $button-8-8-top;
+
+$button-1-8-left: $button-1-6-left;
+$button-2-8-left: $button-2-9-left; // TODO: adjust
+$button-3-8-left: $button-3-9-left;
+$button-4-8-left: $button-4-9-left;
+$button-5-8-left: $button-4-6-left;
+$button-6-8-left: $button-6-9-left;
+$button-7-8-left: $button-7-9-left;
+$button-8-8-left: $button-8-9-left; // TODO: adjust
+
+$eight-handed-button-left:
+    $button-1-8-left
+    $button-2-8-left
+    $button-3-8-left
+    $button-4-8-left
+    $button-5-8-left
+    $button-6-8-left
+    $button-7-8-left
+    $button-8-8-left;
+
+$button-1-10-top: $button-1-9-top;
+$button-2-10-top: $button-2-9-top;
+$button-3-10-top: $button-3-9-top;
+$button-4-10-top: $button-4-9-top;
+$button-5-10-top: $button-5-9-top;
+$button-6-10-top: $button-5-9-top;
+$button-7-10-top: $button-4-9-top;
+$button-8-10-top: $button-3-9-top;
+$button-9-10-top: $button-2-9-top;
+$button-10-10-top: $button-1-9-top;
+
+$ten-handed-button-top:
+    $button-1-10-top
+    $button-2-10-top
+    $button-3-10-top
+    $button-4-10-top
+    $button-5-10-top
+    $button-6-10-top
+    $button-7-10-top
+    $button-8-10-top
+    $button-9-10-top
+    $button-10-10-top;
+
+$button-1-10-left: $button-1-9-left;
+$button-2-10-left: $button-2-9-left;
+$button-3-10-left: $button-3-9-left;
+$button-4-10-left: $button-2-9-left;
+$button-5-10-left: $button-1-9-left;
+$button-6-10-left: $button-9-9-left;
+$button-7-10-left: $button-8-9-left;
+$button-8-10-left: $button-7-9-left;
+$button-9-10-left: $button-8-9-left;
+$button-10-10-left: $button-9-9-left;
+
+$ten-handed-button-left:
+    $button-1-10-left
+    $button-2-10-left
+    $button-3-10-left
+    $button-4-10-left
+    $button-5-10-left
+    $button-6-10-left
+    $button-7-10-left
+    $button-8-10-left
+    $button-9-10-left
+    $button-10-10-left;
+
+// My button placeholder CSS (until I get a button SVG) is from
+// https://code-boxx.com/css-circles-text/
+
+@mixin button($handed, $button-top, $button-left) {
+    @for $seat from 1 through $handed {
+        .button-#{$seat}-#{$handed} {
+            position: absolute;
+            width: w($button-width);
+            height: h($button-height);
+            top: h(list.nth($button-top, $seat));
+            left: w(list.nth($button-left, $seat));
+        }
+    }
+}
+
+@include button( 6, $six-handed-button-top  , $six-handed-button-left  );
+@include button( 8, $eight-handed-button-top, $eight-handed-button-left);
+@include button( 9, $nine-handed-button-top , $nine-handed-button-left );
+@include button(10, $ten-handed-button-top  , $ten-handed-button-left  );
+
+.button-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* webpackIgnore: true */
+    background-image: url("/red-b.svg");
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.button-wrapper.flipped {
+    /* webpackIgnore: true */
+    background-image: url("/sleeping-dino.svg");
+}
+
+.button-wrapper.dormant {
+    filter: opacity(50%);
+}
+
+$single-board-top: 425;
+
+$single-board-1-left: 638;
+$single-board-2-left: 766;
+$single-board-3-left: 894;
+$single-board-4-left: 1020;
+$single-board-5-left: 1148;
+
+$single-board-left:
+    $single-board-1-left
+    $single-board-2-left
+    $single-board-3-left
+    $single-board-4-left
+    $single-board-5-left;
+
+@mixin single-board() {
+    @for $card from 1 through 5 {
+        .single-board-#{$card} {
+            position: absolute;
+            width: w($single-board-card-width);
+            height: h($single-board-card-height);
+            top: h($single-board-top);
+            left: w(list.nth($single-board-left, $card));
+        }
+    }
+}
+
+@include single-board();
+
+$triple-board-vertical-gap: 3;
+$triple-board-horizontal-gap: 8;
+$triple-board-top-0: $single-board-top - $single-board-card-height - $triple-board-vertical-gap;
+$triple-board-top-2: $single-board-top;
+$triple-board-top-4: $single-board-top + $single-board-card-height + $triple-board-vertical-gap;
+
+$chowaha-board-top-1: $single-board-top - math.div($single-board-card-height, 2) - $triple-board-vertical-gap;
+$chowaha-board-top-3: $single-board-top + math.div($single-board-card-height, 2) + $triple-board-vertical-gap;
+
+$murder-left-offset: math.div($single-board-card-height + $triple-board-horizontal-gap, 2);
+
+@mixin grid-board-helper($base, $row, $row-top, $left-offset) {
+    @for $column from 0 through 4 {
+        .#{$base}-#{$row}-#{$column} {
+            position: absolute;
+            width: w($single-board-card-width);
+            height: h($single-board-card-height);
+            top: h($row-top);
+            left: w(list.nth($single-board-left, $column + 1) + $left-offset);
+        }
+    }
+}
+
+@include grid-board-helper("oklahoma", 0, $triple-board-top-0, 0);
+@include grid-board-helper("oklahoma", 2, $triple-board-top-2, 0);
+@include grid-board-helper("oklahoma", 4, $triple-board-top-4, 0);
+
+@include grid-board-helper("murder", 0, $triple-board-top-0, $murder-left-offset);
+@include grid-board-helper("murder", 2, $triple-board-top-2, $murder-left-offset);
+@include grid-board-helper("murder", 4, $triple-board-top-4, $murder-left-offset);
+
+@include grid-board-helper("chowaha", 0, $triple-board-top-0, 0);
+@include grid-board-helper("chowaha", 1, $chowaha-board-top-1, 0);
+@include grid-board-helper("chowaha", 2, $triple-board-top-2, 0);
+@include grid-board-helper("chowaha", 3, $chowaha-board-top-3, 0);
+@include grid-board-helper("chowaha", 4, $triple-board-top-4, 0);
+
+@include grid-board-helper("double", 1, $chowaha-board-top-1, 0);
+@include grid-board-helper("double", 3, $chowaha-board-top-3, 0);
+
+@mixin action-clickable-button-with-top($name, $top, $left) {
+    button.#{$name} {
+        position: absolute;
+        width: w($action-clickable-button-width);
+        height: h($action-clickable-button-height);
+        top: h($top);
+        left: w($left);
+    }
+}
+
+@mixin action-clickable-button($name, $left) {
+    @include action-clickable-button-with-top($name, $action-clickable-button-top, $left);
+}
+
+@include action-clickable-button("fold"        , $fold-button-left);
+@include action-clickable-button("call"        , $call-button-left);
+@include action-clickable-button("check"       , $check-button-left);
+@include action-clickable-button("raise"       , $raise-button-left);
+@include action-clickable-button("bet"         , $bet-button-left);
+@include action-clickable-button("discard"     , $discard-button-left);
+@include action-clickable-button("bring-in"    , $bring-in-button-left);
+@include action-clickable-button("complete"    , $complete-button-left);
+@include action-clickable-button("mexican-up"  , $mexican-up-button-left);
+@include action-clickable-button("mexican-down", $mexican-down-button-left);
+
+@include action-clickable-button-with-top("double-bet", $double-bet-button-top, $bet-button-left);
+
+$checkbox-row-1-top: 1113;
+$checkbox-row-2-top: 1178;
+$checkbox-row-3-top: 1243;
+
+// PokerStars doesn't have anything on this row, but we want to be
+// able to display the discard check-box simultaneously with the
+// action check-boxes, so we raise it higher.
+$checkbox-row-0-top: $checkbox-row-1-top - ($checkbox-row-2-top - $checkbox-row-1-top);
+
+$checkbox-column-1-left: 958;
+$checkbox-column-2-left: 1272;
+$checkbox-column-3-left: 1587;
+
+$bet-n-checkbox-top: $checkbox-row-2-top;
+$bet-n-checkbox-left: $checkbox-column-3-left;
+
+$bet-or-raise-any-checkbox-top: $checkbox-row-3-top;
+$bet-or-raise-any-checkbox-left: $checkbox-column-3-left;
+
+$call-any-checkbox-top: $checkbox-row-3-top;
+$call-any-checkbox-left: $checkbox-column-2-left;
+
+$call-any-or-check-checkbox-top: $checkbox-row-3-top;
+$call-any-or-check-checkbox-left: $checkbox-column-2-left;
+
+$call-n-checkbox-top: $checkbox-row-2-top;
+$call-n-checkbox-left: $checkbox-column-2-left;
+
+$check-checkbox-top: $checkbox-row-1-top;
+$check-checkbox-left: $checkbox-column-2-left;
+
+$check-or-fold-checkbox-top: $checkbox-row-2-top;
+$check-or-fold-checkbox-left: $checkbox-column-1-left;
+
+$fold-checkbox-top: $checkbox-row-3-top;
+$fold-checkbox-left: $checkbox-column-1-left;
+
+$raise-any-checkbox-top: $checkbox-row-3-top;
+$raise-any-checkbox-left: $checkbox-column-3-left;
+
+$raise-n-checkbox-top: $checkbox-row-2-top;
+$raise-n-checkbox-left: $checkbox-column-3-left;
+
+$discard-checkbox-top: $checkbox-row-0-top;
+$discard-checkbox-left: $checkbox-column-1-left;
+
+$mexican-checkboxes-left: $checkbox-column-1-left;
+
+@mixin action-clickable-checkbox($name, $top, $left) {
+    .#{$name} {
+        position: absolute;
+        // width: w($action-clickable-checkbox-width);
+        height: h($action-clickable-checkbox-height);
+        top: h($top);
+        left: w($left);
+    }
+}
+
+@include action-clickable-checkbox("bet-n-checkbox"            , $bet-n-checkbox-top            , $bet-n-checkbox-left);
+@include action-clickable-checkbox("bet-or-raise-any-checkbox" , $bet-or-raise-any-checkbox-top , $bet-or-raise-any-checkbox-left);
+@include action-clickable-checkbox("call-any-checkbox"         , $call-any-checkbox-top         , $call-any-checkbox-left);
+@include action-clickable-checkbox("call-any-or-check-checkbox", $call-any-or-check-checkbox-top, $call-any-or-check-checkbox-left);
+@include action-clickable-checkbox("call-n-checkbox"           , $call-n-checkbox-top           , $call-n-checkbox-left);
+@include action-clickable-checkbox("check-checkbox"            , $check-checkbox-top            , $check-checkbox-left);
+@include action-clickable-checkbox("check-or-fold-checkbox"    , $check-or-fold-checkbox-top    , $check-or-fold-checkbox-left);
+@include action-clickable-checkbox("fold-checkbox"             , $fold-checkbox-top             , $fold-checkbox-left);
+@include action-clickable-checkbox("raise-any-checkbox"        , $raise-any-checkbox-top        , $raise-any-checkbox-left);
+@include action-clickable-checkbox("raise-n-checkbox"          , $raise-n-checkbox-top          , $raise-n-checkbox-left);
+@include action-clickable-checkbox("discard-checkbox"          , $discard-checkbox-top          , $discard-checkbox-left);
+@include action-clickable-checkbox("mexican-checkboxes"        , $discard-checkbox-top          , $mexican-checkboxes-left);
+
+.mexican-checkboxes {
+    display: flex;
+    justify-content: space-between;
+    width: w($mexican-checkboxes-width);
+}
+
+$slider-top: 1112;
+$slider-left: 1272;
+
+$slider-button-top: 1039;
+$slider-button-column-1-left: 1269;
+$slider-button-column-2-left: 1431;
+$slider-button-column-3-left: 1593;
+$slider-button-column-4-left: 1755;
+
+$slider-button-min-left:  $slider-button-column-1-left;
+$slider-button-3bb-left:  $slider-button-column-2-left;
+$slider-button-half-pot-left: $slider-button-column-2-left;
+$slider-button-pot-left:  $slider-button-column-3-left;
+$slider-button-max-left:  $slider-button-column-4-left;
+
+.slider {
+    position: absolute;
+    width: w($slider-width);
+    height: h($slider-height);
+    top: h($slider-top);
+    left: w($slider-left);
+    display: flex;
+}
+
+.slider input {
+    width: 50%;
+}
+
+@mixin slider-button($suffix, $left) {
+    .slider-button-#{$suffix} {
+        position: absolute;
+        width: w($slider-button-width);
+        height: h($slider-button-height);
+        top: h($slider-button-top);
+        left: w($left);
+    }
+}
+
+@include slider-button("min", $slider-button-min-left);
+@include slider-button("3bb", $slider-button-3bb-left);
+@include slider-button("half-pot", $slider-button-half-pot-left);
+@include slider-button("pot", $slider-button-pot-left);
+@include slider-button("max", $slider-button-max-left);
+
+$time-top: 1112;
+$time-left: $fold-button-left + math.div($action-clickable-button-width, 2) - math.div($time-width, 2);
+
+button.time {
+    position: absolute;
+    width: w($time-width);
+    height: h($time-height);
+    top: h($time-top);
+    left: w($time-left);
+}
+
+$text-buttons-top: 1051;
+$text-buttons-left: 0;
+
+$chat-button-left: 0;
+
+button.chat {
+    color: white;
+    background-color: red;
+    position: absolute;
+    width: w($chat-button-width);
+    height: h($text-buttons-height);
+    top: h($text-buttons-top);
+    left: w($chat-button-left);
+}
+
+.undock {
+    position: absolute;
+    width: w($pop-out-button-width);
+    height: h($text-buttons-height);
+    top: h($text-buttons-top);
+    left: w($chat-button-left + $chat-button-width);
+}
+
+button.review-button {
+    position: absolute;
+    width: w($pop-out-button-width);
+    height: h($text-buttons-height);
+    top: h($text-buttons-top);
+    left: w($chat-button-left);
+}
+
+button.review-button.docked {
+    left: w($chat-button-left + 2 * $chat-button-width);
+}
+
+button.resume {
+    position: absolute;
+    width: w($pop-out-button-width);
+    height: h($text-buttons-height);
+    top: h($text-buttons-top);
+    left: w($chat-button-left + 3 * $chat-button-width);
+}
+
+$chat-and-input-top: 1097;
+$chat-and-input-left: 0;
+
+.chat-and-input {
+    position: absolute;
+    width: w($chat-and-input-width);
+    height: h($chat-and-input-height);
+    top: h($chat-and-input-top);
+    left: w($chat-and-input-left);
+}
+
+input.chat {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    position: absolute;
+    border-width: 0.5px;
+}
+
+@media only screen and (max-height: 414px) {
+    div.preferences {
+        top: h($preference-bar-height);
+    }
+
+    .fold-to-any-bet.white-hack {
+        top: h($preference-bar-height);
+    }
+
+    #current-level {
+        top: 2 * h($preference-bar-height);
+    }
+}
+
+@media only screen and (min-height: 415px) {
+    div.preferences {
+        top: 0;
+    }
+
+    .fold-to-any-bet.white-hack {
+        top: 0;
+    }
+
+    #current-level {
+        top: h($preference-bar-height);
+    }
+}
+
+
+div.preferences {
+    position: absolute;
+    height: h($preference-bar-height);
+    left: 0;
+    background-color: white;
+    display: inline-flex;
+}
+
+#current-level {
+    position: absolute;
+    height: h($preference-bar-height);
+    left: 1em;
+    color: white;
+    display: inline-flex;
+}
+
+
+div.preferences a, div.preferences button {
+    display: inline-flex;
+    align-items: center;
+}
+
+div.preferences svg {
+    height: 75%;
+}
+
+
+$pot-total-top : 384;
+
+.pot-total {
+    position: absolute;
+    width: 100%;
+    height: h($pot-total-height);
+    top: h($pot-total-top);
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pot-total span {
+    width: fit-content;
+    font-size: 2.0vh;
+}
+
+$current-game-top: 344;
+                     
+.current-game {
+    position: absolute;
+    width: 100%;
+    height: h($current-game-height);
+    top: h($current-game-top);
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.current-game span {
+    font-size: 2.0vh;
+}
+
+$die-top: 640;
+$die-0-left: 660;
+$die-1-left: 660 + $die-height-and-width + 5;
+
+.die-0 {
+    position: absolute;
+    width: w($die-height-and-width);
+    height: h($die-height-and-width);
+    top: h($die-top);
+    left: w($die-0-left);
+}
+
+.die-1 {
+    position: absolute;
+    width: w($die-height-and-width);
+    height: h($die-height-and-width);
+    top: h($die-top);
+    left: w($die-1-left);
+}
+
+// For now we're not reserving any place to put stacks of chips.  I
+// don't even know the rules for getting images to overflow containing
+// divs, but I think it's easy to do, so having the top be for the
+// text will probably be what we want in the future, but if not, I'll
+// address that issue then.
+
+$this-round-action-6: [
+    // top, horizontal, which
+    [264, 988, "left"],
+    [345, 482, "right"],
+    [670, 434, "right"],
+    [747, 816, "left"],
+    [670, 434, "left"],
+    [391, 456, "left"],
+];
+
+$this-round-action-8: [
+    // top, horizontal, which
+    [264, 988, "left"],
+    [358, 494, "right"],
+    [507, 470, "right"],
+    [624, 494, "right"],
+    [735, 816, "left"],
+    [627, 412, "left"],
+    [507, 470, "left"],
+    [358, 564, "left"],
+];
+
+$this-round-action-9: [
+    // top, horizontal, which
+    [271, 674, "right"],
+    [348, 474, "right"],
+    [593, 408, "right"],
+    [687, 566, "right"],
+    [747, 816, "left"],
+    [687, 530, "left"],
+    [593, 408, "left"],
+    [389, 456, "left"],
+    [307, 698, "left"],
+];
+
+$this-round-action-10: [
+    // top, horizontal, which
+    [271, 674, "right"],
+    [348, 474, "right"],
+    [593, 408, "right"],
+    [687, 474, "right"],
+    [747, 674, "right"],
+    [747, 698, "left"],
+    [687, 456, "left"],
+    [593, 408, "left"],
+    [348, 456, "left"],
+    [271, 698, "left"],
+];
+
+@function ij($data, $i, $j) {
+    @return list.nth(list.nth($data, $i), $j);
+}
+
+@mixin this-round-action($handed, $data) {
+    @for $seat from 1 through $handed {
+        .this-round-action-#{$seat}-#{$handed} {
+            position: absolute;
+            width: fit-content;
+            height: h($pot-total-height);
+            top: h(ij($data, $seat, 1));
+            #{ij($data, $seat, 3)}: w(ij($data, $seat, 2));
+        }
+    }
+}
+
+@include this-round-action(6, $this-round-action-6);
+@include this-round-action(8, $this-round-action-8);
+@include this-round-action(9, $this-round-action-9);
+@include this-round-action(10, $this-round-action-10);
+
+$pots-top: 639;
+
+.pots {
+    position: absolute;
+    width: 100%;
+    height: h($pot-total-height);
+    top: h($pots-top);
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pots span {
+    font-size: 2.0vh;
+}
+
+$rebuy-top: 1006;
+
+.rebuy {
+    position: absolute;
+    top: h($rebuy-top);
+    height: h($action-clickable-checkbox-height);
+    left: 0;
+    width: fit-content;
+}
+
+$add-on-top: 974;
+
+.add-on {
+    position: absolute;
+    top: h($add-on-top);
+    height: h($action-clickable-checkbox-height);
+    left: 0;
+}
+
+.white-hack.rebuy-on-bust {
+    display: inline;
+}
+
+.rebuy button {
+    margin-left: 0.5%;
+}
+
+$center-text-top: 601;
+.center-text {
+    position: absolute;
+    width: 100%;
+    top: h($center-text-top);
+    left: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+$draws-remaining-top: 501;
+.draws-remaining {
+    position: absolute;
+    width: 100%;
+    height: h($draws-remaining-height);
+    top: h($draws-remaining-top);
+    left: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.40vh;
+}
+
+$draws-remaining-top-high: $current-game-top - ($pot-total-top - $current-game-top);
+.draws-remaining.high {
+    top: h($draws-remaining-top-high);
+    height: h($current-game-height);
+    font-size: 2vh;
+}
+
+// NOTE: we may want to put lammers closest to chat because they're
+// more common than rebuy tournaments
+
+$lammers-top: $add-on-top - ($rebuy-top - $add-on-top);
+.lammers {
+    position: absolute;
+    top: h($lammers-top);
+    height: h($action-clickable-checkbox-height);
+    left: 0;
+    width: 100%;
+}
+
+.lammers label {
+    background-color: white;
+}
+
+.lammers input {
+    border-style: none;
+}
+
+$reveal-top: $lammers-top - ($rebuy-top - $add-on-top);
+.reveal {
+    position: absolute;
+    top: h($reveal-top);
+    height: h($action-clickable-checkbox-height);
+    left: 0;
+}
+
+.reveal.always input:checked {
+    accent-color: red;
+}
+
+.fold-to-any-bet.white-hack {
+    position: absolute;
+    right: 0;
+    height: h($preference-bar-height);
+}
+
+.choose-in-advance {
+    position: absolute;
+    right: 0;
+    height: h($preference-bar-height);
+    top: h($preference-bar-height);
+}
+
+.pause-event {
+    position: absolute;
+    right: 0;
+    height: h($preference-bar-height);
+    top: 2 * h($preference-bar-height);
+}
+
+.reveal-everyone {
+    position: absolute;
+    right: 0;
+    height: h($preference-bar-height);
+    top: 3 * h($preference-bar-height);
+}
+
+div.chat-shrink {
+    line-height: 1.25;
+}
+
+div.chat-text, div.chat-shrink {
+    height:inherit;
+    overflow:auto;
+    border:1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
+}
+
+div.chat-graphical {
+    height: 75%; // $chat-div-height-percentage
+    overflow: auto;
+    font-size: 2.40vh;
+    position: relative;
+    color: black;
+    line-height: 1.3;
+    background-color: white;
+}
+
+div.chat-input-graphical {
+    height: 25%;
+    width: 100%;
+    position: absolute;
+}
+
+div.chat-pop-out {
+    height:inherit;
+    overflow:auto;
+}
+
+.on-felt {
+    border-radius: 500px;
+    color: white;
+    background-color: #004a20;
+}
+
+.pushable {
+    cursor: pointer;
+    border-radius: 2.5vh;
+    font-size: 3.40vh;
+    color: white;
+}
+
+.pushable:hover {
+    filter: brightness(110%);
+}
+
+.pushable.std {
+    background: #FB0F0C;
+}
+
+button:disabled.pushable.std {
+    background: indianred;
+    color: lightgray;
+}
+
+.pushable.alt {
+    background: #00A0C6;
+}
+
+.pushable:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.last-winner {
+    font-size: 2.1vh;
+    color: black;
+    line-height: 0.9;
+}
+
+div.uk-card.review {
+    line-height: 1;
+    width: fit-content;
+    position: absolute;
+    bottom: 0.8vh;
+    left: 0.5vw;
+    z-index: 3;
+}
+
+div.hardcoded.review {
+    bottom: 20em;
+}
+
+div.uk-card.review table tbody tr td {
+    padding: 3px 12px;
+}
+
+div.uk-card.review a.uk-notification-close {
+    display: initial;
+}
+
+div.uk-card.review table.uk-table {
+    margin-top: 0;
+}
+
+.win-high {
+    color: green;
+}
+
+.win-low {
+    color: blue;
+}
+
+.win-high .uk-text-right {
+    font-weight: bolder;
+}
+
+.win-low .uk-text-right {
+    font-style: italic;
+}
+
+.uk-tooltip span.invert {
+    color: black;
+    background-color: white;
+}
+
+div.uk-card.review img {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.white-hack {
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+:root {
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+input {
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+.chat-graphical span.chat, .chat-pop-out span.chat {
+    color: #827cf5;
+}
+
+.chat-graphical span.chat:before, .chat-pop-out span.chat:before {
+    content: "❯ ";
+}
+
+.shifted {
+    transform: scaleX(-1);
+}
+
+// This section shows both how to change the label on a button and
+// also provides a place where I can make sure that the version of
+// this file that I've edited has been uploaded.  I simply remove the
+// multi-line comment start and end (i.e., slash star and star slash)
+// and then I change Foldem to test1, then test2, then test3 as I make
+// new versions.
+
+/*
+button.fold {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+button.fold::after {
+    content: "Foldem";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+}
+*/
