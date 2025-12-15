@@ -11,3 +11,8 @@ The optimal dimension for your custom background is
 Once you have uploaded a background, it will be remembered for new
 tables, but you can click on the background and shift back to the
 default, and click to continue cycling through backgrounds.
+
+## A Background to try
+
+Here's a fair use example: <a href="customizable-backgrounds/ancient-ps-screenshot.png"
+download>ancient-ps-screenshot.png</a>
