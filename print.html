@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-c748685a.js";
+            window.path_to_searchindex_js = "searchindex-32deedb8.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-b8653d67.js"></script>
@@ -759,16 +759,36 @@ to be used instead of the green “Craft Poker” table.</p>
 <p>Once you have uploaded a background, it will be remembered for new
 tables, but you can click on the background and shift back to the
 default, and click to continue cycling through backgrounds.</p>
+<h2 id="a-background-to-try"><a class="header" href="#a-background-to-try">A Background to try</a></h2>
+<p>Here’s a fair use example: <a href="tables/customizable-backgrounds/ancient-ps-screenshot.png" download="">ancient-ps-screenshot.png</a></p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="customizable-styles"><a class="header" href="#customizable-styles">Customizable Styles</a></h1>
-<p>Similar to <a href="#customizable-backgrounds">customizable backgrounds</a>, if you
-also hold the Alt-key down when you shift-click on a background, you get
-a picker that allows you to upload CSS or SASS that can change the appearance
-of a table.</p>
+<p>Similar to <a href="#customizable-backgrounds">customizable backgrounds</a>, if
+you also hold the Alt-key (Option-key on Macintosh keyboards) down
+when you shift-click on a background, you get a picker that allows you
+to upload <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> or
+<a href="https://sass-lang.com/">SASS</a> that can change the appearance of a
+table.</p>
 <p>Before you do so, you should upload a custom button or background and
 then use web developer tools to delete it, just to be sure you can do
 so, because an unwanted style-sheet is going to be much more annoying
 than an unwanted button or background.</p>
+<p>To delete the database, you need to have a craftpoker.com window as
+your front-most browser window (it can be the lobby or a table window)
+then choose “View -&gt; Developer -&gt; Developer Tools” to get the
+developer window up. Then you need to choose the Application tab, and
+then select “IndexedDB -&gt; mb2” in the pane on the left. That will
+bring up a page that has a “Delete Database” button:</p>
+<p><img src="tables/customizable-styles/developer-tools-window.png" alt="Screenshot of if DevTools Window"></p>
+<p>You can then choose “Delete database” and an empty database will be
+rebuilt as soon as you refresh any craftpoker.om window. Once you’re
+comfortable deleting the database, you can bring up a table by using
+the demo button on craftpoker.com (you’ll only see the demo button if
+you’re not logged in, but you can be logged in to the lobby on one tab
+and not logged in on another tab and get the demo button on that other
+tab). You have to click the “demo” button, then create a demo
+tournament, then click “Start” after that tournament has been
+created. You should then get two table windows and you can play.</p>
 <p>This is proof-of-concept, only. The format of a stylesheet is not
 documented, nor is it stable. However, this is the style sheet used:
 <a href="tables/customizable-styles/table.scss" download="">table.scss</a>. At
@@ -802,6 +822,11 @@ install the resultant file, the “Fold” button will say “Foldem”.  If you
 <p>you’ll get black buttons, etc.</p>
 <p>E.g., after doing both:
 <img src="tables/customizable-styles/black-foldem.png" /></p>
+<h2 id="tldr"><a class="header" href="#tldr">TLDR</a></h2>
+<p>Eventually, mb2 will be trivially customizable by anyone. Right now, nobody
+is using this functionality, because doing so is just too painful even if
+you are already comfortable with CSS and SASS.  However, the underlying
+mechanism to support customization is present and sound.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="fun-money"><a class="header" href="#fun-money">Fun Money</a></h1>
 <p>Mb2 “keeps score” by tracking “Fun Money”, an abstraction of what a
@@ -3423,7 +3448,7 @@ people on what happened and what my plans are.</p>
 with a circular saw?” Well, I didn’t think it would be <em>that</em> hard to
 get to get N to sixty. After all, there’s only one of me and I only <del>have</del>had
 two thumbs. I was mistaken.</p>
-<h2 id="tldr"><a class="header" href="#tldr">TLDR</a></h2>
+<h2 id="tldr-1"><a class="header" href="#tldr-1">TLDR</a></h2>
 <p>I <em>was</em> overwhelmed, <em>am</em> broke, still working hard and looking for investment.</p>
 <h2 id="status"><a class="header" href="#status">Status</a></h2>
 <p>The big news is that equity crowdfunding raise is on hold (and may not
