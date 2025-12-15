@@ -6,10 +6,9 @@ lesser known games like Badugi, Courchevel and Big O.
 
 The [BARGE Rule Book](https://www.barge.org/rulebook/) has
 rules to almost all of the games mb2 deals.  The exceptions are
-[Sack](./games/sack.html), [Wonky Donkey](./games/wonky-donkey.html),
+[Sack](./games/sack.html),
 [Regular Pineapple](./games/regular-pineapple.html),
-[Redrum](./games/redrum.html), [Dealer's Choice](games/dealers-choice.md),
-and [Crayfish Omaha or Hold'em](./games/crayfish.md).
+[Redrum](./games/redrum.html), and [Dealer's Choice](games/dealers-choice.md).
 
 At the time of this writing, the precise&mdash;but misleading&mdash;number of games is seventy. That number comes from the source code to mb2:
 ```
