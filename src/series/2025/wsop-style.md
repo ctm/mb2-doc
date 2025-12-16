@@ -1,7 +1,6 @@
 # WSOP-Style 2025
 
-The WSOP-Style Series for 2025 is over. This page is slightly out of date in
-that the tense of many sentences is not in the past. I will fix this "soon".
+The WSOP-Style Series for 2025 finished on July 16th.
 
 ## Congratulations Grizz, 🐭GamboMouse, jpassar and FerencL
 
@@ -93,19 +92,19 @@ The awards were for the top three players on the leaderboard by
 profit and also by win rate at the end of the series. 
 
 To qualify for an overall win by rate prize, the player had to have
-completed at least seven tournaments.  NOTE: that is seven different
-tournaments, so if you play in a tournament and re-enter, only the
-initial entry counts as one of your at-least-seven tournaments.
+completed at least seven tournaments.  NOTE: that was seven different
+tournaments, so if you played in a tournament and re-entered, only the
+initial entry counted as one of your at-least-seven tournaments.
 
-Currently, the `#` column in the `WSOPS 2025 Leaderboard` report
+The `#` column in the `WSOPS 2025 Leaderboard` report
 is the total number of entries per player, not the number of distinct
 tournaments. So, simply having a value of seven or more in that column
 does not mean you've played seven or more distinct tournaments.
 
 ## Overview
 
-The WSOP-Style Series is a set of free tournaments&mdash;one per
-day&mdash;from May 27th through July 16th. Those are the days of the
+The WSOP-Style Series 2025 was a set of free tournaments&mdash;one per
+day&mdash;from May 27th through July 16th. Those were the days of the
 <a href="https://www.wsop.com/tournaments/" target="_blank">World
 Series of Poker</a> (WSOP) in Las Vegas, Nevada. The WSOP provides
 the inspiration for this series.
@@ -113,44 +112,37 @@ the inspiration for this series.
 **This series is not even remotely affiliated with the World Series of Poker.**
 
 Each day's tournament ([except one](#july-7th)) in the WSOP-Style series
-is a modified version
-of a tournament that will be played in real life on the same day at the WSOP.
+was a modified version
+of a tournament that was played in real life on the same day at the WSOP.
 In general, the same WSOP blind structure and most
-rules will apply.
+rules applied.
 
-All of these WSOP-Style tournaments are played in one
-day, with five minute breaks every hour. Each starts at 5:05 pm
+All of these WSOP-Style tournaments were played in one
+day, with five minute breaks every hour. Each started at 5:05 pm
 Pacific time (8:05 pm Eastern).
 
-You can see how long each of the WSOP-Style series tournaments lasted
-last year by clicking on the <a target="_blank"
-href="../2024/wsop-style.html#the-tournaments">WSOP-Style 2024
-link</a> and then clicking on the winner's nickname. That will bring
-up a list of who played and when they bust.
+Late registration varied per tournament, but was always available for at least
+thirty-five minutes after the tournament started.
 
+Many tournaments allowed one or more re-entries.
 
-Late registration varies per tournament, but is always available for at least
-thirty-five minutes after the tournament starts. 
+### All were welcome
 
-Many tournaments allow one or more re-entries.
-
-### All are welcome
-
-All events in this series are open to the public.
+All events in this series were open to the public.
 
 ### Round Duration
 
-All levels will be five minutes long.
+All levels were five minutes long.
 
-There will be a five minute break that will start after each table has
+There was a five minute break that started after each table had
 completed a hand at 55 minutes past the hour or later. That means the
-last table to finish a hand at 55 minutes past the hour or later will
-get exactly a five minute breaks and all other tables will be paused
+last table to finish a hand at 55 minutes past the hour or later got
+exactly a five minute breaks and all other tables had been paused
 while waiting for that table to finish a hand.
 
 ### Leaderboard
 
-There will be a "WSOPS 2025 Leaderboard" entry in the Leaderboard menu
+There is a "WSOPS 2025 Leaderboard" entry in the Leaderboard menu
 available in the lobby.  By default, only players with a net <a target="_blank" href="../../fun_money.md">Fun
 Money</a> win show up on leaderboards, but if you've played
 and have a net loss, you can see your entry by having the shift key
@@ -232,9 +224,9 @@ Mb2 structure sheet and will be definitive.
 
 ### July 7th
 
-At the WSOP, July 7th only has Flight B of event #85. I.e., there is no WSOP
-tournament unique to July 7th. Since this series is already dealing #85 on July
-6th, we've chosen to plug the July 7th hole with a <a
+At the WSOP, July 7th only had Flight B of event #85. I.e., there was no WSOP
+tournament unique to July 7th. Since this series already dealt #85 on July
+6th, we chose to plug the July 7th hole with a <a
 href="https://www.barge.org/" target="_blank">BARGE</a> inspired
 structure, "SAM_6", a four game mix of:
 
