@@ -64,6 +64,8 @@
   - [*ARGE Structures](./barge/structures.md)
   - [BARGE Unified Tournament Payouts](./barge/payouts.md)
 ---
+- [Coming "Soon"](coming-soon.md)
+---
 - [Thanks!](./thanks.md)
   - [Ancient Programming&hellip;](./thanks/ancient.md)
   - [Gambling Songs&hellip;](./thanks/pre-internet.md)
