@@ -89,9 +89,23 @@ of how to proceed.
 
 ### Teaching
 
-TODO: mention current teaching capabilities 
+Craft Poker Co. has a client who commissioned some modifications to
+help them to teach poker to their new traders.  The two major abilities
+added were:
+
+* [pausing a
+game](https://github.com/ctm/mb2-doc/issues/1563) at the end of a hand
+so that the teacher and students can discuss the hand.
+* allowing the teacher to [reveal hole cards](https://github.com/ctm/mb2-doc/issues/1566) at the end of the hand
+
+In the absence of teaching-specific funding, adding additional
+teaching funcitonality will be relatively low priority.
 
 ### WSOPS compatibility and structures
+
+Each year, starting in 2022, craftpoker.com has hosted a series of WSOP-Style
+tournaments, where the games and structures are patterned after actual World
+Series of Poker events that are being held on the same day.
 
 TODO: mention the WSOP-Style series, some differences between what we've
 done and the actual WSOP as well as structure representation and a structure
