@@ -124,10 +124,13 @@ few bugs
 
 ### Statistics / Alternate scoring systems
 
-
 ### White-labeled sites
 
 ### Impossible to rig deck
+
+TODO: write something better than the following:
+
+The idea is that each client has a way to send an encrypted value to be used in the generation of a random number for any next event that requires randomness. Everyone in the hand sends the encrypted values, then--once they're all received--all the encrypted values are sent back to everyone in the hand, then everyone sends their key. The server uses the keys to retrieve all the values and uses all the values--and only all the values--to generate the number that is used. After the hand is over, all the keys are sent to everyone who sent values. This allows people to verify that everyone's values were used. This is a hand-wavy presentation (and also leaves out that the server is considered being in the hand and generates a value that is used and is encrypted with the encrypted version sent to everyone else)
 
 ### The server running on a phone or tablet
 
