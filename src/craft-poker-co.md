@@ -65,10 +65,13 @@ be worth at least[^2] the net of the sale divided by 8,100, so a
 $1,417,500 net would be break-even, where a $3MM sale would return
 $370 per share.
 
+The Series A Preferred Stock Purchase Agreement is available for download
+[here](craft-poker-co/series-a-preferred-stock-purchase-agreement.docx).
+
 [^1]: Another way of saying that is that Cliff gets
 half of the proceeds and the other half is split amongst the Series A
 Preferred Shareholders. The liquidity preference, along with many other
-terms are provided in the Series A Preferred Stock Purchase Agreement.
+terms are provided in the [Series A Preferred Stock Purchase Agreement](craft-poker-co/series-a-preferred-stock-purchase-agreement.docx).
 
 [^2]: The figure here assumes all 1,520 Series A Preferred Shares have
 been sold. Were CPC to be sold with fewer than 1,520 Series A
