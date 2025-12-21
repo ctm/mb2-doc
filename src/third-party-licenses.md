@@ -63,7 +63,7 @@
           <ul class="license-used-by">
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
-            <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.20</a></li>
+            <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.21</a></li>
           </ul>
 <pre class="license-text">
 Apache License
@@ -2436,7 +2436,7 @@ SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.100</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
-            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.15</a></li>
+            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.16</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.3</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.10</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.16</a></li>
