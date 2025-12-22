@@ -2450,7 +2450,7 @@ SOFTWARE.
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.228</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.145</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.146</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.111</a></li>
@@ -2733,8 +2733,8 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/JelteF/derive_more ">derive_more-impl 2.1.0</a></li>
-            <li><a href=" https://github.com/JelteF/derive_more ">derive_more 2.1.0</a></li>
+            <li><a href=" https://github.com/JelteF/derive_more ">derive_more-impl 2.1.1</a></li>
+            <li><a href=" https://github.com/JelteF/derive_more ">derive_more 2.1.1</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
