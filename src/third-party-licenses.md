@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (190)</li>
+        <li><a href="#MIT">MIT License</a> (191)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -2450,7 +2450,7 @@ SOFTWARE.
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.228</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.146</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.147</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.111</a></li>
@@ -2459,6 +2459,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.22</a></li>
+            <li><a href=" https://github.com/dtolnay/zmij ">zmij 0.1.7</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
