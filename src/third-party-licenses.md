@@ -63,7 +63,7 @@
           <ul class="license-used-by">
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
-            <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.21</a></li>
+            <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.22</a></li>
           </ul>
 <pre class="license-text">
 Apache License
@@ -2436,21 +2436,21 @@ SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.100</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
-            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.16</a></li>
+            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.17</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.3</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.10</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.16</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.10</a></li>
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.37</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
-            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.103</a></li>
+            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.104</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.42</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.27</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.228</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.147</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.148</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.111</a></li>
@@ -2459,7 +2459,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.22</a></li>
-            <li><a href=" https://github.com/dtolnay/zmij ">zmij 0.1.10</a></li>
+            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.0</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
