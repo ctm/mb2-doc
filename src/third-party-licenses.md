@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (191)</li>
+        <li><a href="#MIT">MIT License</a> (175)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -461,7 +461,7 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/servo/rust-url/ ">idna 1.1.0</a></li>
             <li><a href=" https://github.com/servo/rust-url/ ">percent-encoding 2.3.2</a></li>
-            <li><a href=" https://github.com/servo/rust-url ">url 2.5.7</a></li>
+            <li><a href=" https://github.com/servo/rust-url ">url 2.5.8</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2013-2025 The rust-url developers
@@ -511,42 +511,6 @@ DEALINGS IN THE SOFTWARE.
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 Alex Crichton
-
-Permission is hereby granted, free of charge, to any
-person obtaining a copy of this software and associated
-documentation files (the &quot;Software&quot;), to deal in the
-Software without restriction, including without
-limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software
-is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice
-shall be included in all copies or substantial portions
-of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
-IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/azriel91/anymap2 ">anymap2 0.13.0</a></li>
-          </ul>
-<pre class="license-text">
-Copyright (c) 2014 Chris Morgan and the Teepee project developers
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -1671,8 +1635,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rustwasm/gloo ">gloo 0.10.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo ">gloo 0.8.1</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo ">gloo 0.11.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2019 Rust and WebAssembly Working Group
@@ -2335,44 +2298,31 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.3</a></li>
-            <li><a href=" https://github.com/DanielKeep/rust-boolinator ">boolinator 2.4.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.42</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.2.3</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/dialogs ">gloo-dialogs 0.1.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/dialogs ">gloo-dialogs 0.2.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.1.2</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.2.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/file ">gloo-file 0.2.3</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/file ">gloo-file 0.3.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/history ">gloo-history 0.1.5</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/history ">gloo-history 0.2.2</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.3.1</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.4.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.5.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.1.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.2.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.2.2</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.3.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/timers ">gloo-timers 0.2.6</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/timers ">gloo-timers 0.3.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/utils ">gloo-utils 0.1.7</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/utils ">gloo-utils 0.2.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker-macros 0.1.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker 0.2.1</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker 0.4.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker 0.5.0</a></li>
             <li><a href=" https://github.com/connorskees/grass ">grass 0.13.4</a></li>
             <li><a href=" https://github.com/connorskees/grass ">grass_compiler 0.13.4</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone-derive 0.1.2</a></li>
-            <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone 0.4.9</a></li>
+            <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone 0.6.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">parse-zoneinfo 0.3.1</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 1.0.1</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
-            <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.21.0</a></li>
-            <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.18.0</a></li>
-            <li><a href=" https://github.com/yewstack/yew ">yew-router 0.18.0</a></li>
-            <li><a href=" https://github.com/yewstack/yew ">yew 0.21.0</a></li>
+            <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.22.0</a></li>
+            <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.19.0</a></li>
+            <li><a href=" https://github.com/yewstack/yew ">yew-router 0.19.0</a></li>
+            <li><a href=" https://github.com/yewstack/yew ">yew 0.22.0</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -2401,7 +2351,6 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/cloudflare/serde-wasm-bindgen ">serde-wasm-bindgen 0.5.0</a></li>
             <li><a href=" https://github.com/RReverser/serde-wasm-bindgen ">serde-wasm-bindgen 0.6.5</a></li>
           </ul>
 <pre class="license-text">
@@ -2557,7 +2506,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/futursolo/pinned ">pinned 0.1.0</a></li>
-            <li><a href=" https://github.com/futursolo/prokio ">prokio 0.1.0</a></li>
+            <li><a href=" https://github.com/yewstack/tokise ">tokise 0.2.0</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any person obtaining a copy
