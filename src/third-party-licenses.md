@@ -2392,8 +2392,8 @@ SOFTWARE.
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.10</a></li>
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.37</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
-            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.104</a></li>
-            <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.42</a></li>
+            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.105</a></li>
+            <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.43</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.27</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
@@ -2408,7 +2408,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.22</a></li>
-            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.11</a></li>
+            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.12</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
