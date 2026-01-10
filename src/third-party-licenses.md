@@ -52,7 +52,7 @@
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
-        <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
+        <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (2)</li>
       </ul>
 
 <h2>All license text:</h2>
@@ -205,6 +205,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.3.1</a></li>
+            <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.4.2</a></li>
           </ul>
 <pre class="license-text">
 Creative Commons Legal Code
@@ -2297,7 +2298,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.3</a></li>
+            <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.4</a></li>
             <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.42</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
