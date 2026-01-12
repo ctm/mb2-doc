@@ -1454,7 +1454,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.2.16</a></li>
+            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.2.17</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018-2024 The rust-random Project Developers
@@ -2409,7 +2409,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.22</a></li>
-            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.12</a></li>
+            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.13</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
