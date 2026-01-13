@@ -85,7 +85,39 @@ Poker Co., a completely unrelated corporation.
 
 Since this is an online event, we've made a few changes.
 
-### FM 100 Buy-in (except for the Bounty PLO)
+### Starts before EMBARGO
+
+EMBARGO starts on January 29th, but WYWAE starts on the 23rd, so people
+attending EMBARGO have a chance to participate in WYWAE and can play
+EMBARGO's esoteric games online before playing in real life.
+
+### One Tournament a Day
+
+Some of the people who would attend EMBARGO but don't, because they
+work or otherwise have daytime commitments, aren't going to play
+online poker in the middle of the day.  Additionally, regular
+craftpoker.com denizens are used to the 5:05 Pacific start time, so
+we're keeping the start time for WYWAE.
+
+### Four of the structures are repeated
+
+All six WYWAE variants of the EMBARGO tournaments are being dealt
+before EMBARGO starts.  EMBARGO itself is four days long, so we're
+repeating the four least common structures so that people who can't
+make EMBARGO can play vicariously.
+
+### Dealer's Die instead of Mix Max Binglaha
+
+Mb2 doesn't yet know how to change the number of seats per table in a
+tournament, so instead of Mix Max Binglaha, we'll have "[Dealer's
+Die](https://craftpoker.com/tournament/template/dealers_die)", which
+will have 6-seated tables, and will be a Dealer's Choice game, but the
+only choices will be poker games that involve a die roll, which
+include the various games we've played in the past, as well as
+[Crayfish](https://www.barge.org/rulebook/crayfish.html) Omaha and
+Crayfish Hold'em.
+
+### FM 100 Buy-in
 
 Each event has an FM 100 buy-in. Mb2 accounts are allowed to go
 negative, so you do not need Fun Money to enter or re-enter.
@@ -107,4 +139,3 @@ In the WYWAE tournaments, late registration will be allowed through level 9.
 ### Re-entries
 
 During WYWAE tournaments, you may re-enter up to two times, through level 9.
-
