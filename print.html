@@ -36,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-88616035.js";
+            window.path_to_searchindex_js = "searchindex-2420d3a3.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-e17ddf25.js"></script>
+        <script src="toc-19302ff5.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -2497,16 +2497,20 @@ by Unicode. <a href="#fr-1-1-5">↩</a></p>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal seventy different variations of poker. This includes
-common ones like Texas Hold’em, Omaha and Seven Card Stud as well as
-lesser known games like Badugi, Courchevel and Big O.</p>
-<p>The <a href="https://www.barge.org/rulebook/">BARGE Rule Book</a> has
-rules to almost all of the games mb2 deals.  The exceptions are
-<a href="#sack">Sack</a>,
-<a href="#regular-pineapple">Regular Pineapple</a>,
-<a href="#redrum">Redrum</a>, and <a href="#dealers-choice">Dealer’s Choice</a>.</p>
-<p>At the time of this writing, the precise—but misleading—number of games is seventy. That number comes from the source code to mb2:</p>
-<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 70]&gt; = LazyLock::new(|| {
+<p>Mb2 can deal seventy-four named variations of poker and a ridiculous
+number of variants thereof. This includes common ones like Texas
+Hold’em, Omaha and Seven Card Stud as well as lesser known games like
+Badugi, Courchevel and Big O.</p>
+<p>The <a href="https://www.barge.org/rulebook/">BARGE Rule Book</a> has rules to
+almost all of the named poker games mb2 deals.  The exceptions are
+<a href="#sack">Sack</a>, <a href="#regular-pineapple">Regular
+Pineapple</a>,
+<a href="#redrum">Redrum</a>, <a href="#dealers-choice">Dealer’s
+Choice</a> and <a href="#dealers-die">Dealer’s
+Die</a>.</p>
+<p>At the time of this writing, the precise number of <em>named</em> games is
+seventy-four. That number comes from the source code to mb2:</p>
+<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 74]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -2521,40 +2525,7 @@ rules to almost all of the games mb2 deals.  The exceptions are
         REGULAR_PINE_8.done(),
         RIO_BRAVO.done(),
         HOLD_EM_CRAYFISH.done(),
-        // Omahas
-        OMAHA.done(),
-        OMAHA_8.done(),
-        OMAHA_SHORT.done(),
-        BIG_O.done(),
-        BINGLAHA.done(),
-...
-</code></pre>
-<p>The 70 shows that we’re populating the <code>GAMES</code> constant with 70
-elements, but it’s counting—for example—<code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code> as two separate games.</p>
-<p>It’s also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
-not four!) because it has a separate entry for Lazy Pineapple with an
-eight qualifier and Lazy Pineapple without an eight qualifier, but
-does not do the same for Crazy Pineapple.</p>
-<p>The internal names may not mean anything to you, but click the triangle,
-if you want to see the entire list.</p>
-<details>
-<summary>Code that initializes the GAMES constant</summary>
-<pre>
-pub static GAMES: LazyLock&lt;[GameInfo; 70]&gt; = LazyLock::new(|| {
-    [
-        // Hold'ems
-        HOLD_EM.done(),
-        IRISH.done(),
-        HOLD_EM_SHORT.done(),
-        CRAZY_PINE.done(),
-        CRAZY_PINE_8.done(),
-        HOLDEM_8.done(),
-        LAZY_PINE.done(),
-        LAZY_PINE_8.done(),
-        REGULAR_PINE.done(),
-        REGULAR_PINE_8.done(),
-        RIO_BRAVO.done(),
-        HOLD_EM_CRAYFISH.done(),
+        GREEK_HOLD_EM.done(),
         // Omahas
         OMAHA.done(),
         OMAHA_8.done(),
@@ -2564,6 +2535,51 @@ pub static GAMES: LazyLock&lt;[GameInfo; 70]&gt; = LazyLock::new(|| {
         DRAMADUGI.done(),
         DRAMAHA.done(),
         DRAMAHA_49.done(),
+        DRAMAHA_ZERO.done(),
+        DRAMAHA_21.done(),
+        DRAMAHA_3D.done(),
+...
+</code></pre>
+<p>The 74 shows that we’re populating the <code>GAMES</code> constant with
+seventy-four elements, but it’s counting—for
+example—<code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code>
+as two separate games.</p>
+<p>It’s also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
+not four!) because it has a separate entry for Lazy Pineapple with an
+eight qualifier and Lazy Pineapple without an eight qualifier, but
+does not do the same for Crazy Pineapple.</p>
+<p>Click the triangle to see the entire list of the games mb2 has
+internal names for.</p>
+<details>
+<summary>Code that initializes the GAMES constant</summary>
+<pre>
+pub static GAMES: LazyLock&lt;[GameInfo; 74]&gt; = LazyLock::new(|| {
+    [
+        // Hold'ems
+        HOLD_EM.done(),
+        IRISH.done(),
+        HOLD_EM_SHORT.done(),
+        CRAZY_PINE.done(),
+        CRAZY_PINE_8.done(),
+        HOLDEM_8.done(),
+        LAZY_PINE.done(),
+        LAZY_PINE_8.done(),
+        REGULAR_PINE.done(),
+        REGULAR_PINE_8.done(),
+        RIO_BRAVO.done(),
+        HOLD_EM_CRAYFISH.done(),
+        GREEK_HOLD_EM.done(),
+        // Omahas
+        OMAHA.done(),
+        OMAHA_8.done(),
+        OMAHA_SHORT.done(),
+        BIG_O.done(),
+        BINGLAHA.done(),
+        DRAMADUGI.done(),
+        DRAMAHA.done(),
+        DRAMAHA_49.done(),
+        DRAMAHA_ZERO.done(),
+        DRAMAHA_21.done(),
         DRAMAHA_3D.done(),
         TWO_OR_FIVE_O8.done(),
         OMAHA_X_OR_BETTER.done(),
@@ -2627,6 +2643,7 @@ pub static GAMES: LazyLock&lt;[GameInfo; 70]&gt; = LazyLock::new(|| {
         PARADISE_PICK_EM.done(),
         WONKY_DONKEY.done(),
         DEALERS_CHOICE.done(),
+        DEALERS_DIE.done(),
     ]
 });
 </pre>
@@ -2638,10 +2655,10 @@ represents the most popular combinations of core games with
 options. There is no requirement for a combination of a core game and
 options to be present in <code>GAMES</code> for that combination to be used in a
 tournament structure or ring game, so mb2 is already dealing well more
-than seventy different variants, but some of the differences are so
+than seventy-four different variants, but some of the differences are so
 small that it’s hard to argue they’re different games.</p>
 <p>Here are the core games, with up to three
-examples of each.  This table is mostly to represent the current flexibility
+examples of each.  This table demonstrates the flexibility
 of mb2; it’s not really that useful to players.
 <br /></p>
 <div class="table-wrapper">
@@ -2670,11 +2687,12 @@ of mb2; it’s not really that useful to players.
 </div>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="dealers-choice"><a class="header" href="#dealers-choice">Dealer’s Choice</a></h1>
-<p>Twenty-one different games are offered in Dealer’s Choice.  Initially,
-the first player in or past seat one chooses the game.  That game is
-then played for six hands, and then the player in the next seat gets
-to choose.  Currently there is no representation (i.e., neither
-textual nor visual) of who is going to get to choose next.</p>
+<p>Twenty-one different games are offered in Dealer’s Choice.</p>
+<p>Initially, the first player in or past seat one chooses the game.
+That game is then played for six hands, and then the player in the
+next seat gets to choose.  Currently the user interface provides no
+representation (i.e., neither textual nor visual) of who is going to
+get to choose next.</p>
 <h2 id="the-games"><a class="header" href="#the-games">The Games</a></h2>
 <ol>
 <li>No-Limit Hold’em</li>
@@ -2708,6 +2726,37 @@ choices in the menu.</p>
 <p>also spelled “Badacey” <a href="#fr-1-1-6">↩</a></p>
 </li>
 </ol>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="dealers-die"><a class="header" href="#dealers-die">Dealer’s Die</a></h1>
+<p>Dealer’s Die is like <a href="#dealers-choice">Dealer’s Choice</a>, but instead of the twenty-one
+poker games available in the World Series of Poker Dealer’s Choice
+tournaments, thirteen obscure poker games—each requiring the
+roll of one or more die—are the available to be chosen.</p>
+<p>All games are played pot-limit.</p>
+<p>Initially, the first player in or past seat one chooses the game.
+That game is then played for six hands, and then the player in the
+next seat gets to choose.  Currently the user interface provides no
+representation (i.e., neither textual nor visual) of who is going to
+get to choose next.</p>
+<h2 id="the-games-1"><a class="header" href="#the-games-1">The Games</a></h2>
+<ol>
+<li><a href="https://www.barge.org/rulebook/binglaha.html">Binglaha</a></li>
+<li>Binglaha (Five Card)</li>
+<li>Binglaha (Six Card)</li>
+<li><a href="https://www.barge.org/rulebook/bidirectional-chowaha.html">Bidirectional Chowaha</a> (Four Card, Hi-Lo/8)</li>
+<li>Bidirectional Chowaha (Five Card, Hi-Lo/8)</li>
+<li>Bidirectional Chowaha (Six Card, Hi-Lo/8)</li>
+<li><a href="https://www.barge.org/rulebook/omaha-x-or-better.html">Omaha X or Better</a></li>
+<li>Omaha X or Better (Five Card)</li>
+<li>Omaha X or Better (Six Card)</li>
+<li><a href="https://www.barge.org/rulebook/crayfish.html">Crayfish</a> Omaha</li>
+<li>Crayfish Omaha (Five Card)</li>
+<li>Crayfish Omaha (Six Card)</li>
+<li><a href="https://www.barge.org/rulebook/crayfish.html">Crayfish</a> Hold’em</li>
+</ol>
+<p>You do not need to know the number to choose a game.  The choice is
+made from a menu, and the numbering just reflects the order of the
+choices in the menu.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="redrum"><a class="header" href="#redrum">Redrum</a></h1>
 <p>Redrum is
