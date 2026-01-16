@@ -47,6 +47,7 @@
 - [Chat](./chat.md)
 - [Games](./games.md)
      - [Dealer's Choice](games/dealers-choice.md)
+     - [Dealer's Die](games/dealers-die.md)
      - [Redrum](./games/redrum.md)
      - [Regular Pineapple](./games/regular-pineapple.md)
      - [Sack](./games/sack.md)

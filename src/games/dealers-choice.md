@@ -1,10 +1,12 @@
 # Dealer's Choice
 
-Twenty-one different games are offered in Dealer's Choice.  Initially,
-the first player in or past seat one chooses the game.  That game is
-then played for six hands, and then the player in the next seat gets
-to choose.  Currently there is no representation (i.e., neither
-textual nor visual) of who is going to get to choose next.
+Twenty-one different games are offered in Dealer's Choice.
+
+Initially, the first player in or past seat one chooses the game.
+That game is then played for six hands, and then the player in the
+next seat gets to choose.  Currently the user interface provides no
+representation (i.e., neither textual nor visual) of who is going to
+get to choose next.
 
 ## The Games
 

@@ -1,18 +1,22 @@
 # Games
 
-Mb2 can deal seventy different variations of poker. This includes
-common ones like Texas Hold'em, Omaha and Seven Card Stud as well as
-lesser known games like Badugi, Courchevel and Big O.
+Mb2 can deal seventy-four named variations of poker and a ridiculous
+number of variants thereof. This includes common ones like Texas
+Hold'em, Omaha and Seven Card Stud as well as lesser known games like
+Badugi, Courchevel and Big O.
 
-The [BARGE Rule Book](https://www.barge.org/rulebook/) has
-rules to almost all of the games mb2 deals.  The exceptions are
-[Sack](./games/sack.html),
-[Regular Pineapple](./games/regular-pineapple.html),
-[Redrum](./games/redrum.html), and [Dealer's Choice](games/dealers-choice.md).
+The [BARGE Rule Book](https://www.barge.org/rulebook/) has rules to
+almost all of the named poker games mb2 deals.  The exceptions are
+[Sack](./games/sack.html), [Regular
+Pineapple](./games/regular-pineapple.html),
+[Redrum](./games/redrum.html), [Dealer's
+Choice](games/dealers-choice.md) and [Dealer's
+Die](games/dealers-die.md).
 
-At the time of this writing, the precise&mdash;but misleading&mdash;number of games is seventy. That number comes from the source code to mb2:
+At the time of this writing, the precise number of _named_ games is
+seventy-four. That number comes from the source code to mb2:
 ```
-pub static GAMES: LazyLock<[GameInfo; 70]> = LazyLock::new(|| {
+pub static GAMES: LazyLock<[GameInfo; 74]> = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -27,44 +31,7 @@ pub static GAMES: LazyLock<[GameInfo; 70]> = LazyLock::new(|| {
         REGULAR_PINE_8.done(),
         RIO_BRAVO.done(),
         HOLD_EM_CRAYFISH.done(),
-        // Omahas
-        OMAHA.done(),
-        OMAHA_8.done(),
-        OMAHA_SHORT.done(),
-        BIG_O.done(),
-        BINGLAHA.done(),
-...
-```
-The 70 shows that we're populating the `GAMES` constant with 70
-elements, but it's counting&mdash;for example&mdash;`Hold'em` and `Hold'em High/Low with an
-Eight Qualifier` as two separate games.
-
-It's also making the distinction between `Crazy Pineapple` and `Lazy
-Pineapple`, yet collectively those _two_ games count as _three_ (and
-not four!) because it has a separate entry for Lazy Pineapple with an
-eight qualifier and Lazy Pineapple without an eight qualifier, but
-does not do the same for Crazy Pineapple.
-
-The internal names may not mean anything to you, but click the triangle,
-if you want to see the entire list.
-<details>
-<summary>Code that initializes the GAMES constant</summary>
-<pre>
-pub static GAMES: LazyLock<[GameInfo; 70]> = LazyLock::new(|| {
-    [
-        // Hold'ems
-        HOLD_EM.done(),
-        IRISH.done(),
-        HOLD_EM_SHORT.done(),
-        CRAZY_PINE.done(),
-        CRAZY_PINE_8.done(),
-        HOLDEM_8.done(),
-        LAZY_PINE.done(),
-        LAZY_PINE_8.done(),
-        REGULAR_PINE.done(),
-        REGULAR_PINE_8.done(),
-        RIO_BRAVO.done(),
-        HOLD_EM_CRAYFISH.done(),
+        GREEK_HOLD_EM.done(),
         // Omahas
         OMAHA.done(),
         OMAHA_8.done(),
@@ -74,6 +41,56 @@ pub static GAMES: LazyLock<[GameInfo; 70]> = LazyLock::new(|| {
         DRAMADUGI.done(),
         DRAMAHA.done(),
         DRAMAHA_49.done(),
+        DRAMAHA_ZERO.done(),
+        DRAMAHA_21.done(),
+        DRAMAHA_3D.done(),
+...
+```
+
+The 74 shows that we're populating the `GAMES` constant with
+seventy-four elements, but it's counting&mdash;for
+example&mdash;`Hold'em` and `Hold'em High/Low with an Eight Qualifier`
+as two separate games.
+
+It's also making the distinction between `Crazy Pineapple` and `Lazy
+Pineapple`, yet collectively those _two_ games count as _three_ (and
+not four!) because it has a separate entry for Lazy Pineapple with an
+eight qualifier and Lazy Pineapple without an eight qualifier, but
+does not do the same for Crazy Pineapple.
+
+Click the triangle to see the entire list of the games mb2 has
+internal names for.
+
+<details>
+<summary>Code that initializes the GAMES constant</summary>
+<pre>
+pub static GAMES: LazyLock<[GameInfo; 74]> = LazyLock::new(|| {
+    [
+        // Hold'ems
+        HOLD_EM.done(),
+        IRISH.done(),
+        HOLD_EM_SHORT.done(),
+        CRAZY_PINE.done(),
+        CRAZY_PINE_8.done(),
+        HOLDEM_8.done(),
+        LAZY_PINE.done(),
+        LAZY_PINE_8.done(),
+        REGULAR_PINE.done(),
+        REGULAR_PINE_8.done(),
+        RIO_BRAVO.done(),
+        HOLD_EM_CRAYFISH.done(),
+        GREEK_HOLD_EM.done(),
+        // Omahas
+        OMAHA.done(),
+        OMAHA_8.done(),
+        OMAHA_SHORT.done(),
+        BIG_O.done(),
+        BINGLAHA.done(),
+        DRAMADUGI.done(),
+        DRAMAHA.done(),
+        DRAMAHA_49.done(),
+        DRAMAHA_ZERO.done(),
+        DRAMAHA_21.done(),
         DRAMAHA_3D.done(),
         TWO_OR_FIVE_O8.done(),
         OMAHA_X_OR_BETTER.done(),
@@ -137,6 +154,7 @@ pub static GAMES: LazyLock<[GameInfo; 70]> = LazyLock::new(|| {
         PARADISE_PICK_EM.done(),
         WONKY_DONKEY.done(),
         DEALERS_CHOICE.done(),
+        DEALERS_DIE.done(),
     ]
 });
 </pre>
@@ -148,11 +166,11 @@ represents the most popular combinations of core games with
 options. There is no requirement for a combination of a core game and
 options to be present in `GAMES` for that combination to be used in a
 tournament structure or ring game, so mb2 is already dealing well more
-than seventy different variants, but some of the differences are so
+than seventy-four different variants, but some of the differences are so
 small that it's hard to argue they're different games.
 
 Here are the core games, with up to three
-examples of each.  This table is mostly to represent the current flexibility
+examples of each.  This table demonstrates the flexibility
 of mb2; it's not really that useful to players.
 <br/>
 |Core Game|Examples|
