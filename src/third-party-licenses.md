@@ -2409,7 +2409,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.17</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.22</a></li>
-            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.14</a></li>
+            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.15</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
