@@ -2405,9 +2405,9 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.114</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.17</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.17</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.22</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.15</a></li>
           </ul>
