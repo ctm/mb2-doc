@@ -2394,7 +2394,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.37</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.106</a></li>
-            <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.43</a></li>
+            <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.44</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.27</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
