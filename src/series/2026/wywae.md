@@ -59,10 +59,9 @@ In the mb2 lobby, the times will be in the time zone your
 browser is configured for (which&mdash;for most people&mdash;is your
 local time zone).
 
-Tournaments are currently (as of January 13th) available for
-registration at [craftpoker.com](https://craftpoker.com), but the
-structures are tentative and are likely to be updated to match the
-official EMBARGO structures, soon after they're announced.
+Tournaments are currently available for registration at
+[craftpoker.com](https://craftpoker.com), and mimic the [official
+EMBARGO structures](https://omaholic.com/2026_EMBARGO_Structures.pdf).
 
 This series is not sanctioned, endorsed or in any other way sponsored
 or related to the BARGE organization.  It is being put on by Craft
