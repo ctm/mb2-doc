@@ -124,7 +124,11 @@ negative, so you do not need Fun Money to enter or re-enter.
 
 ### Round Duration
 
-All rounds are five minutes long.
+All rounds are five minutes long.  Mb2 has the ability to have
+different length rounds, so it could emulate the different round
+durations of [EMBARGO's HAM &
+Pineapple](https://omaholic.com/2026_EMBARGO_Structures.pdf#page=1)
+structure, but online, that would just add confusion.
 
 ### Breaks at 55 past the hour
 
@@ -139,3 +143,28 @@ In the WYWAE tournaments, late registration will be allowed through level 9.
 ### Re-entries
 
 During WYWAE tournaments, you may re-enter up to two times, through level 9.
+
+### Table sizes
+
+The number of seats at a table will not change during any WYWAE
+tournaments, e.g., HAM & Pineapple will be six seated the entire time;
+it will _not_ have a seven seated final table.  This limitation is
+because Mb2 does not currently support changing the number of seats
+during an event.
+
+### No Player Scrambling
+
+Player scrambling in real life is, if I understand correctly, designed
+to encourage people to talk to each other more; people tend to talk to
+the players adjacent to them. Player chat works differently online, so
+Mb2 doesn't support player scrambling.
+
+### Antes Post before Blinds
+
+Currently, mb2 posts antes before blinds, which means that if a player
+is all-in for the ante, that player can only with the ante back.  That
+was the common way to do big blind antes initially, which is why mb2
+implemented it that way.  Most tournaments now post the blind before
+the ante, so an all-in player can win more.  Mb2 will probably [change
+this](https://github.com/ctm/mb2-doc/issues/1491) before the start of
+the World Series of Poker.
