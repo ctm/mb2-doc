@@ -35,7 +35,7 @@
             const path_to_root = "../../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../../searchindex-c0cab085.js";
+            window.path_to_searchindex_js = "../../searchindex-b9abca58.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../../toc-19302ff5.js"></script>
@@ -268,7 +268,11 @@ Crayfish Hold’em.</p>
 <p>Each event has an FM 100 buy-in. Mb2 accounts are allowed to go
 negative, so you do not need Fun Money to enter or re-enter.</p>
 <h3 id="round-duration"><a class="header" href="#round-duration">Round Duration</a></h3>
-<p>All rounds are five minutes long.</p>
+<p>All rounds are five minutes long.  Mb2 has the ability to have
+different length rounds, so it could emulate the different round
+durations of <a href="https://omaholic.com/2026_EMBARGO_Structures.pdf#page=1">EMBARGO’s HAM &amp;
+Pineapple</a>
+structure, but online, that would just add confusion.</p>
 <h3 id="breaks-at-55-past-the-hour"><a class="header" href="#breaks-at-55-past-the-hour">Breaks at 55 past the hour</a></h3>
 <p>The WYWAE breaks will begin after each table has finished a hand at or
 after 55 minutes after the hour. The break will then be five minutes
@@ -277,6 +281,25 @@ long.</p>
 <p>In the WYWAE tournaments, late registration will be allowed through level 9.</p>
 <h3 id="re-entries"><a class="header" href="#re-entries">Re-entries</a></h3>
 <p>During WYWAE tournaments, you may re-enter up to two times, through level 9.</p>
+<h3 id="table-sizes"><a class="header" href="#table-sizes">Table sizes</a></h3>
+<p>The number of seats at a table will not change during any WYWAE
+tournaments, e.g., HAM &amp; Pineapple will be six seated the entire time;
+it will <em>not</em> have a seven seated final table.  This limitation is
+because Mb2 does not currently support changing the number of seats
+during an event.</p>
+<h3 id="no-player-scrambling"><a class="header" href="#no-player-scrambling">No Player Scrambling</a></h3>
+<p>Player scrambling in real life is, if I understand correctly, designed
+to encourage people to talk to each other more; people tend to talk to
+the players adjacent to them. Player chat works differently online, so
+Mb2 doesn’t support player scrambling.</p>
+<h3 id="antes-post-before-blinds"><a class="header" href="#antes-post-before-blinds">Antes Post before Blinds</a></h3>
+<p>Currently, mb2 posts antes before blinds, which means that if a player
+is all-in for the ante, that player can only with the ante back.  That
+was the common way to do big blind antes initially, which is why mb2
+implemented it that way.  Most tournaments now post the blind before
+the ante, so an all-in player can win more.  Mb2 will probably <a href="https://github.com/ctm/mb2-doc/issues/1491">change
+this</a> before the start of
+the World Series of Poker.</p>
 
                     </main>
 
