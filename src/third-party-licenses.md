@@ -2000,7 +2000,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.33</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.34</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -2318,7 +2318,7 @@ SOFTWARE.
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone-derive 0.1.2</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone 0.6.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">parse-zoneinfo 0.3.1</a></li>
-            <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 1.0.1</a></li>
+            <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 1.0.2</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.22.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.19.0</a></li>
