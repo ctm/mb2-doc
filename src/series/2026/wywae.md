@@ -73,7 +73,7 @@ Poker Co., a completely unrelated corporation.
 |Saturday|24th|<a href="https://craftpoker.com/tournament/structure/6267" target="_blank">World Online Chowaha Championship (4 Card Chowaha)</a>|[jpmassar](https://craftpoker.com/event/6267/player/14)|
 |Sunday|25th|<a href="https://craftpoker.com/tournament/structure/6268" target="_blank">Dealer's Die</a>|[FerencL](https://craftpoker.com/event/6268/player/10761)|
 |Monday|26th|<a href="https://craftpoker.com/tournament/structure/6269" target="_blank">NLHE</a>|[deadhead](https://craftpoker.com/event/6269/player/10)|
-|Tuesday|27th|<a href="https://craftpoker.com/tournament/structure/6270" target="_blank">SECOR</a>|[](https://craftpoker.com/event/6270/player/14)|
+|Tuesday|27th|<a href="https://craftpoker.com/tournament/structure/6270" target="_blank">SECOR</a>|[FerencL](https://craftpoker.com/event/6270/player/10761)|
 |Wednesday|28th|<a href="https://craftpoker.com/tournament/structure/6271" target="_blank">Drawmaha Mix</a>|[](https://craftpoker.com/event/6271/player/14)|
 |Thursday|29th|<a href="https://craftpoker.com/tournament/structure/6272" target="_blank">HAM & Pineapple</a>|[](https://craftpoker.com/event/6272/player/14)|
 |Friday|30th|<a href="https://craftpoker.com/tournament/structure/6273" target="_blank">Dealer's Die</a>|[](https://craftpoker.com/event/6273/player/14)|
