@@ -78,7 +78,7 @@ Poker Co., a completely unrelated corporation.
 |Thursday|29th|<a href="https://craftpoker.com/tournament/structure/6272" target="_blank">HAM & Pineapple</a>|[jpmassar](https://craftpoker.com/event/6272/player/14)|
 |Friday|30th|<a href="https://craftpoker.com/tournament/structure/6273" target="_blank">Dealer's Die</a>|[jpmassar](https://craftpoker.com/event/6273/player/14)|
 |Saturday|31st|<a href="https://craftpoker.com/tournament/structure/6274" target="_blank">SECOR</a>|[ODB Phat Mack🏆](https://craftpoker.com/event/6274/player/17)|
-|Sunday|1st|<a href="https://craftpoker.com/tournament/structure/6275" target="_blank">Drawmaha Mix</a>|[](https://craftpoker.com/event/6275/player/14)|
+|Sunday|1st|<a href="https://craftpoker.com/tournament/structure/6275" target="_blank">Drawmaha Mix</a>|[ODB Phat Mack🏆](https://craftpoker.com/event/6275/player/17)|
 
 ## A few Differences from EMBARGO
 
