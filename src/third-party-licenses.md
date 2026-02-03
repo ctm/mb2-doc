@@ -548,9 +548,9 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.13</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.8</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex 1.12.2</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.14</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.9</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex 1.12.3</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 The Rust Project Developers
@@ -1166,7 +1166,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.11.0</a></li>
+            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.11.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 Carl Lerche
