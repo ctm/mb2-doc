@@ -63,7 +63,7 @@
           <ul class="license-used-by">
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
-            <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.22</a></li>
+            <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.23</a></li>
           </ul>
 <pre class="license-text">
 Apache License
@@ -2408,8 +2408,8 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.18</a></li>
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.22</a></li>
-            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.19</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.23</a></li>
+            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.20</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
@@ -3007,7 +3007,7 @@ THE SOFTWARE.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.22</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.23</a></li>
           </ul>
 <pre class="license-text">
 UNICODE LICENSE V3
