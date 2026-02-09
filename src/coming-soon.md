@@ -6,10 +6,9 @@ proof-of-concept alpha state with two weeks of me working full-time on
 that feature, although I don't have much time to program when I'm chasing
 funding or doing other business related tasks.
 
-Most likely either a strategic investor or a potential customer will
-dictate the priority for each feature.  In the absence of external
-prioritization, native apps and ring games will get what little
-development time I can spare.
+I expect a strategic investor or a potential customer will dictate the
+priority for each feature.  In the meantime, native apps and then ring
+games will be my focus.
 
 At any given time, you can see what I'm working on by looking at the
 [list of high priority
@@ -19,7 +18,7 @@ medium priority
 issues](https://github.com/ctm/mb2-doc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22medium%20priority%22). In addition to those two labels,
 some features have their own labels, which are included in the table below.
 
-I update issues multiple times a day. I only update this page when I
+I update issues on GitHub multiple times a day. I only update this page when I
 think about it, which means it's often out of date.
 <br/>
 <br/>
@@ -41,20 +40,15 @@ think about it, which means it's often out of date.
 
 ### Native apps
 
-The first native Mb2 apps will be made using
-[Tauri](https://v2.tauri.app/), a framework that works well with the
-existing mb2 code-base.  The macOS and Windows proof-of-concept
-versions work well enough that I use one or the other to play daily.
-The iOS and Android versions are rougher, because they require a
-single-page-application interface, which I'm still [working
-on](https://github.com/ctm/mb2-doc/issues/1651).
+I've made&mdash;but not yet released&mdash;native Mb2 apps using
+[Tauri](https://v2.tauri.app/).  The macOS and Windows
+proof-of-concept versions worked well enough that I used one or the
+other to play daily, until January 26th, when I switched to the iPhone
+app for my daily tournaments.
 
-Most of what needs to be done to release native apps is work that is
-in my wheelhouse, but there's a lot to do. Starting on Monday, January
-26th, I'll play at least the first hand of each daily tournament using
-an either iOS or Android build.  That will encourage me to work on the
-most annoying issues first.  It'll also encourage me to use some other
-poker clients on my phone to see how they do various things.
+Once I fix enough of the iPhone app's major pain points, I'll switch
+over to an Android build and level it up, too. Once those are working
+well enough for me, I'll invite others to start testing native apps.
 
 ### Ring games
 
@@ -63,14 +57,9 @@ of what is lacking is simply functionality related to players joining,
 changing seats, missing blinds, etc.  Those will be easier for me to implement
 once I can block out some time with someone who knows the ins-and-outs.
 
-All else equal, I'd prefer to work on ring games in one large block of
-time, since it will take me a while to get up to speed on what needs
-to be done and since I'll also want to bring in testers ASAP and be
-able to respond to each bug or suggestion immediately.  As such,
-barring investor or customer boosting, I probably won't work on ring
-games until after I'm playing daily&mdash;and enjoying the
-experience&mdash;using my iPhone (i.e., after Native apps are further
-along).
+I can't yet commit, but I suspect I'll have native apps working well
+enough in February that I'll be able to focus on ring games starting
+in March.
 
 ### Teaching
 
