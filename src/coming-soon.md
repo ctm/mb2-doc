@@ -46,9 +46,15 @@ proof-of-concept versions worked well enough that I used one or the
 other to play daily, until January 26th, when I switched to the iPhone
 app for my daily tournaments.
 
-Once I fix enough of the iPhone app's major pain points, I'll switch
-over to an Android build and level it up, too. Once those are working
-well enough for me, I'll invite others to start testing native apps.
+Currently, the UI is just the web UI, which is squished and awkward on
+a phone's aspect ratio.  Additionally, there is not yet code to
+[integrate the login password with the iOS
+key-chain](https://github.com/ctm/mb2-doc/issuesus/1769), so credentials
+must be supplied if the session expires.
+
+The iPhone app works well enough that I've dug out my cheap Android tablet
+and will be working on the Android Mb2 app until it works as well as the
+iPhone app.
 
 ### Ring games
 
