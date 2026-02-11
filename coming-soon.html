@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-b98bd17b.js";
+            window.path_to_searchindex_js = "searchindex-3ef03c65.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-ab8de9e6.js"></script>
@@ -222,9 +222,14 @@ think about it, which means it’s often out of date.
 proof-of-concept versions worked well enough that I used one or the
 other to play daily, until January 26th, when I switched to the iPhone
 app for my daily tournaments.</p>
-<p>Once I fix enough of the iPhone app’s major pain points, I’ll switch
-over to an Android build and level it up, too. Once those are working
-well enough for me, I’ll invite others to start testing native apps.</p>
+<p>Currently, the UI is just the web UI, which is squished and awkward on
+a phone’s aspect ratio.  Additionally, there is not yet code to
+<a href="https://github.com/ctm/mb2-doc/issuesus/1769">integrate the login password with the iOS
+key-chain</a>, so credentials
+must be supplied if the session expires.</p>
+<p>The iPhone app works well enough that I’ve dug out my cheap Android tablet
+and will be working on the Android Mb2 app until it works as well as the
+iPhone app.</p>
 <h3 id="ring-games"><a class="header" href="#ring-games">Ring games</a></h3>
 <p>Internally, Mb2 already has limited support for ring games.  Some
 of what is lacking is simply functionality related to players joining,
