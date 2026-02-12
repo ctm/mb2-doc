@@ -41,20 +41,21 @@ think about it, which means it's often out of date.
 ### Native apps
 
 I've made&mdash;but not yet released&mdash;native Mb2 apps using
-[Tauri](https://v2.tauri.app/).  The macOS and Windows
-proof-of-concept versions worked well enough that I used one or the
-other to play daily, until January 26th, when I switched to the iPhone
-app for my daily tournaments.
+[Tauri](https://v2.tauri.app/).
 
 Currently, the UI is just the web UI, which is squished and awkward on
-a phone's aspect ratio.  Additionally, there is not yet code to
-[integrate the login password with the iOS
+a phone's aspect ratio, but is much nicer on a tablet.  Additionally,
+there is not yet code to [integrate the login password with the iOS
 key-chain](https://github.com/ctm/mb2-doc/issuesus/1769), so credentials
 must be supplied if the session expires.
 
-The iPhone app works well enough that I've dug out my cheap Android tablet
-and will be working on the Android Mb2 app until it works as well as the
-iPhone app.
+The macOS and Windows native Mb2 clients use a separate window per
+table.  The iOS and Android Mb2 clients have little controls that
+allow the player to switch from any table to the lobby and from the
+lobby to any table. These native versions are clunky, but have been
+what I've been playing the daily tournaments on, which has allowed me
+to find and fix many bugs.  I'm now (February 11th) confident that
+Tauri is solid enough to use in production.
 
 ### Ring games
 
@@ -63,9 +64,8 @@ of what is lacking is simply functionality related to players joining,
 changing seats, missing blinds, etc.  Those will be easier for me to implement
 once I can block out some time with someone who knows the ins-and-outs.
 
-I can't yet commit, but I suspect I'll have native apps working well
-enough in February that I'll be able to focus on ring games starting
-in March.
+Now that native apps are working well enough, I can resume work on
+ring games once I know how I'll pay my bills.
 
 ### Teaching
 
