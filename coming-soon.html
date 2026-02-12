@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-3ef03c65.js";
+            window.path_to_searchindex_js = "searchindex-7cb71144.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-ab8de9e6.js"></script>
@@ -218,26 +218,26 @@ think about it, which means it’s often out of date.
 </div>
 <h3 id="native-apps"><a class="header" href="#native-apps">Native apps</a></h3>
 <p>I’ve made—but not yet released—native Mb2 apps using
-<a href="https://v2.tauri.app/">Tauri</a>.  The macOS and Windows
-proof-of-concept versions worked well enough that I used one or the
-other to play daily, until January 26th, when I switched to the iPhone
-app for my daily tournaments.</p>
+<a href="https://v2.tauri.app/">Tauri</a>.</p>
 <p>Currently, the UI is just the web UI, which is squished and awkward on
-a phone’s aspect ratio.  Additionally, there is not yet code to
-<a href="https://github.com/ctm/mb2-doc/issuesus/1769">integrate the login password with the iOS
+a phone’s aspect ratio, but is much nicer on a tablet.  Additionally,
+there is not yet code to <a href="https://github.com/ctm/mb2-doc/issuesus/1769">integrate the login password with the iOS
 key-chain</a>, so credentials
 must be supplied if the session expires.</p>
-<p>The iPhone app works well enough that I’ve dug out my cheap Android tablet
-and will be working on the Android Mb2 app until it works as well as the
-iPhone app.</p>
+<p>The macOS and Windows native Mb2 clients use a separate window per
+table.  The iOS and Android Mb2 clients have little controls that
+allow the player to switch from any table to the lobby and from the
+lobby to any table. These native versions are clunky, but have been
+what I’ve been playing the daily tournaments on, which has allowed me
+to find and fix many bugs.  I’m now (February 11th) confident that
+Tauri is solid enough to use in production.</p>
 <h3 id="ring-games"><a class="header" href="#ring-games">Ring games</a></h3>
 <p>Internally, Mb2 already has limited support for ring games.  Some
 of what is lacking is simply functionality related to players joining,
 changing seats, missing blinds, etc.  Those will be easier for me to implement
 once I can block out some time with someone who knows the ins-and-outs.</p>
-<p>I can’t yet commit, but I suspect I’ll have native apps working well
-enough in February that I’ll be able to focus on ring games starting
-in March.</p>
+<p>Now that native apps are working well enough, I can resume work on
+ring games once I know how I’ll pay my bills.</p>
 <h3 id="teaching"><a class="header" href="#teaching">Teaching</a></h3>
 <p>Craft Poker Co. has a client who commissioned some modifications to
 help them to teach poker to their new traders.  The two major abilities
