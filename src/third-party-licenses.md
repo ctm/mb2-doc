@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (175)</li>
+        <li><a href="#MIT">MIT License</a> (174)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
@@ -725,14 +725,14 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-channel 0.3.31</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-core 0.3.31</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-io 0.3.31</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-macro 0.3.31</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-sink 0.3.31</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-task 0.3.31</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-util 0.3.31</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures 0.3.31</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-channel 0.3.32</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-core 0.3.32</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-io 0.3.32</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-macro 0.3.32</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-sink 0.3.32</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-task 0.3.32</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-util 0.3.32</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures 0.3.32</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016 Alex Crichton
@@ -1278,42 +1278,6 @@ DEALINGS IN THE SOFTWARE.
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 The Servo Project Developers
-
-Permission is hereby granted, free of charge, to any
-person obtaining a copy of this software and associated
-documentation files (the &quot;Software&quot;), to deal in the
-Software without restriction, including without
-limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software
-is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice
-shall be included in all copies or substantial portions
-of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
-IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang-nursery/pin-utils ">pin-utils 0.1.0</a></li>
-          </ul>
-<pre class="license-text">
-Copyright (c) 2018 The pin-utils authors
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -2403,7 +2367,7 @@ SOFTWARE.
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.149</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.115</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.116</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
