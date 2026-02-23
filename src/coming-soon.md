@@ -44,18 +44,23 @@ I've made&mdash;but not yet released&mdash;native Mb2 apps using
 [Tauri](https://v2.tauri.app/).
 
 Currently, the UI is just the web UI, which is squished and awkward on
-a phone's aspect ratio, but is much nicer on a tablet.  Additionally,
-there is not yet code to [integrate the login password with the iOS
-key-chain](https://github.com/ctm/mb2-doc/issuesus/1769), so credentials
-must be supplied if the session expires.
+a phone's aspect ratio, but is much nicer on a tablet.
 
 The macOS and Windows native Mb2 clients use a separate window per
 table.  The iOS and Android Mb2 clients have little controls that
 allow the player to switch from any table to the lobby and from the
-lobby to any table. These native versions are clunky, but have been
-what I've been playing the daily tournaments on, which has allowed me
-to find and fix many bugs.  I'm now (February 11th) confident that
-Tauri is solid enough to use in production.
+lobby to any table. These native versions are clunky, but are what
+I've been playing the daily tournaments on. Daily play has allowed me
+to find and fix many bugs.  On February 11th, I decided I'm confident
+that Tauri is solid enough to use in production.
+
+As a proof-of-concept and to make using native Mb2 more pleasant, the
+first native-only feature I've added is the ability of Mb2 to securely
+store the nickname and password between sessions, using Face ID on an
+iPhone or equivalent OS-supported secure storage (e.g., Keychain on
+macOS).  I did this using [DecentPaste](https://decentpaste.com/)'s
+[DecentSecret Tauri
+Plugin](https://github.com/decentpaste/decentpaste/tree/main/decentpaste-app/tauri-plugin-decentsecret#tauri-plugin-decentsecret).
 
 ### Ring games
 
