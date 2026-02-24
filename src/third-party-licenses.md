@@ -2263,7 +2263,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.4</a></li>
-            <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.43</a></li>
+            <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.44</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/dialogs ">gloo-dialogs 0.2.0</a></li>
