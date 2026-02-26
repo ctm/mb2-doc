@@ -7,11 +7,50 @@ $viewport-height: 1314;
 $viewport-width: 1906;
 
 @function h($px) {
-    @return math.div($px, $viewport-height) * 100vh;
+    @return math.div($px, $viewport-height) * 100%;
 }
 
 @function w($px) {
-    @return math.div($px, $viewport-width) * 100vw;
+    @return math.div($px, $viewport-width) * 100%;
+}
+
+// In general, a percentage can be used instead of vh, since almost
+// everything is within the background div.  However, we can't set the
+// gap between the page buttons using a percentage.  That is not
+// supported by CSS.  So, we use inset_vh there.  Also, font-size
+// percentage is percentage of the parent's font-size, so we need to
+// use inset_vh there, too.
+@function inset_vh($vh) {
+    @return calc(math.div($vh, 100) * (100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)));
+}
+
+.inset {
+    position: absolute;
+
+    &.left {
+        left: 0;
+        width: env(safe-area-inset-left, 0px);
+        top: 0;
+        bottom: 0;
+    }
+
+    &.right {
+        width: env(safe-area-inset-right, 0px);
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    &.bottom {
+        left: 0;
+        right: 0;
+        height: env(safe-area-inset-bottom, 0px);
+        bottom: 0;
+    }
+}
+
+.table-background {
+    background-color: #3f1e1e;
 }
 
 $seat-width: 386;
@@ -321,7 +360,7 @@ $draws-remaining-height: 52;
     border: 1px solid blue; // For now
     background-color: white;
     text-align: center;
-    font-size: 3.2vh; // NOTE: this was done by hand, but it is computable
+    font-size: inset_vh(3.2);
     border-bottom-left-radius: 5% 15%;
     border-bottom-right-radius: 5% 15%;
     border-top-left-radius: 5% 15%;
@@ -438,13 +477,12 @@ div.nick-chips div {
     @include card($n-cards);
 }
 
-.background {
+#background {
     /* webpackIgnore: true */
     background-image: url("/background.svg");
     background-size: 100% 100%;
-    height: 100vh;
-    min-height: 100%;
-    max-height: 100%;
+    height: inset_vh(100);
+    position: relative;
 }
 
 .card-gap {
@@ -937,34 +975,17 @@ input.chat {
     border-width: 0.5px;
 }
 
-@media only screen and (max-height: 414px) {
-    div.preferences {
-        top: h($preference-bar-height);
-    }
-
-    .fold-to-any-bet.white-hack {
-        top: h($preference-bar-height);
-    }
-
-    #current-level {
-        top: 2 * h($preference-bar-height);
-    }
+div.preferences {
+    top: 0;
 }
 
-@media only screen and (min-height: 415px) {
-    div.preferences {
-        top: 0;
-    }
-
-    .fold-to-any-bet.white-hack {
-        top: 0;
-    }
-
-    #current-level {
-        top: h($preference-bar-height);
-    }
+.fold-to-any-bet.white-hack {
+    top: 0;
 }
 
+#current-level {
+    top: h($preference-bar-height);
+}
 
 div.preferences {
     position: absolute;
@@ -1007,7 +1028,7 @@ $pot-total-top : 384;
 
 .pot-total span {
     width: fit-content;
-    font-size: 2.0vh;
+    font-size: inset_vh(2.0);
 }
 
 $current-game-top: 344;
@@ -1023,7 +1044,7 @@ $current-game-top: 344;
 }
 
 .current-game span {
-    font-size: 2.0vh;
+    font-size: inset_vh(2.0);
 }
 
 $die-top: 640;
@@ -1135,7 +1156,7 @@ $pots-top: 639;
 }
 
 .pots span {
-    font-size: 2.0vh;
+    font-size: inset_vh(2.0);
 }
 
 $rebuy-top: 1006;
@@ -1186,14 +1207,14 @@ $draws-remaining-top: 501;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 2.40vh;
+    font-size: inset_vh(2.40);
 }
 
 $draws-remaining-top-high: $current-game-top - ($pot-total-top - $current-game-top);
 .draws-remaining.high {
     top: h($draws-remaining-top-high);
     height: h($current-game-height);
-    font-size: 2vh;
+    font-size: inset_vh(2.0);
 }
 
 // NOTE: we may want to put lammers closest to chat because they're
@@ -1270,7 +1291,7 @@ div.chat-text, div.chat-shrink {
 div.chat-graphical {
     height: 75%; // $chat-div-height-percentage
     overflow: auto;
-    font-size: 2.40vh;
+    font-size: inset_vh(2.0);
     position: relative;
     color: black;
     line-height: 1.3;
@@ -1296,8 +1317,11 @@ div.chat-pop-out {
 
 .pushable {
     cursor: pointer;
-    border-radius: 2.5vh;
-    font-size: 3.40vh;
+    border-bottom-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+    border-top-left-radius: 10% 30%;
+    border-top-right-radius: 10% 30%;
+    font-size: inset_vh(3.40);
     color: white;
 }
 
@@ -1322,18 +1346,12 @@ button:disabled.pushable.std {
     outline: none;
 }
 
-.last-winner {
-    font-size: 2.1vh;
-    color: black;
-    line-height: 0.9;
-}
-
 div.uk-card.review {
     line-height: 1;
     width: fit-content;
     position: absolute;
-    bottom: 0.8vh;
-    left: 0.5vw;
+    bottom: 0.8%;
+    left: 0.5%;
     z-index: 3;
 }
 
@@ -1417,6 +1435,22 @@ input {
 
 .shifted {
     transform: scaleX(-1);
+}
+
+// Prevent buttons on Safari from having rounded corners.
+button {
+    -webkit-appearance: none;
+}
+
+.page-buttons {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  gap: inset_vh(3);
 }
 
 // This section shows both how to change the label on a button and
