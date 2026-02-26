@@ -499,16 +499,16 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.4</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.88</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.90</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
             <li><a href=" https://github.com/alexcrichton/scoped-tls ">scoped-tls 1.0.1</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.3</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.61</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.111</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.111</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.111</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.111</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.88</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.63</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.113</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.113</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.113</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.113</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.90</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 Alex Crichton
@@ -549,7 +549,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
             <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.14</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.9</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.10</a></li>
             <li><a href=" https://github.com/rust-lang/regex ">regex 1.12.3</a></li>
           </ul>
 <pre class="license-text">
