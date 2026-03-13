@@ -2284,10 +2284,10 @@ SOFTWARE.
             <li><a href=" https://github.com/chronotope/chrono-tz ">parse-zoneinfo 0.3.1</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 1.0.2</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
-            <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.22.1</a></li>
+            <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.22.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.19.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router 0.19.0</a></li>
-            <li><a href=" https://github.com/yewstack/yew ">yew 0.22.1</a></li>
+            <li><a href=" https://github.com/yewstack/yew ">yew 0.22.0</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -2351,7 +2351,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.102</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.17</a></li>
-            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.3</a></li>
+            <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.4</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.11</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.17</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.11</a></li>
