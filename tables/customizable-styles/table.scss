@@ -838,16 +838,28 @@ $mexican-checkboxes-left: $checkbox-column-1-left;
     }
 }
 
-@include action-clickable-checkbox("bet-n-checkbox"            , $bet-n-checkbox-top            , $bet-n-checkbox-left);
-@include action-clickable-checkbox("bet-or-raise-any-checkbox" , $bet-or-raise-any-checkbox-top , $bet-or-raise-any-checkbox-left);
-@include action-clickable-checkbox("call-any-checkbox"         , $call-any-checkbox-top         , $call-any-checkbox-left);
-@include action-clickable-checkbox("call-any-or-check-checkbox", $call-any-or-check-checkbox-top, $call-any-or-check-checkbox-left);
-@include action-clickable-checkbox("call-n-checkbox"           , $call-n-checkbox-top           , $call-n-checkbox-left);
-@include action-clickable-checkbox("check-checkbox"            , $check-checkbox-top            , $check-checkbox-left);
-@include action-clickable-checkbox("check-or-fold-checkbox"    , $check-or-fold-checkbox-top    , $check-or-fold-checkbox-left);
-@include action-clickable-checkbox("fold-checkbox"             , $fold-checkbox-top             , $fold-checkbox-left);
-@include action-clickable-checkbox("raise-any-checkbox"        , $raise-any-checkbox-top        , $raise-any-checkbox-left);
-@include action-clickable-checkbox("raise-n-checkbox"          , $raise-n-checkbox-top          , $raise-n-checkbox-left);
+@mixin id-action-clickable-checkbox($name, $top, $left) {
+    ##{$name} {
+        position: absolute;
+        // width: w($action-clickable-checkbox-width);
+        height: h($action-clickable-checkbox-height);
+        top: h($top);
+        left: w($left);
+    }
+}
+
+
+@include id-action-clickable-checkbox("bet-n-checkbox"            , $bet-n-checkbox-top            , $bet-n-checkbox-left);
+@include id-action-clickable-checkbox("bet-or-raise-any-checkbox" , $bet-or-raise-any-checkbox-top , $bet-or-raise-any-checkbox-left);
+@include id-action-clickable-checkbox("call-any-checkbox"         , $call-any-checkbox-top         , $call-any-checkbox-left);
+@include id-action-clickable-checkbox("call-any-or-check-checkbox", $call-any-or-check-checkbox-top, $call-any-or-check-checkbox-left);
+@include id-action-clickable-checkbox("call-n-checkbox"           , $call-n-checkbox-top           , $call-n-checkbox-left);
+@include id-action-clickable-checkbox("check-checkbox"            , $check-checkbox-top            , $check-checkbox-left);
+@include id-action-clickable-checkbox("check-or-fold-checkbox"    , $check-or-fold-checkbox-top    , $check-or-fold-checkbox-left);
+@include id-action-clickable-checkbox("fold-checkbox"             , $fold-checkbox-top             , $fold-checkbox-left);
+@include id-action-clickable-checkbox("raise-any-checkbox"        , $raise-any-checkbox-top        , $raise-any-checkbox-left);
+@include id-action-clickable-checkbox("raise-n-checkbox"          , $raise-n-checkbox-top          , $raise-n-checkbox-left);
+
 @include action-clickable-checkbox("discard-checkbox"          , $discard-checkbox-top          , $discard-checkbox-left);
 @include action-clickable-checkbox("mexican-checkboxes"        , $discard-checkbox-top          , $mexican-checkboxes-left);
 
@@ -958,7 +970,7 @@ button.resume {
 $chat-and-input-top: 1097;
 $chat-and-input-left: 0;
 
-.chat-and-input {
+#chat-and-input {
     position: absolute;
     width: w($chat-and-input-width);
     height: h($chat-and-input-height);
@@ -1452,6 +1464,359 @@ button {
   flex-direction: column;
   gap: inset_vh(3);
 }
+
+#minus, #plus {
+    display: none;
+}
+
+@media (min-aspect-ratio: 3/2) {
+    body.experimental #background.on-me :is(#chat-and-input, button.chat, button.undock, button.review-button) {
+        display: none;
+    }
+    
+    // This comes from AI
+    body.experimental .btn {
+        position: absolute;
+        border: none;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    /* Main Action Buttons Styling */
+    body.experimental :is(#fold, #bring-in) {
+        left: 0.8%; top: 86.4%; width: 15%; height: 12.8%;
+        border-radius: 12px;
+        font-size: 38px;
+    }
+
+    body.experimental #fold {
+        background: linear-gradient(#5b6169, #30343a);
+    }
+
+    body.experimental :is(#call, #check) {
+        left: 17.5%; top: 86.4%; width: 15%; height: 12.8%;
+        border-radius: 12px;
+        font-size: 32px;
+        line-height: 0.95;
+    }
+
+    body.experimental #call {
+        background: linear-gradient(#2fa54b, #105e26);
+    }
+
+    body.experimental #check {
+        background: linear-gradient(#1066a3, #0a4d7d);
+    }
+
+    body.experimental :is(#raise, #bet, #complete) {
+        left: 34.2%; top: 86.4%; width: 15%; height: 12.8%;
+        border-radius: 12px;
+        font-size: 28px;
+        line-height: 1.0;
+    }
+
+    body.experimental #complete {
+        background: linear-gradient(to bottom, #f9c118, #d89b02);
+    }
+
+    body.experimental #raise {
+        background: linear-gradient(#e88d2f, #c55a15);
+    }
+    
+    body.experimental :is(#bet, #bring-in) {
+        background: linear-gradient( #f9c118, #d89b02); // TODO: RECOMPUTE
+    }
+
+    body.experimental :is(#call, #complete, #raise, #bet, #bring-in).all-in {
+        background: linear-gradient(#cc1c24, #a31118);
+    }
+    
+    body.experimental :is(#call, #raise) span {
+        font-size: 34px;
+        display: block;
+    }
+
+    /* Input Styling */
+    body.experimental #amount {
+        position: absolute;
+        left: 51.2%; top: 91.2%; width: 11.2%; height: 8%;
+        background: #1a1c20;
+        border: 1px solid #3d4148;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        border-radius: 4px;
+        pointer-events: all;
+    }
+
+    /* Quick Bet Buttons */
+    body.experimental .btn-small {
+        width: 7.8%; height: 8%;
+        border-radius: 6px;
+        font-size: 20px;
+    }
+    body.experimental #min { left: 63.6%; top: 81.5%; }
+    body.experimental #half { left: 72.5%; top: 81.5%; }
+    body.experimental #pot { left: 81.4%; top: 81.5%; }
+    body.experimental #max { left: 90.3%; top: 81.5%; }
+
+    body.experimental .btn-small.btn-bet {
+        background: linear-gradient( #f9c118, #d89b02);  // TODO: RECOMPUTE
+    }
+    
+    body.experimental .btn-small.btn-raise {
+        background: linear-gradient(#d97d26, #b05012);
+    }
+    
+    body.experimental .btn-small.btn-all-in {
+         background: linear-gradient(#cc1c24, #a31118);
+    }
+    
+    /* Slider Row Controls */
+    body.experimental .btn-ctrl {
+        width: 4.5%; height: 8%;
+        background: #4a4d54;
+        border-radius: 4px;
+        font-size: 30px;
+    }
+    body.experimental :is(#minus, #plus) {
+        display: flex;
+        pointer-events: all;
+    }
+    body.experimental #minus { left: 63.6%; top: 91.2%; }
+    body.experimental #plus { left: 93.8%; top: 91.2%; }
+
+    body.experimental #slider {
+        position: absolute;
+        -webkit-appearance: none;
+        appearance: none;
+        left: 68.2%; top: 91.2%; width: 25.6%; height: 8%;
+        background: #3d4148;
+        border-radius: 4px;
+        outline: none;
+        margin: 0;
+        pointer-events: all;
+    }
+
+    /* Square Thumb for Chrome/Safari/Webkit */
+    body.experimental #slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 58px; /* Height of the track is 8% of 722px ≈ 58px */
+        height: 58px;
+        background: linear-gradient(#bcbfc4, #83878d);
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: inset 0 1px 1px rgba(255,255,255,0.8);
+        border: 1px solid #555;
+    }
+
+    /* Square Thumb for Firefox */
+    body.experimental #slider::-moz-range-thumb {
+        width: 58px;
+        height: 58px;
+        background: linear-gradient(#bcbfc4, #83878d);
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        pointer-events: all;
+    }
+
+    // Ugh this is a div that we use in our current layout that we don't
+    // want with the AI layout.
+    body.experimental .slider {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+    }
+
+   // This section is from check-slash-fold-blue-checked-check
+
+    body.experimental .checkbox-label {
+        position: absolute;
+        background: rgba(30, 30, 30, 0.8);
+        border: 1px solid #444;
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 0 12px;
+        box-sizing: border-box;
+        font-size: 24px;
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    body.experimental .checkbox-label input[type="checkbox"] {
+        appearance: none;
+        -webkit-appearance: none;
+        width: 32px;
+        height: 32px;
+        border: 2px solid #666;
+        border-radius: 4px;
+        margin-right: 12px;
+        position: relative;
+        background: transparent;
+        cursor: pointer;
+        box-sizing: border-box;
+        flex-shrink: 0;
+    }
+
+    .body.experimental checkbox-label input[type="checkbox"]:checked {
+        border-color: #1e62c4;
+    }
+
+    body.experimental :is(#check-checkbox, #check-or-fold-checkbox, #call-n-checkbox, #bet-n-checkbox, #fold-checkbox, #raise-n-checkbox).white-hack {
+        background-color: unset;
+    }
+    
+    body.experimental :is(#check-checkbox, #check-or-fold-checkbox).checkbox-label input[type="checkbox"]:checked {
+        background-color: #1e62c4;
+    }
+
+    body.experimental #call-n-checkbox .checkbox-label input[type="checkbox"]:checked {
+        background-color: #1d7133;
+    }
+
+    body.experimental #bet-n-checkbox .checkbox-label input[type="checkbox"]:checked {
+        background-color: #dda419;
+    }
+
+    body.experimental #fold-checkbox .checkbox-label input[type="checkbox"]:checked {
+        background-color: #494c51;
+    }
+
+    body.experimental #raise-n-checkbox .checkbox-label input[type="checkbox"]:checked {
+        background-color: #c76026;
+    }
+
+    body.experimental .checkbox-label input[type="checkbox"]:checked::after {
+        content: '✔';
+        position: absolute;
+        color: white;
+        font-size: 22px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Specific Element Positions (Exact Percentages of 1280x722) */
+    body.experimental :is(#check-or-fold-checkbox, #fold-checkbox) { // left checkbox
+        position: absolute;
+        left: 0.3646%; // 7 / 1920
+        top: 88.550%; // (1004 - 45) / 1083
+        width: 15.885%; // 305 / 1920
+        height: 6.833%; // (1078 - 1004) / 1083
+    }
+
+    body.experimental :is(#check-checkbox, #call-n-checkbox) { // middle checkbox
+        position: absolute;
+        left: 16.979%; // 326 / 1920
+        top: 88.550%;  // (1004 - 45) / 1083
+        width: 15.885%; // 305 / 1920
+        height: 6.833%; // (1078 - 1004) / 1083
+    }
+
+    body.experimental :is(#bet-n-checkbox, #raise-n-checkbox) { // right checkbox
+        position: absolute;
+        left: 33.594%; // 645 / 1920
+        top: 88.550%;  // (1004 - 45) / 1083
+        width: 15.885%; // 305 / 1920
+        height: 6.833%; // (1078 - 1004) / 1083
+    }
+
+    // These aren't available here
+    body.experimental :is(#bet-or-raise-any-checkbox, #call-any-checkbox, #call-any-or-check-checkbox, #raise-any-checkbox) {
+        display: none;
+    }
+
+    // This is an example of how to reduce the size, although it doesn't show up
+    // because we don't display the call-any-or-check checkbox.
+    body.experimental #call-any-or-check-checkbox label.checkbox-label {
+        font-size: 19px;
+    }
+
+    body.experimental :is(button.chat, button.undock) {
+        display: none;
+    }
+
+    body.experimental #chat-and-input {
+        top: 85.22%;      /* 615.3px / 722 */
+        left: 51.25%;      /* 656px / 1280 */
+        height: 13.29%;    /* 96px / 722 (4.5 lines * 21px + padding) */
+        width: 48.12%;     /* 616px / 1280 */
+
+        background: rgba(0, 0, 0, 0.6);
+        border: 1px solid #555;
+        border-radius: 2px;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 21px; /* Calibrated for 4.5 lines */
+        overflow: hidden;
+        padding: 0 8px;
+        box-sizing: border-box;
+        white-space: nowrap;
+    }
+
+    body.experimental div.chat-graphical {
+        height: 100%;
+        font-size: inherit;
+        color: inherit;
+        line-height: inherit;
+        background-color: inherit;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;    /* Firefox */
+    }
+
+    body.experimental .enable-input div.chat-graphical {
+        height: 75%;
+    }
+
+    body.experimental div.chat-graphical::-webkit-scrollbar { // Chrome, Safari, Opera
+        display: none;
+    }
+    
+    body.experimental .chat-input-graphical {
+        display: none;
+    }
+
+    body.experimental .enable-input .chat-input-graphical {
+        display: unset;
+    }
+}
+
+// 7 312    out of 1920
+// 326 631
+// 645 950
+
+// 1078 is the botton out of 1200 but that includes 48 x 1.5 = 72 inset bottom
+// 1004 is the top
+
+// so (1004 - 45) / 1083 is the top
+// and (1078 - 1004) / 1083 is the height
+
+// 45 pixels (not px) is offset from top
+// 1083 is the number of pixels (not px) of the height not counting inset
+
+
+// for chat
+// 1108 bottom, 970 for the top
+// 1901 for the right, 979 for the left
+//
+// so top is (970 - 45) / 1083
+// left is 979 / 1920
+// width is (1901 - 979) / 1920
+// height is (1108 - 970) / 1083
 
 // This section shows both how to change the label on a button and
 // also provides a place where I can make sure that the version of
