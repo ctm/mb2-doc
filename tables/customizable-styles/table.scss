@@ -1563,7 +1563,7 @@ button {
         font-size: 20px;
     }
     body.experimental #min { left: 63.6%; top: 81.5%; }
-    body.experimental #half { left: 72.5%; top: 81.5%; }
+    body.experimental :is(#half, #bb3) { left: 72.5%; top: 81.5%; }
     body.experimental #pot { left: 81.4%; top: 81.5%; }
     body.experimental #max { left: 90.3%; top: 81.5%; }
 
@@ -1794,29 +1794,6 @@ button {
         display: unset;
     }
 }
-
-// 7 312    out of 1920
-// 326 631
-// 645 950
-
-// 1078 is the botton out of 1200 but that includes 48 x 1.5 = 72 inset bottom
-// 1004 is the top
-
-// so (1004 - 45) / 1083 is the top
-// and (1078 - 1004) / 1083 is the height
-
-// 45 pixels (not px) is offset from top
-// 1083 is the number of pixels (not px) of the height not counting inset
-
-
-// for chat
-// 1108 bottom, 970 for the top
-// 1901 for the right, 979 for the left
-//
-// so top is (970 - 45) / 1083
-// left is 979 / 1920
-// width is (1901 - 979) / 1920
-// height is (1108 - 970) / 1083
 
 // This section shows both how to change the label on a button and
 // also provides a place where I can make sure that the version of
