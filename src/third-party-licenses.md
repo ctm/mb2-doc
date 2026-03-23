@@ -1964,7 +1964,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.42</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.47</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -2350,7 +2350,7 @@ SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.102</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
-            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.17</a></li>
+            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.18</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.4</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.11</a></li>
             <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.17</a></li>
