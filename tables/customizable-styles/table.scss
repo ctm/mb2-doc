@@ -1372,7 +1372,7 @@ div.hardcoded.review {
 }
 
 div.uk-card.review table tbody tr td {
-    padding: 3px 12px;
+    padding: 0.25cqh 0.9cqw;
 }
 
 div.uk-card.review a.uk-notification-close {
@@ -1416,6 +1416,10 @@ div.uk-card.review img {
     line-height: 1;
     display: flex;
     align-items: center;
+}
+
+.container {
+    container-type: size;
 }
 
 *, *:before, *:after {
@@ -1487,13 +1491,14 @@ button {
         justify-content: center;
         text-align: center;
         box-sizing: border-box;
+        container-type: size;
     }
 
     /* Main Action Buttons Styling */
     body.experimental :is(#fold, #bring-in) {
         left: 0.8%; top: 86.4%; width: 15%; height: 12.8%;
         border-radius: 12px;
-        font-size: 38px;
+        font-size: 3.5cqw;
     }
 
     body.experimental #fold {
@@ -1503,7 +1508,7 @@ button {
     body.experimental :is(#call, #check) {
         left: 17.5%; top: 86.4%; width: 15%; height: 12.8%;
         border-radius: 12px;
-        font-size: 32px;
+        font-size: 3cqw;
         line-height: 0.95;
     }
 
@@ -1518,7 +1523,7 @@ button {
     body.experimental :is(#raise, #bet, #complete) {
         left: 34.2%; top: 86.4%; width: 15%; height: 12.8%;
         border-radius: 12px;
-        font-size: 28px;
+        font-size: 2.5cqw;
         line-height: 1.0;
     }
 
@@ -1539,7 +1544,7 @@ button {
     }
     
     body.experimental :is(#call, #raise) span {
-        font-size: 34px;
+        font-size: 3cqw;
         display: block;
     }
 
@@ -1551,7 +1556,7 @@ button {
         border: 1px solid #3d4148;
         color: white;
         text-align: center;
-        font-size: 24px;
+        font-size: 2.25cqw;
         border-radius: 4px;
         pointer-events: all;
     }
@@ -1560,7 +1565,7 @@ button {
     body.experimental .btn-small {
         width: 7.8%; height: 8%;
         border-radius: 6px;
-        font-size: 20px;
+        font-size: 2cqw;
     }
     body.experimental #min { left: 63.6%; top: 81.5%; }
     body.experimental :is(#half, #bb3) { left: 72.5%; top: 81.5%; }
@@ -1584,7 +1589,7 @@ button {
         width: 4.5%; height: 8%;
         background: #4a4d54;
         border-radius: 4px;
-        font-size: 30px;
+        font-size: 3cqw;
     }
     body.experimental :is(#minus, #plus) {
         display: flex;
@@ -1609,8 +1614,8 @@ button {
     body.experimental #slider::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
-        width: 58px; /* Height of the track is 8% of 722px ≈ 58px */
-        height: 58px;
+        width: 18%;
+        height: 4.50cqw;
         background: linear-gradient(#bcbfc4, #83878d);
         border-radius: 4px;
         cursor: pointer;
@@ -1620,8 +1625,8 @@ button {
 
     /* Square Thumb for Firefox */
     body.experimental #slider::-moz-range-thumb {
-        width: 58px;
-        height: 58px;
+        width: 18%; // 8%;
+        height: 4.50cqw; // 8%;
         background: linear-gradient(#bcbfc4, #83878d);
         border-radius: 4px;
         cursor: pointer;
@@ -1649,9 +1654,9 @@ button {
         color: #fff;
         display: flex;
         align-items: center;
-        padding: 0 12px;
+        padding: 0 2cqw;
         box-sizing: border-box;
-        font-size: 24px;
+        font-size: 12cqw;
         cursor: pointer;
         height: 100%;
         width: 100%;
@@ -1660,11 +1665,11 @@ button {
     body.experimental .checkbox-label input[type="checkbox"] {
         appearance: none;
         -webkit-appearance: none;
-        width: 32px;
-        height: 32px;
+        width: 15cqw;
+        height: 15cqw;
         border: 2px solid #666;
         border-radius: 4px;
-        margin-right: 12px;
+        margin-right: 4cqw;
         position: relative;
         background: transparent;
         cursor: pointer;
@@ -1704,7 +1709,7 @@ button {
         content: '✔';
         position: absolute;
         color: white;
-        font-size: 22px;
+        font-size: 10cqw;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -1743,7 +1748,7 @@ button {
     // This is an example of how to reduce the size, although it doesn't show up
     // because we don't display the call-any-or-check checkbox.
     body.experimental #call-any-or-check-checkbox label.checkbox-label {
-        font-size: 19px;
+        font-size: 1.78cqw;
     }
 
     body.experimental :is(button.chat, button.undock) {
@@ -1760,10 +1765,10 @@ button {
         border: 1px solid #555;
         border-radius: 2px;
         color: #ffffff;
-        font-size: 16px;
-        line-height: 21px; /* Calibrated for 4.5 lines */
+        font-size: 1.5cqw;
+        line-height: 2.85cqh;
         overflow: hidden;
-        padding: 0 8px;
+        padding: 0 0.75cqw;
         box-sizing: border-box;
         white-space: nowrap;
     }
