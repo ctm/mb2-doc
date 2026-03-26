@@ -657,7 +657,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.25</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.4</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.13.1</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.13.2</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.2.6</a></li>
           </ul>
