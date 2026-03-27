@@ -991,10 +991,6 @@ div.preferences {
     top: 0;
 }
 
-.fold-to-any-bet.white-hack {
-    top: 0;
-}
-
 #current-level {
     top: h($preference-bar-height);
 }
@@ -1173,7 +1169,7 @@ $pots-top: 639;
 
 $rebuy-top: 1006;
 
-.rebuy {
+#rebuy {
     position: absolute;
     top: h($rebuy-top);
     height: h($action-clickable-checkbox-height);
@@ -1188,10 +1184,6 @@ $add-on-top: 974;
     top: h($add-on-top);
     height: h($action-clickable-checkbox-height);
     left: 0;
-}
-
-.white-hack.rebuy-on-bust {
-    display: inline;
 }
 
 .rebuy button {
@@ -1250,19 +1242,20 @@ $lammers-top: $add-on-top - ($rebuy-top - $add-on-top);
 }
 
 $reveal-top: $lammers-top - ($rebuy-top - $add-on-top);
-.reveal {
+#reveal-checkbox, #reveal-always-checkbox {
     position: absolute;
     top: h($reveal-top);
     height: h($action-clickable-checkbox-height);
     left: 0;
 }
 
-.reveal.always input:checked {
+#reveal-always-checkbox input:checked {
     accent-color: red;
 }
 
-.fold-to-any-bet.white-hack {
+#fold-to-any-bet-checkbox.white-hack {
     position: absolute;
+    top: 0;
     right: 0;
     height: h($preference-bar-height);
 }
@@ -1418,10 +1411,6 @@ div.uk-card.review img {
     align-items: center;
 }
 
-.container {
-    container-type: size;
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
     margin-top: 0;
@@ -1474,6 +1463,10 @@ button {
 }
 
 @media (min-aspect-ratio: 3/2) {
+    body.experimental .container {
+        container-type: size;
+    }
+
     body.experimental #background.on-me :is(#chat-and-input, button.chat, button.undock, button.review-button) {
         display: none;
     }
@@ -1498,7 +1491,7 @@ button {
     body.experimental :is(#fold, #bring-in) {
         left: 0.8%; top: 86.4%; width: 15%; height: 12.8%;
         border-radius: 12px;
-        font-size: 3.5cqw;
+        font-size: 3.5cqh;
     }
 
     body.experimental #fold {
@@ -1508,7 +1501,7 @@ button {
     body.experimental :is(#call, #check) {
         left: 17.5%; top: 86.4%; width: 15%; height: 12.8%;
         border-radius: 12px;
-        font-size: 3cqw;
+        font-size: 3.5cqh;
         line-height: 0.95;
     }
 
@@ -1523,7 +1516,7 @@ button {
     body.experimental :is(#raise, #bet, #complete) {
         left: 34.2%; top: 86.4%; width: 15%; height: 12.8%;
         border-radius: 12px;
-        font-size: 2.5cqw;
+        font-size: 3.5cqh;
         line-height: 1.0;
     }
 
@@ -1544,7 +1537,7 @@ button {
     }
     
     body.experimental :is(#call, #raise) span {
-        font-size: 3cqw;
+        font-size: 3.5cqh;
         display: block;
     }
 
@@ -1636,7 +1629,7 @@ button {
 
     // Ugh this is a div that we use in our current layout that we don't
     // want with the AI layout.
-    body.experimental .slider {
+    body.experimental .slider, body.experimental #rebuy {
         width: 100%;
         height: 100%;
         top: 0;
@@ -1656,7 +1649,7 @@ button {
         align-items: center;
         padding: 0 2cqw;
         box-sizing: border-box;
-        font-size: 12cqw;
+        font-size: 48cqh;
         cursor: pointer;
         height: 100%;
         width: 100%;
@@ -1665,11 +1658,11 @@ button {
     body.experimental .checkbox-label input[type="checkbox"] {
         appearance: none;
         -webkit-appearance: none;
-        width: 15cqw;
-        height: 15cqw;
+        width: 60cqh;
+        height: 60cqh;
         border: 2px solid #666;
         border-radius: 4px;
-        margin-right: 4cqw;
+        margin-right: 10cqh;
         position: relative;
         background: transparent;
         cursor: pointer;
@@ -1681,7 +1674,7 @@ button {
         border-color: #1e62c4;
     }
 
-    body.experimental :is(#check-checkbox, #check-or-fold-checkbox, #call-n-checkbox, #bet-n-checkbox, #fold-checkbox, #raise-n-checkbox).white-hack {
+    body.experimental :is(#check-checkbox, #check-or-fold-checkbox, #call-n-checkbox, #bet-n-checkbox, #fold-checkbox, #raise-n-checkbox, #rebuy-on-bust-checkbox, #fold-to-any-bet-checkbox, #reveal-checkbox, #reveal-always-checkbox).white-hack {
         background-color: unset;
     }
     
@@ -1689,7 +1682,7 @@ button {
         background-color: #1e62c4;
     }
 
-    body.experimental #call-n-checkbox .checkbox-label input[type="checkbox"]:checked {
+    body.experimental :is(#call-n-checkbox, #rebuy-on-bust-checkbox, #reveal-checkbox, #reveal-always-checkbox) .checkbox-label input[type="checkbox"]:checked {
         background-color: #1d7133;
     }
 
@@ -1705,11 +1698,15 @@ button {
         background-color: #c76026;
     }
 
+    body.experimental #fold-to-any-bet-checkbox .checkbox-label input[type="checkbox"]:checked {
+        background-color: red;
+    }
+
     body.experimental .checkbox-label input[type="checkbox"]:checked::after {
         content: '✔';
         position: absolute;
         color: white;
-        font-size: 10cqw;
+        font-size: 45cqh;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -1721,6 +1718,41 @@ button {
         left: 0.3646%; // 7 / 1920
         top: 88.550%; // (1004 - 45) / 1083
         width: 15.885%; // 305 / 1920
+        height: 6.833%; // (1078 - 1004) / 1083
+    }
+
+    body.experimental #rebuy-on-bust-checkbox { // left checkbox
+        position: absolute;
+        left: 0.3646%; // 7 / 1920
+        top: 73%; // Chosen via eyeball
+        width: 15.885%; // 305 / 1920
+        height: 6.833%; // (1078 - 1004) / 1083
+        pointer-events: all;
+    }
+
+    body.experimental :is(#reveal-checkbox, #reveal-always-checkbox) {
+        position: absolute;
+        left: 0.3646%; // 7 / 1920
+        top: 66.167%; // stacked on top of Rebuy on Bust
+        width: 9.5%;
+        height: 6.833%; // (1078 - 1004) / 1083
+    }
+
+    body.experimental #rebuy-button { // left checkbox
+        position: absolute;
+        left: 17.5%;
+        top: 73%; // Chosen via eyeball
+        width: 15.885%; // 305 / 1920
+        height: 6.833%; // (1078 - 1004) / 1083
+        background-color: red;
+        border-radius: 12px;
+        font-size: 3.5cqh;
+        width: 8%;
+        pointer-events: all;
+    }
+
+    body.experimental #fold-to-any-bet-checkbox {
+        width: 17%; // 305 / 1920
         height: 6.833%; // (1078 - 1004) / 1083
     }
 
