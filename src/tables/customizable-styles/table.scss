@@ -947,15 +947,11 @@ button.chat {
     left: w($chat-button-left + $chat-button-width);
 }
 
-button.review-button {
+#review-button {
     position: absolute;
     width: w($pop-out-button-width);
     height: h($text-buttons-height);
     top: h($text-buttons-top);
-    left: w($chat-button-left);
-}
-
-button.review-button.docked {
     left: w($chat-button-left + 2 * $chat-button-width);
 }
 
@@ -1467,7 +1463,7 @@ button {
         container-type: size;
     }
 
-    body.experimental #background.on-me :is(#chat-and-input, button.chat, button.undock, button.review-button) {
+    body.experimental #background.on-me :is(#chat-and-input, button.chat, button.undock, #review-button) {
         display: none;
     }
     
@@ -1556,7 +1552,8 @@ button {
 
     /* Quick Bet Buttons */
     body.experimental .btn-small {
-        width: 7.8%; height: 8%;
+        width: 7.8%;
+        height: 8%;
         border-radius: 6px;
         font-size: 2cqw;
     }
@@ -1742,10 +1739,9 @@ button {
         position: absolute;
         left: 17.5%;
         top: 73%; // Chosen via eyeball
-        width: 15.885%; // 305 / 1920
         height: 6.833%; // (1078 - 1004) / 1083
         background-color: red;
-        border-radius: 12px;
+        border-radius: 2cqh;
         font-size: 3.5cqh;
         width: 8%;
         pointer-events: all;
@@ -1829,6 +1825,25 @@ button {
 
     body.experimental .enable-input .chat-input-graphical {
         display: unset;
+    }
+
+    body.experimental #time-button {
+        top: 82.034%;
+        left: 54.177%;
+        font-size: 1.6cqw;
+        border-radius: 1cqw;
+        background-color: green;
+        height: 6.833%;
+    }
+
+    body.experimental #review-button {
+        top: 80.775%;
+        left: 17.5%;
+        height: 6.833%;
+        background-color: green;
+        border-radius: 2cqh;
+        font-size: 3.5cqh;
+        width: 8%;
     }
 }
 
