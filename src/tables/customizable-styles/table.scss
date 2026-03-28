@@ -859,8 +859,8 @@ $mexican-checkboxes-left: $checkbox-column-1-left;
 @include id-action-clickable-checkbox("fold-checkbox"             , $fold-checkbox-top             , $fold-checkbox-left);
 @include id-action-clickable-checkbox("raise-any-checkbox"        , $raise-any-checkbox-top        , $raise-any-checkbox-left);
 @include id-action-clickable-checkbox("raise-n-checkbox"          , $raise-n-checkbox-top          , $raise-n-checkbox-left);
+@include id-action-clickable-checkbox("discard-checkbox"          , $discard-checkbox-top          , $discard-checkbox-left);
 
-@include action-clickable-checkbox("discard-checkbox"          , $discard-checkbox-top          , $discard-checkbox-left);
 @include action-clickable-checkbox("mexican-checkboxes"        , $discard-checkbox-top          , $mexican-checkboxes-left);
 
 .mexican-checkboxes {
@@ -1284,7 +1284,7 @@ div.chat-shrink {
 div.chat-text, div.chat-shrink {
     height:inherit;
     overflow:auto;
-    border:1px solid black;
+    border: 1px solid black;
     font-family: 'Courier New', Courier, monospace;
     font-weight:600;
 }
@@ -1407,6 +1407,10 @@ div.uk-card.review img {
     align-items: center;
 }
 
+.white-hack.instructions {
+    background-color: unset;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
     margin-top: 0;
@@ -1486,7 +1490,7 @@ button {
     /* Main Action Buttons Styling */
     body.experimental :is(#fold, #bring-in) {
         left: 0.8%; top: 86.4%; width: 15%; height: 12.8%;
-        border-radius: 12px;
+        border-radius: 2cqh;
         font-size: 3.5cqh;
     }
 
@@ -1496,7 +1500,7 @@ button {
 
     body.experimental :is(#call, #check) {
         left: 17.5%; top: 86.4%; width: 15%; height: 12.8%;
-        border-radius: 12px;
+        border-radius: 2cqh;
         font-size: 3.5cqh;
         line-height: 0.95;
     }
@@ -1511,7 +1515,7 @@ button {
 
     body.experimental :is(#raise, #bet, #complete) {
         left: 34.2%; top: 86.4%; width: 15%; height: 12.8%;
-        border-radius: 12px;
+        border-radius: 2cqh;
         font-size: 3.5cqh;
         line-height: 1.0;
     }
@@ -1546,7 +1550,7 @@ button {
         color: white;
         text-align: center;
         font-size: 2.25cqw;
-        border-radius: 4px;
+        border-radius: 0.3cqh;
         pointer-events: all;
     }
 
@@ -1554,7 +1558,7 @@ button {
     body.experimental .btn-small {
         width: 7.8%;
         height: 8%;
-        border-radius: 6px;
+        border-radius: 1.5cqh;
         font-size: 2cqw;
     }
     body.experimental #min { left: 63.6%; top: 81.5%; }
@@ -1578,7 +1582,7 @@ button {
     body.experimental .btn-ctrl {
         width: 4.5%; height: 8%;
         background: #4a4d54;
-        border-radius: 4px;
+        border-radius: 0.75cqh;
         font-size: 3cqw;
     }
     body.experimental :is(#minus, #plus) {
@@ -1594,7 +1598,7 @@ button {
         appearance: none;
         left: 68.2%; top: 91.2%; width: 25.6%; height: 8%;
         background: #3d4148;
-        border-radius: 4px;
+        border-radius: 0.75cqh;
         outline: none;
         margin: 0;
         pointer-events: all;
@@ -1607,7 +1611,7 @@ button {
         width: 18%;
         height: 4.50cqw;
         background: linear-gradient(#bcbfc4, #83878d);
-        border-radius: 4px;
+        border-radius: 0.75cqh;
         cursor: pointer;
         box-shadow: inset 0 1px 1px rgba(255,255,255,0.8);
         border: 1px solid #555;
@@ -1618,7 +1622,7 @@ button {
         width: 18%; // 8%;
         height: 4.50cqw; // 8%;
         background: linear-gradient(#bcbfc4, #83878d);
-        border-radius: 4px;
+        border-radius: 0.75cqh;
         cursor: pointer;
         border: none;
         pointer-events: all;
@@ -1640,7 +1644,7 @@ button {
         position: absolute;
         background: rgba(30, 30, 30, 0.8);
         border: 1px solid #444;
-        border-radius: 8px;
+        border-radius: 10cqh;
         color: #fff;
         display: flex;
         align-items: center;
@@ -1657,8 +1661,8 @@ button {
         -webkit-appearance: none;
         width: 60cqh;
         height: 60cqh;
-        border: 2px solid #666;
-        border-radius: 4px;
+        border: 4cqh solid #666;
+        border-radius: 8cqh;
         margin-right: 10cqh;
         position: relative;
         background: transparent;
@@ -1671,7 +1675,7 @@ button {
         border-color: #1e62c4;
     }
 
-    body.experimental :is(#check-checkbox, #check-or-fold-checkbox, #call-n-checkbox, #bet-n-checkbox, #fold-checkbox, #raise-n-checkbox, #rebuy-on-bust-checkbox, #fold-to-any-bet-checkbox, #reveal-checkbox, #reveal-always-checkbox).white-hack {
+    body.experimental :is(#check-checkbox, #check-or-fold-checkbox, #call-n-checkbox, #bet-n-checkbox, #fold-checkbox, #raise-n-checkbox, #rebuy-on-bust-checkbox, #fold-to-any-bet-checkbox, #reveal-checkbox, #reveal-always-checkbox, #discard-checkbox).white-hack {
         background-color: unset;
     }
     
@@ -1679,7 +1683,7 @@ button {
         background-color: #1e62c4;
     }
 
-    body.experimental :is(#call-n-checkbox, #rebuy-on-bust-checkbox, #reveal-checkbox, #reveal-always-checkbox) .checkbox-label input[type="checkbox"]:checked {
+    body.experimental :is(#call-n-checkbox, #rebuy-on-bust-checkbox, #reveal-checkbox, #reveal-always-checkbox, #discard-checkbox) .checkbox-label input[type="checkbox"]:checked {
         background-color: #1d7133;
     }
 
@@ -1768,6 +1772,22 @@ button {
         height: 6.833%; // (1078 - 1004) / 1083
     }
 
+    body.experimental #discard-checkbox {
+        top: 78%;
+        left: 51.25%;
+        width: 12%;
+        height: 6.833%;
+    }
+
+    body.experimental #discard-checkbox.instructions {
+        justify-content: center;
+        width: 21%;
+    }
+
+    body.experimental #discard-checkbox.instructions label.checkbox-label {
+        justify-content: center;
+    }
+
     // These aren't available here
     body.experimental :is(#bet-or-raise-any-checkbox, #call-any-checkbox, #call-any-or-check-checkbox, #raise-any-checkbox) {
         display: none;
@@ -1791,7 +1811,7 @@ button {
 
         background: rgba(0, 0, 0, 0.6);
         border: 1px solid #555;
-        border-radius: 2px;
+        border-radius: 1cqh;
         color: #ffffff;
         font-size: 1.5cqw;
         line-height: 2.85cqh;
