@@ -25,6 +25,7 @@ think about it, which means it's often out of date.
 |Started|Feature|Label|
 |:---:|---|---|
 |✅|[Native apps](#native-apps)|[Tauri](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3ATauri)|
+|✅|[User Interface](#user-interface)|[UI](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3AUI)|
 |✅|[Ring games](#ring-games)|[ring games](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3A%22ring%20games%22)|
 |✅|[Teaching](#teaching)|[teaching](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3Ateaching)|
 |✅|[WSOPS compatibility and structures](#wsops-compatibility-and-structures)|[WSOPS](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3AWSOPS)|
@@ -40,19 +41,20 @@ think about it, which means it's often out of date.
 
 ### Native apps
 
-I've made&mdash;but not yet released&mdash;native Mb2 apps using
-[Tauri](https://v2.tauri.app/).
-
-Currently, the UI is just the web UI, which is squished and awkward on
-a phone's aspect ratio, but is much nicer on a tablet.
+I've made&mdash;but not yet released&mdash;native Mb2 apps for
+Windows, macOS, iOS and Android using [Tauri](https://v2.tauri.app/).
 
 The macOS and Windows native Mb2 clients use a separate window per
 table.  The iOS and Android Mb2 clients have little controls that
 allow the player to switch from any table to the lobby and from the
-lobby to any table. These native versions are clunky, but are what
-I've been playing the daily tournaments on. Daily play has allowed me
-to find and fix many bugs.  On February 11th, I decided I'm confident
-that Tauri is solid enough to use in production.
+lobby to any table. That aspect is very clunky and I'll replace it
+with a better lobby when people express interest in using the native
+apps.
+
+In the meantime, I've been playing the daily tournaments using a
+native app since the end of 2025. Daily play has allowed me to find
+and fix many bugs.  On February 11th, I decided I'm confident that
+Tauri is solid enough to use in production.
 
 As a proof-of-concept and to make using native Mb2 more pleasant, the
 first native-only feature I've added is the ability of Mb2 to securely
@@ -61,6 +63,20 @@ iPhone or equivalent OS-supported secure storage (e.g., Keychain on
 macOS).  I did this using [DecentPaste](https://decentpaste.com/)'s
 [DecentSecret Tauri
 Plugin](https://github.com/decentpaste/decentpaste/tree/main/decentpaste-app/tauri-plugin-decentsecret#tauri-plugin-decentsecret).
+
+### User Interface
+
+After committing to Tauri, I began making the table controls Poker
+Stars compatible, getting some assistance from AI.  Mb2 now has an
+opt-in "experimental" table view which is now the default for all
+newly created accounts and the demo accounts.
+
+There's plenty of low hanging user interface fruit.  What I do next
+will be dependent on feedback&mdash;yet to come&mdash;I get back on
+what I've done so far.  In addition to asking the regular daily
+tournament players for feedback, I've ordered a couple $40 7-inch
+tablets that I'll be installing Mb2 on so I can lend them out to
+friends for in person testing.
 
 ### Ring games
 
