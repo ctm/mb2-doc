@@ -1713,6 +1713,14 @@ button {
         transform: translate(-50%, -50%);
     }
 
+    // The check we get under Apple's system is too small, so we boost its
+    // size with this Webkit-only hack.
+    @supports (hanging-punctuation: first) and (font: -apple-system-body) {
+        body.experimental .checkbox-label input[type="checkbox"]:checked::after {
+            font-size: 65cqh;
+        }
+    }
+
     /* Specific Element Positions (Exact Percentages of 1280x722) */
     body.experimental :is(#check-or-fold-checkbox, #fold-checkbox) { // left checkbox
         position: absolute;
