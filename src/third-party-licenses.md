@@ -915,7 +915,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.13.0</a></li>
+            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.13.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016--2017
@@ -3031,7 +3031,7 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.2</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.3</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.2</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.2</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.7</a></li>
