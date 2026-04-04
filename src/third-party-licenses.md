@@ -1455,10 +1455,10 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.3.4</a></li>
+            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.4.2</a></li>
           </ul>
 <pre class="license-text">
-Copyright (c) 2018-2025 The rust-random Project Developers
+Copyright (c) 2018-2026 The rust-random Project Developers
 Copyright (c) 2014 The Rust Project Developers
 
 Permission is hereby granted, free of charge, to any
@@ -2360,7 +2360,7 @@ SOFTWARE.
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.106</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.45</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
-            <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.27</a></li>
+            <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.28</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.228</a></li>
