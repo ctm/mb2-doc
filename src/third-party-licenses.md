@@ -48,11 +48,11 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (174)</li>
+        <li><a href="#MIT">MIT License</a> (181)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
-        <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
-        <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (2)</li>
+        <li><a href="#Apache-2.0">Apache License 2.0</a> (1)</li>
+        <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (1)</li>
       </ul>
 
 <h2>All license text:</h2>
@@ -61,8 +61,6 @@
 <h3 id="Apache-2.0">Apache License 2.0</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
-            <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
             <li><a href=" https://github.com/dtolnay/ryu ">ryu 1.0.23</a></li>
           </ul>
 <pre class="license-text">
@@ -204,7 +202,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 <h3 id="CC0-1.0">Creative Commons Zero v1.0 Universal</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.3.1</a></li>
             <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.4.2</a></li>
           </ul>
 <pre class="license-text">
@@ -330,18 +327,6 @@ express Statement of Purpose.
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
 
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz-build 0.3.0</a></li>
-            <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.9.0</a></li>
-          </ul>
-<pre class="license-text">
-../LICENSE
 
 </pre>
         </li>
@@ -618,7 +603,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rayon-rs/either ">either 1.15.0</a></li>
-            <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.12.1</a></li>
+            <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.14.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2015
@@ -1131,6 +1116,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/hyperium/http ">http 0.2.12</a></li>
+            <li><a href=" https://github.com/hyperium/http ">http 1.4.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2017 http-rs authors
@@ -2133,8 +2119,8 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/Peternator7/strum ">strum 0.26.3</a></li>
-            <li><a href=" https://github.com/Peternator7/strum ">strum_macros 0.26.4</a></li>
+            <li><a href=" https://github.com/Peternator7/strum ">strum 0.28.0</a></li>
+            <li><a href=" https://github.com/Peternator7/strum ">strum_macros 0.28.0</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -2263,25 +2249,31 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.4</a></li>
+            <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.10.4</a></li>
             <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.44</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/dialogs ">gloo-dialogs 0.2.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.2.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/file ">gloo-file 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/history ">gloo-history 0.2.2</a></li>
             <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.5.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.7.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.2.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.3.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.4.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/timers ">gloo-timers 0.3.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/timers ">gloo-timers 0.4.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/utils ">gloo-utils 0.2.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/utils ">gloo-utils 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker-macros 0.1.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker 0.5.0</a></li>
             <li><a href=" https://github.com/connorskees/grass ">grass 0.13.4</a></li>
             <li><a href=" https://github.com/connorskees/grass ">grass_compiler 0.13.4</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone-derive 0.1.2</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone 0.6.0</a></li>
-            <li><a href=" https://github.com/chronotope/chrono-tz ">parse-zoneinfo 0.3.1</a></li>
             <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 1.0.2</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.23.0</a></li>
@@ -2548,10 +2540,11 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.11.3</a></li>
-            <li><a href=" https://github.com/rust-phf/rust-phf ">phf_codegen 0.11.3</a></li>
+            <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.12.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_generator 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_macros 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.11.3</a></li>
+            <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.12.1</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -2582,7 +2575,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/marshallpierce/rust-base64 ">base64 0.21.7</a></li>
+            <li><a href=" https://github.com/marshallpierce/rust-base64 ">base64 0.22.1</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -2705,6 +2698,44 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/crossbeam-rs/crossbeam ">crossbeam-utils 0.8.21</a></li>
+          </ul>
+<pre class="license-text">
+The MIT License (MIT)
+
+Copyright (c) 2019 The Crossbeam Project Developers
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the &quot;Software&quot;), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
 
 
 </pre>
@@ -2872,7 +2903,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/sru-systems/rust-argon2 ">rust-argon2 2.1.0</a></li>
+            <li><a href=" https://github.com/sru-systems/rust-argon2 ">rust-argon2 3.0.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT license.
