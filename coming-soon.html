@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-b28a03e3.js";
+            window.path_to_searchindex_js = "searchindex-e0620757.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-ab8de9e6.js"></script>
@@ -277,21 +277,29 @@ Poker events that are being held on the same day.</p>
 for 2026, I’ll generate structures and the WSOP-Style series.  Each
 year I have created tools or systems to allow me to do this quicker.</p>
 <h3 id="customization"><a class="header" href="#customization">Customization</a></h3>
-<p>It should be possible for anyone to easily “skin” mb2, and give it a custom
-look-and-feel.  It should be possible to share skins either through the server
-or “behind the server’s back”, where the customization only happens on the
-client side.  Client-side only customization is a privacy feature.</p>
+<p>It’s <em>currently</em> possible for anyone to “skin” the mb2 table view and
+give it a custom look-and-feel, although it’s painful and nobody has,
+because it will become much easier and more stable. Currently all
+customization is client-side only, meaning the assets that are used to
+change the look-and-feel are uploaded directly to the client, never
+going to the server, even in transit.</p>
+<p>It will be possible to share skins either through the server, but for
+now it’s all “behind the server’s back”, where the customization only
+happens on the client side.  Client-side only customization is a
+privacy feature.</p>
 <p>I have been experimenting with client-side customization and have
 exposed primitive functionality that people can use today to customize
 the <a href="../tables/customizable-buttons.html">dealer button</a>, the
 <a href="../tables/customizable-backgrounds.html">background</a> and the
-<a href="../tables/customizable-styles.html">styles</a> of a table. Eventually, rather
-than customizing each of those aspects individually, it’ll be possible
-to create a single “asset pack” that customizes those aspects and more
-(e.g., a custom deck).</p>
-<p>I would prefer to work on further customization when I can pay a
-contractor to work with me.  I have both concrete and abstract ideas
-of how to proceed.</p>
+<a href="../tables/customizable-styles.html">styles</a> of a table.  The style
+customization is done either by CSS file, a SASS file or a Zip file
+(an asset pack) that contains a top-level “tables.css” file and any
+assets (e.g., images, fonts) that “tables.css” uses. Not all assets
+can currently be customized yet (e.g., the deck can’t yet, but it
+wouldn’t be hard to make it customizable).</p>
+<p>Customization is fairly low priority currently, so rather than having
+its own label, there’s an <a href="https://github.com/ctm/mb2-doc/issues/1812">“Asset Packs” GitHub
+issue</a>.</p>
 <h3 id="more-games"><a class="header" href="#more-games">More games</a></h3>
 <p>Mb2 is not a poker-engine, but it’s not <em>too far</em> removed from one. In
 other words, although mb2 doesn’t allow other programmers to create

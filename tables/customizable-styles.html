@@ -35,7 +35,7 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../searchindex-b28a03e3.js";
+            window.path_to_searchindex_js = "../searchindex-e0620757.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../toc-ab8de9e6.js"></script>
@@ -234,6 +234,15 @@ install the resultant file, the “Fold” button will say “Foldem”.  If you
 <p>you’ll get black buttons, etc.</p>
 <p>E.g., after doing both:
 <img src="customizable-styles/black-foldem.png" /></p>
+<h2 id="asset-packs"><a class="header" href="#asset-packs">Asset Packs</a></h2>
+<p>In addition to what’s mentioned above, it’s possible to upload a Zip
+file that contains a “tables.scss” file, and images and fonts that
+tables.scss can use as <code>url()</code> targets. This is nascent and
+undocumented, but it’s there. Tiny bits of informatiom are available
+in the <a href="https://github.com/ctm/mb2-doc/issues/1812">GitHub issue</a> that
+tracks the addition of this functionality and in the
+<a href="https://github.com/ctm/css-asset-pack">css-asset-pack</a> Rust crate
+that provides the core of this functionality.</p>
 <h2 id="tldr"><a class="header" href="#tldr">TLDR</a></h2>
 <p>Eventually, mb2 will be trivially customizable by anyone. Right now, nobody
 is using this functionality, because doing so is just too painful even if
