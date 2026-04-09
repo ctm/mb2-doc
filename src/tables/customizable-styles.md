@@ -69,6 +69,17 @@ you'll get black buttons, etc.
 E.g., after doing both:
 <img src="customizable-styles/black-foldem.png" />
 
+## Asset Packs
+
+In addition to what's mentioned above, it's possible to upload a Zip
+file that contains a "tables.scss" file, and images and fonts that
+tables.scss can use as `url()` targets. This is nascent and
+undocumented, but it's there. Tiny bits of informatiom are available
+in the [GitHub issue](https://github.com/ctm/mb2-doc/issues/1812) that
+tracks the addition of this functionality and in the
+[css-asset-pack](https://github.com/ctm/css-asset-pack) Rust crate
+that provides the core of this functionality.
+
 ## TLDR
 
 Eventually, mb2 will be trivially customizable by anyone. Right now, nobody

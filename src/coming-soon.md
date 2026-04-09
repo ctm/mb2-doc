@@ -116,23 +116,32 @@ year I have created tools or systems to allow me to do this quicker.
 
 ### Customization 
 
-It should be possible for anyone to easily "skin" mb2, and give it a custom
-look-and-feel.  It should be possible to share skins either through the server
-or "behind the server's back", where the customization only happens on the
-client side.  Client-side only customization is a privacy feature.
+It's _currently_ possible for anyone to "skin" the mb2 table view and
+give it a custom look-and-feel, although it's painful and nobody has,
+because it will become much easier and more stable. Currently all
+customization is client-side only, meaning the assets that are used to
+change the look-and-feel are uploaded directly to the client, never
+going to the server, even in transit.
+
+It will be possible to share skins either through the server, but for
+now it's all "behind the server's back", where the customization only
+happens on the client side.  Client-side only customization is a
+privacy feature.
 
 I have been experimenting with client-side customization and have
 exposed primitive functionality that people can use today to customize
 the [dealer button](../tables/customizable-buttons.md), the
 [background](../tables/customizable-backgrounds.md) and the
-[styles](../tables/customizable-styles.md) of a table. Eventually, rather
-than customizing each of those aspects individually, it'll be possible
-to create a single "asset pack" that customizes those aspects and more
-(e.g., a custom deck).
+[styles](../tables/customizable-styles.md) of a table.  The style
+customization is done either by CSS file, a SASS file or a Zip file
+(an asset pack) that contains a top-level "tables.css" file and any
+assets (e.g., images, fonts) that "tables.css" uses. Not all assets
+can currently be customized yet (e.g., the deck can't yet, but it
+wouldn't be hard to make it customizable).
 
-I would prefer to work on further customization when I can pay a
-contractor to work with me.  I have both concrete and abstract ideas
-of how to proceed.
+Customization is fairly low priority currently, so rather than having
+its own label, there's an ["Asset Packs" GitHub
+issue](https://github.com/ctm/mb2-doc/issues/1812).
 
 ### More games
 
