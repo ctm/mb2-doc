@@ -758,7 +758,7 @@ this CC0 or use of the Work.
 <h3 id="CC0-1.0">Creative Commons Zero v1.0 Universal</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.4.2</a></li>
+            <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.4.3</a></li>
           </ul>
 <pre class="license-text">
 Creative Commons Legal Code
