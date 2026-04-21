@@ -5,8 +5,10 @@ github_io_dir="$(echo ~/ctm.github.io/docs/players_manual)"
 
 function add_and_push() {
     git add -A
-    git commit -m '' --allow-empty-message
-    git push
+    if ! git diff-index --quiet HEAD --; then
+        git commit -m '' --allow-empty-message
+        git push
+    fi
 }
 
 rm -rf "$tmp_dir"
