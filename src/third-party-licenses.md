@@ -2720,7 +2720,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/hybrid-array ">hybrid-array 0.4.10</a></li>
+            <li><a href=" https://github.com/RustCrypto/hybrid-array ">hybrid-array 0.4.11</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2022-2026 The RustCrypto Project Developers
@@ -3771,7 +3771,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 8.5.1</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 8.6.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -3938,7 +3938,7 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/ia0/data-encoding ">data-encoding 2.10.0</a></li>
+            <li><a href=" https://github.com/ia0/data-encoding ">data-encoding 2.11.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
