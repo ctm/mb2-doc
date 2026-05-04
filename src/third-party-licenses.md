@@ -3397,7 +3397,7 @@ SOFTWARE.
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone-derive 0.1.2</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone 0.6.0</a></li>
             <li><a href=" https://github.com/rust-lang/compiler-builtins ">libm 0.2.16</a></li>
-            <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 1.0.2</a></li>
+            <li><a href=" https://github.com/jedisct1/rust-siphash ">siphasher 1.0.3</a></li>
             <li><a href=" https://github.com/jameslanska/unicode-display-width/ ">unicode-display-width 0.3.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-macro 0.23.0</a></li>
             <li><a href=" https://github.com/yewstack/yew ">yew-router-macro 0.20.0</a></li>
