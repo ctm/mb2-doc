@@ -1039,19 +1039,19 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.4</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.97</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.98</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
             <li><a href=" https://github.com/alexcrichton/scoped-tls ">scoped-tls 1.0.1</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.3</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.70</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.120</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.120</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.120</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test-macro 0.3.70</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/test-shared ">wasm-bindgen-test-shared 0.2.120</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test 0.3.70</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.120</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.97</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.71</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.121</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.121</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.121</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test-macro 0.3.71</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/test-shared ">wasm-bindgen-test-shared 0.2.121</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test 0.3.71</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.121</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.98</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 Alex Crichton
