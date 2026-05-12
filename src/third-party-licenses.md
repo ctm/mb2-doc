@@ -6416,7 +6416,7 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.2</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.2</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.7</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.7</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.6</a></li>
@@ -6506,7 +6506,7 @@ freely, subject to the following restrictions:
 <h3 id="bzip2-1.0.6">bzip2 and libbzip2 License v1.0.6</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/libbzip2-rs ">libbz2-rs-sys 0.2.3</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/libbzip2-rs ">libbz2-rs-sys 0.2.4</a></li>
           </ul>
 <pre class="license-text">
 
