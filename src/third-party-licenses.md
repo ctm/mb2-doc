@@ -6506,7 +6506,7 @@ freely, subject to the following restrictions:
 <h3 id="bzip2-1.0.6">bzip2 and libbzip2 License v1.0.6</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/libbzip2-rs ">libbz2-rs-sys 0.2.4</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/libbzip2-rs ">libbz2-rs-sys 0.2.5</a></li>
           </ul>
 <pre class="license-text">
 
