@@ -1811,7 +1811,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/hyperium/http ">http 0.2.12</a></li>
-            <li><a href=" https://github.com/hyperium/http ">http 1.4.0</a></li>
+            <li><a href=" https://github.com/hyperium/http ">http 1.4.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2017 http-rs authors
