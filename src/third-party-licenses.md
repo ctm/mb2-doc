@@ -2867,7 +2867,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.48</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.49</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -3459,7 +3459,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.1</a></li>
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.102</a></li>
             <li><a href=" https://github.com/dtolnay/async-trait ">async-trait 0.1.89</a></li>
-            <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.5</a></li>
+            <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.6</a></li>
             <li><a href=" https://github.com/dtolnay/dtoa ">dtoa 1.0.11</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.18</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.4</a></li>
@@ -3798,7 +3798,7 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.4</a></li>
-            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.1</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
 <pre class="license-text">
