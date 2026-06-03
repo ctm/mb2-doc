@@ -276,7 +276,7 @@
 <h3 id="Apache-2.0">Apache License 2.0</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.16.3</a></li>
+            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.16.4</a></li>
           </ul>
 <pre class="license-text">
                                  Apache License
@@ -1080,8 +1080,8 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.11.1</a></li>
-            <li><a href=" https://github.com/rust-lang/log ">log 0.4.30</a></li>
+            <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.12.1</a></li>
+            <li><a href=" https://github.com/rust-lang/log ">log 0.4.31</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
@@ -1334,7 +1334,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.25</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.4</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.13.2</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.13.3</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.2.6</a></li>
           </ul>
@@ -2867,7 +2867,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.49</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.50</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -3696,7 +3696,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/paholg/typenum ">typenum 1.20.0</a></li>
+            <li><a href=" https://github.com/paholg/typenum ">typenum 1.20.1</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
