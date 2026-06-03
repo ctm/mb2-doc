@@ -6276,7 +6276,7 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.2</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.7</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.4</a></li>
