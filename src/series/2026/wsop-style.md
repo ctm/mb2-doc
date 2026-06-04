@@ -74,7 +74,7 @@ Mb2 structure sheet and will be definitive.
 </tr>
 </thead>
 <tbody>
-<tr><td colspan=2 style="text-align: center;">May<td></tr>
+<tr><td colspan=2 style="text-align: center;">May</td></tr>
 <tr><td>26th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=3" target="_blank">#2</a></td><td><a href="https://craftpoker.com/tournament/structure/6466" target="_blank">8-Handed No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/6466/player/37" target="_blank">ts4z</a></td></tr>
 <tr><td>27th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=5" target="_blank">#4</a></td><td><a href="https://craftpoker.com/tournament/structure/6467" target="_blank">Omaha Hi-Lo 8 or Better</a></td><td><a href="https://craftpoker.com/event/6467/player/32" target="_blank">samarai</a></td></tr>
 <tr><td>28th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=7" target="_blank">#6</a></td><td><a href="https://craftpoker.com/tournament/structure/6468" target="_blank">Seven Card Stud</a></td><td><a href="https://craftpoker.com/event/6468/player/10" target="_blank">deadhead</a></td></tr>
@@ -82,7 +82,7 @@ Mb2 structure sheet and will be definitive.
 <tr><td>30th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=10" target="_blank">#9</a></td><td><a href="https://craftpoker.com/tournament/structure/6470" target="_blank">Omaha Hi-Lo 8 or Better Championship</a></td><td><a href="https://craftpoker.com/event/6470/player/10724" target="_blank">cantraise</a></td></tr>
 <tr><td>31st</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=13" target="_blank">#12</a></td><td><a href="https://craftpoker.com/tournament/structure/6471" target="_blank">No-Limit 2-7 Lowball Draw</a></td><td><a href="https://craftpoker.com/event/6471/player/11" target="_blank">gerdog</a></td></tr>
 <tr><td colspan=4>&nbsp;</td></tr>
-<tr><td colspan=2 style="text-align: center;">June<td></tr>
+<tr><td colspan=2 style="text-align: center;">June</td></tr>
 <tr><td>1st</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=15" target="_blank">#14</a></td><td><a href="https://craftpoker.com/tournament/structure/6472" target="_blank">Mixed Omaha (PLO/8, O/8, Big O)</a></td><td><a href="https://craftpoker.com/event/6472/player/10724" target="_blank">cantraise</a></td></tr>
 <tr><td>2nd</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=19" target="_blank">#17</a></td><td><a href="https://craftpoker.com/tournament/structure/6473" target="_blank">No-Limit 2-7 Lowball Draw Championship</a></td><td><a href="https://craftpoker.com/event/6473/player/" target="_blank"></a><a href="https://craftpoker.com/event/6473/player/13" target="_blank">gambomouse</a></td></tr>
 <tr><td>3rd</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=22" target="_blank">#20</a></td><td><a href="https://craftpoker.com/tournament/structure/6474" target="_blank">Dealers Choice</a></td><td><a href="https://craftpoker.com/event/6474/player/" target="_blank"></a></td></tr>
@@ -114,7 +114,7 @@ Mb2 structure sheet and will be definitive.
 <tr><td>29th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=87" target="_blank">#75</a></td><td><a href="https://craftpoker.com/tournament/structure/6500" target="_blank">Seven Card Stud Hi-Lo 8 or Better Championship</a></td><td><a href="https://craftpoker.com/event/6500/player/" target="_blank"></a></td></tr>
 <tr><td>30th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=89" target="_blank">#77</a></td><td><a href="https://craftpoker.com/tournament/structure/6501" target="_blank">Mixed Triple Draw Lowball</a></td><td><a href="https://craftpoker.com/event/6501/player/" target="_blank"></a></td></tr>
 <tr><td colspan=4>&nbsp;</td></tr>
-<tr><td colspan=2 style="text-align: center;">July<td></tr>
+<tr><td colspan=2 style="text-align: center;">July</td></tr>
 <tr><td>1st</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=92" target="_blank">#80</a></td><td><a href="https://craftpoker.com/tournament/structure/6502" target="_blank">8-Game Mix Championship</a></td><td><a href="https://craftpoker.com/event/6502/player/" target="_blank"></a></td></tr>
 <tr><td>2nd</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=97" target="_blank">#83</a></td><td><a href="https://craftpoker.com/tournament/structure/6503" target="_blank">Pot-Limit Omaha Double Board Bomb Pot</a></td><td><a href="https://craftpoker.com/event/6503/player/" target="_blank"></a></td></tr>
 <tr><td>3rd</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=98" target="_blank">#84</a></td><td><a href="https://craftpoker.com/tournament/structure/6504" target="_blank">Super Turbo Bounty No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/6504/player/" target="_blank"></a></td></tr>
