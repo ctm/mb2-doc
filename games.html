@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-3ab3d6b8.js";
+            window.path_to_searchindex_js = "searchindex-89436d75.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-fec9bcdf.js"></script>
@@ -175,7 +175,7 @@
                 <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal seventy-four named variations of poker and a ridiculous
+<p>Mb2 can deal seventy-six named variations of poker and a ridiculous
 number of variants thereof. This includes common ones like Texas
 Hold’em, Omaha and Seven Card Stud as well as lesser known games like
 Badugi, Courchevel and Big O.</p>
@@ -187,8 +187,8 @@ Pineapple</a>,
 Choice</a> and <a href="games/dealers-die.html">Dealer’s
 Die</a>.</p>
 <p>At the time of this writing, the precise number of <em>named</em> games is
-seventy-four. That number comes from the source code to mb2:</p>
-<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 74]&gt; = LazyLock::new(|| {
+seventy-six. That number comes from the source code to mb2:</p>
+<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 76]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -218,8 +218,8 @@ seventy-four. That number comes from the source code to mb2:</p>
         DRAMAHA_3D.done(),
 ...
 </code></pre>
-<p>The 74 shows that we’re populating the <code>GAMES</code> constant with
-seventy-four elements, but it’s counting—for
+<p>The 76 shows that we’re populating the <code>GAMES</code> constant with
+seventy-six elements, but it’s counting—for
 example—<code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code>
 as two separate games.</p>
 <p>It’s also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
@@ -231,7 +231,7 @@ internal names for.</p>
 <details>
 <summary>Code that initializes the GAMES constant</summary>
 <pre>
-pub static GAMES: LazyLock&lt;[GameInfo; 74]&gt; = LazyLock::new(|| {
+pub static GAMES: LazyLock&lt;[GameInfo; 76]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -282,6 +282,7 @@ pub static GAMES: LazyLock&lt;[GameInfo; 74]&gt; = LazyLock::new(|| {
         NL_CA_LOWBALL.done(),
         DEUCE_TO_SEVEN.done(),
         QUICK_QUADS.done(),
+        FIVE_CARD_DOUBLE_DRAW.done(),
         // Badugis
         BADUGI.done(),
         BADACEY.done(),
@@ -322,6 +323,7 @@ pub static GAMES: LazyLock&lt;[GameInfo; 74]&gt; = LazyLock::new(|| {
         WONKY_DONKEY.done(),
         DEALERS_CHOICE.done(),
         DEALERS_DIE.done(),
+        PICK_YOUR_PLO.done(),
     ]
 });
 </pre>
@@ -333,7 +335,7 @@ represents the most popular combinations of core games with
 options. There is no requirement for a combination of a core game and
 options to be present in <code>GAMES</code> for that combination to be used in a
 tournament structure or ring game, so mb2 is already dealing well more
-than seventy-four different variants, but some of the differences are so
+than seventy-six different variants, but some of the differences are so
 small that it’s hard to argue they’re different games.</p>
 <p>Here are the core games, with up to three
 examples of each.  This table demonstrates the flexibility
