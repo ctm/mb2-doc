@@ -86,7 +86,8 @@ breaking change. I apologize for my travesty.
 
 |OS|Arch|Download|
 |--|----|--------|
-|iOS|arm64|[MB2_0.1.0_aarch64.dmg](https://drive.google.com/open?id=1h0JBfEfVp8PD5MQxIfWuUf_8bKi-x2Py&usp=drive_fs)|
+|iOS|arm64|[Mb2.ipa](https://drive.google.com/open?id=1Rkyy7JQ1TuIi68r3UCZoZ346UKtNlQxF&usp=drive_fs)|
+|macOS|arm64|[MB2_0.1.0_aarch64.dmg](https://drive.google.com/open?id=1h0JBfEfVp8PD5MQxIfWuUf_8bKi-x2Py&usp=drive_fs)|
 |Windows|x86_64|[Mb2_0.1.0_x64-setup.exe](https://drive.google.com/file/d/1_9LVzoTRvY8T2Yav9TORNYuI_AFsY_QI/view?usp=sharing)|
 |Windows|x86_64|[Mb2_0.1.0_x64_en-US.msi](https://drive.google.com/file/d/1XaHn9cO3gfe4dL3BYlxse7A27Ij7lNA4/view?usp=sharing)|
 |Android|arm64|[app-arm64-release.apk](https://drive.google.com/open?id=1RKaNJR9g5DXE3kXAIWQJhtaP_Plszrm1&usp=drive_fs)|
