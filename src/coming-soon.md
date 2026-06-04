@@ -24,7 +24,7 @@ think about it, which means it's often out of date.
 <br/>
 |Started|Feature|Label|
 |:---:|---|---|
-|✅|[Native apps](#native-apps)|[Tauri](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3ATauri)|
+|✅|[Native apps](native-apps)|[Tauri](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3ATauri)|
 |✅|[User Interface](#user-interface)|[UI](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3AUI)|
 |✅|[Ring games](#ring-games)|[ring games](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3A%22ring%20games%22)|
 |✅|[Teaching](#teaching)|[teaching](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3Ateaching)|
@@ -38,31 +38,6 @@ think about it, which means it's often out of date.
 |❌|[Impossible to rig deck](#impossible-to-rig-deck)||
 |❌|[QR-code based pick-up games](#qr-code-based-pick-up-games)||
 |❌|[The server running on a phone or tablet](#the-server-running-on-a-phone-or-tablet)||
-
-### Native apps
-
-I've made&mdash;but not yet released&mdash;native Mb2 apps for
-Windows, macOS, iOS and Android using [Tauri](https://v2.tauri.app/).
-
-The macOS and Windows native Mb2 clients use a separate window per
-table.  The iOS and Android Mb2 clients have little controls that
-allow the player to switch from any table to the lobby and from the
-lobby to any table. That aspect is very clunky and I'll replace it
-with a better lobby when people express interest in using the native
-apps.
-
-In the meantime, I've been playing the daily tournaments using a
-native app since the end of 2025. Daily play has allowed me to find
-and fix many bugs.  On February 11th, I decided I'm confident that
-Tauri is solid enough to use in production.
-
-As a proof-of-concept and to make using native Mb2 more pleasant, the
-first native-only feature I've added is the ability of Mb2 to securely
-store the nickname and password between sessions, using Face ID on an
-iPhone or equivalent OS-supported secure storage (e.g., Keychain on
-macOS).  I did this using [DecentPaste](https://decentpaste.com/)'s
-[DecentSecret Tauri
-Plugin](https://github.com/decentpaste/decentpaste/tree/main/decentpaste-app/tauri-plugin-decentsecret#tauri-plugin-decentsecret).
 
 ### User Interface
 

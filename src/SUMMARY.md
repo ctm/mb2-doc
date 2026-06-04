@@ -52,6 +52,7 @@
      - [Redrum](./games/redrum.md)
      - [Regular Pineapple](./games/regular-pineapple.md)
      - [Sack](./games/sack.md)
+- [Native Apps](native-apps.md)
 - [Esoterica](./esoterica.md)
   - [Lammers](./esoterica/lammers.md)
   - [GitHub](./esoterica/github.md)
