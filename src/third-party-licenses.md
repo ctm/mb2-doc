@@ -3263,7 +3263,7 @@ SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.4</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.10.4</a></li>
-            <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.44</a></li>
+            <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.45</a></li>
             <li><a href=" https://github.com/Nugine/const-str ">const-str-proc-macro 0.3.2</a></li>
             <li><a href=" https://github.com/Nugine/const-str ">const-str 0.3.2</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
