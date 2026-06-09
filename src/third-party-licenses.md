@@ -1086,8 +1086,8 @@ THE SOFTWARE.
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
             <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.14</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.10</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex 1.12.3</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.11</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex 1.12.4</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 The Rust Project Developers
