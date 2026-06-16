@@ -3480,7 +3480,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.150</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.117</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.118</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.18</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
