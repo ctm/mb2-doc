@@ -80,16 +80,14 @@ build Linux apps, so if there's interest, I may give it a try.
 
 ## The Links
 
-For now, the version number is fixed at 0.1.0 even as versions change. I
-will fix this bad practice at some point, probably when I need to make a
-breaking change. I apologize for my travesty.
+These are the latest builds.
 
 |OS|Arch|Download|
 |--|----|--------|
 |iOS|arm64|[Mb2.ipa](https://drive.google.com/open?id=1Rkyy7JQ1TuIi68r3UCZoZ346UKtNlQxF&usp=drive_fs)|
-|macOS|arm64|[MB2_0.1.0_aarch64.dmg](https://drive.google.com/open?id=1h0JBfEfVp8PD5MQxIfWuUf_8bKi-x2Py&usp=drive_fs)|
-|Windows|x86_64|[Mb2_0.1.0_x64-setup.exe](https://drive.google.com/file/d/1_9LVzoTRvY8T2Yav9TORNYuI_AFsY_QI/view?usp=sharing)|
-|Windows|x86_64|[Mb2_0.1.0_x64_en-US.msi](https://drive.google.com/file/d/1XaHn9cO3gfe4dL3BYlxse7A27Ij7lNA4/view?usp=sharing)|
+|macOS|arm64|[MB2_aarch64.dmg](https://drive.google.com/file/d/17nPdvdEKTelm5w4iw55NhS8pacxuzOs5/view?usp=sharing)|
+|Windows|x86_64|[Mb2_x64-setup.exe](https://drive.google.com/file/d/1X8c54u3z1SlC2qB6qp69956ZB3hIm9-N/view?usp=sharing)|
+|Windows|x86_64|[Mb2_x64_en-US.msi](https://drive.google.com/file/d/1RMCY_Kl6rquYdFPpzEVifA_iqXDwxUgs/view?usp=sharing)|
 |Android|arm64|[app-arm64-release.apk](https://drive.google.com/open?id=1RKaNJR9g5DXE3kXAIWQJhtaP_Plszrm1&usp=drive_fs)|
 |Android|arm|[app-arm-release.apk](https://drive.google.com/file/d/1fx5zHAuJgGjXVIHY4YEmZI0sgvMeuo7n/view?usp=sharing)|
 |Android|x86_64|[app-x86_64-release.apk](https://drive.google.com/open?id=1EMyfh46Vs-dNjQt4q_HFhaWkb7uscQhZ&usp=drive_fs)|
