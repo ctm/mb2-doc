@@ -80,7 +80,11 @@ build Linux apps, so if there's interest, I may give it a try.
 
 ## The Links
 
-These are the latest builds.
+These are the latest builds. Older versions may not work, nor are they
+guaranteed to be archived anywhere, but for now there's a chance
+you'll find them in [GitHub](https://github.com/ctm/mb2-doc/releases),
+which is a temporary place to hold multiple releases while I work on
+getting an automatic update working.
 
 |OS|Arch|Download|
 |--|----|--------|
