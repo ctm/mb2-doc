@@ -2246,7 +2246,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.4.2</a></li>
+            <li><a href=" https://github.com/rust-random/getrandom ">getrandom 0.4.3</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018-2026 The rust-random Project Developers
