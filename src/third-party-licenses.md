@@ -1081,7 +1081,7 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.13.0</a></li>
-            <li><a href=" https://github.com/rust-lang/log ">log 0.4.32</a></li>
+            <li><a href=" https://github.com/rust-lang/log ">log 0.4.33</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
@@ -1884,7 +1884,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.11.1</a></li>
+            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.12.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 Carl Lerche
@@ -2751,7 +2751,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/bluss/arrayvec ">arrayvec 0.7.6</a></li>
+            <li><a href=" https://github.com/bluss/arrayvec ">arrayvec 0.7.7</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) Ulrik Sverdrup &quot;bluss&quot; 2015-2023
@@ -6338,7 +6338,7 @@ ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation a
 <h3 id="Zlib">zlib License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.3</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.4</a></li>
           </ul>
 <pre class="license-text">
 (C) 2024 Trifecta Tech Foundation 
