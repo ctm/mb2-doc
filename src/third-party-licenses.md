@@ -2613,7 +2613,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/hybrid-array ">hybrid-array 0.4.12</a></li>
+            <li><a href=" https://github.com/RustCrypto/hybrid-array ">hybrid-array 0.4.13</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2022-2026 The RustCrypto Project Developers
