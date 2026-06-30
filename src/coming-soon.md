@@ -1,22 +1,24 @@
-# Coming "Soon"
+# Coming Soon
 
-These are features that Mb2 could support "soon". I have researched
-each feature and believe that almost every one could be in a
-proof-of-concept alpha state with two weeks of me working full-time on
-that feature, although I don't have much time to program when I'm chasing
-funding or doing other business related tasks.
+These are features that Mb2 will support soon. I have researched each
+feature and believe that almost every one could be in a
+proof-of-concept alpha state with two weeks of me working with AI on
+that feature, even while I'm chasing funding and doing other business
+related tasks.
 
 I expect a strategic investor or a potential customer will dictate the
-priority for each feature.  In the meantime, native apps and then ring
-games will be my focus.
+priority for each feature.  In the meantime, my highest priority is
+working on the infrastructure needed to support zero downtime deploys,
+backward compatible messaging additions and automatic updates. Those
+three will allow me to iterate rapidly on everything else.
 
-At any given time, you can see what I'm working on by looking at the
-[list of high priority
+At any given time, you can see what I intend to work on by looking at
+the [list of high priority
 issues](https://github.com/ctm/mb2-doc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22high%20priority%22)
-and see what I'm planning on working on by looking at the [list of
-medium priority
-issues](https://github.com/ctm/mb2-doc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22medium%20priority%22). In addition to those two labels,
-some features have their own labels, which are included in the table below.
+and see what's next by looking at the [list of medium priority
+issues](https://github.com/ctm/mb2-doc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22medium%20priority%22). In
+addition to those two labels, some features have their own labels,
+which are included in the table below.
 
 I update issues on GitHub multiple times a day. I only update this page when I
 think about it, which means it's often out of date.
@@ -28,7 +30,6 @@ think about it, which means it's often out of date.
 |✅|[User Interface](#user-interface)|[UI](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3AUI)|
 |✅|[Ring games](#ring-games)|[ring games](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3A%22ring%20games%22)|
 |✅|[Teaching](#teaching)|[teaching](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3Ateaching)|
-|✅|[WSOPS compatibility and structures](#wsops-compatibility-and-structures)|[WSOPS](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3AWSOPS)|
 |✅|[Customization](#customization)||
 |✅|[More games](#more-games)||
 |✅|[Membership](#membership)||
@@ -46,22 +47,22 @@ Stars compatible, getting some assistance from AI.  Mb2 now has an
 opt-in "experimental" table view which is now the default for all
 newly created accounts and the demo accounts.
 
-There's plenty of low hanging user interface fruit.  What I do next
-will be dependent on feedback&mdash;yet to come&mdash;I get back on
-what I've done so far.  In addition to asking the regular daily
-tournament players for feedback, I've ordered a couple $40 7-inch
-tablets that I'll be installing Mb2 on so I can lend them out to
-friends for in person testing.
+There's plenty of low hanging user interface fruit, but rather than
+taking time to pick it now, I've added an undocumented feature that
+allows the player to save the HTML of a table window simply by typing
+a "!" when not in a text editing box. This will allow me to hand that
+HTML, table.scss and screen shots and ask AI to alter table.scss
+taking some cues (like geometry) from the screen shot. Not only will
+this allow me to generate several different themes, it'll also be the
+basis for allowing players to create their own, using
+[customization](#customization).
 
 ### Ring games
 
 Internally, Mb2 already has limited support for ring games.  Some
 of what is lacking is simply functionality related to players joining,
-changing seats, missing blinds, etc.  Those will be easier for me to implement
-once I can block out some time with someone who knows the ins-and-outs.
+changing seats, missing blinds, etc.
 
-Now that native apps are working well enough, I can resume work on
-ring games once I know how I'll pay my bills.
 
 ### Teaching
 
@@ -77,17 +78,6 @@ so that the teacher and students can discuss the hand.
 Additional teaching functionality can easily be added, but will not be
 done speculatively.  Anyone who is interested in using Mb2 to teach poker,
 is encouraged to contact me so we can work together.
-
-### WSOPS compatibility and structures
-
-Each year, [starting in 2022](../series/2022/wsop-style.md),
-craftpoker.com has hosted a series of WSOP-Style tournaments, where
-the games and structures are patterned after actual World Series of
-Poker events that are being held on the same day.
-
-When the official World Series of Poker structure sheets are released
-for 2026, I'll generate structures and the WSOP-Style series.  Each
-year I have created tools or systems to allow me to do this quicker.
 
 ### Customization 
 
@@ -120,18 +110,19 @@ issue](https://github.com/ctm/mb2-doc/issues/1812).
 
 ### More games
 
-Mb2 is not a poker-engine, but it's not _too far_ removed from one. In
-other words, although mb2 doesn't allow other programmers to create
-new poker games, doing so isn't particularly hard for anyone with
-access to the mb2 source code (which is currently just myself).  As an
-example, adding the Crayfish variant [took two days of
+Mb2 is not a poker-engine, but it's not too far removed from
+one. Prior to AI, adding a new game took a day or less. As an example,
+adding the Crayfish variant [took two days of
 work](https://github.com/ctm/mb2-doc/issues/1687#issuecomment-3639517293),
-neither of which were particularly close to full time.
+neither of which were particularly close to full time. With AI,
+however, new games and variants is often just a matter of typing in a
+small description and pointing Claude at the issue. E.g., [No
+Kings](https://github.com/ctm/mb2-doc/issues/1884), [Triple-Draw
+Dealer's Choice](https://github.com/ctm/mb2-doc/issues/1883) and
+[Atomic Pineapple](https://github.com/ctm/mb2-doc/issues/1882).
 
-Although there are no specific games I plan to implement in the future,
-typically I add some in anticipation of the WYWAE Series (for 2026, I
-added Dramaha Zero, Dramaha 21 and Dealer's Die) and sometimes for the
-WSOP-Style Series (e.g., Double Board Bomb Pot in 2024).
+Although there are no specific games I plan to implement in the
+future, it's trivial to do so.
 
 ### Membership
 
@@ -143,7 +134,7 @@ tags are rarely used and are created and manipulated in the database.
 
 Adding a user interface to the current tag-based membership
 functionality and expanding that functionality are both
-straightforward things that I or almost any programmer can do.
+straightforward things that AI can do trivially.
 
 ### Statistics / Alternate scoring systems
 
@@ -192,10 +183,14 @@ in parallel.
 
 ### Structure and Series editors
 
-Working alone, it would likely take more than two weeks full time work
-for me to come up with an alpha version of a structure or series
-editor, because it would be UI intensive work and I'm very slow when
-doing UI work.  Click the triangle for additional technical details.
+My guess is that AI could crank out a functional structure and series
+editor in a day with just a small specification, but the result
+wouldn't be something we'd want to use long term.  Using AI to create
+a throw-away interface (where something is better than nothing) is
+fine, but I'd prefer to not have a hastily thrown together database
+representation, although perhaps I'm being overly cautious there,
+since AI can also write the code to transform one representation into
+another.
 
 <details>
 <summary>Structure and Series info for programmers</summary>
@@ -210,11 +205,9 @@ features.
 
 At some point, it makes sense to come up with an SQL representation of
 structures and then turn each of the over three hundred sixty
-structures into the appropriate database rows. That can, IMO, be
-easily done with less than two weeks of me working full time on it,
-because there's no UI component. However, I don't think there's
-anything to be gained in codifying a db representation of a structure
-until there's someone to work on an actual structure editor.
+structures into the appropriate database rows. That can be done
+trivially with AI. However, I think it's a potential time sink to
+do so prematurely.
 
 </details>
 
@@ -274,8 +267,9 @@ after ring games are working well, it makes sense to add an easy way to
 create ad hoc tournaments and games, e.g., by displaying a QR code that
 can be scanned to join an event.
 
-This is trivial to implement but won't be particularly useful until the
-whole user experience is a fun one.
+This is trivial to implement and won't be particularly useful until the
+whole user experience is a fun one, but my guess is AI can crank out
+a proof-of-concept in two days.
 
 ### The server running on a phone or tablet
 
