@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-b29e86a8.js";
+            window.path_to_searchindex_js = "searchindex-518ea8c4.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-2b37af10.js"></script>
@@ -3005,17 +3005,20 @@ dealt is a mix called RESORTS:</p>
 </div>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="native-apps"><a class="header" href="#native-apps">Native Apps</a></h1>
-<p>Experimental native apps are built and made available via Google Drive
-to people who want to try them out. Native Apps are just one feature
-<a href="#coming-soon">Coming “Soon”</a>, but they have enough caveats that
-they get this, their own, section in this manual.</p>
+<p>Experimental native apps are built and made available on GitHub at:</p>
+<ul>
+<li><a href="https://github.com/ctm/mb2-doc/releases/latest">https://github.com/ctm/mb2-doc/releases/latest</a></li>
+</ul>
+<p>Native Apps are just one feature <a href="#coming-soon">Coming “Soon”</a>, but
+they have enough caveats that they get this, their own, section in
+this manual.</p>
 <p>All the native Mb2 apps have been made using
 <a href="https://v2.tauri.app/">Tauri</a>.</p>
 <p>There’s a lot of jargon on this page which you may not understand.  If
-that’s an impediment, you probably want to wait before using the
-native apps. <em>Currently</em>, they truly are for <del>guinea pigs</del> very
-early adopters. As time goes on, they’ll get easier to install and use
-and eventually appear in app stores.</p>
+that’s an impediment, you should wait before using the native
+apps. <em>Currently</em>, they truly are for <del>guinea pigs</del> very early
+adopters. As time goes on, they’ll get easier to install and use and
+eventually appear in app stores.</p>
 <p>As a proof-of-concept and to make using native Mb2 more pleasant, the
 first native-only feature I’ve added is the ability of Mb2 to securely
 store the nickname and password between sessions, using Face ID on an
@@ -3026,13 +3029,13 @@ Plugin</a>. Unfortunately,
 the macOS implementation <a href="https://github.com/ctm/mb2-doc/issues/1833">isn’t currently
 working</a> for me, so YMMV.</p>
 <h2 id="caveats"><a class="header" href="#caveats">Caveats</a></h2>
-<h3 id="no-automatic-updater"><a class="header" href="#no-automatic-updater">No automatic updater</a></h3>
+<h3 id="no-automatic-updater"><a class="header" href="#no-automatic-updater"><a href="https://github.com/ctm/mb2-doc/issues/1869">No automatic updater</a></a></h3>
 <p>When the Mb2 server is updated, the web client automatically updates
-at the same time. The Native Apps on Google Drive are also updated,
-however, there is nothing that tells the old version that you need to
+at the same time. The Native Apps at GitHub are also updated,
+but there is nothing that tells the old version that you need to
 update, much less an automatic updater. That means a server update
 that is not backwardly compatible will silently break the native apps.
-I’ll add detection first and automatic upates after, but I’m currently
+I’ll add detection first and automatic updates after, but I’m currently
 not making many server changes, because I’m concentrating on
 documenting what I have already done and looking for users and
 investors.</p>
@@ -3060,44 +3063,31 @@ you supply me with your UDID.</p>
 for arm, x86 and x86_64. You’re welcome to try them, but I haven’t.</p>
 <h3 id="no-linux"><a class="header" href="#no-linux">No Linux</a></h3>
 <p>I’m a big fan of Linux. I first installed it from floppies.  My old
-email address <a href="mailto:ctm@ardi.com">ctm@ardi.com</a> is in the Linux
-kernel but only for miniscopically small changes (<a href="https://www.google.com/search?q=ctm%40ardi.com+in+linux+kernel">greatly exaggerated
-by Google’s
-AI</a><sup class="footnote-reference" id="fr-1-1-7"><a href="#footnote-1-7">1</a></sup>). However,
-I do not have any experience with modern Linux GUI apps.  Tauri can, however,
-build Linux apps, so if there’s interest, I may give it a try.</p>
-<h2 id="the-links"><a class="header" href="#the-links">The Links</a></h2>
-<p>These are the latest builds. Older versions may not work, nor are they
-guaranteed to be archived anywhere, but for now there’s a chance
-you’ll find them in <a href="https://github.com/ctm/mb2-doc/releases">GitHub</a>,
-which is a temporary place to hold multiple releases while I work on
-getting an automatic update working.</p>
+email address <a href="mailto:ctm@ardi.com">ctm@ardi.com</a> was <a href="https://www.google.com/search?q=ctm%40ardi.com+in+linux+kernel">in the Linux
+kernel</a>
+but only for microscopically small changes. However, I do not have any
+experience with modern Linux GUI apps.  Tauri can build Linux apps, so
+<em>eventually</em> there will be a Linux builds.</p>
+<h2 id="the-filenames"><a class="header" href="#the-filenames">The Filenames</a></h2>
+<p>The latest builds are at <a href="https://github.com/ctm/mb2-doc/releases/latest">https://github.com/ctm/mb2-doc/releases/latest</a></p>
+<p>Older versions may not work.</p>
 <div class="table-wrapper">
 <table>
 <thead>
-<tr><th>OS</th><th>Arch</th><th>Download</th></tr>
+<tr><th>OS</th><th>Arch</th><th>Filename</th></tr>
 </thead>
 <tbody>
-<tr><td>iOS</td><td>arm64</td><td><a href="https://drive.google.com/open?id=1Rkyy7JQ1TuIi68r3UCZoZ346UKtNlQxF&amp;usp=drive_fs">Mb2.ipa</a></td></tr>
-<tr><td>macOS</td><td>arm64</td><td><a href="https://drive.google.com/file/d/17nPdvdEKTelm5w4iw55NhS8pacxuzOs5/view?usp=sharing">MB2_aarch64.dmg</a></td></tr>
-<tr><td>Windows</td><td>x86_64</td><td><a href="https://drive.google.com/file/d/1X8c54u3z1SlC2qB6qp69956ZB3hIm9-N/view?usp=sharing">Mb2_x64-setup.exe</a></td></tr>
-<tr><td>Windows</td><td>x86_64</td><td><a href="https://drive.google.com/file/d/1RMCY_Kl6rquYdFPpzEVifA_iqXDwxUgs/view?usp=sharing">Mb2_x64_en-US.msi</a></td></tr>
-<tr><td>Android</td><td>arm64</td><td><a href="https://drive.google.com/open?id=1RKaNJR9g5DXE3kXAIWQJhtaP_Plszrm1&amp;usp=drive_fs">app-arm64-release.apk</a></td></tr>
-<tr><td>Android</td><td>arm</td><td><a href="https://drive.google.com/file/d/1fx5zHAuJgGjXVIHY4YEmZI0sgvMeuo7n/view?usp=sharing">app-arm-release.apk</a></td></tr>
-<tr><td>Android</td><td>x86_64</td><td><a href="https://drive.google.com/open?id=1EMyfh46Vs-dNjQt4q_HFhaWkb7uscQhZ&amp;usp=drive_fs">app-x86_64-release.apk</a></td></tr>
-<tr><td>Android</td><td>x86</td><td><a href="https://drive.google.com/file/d/1lF3PBkouyzlm1PGIkhv3_WN5c1sqX9EV/view?usp=sharing">app-x86-release.apk</a></td></tr>
+<tr><td>iOS</td><td>arm64</td><td>Mb2.ipa</td></tr>
+<tr><td>macOS</td><td>arm64</td><td>MB2_aarch64.dmg</td></tr>
+<tr><td>Windows</td><td>x86_64</td><td>Mb2_x64-setup.exe</td></tr>
+<tr><td>Windows</td><td>x86_64</td><td>Mb2_x64_en-US.msi</td></tr>
+<tr><td>Android</td><td>arm64</td><td>app-arm64-release.apk</td></tr>
+<tr><td>Android</td><td>arm</td><td>app-arm-release.apk</td></tr>
+<tr><td>Android</td><td>x86_64</td><td>app-x86_64-release.apk</td></tr>
+<tr><td>Android</td><td>x86</td><td>app-x86-release.apk</td></tr>
 </tbody>
 </table>
 </div>
-<hr>
-<ol class="footnote-definition">
-<li id="footnote-1-7">
-<p>Google links are a crapshoot, so I really don’t know what you’ll get if
-you follow this link. At the time I wrote this, it says I “… was an active contributor to the early Linux kernel.”  IIRC, I contributed two amazingly small
-patches, one being a trivial refactorization so two different drivers could
-share some functionality and the other was just an entry in a table. <a href="#fr-1-1-7">↩</a></p>
-</li>
-</ol>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="esoterica"><a class="header" href="#esoterica">Esoterica</a></h1>
 <p><a href="https://www.pbs.org/newshour/science/8-things-didnt-know-alan-turing">Alan
@@ -3259,7 +3249,7 @@ structures in these sheets are implemented in mb2.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="barge-unified-tournament-payouts"><a class="header" href="#barge-unified-tournament-payouts">BARGE Unified Tournament Payouts</a></h1>
 <p>Currently all tournaments with a buy-in pay out via the <a href="barge/Unified_BARGE_payouts.pdf">BARGE Unified
-Payout Schedule</a><sup class="footnote-reference" id="fr-1-1-8"><a href="#footnote-1-8">1</a></sup>.</p>
+Payout Schedule</a><sup class="footnote-reference" id="fr-1-1-7"><a href="#footnote-1-7">1</a></sup>.</p>
 <p>During play-testing, <em>most</em> tournaments have an <a href="#fun-money">FM</a> 100 buy-in and have twenty-four or fewer players.</p>
 <div class="table-wrapper">
 <table>
@@ -3294,14 +3284,14 @@ and second place FM 219.  Also seven FM 25 bounties are awarded.</p>
 </ul>
 <hr>
 <ol class="footnote-definition">
-<li id="footnote-1-8">
+<li id="footnote-1-7">
 <p>In 2024 the BARGE Unified Payout Schedule was updated, but
 somehow the one that is on the site as of January 25th, 2026 is the
 old payout table.  The current payout table can be <a href="https://omaholic.com/2026_EMBARGO_Structures.pdf#page=7">found in the
 EMBARGO 2026 structure
 sheets</a>.  The
 current payout table for a five to eight entrant tournament pays only
-65% for first and 35% for second. <a href="#fr-1-1-8">↩</a></p>
+65% for first and 35% for second. <a href="#fr-1-1-7">↩</a></p>
 </li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -3856,7 +3846,7 @@ Crowdfunding Portal.</p>
 or CPC’s software be sold without conversion, the net of the sale is
 split in half, with one half going to the Series A Preferred
 Shareholders pro-rata and the other half going to the common stock
-shareholders pro-rata<sup class="footnote-reference" id="fr-1-1-9"><a href="#footnote-1-9">1</a></sup>.</p>
+shareholders pro-rata<sup class="footnote-reference" id="fr-1-1-8"><a href="#footnote-1-8">1</a></sup>.</p>
 <p>Conversion happens only if at least one million dollars is raised at a
 pre-investment valuation of ten million dollars ($10MM) or more, or if
 the sale price is itself ten million dollars or more.</p>
@@ -3909,11 +3899,11 @@ as well as a <a href="craft-poker-co/series-a-preferred-stock-purchase-agreement
 lacks</a>.</p>
 <hr>
 <ol class="footnote-definition">
-<li id="footnote-1-9">
+<li id="footnote-1-8">
 <p>Another way of saying that is that Cliff gets
 half of the proceeds and the other half is split amongst the Series A
 Preferred Shareholders. The liquidity preference, along with many other
-terms are provided in the <a href="craft-poker-co/series-a-preferred-stock-purchase-agreement.pdf">Series A Preferred Stock Purchase Agreement</a>. <a href="#fr-1-1-9">↩</a></p>
+terms are provided in the <a href="craft-poker-co/series-a-preferred-stock-purchase-agreement.pdf">Series A Preferred Stock Purchase Agreement</a>. <a href="#fr-1-1-8">↩</a></p>
 </li>
 <li id="footnote-2-3">
 <p>The figure here assumes all 1,420 Series A Preferred Shares have
@@ -3941,7 +3931,7 @@ sold would be higher. <a href="#fr-2-1-3">↩</a></p>
 <li>Administrators will be able to create their own tournament structures (starting chips, levels, blinds, breaks)</li>
 <li>Paying members will also have more/better history &amp; statistics (this one is a bit hand-wavy, but, as an example, it may be that free players can only request hand histories from the last 24 hours, while paying members can request all their hand histories, etc.)</li>
 <li>No other fees, no upselling, no buying of play chips</li>
-<li>“No”<sup class="footnote-reference" id="fr-1-1-10"><a href="#footnote-1-10">1</a></sup> dark patterns
+<li>“No”<sup class="footnote-reference" id="fr-1-1-9"><a href="#footnote-1-9">1</a></sup> dark patterns
 <ul>
 <li>No collection of unnecessary user data</li>
 <li>No selling, trading or sharing of user data</li>
@@ -3954,11 +3944,11 @@ sold would be higher. <a href="#fr-2-1-3">↩</a></p>
 </ul>
 <hr>
 <ol class="footnote-definition">
-<li id="footnote-1-10">
+<li id="footnote-1-9">
 <p>This requires rewording, because one could make a good argument
 that closed source itself is a dark pattern. Similarly, the artificial
 scarcity of low user-ids could be seen as a dark pattern rather than
-simply a way to reward early adopters. <a href="#fr-1-1-10">↩</a></p>
+simply a way to reward early adopters. <a href="#fr-1-1-9">↩</a></p>
 </li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -4017,7 +4007,7 @@ Agreement</a> from our business
 attorney.  Unfortunately, I was a bit tired (and unbeknownst to me
 at the time, slightly sick) when I received it, so I didn’t make it
 immediately available.  Turns out, I had covid, which I gave to my
-ninety-two year old mother and that caused a lot of problems<sup class="footnote-reference" id="fr-1-1-11"><a href="#footnote-1-11">1</a></sup>.</p>
+ninety-two year old mother and that caused a lot of problems<sup class="footnote-reference" id="fr-1-1-10"><a href="#footnote-1-10">1</a></sup>.</p>
 <details>
 <summary>Mom's Status (slipping into dementia)</summary>
 <p>Physically, mom is completely recovered from covid as you can see by
@@ -4107,13 +4097,13 @@ when I’m caffeinated AF.</p>
 <hr />
 <hr>
 <ol class="footnote-definition">
-<li id="footnote-1-11">
+<li id="footnote-1-10">
 <p>Covid is a complicated subject and writing a status report that
 provides “the right” amount of information is not something I can do
 quickly (or perhaps at all).  I’m acutely aware that “caused a lot of
 problems” sounds flip if not actually callous, but I want my opening
 paragraph to summarize the reason for the delay as well as to not hide
-challenges. <a href="#fr-1-1-11">↩</a></p>
+challenges. <a href="#fr-1-1-10">↩</a></p>
 </li>
 <li id="footnote-2-4">
 <p>I’d rather document my lack of judgment and foresight than to
@@ -4210,7 +4200,7 @@ trial end error, but we’ve reached what I think is a great
 equilibrium, considering the constraints.  Other than my teeth, I’ve
 been exceedingly healthy the entire time. It’s now been over two
 months since there have been any mom or mom’s house surprises and a
-about two months since I had my upper six front teeth pulled<sup class="footnote-reference" id="fr-1-1-12"><a href="#footnote-1-12">2</a></sup>.</p>
+about two months since I had my upper six front teeth pulled<sup class="footnote-reference" id="fr-1-1-11"><a href="#footnote-1-11">2</a></sup>.</p>
 <h2 id="just-add-money-and-thus-time"><a class="header" href="#just-add-money-and-thus-time">“Just” Add Money (<em>and thus, Time</em>!)</a></h2>
 <p>I need money. I don’t need your money. I don’t need BARGErs’ money,
 but I do need money. I need to pay monthly bills, but I’d also like to
@@ -4371,13 +4361,13 @@ difference in price. That wouldn’t bother me, because I’ve received
 more in value just from people’s willingness to invest last year than
 I’d be paying in this hypothetical scenario. <a href="#fr-2-1-5">↩</a></p>
 </li>
-<li id="footnote-1-12">
+<li id="footnote-1-11">
 <p>Basically the five teeth I broke or chipped back in my 2017
 [bike
 accident](https://github.com/ctm/Bataan-Memorial-Death-March/blob/master/2017.md
 #bike-accident)
 eventually fell prey to further neglect, as did an adjacent tooth
-which may also have taken damage that day. <a href="#fr-1-1-12">↩</a></p>
+which may also have taken damage that day. <a href="#fr-1-1-11">↩</a></p>
 </li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -4418,7 +4408,7 @@ clifford.t.matthews@gmail.com</p>
 <p>Some people drink and have fun, and there are a number of running events where alcohol plays a role…. It’s how many four mile laps you can do in twenty-four hours, drinking a beer each time… Peter Livingstone used to hold the course record in the beer division. But, of course, I had to take it away from him.</p>
 </blockquote>
 <p>In other news, I’m <a href="#2025-12-4-status-report">ridiculously broke</a>, but <a href="https://www.strava.com/athletes/137430788">my mom</a> is amazingly healthy. Once again, <a href="https://github.com/ctm/Bataan-Memorial-Death-March/blob/master/2026.md#im-committed">I plan to compete</a> in the Bataan Memorial Death March and I got exceedingly lucky and will be <a href="https://ultrasignup.com/entrants_event.aspx?did=129750">attempting</a> to “run” the <a href="https://www.youtube.com/watch?v=P5e7pr2Z6ZU&amp;t=219s">Hardrock 100</a>.</p>
-<p>At this point, anyone who has read so far may be asking “If you’re so broke, shouldn’t you forego all the running and take better care of your company?” That’s a great question and one that I’ve asked myself several times (almost exclusively when I’ve been tired; I rarely ask that when I’m awake). My answer is that I’ve definitely backed off on my running significantly and perhaps I should do so more, but I got into trouble when I did so last time. This letter is far too long already, so I’ve added a little more info below my signature<sup class="footnote-reference" id="fr-1-1-13"><a href="#footnote-1-13">1</a></sup>.</p>
+<p>At this point, anyone who has read so far may be asking “If you’re so broke, shouldn’t you forego all the running and take better care of your company?” That’s a great question and one that I’ve asked myself several times (almost exclusively when I’ve been tired; I rarely ask that when I’m awake). My answer is that I’ve definitely backed off on my running significantly and perhaps I should do so more, but I got into trouble when I did so last time. This letter is far too long already, so I’ve added a little more info below my signature<sup class="footnote-reference" id="fr-1-1-12"><a href="#footnote-1-12">1</a></sup>.</p>
 <p>For what it’s worth, since mid November I’ve been in my “training for the Bataan Memorial Death March” training block and it’s going significantly better than last year (and I <a href="https://bataanmemorialdeathmarch.itsyourrace.com/Results.aspx?id=6574&amp;y=2025&amp;eid=129812&amp;g=A&amp;undefined">came in 3rd last year</a>). At a very high level, I’ve applied to mom much of what I do to squeak performance out of myself. It’s worked a treat.</p>
 <p>There are currently twelve members of the <a href="https://www.strava.com/clubs/668369">BARGE Strava group</a>, including mom. If two more join, I’ll finally add a logo and picture, although to be fair, I’ll probably do that regardless. However, it’s free to join and not only can you see some BARGE “faces” (some of us post selfies), you can also meet Albie, the roadrunner <a href="https://www.strava.com/athletes/58696205">mom and I have befriended</a> (if you’re logged into Strava, that’s a video of Albie eating out of my hand).</p>
 <p>Whatever you do, don’t let winter get you down or hold you back.</p>
@@ -4430,10 +4420,10 @@ Founder, Craft Poker Co.<br />
 <a href="mailto:clifford.t.matthews@gmail.com">clifford.t.matthews@gmail.com</a><br /></p>
 <hr>
 <ol class="footnote-definition">
-<li id="footnote-1-13">
+<li id="footnote-1-12">
 <p>I have battled sleep problems since I was a pre-teen. I had mixed (i.e. both central-nervous-system as well as obstructive) sleep apnea for more than half my life. It--IMO--almost killed me. It certainly contributed to the death of my first company (where we did some Macintosh emulation that was impressive at least to <a href="https://ctm.github.io/docs/yld/programming/blown/steve-jobs.html">some people</a>). Eventually, I had three surgeries to correct the obstructive portion, but I’m still an amazingly light sleeper in the best of circumstances and--perhaps because I suck at it--founding a poker company is stressful.</p>
 <p>Empirically, I’ve found that I gain productivity by running. When I cut back on my running due to the amount of time I was spending with mom, on the mistaken assumption that there are only so many hours in a day and that I’d get more done if I spent less time running, I slept much worse and I believe I got a lot less done. When I added running back in, it was tricky because at first the running was making me tired because my body was no longer used to running and to make matters worse, I then injured myself, due to my body not being used to the stress. Eventually, I returned to what I consider a great balance between time lost running and productivity gained by running. During all my experimentation on myself, however, I was making mom healthier and improving her cognition and memory.</p>
-<p>FWIW, I’m not suggesting that others should run to gain productivity, nor am I painting myself as virtuous for doing so. I’m flawed to require as much activity as I appear to require, but it’s kind of like breeds of dogs: some of them <em>really</em> need their exercise. <a href="#fr-1-1-13">↩</a></p>
+<p>FWIW, I’m not suggesting that others should run to gain productivity, nor am I painting myself as virtuous for doing so. I’m flawed to require as much activity as I appear to require, but it’s kind of like breeds of dogs: some of them <em>really</em> need their exercise. <a href="#fr-1-1-12">↩</a></p>
 </li>
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>

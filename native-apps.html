@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-b29e86a8.js";
+            window.path_to_searchindex_js = "searchindex-518ea8c4.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-2b37af10.js"></script>
@@ -175,17 +175,20 @@
                 <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="native-apps"><a class="header" href="#native-apps">Native Apps</a></h1>
-<p>Experimental native apps are built and made available via Google Drive
-to people who want to try them out. Native Apps are just one feature
-<a href="coming-soon.html">Coming “Soon”</a>, but they have enough caveats that
-they get this, their own, section in this manual.</p>
+<p>Experimental native apps are built and made available on GitHub at:</p>
+<ul>
+<li><a href="https://github.com/ctm/mb2-doc/releases/latest">https://github.com/ctm/mb2-doc/releases/latest</a></li>
+</ul>
+<p>Native Apps are just one feature <a href="coming-soon.html">Coming “Soon”</a>, but
+they have enough caveats that they get this, their own, section in
+this manual.</p>
 <p>All the native Mb2 apps have been made using
 <a href="https://v2.tauri.app/">Tauri</a>.</p>
 <p>There’s a lot of jargon on this page which you may not understand.  If
-that’s an impediment, you probably want to wait before using the
-native apps. <em>Currently</em>, they truly are for <del>guinea pigs</del> very
-early adopters. As time goes on, they’ll get easier to install and use
-and eventually appear in app stores.</p>
+that’s an impediment, you should wait before using the native
+apps. <em>Currently</em>, they truly are for <del>guinea pigs</del> very early
+adopters. As time goes on, they’ll get easier to install and use and
+eventually appear in app stores.</p>
 <p>As a proof-of-concept and to make using native Mb2 more pleasant, the
 first native-only feature I’ve added is the ability of Mb2 to securely
 store the nickname and password between sessions, using Face ID on an
@@ -196,13 +199,13 @@ Plugin</a>. Unfortunately,
 the macOS implementation <a href="https://github.com/ctm/mb2-doc/issues/1833">isn’t currently
 working</a> for me, so YMMV.</p>
 <h2 id="caveats"><a class="header" href="#caveats">Caveats</a></h2>
-<h3 id="no-automatic-updater"><a class="header" href="#no-automatic-updater">No automatic updater</a></h3>
+<h3 id="no-automatic-updater"><a class="header" href="#no-automatic-updater"><a href="https://github.com/ctm/mb2-doc/issues/1869">No automatic updater</a></a></h3>
 <p>When the Mb2 server is updated, the web client automatically updates
-at the same time. The Native Apps on Google Drive are also updated,
-however, there is nothing that tells the old version that you need to
+at the same time. The Native Apps at GitHub are also updated,
+but there is nothing that tells the old version that you need to
 update, much less an automatic updater. That means a server update
 that is not backwardly compatible will silently break the native apps.
-I’ll add detection first and automatic upates after, but I’m currently
+I’ll add detection first and automatic updates after, but I’m currently
 not making many server changes, because I’m concentrating on
 documenting what I have already done and looking for users and
 investors.</p>
@@ -230,44 +233,31 @@ you supply me with your UDID.</p>
 for arm, x86 and x86_64. You’re welcome to try them, but I haven’t.</p>
 <h3 id="no-linux"><a class="header" href="#no-linux">No Linux</a></h3>
 <p>I’m a big fan of Linux. I first installed it from floppies.  My old
-email address <a href="mailto:ctm@ardi.com">ctm@ardi.com</a> is in the Linux
-kernel but only for miniscopically small changes (<a href="https://www.google.com/search?q=ctm%40ardi.com+in+linux+kernel">greatly exaggerated
-by Google’s
-AI</a><sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>). However,
-I do not have any experience with modern Linux GUI apps.  Tauri can, however,
-build Linux apps, so if there’s interest, I may give it a try.</p>
-<h2 id="the-links"><a class="header" href="#the-links">The Links</a></h2>
-<p>These are the latest builds. Older versions may not work, nor are they
-guaranteed to be archived anywhere, but for now there’s a chance
-you’ll find them in <a href="https://github.com/ctm/mb2-doc/releases">GitHub</a>,
-which is a temporary place to hold multiple releases while I work on
-getting an automatic update working.</p>
+email address <a href="mailto:ctm@ardi.com">ctm@ardi.com</a> was <a href="https://www.google.com/search?q=ctm%40ardi.com+in+linux+kernel">in the Linux
+kernel</a>
+but only for microscopically small changes. However, I do not have any
+experience with modern Linux GUI apps.  Tauri can build Linux apps, so
+<em>eventually</em> there will be a Linux builds.</p>
+<h2 id="the-filenames"><a class="header" href="#the-filenames">The Filenames</a></h2>
+<p>The latest builds are at <a href="https://github.com/ctm/mb2-doc/releases/latest">https://github.com/ctm/mb2-doc/releases/latest</a></p>
+<p>Older versions may not work.</p>
 <div class="table-wrapper">
 <table>
 <thead>
-<tr><th>OS</th><th>Arch</th><th>Download</th></tr>
+<tr><th>OS</th><th>Arch</th><th>Filename</th></tr>
 </thead>
 <tbody>
-<tr><td>iOS</td><td>arm64</td><td><a href="https://drive.google.com/open?id=1Rkyy7JQ1TuIi68r3UCZoZ346UKtNlQxF&amp;usp=drive_fs">Mb2.ipa</a></td></tr>
-<tr><td>macOS</td><td>arm64</td><td><a href="https://drive.google.com/file/d/17nPdvdEKTelm5w4iw55NhS8pacxuzOs5/view?usp=sharing">MB2_aarch64.dmg</a></td></tr>
-<tr><td>Windows</td><td>x86_64</td><td><a href="https://drive.google.com/file/d/1X8c54u3z1SlC2qB6qp69956ZB3hIm9-N/view?usp=sharing">Mb2_x64-setup.exe</a></td></tr>
-<tr><td>Windows</td><td>x86_64</td><td><a href="https://drive.google.com/file/d/1RMCY_Kl6rquYdFPpzEVifA_iqXDwxUgs/view?usp=sharing">Mb2_x64_en-US.msi</a></td></tr>
-<tr><td>Android</td><td>arm64</td><td><a href="https://drive.google.com/open?id=1RKaNJR9g5DXE3kXAIWQJhtaP_Plszrm1&amp;usp=drive_fs">app-arm64-release.apk</a></td></tr>
-<tr><td>Android</td><td>arm</td><td><a href="https://drive.google.com/file/d/1fx5zHAuJgGjXVIHY4YEmZI0sgvMeuo7n/view?usp=sharing">app-arm-release.apk</a></td></tr>
-<tr><td>Android</td><td>x86_64</td><td><a href="https://drive.google.com/open?id=1EMyfh46Vs-dNjQt4q_HFhaWkb7uscQhZ&amp;usp=drive_fs">app-x86_64-release.apk</a></td></tr>
-<tr><td>Android</td><td>x86</td><td><a href="https://drive.google.com/file/d/1lF3PBkouyzlm1PGIkhv3_WN5c1sqX9EV/view?usp=sharing">app-x86-release.apk</a></td></tr>
+<tr><td>iOS</td><td>arm64</td><td>Mb2.ipa</td></tr>
+<tr><td>macOS</td><td>arm64</td><td>MB2_aarch64.dmg</td></tr>
+<tr><td>Windows</td><td>x86_64</td><td>Mb2_x64-setup.exe</td></tr>
+<tr><td>Windows</td><td>x86_64</td><td>Mb2_x64_en-US.msi</td></tr>
+<tr><td>Android</td><td>arm64</td><td>app-arm64-release.apk</td></tr>
+<tr><td>Android</td><td>arm</td><td>app-arm-release.apk</td></tr>
+<tr><td>Android</td><td>x86_64</td><td>app-x86_64-release.apk</td></tr>
+<tr><td>Android</td><td>x86</td><td>app-x86-release.apk</td></tr>
 </tbody>
 </table>
 </div>
-<hr>
-<ol class="footnote-definition">
-<li id="footnote-1">
-<p>Google links are a crapshoot, so I really don’t know what you’ll get if
-you follow this link. At the time I wrote this, it says I “… was an active contributor to the early Linux kernel.”  IIRC, I contributed two amazingly small
-patches, one being a trivial refactorization so two different drivers could
-share some functionality and the other was just an entry in a table. <a href="#fr-1-1">↩</a></p>
-</li>
-</ol>
 
                     </main>
 
