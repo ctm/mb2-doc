@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-518ea8c4.js";
+            window.path_to_searchindex_js = "searchindex-d7616ee3.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-2b37af10.js"></script>
@@ -2697,7 +2697,7 @@ turns to an I-beam for emojis with a Unicode representation (e.g.,
 </ol>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="games"><a class="header" href="#games">Games</a></h1>
-<p>Mb2 can deal seventy-six named variations of poker and a ridiculous
+<p>Mb2 can deal seventy-nine named variations of poker and a ridiculous
 number of variants thereof. This includes common ones like Texas
 Hold’em, Omaha and Seven Card Stud as well as lesser known games like
 Badugi, Courchevel and Big O.</p>
@@ -2709,8 +2709,8 @@ Pineapple</a>,
 Choice</a> and <a href="#dealers-die">Dealer’s
 Die</a>.</p>
 <p>At the time of this writing, the precise number of <em>named</em> games is
-seventy-six. That number comes from the source code to mb2:</p>
-<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 76]&gt; = LazyLock::new(|| {
+seventy-nine. That number comes from the source code to mb2:</p>
+<pre><code>pub static GAMES: LazyLock&lt;[GameInfo; 79]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -2724,6 +2724,7 @@ seventy-six. That number comes from the source code to mb2:</p>
         REGULAR_PINE.done(),
         REGULAR_PINE_8.done(),
         RIO_BRAVO.done(),
+        ATOMIC_PINE.done(),
         HOLD_EM_CRAYFISH.done(),
         GREEK_HOLD_EM.done(),
         // Omahas
@@ -2740,8 +2741,8 @@ seventy-six. That number comes from the source code to mb2:</p>
         DRAMAHA_3D.done(),
 ...
 </code></pre>
-<p>The 76 shows that we’re populating the <code>GAMES</code> constant with
-seventy-six elements, but it’s counting—for
+<p>The 79 shows that we’re populating the <code>GAMES</code> constant with
+seventy-nine elements, but it’s counting—for
 example—<code>Hold'em</code> and <code>Hold'em High/Low with an Eight Qualifier</code>
 as two separate games.</p>
 <p>It’s also making the distinction between <code>Crazy Pineapple</code> and <code>Lazy Pineapple</code>, yet collectively those <em>two</em> games count as <em>three</em> (and
@@ -2753,7 +2754,7 @@ internal names for.</p>
 <details>
 <summary>Code that initializes the GAMES constant</summary>
 <pre>
-pub static GAMES: LazyLock&lt;[GameInfo; 76]&gt; = LazyLock::new(|| {
+pub static GAMES: LazyLock&lt;[GameInfo; 79]&gt; = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -2767,6 +2768,7 @@ pub static GAMES: LazyLock&lt;[GameInfo; 76]&gt; = LazyLock::new(|| {
         REGULAR_PINE.done(),
         REGULAR_PINE_8.done(),
         RIO_BRAVO.done(),
+        ATOMIC_PINE.done(),
         HOLD_EM_CRAYFISH.done(),
         GREEK_HOLD_EM.done(),
         // Omahas
@@ -2816,6 +2818,7 @@ pub static GAMES: LazyLock&lt;[GameInfo; 76]&gt; = LazyLock::new(|| {
         KOREAN.done(),
         DUCK_FLUSH.done(),
         QUICK_QUADS_3D.done(),
+        FIVE_CARD_3D.done(),
         DEUCE_TO_SEVEN_2D.done(),
         // Mississippi Studs
         MISS_STUD.done(),
@@ -2846,6 +2849,7 @@ pub static GAMES: LazyLock&lt;[GameInfo; 76]&gt; = LazyLock::new(|| {
         DEALERS_CHOICE.done(),
         DEALERS_DIE.done(),
         PICK_YOUR_PLO.done(),
+        TRIPLE_DRAW_DEALERS_CHOICE.done(),
     ]
 });
 </pre>
@@ -2857,7 +2861,7 @@ represents the most popular combinations of core games with
 options. There is no requirement for a combination of a core game and
 options to be present in <code>GAMES</code> for that combination to be used in a
 tournament structure or ring game, so mb2 is already dealing well more
-than seventy-six different variants, but some of the differences are so
+than seventy-nine different variants, but some of the differences are so
 small that it’s hard to argue they’re different games.</p>
 <p>Here are the core games, with up to three
 examples of each.  This table demonstrates the flexibility
