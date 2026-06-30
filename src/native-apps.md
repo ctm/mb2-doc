@@ -1,18 +1,21 @@
 # Native Apps
 
-Experimental native apps are built and made available via Google Drive
-to people who want to try them out. Native Apps are just one feature
-[Coming "Soon"](coming-soon.md), but they have enough caveats that
-they get this, their own, section in this manual.
+Experimental native apps are built and made available on GitHub at:
+
+* [https://github.com/ctm/mb2-doc/releases/latest](https://github.com/ctm/mb2-doc/releases/latest)
+
+Native Apps are just one feature [Coming "Soon"](coming-soon.md), but
+they have enough caveats that they get this, their own, section in
+this manual.
 
 All the native Mb2 apps have been made using
 [Tauri](https://v2.tauri.app/).
 
 There's a lot of jargon on this page which you may not understand.  If
-that's an impediment, you probably want to wait before using the
-native apps. _Currently_, they truly are for ~~guinea pigs~~ very
-early adopters. As time goes on, they'll get easier to install and use
-and eventually appear in app stores.
+that's an impediment, you should wait before using the native
+apps. _Currently_, they truly are for ~~guinea pigs~~ very early
+adopters. As time goes on, they'll get easier to install and use and
+eventually appear in app stores.
 
 As a proof-of-concept and to make using native Mb2 more pleasant, the
 first native-only feature I've added is the ability of Mb2 to securely
@@ -26,14 +29,14 @@ working](https://github.com/ctm/mb2-doc/issues/1833) for me, so YMMV.
 
 ## Caveats
 
-### No automatic updater
+### [No automatic updater](https://github.com/ctm/mb2-doc/issues/1869)
 
 When the Mb2 server is updated, the web client automatically updates
-at the same time. The Native Apps on Google Drive are also updated,
-however, there is nothing that tells the old version that you need to
+at the same time. The Native Apps at GitHub are also updated,
+but there is nothing that tells the old version that you need to
 update, much less an automatic updater. That means a server update
 that is not backwardly compatible will silently break the native apps.
-I'll add detection first and automatic upates after, but I'm currently
+I'll add detection first and automatic updates after, but I'm currently
 not making many server changes, because I'm concentrating on
 documenting what I have already done and looking for users and
 investors.
@@ -71,33 +74,25 @@ for arm, x86 and x86_64. You're welcome to try them, but I haven't.
 ### No Linux
 
 I'm a big fan of Linux. I first installed it from floppies.  My old
-email address [ctm@ardi.com](mailto:ctm@ardi.com) is in the Linux
-kernel but only for miniscopically small changes ([greatly exaggerated
-by Google's
-AI](https://www.google.com/search?q=ctm%40ardi.com+in+linux+kernel)[^1]). However,
-I do not have any experience with modern Linux GUI apps.  Tauri can, however,
-build Linux apps, so if there's interest, I may give it a try.
+email address [ctm@ardi.com](mailto:ctm@ardi.com) was [in the Linux
+kernel](https://www.google.com/search?q=ctm%40ardi.com+in+linux+kernel)
+but only for microscopically small changes. However, I do not have any
+experience with modern Linux GUI apps.  Tauri can build Linux apps, so
+_eventually_ there will be a Linux builds.
 
-## The Links
+## The Filenames
 
-These are the latest builds. Older versions may not work, nor are they
-guaranteed to be archived anywhere, but for now there's a chance
-you'll find them in [GitHub](https://github.com/ctm/mb2-doc/releases),
-which is a temporary place to hold multiple releases while I work on
-getting an automatic update working.
+The latest builds are at [https://github.com/ctm/mb2-doc/releases/latest](https://github.com/ctm/mb2-doc/releases/latest)
 
-|OS|Arch|Download|
+Older versions may not work.
+
+|OS|Arch|Filename|
 |--|----|--------|
-|iOS|arm64|[Mb2.ipa](https://drive.google.com/open?id=1Rkyy7JQ1TuIi68r3UCZoZ346UKtNlQxF&usp=drive_fs)|
-|macOS|arm64|[MB2_aarch64.dmg](https://drive.google.com/file/d/17nPdvdEKTelm5w4iw55NhS8pacxuzOs5/view?usp=sharing)|
-|Windows|x86_64|[Mb2_x64-setup.exe](https://drive.google.com/file/d/1X8c54u3z1SlC2qB6qp69956ZB3hIm9-N/view?usp=sharing)|
-|Windows|x86_64|[Mb2_x64_en-US.msi](https://drive.google.com/file/d/1RMCY_Kl6rquYdFPpzEVifA_iqXDwxUgs/view?usp=sharing)|
-|Android|arm64|[app-arm64-release.apk](https://drive.google.com/open?id=1RKaNJR9g5DXE3kXAIWQJhtaP_Plszrm1&usp=drive_fs)|
-|Android|arm|[app-arm-release.apk](https://drive.google.com/file/d/1fx5zHAuJgGjXVIHY4YEmZI0sgvMeuo7n/view?usp=sharing)|
-|Android|x86_64|[app-x86_64-release.apk](https://drive.google.com/open?id=1EMyfh46Vs-dNjQt4q_HFhaWkb7uscQhZ&usp=drive_fs)|
-|Android|x86|[app-x86-release.apk](https://drive.google.com/file/d/1lF3PBkouyzlm1PGIkhv3_WN5c1sqX9EV/view?usp=sharing)|
-
-[^1]: Google links are a crapshoot, so I really don't know what you'll get if
-you follow this link. At the time I wrote this, it says I "... was an active contributor to the early Linux kernel."  IIRC, I contributed two amazingly small
-patches, one being a trivial refactorization so two different drivers could
-share some functionality and the other was just an entry in a table.
+|iOS|arm64|Mb2.ipa|
+|macOS|arm64|MB2_aarch64.dmg|
+|Windows|x86_64|Mb2_x64-setup.exe|
+|Windows|x86_64|Mb2_x64_en-US.msi|
+|Android|arm64|app-arm64-release.apk|
+|Android|arm|app-arm-release.apk|
+|Android|x86_64|app-x86_64-release.apk|
+|Android|x86|app-x86-release.apk|
