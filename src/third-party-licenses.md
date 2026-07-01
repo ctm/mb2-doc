@@ -6338,7 +6338,7 @@ ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation a
 <h3 id="Zlib">zlib License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.4</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.5</a></li>
           </ul>
 <pre class="license-text">
 (C) 2024 Trifecta Tech Foundation 
