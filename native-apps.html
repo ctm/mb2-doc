@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-a8b2fafd.js";
+            window.path_to_searchindex_js = "searchindex-9ace93e8.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-2b37af10.js"></script>
@@ -184,32 +184,8 @@ they have enough caveats that they get this, their own, section in
 this manual.</p>
 <p>All the native Mb2 apps have been made using
 <a href="https://v2.tauri.app/">Tauri</a>.</p>
-<p>There’s a lot of jargon on this page which you may not understand.  If
-that’s an impediment, you should wait before using the native
-apps. <em>Currently</em>, they truly are for <del>guinea pigs</del> very early
-adopters. As time goes on, they’ll get easier to install and use and
-eventually appear in app stores.</p>
-<p>As a proof-of-concept and to make using native Mb2 more pleasant, the
-first native-only feature I’ve added is the ability of Mb2 to securely
-store the nickname and password between sessions, using Face ID on an
-iPhone or equivalent OS-supported secure storage (e.g., Keychain on
-macOS).  I did this using <a href="https://decentpaste.com/">DecentPaste</a>’s
-<a href="https://github.com/decentpaste/decentpaste/tree/main/decentpaste-app/tauri-plugin-decentsecret#tauri-plugin-decentsecret">DecentSecret Tauri
-Plugin</a>. Unfortunately,
-the macOS implementation <a href="https://github.com/ctm/mb2-doc/issues/1833">isn’t currently
-working</a> for me, so YMMV.</p>
 <h2 id="caveats"><a class="header" href="#caveats">Caveats</a></h2>
-<h3 id="no-automatic-updater"><a class="header" href="#no-automatic-updater"><a href="https://github.com/ctm/mb2-doc/issues/1869">No automatic updater</a></a></h3>
-<p>When the Mb2 server is updated, the web client automatically updates
-at the same time. The Native Apps at GitHub are also updated,
-but there is nothing that tells the old version that you need to
-update, much less an automatic updater. That means a server update
-that is not backwardly compatible will silently break the native apps.
-I’ll add detection first and automatic updates after, but I’m currently
-not making many server changes, because I’m concentrating on
-documenting what I have already done and looking for users and
-investors.</p>
-<h3 id="lobby---table-switching-is-sub-optimal"><a class="header" href="#lobby---table-switching-is-sub-optimal">Lobby &lt;-&gt; Table switching is “sub-optimal”</a></h3>
+<h3 id="lobby---table-switching-is-horrible-on-phones-and-tablets"><a class="header" href="#lobby---table-switching-is-horrible-on-phones-and-tablets">Lobby &lt;-&gt; Table switching is horrible on phones and tablets</a></h3>
 <p>The macOS and Windows native Mb2 clients use a separate window per
 table.  The iOS and Android Mb2 clients have little controls that
 allow the player to switch from any table to the lobby and from the
@@ -238,9 +214,17 @@ kernel</a>
 but only for microscopically small changes. However, I do not have any
 experience with modern Linux GUI apps.  Tauri can build Linux apps, so
 <em>eventually</em> there will be a Linux builds.</p>
+<h3 id="more"><a class="header" href="#more">More</a></h3>
+<p>There are several <a href="https://github.com/ctm/mb2-doc/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22Tauri%22">issues tagged as
+<code>Tauri</code></a>
+in Mb2’s issue tracker. I’m sure as more people use the native apps
+that the list will grow, but painful issues or popular requests will
+typically be fixed soonest. The issue tracker will typically have a
+lot of nits just so issues don’t completely fall through the cracks.</p>
 <h2 id="the-filenames"><a class="header" href="#the-filenames">The Filenames</a></h2>
 <p>The latest builds are at <a href="https://github.com/ctm/mb2-doc/releases/latest">https://github.com/ctm/mb2-doc/releases/latest</a></p>
-<p>Older versions may not work.</p>
+<p>Don’t run older versions. They probably won’t work and I’ll be
+deleting them soon.</p>
 <div class="table-wrapper">
 <table>
 <thead>
@@ -250,7 +234,6 @@ experience with modern Linux GUI apps.  Tauri can build Linux apps, so
 <tr><td>iOS</td><td>arm64</td><td>Mb2.ipa</td></tr>
 <tr><td>macOS</td><td>arm64</td><td>MB2_aarch64.dmg</td></tr>
 <tr><td>Windows</td><td>x86_64</td><td>Mb2_x64-setup.exe</td></tr>
-<tr><td>Windows</td><td>x86_64</td><td>Mb2_x64_en-US.msi</td></tr>
 <tr><td>Android</td><td>arm64</td><td>app-arm64-release.apk</td></tr>
 <tr><td>Android</td><td>arm</td><td>app-arm-release.apk</td></tr>
 <tr><td>Android</td><td>x86_64</td><td>app-x86_64-release.apk</td></tr>
