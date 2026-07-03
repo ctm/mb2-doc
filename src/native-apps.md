@@ -66,8 +66,8 @@ lot of nits just so issues don't completely fall through the cracks.
 
 The latest builds are at [https://github.com/ctm/mb2-doc/releases/latest](https://github.com/ctm/mb2-doc/releases/latest)
 
-Don't run older versions. They probably won't work and I'll be
-deleting them soon.
+There's no need to run older versions. They probably won't work and
+I'll be deleting them soon.
 
 |OS|Arch|Filename|
 |--|----|--------|
