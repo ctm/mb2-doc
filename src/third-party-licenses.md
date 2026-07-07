@@ -2801,7 +2801,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.52</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.53</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -3439,7 +3439,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.106</a></li>
             <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.46</a></li>
-            <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.22</a></li>
+            <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.23</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.28</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.228</a></li>
@@ -3927,7 +3927,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/crossbeam-rs/crossbeam ">crossbeam-utils 0.8.21</a></li>
+            <li><a href=" https://github.com/crossbeam-rs/crossbeam ">crossbeam-utils 0.8.22</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
