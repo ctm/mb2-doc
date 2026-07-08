@@ -3765,7 +3765,7 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.4</a></li>
-            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.2</a></li>
+            <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
 <pre class="license-text">
