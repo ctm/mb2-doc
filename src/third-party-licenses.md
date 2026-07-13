@@ -1085,9 +1085,9 @@ THE SOFTWARE.
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.14</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.15</a></li>
             <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.11</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex 1.12.4</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex 1.13.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 The Rust Project Developers
@@ -2740,7 +2740,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-random/rand ">rand 0.10.2</a></li>
-            <li><a href=" https://github.com/rust-random/rand ">rand 0.8.6</a></li>
+            <li><a href=" https://github.com/rust-random/rand ">rand 0.8.7</a></li>
             <li><a href=" https://github.com/rust-random/rand ">rand_core 0.6.4</a></li>
           </ul>
 <pre class="license-text">
@@ -3454,7 +3454,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.18</a></li>
             <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.24</a></li>
-            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.21</a></li>
+            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.22</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
@@ -3580,7 +3580,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.11.0</a></li>
+            <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.12.0</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -6305,7 +6305,7 @@ ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation a
 <h3 id="Zlib">zlib License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.5</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.6</a></li>
           </ul>
 <pre class="license-text">
 (C) 2024 Trifecta Tech Foundation 
