@@ -3454,7 +3454,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.18</a></li>
             <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.24</a></li>
-            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.22</a></li>
+            <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
