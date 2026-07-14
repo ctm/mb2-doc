@@ -3291,7 +3291,7 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/mcountryman/simd-adler32 ">simd-adler32 0.3.9</a></li>
+            <li><a href=" https://github.com/mcountryman/simd-adler32 ">simd-adler32 0.3.10</a></li>
           </ul>
 <pre class="license-text">
 MIT License
