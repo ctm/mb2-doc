@@ -43,6 +43,7 @@
   - [2026](./series/2026.md)
     - [WYWAE](./series/2026/wywae.md)
     - [WSOP-Style](./series/2026/wsop-style.md)
+    - [WYWAB](./series/2026/wywab.md)
 - [Ring Games](./ring_games.md)
 - [Vacation](./vacation.md)
 - [Chat](./chat.md)
