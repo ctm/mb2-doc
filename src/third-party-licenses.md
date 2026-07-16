@@ -1080,14 +1080,14 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.13.0</a></li>
+            <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.13.1</a></li>
             <li><a href=" https://github.com/rust-lang/log ">log 0.4.33</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.15</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.16</a></li>
             <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.11</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex 1.13.0</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex 1.13.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 The Rust Project Developers
