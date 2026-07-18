@@ -1372,14 +1372,14 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-channel 0.3.32</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-core 0.3.32</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-io 0.3.32</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-macro 0.3.32</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-sink 0.3.32</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-task 0.3.32</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-util 0.3.32</a></li>
-            <li><a href=" https://github.com/rust-lang/futures-rs ">futures 0.3.32</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-channel 0.3.33</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-core 0.3.33</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-io 0.3.33</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-macro 0.3.33</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-sink 0.3.33</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-task 0.3.33</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures-util 0.3.33</a></li>
+            <li><a href=" https://github.com/rust-lang/futures-rs ">futures 0.3.33</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016 Alex Crichton
