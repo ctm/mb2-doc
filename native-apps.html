@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-d9c83f5f.js";
+            window.path_to_searchindex_js = "searchindex-f89f07b3.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-308cf97c.js"></script>
@@ -185,6 +185,20 @@ this manual.</p>
 <p>All the native Mb2 apps have been made using
 <a href="https://v2.tauri.app/">Tauri</a>.</p>
 <h2 id="caveats"><a class="header" href="#caveats">Caveats</a></h2>
+<h3 id="microsoft-defender-will-object-to-the-windows-installer"><a class="header" href="#microsoft-defender-will-object-to-the-windows-installer">Microsoft Defender will object to the Windows Installer</a></h3>
+<p>If you run Mb2_x86-setup.exe, you’ll be told:</p>
+<blockquote>
+<p>Windows protected your PC</p>
+<p>Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.</p>
+<p>More info</p>
+</blockquote>
+<p>and only given a “Don’t run” button in the lower right of the warning window.</p>
+<p>“More info”, however, will be a link and if you click on it, you’ll be
+told that the Publisher is an “Unknown publisher” and be given a “Run
+anyway” button. So, you’ll have to click “More info” and then “Run
+anyway” if you want to use the native Windows app until we get
+recognized by Azure as an official publisher, which is something we’re
+in the <a href="https://github.com/ctm/mb2-doc/issues/1940">process of doing</a>.</p>
 <h3 id="lobby---table-switching-is-horrible-on-phones-and-tablets"><a class="header" href="#lobby---table-switching-is-horrible-on-phones-and-tablets">Lobby &lt;-&gt; Table switching is horrible on phones and tablets</a></h3>
 <p>The macOS and Windows native Mb2 clients use a separate window per
 table.  The iOS and Android Mb2 clients have little controls that
