@@ -13,6 +13,26 @@ All the native Mb2 apps have been made using
 
 ## Caveats
 
+### Microsoft Defender will object to the Windows Installer
+
+If you run Mb2_x86-setup.exe, you'll be told:
+
+> Windows protected your PC
+>
+> Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.
+>
+> More info
+
+and only given a "Don't run" button in the lower right of the warning window.
+
+"More info", however, will be a link and if you click on it, you'll be
+told that the Publisher is an "Unknown publisher" and be given a "Run
+anyway" button. So, you'll have to click "More info" and then "Run
+anyway" if you want to use the native Windows app until we get
+recognized by Azure as an official publisher, which is something we're
+in the [process of doing](https://github.com/ctm/mb2-doc/issues/1940).
+
+
 ### Lobby <-> Table switching is horrible on phones and tablets
 
 The macOS and Windows native Mb2 clients use a separate window per
