@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (217)</li>
+        <li><a href="#MIT">MIT License</a> (218)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -3424,8 +3424,8 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.1</a></li>
-            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.103</a></li>
-            <li><a href=" https://github.com/dtolnay/async-trait ">async-trait 0.1.89</a></li>
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.104</a></li>
+            <li><a href=" https://github.com/dtolnay/async-trait ">async-trait 0.1.91</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.6</a></li>
             <li><a href=" https://github.com/dtolnay/dtoa ">dtoa 1.0.11</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.18</a></li>
@@ -3437,21 +3437,22 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.13</a></li>
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.37</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
-            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.106</a></li>
-            <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.46</a></li>
+            <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.107</a></li>
+            <li><a href=" https://github.com/dtolnay/quote ">quote 1.0.47</a></li>
             <li><a href=" https://github.com/dtolnay/rustversion ">rustversion 1.0.23</a></li>
             <li><a href=" https://github.com/dtolnay/semver ">semver 1.0.28</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.228</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.228</a></li>
-            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.228</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.229</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.229</a></li>
+            <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.229</a></li>
             <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.150</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.119</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.0</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.18</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.19</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.18</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.19</a></li>
             <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.24</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
