@@ -35,9 +35,9 @@ think about it, which means it's often out of date.
 |✅|[Membership](#membership)||
 |✅|[Statistics / Alternate scoring systems](#statistics--alternate-scoring-systems)||
 |✅|[White-labeled sites](#white-labeled-sites)||
+|✅|[QR-code based pick-up games](#qr-code-based-pick-up-games)||
 |❌|[Structure and Series editors](#structure-and-series-editors)||
 |❌|[Impossible to rig deck](#impossible-to-rig-deck)||
-|❌|[QR-code based pick-up games](#qr-code-based-pick-up-games)||
 |❌|[The server running on a phone or tablet](#the-server-running-on-a-phone-or-tablet)||
 
 ### User Interface
@@ -181,6 +181,23 @@ white-labeled sites until more [customization](#customization) work
 has been done, although with interest and funding, both could be done
 in parallel.
 
+### QR-code based pick-up games
+
+Although the user interface isn't yet pleasant to use on mobile
+devices, and ring games are still clunky, I've gone ahead and asked
+Claude to implement the ability to let [observers
+join](https://github.com/ctm/mb2-doc/issues/1947) existing events as a
+precursor to adding an easy way to create ad hoc tournaments and
+games, e.g., by displaying a QR code that can be scanned to join an
+event.
+
+This feature won't be _particularly_ useful until the whole user
+experience is a fun one, but my guess is AI can crank out a
+proof-of-concept in two days, so I'm testing that hypothesis in hopes
+that I can show the functionality to [BARGE](https://www.barge.org/)
+attendees. They're familiar with my work and understand
+proofs-of-concept.
+
 ### Structure and Series editors
 
 My guess is that AI could crank out a functional structure and series
@@ -259,17 +276,6 @@ Although I've done no coding of the Impossible to rig deck,
 implementing the "happy path" is easy.  Dealing with edge cases,
 is not something I've thought much about, nor will I until there's a
 reason to.
-
-### QR-code based pick-up games
-
-Once the user interface is pleasant to use on mobile devices, especially
-after ring games are working well, it makes sense to add an easy way to
-create ad hoc tournaments and games, e.g., by displaying a QR code that
-can be scanned to join an event.
-
-This is trivial to implement and won't be particularly useful until the
-whole user experience is a fun one, but my guess is AI can crank out
-a proof-of-concept in two days.
 
 ### The server running on a phone or tablet
 
