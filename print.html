@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-e3c5aa04.js";
+            window.path_to_searchindex_js = "searchindex-8e892803.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-308cf97c.js"></script>
@@ -3440,9 +3440,9 @@ think about it, which means it’s often out of date.
 <tr><td style="text-align: center">✅</td><td><a href="#membership">Membership</a></td><td></td></tr>
 <tr><td style="text-align: center">✅</td><td><a href="#statistics--alternate-scoring-systems">Statistics / Alternate scoring systems</a></td><td></td></tr>
 <tr><td style="text-align: center">✅</td><td><a href="#white-labeled-sites">White-labeled sites</a></td><td></td></tr>
+<tr><td style="text-align: center">✅</td><td><a href="#qr-code-based-pick-up-games">QR-code based pick-up games</a></td><td></td></tr>
 <tr><td style="text-align: center">❌</td><td><a href="#structure-and-series-editors">Structure and Series editors</a></td><td></td></tr>
 <tr><td style="text-align: center">❌</td><td><a href="#impossible-to-rig-deck">Impossible to rig deck</a></td><td></td></tr>
-<tr><td style="text-align: center">❌</td><td><a href="#qr-code-based-pick-up-games">QR-code based pick-up games</a></td><td></td></tr>
 <tr><td style="text-align: center">❌</td><td><a href="#the-server-running-on-a-phone-or-tablet">The server running on a phone or tablet</a></td><td></td></tr>
 </tbody>
 </table>
@@ -3559,6 +3559,20 @@ but it is an ad hoc process.  It doesn’t make sense to automate
 white-labeled sites until more <a href="#customization">customization</a> work
 has been done, although with interest and funding, both could be done
 in parallel.</p>
+<h3 id="qr-code-based-pick-up-games"><a class="header" href="#qr-code-based-pick-up-games">QR-code based pick-up games</a></h3>
+<p>Although the user interface isn’t yet pleasant to use on mobile
+devices, and ring games are still clunky, I’ve gone ahead and asked
+Claude to implement the ability to let <a href="https://github.com/ctm/mb2-doc/issues/1947">observers
+join</a> existing events as a
+precursor to adding an easy way to create ad hoc tournaments and
+games, e.g., by displaying a QR code that can be scanned to join an
+event.</p>
+<p>This feature won’t be <em>particularly</em> useful until the whole user
+experience is a fun one, but my guess is AI can crank out a
+proof-of-concept in two days, so I’m testing that hypothesis in hopes
+that I can show the functionality to <a href="https://www.barge.org/">BARGE</a>
+attendees. They’re familiar with my work and understand
+proofs-of-concept.</p>
 <h3 id="structure-and-series-editors"><a class="header" href="#structure-and-series-editors">Structure and Series editors</a></h3>
 <p>My guess is that AI could crank out a functional structure and series
 editor in a day with just a small specification, but the result
@@ -3627,14 +3641,6 @@ keys.</p>
 implementing the “happy path” is easy.  Dealing with edge cases,
 is not something I’ve thought much about, nor will I until there’s a
 reason to.</p>
-<h3 id="qr-code-based-pick-up-games"><a class="header" href="#qr-code-based-pick-up-games">QR-code based pick-up games</a></h3>
-<p>Once the user interface is pleasant to use on mobile devices, especially
-after ring games are working well, it makes sense to add an easy way to
-create ad hoc tournaments and games, e.g., by displaying a QR code that
-can be scanned to join an event.</p>
-<p>This is trivial to implement and won’t be particularly useful until the
-whole user experience is a fun one, but my guess is AI can crank out
-a proof-of-concept in two days.</p>
 <h3 id="the-server-running-on-a-phone-or-tablet"><a class="header" href="#the-server-running-on-a-phone-or-tablet">The server running on a phone or tablet</a></h3>
 <p>Although I haven’t written any of the relevant code, my research into
 <a href="#native-apps">native apps</a> makes me think it’s very likely that
