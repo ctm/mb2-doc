@@ -2801,7 +2801,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.54</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.55</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -3479,7 +3479,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.119</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.2</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.3</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.19</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
