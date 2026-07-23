@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (222)</li>
+        <li><a href="#MIT">MIT License</a> (223)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -3264,6 +3264,7 @@ SOFTWARE.
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.10.4</a></li>
             <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.45</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
+            <li><a href=" https://github.com/erwanvivien/fast_qr/ ">fast_qr 0.13.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/dialogs ">gloo-dialogs 0.2.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.2.0</a></li>
