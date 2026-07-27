@@ -85,13 +85,13 @@ from the Leaderboard menu.
 </tr>
 </thead>
 <tbody>
-<tr><td>Thursday, July 16th</td><td><a href="https://craftpoker.com/tournament/structure/6564" target="_blank">No Kings No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/6564/player/14" target="_blank"></a></td></tr>
-<tr><td>Friday, July 17th</td><td><a href="https://craftpoker.com/tournament/structure/6565" target="_blank">Triple Draw Dealer's Choice</a></td><td><a href="https://craftpoker.com/event/6565/player/14" target="_blank"></a></td></tr>
-<tr><td>Saturday, July 18th</td><td><a href="https://craftpoker.com/tournament/structure/6566" target="_blank">OE</a></td><td><a href="https://craftpoker.com/event/6566/player/14" target="_blank"></a></td></tr>
-<tr><td>Sunday, July 19th</td><td><a href="https://craftpoker.com/tournament/structure/6567" target="_blank">Wonky Action Razz</a></td><td><a href="https://craftpoker.com/event/6567/player/14" target="_blank"></a></td></tr>
-<tr><td>Monday, July 20th</td><td><a href="https://craftpoker.com/tournament/structure/6568" target="_blank">TOC-Style</a></td><td><a href="https://craftpoker.com/event/6568/player/14" target="_blank"></a></td></tr>
-<tr><td>Tuesday, July 21st</td><td><a href="https://craftpoker.com/tournament/structure/6569" target="_blank">No-Limit Hold'em Main Event</a></td><td><a href="https://craftpoker.com/event/6569/player/14" target="_blank"></a></td></tr>
-<tr><td>Wednesday, July 22nd</td><td><a href="https://craftpoker.com/tournament/structure/6570" target="_blank">Crayfish Atomic Pineapple</a></td><td><a href="https://craftpoker.com/event/6570/player/14" target="_blank"></a></td></tr>
+<tr><td>Thursday, July 16th</td><td><a href="https://craftpoker.com/tournament/structure/6564" target="_blank">No Kings No-Limit Hold'em</a></td><td><a href="https://craftpoker.com/event/6564/player/1008" target="_blank">AdbBingo</a></td></tr>
+<tr><td>Friday, July 17th</td><td><a href="https://craftpoker.com/tournament/structure/6565" target="_blank">Triple Draw Dealer's Choice</a></td><td><a href="https://craftpoker.com/event/6565/player/17" target="_blank">ODB Phat Mack🏆</a></td></tr>
+<tr><td>Saturday, July 18th</td><td><a href="https://craftpoker.com/tournament/structure/6566" target="_blank">OE</a></td><td><a href="https://craftpoker.com/event/6566/player/11" target="_blank">gerdog</a></td></tr>
+<tr><td>Sunday, July 19th</td><td><a href="https://craftpoker.com/tournament/structure/6567" target="_blank">Wonky Action Razz</a></td><td><a href="https://craftpoker.com/event/6567/player/17" target="_blank">ODB Phat Mack🏆</a></td></tr>
+<tr><td>Monday, July 20th</td><td><a href="https://craftpoker.com/tournament/structure/6568" target="_blank">TOC-Style</a></td><td><a href="https://craftpoker.com/event/6568/player/17" target="_blank">ODB Phat Mack🏆</a></td></tr>
+<tr><td>Tuesday, July 21st</td><td><a href="https://craftpoker.com/tournament/structure/6569" target="_blank">No-Limit Hold'em Main Event</a></td><td><a href="https://craftpoker.com/event/6569/player/10" target="_blank">deadhead</a></td></tr>
+<tr><td>Wednesday, July 22nd</td><td><a href="https://craftpoker.com/tournament/structure/6570" target="_blank">Crayfish Atomic Pineapple</a></td><td><i>Not Enough Players</i></td></tr>
 </tbody>
 </table>
 
