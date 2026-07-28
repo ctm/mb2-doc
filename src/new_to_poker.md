@@ -8,10 +8,7 @@ deals a lot of esoteric games.
 
 The current industry leader is PokerStars and they have a [nice
 page](https://www.pokerstars.bet/poker/games/) you can view without
-registering.  An up and coming challenger to PokerStars is GGPoker and
-they have a [Poker
-School](https://en.ggpoker.com/get-started/poker-school/) that
-requires registration. PokerStars also has a
+registering.  PokerStars also has a
 [school](https://www.pokerstarsschool.com/).
 
 From mb2's developer's point of view, poker can&mdash;and
