@@ -22,7 +22,7 @@ This series was open to the public.
 Craft Poker Co. sent a physical prize to the winner of each
 tournament in the series[^1]. The prize will be an [Engraved Rectangular
 Glass
-Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
+Paperweight](https://web.archive.org/web/20170925065612/http://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html)
 unless they run out or other unforeseen circumstances.
 
 There will _probably_ also be nicer prizes for the top three

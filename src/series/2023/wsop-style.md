@@ -21,7 +21,7 @@ Craft Poker Co. either sent a physical prize to the winner of
 each tournament in the series or paid $50 in cash via Venmo or
 Zelle. It was the winner's choice. When taken, the prize was an
 [Engraved Rectangular Glass
-Paperweight](https://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html).
+Paperweight](https://web.archive.org/web/20170925065612/http://www.trophies2go.com/engraved-rettangolo-glass-paperweight.html).
 
 ### Overall prizes
 
