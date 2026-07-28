@@ -1,7 +1,7 @@
 # Sack
 
 Sack is the genteel name for
-[Scrotum](https://www.ceemeck.org/BARGERuleBook2021/other.html#scrotum).
+[Scrotum](https://www.barge.org/rulebook/scrotum.html).
 
 In 2022, EMBARGO is being held at the Resorts Casino in Las Vegas.
 One of the [five EMBARGO 2022

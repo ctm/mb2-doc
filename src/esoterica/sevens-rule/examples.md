@@ -1,7 +1,7 @@
 # Examples
 
 The BARGE Rule Book has an [elaborate
-example](https://www.ceemeck.org/BARGERuleBook2021/the-sevens-rule.html).
+example](https://www.barge.org/rulebook/sevens-rule.html).
 It's worth reading, although it's slightly incorrect and will be updated
 soon..
 

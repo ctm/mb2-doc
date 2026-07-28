@@ -1,7 +1,7 @@
 # Regular Pineapple
 
 Regular Pineapple is
-[Crazy Pineapple High/Low Eight-or-Better](https://www.ceemeck.org/BARGERuleBook2021/TournGames.html#crazy-pineapple-highlow-eight-or-better)
+[Crazy Pineapple High/Low Eight-or-Better](https://www.barge.org/rulebook/crazy-pineapple-high-low.html)
 except the discard happens before the flop is dealt.
 
 So, in Regular Pineapple, each player gets three cards and then

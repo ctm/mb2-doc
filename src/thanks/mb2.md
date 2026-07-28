@@ -45,7 +45,7 @@ essentially my only play-tester.  Others stepped in and tried it here and
 there, but she came out regularly and even brought a friend or two.  Her
 early support was critical to me getting mb2 off the ground.
 
-### C. Meck and the [BARGE Rule Book](https://www.ceemeck.org/BARGERuleBook2021/)
+### C. Meck and the [BARGE Rule Book](https://www.barge.org/rulebook/)
 
 Multibot only dealt a few games. I wanted mb2 to be more flexible, so
 I implemented all of the games in the BARGE Rule Book, maintained by
