@@ -132,3 +132,12 @@ Mb2 structure sheet and will be definitive.
 <tr><td>15th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=116" target="_blank">#100</a></td><td><a href="https://friends.craftpoker.com/tournament/structure/6516" target="_blank">Super Turbo No-Limit Hold'em</a></td><td><a href="https://friends.craftpoker.com/event/6516/player/9" target="_blank">Grizz</a></td></tr>
 </tbody>
 </table>
+
+The server went down while I was running the Hardrock 100 and Uptime
+Robot did not even attempt to send me an SMS. I didn't check my email
+until the day after the Hardrock 100. I have since hardened the server
+against crashes, worked with Uptime Robot's tech support so I'll get
+SMS messages again, and I'll now skim my email for emergencies
+more frequently. Although I still choose not to get email on my phone,
+I've shared my cell number with many regular Mb2 users and asked them
+to text or call me anytime the server is acting up.
