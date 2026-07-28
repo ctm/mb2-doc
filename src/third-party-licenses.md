@@ -3457,7 +3457,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.1</a></li>
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.104</a></li>
             <li><a href=" https://github.com/dtolnay/async-trait ">async-trait 0.1.91</a></li>
-            <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.6</a></li>
+            <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.7</a></li>
             <li><a href=" https://github.com/dtolnay/dtoa ">dtoa 1.0.11</a></li>
             <li><a href=" https://github.com/smol-rs/fastrand ">fastrand 2.5.0</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.18</a></li>
