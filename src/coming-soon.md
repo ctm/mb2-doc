@@ -170,10 +170,10 @@ that will be extended fairly quickly when it's appropriate.
 ### White-labeled sites
 
 Craft Poker Co. currently has two instances of mb2 running, the public
-one at https://craftpoker.com, and one that is leased to a financial
+one at https://friends.craftpoker.com, and one that is leased to a financial
 firm who uses it to teach their new traders how to play poker.  The
 private site is currently a "one-off", in that it is updated by hand
-in parallel to (but not as frequently as) craftpoker.com.
+in parallel to (but not as frequently as) friends.craftpoker.com.
 
 Currently, another instance or two can be brought up fairly easily,
 but it is an ad hoc process.  It doesn't make sense to automate

@@ -46,8 +46,8 @@ event is a link to the Mb2 Structure Sheet.
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=1">6:00 PM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5406">NLHE & PLO Double Board Bomb Pot (w/ rebuys)</a></td>
-      <td><a href="https://craftpoker.com/event/5416/player/13">🐭GamboMouse</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5406">NLHE & PLO Double Board Bomb Pot (w/ rebuys)</a></td>
+      <td><a href="https://friends.craftpoker.com/event/5416/player/13">🐭GamboMouse</a></td>
     </tr>
     <tr>
       <td style="text-align: center" colspan=3>&nbsp;</td>
@@ -57,13 +57,13 @@ event is a link to the Mb2 Structure Sheet.
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=2">11:00 AM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5407">Pot-Limit Dramadugi</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5407">Pot-Limit Dramadugi</a></td>
       <td><i>Did Not Have Two Entrants</i></td>
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=3">5:00 PM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5408">HOT (Hold'em, Omaha/8, 2-7 Triple Draw)</a></td>
-      <td><a href="https://craftpoker.com/event/5408/player/24">memyself</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5408">HOT (Hold'em, Omaha/8, 2-7 Triple Draw)</a></td>
+      <td><a href="https://friends.craftpoker.com/event/5408/player/24">memyself</a></td>
     </tr>
     <tr>
       <td style="text-align: center" colspan=3>&nbsp;</td>
@@ -73,12 +73,12 @@ event is a link to the Mb2 Structure Sheet.
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=6">10:00 AM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5409">Triple Stud *Freezeout*</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5409">Triple Stud *Freezeout*</a></td>
       <td></td>
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=9">4:00 PM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5410">Five Card PLO</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5410">Five Card PLO</a></td>
       <td></td>
     </tr>
     <tr>
@@ -89,12 +89,12 @@ event is a link to the Mb2 Structure Sheet.
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=10">10:00 AM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5411">Tournament Of Champions</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5411">Tournament Of Champions</a></td>
       <td></td>
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=11">8:30 PM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5412">Bidirectional Chowaha/8</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5412">Bidirectional Chowaha/8</a></td>
       <td></td>
     </tr>
     <tr>
@@ -105,12 +105,12 @@ event is a link to the Mb2 Structure Sheet.
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=12">10:30 AM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5413">No-Limit Hold'em Main Event</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5413">No-Limit Hold'em Main Event</a></td>
       <td></td>
     </tr>
     <tr>
       <td style="text-align: right"><a href="https://omaholic.com/2024_BARGE_Structures.pdf#page=13">1:30 PM</a></td>
-      <td><a href="https://craftpoker.com/tournament/structure/5414">No-Limit Hold'em: Not Yet Champs</a></td>
+      <td><a href="https://friends.craftpoker.com/tournament/structure/5414">No-Limit Hold'em: Not Yet Champs</a></td>
       <td></td>
     </tr>
   </tbody>

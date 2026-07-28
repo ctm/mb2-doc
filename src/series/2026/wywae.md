@@ -60,7 +60,7 @@ browser is configured for (which&mdash;for most people&mdash;is your
 local time zone).
 
 Tournaments are currently available for registration at
-[craftpoker.com](https://craftpoker.com), and mimic the [official
+[friends.craftpoker.com](https://friends.craftpoker.com), and mimic the [official
 EMBARGO structures](https://omaholic.com/2026_EMBARGO_Structures.pdf).
 
 This series is not sanctioned, endorsed or in any other way sponsored
@@ -69,16 +69,16 @@ Poker Co., a completely unrelated corporation.
 
 |Day|Date|Event|Winner|
 |---|---:|-----|------|
-|Friday|23rd|<a href="https://craftpoker.com/tournament/structure/6266" target="_blank">HAM & Pineapple</a>|[ODB Phat Mack🏆](https://craftpoker.com/event/6266/player/17)|
-|Saturday|24th|<a href="https://craftpoker.com/tournament/structure/6267" target="_blank">World Online Chowaha Championship (4 Card Chowaha)</a>|[jpmassar](https://craftpoker.com/event/6267/player/14)|
-|Sunday|25th|<a href="https://craftpoker.com/tournament/structure/6268" target="_blank">Dealer's Die</a>|[FerencL](https://craftpoker.com/event/6268/player/10761)|
-|Monday|26th|<a href="https://craftpoker.com/tournament/structure/6269" target="_blank">NLHE</a>|[deadhead](https://craftpoker.com/event/6269/player/10)|
-|Tuesday|27th|<a href="https://craftpoker.com/tournament/structure/6270" target="_blank">SECOR</a>|[FerencL](https://craftpoker.com/event/6270/player/10761)|
-|Wednesday|28th|<a href="https://craftpoker.com/tournament/structure/6271" target="_blank">Drawmaha Mix</a>|[Grizz](https://craftpoker.com/event/6271/player/9)|
-|Thursday|29th|<a href="https://craftpoker.com/tournament/structure/6272" target="_blank">HAM & Pineapple</a>|[jpmassar](https://craftpoker.com/event/6272/player/14)|
-|Friday|30th|<a href="https://craftpoker.com/tournament/structure/6273" target="_blank">Dealer's Die</a>|[jpmassar](https://craftpoker.com/event/6273/player/14)|
-|Saturday|31st|<a href="https://craftpoker.com/tournament/structure/6274" target="_blank">SECOR</a>|[ODB Phat Mack🏆](https://craftpoker.com/event/6274/player/17)|
-|Sunday|1st|<a href="https://craftpoker.com/tournament/structure/6275" target="_blank">Drawmaha Mix</a>|[ODB Phat Mack🏆](https://craftpoker.com/event/6275/player/17)|
+|Friday|23rd|<a href="https://friends.craftpoker.com/tournament/structure/6266" target="_blank">HAM & Pineapple</a>|[ODB Phat Mack🏆](https://friends.craftpoker.com/event/6266/player/17)|
+|Saturday|24th|<a href="https://friends.craftpoker.com/tournament/structure/6267" target="_blank">World Online Chowaha Championship (4 Card Chowaha)</a>|[jpmassar](https://friends.craftpoker.com/event/6267/player/14)|
+|Sunday|25th|<a href="https://friends.craftpoker.com/tournament/structure/6268" target="_blank">Dealer's Die</a>|[FerencL](https://friends.craftpoker.com/event/6268/player/10761)|
+|Monday|26th|<a href="https://friends.craftpoker.com/tournament/structure/6269" target="_blank">NLHE</a>|[deadhead](https://friends.craftpoker.com/event/6269/player/10)|
+|Tuesday|27th|<a href="https://friends.craftpoker.com/tournament/structure/6270" target="_blank">SECOR</a>|[FerencL](https://friends.craftpoker.com/event/6270/player/10761)|
+|Wednesday|28th|<a href="https://friends.craftpoker.com/tournament/structure/6271" target="_blank">Drawmaha Mix</a>|[Grizz](https://friends.craftpoker.com/event/6271/player/9)|
+|Thursday|29th|<a href="https://friends.craftpoker.com/tournament/structure/6272" target="_blank">HAM & Pineapple</a>|[jpmassar](https://friends.craftpoker.com/event/6272/player/14)|
+|Friday|30th|<a href="https://friends.craftpoker.com/tournament/structure/6273" target="_blank">Dealer's Die</a>|[jpmassar](https://friends.craftpoker.com/event/6273/player/14)|
+|Saturday|31st|<a href="https://friends.craftpoker.com/tournament/structure/6274" target="_blank">SECOR</a>|[ODB Phat Mack🏆](https://friends.craftpoker.com/event/6274/player/17)|
+|Sunday|1st|<a href="https://friends.craftpoker.com/tournament/structure/6275" target="_blank">Drawmaha Mix</a>|[ODB Phat Mack🏆](https://friends.craftpoker.com/event/6275/player/17)|
 
 ## A few Differences from EMBARGO
 
@@ -109,7 +109,7 @@ make EMBARGO can play vicariously.
 
 Mb2 doesn't yet know how to change the number of seats per table in a
 tournament, so instead of Mix Max Binglaha, we'll have "[Dealer's
-Die](https://craftpoker.com/tournament/template/dealers_die)", which
+Die](https://friends.craftpoker.com/tournament/template/dealers_die)", which
 will have 6-seated tables, and will be a Dealer's Choice game, but the
 only choices will be poker games that involve a die roll, which
 include the various games we've played in the past, as well as

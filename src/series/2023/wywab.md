@@ -32,14 +32,14 @@ completely unrelated corporation.
 
 |Day|Time|Event (and link to Structure Sheet)|Winner|
 |--:|--:|--|--|
-|18th|11am PDT|[California Lowball](https://omaholic.com/2023_BARGE_Structures.pdf#page=2)|[jrx](https://craftpoker.com/event/4658/player/20)|
-|19th|11am PDT|[No-Limit Hold'em Bounty](https://omaholic.com/2023_BARGE_Structures.pdf#page=4)|[ts4z](https://craftpoker.com/event/4659/player/37)|
-|19th|5pm PDT|[Limit 6-Game HORSE + Lazy Pineapple](https://omaholic.com/2023_BARGE_Structures.pdf#page=3)|[maverick600](https://craftpoker.com/event/4660/player/49)|
-|20th|4pm PDT|[Pot-Limit Omaha (with lammers)](https://omaholic.com/2023_BARGE_Structures.pdf#page=7)|[Bridgeman](https://craftpoker.com/event/4661/player/29)|
-|20th|8pm PDT|[KoMex (Korean and Mexican)](https://omaholic.com/2023_BARGE_Structures.pdf#page=8)|[jrx](https://craftpoker.com/event/4662/player/20)|)
-|21st|10:30am PDT|[Tournament of Champions style](https://omaholic.com/2023_BARGE_Structures.pdf#page=9)|[jrx](https://craftpoker.com/event/4663/player/20)|
-|21st|8pm PDT|[TOC 2.0](https://omaholic.com/2023_BARGE_Structures.pdf#page=11)|[JADC🚴](https://craftpoker.com/event/4664/player/28)|)
-|22nd|10:30pm PDT|[No-Limit Hold'em Main Event](https://omaholic.com/2023_BARGE_Structures.pdf#page=12)|[Bridgeman](https://craftpoker.com/event/4665/player/29)|)
+|18th|11am PDT|[California Lowball](https://omaholic.com/2023_BARGE_Structures.pdf#page=2)|[jrx](https://friends.craftpoker.com/event/4658/player/20)|
+|19th|11am PDT|[No-Limit Hold'em Bounty](https://omaholic.com/2023_BARGE_Structures.pdf#page=4)|[ts4z](https://friends.craftpoker.com/event/4659/player/37)|
+|19th|5pm PDT|[Limit 6-Game HORSE + Lazy Pineapple](https://omaholic.com/2023_BARGE_Structures.pdf#page=3)|[maverick600](https://friends.craftpoker.com/event/4660/player/49)|
+|20th|4pm PDT|[Pot-Limit Omaha (with lammers)](https://omaholic.com/2023_BARGE_Structures.pdf#page=7)|[Bridgeman](https://friends.craftpoker.com/event/4661/player/29)|
+|20th|8pm PDT|[KoMex (Korean and Mexican)](https://omaholic.com/2023_BARGE_Structures.pdf#page=8)|[jrx](https://friends.craftpoker.com/event/4662/player/20)|)
+|21st|10:30am PDT|[Tournament of Champions style](https://omaholic.com/2023_BARGE_Structures.pdf#page=9)|[jrx](https://friends.craftpoker.com/event/4663/player/20)|
+|21st|8pm PDT|[TOC 2.0](https://omaholic.com/2023_BARGE_Structures.pdf#page=11)|[JADC🚴](https://friends.craftpoker.com/event/4664/player/28)|)
+|22nd|10:30pm PDT|[No-Limit Hold'em Main Event](https://omaholic.com/2023_BARGE_Structures.pdf#page=12)|[Bridgeman](https://friends.craftpoker.com/event/4665/player/29)|)
 
 ## Some Differences
 
@@ -79,4 +79,4 @@ dealing before the other table that was merged into it.
 
 3. The "No Limit Hold'em ~~Go the Distance~~ Bounty" tournament was
 played until there was only one player left. That player,
-[ts4z](https://craftpoker.com/event/4659/player/37), won the $50.
+[ts4z](https://friends.craftpoker.com/event/4659/player/37), won the $50.

@@ -120,60 +120,60 @@ delays around [June 24th](https://www.wser.org/).
 
 |Date|Event (and link to Event Structure Sheet)|Winner|
 |--|--|-|
-|May 30th|[#1 Employee Appreciation](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)[^3] [ No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)|[COC](https://craftpoker.com/event/4478/player/95)|
-|May 31st|[#4 TOC No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21669.pdf)|[smalltalkdan](https://craftpoker.com/event/4479/player/6)|
-|June 1st|[#6 Mixed No-Limit Hold'em and Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21671.pdf)|[Grizz](https://craftpoker.com/event/4480/player/9)|
-|June 2nd|[#9 Seven Card Stud](https://www.wsop.com/pdfs/structuresheets/structure_5219_21674.pdf)|[ODB Phat Mack 🎈🎈](https://craftpoker.com/event/4481/player/17)|
-|June 3rd|Paradise Road Pick'em ([levels from #10 Dealer's Choice](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf))|[jrx](https://craftpoker.com/event/4482/player/20)|
-|June 4th|[#11 No-Limit Hold'em Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21676.pdf)|[ODB Phat Mack 🎈🎈](https://craftpoker.com/event/4483/player/17)|
-|June 5th|[#13 Pot-Limit Omaha Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21678.pdf)|[Chuck](https://craftpoker.com/event/4489/player/3)|
-|June 6th|[#17 Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21682.pdf)|[Chuck](https://craftpoker.com/event/4506/player/3)|
-|June 7th|[#20 Badugi](https://www.wsop.com/pdfs/structuresheets/structure_5219_21685.pdf)|[mrstcao](https://craftpoker.com/event/4507/player/36)|
-|June 8th|[#22 Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)|[smalltalkdan](https://craftpoker.com/event/4508/player/6)|
-|June 9th|[#24 Razz](https://www.wsop.com/pdfs/structuresheets/structure_5219_21689.pdf)|[jpmassar](https://craftpoker.com/event/4537/player/14)|
-|June 10th|[#25 Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21690.pdf)|[jrx](https://craftpoker.com/event/4538/player/20)|
-|June 11th|[#27 Eight Game Mix 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21692.pdf)|[ODB Phat Mack 🎈🎈](https://craftpoker.com/event/4539/player/17)|
-|June 12th|[#30 Limit 2-7 Lowball Triple Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21695.pdf)|[smalltalkdan](https://craftpoker.com/event/4540/player/6)|
-|June 13th|[#33 Razz Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21698.pdf)|[JADC🚴](https://craftpoker.com/event/4541/player/28)|
-|June 14th|[#36 Nine Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21701.pdf)|[SuperKM](https://craftpoker.com/event/4542/player/33)|
-|June 15th|[#38 Limit 2-7 Lowball Triple Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21703.pdf)|[SuperKM](https://craftpoker.com/event/4543/player/33)|
-|June 16th|[#40 Super High Roller No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21705.pdf)|[GamboMouse](https://craftpoker.com/event/4544/player/13)|
-|June 17th|[#41 Big O](https://www.wsop.com/pdfs/structuresheets/structure_5219_21706.pdf)|[jrx](https://craftpoker.com/event/4545/player/20)|
-|June 18th|[#43 Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21708.pdf)|[Grizz](https://craftpoker.com/event/4546/player/9)|
-|June 19th|[#45 Mixed Omaha Hi-Lo](https://www.wsop.com/pdfs/structuresheets/structure_5219_21710.pdf)|[maverick600](https://craftpoker.com/event/4561/player/49)|
-|June 20th|[#47 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21712.pdf)|[maverick600](https://craftpoker.com/event/4562/player/49)|
-|June 21st|[#50 Pot-Limit Omaha Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21715.pdf)|[mrstcao](https://craftpoker.com/event/4563/player/36)|
-|June 22nd|[#52 Mixed Triple Draw Lowball ](https://www.wsop.com/pdfs/structuresheets/structure_5219_21717.pdf)|[jrx](https://craftpoker.com/event/4564/player/20)|
-|June 23th|[#54 H.O.R.S.E. Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21719.pdf)|[Pokerchimp](https://craftpoker.com/event/4565/player/12)|
-|June 24th|[#55 Seven Card Stud Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21720.pdf)|[Grizz](https://craftpoker.com/event/4566/player/9)|
-|June 25th|[#56 Salute to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)[^4]|[Grizz](https://craftpoker.com/event/4567/player/9)|
-|June 26th|[#60 No-Limit 2-7 Lowball Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf)|[ADB DaVoice](https://craftpoker.com/event/4584/player/26)|
-|June 27th|[#63 Seven Card Stud Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf)|[gerdog](https://craftpoker.com/event/4585/player/11)|
-|June 28th|[#66 Pot-Limit Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf)|[jrx](https://craftpoker.com/event/4586/player/20)|
-|June 29th|[#69 No-Limit 2-7 Lowball Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21734.pdf)|[Bridgeman](https://craftpoker.com/event/4587/player/29)|
-|June 30th|[#71 High Roller Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)|[pokerchimp](https://craftpoker.com/event/4588/player/12)|
-|July 1st|[#73 Mixed Big Bet Event](https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf)|[smalltalkdan](https://craftpoker.com/event/4589/player/6)|
-|July 2nd|[#75 Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)|[gerdog](https://craftpoker.com/event/4590/player/11)|
-|July 3rd|[SAM 🚴6 Championship](#)[^5]|[gerdog](https://craftpoker.com/event/4622/player/11)|
-|July 4th|[#76 **Main Event** No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)|[Grizz](https://craftpoker.com/event/4623/player/9)|
-|July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]|[samarai](https://craftpoker.com/event/4624/player/32)|
-|July 6th|[~~#10 Dealer's Choice 6-Handed Championship~~<br/>accidental 21-game mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^8]|[gerdog](https://craftpoker.com/event/4625/player/11)|
-|July 7th|[~~#78 Bounty Pot-Limit Omaha~~<br/>mislabeled #77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^9]|[maverick600](https://craftpoker.com/event/4626/player/49)|
-|July 8th|[**NOT COUNTING** HOSDARSS Championship](#)[^10]|[gerdog](https://craftpoker.com/event/4627/player/11)|
-|July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)|[smalltalkdan](https://craftpoker.com/event/4628/player/6)|
-|July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)|[JADC🚴](https://craftpoker.com/event/4639/player/28)|
-|July 11th|[#82 6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)|[pokerchimp](https://craftpoker.com/event/4640/player/12)|
-|July 12th|[#83 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf)|[pokerchimp](https://craftpoker.com/event/4641/player/12)|
-|July 13th|[#87 Mixed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21752.pdf)|[FeltShark](https://craftpoker.com/event/4642/player/10712)|
-|July 14th|[#90 6-Handed No-Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21755.pdf)|[jpmassar](https://craftpoker.com/event/4643/player/14)|
+|May 30th|[#1 Employee Appreciation](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)[^3] [ No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21666.pdf)|[COC](https://friends.craftpoker.com/event/4478/player/95)|
+|May 31st|[#4 TOC No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21669.pdf)|[smalltalkdan](https://friends.craftpoker.com/event/4479/player/6)|
+|June 1st|[#6 Mixed No-Limit Hold'em and Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21671.pdf)|[Grizz](https://friends.craftpoker.com/event/4480/player/9)|
+|June 2nd|[#9 Seven Card Stud](https://www.wsop.com/pdfs/structuresheets/structure_5219_21674.pdf)|[ODB Phat Mack 🎈🎈](https://friends.craftpoker.com/event/4481/player/17)|
+|June 3rd|Paradise Road Pick'em ([levels from #10 Dealer's Choice](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf))|[jrx](https://friends.craftpoker.com/event/4482/player/20)|
+|June 4th|[#11 No-Limit Hold'em Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21676.pdf)|[ODB Phat Mack 🎈🎈](https://friends.craftpoker.com/event/4483/player/17)|
+|June 5th|[#13 Pot-Limit Omaha Deep Stack](https://www.wsop.com/pdfs/structuresheets/structure_5219_21678.pdf)|[Chuck](https://friends.craftpoker.com/event/4489/player/3)|
+|June 6th|[#17 Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21682.pdf)|[Chuck](https://friends.craftpoker.com/event/4506/player/3)|
+|June 7th|[#20 Badugi](https://www.wsop.com/pdfs/structuresheets/structure_5219_21685.pdf)|[mrstcao](https://friends.craftpoker.com/event/4507/player/36)|
+|June 8th|[#22 Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21687.pdf)|[smalltalkdan](https://friends.craftpoker.com/event/4508/player/6)|
+|June 9th|[#24 Razz](https://www.wsop.com/pdfs/structuresheets/structure_5219_21689.pdf)|[jpmassar](https://friends.craftpoker.com/event/4537/player/14)|
+|June 10th|[#25 Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21690.pdf)|[jrx](https://friends.craftpoker.com/event/4538/player/20)|
+|June 11th|[#27 Eight Game Mix 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21692.pdf)|[ODB Phat Mack 🎈🎈](https://friends.craftpoker.com/event/4539/player/17)|
+|June 12th|[#30 Limit 2-7 Lowball Triple Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21695.pdf)|[smalltalkdan](https://friends.craftpoker.com/event/4540/player/6)|
+|June 13th|[#33 Razz Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21698.pdf)|[JADC🚴](https://friends.craftpoker.com/event/4541/player/28)|
+|June 14th|[#36 Nine Game Mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21701.pdf)|[SuperKM](https://friends.craftpoker.com/event/4542/player/33)|
+|June 15th|[#38 Limit 2-7 Lowball Triple Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21703.pdf)|[SuperKM](https://friends.craftpoker.com/event/4543/player/33)|
+|June 16th|[#40 Super High Roller No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21705.pdf)|[GamboMouse](https://friends.craftpoker.com/event/4544/player/13)|
+|June 17th|[#41 Big O](https://www.wsop.com/pdfs/structuresheets/structure_5219_21706.pdf)|[jrx](https://friends.craftpoker.com/event/4545/player/20)|
+|June 18th|[#43 Poker Players Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21708.pdf)|[Grizz](https://friends.craftpoker.com/event/4546/player/9)|
+|June 19th|[#45 Mixed Omaha Hi-Lo](https://www.wsop.com/pdfs/structuresheets/structure_5219_21710.pdf)|[maverick600](https://friends.craftpoker.com/event/4561/player/49)|
+|June 20th|[#47 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21712.pdf)|[maverick600](https://friends.craftpoker.com/event/4562/player/49)|
+|June 21st|[#50 Pot-Limit Omaha Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21715.pdf)|[mrstcao](https://friends.craftpoker.com/event/4563/player/36)|
+|June 22nd|[#52 Mixed Triple Draw Lowball ](https://www.wsop.com/pdfs/structuresheets/structure_5219_21717.pdf)|[jrx](https://friends.craftpoker.com/event/4564/player/20)|
+|June 23th|[#54 H.O.R.S.E. Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21719.pdf)|[Pokerchimp](https://friends.craftpoker.com/event/4565/player/12)|
+|June 24th|[#55 Seven Card Stud Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21720.pdf)|[Grizz](https://friends.craftpoker.com/event/4566/player/9)|
+|June 25th|[#56 Salute to Warriors - No-Limit Hold’em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21721.pdf)[^4]|[Grizz](https://friends.craftpoker.com/event/4567/player/9)|
+|June 26th|[#60 No-Limit 2-7 Lowball Draw](https://www.wsop.com/pdfs/structuresheets/structure_5219_21725.pdf)|[ADB DaVoice](https://friends.craftpoker.com/event/4584/player/26)|
+|June 27th|[#63 Seven Card Stud Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21728.pdf)|[gerdog](https://friends.craftpoker.com/event/4585/player/11)|
+|June 28th|[#66 Pot-Limit Omaha Hi-Lo 8 or Better](https://www.wsop.com/pdfs/structuresheets/structure_5219_21731.pdf)|[jrx](https://friends.craftpoker.com/event/4586/player/20)|
+|June 29th|[#69 No-Limit 2-7 Lowball Draw Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21734.pdf)|[Bridgeman](https://friends.craftpoker.com/event/4587/player/29)|
+|June 30th|[#71 High Roller Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21736.pdf)|[pokerchimp](https://friends.craftpoker.com/event/4588/player/12)|
+|July 1st|[#73 Mixed Big Bet Event](https://www.wsop.com/pdfs/structuresheets/structure_5219_21738.pdf)|[smalltalkdan](https://friends.craftpoker.com/event/4589/player/6)|
+|July 2nd|[#75 Pot-Limit Omaha Hi-Lo 8 or Better Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21740.pdf)|[gerdog](https://friends.craftpoker.com/event/4590/player/11)|
+|July 3rd|[SAM 🚴6 Championship](#)[^5]|[gerdog](https://friends.craftpoker.com/event/4622/player/11)|
+|July 4th|[#76 **Main Event** No-Limit Hold'em World Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21741.pdf)|[Grizz](https://friends.craftpoker.com/event/4623/player/9)|
+|July 5th|[#5 Dealer's Choice 6-Handed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21670.pdf)[^6]|[samarai](https://friends.craftpoker.com/event/4624/player/32)|
+|July 6th|[~~#10 Dealer's Choice 6-Handed Championship~~<br/>accidental 21-game mix](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^8]|[gerdog](https://friends.craftpoker.com/event/4625/player/11)|
+|July 7th|[~~#78 Bounty Pot-Limit Omaha~~<br/>mislabeled #77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^9]|[maverick600](https://friends.craftpoker.com/event/4626/player/49)|
+|July 8th|[**NOT COUNTING** HOSDARSS Championship](#)[^10]|[gerdog](https://friends.craftpoker.com/event/4627/player/11)|
+|July 9th|[#77 Lucky 7's No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21742.pdf)|[smalltalkdan](https://friends.craftpoker.com/event/4628/player/6)|
+|July 10th|[#80 High Roller H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21745.pdf)|[JADC🚴](https://friends.craftpoker.com/event/4639/player/28)|
+|July 11th|[#82 6-Handed Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21747.pdf)|[pokerchimp](https://friends.craftpoker.com/event/4640/player/12)|
+|July 12th|[#83 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21748.pdf)|[pokerchimp](https://friends.craftpoker.com/event/4641/player/12)|
+|July 13th|[#87 Mixed](https://www.wsop.com/pdfs/structuresheets/structure_5219_21752.pdf)|[FeltShark](https://friends.craftpoker.com/event/4642/player/10712)|
+|July 14th|[#90 6-Handed No-Limit Hold'em Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21755.pdf)|[jpmassar](https://friends.craftpoker.com/event/4643/player/14)|
 |July 15th|[~~#91 H.O.R.S.E.~~<br/>did not finish](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]||
-|July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)|[FeltShark](https://craftpoker.com/event/4645/player/10712)|
-|July 17th|[#94 8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)|[JADC🚴](https://craftpoker.com/event/4646/player/28)|
-|July 18th|[#95 Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)|[jrx](https://craftpoker.com/event/4647/player/20)|
-|July 26th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]|[samarai](https://craftpoker.com/event/4679/player/32)|
-|July 27th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]|[jzk](https://craftpoker.com/event/4680/player/10635)|
-|July 28th|[HOSDARSS Championship](#)[^10]|[smalltalkdan](https://craftpoker.com/event/4681/player/6)|
-|July 29th[^12]|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]|[Maverick600](https://craftpoker.com/event/4687/player/49)|
+|July 16th|[#93 Short Deck No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21758.pdf)|[FeltShark](https://friends.craftpoker.com/event/4645/player/10712)|
+|July 17th|[#94 8-Handed No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21759.pdf)|[JADC🚴](https://friends.craftpoker.com/event/4646/player/28)|
+|July 18th|[#95 Super Turbo No-Limit Hold'em](https://www.wsop.com/pdfs/structuresheets/structure_5219_21760.pdf)|[jrx](https://friends.craftpoker.com/event/4647/player/20)|
+|July 26th|[#10 Dealer's Choice 6-Handed Championship](https://www.wsop.com/pdfs/structuresheets/structure_5219_21675.pdf)[^6]|[samarai](https://friends.craftpoker.com/event/4679/player/32)|
+|July 27th|[#78 Bounty Pot-Limit Omaha](https://www.wsop.com/pdfs/structuresheets/structure_5219_21743.pdf)[^7]|[jzk](https://friends.craftpoker.com/event/4680/player/10635)|
+|July 28th|[HOSDARSS Championship](#)[^10]|[smalltalkdan](https://friends.craftpoker.com/event/4681/player/6)|
+|July 29th[^12]|[#91 H.O.R.S.E.](https://www.wsop.com/pdfs/structuresheets/structure_5219_21756.pdf)[^11]|[Maverick600](https://friends.craftpoker.com/event/4687/player/49)|
 
 [^3]: At the World Series of Poker, this event was limited to Casino
 Employees.  In this series&mdash;in 2023 at least&mdash;no events had
