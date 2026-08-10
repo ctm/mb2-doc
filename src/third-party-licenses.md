@@ -1001,19 +1001,19 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.4</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.103</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.104</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
             <li><a href=" https://github.com/alexcrichton/scoped-tls ">scoped-tls 1.0.1</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.3</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.76</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.126</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.126</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.126</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test-macro 0.3.76</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/test-shared ">wasm-bindgen-test-shared 0.2.126</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test 0.3.76</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.126</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.103</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.77</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.127</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.127</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.127</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test-macro 0.3.77</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/test-shared ">wasm-bindgen-test-shared 0.2.127</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test 0.3.77</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.127</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.104</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 Alex Crichton
@@ -3456,7 +3456,7 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/oyvindln/adler2 ">adler2 2.0.1</a></li>
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.104</a></li>
-            <li><a href=" https://github.com/dtolnay/async-trait ">async-trait 0.1.91</a></li>
+            <li><a href=" https://github.com/dtolnay/async-trait ">async-trait 0.1.92</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.7</a></li>
             <li><a href=" https://github.com/dtolnay/dtoa ">dtoa 1.0.11</a></li>
             <li><a href=" https://github.com/smol-rs/fastrand ">fastrand 2.5.0</a></li>
@@ -3482,9 +3482,9 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.119</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.3</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.19</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.20</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.19</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.20</a></li>
             <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.24</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
