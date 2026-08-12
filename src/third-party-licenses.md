@@ -1082,7 +1082,7 @@ THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.13.1</a></li>
             <li><a href=" https://github.com/rust-lang/log ">log 0.4.33</a></li>
-            <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.46</a></li>
+            <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.47</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
             <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.18</a></li>
