@@ -25,13 +25,15 @@ If you run Mb2_x86-setup.exe, you'll be told:
 
 and only given a "Don't run" button in the lower right of the warning window.
 
-"More info", however, will be a link and if you click on it, you'll be
-told that the Publisher is an "Unknown publisher" and be given a "Run
-anyway" button. So, you'll have to click "More info" and then "Run
-anyway" if you want to use the native Windows app until we get
-recognized by Azure as an official publisher, which is something we're
-in the [process of doing](https://github.com/ctm/mb2-doc/issues/1940).
+"More info", however, will be a link and when you click on it, you'll be
+told:
 
+> App: Mb2_x86-setup.exe
+>
+> Publisher: US, New Mexico, Albuquerque, Craft Poker Co., Craft Poker Co. 
+
+and a "Run anyway" button button will be added. You'll need to click
+that "Run anyway" to install Mb2 on your Windows machine.
 
 ### Lobby <-> Table switching is horrible on phones and tablets
 
