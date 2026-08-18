@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (223)</li>
+        <li><a href="#MIT">MIT License</a> (225)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -3364,6 +3364,42 @@ Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
 Copyright (c) 2017 Frommi
 Copyright (c) 2017-2024 oyvindln
 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide ">miniz_oxide 0.8.9</a></li>
+          </ul>
+<pre class="license-text">
+MIT License
+
+Copyright 2013-2014 RAD Game Tools and Valve Software
+Copyright 2010-2014 Rich Geldreich and Tenacious Software LLC
+Copyright (c) 2017 Frommi
+Copyright (c) 2017-2024 oyvindln
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
@@ -3664,6 +3700,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
             <li><a href=" https://github.com/zip-rs/zip2 ">zip 8.6.0</a></li>
           </ul>
 <pre class="license-text">
@@ -6284,7 +6321,7 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.7</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.7</a></li>
           </ul>
 <pre class="license-text">
