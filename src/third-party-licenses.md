@@ -52,8 +52,8 @@
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
-        <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (2)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (2)</li>
+        <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (1)</li>
         <li><a href="#Zlib">zlib License</a> (1)</li>
         <li><a href="#bzip2-1.0.6">bzip2 and libbzip2 License v1.0.6</a> (1)</li>
       </ul>
@@ -563,43 +563,6 @@ distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/droundy/arrayref ">arrayref 0.3.9</a></li>
-          </ul>
-<pre class="license-text">
-Copyright (c) 2015 David Roundy &lt;roundyd@physics.oregonstate.edu&gt;
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
-
-1. Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in the
-   documentation and/or other materials provided with the
-   distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-&quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 </pre>
@@ -1293,7 +1256,7 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rayon-rs/either ">either 1.17.0</a></li>
+            <li><a href=" https://github.com/rayon-rs/either ">either 1.18.0</a></li>
             <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.10.5</a></li>
             <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.14.0</a></li>
           </ul>
@@ -3260,7 +3223,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.4</a></li>
+            <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.5</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.10.4</a></li>
             <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.45</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
@@ -6322,7 +6285,7 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.7</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.8</a></li>
           </ul>
 <pre class="license-text">
 UNICODE LICENSE V3
