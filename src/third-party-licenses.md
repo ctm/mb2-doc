@@ -6274,7 +6274,7 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 2.3.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.3.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.3.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.3.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.3.1</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.4</a></li>
@@ -6284,7 +6284,7 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.7</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.5</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.8</a></li>
           </ul>
 <pre class="license-text">
