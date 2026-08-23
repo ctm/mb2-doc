@@ -1044,7 +1044,7 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.13.1</a></li>
-            <li><a href=" https://github.com/rust-lang/log ">log 0.4.33</a></li>
+            <li><a href=" https://github.com/rust-lang/log ">log 0.4.34</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.47</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
@@ -2966,7 +2966,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.0</a></li>
+            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.1</a></li>
           </ul>
 <pre class="license-text">
 MIT License
