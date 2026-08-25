@@ -2703,7 +2703,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-random/rand ">rand 0.10.2</a></li>
-            <li><a href=" https://github.com/rust-random/rand ">rand 0.8.7</a></li>
+            <li><a href=" https://github.com/rust-random/rand ">rand 0.8.8</a></li>
             <li><a href=" https://github.com/rust-random/rand ">rand_core 0.6.4</a></li>
           </ul>
 <pre class="license-text">
