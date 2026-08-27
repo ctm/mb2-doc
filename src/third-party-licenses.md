@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (225)</li>
+        <li><a href="#MIT">MIT License</a> (227)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -3731,6 +3731,7 @@ SOFTWARE.
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.12.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.13.1</a></li>
+            <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.14.0</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_codegen 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_generator 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_generator 0.13.1</a></li>
@@ -3739,6 +3740,7 @@ SOFTWARE.
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.12.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.13.1</a></li>
+            <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.14.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -4229,7 +4231,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/kornelski/gh-emoji ">gh-emoji 1.0.8</a></li>
+            <li><a href=" https://github.com/kornelski/gh-emoji ">gh-emoji 1.0.9</a></li>
           </ul>
 <pre class="license-text">
 © 2013 GitHub, Inc.
