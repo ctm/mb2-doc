@@ -18,21 +18,21 @@ The WYWAE series for 2026 finished on February 1st.
 <tbody>
 <tr>
 <td>1st</td>
-<td>822</td>
+<td style="text-align: right;">822</td>
 <td>FerencL</td>
-<td></td>
+<td>8</td>
 </tr>
 <tr>
 <td>2nd</td>
-<td>820</td>
+<td style="text-align: right;">820</td>
 <td>ODB Phat Mack🏆</td>
-<td></td>
+<td>9</td>
 </tr>
 <tr>
 <td>3rd</td>
-<td>80</td>
+<td style="text-align: right;">80</td>
 <td>NNR13</td>
-<td></td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
@@ -51,21 +51,21 @@ The WYWAE series for 2026 finished on February 1st.
 <tbody>
 <tr>
 <td>1st</td>
-<td>0.82</td>
+<td style="text-align: right;">0.82</td>
 <td>FerencL</td>
-<td></td>
+<td style="text-align: right;">8</td>
 </tr>
 <tr>
 <td>2nd</td>
-<td>0.75</td>
+<td style="text-align: right;">0.75</td>
 <td>ODB Phat Mack🏆</td>
-<td></td>
+<td style="text-align: right;">9</td>
 </tr>
 <tr>
 <td>3rd</td>
-<td></td>
+<td style="text-align: right;">-0.07</td>
 <td>jpmassar</td>
-<td></td>
+<td style="text-align: right;">10</td>
 </tr>
 </tbody>
 </table>
