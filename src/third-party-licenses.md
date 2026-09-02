@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (224)</li>
+        <li><a href="#MIT">MIT License</a> (218)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -1379,7 +1379,6 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.14.5</a></li>
             <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.17.1</a></li>
           </ul>
 <pre class="license-text">
@@ -1640,42 +1639,6 @@ DEALINGS IN THE SOFTWARE.
           </ul>
 <pre class="license-text">
 Copyright (c) 2017 Contributors
-
-Permission is hereby granted, free of charge, to any
-person obtaining a copy of this software and associated
-documentation files (the &quot;Software&quot;), to deal in the
-Software without restriction, including without
-limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software
-is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice
-shall be included in all copies or substantial portions
-of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
-IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/kevinmehall/codemap ">codemap 0.1.3</a></li>
-          </ul>
-<pre class="license-text">
-Copyright (c) 2017 Kevin Mehall
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -2741,29 +2704,6 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/Kixiron/lasso ">lasso 0.7.3</a></li>
-          </ul>
-<pre class="license-text">
-Copyright 2020 Chase Wilson
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
-(the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do
-so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
-FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.56</a></li>
           </ul>
 <pre class="license-text">
@@ -3223,6 +3163,38 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.9.1</a></li>
+          </ul>
+<pre class="license-text">
+MIT License
+
+Copyright (c) 2026 linyiru
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.5</a></li>
             <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.10.4</a></li>
             <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.45</a></li>
@@ -3246,8 +3218,6 @@ SOFTWARE.
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/utils ">gloo-utils 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker-macros 0.1.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker 0.5.0</a></li>
-            <li><a href=" https://github.com/connorskees/grass ">grass 0.13.4</a></li>
-            <li><a href=" https://github.com/connorskees/grass ">grass_compiler 0.13.4</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone-derive 0.1.2</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone 0.6.0</a></li>
             <li><a href=" https://github.com/rust-lang/compiler-builtins ">libm 0.2.16</a></li>
@@ -3415,40 +3385,6 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.24</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
-          </ul>
-<pre class="license-text">
-Permission is hereby granted, free of charge, to any
-person obtaining a copy of this software and associated
-documentation files (the &quot;Software&quot;), to deal in the
-Software without restriction, including without
-limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software
-is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice
-shall be included in all copies or substantial portions
-of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
-IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/zakarumych/allocator-api2 ">allocator-api2 0.2.21</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any
@@ -3663,7 +3599,6 @@ SOFTWARE.
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_codegen 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_generator 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_generator 0.13.1</a></li>
-            <li><a href=" https://github.com/rust-phf/rust-phf ">phf_macros 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_macros 0.13.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.11.3</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.12.1</a></li>
