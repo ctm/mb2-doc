@@ -1,59 +1,54 @@
 # WSOP-Style 2026
 
+The WSOP-Style Series for 2026 finished on July 15th.
 
 ## No Prizes, No Cash, Just Fun
 
-There will be no prizes (unless there are). If there are prizes, I,
+There were no prizes. Had there been prizes, I,
 Cliff Matthews (aka <a
 href="https://ctm.github.io/docs/yld/life/too-public.html"
-target=_blank>deadhead</a>), won't be eligible for them.
+target=_blank>deadhead</a>), wouldn't have been eligible for them.
 
 ## Overview
 
-The WSOP-Style Series is a set of free tournaments&mdash;one per
-day&mdash;from May 26th through July 15th. Those are the days of the
+The WSOP-Style Series 2026 was a set of free tournaments&mdash;one per
+day&mdash;from May 26th through July 15th. Those were the days of the
 <a href="https://www.wsop.com/news/2026-world-series-of-poker/" target="_blank">World
 Series of Poker</a> (WSOP) in Las Vegas, Nevada. The WSOP provides
 the inspiration for this series.
 
 **This series is not even remotely affiliated with the World Series of Poker.**
 
-Each day's tournament in the WSOP-Style series is a modified version
-of a tournament that will be played in real life on the same day at the WSOP.
-In general, the same WSOP levels and rules will apply.
+Each day's tournament in the WSOP-Style series was a modified version
+of a tournament that was played in real life on the same day at the WSOP.
+In general, the same WSOP levels and rules applied.
 
-All of these WSOP-Style tournaments are played in one day, with five
-minute breaks every hour. Each starts at 5:05 pm Pacific time (8:05 pm
+All of these WSOP-Style tournaments were played in one day, with five
+minute breaks every hour. Each started at 5:05 pm Pacific time (8:05 pm
 Eastern).
 
-You can see how long each of the WSOP-Style series tournaments lasted
-last year by clicking on the <a target="_blank"
-href="../2025/wsop-style.html#the-tournaments">WSOP-Style 2025
-link</a> and then clicking on the winner's nickname. That will bring
-up a list of who played and when they bust.
+Late registration varied per tournament, but was always available for at least
+forty-five minutes after the tournament started.
 
-Late registration varies per tournament, but is always available for at least
-forty-five minutes after the tournament starts. 
+Many tournaments allowed one or more re-entries.
 
-Many tournaments allow one or more re-entries.
+### All were welcome
 
-### All are welcome
-
-All events in this series are open to the public.
+All events in this series were open to the public.
 
 ### Round Duration
 
-All levels will be five minutes long.
+All levels were five minutes long.
 
-There will be a five minute break that will start after each table has
+There was a five minute break that started after each table had
 completed a hand at 55 minutes past the hour or later. That means the
-last table to finish a hand at 55 minutes past the hour or later will
-get exactly a five minute breaks and all other tables will be paused
+last table to finish a hand at 55 minutes past the hour or later got
+exactly a five minute breaks and all other tables had been paused
 while waiting for that table to finish a hand.
 
 ### Leaderboard
 
-There will be a "WSOPS 2026 Leaderboard" entry in the Leaderboard menu
+There is a "WSOPS 2026 Leaderboard" entry in the Leaderboard menu
 available in the lobby.  By default, only players with a net <a target="_blank" href="../../fun_money.md">Fun
 Money</a> win show up on leaderboards, but if you've played
 and have a net loss, you can see your entry by having the shift key
@@ -84,7 +79,7 @@ Mb2 structure sheet and will be definitive.
 <tr><td colspan=4>&nbsp;</td></tr>
 <tr><td colspan=2 style="text-align: center;">June</td></tr>
 <tr><td>1st</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=15" target="_blank">#14</a></td><td><a href="https://friends.craftpoker.com/tournament/structure/6472" target="_blank">Mixed Omaha (PLO/8, O/8, Big O)</a></td><td><a href="https://friends.craftpoker.com/event/6472/player/10724" target="_blank">cantraise</a></td></tr>
-<tr><td>2nd</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=19" target="_blank">#17</a></td><td><a href="https://friends.craftpoker.com/tournament/structure/6473" target="_blank">No-Limit 2-7 Lowball Draw Championship</a></td><td><a href="https://friends.craftpoker.com/event/6473/player/" target="_blank"></a><a href="https://friends.craftpoker.com/event/6473/player/13" target="_blank">gambomouse</a></td></tr>
+<tr><td>2nd</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=19" target="_blank">#17</a></td><td><a href="https://friends.craftpoker.com/tournament/structure/6473" target="_blank">No-Limit 2-7 Lowball Draw Championship</a></td><td><a href="https://friends.craftpoker.com/event/6473/player/13" target="_blank">gambomouse</a></td></tr>
 <tr><td>3rd</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=22" target="_blank">#20</a></td><td><a href="https://friends.craftpoker.com/tournament/structure/6474" target="_blank">Dealers Choice</a></td><td><a href="https://friends.craftpoker.com/event/6474/player/10724" target="_blank">cantraise</a></td></tr>
 <tr><td>4th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=24" target="_blank">#21</a></td><td><a href="https://friends.craftpoker.com/tournament/structure/6475" target="_blank">Pot-Limit Omaha Hi-Lo 8 or Better</a></td><td><a href="https://friends.craftpoker.com/event/6475/player/17" target="_blank">ODB Phat Mack🏆</a></td></tr>
 <tr><td>5th</td><td><a href="https://wsop.gg-global-cdn.com/wsop/7174f77e-70f1-4526-a298-fe3461807075.pdf#page=25" target="_blank">#22</a></td><td><a href="https://friends.craftpoker.com/tournament/structure/6476" target="_blank">Big O</a></td><td><a href="https://friends.craftpoker.com/event/6476/player/10" target="_blank">deadhead</a></td></tr>

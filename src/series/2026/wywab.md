@@ -1,25 +1,26 @@
 # WYWAB 2026
 
+The WYWAB series for 2026 finished on July 22nd.
+
 ## No Prizes, No Cash, Just Fun
 
-There will be no prizes (unless there are). If there are prizes, I,
-Cliff Matthews (aka <a
+There were no prizes. Had there been prizes, I, Cliff Matthews (aka <a
 href="https://ctm.github.io/docs/yld/life/too-public.html"
-target=_blank>deadhead</a>), won't be eligible for them.
+target=_blank>deadhead</a>), wouldn't have been eligible for them.
 
 ## Overview
 
 WYWAB stands for "Wish You Were At
 [BARGE](https://www.barge.org/barge/2026/schedule/)", the Big August
-Rec.Gambling Excursion, held this year July 20th through 25th at The
+Rec.Gambling Excursion, held July 20th through 25th, 2026 at The
 Orleans in Las Vegas, Nevada. BARGE provides the inspiration for this
 series.
 
-WYWAB is a series of free tournaments&mdash;one per day&mdash;whose
-structures are drawn from the tournaments spread at BARGE.
+WYWAB was a series of free tournaments&mdash;one per day&mdash;whose
+structures were drawn from the tournaments spread at BARGE.
 
-**This series is not sanctioned, endorsed or in any other way sponsored
-or related to the BARGE organization. It is being put on by Craft Poker
+**This series was not sanctioned, endorsed or in any other way sponsored
+or related to the BARGE organization. It was put on by Craft Poker
 Co., a completely unrelated corporation.**
 
 The link in the `Event` column of the table below is a link to the Mb2
@@ -27,47 +28,43 @@ structure sheet and will be definitive. You can compare those against
 the official [2026 BARGE
 structures](https://www.barge.org/barge/2026/2026_BARGE_Structures.pdf).
 
-### All are welcome
+### All were welcome
 
-All events in this series are open to the public.
+All events in this series were open to the public.
 
-### Starts before BARGE
+### Started before BARGE
 
-Unlike 2024, when WYWAB ran alongside BARGE, this year's series starts
-before BARGE and ends before BARGE culminates. WYWAB runs July 16th
-through 22nd; BARGE runs July 20th through 25th. That way people
-attending BARGE have a chance to play BARGE's esoteric games online
+Unlike 2024, when WYWAB ran alongside BARGE, the 2026 series started
+before BARGE and ended before BARGE culminated. WYWAB ran July 16th
+through 22nd; BARGE ran July 20th through 25th. That way people
+attending BARGE had a chance to play BARGE's esoteric games online
 before playing them in real life.
 
 ### One Tournament a Day, All at the Same Time
 
 Unlike 2024, when WYWAB mirrored BARGE's varied start times, every
-WYWAB 2026 tournament starts at 5:05 pm Pacific time (which is also
+WYWAB 2026 tournament started at 5:05 pm Pacific time (which is also
 6:05 Mountain, 7:05 Central and 8:05 Eastern). That is the standard
 craftpoker.com daily tournament time.
 
-In the mb2 lobby, the times will be in the time zone your browser is
-configured for (which&mdash;for most people&mdash;is your local time
-zone).
-
 ### Round Duration
 
-All levels will be five minutes long.
+All levels were five minutes long.
 
-There will be a five minute break that will start after each table has
+There was a five minute break that started after each table had
 completed a hand at 55 minutes past the hour or later. That means the
-last table to finish a hand at 55 minutes past the hour or later will
-get exactly a five minute break and all other tables will be paused
+last table to finish a hand at 55 minutes past the hour or later got
+exactly a five minute break and all other tables had been paused
 while waiting for that table to finish a hand.
 
 ### Late Registration and Re-entries
 
-Late registration and re-entry rules vary per tournament. Consult each
+Late registration and re-entry rules varied per tournament. Consult each
 tournament's Mb2 structure sheet for the specifics.
 
 ### Leaderboard
 
-There will be a "WYWAB 2026 Leaderboard" entry in the Leaderboard menu
+There is a "WYWAB 2026 Leaderboard" entry in the Leaderboard menu
 available in the lobby. By default, only players with a net <a
 target="_blank" href="../../fun_money.md">Fun Money</a> win show up on
 leaderboards, but if you've played and have a net loss, you can see
@@ -97,22 +94,22 @@ from the Leaderboard menu.
 
 ## Some Differences
 
-WYWAB is a one-per-day selection of BARGE's tournaments; not every
-BARGE event is replicated, and some BARGE games (such as Funbook,
+WYWAB was a one-per-day selection of BARGE's tournaments; not every
+BARGE event was replicated, and some BARGE games (such as Funbook,
 CHORSE and Blackjack) aren't games that mb2 knows how to deal.
 
-For the tournaments that are dealt, some differences are just to
+For the tournaments that were dealt, some differences were just to
 improve the online experience and keep the tournaments from taking too
 long:
 
-* All rounds are five minutes long.
+* All rounds were five minutes long.
 
-* There are no chip races.
+* There were no chip races.
 
-* Breaks start "on the 55", which means that once each table has
+* Breaks started "on the 55", which means that once each table had
 finished a hand after fifty-five minutes after the hour, all tables
-will get a five minute break.
+got a five minute break.
 
 * Mb2 does not yet know how to change the number of seats for the final
-table, so each final table will have the same number of seats the
-tournament starts with.
+table, so each final table had the same number of seats the
+tournament started with.
