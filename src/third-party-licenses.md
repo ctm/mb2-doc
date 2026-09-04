@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (218)</li>
+        <li><a href="#MIT">MIT License</a> (219)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -3196,8 +3196,6 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.5</a></li>
-            <li><a href=" https://github.com/chronotope/chrono-tz ">chrono-tz 0.10.4</a></li>
-            <li><a href=" https://github.com/chronotope/chrono ">chrono 0.4.45</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
             <li><a href=" https://github.com/erwanvivien/fast_qr/ ">fast_qr 0.13.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
@@ -3476,7 +3474,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.12.0</a></li>
+            <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.13.2</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -3593,7 +3591,6 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.11.3</a></li>
-            <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.12.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.13.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf 0.14.0</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_codegen 0.11.3</a></li>
@@ -3601,7 +3598,6 @@ SOFTWARE.
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_generator 0.13.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_macros 0.13.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.11.3</a></li>
-            <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.12.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.13.1</a></li>
             <li><a href=" https://github.com/rust-phf/rust-phf ">phf_shared 0.14.0</a></li>
           </ul>
@@ -3667,6 +3663,11 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.35</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 0.1.3</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.8</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.35</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
