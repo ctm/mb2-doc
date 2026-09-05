@@ -964,19 +964,19 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.4</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.104</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.105</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
             <li><a href=" https://github.com/alexcrichton/scoped-tls ">scoped-tls 1.0.1</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.3</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.77</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro-support ">wasm-bindgen-macro-support 0.2.127</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.127</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.127</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test-macro 0.3.77</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/test-shared ">wasm-bindgen-test-shared 0.2.127</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test 0.3.77</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.127</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.104</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.78</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/main/crates/macro-support ">wasm-bindgen-macro-support 0.2.128</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.128</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.128</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test-macro 0.3.78</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/test-shared ">wasm-bindgen-test-shared 0.2.128</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test 0.3.78</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.128</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.105</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 Alex Crichton
@@ -1524,7 +1524,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.14.1</a></li>
+            <li><a href=" https://github.com/indexmap-rs/indexmap ">indexmap 2.14.2</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016--2017
@@ -3798,7 +3798,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/crossbeam-rs/crossbeam ">crossbeam-utils 0.8.22</a></li>
+            <li><a href=" https://github.com/crossbeam-rs/crossbeam ">crossbeam-utils 0.8.23</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
