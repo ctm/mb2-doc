@@ -5283,7 +5283,7 @@ Exhibit B - &quot;Incompatible With Secondary Licenses&quot; Notice
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/servo/rust-cssparser ">cssparser-color 0.5.0</a></li>
-            <li><a href=" https://github.com/servo/rust-cssparser ">cssparser-macros 0.7.0</a></li>
+            <li><a href=" https://github.com/servo/rust-cssparser ">cssparser-macros 0.7.1</a></li>
             <li><a href=" https://github.com/servo/rust-cssparser ">cssparser 0.37.0</a></li>
           </ul>
 <pre class="license-text">
