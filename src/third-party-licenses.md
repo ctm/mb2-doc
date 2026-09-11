@@ -1043,7 +1043,7 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.13.1</a></li>
+            <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.13.2</a></li>
             <li><a href=" https://github.com/rust-lang/log ">log 0.4.34</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.47</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
@@ -1888,7 +1888,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.16.0</a></li>
+            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.16.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 The Servo Project Developers
