@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (218)</li>
+        <li><a href="#MIT">MIT License</a> (217)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -2874,7 +2874,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.1</a></li>
+            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.2</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -3010,38 +3010,6 @@ SOFTWARE.
 MIT License
 
 Copyright (c) 2020 David Purdum
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://github.com/Soveu/tinyvec_macros ">tinyvec_macros 0.1.1</a></li>
-          </ul>
-<pre class="license-text">
-MIT License
-
-Copyright (c) 2020 Soveu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
@@ -3442,7 +3410,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.13.2</a></li>
+            <li><a href=" https://github.com/Lokathor/tinyvec ">tinyvec 1.13.3</a></li>
           </ul>
 <pre class="license-text">
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -3631,11 +3599,11 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.0</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.35</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.1</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.37</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 0.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.8</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.35</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.37</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
