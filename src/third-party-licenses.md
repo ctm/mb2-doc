@@ -2647,7 +2647,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/mystor/synstructure ">synstructure 0.13.2</a></li>
+            <li><a href=" https://github.com/mystor/synstructure ">synstructure 0.14.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2016 Nika Layzell
@@ -6081,9 +6081,9 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.4</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.2</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.3</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.7</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.6</a></li>
@@ -6144,7 +6144,7 @@ ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation a
 <h3 id="Zlib">zlib License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.7</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.8</a></li>
           </ul>
 <pre class="license-text">
 (C) 2024 Trifecta Tech Foundation 
