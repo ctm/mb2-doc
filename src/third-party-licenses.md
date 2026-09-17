@@ -963,7 +963,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.4</a></li>
+            <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.5</a></li>
             <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.105</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
             <li><a href=" https://github.com/alexcrichton/scoped-tls ">scoped-tls 1.0.1</a></li>
@@ -3099,7 +3099,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.9.1</a></li>
+            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.14.0</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -3311,13 +3311,13 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.119</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.5</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.6</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.20</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.20</a></li>
             <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.24</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.26</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
           </ul>
 <pre class="license-text">
@@ -6020,7 +6020,7 @@ Exhibit B - &quot;Incompatible With Secondary Licenses&quot; Notice
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.24</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.26</a></li>
           </ul>
 <pre class="license-text">
 UNICODE LICENSE V3
