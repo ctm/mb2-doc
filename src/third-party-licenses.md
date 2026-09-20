@@ -2665,7 +2665,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-random/rand ">rand 0.10.2</a></li>
+            <li><a href=" https://github.com/rust-random/rand ">rand 0.10.3</a></li>
             <li><a href=" https://github.com/rust-random/rand ">rand 0.8.8</a></li>
             <li><a href=" https://github.com/rust-random/rand ">rand_core 0.6.4</a></li>
           </ul>
@@ -3100,7 +3100,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.15.0</a></li>
-            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.16.0</a></li>
+            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.18.0</a></li>
           </ul>
 <pre class="license-text">
 MIT License
