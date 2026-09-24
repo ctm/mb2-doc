@@ -2704,7 +2704,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.57</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.58</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -3314,9 +3314,9 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.119</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.6</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.20</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.21</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
-            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.20</a></li>
+            <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.21</a></li>
             <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.26</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
