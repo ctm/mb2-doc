@@ -13,28 +13,6 @@ All the native Mb2 apps have been made using
 
 ## Caveats
 
-### Microsoft Defender will object to the Windows Installer
-
-If you run Mb2_x86-setup.exe, you'll be told:
-
-> Windows protected your PC
->
-> Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk.
->
-> More info
-
-and only given a "Don't run" button in the lower right of the warning window.
-
-"More info", however, will be a link and when you click on it, you'll be
-told:
-
-> App: Mb2_x86-setup.exe
->
-> Publisher: US, New Mexico, Albuquerque, Craft Poker Co., Craft Poker Co. 
-
-and a "Run anyway" button button will be added. You'll need to click
-that "Run anyway" to install Mb2 on your Windows machine.
-
 ### Lobby <-> Table switching is horrible on phones and tablets
 
 The macOS and Windows native Mb2 clients use a separate window per
@@ -54,11 +32,18 @@ panel to select the "Experimental" table view. FWIW, new users and old
 users who haven't used Mb2 in a while all get the experimental view by
 default.
 
-### iOS requires UDID
+### iOS requires UDID or TestFlight
 
 If you have an iPhone or iPad, you will be able to download the `.ipa`
 file that contains the Mb2 client, but it won't work for you unless
-you supply me with your UDID.
+you supply me with your UDID. Or, if you'd like, ask me and I can
+enroll you in [TestFlight](https://testflight.apple.com/).
+
+While we're still in internal development, we can only have 100
+testers and we can only drop UDIDs once a year. So, if you want to
+start testing iOS _now_, that's great, but I hope you'll continue to
+test.
+
 
 ### Android has only been tested on arm64
 
@@ -88,8 +73,7 @@ lot of nits just so issues don't completely fall through the cracks.
 
 The latest builds are at [https://github.com/ctm/mb2-doc/releases/latest](https://github.com/ctm/mb2-doc/releases/latest)
 
-There's no need to run older versions. They probably won't work and
-I'll be deleting them soon.
+There's no need to run older versions.
 
 |OS|Arch|Filename|
 |--|----|--------|
