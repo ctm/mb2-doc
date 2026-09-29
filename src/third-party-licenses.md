@@ -3100,7 +3100,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.15.0</a></li>
-            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.19.0</a></li>
+            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.19.2</a></li>
           </ul>
 <pre class="license-text">
 MIT License
