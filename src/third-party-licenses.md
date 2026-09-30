@@ -3100,7 +3100,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.15.0</a></li>
-            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.19.2</a></li>
+            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.19.3</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -6082,7 +6082,7 @@ authorization of the copyright holder.
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.6</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.4</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.3</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.8</a></li>
