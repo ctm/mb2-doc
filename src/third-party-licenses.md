@@ -853,42 +853,6 @@ express Statement of Purpose.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang-nursery/lazy-static.rs ">lazy_static 1.5.0</a></li>
-          </ul>
-<pre class="license-text">
-Copyright (c) 2010 The Rust Project Developers
-
-Permission is hereby granted, free of charge, to any
-person obtaining a copy of this software and associated
-documentation files (the &quot;Software&quot;), to deal in the
-Software without restriction, including without
-limitation the rights to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software
-is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice
-shall be included in all copies or substantial portions
-of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
-ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
-TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
-SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
-IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
             <li><a href=" https://github.com/servo/rust-url ">form_urlencoded 1.2.2</a></li>
           </ul>
 <pre class="license-text">
@@ -3292,6 +3256,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/dtoa ">dtoa 1.0.11</a></li>
             <li><a href=" https://github.com/smol-rs/fastrand ">fastrand 2.5.0</a></li>
             <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.18</a></li>
+            <li><a href=" https://github.com/rust-lang-nursery/lazy-static.rs ">lazy_static 1.5.1</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.4</a></li>
             <li><a href=" https://github.com/as1100k/pastey ">pastey 0.1.1</a></li>
             <li><a href=" https://github.com/Manishearth/pathdiff ">pathdiff 0.2.3</a></li>
