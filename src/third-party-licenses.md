@@ -1220,7 +1220,7 @@ THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rayon-rs/either ">either 1.18.0</a></li>
+            <li><a href=" https://github.com/rayon-rs/either ">either 1.19.0</a></li>
             <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.10.5</a></li>
             <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.14.0</a></li>
           </ul>
@@ -2668,7 +2668,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.59</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.62</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -3566,10 +3566,10 @@ THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.1</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.37</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.38</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 0.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.8</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.37</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.9</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.38</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
@@ -3770,7 +3770,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/ctamblyn/bit-iter ">bit-iter 1.3.1</a></li>
+            <li><a href=" https://github.com/ctamblyn/bit-iter ">bit-iter 1.4.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
