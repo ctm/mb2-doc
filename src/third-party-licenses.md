@@ -64,7 +64,7 @@
 <h3 id="Apache-2.0">Apache License 2.0</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/zopfli-rs/zopfli ">zopfli 0.8.3</a></li>
+            <li><a href=" https://github.com/zopfli-rs/zopfli ">zopfli 0.8.4</a></li>
           </ul>
 <pre class="license-text">
                                  Apache License
@@ -276,7 +276,7 @@
 <h3 id="Apache-2.0">Apache License 2.0</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.16.5</a></li>
+            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.21.0</a></li>
           </ul>
 <pre class="license-text">
                                  Apache License
@@ -1560,7 +1560,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/hashes ">sha2 0.11.0</a></li>
+            <li><a href=" https://github.com/RustCrypto/hashes ">sha2 0.11.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016-2026 The RustCrypto Project Developers
@@ -1852,7 +1852,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.16.2</a></li>
+            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.16.3</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 The Servo Project Developers
@@ -3272,17 +3272,17 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/serde-rs/serde ">serde 1.0.229</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_core 1.0.229</a></li>
             <li><a href=" https://github.com/serde-rs/serde ">serde_derive 1.0.229</a></li>
-            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.151</a></li>
+            <li><a href=" https://github.com/serde-rs/json ">serde_json 1.0.154</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.119</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.6</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.9</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.21</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.21</a></li>
             <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.26</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.27</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
           </ul>
 <pre class="license-text">
@@ -3428,7 +3428,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 8.6.0</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.0.2</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -5986,7 +5986,7 @@ Exhibit B - &quot;Incompatible With Secondary Licenses&quot; Notice
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.26</a></li>
+            <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.27</a></li>
           </ul>
 <pre class="license-text">
 UNICODE LICENSE V3
