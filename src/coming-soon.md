@@ -26,6 +26,7 @@ think about it, which means it's often out of date.
 <br/>
 |Started|Feature|Label|
 |:---:|---|---|
+|✅|[Better Demo](#better-demo)||
 |✅|[Native apps](native-apps)|[Tauri](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3ATauri)|
 |✅|[User Interface](#user-interface)|[UI](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3AUI)|
 |✅|[Ring games](#ring-games)|[ring games](https://github.com/ctm/mb2-doc/issues?q=state%3Aopen%20label%3A%22ring%20games%22)|
@@ -39,6 +40,26 @@ think about it, which means it's often out of date.
 |✅|[Structure and Series editors](#structure-and-series-editors)||
 |❌|[Impossible to rig deck](#impossible-to-rig-deck)||
 |❌|[The server running on a phone or tablet](#the-server-running-on-a-phone-or-tablet)||
+
+### Better Demo
+
+For years, Mb2's demo awkwardly required the person taking the demo to
+play against himself or herself. That is no longer the case. Now the
+demo has (poorly playing) computer opponents or the option for a demo
+player to invite friends to play against. The demo can also be a
+tournament demo or a ring game demo. This functionality is new, however,
+and has plenty of rough edges.
+
+Currently, the demo only offers a few tournament structures and a few
+ring game structures, but the ability to create tournament and ring
+structures will incrementally be added.
+
+The goal is for the demo to be a freeloader's paradise, in that the
+play against the computer will have options to be sufficiently
+challenging for average players to make it a form of solitaire and for
+the play against humans sufficiently easy to use that it could provide
+amusement in bars or coffee shops.  No login is required, but no
+durable stats are saved either.
 
 ### User Interface
 
