@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-31504fa4.js";
+            window.path_to_searchindex_js = "searchindex-9aced4d3.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-308cf97c.js"></script>
@@ -212,7 +212,7 @@ think about it, which means it’s often out of date.
 <tr><td style="text-align: center">✅</td><td><a href="#statistics--alternate-scoring-systems">Statistics / Alternate scoring systems</a></td><td></td></tr>
 <tr><td style="text-align: center">✅</td><td><a href="#white-labeled-sites">White-labeled sites</a></td><td></td></tr>
 <tr><td style="text-align: center">✅</td><td><a href="#qr-code-based-pick-up-games">QR-code based pick-up games</a></td><td></td></tr>
-<tr><td style="text-align: center">❌</td><td><a href="#structure-and-series-editors">Structure and Series editors</a></td><td></td></tr>
+<tr><td style="text-align: center">✅</td><td><a href="#structure-and-series-editors">Structure and Series editors</a></td><td></td></tr>
 <tr><td style="text-align: center">❌</td><td><a href="#impossible-to-rig-deck">Impossible to rig deck</a></td><td></td></tr>
 <tr><td style="text-align: center">❌</td><td><a href="#the-server-running-on-a-phone-or-tablet">The server running on a phone or tablet</a></td><td></td></tr>
 </tbody>
@@ -331,20 +331,20 @@ white-labeled sites until more <a href="#customization">customization</a> work
 has been done, although with interest and funding, both could be done
 in parallel.</p>
 <h3 id="qr-code-based-pick-up-games"><a class="header" href="#qr-code-based-pick-up-games">QR-code based pick-up games</a></h3>
-<p>Although the user interface isn’t yet pleasant to use on mobile
-devices, and ring games are still clunky, I’ve gone ahead and asked
-Claude to implement the ability to let <a href="https://github.com/ctm/mb2-doc/issues/1947">observers
-join</a> existing events as a
-precursor to adding an easy way to create ad hoc tournaments and
-games, e.g., by displaying a QR code that can be scanned to join an
-event.</p>
+<p>Claude added QR-codes both to
+<a href="https://friends.craftpoker.com/demo">demo</a> and non-demo play. There
+are rough edges, but you can use a QR-code to let someone next to you
+join a game.</p>
 <p>This feature won’t be <em>particularly</em> useful until the whole user
-experience is a fun one, but my guess is AI can crank out a
-proof-of-concept in two days, so I’m testing that hypothesis in hopes
-that I can show the functionality to <a href="https://www.barge.org/">BARGE</a>
-attendees. They’re familiar with my work and understand
-proofs-of-concept.</p>
+experience is a fun one, but the limiting factor there is not QR-code
+support.</p>
 <h3 id="structure-and-series-editors"><a class="header" href="#structure-and-series-editors">Structure and Series editors</a></h3>
+<p>The first step toward structure and series editors is to refactor how
+a game is configured. Some of the configuration elements are betting
+structure (e.g., Pot-Limit), which game (e.g., Omaha), and options
+(e.g., Double Board and Bomb-Pot). <a href="https://github.com/ctm/mb2-doc/issues/2139">That
+refactor</a> was started on
+October 13th and is expected to done by October 15th.</p>
 <p>My guess is that AI could crank out a functional structure and series
 editor in a day with just a small specification, but the result
 wouldn’t be something we’d want to use long term.  Using AI to create
