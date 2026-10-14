@@ -36,7 +36,7 @@ think about it, which means it's often out of date.
 |✅|[Statistics / Alternate scoring systems](#statistics--alternate-scoring-systems)||
 |✅|[White-labeled sites](#white-labeled-sites)||
 |✅|[QR-code based pick-up games](#qr-code-based-pick-up-games)||
-|❌|[Structure and Series editors](#structure-and-series-editors)||
+|✅|[Structure and Series editors](#structure-and-series-editors)||
 |❌|[Impossible to rig deck](#impossible-to-rig-deck)||
 |❌|[The server running on a phone or tablet](#the-server-running-on-a-phone-or-tablet)||
 
@@ -183,22 +183,23 @@ in parallel.
 
 ### QR-code based pick-up games
 
-Although the user interface isn't yet pleasant to use on mobile
-devices, and ring games are still clunky, I've gone ahead and asked
-Claude to implement the ability to let [observers
-join](https://github.com/ctm/mb2-doc/issues/1947) existing events as a
-precursor to adding an easy way to create ad hoc tournaments and
-games, e.g., by displaying a QR code that can be scanned to join an
-event.
+Claude added QR-codes both to
+[demo](https://friends.craftpoker.com/demo) and non-demo play. There
+are rough edges, but you can use a QR-code to let someone next to you
+join a game.
 
 This feature won't be _particularly_ useful until the whole user
-experience is a fun one, but my guess is AI can crank out a
-proof-of-concept in two days, so I'm testing that hypothesis in hopes
-that I can show the functionality to [BARGE](https://www.barge.org/)
-attendees. They're familiar with my work and understand
-proofs-of-concept.
+experience is a fun one, but the limiting factor there is not QR-code
+support.
 
 ### Structure and Series editors
+
+The first step toward structure and series editors is to refactor how
+a game is configured. Some of the configuration elements are betting
+structure (e.g., Pot-Limit), which game (e.g., Omaha), and options
+(e.g., Double Board and Bomb-Pot). [That
+refactor](https://github.com/ctm/mb2-doc/issues/2139) was started on
+October 13th and is expected to done by October 15th.
 
 My guess is that AI could crank out a functional structure and series
 editor in a day with just a small specification, but the result
