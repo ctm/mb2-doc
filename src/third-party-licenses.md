@@ -1524,7 +1524,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/indexmap-rs/equivalent ">equivalent 1.0.2</a></li>
+            <li><a href=" https://github.com/indexmap-rs/equivalent ">equivalent 1.0.3</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016--2023
@@ -2668,7 +2668,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.62</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.63</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -3428,7 +3428,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.0.2</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.0.3</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
