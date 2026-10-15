@@ -1,6 +1,6 @@
 # Games
 
-Mb2 can deal seventy-nine named variations of poker and a ridiculous
+Mb2 can deal eighty-five named variations of poker and a ridiculous
 number of variants thereof. This includes common ones like Texas
 Hold'em, Omaha and Seven Card Stud as well as lesser known games like
 Badugi, Courchevel and Big O.
@@ -14,9 +14,9 @@ Choice](games/dealers-choice.md) and [Dealer's
 Die](games/dealers-die.md).
 
 At the time of this writing, the precise number of _named_ games is
-seventy-nine. That number comes from the source code to mb2:
+eighty-five. That number comes from the source code to mb2:
 ```
-pub static GAMES: LazyLock<[GameInfo; 79]> = LazyLock::new(|| {
+pub static GAMES: LazyLock<[GameInfo; 85]> = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -48,8 +48,8 @@ pub static GAMES: LazyLock<[GameInfo; 79]> = LazyLock::new(|| {
 ...
 ```
 
-The 79 shows that we're populating the `GAMES` constant with
-seventy-nine elements, but it's counting&mdash;for
+The 85 shows that we're populating the `GAMES` constant with
+eighty-five elements, but it's counting&mdash;for
 example&mdash;`Hold'em` and `Hold'em High/Low with an Eight Qualifier`
 as two separate games.
 
@@ -65,7 +65,7 @@ internal names for.
 <details>
 <summary>Code that initializes the GAMES constant</summary>
 <pre>
-pub static GAMES: LazyLock<[GameInfo; 79]> = LazyLock::new(|| {
+pub static GAMES: LazyLock<[GameInfo; 85]> = LazyLock::new(|| {
     [
         // Hold'ems
         HOLD_EM.done(),
@@ -99,6 +99,11 @@ pub static GAMES: LazyLock<[GameInfo; 79]> = LazyLock::new(|| {
         DOUBLE_PLO.done(),
         FIVE_CARD_OMAHA.done(),
         OMAHA_CRAYFISH.done(),
+        BRIDGEWATER.done(),
+        JUAREZ.done(),
+        BIG_JUAREZ.done(),
+        SVITEN_SPECIAL.done(),
+        SVITEN_FLUSH.done(),
         // Scrotum
         SCROTUM.done(),
         // Chowahas
@@ -126,6 +131,7 @@ pub static GAMES: LazyLock<[GameInfo; 79]> = LazyLock::new(|| {
         ACE_TO_FIVE_3D.done(),
         DEUCE_TO_SEVEN_3D.done(),
         ARCHIE.done(),
+        ARCHIE_NINES.done(),
         KOREAN.done(),
         DUCK_FLUSH.done(),
         QUICK_QUADS_3D.done(),
@@ -136,7 +142,7 @@ pub static GAMES: LazyLock<[GameInfo; 79]> = LazyLock::new(|| {
         MISS_8.done(),
         MISS_RAZZ.done(),
         // 7-card Studs
-        STUD.done(),
+        OLD_STUD.done(),
         RAZZ.done(),
         STUD_8.done(),
         STUD_HIGH_LOW.done(),
@@ -172,7 +178,7 @@ represents the most popular combinations of core games with
 options. There is no requirement for a combination of a core game and
 options to be present in `GAMES` for that combination to be used in a
 tournament structure or ring game, so mb2 is already dealing well more
-than seventy-nine different variants, but some of the differences are so
+than eighty-five different variants, but some of the differences are so
 small that it's hard to argue they're different games.
 
 Here are the core games, with up to three
