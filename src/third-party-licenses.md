@@ -49,7 +49,7 @@
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
         <li><a href="#MIT">MIT License</a> (218)</li>
-        <li><a href="#Unicode-3.0">Unicode License v3</a> (19)</li>
+        <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (2)</li>
@@ -276,7 +276,7 @@
 <h3 id="Apache-2.0">Apache License 2.0</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.21.0</a></li>
+            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.22.0</a></li>
           </ul>
 <pre class="license-text">
                                  Apache License
@@ -1259,7 +1259,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.25</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.26</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.4</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.13.3</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
@@ -3428,7 +3428,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.0.3</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.0.5</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -5987,6 +5987,7 @@ Exhibit B - &quot;Incompatible With Secondary Licenses&quot; Notice
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.27</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.26</a></li>
           </ul>
 <pre class="license-text">
 UNICODE LICENSE V3
