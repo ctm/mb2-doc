@@ -2838,7 +2838,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.2</a></li>
+            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.3</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -3281,7 +3281,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.21</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.21</a></li>
-            <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.3</a></li>
+            <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.4</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.27</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
           </ul>
