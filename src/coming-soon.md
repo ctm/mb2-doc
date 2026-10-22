@@ -220,16 +220,19 @@ a game is configured. Some of the configuration elements are betting
 structure (e.g., Pot-Limit), which game (e.g., Omaha), and options
 (e.g., Double Board and Bomb-Pot). [That
 refactor](https://github.com/ctm/mb2-doc/issues/2139) was started on
-October 13th and is expected to done by October 15th.
+October 13th and is expected to done on October 15th.  The next step
+is to allow the [creation of single-game ring
+games](https://github.com/ctm/mb2-doc/issues/2171) and that was
+deployed on October 22nd, albeit without the full configurator
+enabled. I expect the full configurator to be enabled by the end of
+October.
 
 My guess is that AI could crank out a functional structure and series
 editor in a day with just a small specification, but the result
 wouldn't be something we'd want to use long term.  Using AI to create
 a throw-away interface (where something is better than nothing) is
 fine, but I'd prefer to not have a hastily thrown together database
-representation, although perhaps I'm being overly cautious there,
-since AI can also write the code to transform one representation into
-another.
+representation.
 
 <details>
 <summary>Structure and Series info for programmers</summary>
