@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (218)</li>
+        <li><a href="#MIT">MIT License</a> (217)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -591,7 +591,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 <h3 id="CC0-1.0">Creative Commons Zero v1.0 Universal</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/hasenbanck/ppmd-rust ">ppmd-rust 1.5.1</a></li>
+            <li><a href=" https://github.com/hasenbanck/ppmd-rust ">ppmd-rust 1.5.2</a></li>
           </ul>
 <pre class="license-text">
 CC0 1.0 Universal
@@ -2844,38 +2844,6 @@ SOFTWARE.
 MIT License
 
 Copyright (c) 2018 Sam Rijs, Alex Crichton and contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &quot;Software&quot;), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-</pre>
-        </li>
-        <li class="license">
-<h3 id="MIT">MIT License</h3>
-<h4>Used by:</h4>
-          <ul class="license-used-by">
-            <li><a href=" https://gitlab.com/antonok/enum_dispatch ">enum_dispatch 0.3.13</a></li>
-          </ul>
-<pre class="license-text">
-MIT License
-
-Copyright (c) 2019 Anton Lazarev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
@@ -6037,24 +6005,24 @@ authorization of the copyright holder.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 2.3.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locale_core 2.3.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 2.3.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 2.3.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.3.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.3.0</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.3.1</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 2.4.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_locale_core 2.4.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 2.4.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer_data 2.4.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties 2.4.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_properties_data 2.4.0</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">icu_provider 2.4.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">litemap 0.8.3</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">potential_utf 0.1.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.4</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">tinystr 0.8.5</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">writeable 0.6.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">yoke-derive 0.8.4</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.3</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">yoke 0.8.4</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom-derive 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerofrom 0.1.8</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">zerotrie 0.2.5</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.6</a></li>
-            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.8</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec-derive 0.11.7</a></li>
+            <li><a href=" https://github.com/unicode-org/icu4x ">zerovec 0.11.9</a></li>
           </ul>
 <pre class="license-text">
 UNICODE LICENSE V3
