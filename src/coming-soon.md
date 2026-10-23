@@ -229,10 +229,7 @@ October.
 
 My guess is that AI could crank out a functional structure and series
 editor in a day with just a small specification, but the result
-wouldn't be something we'd want to use long term.  Using AI to create
-a throw-away interface (where something is better than nothing) is
-fine, but I'd prefer to not have a hastily thrown together database
-representation.
+wouldn't be something we'd want to use long term.
 
 <details>
 <summary>Structure and Series info for programmers</summary>
