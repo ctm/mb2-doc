@@ -276,7 +276,7 @@
 <h3 id="Apache-2.0">Apache License 2.0</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.22.0</a></li>
+            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.23.0</a></li>
           </ul>
 <pre class="license-text">
                                  Apache License
@@ -3249,7 +3249,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.21</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 2.0.21</a></li>
-            <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.12.4</a></li>
+            <li><a href=" https://github.com/chipsenkbeil/typed-path ">typed-path 0.13.0</a></li>
             <li><a href=" https://github.com/dtolnay/unicode-ident ">unicode-ident 1.0.27</a></li>
             <li><a href=" https://github.com/dtolnay/zmij ">zmij 1.0.23</a></li>
           </ul>
@@ -3396,7 +3396,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.0.5</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.1.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
