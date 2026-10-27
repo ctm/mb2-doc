@@ -3396,7 +3396,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.1.0</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.1.2</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
