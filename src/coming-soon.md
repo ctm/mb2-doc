@@ -1,16 +1,11 @@
 # Coming Soon
 
-These are features that Mb2 will support soon. I have researched each
-feature and believe that almost every one could be in a
-proof-of-concept alpha state with two weeks of me working with AI on
-that feature, even while I'm chasing funding and doing other business
-related tasks.
+These are features that Mb2 will support soon.
 
-I expect a strategic investor or a potential customer will dictate the
-priority for each feature.  In the meantime, my highest priority is
-working on the infrastructure needed to support zero downtime deploys,
-backward compatible messaging additions and automatic updates. Those
-three will allow me to iterate rapidly on everything else.
+I expect that eventually a strategic investor or a potential customer
+will dictate the priority for each feature.  In the meantime, my
+highest priority is developing tools, techniques and practices that
+allow me to iterate rapidly on everything else.
 
 At any given time, you can see what I intend to work on by looking at
 the [list of high priority
@@ -38,26 +33,20 @@ think about it, which means it's often out of date.
 |✅|[White-labeled sites](#white-labeled-sites)||
 |✅|[QR-code based pick-up games](#qr-code-based-pick-up-games)||
 |✅|[Structure and Series editors](#structure-and-series-editors)||
-|❌|[Impossible to rig deck](#impossible-to-rig-deck)||
-|❌|[The server running on a phone or tablet](#the-server-running-on-a-phone-or-tablet)||
+||[Impossible to rig deck](#impossible-to-rig-deck)||
+||[The server running on a phone or tablet](#the-server-running-on-a-phone-or-tablet)||
 
 ### Better Demo
 
-For years, Mb2's demo awkwardly required the person taking the demo to
-play against himself or herself. That is no longer the case. Now the
-demo has (poorly playing) computer opponents or the option for a demo
+The demo has (poorly playing) computer opponents or the option for a demo
 player to invite friends to play against. The demo can also be a
 tournament demo or a ring game demo. This functionality is new, however,
 and has plenty of rough edges.
 
-Currently, the demo only offers a few tournament structures and a few
-ring game structures, but the ability to create tournament and ring
-structures will incrementally be added.
-
-The goal is for the demo to be a freeloader's paradise, in that the
-play against the computer will have options to be sufficiently
-challenging for average players to make it a form of solitaire and for
-the play against humans sufficiently easy to use that it could provide
+The goal is for the demo to be a freeloader's paradise. The play
+against the computer will have options to be sufficiently challenging
+for average players to make it a form of solitaire.  The play against
+humans will be sufficiently easy to use that it could provide
 amusement in bars or coffee shops.  No login is required, but no
 durable stats are saved either.
 
@@ -215,17 +204,18 @@ support.
 
 ### Structure and Series editors
 
-The first step toward structure and series editors is to refactor how
+The first step toward structure and series editors was to refactor how
 a game is configured. Some of the configuration elements are betting
 structure (e.g., Pot-Limit), which game (e.g., Omaha), and options
 (e.g., Double Board and Bomb-Pot). [That
 refactor](https://github.com/ctm/mb2-doc/issues/2139) was started on
-October 13th and is expected to done on October 15th.  The next step
-is to allow the [creation of single-game ring
+October 13th and was done on October 15th.  The next step was to allow
+the [creation of single-game ring
 games](https://github.com/ctm/mb2-doc/issues/2171) and that was
 deployed on October 22nd, albeit without the full configurator
-enabled. I expect the full configurator to be enabled by the end of
-October.
+enabled. The [full
+configurator](https://github.com/ctm/mb2-doc/issues/2216) was enabled
+on October 28th, albeit only for demo ring games.
 
 My guess is that AI could crank out a functional structure and series
 editor in a day with just a small specification, but the result
