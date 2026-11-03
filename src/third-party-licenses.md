@@ -49,7 +49,7 @@
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
         <li><a href="#MIT">MIT License</a> (217)</li>
-        <li><a href="#Unicode-3.0">Unicode License v3</a> (20)</li>
+        <li><a href="#Unicode-3.0">Unicode License v3</a> (21)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
         <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (2)</li>
@@ -276,7 +276,7 @@
 <h3 id="Apache-2.0">Apache License 2.0</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.23.0</a></li>
+            <li><a href=" https://github.com/hasenbanck/lzma-rust2/ ">lzma-rust2 0.24.0</a></li>
           </ul>
 <pre class="license-text">
                                  Apache License
@@ -928,19 +928,19 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/rust-lang/cfg-if ">cfg-if 1.0.5</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.106</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys ">js-sys 0.3.107</a></li>
             <li><a href=" https://github.com/alexcrichton/proc-macro2 ">proc-macro2 0.4.30</a></li>
             <li><a href=" https://github.com/alexcrichton/scoped-tls ">scoped-tls 1.0.1</a></li>
             <li><a href=" https://github.com/toml-rs/toml ">toml_datetime 0.6.3</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.79</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/main/crates/macro-support ">wasm-bindgen-macro-support 0.2.129</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.129</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.129</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test-macro 0.3.79</a></li>
-            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/test-shared ">wasm-bindgen-test-shared 0.2.129</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test 0.3.79</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.129</a></li>
-            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.106</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/futures ">wasm-bindgen-futures 0.4.80</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/main/crates/macro-support ">wasm-bindgen-macro-support 0.2.130</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/macro ">wasm-bindgen-macro 0.2.130</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/shared ">wasm-bindgen-shared 0.2.130</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test-macro 0.3.80</a></li>
+            <li><a href=" https://github.com/rustwasm/wasm-bindgen/tree/master/crates/test-shared ">wasm-bindgen-test-shared 0.2.130</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen-test 0.3.80</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen ">wasm-bindgen 0.2.130</a></li>
+            <li><a href=" https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/web-sys ">web-sys 0.3.107</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 Alex Crichton
@@ -1008,7 +1008,7 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/bitflags/bitflags ">bitflags 2.13.2</a></li>
-            <li><a href=" https://github.com/rust-lang/log ">log 0.4.34</a></li>
+            <li><a href=" https://github.com/rust-lang/log ">log 0.4.35</a></li>
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.47</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
@@ -1260,7 +1260,7 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/withoutboats/heck ">heck 0.5.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-normalization ">unicode-normalization 0.1.26</a></li>
-            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.4</a></li>
+            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.5</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-segmentation ">unicode-segmentation 1.13.3</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.1.0</a></li>
             <li><a href=" https://github.com/unicode-rs/unicode-xid ">unicode-xid 0.2.6</a></li>
@@ -2705,7 +2705,8 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/hsivonen/utf8_iter ">utf8_iter 1.0.4</a></li>
+            <li><a href=" https://github.com/hsivonen/utf8_iter ">utf8_iter 1.1.0</a></li>
+            <li><a href=" https://github.com/hsivonen/utf_types ">utf_types 1.0.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright Mozilla Foundation
@@ -2838,7 +2839,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.3</a></li>
+            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.4</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -3219,7 +3220,6 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.104</a></li>
-            <li><a href=" https://github.com/dtolnay/async-trait ">async-trait 0.1.92</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.7</a></li>
             <li><a href=" https://github.com/dtolnay/dtoa ">dtoa 1.0.11</a></li>
             <li><a href=" https://github.com/smol-rs/fastrand ">fastrand 2.5.0</a></li>
@@ -3396,7 +3396,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.1.3</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.3.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -3533,11 +3533,11 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.1</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.38</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.2</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.39</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 0.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.9</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.38</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.39</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
@@ -6005,6 +6005,56 @@ authorization of the copyright holder.
 <h3 id="Unicode-3.0">Unicode License v3</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
+            <li><a href=" https://github.com/unicode-rs/unicode-properties ">unicode-properties 0.1.5</a></li>
+          </ul>
+<pre class="license-text">
+UNICODE LICENSE V3
+
+COPYRIGHT AND PERMISSION NOTICE
+
+Copyright © 1991-2026 Unicode, Inc.
+
+NOTICE TO USER: Carefully read the following legal agreement. BY
+DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING DATA FILES, AND/OR
+SOFTWARE, YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
+TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT
+DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE THE DATA FILES OR SOFTWARE.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of data files and any associated documentation (the &quot;Data Files&quot;) or
+software and any associated documentation (the &quot;Software&quot;) to deal in the
+Data Files or Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, and/or sell
+copies of the Data Files or Software, and to permit persons to whom the
+Data Files or Software are furnished to do so, provided that either (a)
+this copyright and permission notice appear with all copies of the Data
+Files or Software, or (b) this copyright and permission notice appear in
+associated Documentation.
+
+THE DATA FILES AND SOFTWARE ARE PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF
+THIRD PARTY RIGHTS.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE
+BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA
+FILES OR SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall
+not be used in advertising or otherwise to promote the sale, use or other
+dealings in these Data Files or Software without prior written
+authorization of the copyright holder.
+
+
+</pre>
+        </li>
+        <li class="license">
+<h3 id="Unicode-3.0">Unicode License v3</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_collections 2.4.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_locale_core 2.4.0</a></li>
             <li><a href=" https://github.com/unicode-org/icu4x ">icu_normalizer 2.4.0</a></li>
@@ -6109,7 +6159,7 @@ freely, subject to the following restrictions:
 <h3 id="bzip2-1.0.6">bzip2 and libbzip2 License v1.0.6</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/libbzip2-rs ">libbz2-rs-sys 0.2.5</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/libbzip2-rs ">libbz2-rs-sys 0.2.6</a></li>
           </ul>
 <pre class="license-text">
 
