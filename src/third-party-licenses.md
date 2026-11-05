@@ -976,7 +976,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/hyperium/mime ">mime 0.3.17</a></li>
+            <li><a href=" https://github.com/hyperium/mime ">mime 0.3.18</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 Sean McArthur
@@ -3396,7 +3396,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.3.0</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.4.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
