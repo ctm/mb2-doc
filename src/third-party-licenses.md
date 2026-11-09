@@ -3261,7 +3261,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.7</a></li>
             <li><a href=" https://github.com/dtolnay/dtoa ">dtoa 1.0.11</a></li>
             <li><a href=" https://github.com/smol-rs/fastrand ">fastrand 2.5.0</a></li>
-            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.18</a></li>
+            <li><a href=" https://github.com/dtolnay/itoa ">itoa 1.0.19</a></li>
             <li><a href=" https://github.com/rust-lang-nursery/lazy-static.rs ">lazy_static 1.5.1</a></li>
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.4</a></li>
             <li><a href=" https://github.com/as1100k/pastey ">pastey 0.1.1</a></li>
@@ -3282,7 +3282,7 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/dtolnay/syn ">syn 0.15.44</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 1.0.109</a></li>
             <li><a href=" https://github.com/dtolnay/syn ">syn 2.0.119</a></li>
-            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.9</a></li>
+            <li><a href=" https://github.com/dtolnay/syn ">syn 3.0.10</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 1.0.69</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror-impl 2.0.21</a></li>
             <li><a href=" https://github.com/dtolnay/thiserror ">thiserror 1.0.69</a></li>
@@ -3434,7 +3434,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.4.2</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.5.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
