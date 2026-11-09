@@ -48,11 +48,11 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (217)</li>
+        <li><a href="#MIT">MIT License</a> (219)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (21)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
-        <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (2)</li>
+        <li><a href="#CC0-1.0">Creative Commons Zero v1.0 Universal</a> (3)</li>
         <li><a href="#BSD-2-Clause">BSD 2-Clause &quot;Simplified&quot; License</a> (1)</li>
         <li><a href="#Zlib">zlib License</a> (1)</li>
         <li><a href="#bzip2-1.0.6">bzip2 and libbzip2 License v1.0.6</a> (1)</li>
@@ -722,6 +722,7 @@ this CC0 or use of the Work.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.4.2</a></li>
+            <li><a href=" https://codeberg.org/cesarb/constant_time_eq ">constant_time_eq 0.6.1</a></li>
           </ul>
 <pre class="license-text">
 Creative Commons Legal Code
@@ -1222,7 +1223,7 @@ THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/rayon-rs/either ">either 1.19.0</a></li>
             <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.10.5</a></li>
-            <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.14.0</a></li>
+            <li><a href=" https://github.com/rust-itertools/itertools ">itertools 0.15.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2015
@@ -1852,7 +1853,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.16.4</a></li>
+            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.16.5</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 The Servo Project Developers
@@ -2071,6 +2072,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/RustCrypto/sponges ">keccak 0.2.2</a></li>
+            <li><a href=" https://github.com/RustCrypto/utils ">zeroize 1.9.1</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018-2026 The RustCrypto Project Developers
@@ -2290,6 +2292,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/RustCrypto/stream-ciphers ">chacha20 0.10.2</a></li>
+            <li><a href=" https://github.com/RustCrypto/utils ">zeroize_derive 1.5.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2019-2026 The RustCrypto Project Developers
@@ -2361,7 +2364,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/hashes ">sha3 0.11.0</a></li>
+            <li><a href=" https://github.com/RustCrypto/hashes ">sha3 0.12.0</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2020-2026 The RustCrypto Project Developers
@@ -2477,6 +2480,42 @@ DEALINGS IN THE SOFTWARE.
           </ul>
 <pre class="license-text">
 Copyright (c) 2024 Leo Gaspard
+
+Permission is hereby granted, free of charge, to any
+person obtaining a copy of this software and associated
+documentation files (the &quot;Software&quot;), to deal in the
+Software without restriction, including without
+limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice
+shall be included in all copies or substantial portions
+of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+
+</pre>
+        </li>
+        <li class="license">
+<h3 id="MIT">MIT License</h3>
+<h4>Used by:</h4>
+          <ul class="license-used-by">
+            <li><a href=" https://github.com/RustCrypto/utils ">sponge-cursor 0.1.0</a></li>
+          </ul>
+<pre class="license-text">
+Copyright (c) 2026 The RustCrypto Project Developers
 
 Permission is hereby granted, free of charge, to any
 person obtaining a copy of this software and associated
@@ -3032,7 +3071,6 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.15.0</a></li>
             <li><a href=" https://github.com/momiji-rs/sasso ">sasso 0.21.0</a></li>
           </ul>
 <pre class="license-text">
@@ -3067,7 +3105,7 @@ SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/oconnor663/blake2_simd ">blake2b_simd 1.0.5</a></li>
             <li><a href=" https://gitlab.com/jrobsonchase/newtype ">derive-newtype 0.2.3</a></li>
-            <li><a href=" https://github.com/erwanvivien/fast_qr/ ">fast_qr 0.13.1</a></li>
+            <li><a href=" https://github.com/erwanvivien/fast_qr/ ">fast_qr 0.14.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/dialogs ">gloo-dialogs 0.2.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.2.0</a></li>
@@ -3396,7 +3434,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.4.1</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.4.2</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -3533,11 +3571,11 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.2</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.39</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.4</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.41</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 0.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.9</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.39</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.41</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
