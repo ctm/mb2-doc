@@ -2328,7 +2328,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/formats ">const-oid 0.10.2</a></li>
+            <li><a href=" https://github.com/RustCrypto/formats ">const-oid 0.10.3</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2020-2026 The RustCrypto Project Developers
@@ -2878,7 +2878,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.4</a></li>
+            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.5</a></li>
           </ul>
 <pre class="license-text">
 MIT License
