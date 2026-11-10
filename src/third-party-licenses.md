@@ -3572,10 +3572,10 @@ THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.4</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.41</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.42</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 0.1.3</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.9</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.41</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.42</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
