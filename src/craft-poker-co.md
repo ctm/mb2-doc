@@ -7,7 +7,7 @@ C Corporation.
 
 There are 15,750 shares of common stock. All are owned by Clifford Matthews.
 
-There are 2,630 shares of Series A Preferred Stock:
+There are 2,640 shares of Series A Preferred Stock:
 
 |Shares|Shareholder|
 |--:|--|
@@ -18,8 +18,9 @@ There are 2,630 shares of Series A Preferred Stock:
 |200|Anonymous BARGEr #2|
 |40|Anonymous BARGEr #3|
 |100|Anonymous BARGEr #4|
+|10|Anonymous Friend (non-BARGEr)|
 
-An additional 1,420 shares of Series A Preferred Stock have been authorized
+An additional 1,410 shares of Series A Preferred Stock have been authorized
 to be sold to accredited investors and through the Title3Funds Equity
 Crowdfunding Portal.
 
@@ -36,12 +37,12 @@ the sale price is itself ten million dollars or more.
 |||
 |--|--:|
 |Authorized Series A Preferred|4,050|
-|Outstanding Series A Preferred Shares|2,630|
-|Available Series A Preferred for Sale|1,420|
+|Outstanding Series A Preferred Shares|2,640|
+|Available Series A Preferred for Sale|1,410|
 |Minimum Series A Preferred Sale|100|
 |||
 |Outstanding Common Shares|15,750|
-|Post Conversion Minimum Shares|18,480|
+|Post Conversion Minimum Shares|18,490|
 |Post Conversion Maximum Shares|19,800
 
 With a sale price of $175 per Series A Preferred Share, the following
@@ -51,8 +52,8 @@ are amounts are restatements of the above information.
 |--|--:|
 |Price per Series A Preferred Share|$175|
 |Pre-Overhead Min Raise|$17,500|
-|Pre-Overhead Full Raise|$248,500|
-|Minimum Break-Even|$920,500|
+|Pre-Overhead Full Raise|$246,750|
+|Minimum Break-Even|$924,000|
 |Full Raise Break-Even|$1,417,500|
 |||
 |Minimum pre-investment||
@@ -77,7 +78,7 @@ half of the proceeds and the other half is split amongst the Series A
 Preferred Shareholders. The liquidity preference, along with many other
 terms are provided in the [Series A Preferred Stock Purchase Agreement](craft-poker-co/series-a-preferred-stock-purchase-agreement.pdf).
 
-[^2]: The figure here assumes all 1,420 Series A Preferred Shares have
-been sold. Were CPC to be sold with fewer than 1,420 Series A
+[^2]: The figure here assumes all 1,410 Series A Preferred Shares have
+been sold. Were CPC to be sold with fewer than 1,410 Series A
 Preferred Shares sold, the value per share of the shares that _were_
 sold would be higher.
