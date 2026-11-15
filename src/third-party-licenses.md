@@ -2181,7 +2181,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/fitzgen/bumpalo ">bumpalo 3.20.3</a></li>
+            <li><a href=" https://github.com/fitzgen/bumpalo ">bumpalo 3.20.4</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2019 Nick Fitzgerald
@@ -2668,7 +2668,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-random/rand ">rand 0.10.3</a></li>
+            <li><a href=" https://github.com/rust-random/rand ">rand 0.10.4</a></li>
             <li><a href=" https://github.com/rust-random/rand ">rand 0.8.8</a></li>
             <li><a href=" https://github.com/rust-random/rand ">rand_core 0.6.4</a></li>
           </ul>
@@ -3109,19 +3109,19 @@ SOFTWARE.
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/console ">gloo-console 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/dialogs ">gloo-dialogs 0.2.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.2.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.3.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/events ">gloo-events 0.3.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/file ">gloo-file 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/history ">gloo-history 0.2.2</a></li>
             <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.5.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.7.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.8.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.2.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.3.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.3.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.3.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.4.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.4.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/timers ">gloo-timers 0.3.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/timers ">gloo-timers 0.4.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/timers ">gloo-timers 0.4.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/utils ">gloo-utils 0.2.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/utils ">gloo-utils 0.3.0</a></li>
+            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/utils ">gloo-utils 0.3.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker-macros 0.1.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/worker ">gloo-worker 0.5.0</a></li>
             <li><a href=" https://github.com/yewstack/implicit-clone ">implicit-clone-derive 0.1.2</a></li>
@@ -3434,7 +3434,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.5.1</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.6.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -3571,11 +3571,11 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.5</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.43</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.7</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.45</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 0.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.9</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.43</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.10</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.45</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
