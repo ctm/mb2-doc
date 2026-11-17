@@ -2072,7 +2072,7 @@ DEALINGS IN THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/RustCrypto/sponges ">keccak 0.2.2</a></li>
-            <li><a href=" https://github.com/RustCrypto/utils ">zeroize 1.9.1</a></li>
+            <li><a href=" https://github.com/RustCrypto/utils ">zeroize 1.9.2</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018-2026 The RustCrypto Project Developers
@@ -3434,7 +3434,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.6.0</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.6.1</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -3571,11 +3571,11 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 0.1.8</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 0.2.46</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 0.1.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 0.1.10</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 0.2.46</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 1.0.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 1.0.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 1.0.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 1.0.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 1.0.0</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
           </ul>
