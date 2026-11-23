@@ -854,7 +854,7 @@ express Statement of Purpose.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/servo/rust-url ">form_urlencoded 1.2.2</a></li>
+            <li><a href=" https://github.com/servo/rust-url ">form_urlencoded 1.2.3</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2013-2016 The rust-url developers
@@ -892,7 +892,7 @@ DEALINGS IN THE SOFTWARE.
           <ul class="license-used-by">
             <li><a href=" https://github.com/servo/rust-url/ ">idna 1.1.0</a></li>
             <li><a href=" https://github.com/servo/rust-url/ ">percent-encoding 2.3.2</a></li>
-            <li><a href=" https://github.com/servo/rust-url ">url 2.5.8</a></li>
+            <li><a href=" https://github.com/servo/rust-url ">url 2.5.9</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2013-2025 The rust-url developers
@@ -1013,9 +1013,9 @@ THE SOFTWARE.
             <li><a href=" https://github.com/rust-num/num-integer ">num-integer 0.1.47</a></li>
             <li><a href=" https://github.com/rust-num/num-rational ">num-rational 0.4.2</a></li>
             <li><a href=" https://github.com/rust-num/num-traits ">num-traits 0.2.19</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.18</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.11</a></li>
-            <li><a href=" https://github.com/rust-lang/regex ">regex 1.13.1</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-automata 0.4.19</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex-syntax 0.8.12</a></li>
+            <li><a href=" https://github.com/rust-lang/regex ">regex 1.13.2</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2014 The Rust Project Developers
@@ -1344,7 +1344,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.17.1</a></li>
+            <li><a href=" https://github.com/rust-lang/hashbrown ">hashbrown 0.17.2</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016 Amanieu d&#x27;Antras
@@ -1745,7 +1745,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.12.1</a></li>
+            <li><a href=" https://github.com/tokio-rs/bytes ">bytes 1.12.2</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 Carl Lerche
@@ -1853,7 +1853,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/servo/rust-smallvec ">smallvec 1.16.5</a></li>
+            <li><a href=" https://github.com/smallvec/smallvec ">smallvec 1.16.6</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 The Servo Project Developers
@@ -2707,7 +2707,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.63</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.64</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -3257,7 +3257,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.104</a></li>
+            <li><a href=" https://github.com/dtolnay/anyhow ">anyhow 1.0.105</a></li>
             <li><a href=" https://github.com/yaahc/displaydoc ">displaydoc 0.2.7</a></li>
             <li><a href=" https://github.com/dtolnay/dtoa ">dtoa 1.0.11</a></li>
             <li><a href=" https://github.com/smol-rs/fastrand ">fastrand 2.5.0</a></li>
@@ -3266,9 +3266,9 @@ DEALINGS IN THE SOFTWARE.
             <li><a href=" https://github.com/matklad/once_cell ">once_cell 1.21.4</a></li>
             <li><a href=" https://github.com/as1100k/pastey ">pastey 0.1.1</a></li>
             <li><a href=" https://github.com/Manishearth/pathdiff ">pathdiff 0.2.3</a></li>
-            <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.1.13</a></li>
-            <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.17</a></li>
-            <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.1.13</a></li>
+            <li><a href=" https://github.com/taiki-e/pin-project ">pin-project-internal 1.2.0</a></li>
+            <li><a href=" https://github.com/taiki-e/pin-project-lite ">pin-project-lite 0.2.18</a></li>
+            <li><a href=" https://github.com/taiki-e/pin-project ">pin-project 1.2.0</a></li>
             <li><a href=" https://github.com/dtolnay/prettyplease ">prettyplease 0.2.37</a></li>
             <li><a href=" https://github.com/bkchr/proc-macro-crate ">proc-macro-crate 1.3.1</a></li>
             <li><a href=" https://github.com/dtolnay/proc-macro2 ">proc-macro2 1.0.107</a></li>
@@ -3434,7 +3434,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.6.1</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.8.2</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -3571,13 +3571,13 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 1.0.0</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 1.0.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 1.0.1</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 1.0.2</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 1.0.0</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 1.0.0</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 1.0.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 1.0.2</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
-            <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.0</a></li>
+            <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.1</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
@@ -6197,7 +6197,7 @@ freely, subject to the following restrictions:
 <h3 id="bzip2-1.0.6">bzip2 and libbzip2 License v1.0.6</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/libbzip2-rs ">libbz2-rs-sys 0.2.6</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/libbzip2-rs ">libbz2-rs-sys 0.2.7</a></li>
           </ul>
 <pre class="license-text">
 
