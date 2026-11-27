@@ -48,7 +48,7 @@
       
 <h2>Overview of licenses:</h2>
       <ul class="licenses-overview">
-        <li><a href="#MIT">MIT License</a> (219)</li>
+        <li><a href="#MIT">MIT License</a> (218)</li>
         <li><a href="#Unicode-3.0">Unicode License v3</a> (21)</li>
         <li><a href="#MPL-2.0">Mozilla Public License 2.0</a> (7)</li>
         <li><a href="#Apache-2.0">Apache License 2.0</a> (3)</li>
@@ -722,7 +722,7 @@ this CC0 or use of the Work.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/cesarb/constant_time_eq ">constant_time_eq 0.4.2</a></li>
-            <li><a href=" https://codeberg.org/cesarb/constant_time_eq ">constant_time_eq 0.6.1</a></li>
+            <li><a href=" https://codeberg.org/cesarb/constant_time_eq ">constant_time_eq 0.6.2</a></li>
           </ul>
 <pre class="license-text">
 Creative Commons Legal Code
@@ -1561,7 +1561,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/RustCrypto/hashes ">sha2 0.11.1</a></li>
+            <li><a href=" https://github.com/RustCrypto/hashes ">sha2 0.11.2</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2016-2026 The RustCrypto Project Developers
@@ -1889,7 +1889,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tkaitchuck/ahash ">ahash 0.8.12</a></li>
+            <li><a href=" https://github.com/tkaitchuck/ahash ">ahash 0.8.14</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 Tom Kaitchuck
@@ -2707,7 +2707,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.64</a></li>
+            <li><a href=" https://github.com/google/zerocopy ">zerocopy 0.8.66</a></li>
           </ul>
 <pre class="license-text">
 Copyright 2023 The Fuchsia Authors
@@ -2878,7 +2878,7 @@ SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.5</a></li>
+            <li><a href=" https://github.com/srijs/rust-crc32fast ">crc32fast 1.5.6</a></li>
           </ul>
 <pre class="license-text">
 MIT License
@@ -3115,7 +3115,6 @@ SOFTWARE.
             <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.5.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo ">gloo-net 0.8.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.2.0</a></li>
-            <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-render 0.3.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.3.0</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/storage ">gloo-storage 0.4.1</a></li>
             <li><a href=" https://github.com/rustwasm/gloo/tree/master/crates/timers ">gloo-timers 0.3.0</a></li>
@@ -3571,11 +3570,11 @@ THE SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/BurntSushi/aho-corasick ">aho-corasick 1.1.5</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 1.0.1</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 1.0.2</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-core 1.0.2</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff-static 1.0.3</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb-platform 1.0.0</a></li>
             <li><a href=" https://github.com/BurntSushi/jiff ">jiff-tzdb 1.0.0</a></li>
-            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 1.0.2</a></li>
+            <li><a href=" https://github.com/BurntSushi/jiff ">jiff 1.0.3</a></li>
             <li><a href=" https://github.com/BurntSushi/memchr ">memchr 2.8.3</a></li>
             <li><a href=" https://github.com/BurntSushi/walkdir ">walkdir 2.5.1</a></li>
           </ul>
@@ -6167,7 +6166,7 @@ ICU 1.8.1 to ICU 57.1 © 1995-2016 International Business Machines Corporation a
 <h3 id="Zlib">zlib License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.8</a></li>
+            <li><a href=" https://github.com/trifectatechfoundation/zlib-rs ">zlib-rs 0.6.9</a></li>
           </ul>
 <pre class="license-text">
 (C) 2024 Trifecta Tech Foundation 
