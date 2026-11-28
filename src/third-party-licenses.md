@@ -1889,7 +1889,7 @@ DEALINGS IN THE SOFTWARE.
 <h3 id="MIT">MIT License</h3>
 <h4>Used by:</h4>
           <ul class="license-used-by">
-            <li><a href=" https://github.com/tkaitchuck/ahash ">ahash 0.8.14</a></li>
+            <li><a href=" https://github.com/tkaitchuck/ahash ">ahash 0.8.15</a></li>
           </ul>
 <pre class="license-text">
 Copyright (c) 2018 Tom Kaitchuck
@@ -3434,7 +3434,7 @@ SOFTWARE.
 <h4>Used by:</h4>
           <ul class="license-used-by">
             <li><a href=" https://github.com/tokio-rs/tracing ">tracing-core 0.1.36</a></li>
-            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.8.2</a></li>
+            <li><a href=" https://github.com/zip-rs/zip2 ">zip 9.9.0</a></li>
           </ul>
 <pre class="license-text">
 The MIT License (MIT)
